@@ -1,0 +1,52 @@
+[
+ {
+  "tupuna_id": "T001",
+  "name": "Example tupuna (replace me)",
+  "other_names": "",
+  "born": "c. 1840",
+  "died": "1912",
+  "birthplace": "Whangaruru",
+  "mother": "",
+  "father": "",
+  "notes": "This row is a placeholder showing the format. Delete it once you add real tupuna.",
+  "source": "Whānau records",
+  "links": [
+   {
+    "link_id": "L001",
+    "tupuna_id": "T001",
+    "location_type": "Marae",
+    "location_ref": "Ngātiwai",
+    "location_detail": "1561 Rawhiti Road, Ngāiotonga",
+    "latitude": "",
+    "longitude": "",
+    "relationship": "Affiliated",
+    "notes": "Placeholder example",
+    "source": "Whānau records"
+   },
+   {
+    "link_id": "L002",
+    "tupuna_id": "T001",
+    "location_type": "Hapū",
+    "location_ref": "Te Uri o Hikihiki",
+    "location_detail": "",
+    "latitude": "",
+    "longitude": "",
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   },
+   {
+    "link_id": "L003",
+    "tupuna_id": "T001",
+    "location_type": "Place",
+    "location_ref": "Whangaruru urupā (example)",
+    "location_detail": "",
+    "latitude": -35.35,
+    "longitude": 174.35,
+    "relationship": "Buried",
+    "notes": "Custom place: give latitude/longitude",
+    "source": ""
+   }
+  ]
+ }
+]

@@ -134,3 +134,32 @@ GROUP BY m.marae_id;
 -- SELECT json_build_object('type','FeatureCollection','features',
 --   json_agg(json_build_object('type','Feature','geometry',ST_AsGeoJSON(geom)::json,
 --   'properties', to_jsonb(v) - 'geom'))) FROM v_marae_map v WHERE geom IS NOT NULL;
+
+-- ---------------- Whakapapa layer ----------------
+CREATE TABLE tupuna (
+  tupuna_id   TEXT PRIMARY KEY,           -- T001..
+  name        TEXT NOT NULL,
+  other_names TEXT,
+  born        TEXT,                       -- free text, may be approximate
+  died        TEXT,
+  birthplace  TEXT,
+  mother      TEXT,                       -- name or tupuna_id
+  father      TEXT,
+  notes       TEXT,
+  source      TEXT
+);
+
+CREATE TABLE tupuna_location (            -- a tupuna can point at many locations of interest
+  link_id         TEXT PRIMARY KEY,
+  tupuna_id       TEXT NOT NULL REFERENCES tupuna(tupuna_id),
+  location_type   TEXT CHECK (location_type IN ('Marae','Hapū','Iwi','Place')),
+  location_ref    TEXT NOT NULL,          -- marae/hapū/iwi name, or a label for a Place
+  location_detail TEXT,                   -- marae Location text (disambiguation) or block/kāinga detail
+  latitude        DOUBLE PRECISION,       -- Place only
+  longitude       DOUBLE PRECISION,
+  geom            GEOMETRY(POINT, 4326),
+  relationship    TEXT CHECK (relationship IN ('Born','Lived','Died','Buried','Affiliated','Land interest','Other')),
+  notes           TEXT,
+  source          TEXT
+);
+-- Later: Pātaka Whenua blocks (polygon) + block_owner(tupuna_id, block_id, share) join here.

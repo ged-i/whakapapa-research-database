@@ -50,3 +50,17 @@ for r in rows("Iwi"):
 (out / "iwi.json").write_text(json.dumps(iwi, ensure_ascii=False, indent=1), encoding="utf-8")
 (out / "regions.json").write_text(json.dumps(regions, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"wrote {len(iwi)} iwi, {len(regions)} regions, {sum(len(i['orgs']) for i in iwi)} orgs -> {out}/")
+
+# ---- whakapapa layer ----
+tup = {}
+if "Tupuna" in wb.sheetnames:
+    for t in rows("Tupuna"):
+        t = {k: ("" if v is None else v) for k, v in t.items()}
+        t["links"] = []; tup[t["tupuna_id"]] = t
+    if "Tupuna_Location" in wb.sheetnames:
+        for l in rows("Tupuna_Location"):
+            l = {k: ("" if v is None else v) for k, v in l.items()}
+            if l["tupuna_id"] in tup:
+                tup[l["tupuna_id"]]["links"].append(l)
+(out / "tupuna.json").write_text(json.dumps(list(tup.values()), ensure_ascii=False, indent=1), encoding="utf-8")
+print(f"wrote {len(tup)} tupuna")

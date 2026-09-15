@@ -46,3 +46,16 @@ from the `docs/` folder.
 
 `docs/data/*.json` is generated from the spreadsheet by `gen_data.py` — re-run it and commit
 after updating the workbook (for example after running the scraper) and the map updates itself.
+
+## Whakapapa layer (tupuna)
+
+The map's **Tupuna** tab holds a profile card per ancestor, each linked to any number of
+locations of interest — a marae, a hapū, an iwi, or a place picked on the map (kāinga, urupā,
+land block). Selecting a tupuna highlights their marae, drops pins for their places and shades
+their iwi rohe; a marae's card lists the tupuna connected to it, with a one-click link.
+
+Entries are saved in the browser. **Export JSON** gives a file you can commit as
+`docs/data/tupuna.json` (the shared baseline), and **Export CSV** produces `Tupuna.csv` and
+`Tupuna_Location.csv` in exactly the columns of the two matching sheets in the workbook, so the
+spreadsheet remains the master record. Pātaka Whenua block boundaries and owner lists are the
+planned next layer (see `tkm_schema.sql`).
