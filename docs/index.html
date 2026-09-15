@@ -71,6 +71,8 @@ a:hover{color:var(--bone)}
 .kv dd{margin:0}
 .section{border-top:1px solid var(--ink-3);padding-top:14px;margin-top:14px}
 .section h3{margin:0 0 8px;font-size:13px;font-weight:600;color:var(--mist)}
+.pill.link{border:0;cursor:pointer;font:inherit;font-size:12px}
+.pill.link:hover{background:var(--pounamu)}
 .pill{display:inline-block;padding:2px 9px;border-radius:999px;background:var(--ink-3);color:var(--bone);font-size:12px;margin:0 6px 6px 0}
 .iwi-row{margin:0 0 12px}
 .iwi-row .iname{font-family:var(--serif);font-size:18px;font-weight:600}
@@ -388,7 +390,7 @@ function showDetail(f){
       ${p.TPK_Region?`<dt>TPK region</dt><dd>${esc(p.TPK_Region)}</dd>`:''}
       <dt>Position</dt><dd>${f.lat.toFixed(5)}, ${f.lng.toFixed(5)} · <a href="https://www.google.com/maps?q=${f.lat},${f.lng}" target="_blank" rel="noopener">open in Google Maps</a></dd>
     </dl>
-    <div class="section"><h3>Hapū</h3>${f.hapu.length?f.hapu.map(h=>`<span class="pill">${esc(h)}</span>`).join(''):'<span style="color:var(--mist)">Not recorded</span>'}</div>
+    <div class="section"><h3>Hapū</h3>${f.hapu.length?f.hapu.map(h=>`<button class="pill link" title="Show all marae of ${esc(h)}" onclick="filterHapu('${esc(h).replace(/'/g,"\\'")}')">${esc(h)}</button>`).join(''):'<span style="color:var(--mist)">Not recorded</span>'}</div>
     <div class="section"><h3>Iwi and representative organisations</h3>${iwiHtml}
       <label class="rohe-toggle"><input type="checkbox" id="roheChk" ${roheOn?'checked':''}> Show this iwi's area of interest on the map</label></div>
     <div class="section"><h3>Tupuna connected to this marae</h3><div class="tupuna-here" id="tupunaHere"></div></div>
@@ -451,6 +453,7 @@ function renderSummary(iwi,hapu){
   }
 }
 window.setFilter=function(id,val){ const el=document.getElementById(id); if(id==='fHapu'){ document.getElementById('fIwi').value=''; } el.value=(el.value===val&&id==='fIwi')?'':val; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
+window.filterHapu=function(h){ closeDetail(); document.getElementById('q').value=''; document.getElementById('fIwi').value=''; document.getElementById('fHapu').value=h; roheLayer.clearLayers(); render(); document.getElementById('summary').scrollIntoView({block:'nearest'}); };
 window.clearFilter=function(id){ document.getElementById(id).value=''; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
 
 // ================= whakapapa layer =================
