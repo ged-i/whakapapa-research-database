@@ -35,6 +35,15 @@ a:hover{color:var(--bone)}
 .search input::placeholder{color:var(--muted)}
 .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--mist);stroke-width:2}
 .filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 22px 12px}
+.filters .wide{grid-column:1/-1}
+.summary{margin:0 22px 12px;padding:10px 12px;border-radius:10px;background:var(--ink-2);border-left:3px solid var(--kowhai);font-size:13px}
+.summary strong{font-family:var(--serif);font-size:16px;font-weight:600;display:block;margin-bottom:2px}
+.summary .chips{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px}
+.summary .chip{background:var(--ink-3);color:var(--bone);border:0;border-radius:999px;padding:2px 10px;font-size:12px;cursor:pointer}
+.summary .chip:hover{background:var(--pounamu)}
+.summary .chip.on{background:var(--pounamu)}
+.summary .chip.plain{cursor:default}.summary .chip.plain:hover{background:var(--ink-3)}
+.summary .clear{background:none;border:0;color:var(--mist);cursor:pointer;padding:0;float:right;font-size:12px;text-decoration:underline;text-underline-offset:3px}
 .filters select{width:100%;padding:8px 10px;border-radius:8px;border:1px solid var(--ink-3);background:var(--ink-2);color:var(--bone);appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mist) 50%),linear-gradient(135deg,var(--mist) 50%,transparent 50%);background-position:calc(100% - 16px) 15px,calc(100% - 11px) 15px;background-size:5px 5px;background-repeat:no-repeat;padding-right:28px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .status{display:flex;justify-content:space-between;align-items:center;padding:0 22px 8px;color:var(--mist);font-size:13px;border-bottom:1px solid var(--ink-3)}
 .status .link{background:none;border:0;color:var(--pounamu-soft);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
@@ -175,9 +184,11 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     <input id="q" type="search" placeholder="Search marae, wharenui, hapū, iwi or place" autocomplete="off" aria-label="Search">
   </div>
   <div class="filters">
-    <select id="fRegion" aria-label="Filter by region"><option value="">All regions</option></select>
+    <select id="fRegion" aria-label="Filter by region" class="wide"><option value="">All regions</option></select>
     <select id="fIwi" aria-label="Filter by iwi"><option value="">All iwi</option></select>
+    <select id="fHapu" aria-label="Filter by hapū"><option value="">All hapū</option></select>
   </div>
+  <div id="summary" class="summary" hidden></div>
   <div class="status">
     <span id="count">Loading marae…</span>
     <button id="csv" class="link" disabled>Download list as CSV</button>
@@ -303,14 +314,17 @@ function buildFilters(){
   const fr=document.getElementById('fRegion'); regs.forEach(r=>fr.append(new Option(r,r)));
   const iwis=[...new Set(features.flatMap(f=>f.iwiNames))].sort((a,b)=>a.localeCompare(b));
   const fi=document.getElementById('fIwi'); iwis.forEach(i=>fi.append(new Option(i,i)));
-  ['q','fRegion','fIwi'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+  const hapus=[...new Set(features.flatMap(f=>f.hapu))].sort((a,b)=>a.localeCompare(b));
+  const fh=document.getElementById('fHapu'); hapus.forEach(h=>fh.append(new Option(h,h)));
+  ['q','fRegion','fIwi','fHapu'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); }));
   document.getElementById('csv').onclick = downloadCsv;
 }
 
 // ---------- rendering ----------
 function render(){
-  const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value;
-  filtered = features.filter(f => (!q||f.hay.includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)));
+  const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value, hapu=document.getElementById('fHapu').value;
+  filtered = features.filter(f => (!q||f.hay.includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)) && (!hapu||f.hapu.includes(hapu)));
+  renderSummary(iwi,hapu);
   filtered.sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
   // markers
   cluster.clearLayers(); markersById.clear();
@@ -416,6 +430,28 @@ function downloadCsv(){
   const blob=new Blob(['\ufeff'+rows.join('\n')],{type:'text/csv;charset=utf-8'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='marae.csv'; a.click(); URL.revokeObjectURL(a.href);
 }
+
+// ---------- hapū / iwi spread summary ----------
+function counts(arr){ const m=new Map(); arr.forEach(x=>m.set(x,(m.get(x)||0)+1)); return [...m].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])); }
+function renderSummary(iwi,hapu){
+  const box=document.getElementById('summary');
+  if(!hapu && !iwi){ box.hidden=true; box.innerHTML=''; return; }
+  box.hidden=false;
+  if(hapu){
+    const iwiC=counts(filtered.flatMap(f=>f.iwiNames)); const regC=counts(filtered.map(f=>f.p.TPK_Region).filter(Boolean));
+    box.innerHTML=`<button class="clear" onclick="clearFilter('fHapu')">clear hapū</button><strong>${esc(hapu)}</strong>
+      ${filtered.length} marae${iwi?` under ${esc(iwi)}`:''}, across ${iwiC.length} iwi${regC.length>1?` and ${regC.length} regions`:''}.
+      <div class="chips">${iwiC.map(([n,c])=>`<button class="chip ${n===iwi?'on':''}" onclick="setFilter('fIwi','${esc(n).replace(/'/g,"\\'")}')" title="Show only this iwi">${esc(n)} · ${c}</button>`).join('')}</div>`;
+    if(!selected&&!selectedTupuna) drawRoheByNames(iwiC.map(x=>x[0]), false);
+  } else {
+    const hapC=counts(filtered.flatMap(f=>f.hapu));
+    box.innerHTML=`<button class="clear" onclick="clearFilter('fIwi')">clear iwi</button><strong>${esc(iwi)}</strong>${filtered.length} marae, ${hapC.length} hapū named.
+      <div class="chips">${hapC.slice(0,60).map(([n,c])=>`<button class="chip" onclick="setFilter('fHapu','${esc(n).replace(/'/g,"\\'")}')" title="Show this hapū across all iwi">${esc(n)} · ${c}</button>`).join('')}${hapC.length>60?`<span class="chip plain">+${hapC.length-60} more</span>`:''}</div>`;
+    if(!selected&&!selectedTupuna) drawRoheByNames([iwi], false);
+  }
+}
+window.setFilter=function(id,val){ const el=document.getElementById(id); if(id==='fHapu'){ document.getElementById('fIwi').value=''; } el.value=(el.value===val&&id==='fIwi')?'':val; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
+window.clearFilter=function(id){ document.getElementById(id).value=''; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
 
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
