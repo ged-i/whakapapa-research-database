@@ -220,6 +220,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     <select id="fRegion" aria-label="Filter by region" class="wide"><option value="">All regions</option></select>
     <select id="fIwi" aria-label="Filter by iwi"><option value="">All iwi</option></select>
     <select id="fHapu" aria-label="Filter by hapū"><option value="">All hapū</option></select>
+    <select id="fWaka" aria-label="Filter by waka" class="wide"><option value="">All waka</option></select>
   </div>
   <div id="summary" class="summary" hidden></div>
   <div class="status">
@@ -366,16 +367,17 @@ function buildFilters(){
   const fi=document.getElementById('fIwi'); iwis.forEach(i=>fi.append(new Option(i,i)));
   const hapus=[...new Set([...features.flatMap(f=>f.hapu), ...claims.filter(c=>c.relationship==='has_hapu').map(c=>c.object_ref)])].sort((a,b)=>a.localeCompare(b));
   const fh=document.getElementById('fHapu'); hapus.forEach(h=>fh.append(new Option(h,h)));
-  ['q','fRegion','fIwi','fHapu'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); }));
+  rebuildWaka();
+  ['q','fRegion','fIwi','fHapu','fWaka'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); }));
   document.getElementById('csv').onclick = downloadCsv;
 }
 
 // ---------- rendering ----------
 function render(){
-  const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value, hapu=document.getElementById('fHapu').value;
-  filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)||claimsFor(f,'belongs_to_iwi').some(c=>c.object_ref===iwi)) && (!hapu||f.hapu.includes(hapu)||claimsFor(f,'has_hapu').some(c=>norm(c.object_ref)===norm(hapu))));
-  drawClaimRings();
+  const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value, hapu=document.getElementById('fHapu').value, waka=document.getElementById('fWaka').value;
+  filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)||claimsFor(f,'belongs_to_iwi').some(c=>c.object_ref===iwi)) && (!hapu||f.hapu.includes(hapu)||claimsFor(f,'has_hapu').some(c=>norm(c.object_ref)===norm(hapu))) && (!waka||wakaOf(f).has(waka)));
   renderSummary(iwi,hapu);
+  drawClaimRings(); renderWakaSummary(waka, hapu||iwi);
   filtered.sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
   // markers
   cluster.clearLayers(); markersById.clear();
@@ -504,7 +506,14 @@ function renderSummary(iwi,hapu){
     if(!selected&&!selectedTupuna) drawRoheByNames([iwi], false);
   }
 }
-window.setFilter=function(id,val){ const el=document.getElementById(id); if(id==='fHapu'){ document.getElementById('fIwi').value=''; } el.value=(el.value===val&&id==='fIwi')?'':val; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
+function renderWakaSummary(waka, other){
+  const box=document.getElementById('summary'); if(!waka) return;
+  const direct=filtered.filter(f=>[...wakaOf(f).get(waka)||[]].some(x=>!x.includes('(via'))).length;
+  const srcs=new Set(); filtered.forEach(f=>(wakaOf(f).get(waka)||new Set()).forEach(x=>srcs.add(x)));
+  const html=`<button class="clear" onclick="clearFilter('fWaka')">clear waka</button><strong>${esc(waka)} waka</strong>${filtered.length} marae — ${direct} stated for the marae itself, ${filtered.length-direct} through their iwi. <div style="font-size:12px;color:var(--mist);margin-top:4px">According to: ${[...srcs].map(esc).join('; ')}</div>`;
+  if(other){ box.innerHTML+=`<div style="margin-top:8px;border-top:1px solid var(--ink-3);padding-top:8px">${html}</div>`; } else { box.hidden=false; box.innerHTML=html; }
+}
+window.setFilter=function(id,val){ const el=document.getElementById(id); if(id==='fHapu'){ document.getElementById('fIwi').value=''; } if(id==='fWaka'){ closeDetail(); } el.value=(el.value===val&&id==='fIwi')?'':val; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
 window.filterHapu=function(h){ map.closePopup(); closeDetail(); document.getElementById('q').value=''; document.getElementById('fIwi').value=''; document.getElementById('fHapu').value=h; roheLayer.clearLayers(); render(); document.getElementById('summary').scrollIntoView({block:'nearest'}); };
 window.clearFilter=function(id){ document.getElementById(id).value=''; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
 
@@ -516,6 +525,13 @@ function claimsFor(f, rel){ return claims.filter(c=>c.subject_type==='Marae'&&(!
 function claimHay(f){ return norm(claimsFor(f).map(c=>c.object_ref+' '+c.object_detail).join(' ')); }
 function hapuIwiTPK(h){ const k=norm(h); return new Set(features.filter(f=>f.hapu.some(x=>norm(x)===k)).flatMap(f=>f.iwiNames.map(norm))); }
 
+function wakaOf(f){ // {waka -> Set(source names)} from marae-level and iwi-level claims
+  const out=new Map(); const add=(w,S,via)=>{ if(!out.has(w)) out.set(w,new Set()); out.get(w).add(S.name+(via?` (via ${via})`:'')); };
+  claims.forEach(c=>{ if(c.relationship!=='has_waka'||!sourceOn[c.source_id]) return; const S=srcOf(c.source_id);
+    if(c.subject_type==='Marae'&&maraeFor(c.subject_ref,c.subject_detail)===f) add(c.object_ref,S,'');
+    else if(c.subject_type==='Iwi'&&f.matched.some(i=>norm(i.name)===norm(c.subject_ref)||norm(i.name).startsWith(norm(c.subject_ref)))) add(c.object_ref,S,c.subject_ref); });
+  return out; }
+function rebuildWaka(){ const fw=document.getElementById('fWaka'); const cur=fw.value; fw.innerHTML='<option value="">All waka</option>'; [...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().forEach(w=>fw.append(new Option(w,w))); fw.value=cur; }
 // rings around marae that other sources talk about
 function drawClaimRings(){
   claimLayer.clearLayers(); const bySrc=new Map();
@@ -555,7 +571,8 @@ function renderBySource(f){
   const host=document.getElementById('bySrc'); if(!host) return;
   const mine=claims.filter(c=>c.subject_type==='Marae'&&maraeFor(c.subject_ref,c.subject_detail)===f);
   const conf=conflicts().filter(x=>x.f===f);
-  const blocks=[`<div class="sblock" style="border-color:#b4432b"><div class="stitle">Te Puni Kōkiri / TKM <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">baseline</a></div><div class="cl"><span class="rel">hapū</span> ${esc(f.hapu.join(', ')||'—')}</div><div class="cl"><span class="rel">iwi</span> ${esc(f.iwiNames.join(', ')||'—')}</div></div>`];
+  const wk=wakaOf(f); const wakaLine = wk.size?`<div class="cl" style="margin:0 0 6px"><span class="rel">waka</span> ${[...wk].map(([w,ss])=>`<button class="pill link" onclick="setFilter('fWaka','${esc(w).replace(/'/g,"\\'")}')" title="${esc([...ss].join('; '))}">${esc(w)}</button>`).join('')}</div>`:'';
+  const blocks=[wakaLine,`<div class="sblock" style="border-color:#b4432b"><div class="stitle">Te Puni Kōkiri / TKM <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">baseline</a></div><div class="cl"><span class="rel">hapū</span> ${esc(f.hapu.join(', ')||'—')}</div><div class="cl"><span class="rel">iwi</span> ${esc(f.iwiNames.join(', ')||'—')}</div></div>`];
   const bySrc=new Map(); mine.forEach(c=>(bySrc.get(c.source_id)||bySrc.set(c.source_id,[]).get(c.source_id)).push(c));
   bySrc.forEach((cs,id)=>{ const S=srcOf(id); const hidden=!sourceOn[id];
     blocks.push(`<div class="sblock" style="border-color:${esc(S.colour)};${hidden?'opacity:.45':''}"><div class="stitle">${esc(S.name)}${cs[0].page_url?` <a href="${esc(cs[0].page_url)}" target="_blank" rel="noopener">cited page</a>`:''}</div>${cs.map(c=>{const isConf=conf.some(x=>x.claim===c); return `<div class="cl"><span class="rel">${esc(RELS[c.relationship]||c.relationship)}</span> ${esc(c.object_ref)}${c.object_detail?` <span class="rel">(${esc(c.object_detail)})</span>`:''}${isConf?'<span class="conf">differs from TPK</span>':''}<button class="x" title="Remove this claim" onclick="removeClaim('${esc(c.claim_id)}')">×</button>${c.note?`<div class="rel" style="font-size:12px">${esc(c.note)}</div>`:''}</div>`;}).join('')}</div>`); });
@@ -577,11 +594,11 @@ window.claimForm=function(fid){
 };
 window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
   claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
-  saveClaims(); document.getElementById('claimForm').innerHTML=''; renderBySource(f); drawClaimRings(); return false; };
+  saveClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); renderBySource(f); drawClaimRings(); return false; };
 window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
 window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
 window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_type','subject_ref','subject_detail','relationship','object_ref','object_detail','page_url','retrieved','confidence','note']; download('Claim.csv', csvRows(cols, claims.map(c=>cols.map(k=>c[k]))), 'text/csv'); };
-window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
+window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); rebuildWaka(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
 window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; render(); renderSources(); };
 
 // ================= whakapapa layer =================
