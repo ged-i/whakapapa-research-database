@@ -171,6 +171,8 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .leaflet-popup-content .phapu{margin-top:9px;padding-top:8px;border-top:1px solid #d9d5cb;display:flex;flex-wrap:wrap;gap:4px}
 .leaflet-popup-content .ppill{margin:0;background:#e6e3db;color:var(--ink);border:0;border-radius:999px;padding:2px 9px;font-size:12px;cursor:pointer}
 .leaflet-popup-content .ppill:hover{background:var(--pounamu);color:#fff}
+.leaflet-popup-content .pwaka{border-top:0;margin-top:6px;padding-top:0}
+.leaflet-popup-content .ppill.waka{background:#fff;border:2px solid;font-style:italic;font-family:var(--serif)}
 .marker-cluster{background:rgba(180,67,43,.35)}
 .marker-cluster div{background:var(--kokowai);color:#fff;font-weight:600;font-family:var(--sans)}
 .basemap{position:absolute;right:12px;top:12px;z-index:800;display:flex;background:var(--bone);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.2);overflow:hidden}
@@ -383,7 +385,7 @@ function render(){
   cluster.clearLayers(); markersById.clear();
   const ms = filtered.map(f=>{
     const m=L.circleMarker([f.lat,f.lng], selected&&selected.id===f.id?dotActive:(selectedTupuna&&linkedMaraeIds(selectedTupuna).has(f.id)?dotTupuna:dotStyle));
-    m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button>${f.hapu.length?`<div class="phapu">${f.hapu.map(h=>`<button class="ppill" title="Show all marae of ${esc(h)}" onclick="filterHapu('${esc(h).replace(/'/g,"\\'")}')">${esc(h)}</button>`).join('')}</div>`:''}`,{maxWidth:280});
+    m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button>${f.hapu.length?`<div class="phapu">${f.hapu.map(h=>`<button class="ppill" title="Show all marae of ${esc(h)}" onclick="filterHapu('${esc(h).replace(/'/g,"\\'")}')">${esc(h)}</button>`).join('')}</div>`:''}${popupWaka(f)}`,{maxWidth:280});
     m.on('click',()=>highlightList(f.id));
     markersById.set(f.id,m); return m;
   });
@@ -525,6 +527,7 @@ function claimsFor(f, rel){ return claims.filter(c=>c.subject_type==='Marae'&&(!
 function claimHay(f){ return norm(claimsFor(f).map(c=>c.object_ref+' '+c.object_detail).join(' ')); }
 function hapuIwiTPK(h){ const k=norm(h); return new Set(features.filter(f=>f.hapu.some(x=>norm(x)===k)).flatMap(f=>f.iwiNames.map(norm))); }
 
+function popupWaka(f){ const wk=wakaOf(f); if(!wk.size) return ''; return `<div class="phapu pwaka">${[...wk].map(([w,ss])=>{const S=[...ss][0].replace(/ \(via.*$/,''); const col=(sources.find(x=>x.name===S)||{}).colour||'#2f6fbf'; return `<button class="ppill waka" style="border-color:${col}" title="${esc([...ss].join('; '))}" onclick="setFilter('fWaka','${esc(w).replace(/'/g,"\\'")}')">${esc(w)} waka</button>`;}).join('')}</div>`; }
 function wakaOf(f){ // {waka -> Set(source names)} from marae-level and iwi-level claims
   const out=new Map(); const add=(w,S,via)=>{ if(!out.has(w)) out.set(w,new Set()); out.get(w).add(S.name+(via?` (via ${via})`:'')); };
   claims.forEach(c=>{ if(c.relationship!=='has_waka'||!sourceOn[c.source_id]) return; const S=srcOf(c.source_id);
@@ -594,7 +597,7 @@ window.claimForm=function(fid){
 };
 window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
   claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
-  saveClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); renderBySource(f); drawClaimRings(); return false; };
+  saveClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); renderBySource(f); render(); return false; };
 window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
 window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
 window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_type','subject_ref','subject_detail','relationship','object_ref','object_detail','page_url','retrieved','confidence','note']; download('Claim.csv', csvRows(cols, claims.map(c=>cols.map(k=>c[k]))), 'text/csv'); };
