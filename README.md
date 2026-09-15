@@ -35,3 +35,14 @@ Data sourced from Te Kāhui Māngai, owned and maintained by Te Puni Kōkiri. Re
 Disclaimer and Copyright pages before republishing. Rohe map images/PDFs on TKM may not be
 reproduced without permission of the relevant iwi organisation, and contact details are
 published at each organisation's discretion — keep them current and treat them with care.
+
+## Web map
+
+`docs/index.html` is a live map of every marae in Te Puni Kōkiri's *Marae of Aotearoa* layer
+(loaded straight from their ArcGIS service, so it is always current), with search, region and
+iwi filters, hapū and iwi for each marae, a toggle showing the iwi's area of interest, and the
+representative organisations and contacts held in this database. It is served by GitHub Pages
+from the `docs/` folder.
+
+`docs/data/*.json` is generated from the spreadsheet by `gen_data.py` — re-run it and commit
+after updating the workbook (for example after running the scraper) and the map updates itself.

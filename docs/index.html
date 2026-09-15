@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marae explorer — whakapapa research database</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<style>
+:root{
+  --ink:#1b2426; --ink-2:#26393a; --ink-3:#334a4b;
+  --bone:#f5f4f0; --bone-2:#e6e3db; --mist:#b8bfba; --muted:#8a928d;
+  --kokowai:#b4432b; --kokowai-soft:#d8735b; --pounamu:#2c6e5c; --pounamu-soft:#7fb3a3; --kowhai:#d9a21b;
+  --serif:"Fraunces",Georgia,serif; --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --panel-w:390px;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{font-family:var(--sans);font-size:14px;line-height:1.45;color:var(--bone);background:var(--ink);display:flex;overflow:hidden}
+button,input,select{font:inherit}
+a{color:var(--pounamu-soft)}
+a:hover{color:var(--bone)}
+:focus-visible{outline:2px solid var(--kowhai);outline-offset:2px}
+
+/* ---------- panel ---------- */
+#panel{width:var(--panel-w);flex:0 0 auto;height:100%;display:flex;flex-direction:column;background:var(--ink);border-right:1px solid var(--ink-3)}
+#panel header{padding:20px 22px 14px}
+#panel h1{font-family:var(--serif);font-weight:600;font-size:26px;line-height:1.1;margin:0 0 4px;letter-spacing:-.01em;font-variation-settings:"opsz" 60}
+#panel header p{margin:0;color:var(--mist);font-size:13px}
+.search{position:relative;margin:0 22px 10px}
+.search input{width:100%;padding:10px 12px 10px 36px;border-radius:8px;border:1px solid var(--ink-3);background:var(--ink-2);color:var(--bone)}
+.search input::placeholder{color:var(--muted)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--mist);stroke-width:2}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 22px 12px}
+.filters select{width:100%;padding:8px 10px;border-radius:8px;border:1px solid var(--ink-3);background:var(--ink-2);color:var(--bone);appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mist) 50%),linear-gradient(135deg,var(--mist) 50%,transparent 50%);background-position:calc(100% - 16px) 15px,calc(100% - 11px) 15px;background-size:5px 5px;background-repeat:no-repeat;padding-right:28px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.status{display:flex;justify-content:space-between;align-items:center;padding:0 22px 8px;color:var(--mist);font-size:13px;border-bottom:1px solid var(--ink-3)}
+.status .link{background:none;border:0;color:var(--pounamu-soft);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+.status .link:disabled{color:var(--muted);text-decoration:none;cursor:default}
+
+#results{flex:1;overflow-y:auto;margin:0;padding:6px 0 20px;list-style:none;scrollbar-color:var(--ink-3) transparent}
+#results li button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--bone);padding:10px 22px;cursor:pointer;border-left:3px solid transparent}
+#results li button:hover{background:var(--ink-2)}
+#results li button.active{background:var(--ink-2);border-left-color:var(--kokowai)}
+#results .name{font-family:var(--serif);font-size:17px;font-weight:600;line-height:1.2}
+#results .sub{color:var(--mist);font-size:13px;margin-top:2px}
+.empty{padding:28px 22px;color:var(--mist)}
+.empty strong{color:var(--bone);display:block;font-family:var(--serif);font-size:18px;font-weight:600;margin-bottom:4px}
+
+/* detail view */
+#detail{flex:1;overflow-y:auto;display:none;padding:0 22px 28px;scrollbar-color:var(--ink-3) transparent}
+#detail.show{display:block}
+#panel.detail-mode #results,#panel.detail-mode .status{display:none}
+.back{margin:12px 0 16px;background:none;border:0;color:var(--mist);cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:6px}
+.back:hover{color:var(--bone)}
+#detail h2{font-family:var(--serif);font-weight:600;font-size:30px;line-height:1.05;margin:0 0 2px;letter-spacing:-.01em}
+#detail .alt{color:var(--mist);font-size:14px;margin:0 0 14px;font-style:italic;font-family:var(--serif)}
+.kv{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;margin:0 0 18px}
+.kv dt{color:var(--mist)}
+.kv dd{margin:0}
+.section{border-top:1px solid var(--ink-3);padding-top:14px;margin-top:14px}
+.section h3{margin:0 0 8px;font-size:13px;font-weight:600;color:var(--mist)}
+.pill{display:inline-block;padding:2px 9px;border-radius:999px;background:var(--ink-3);color:var(--bone);font-size:12px;margin:0 6px 6px 0}
+.iwi-row{margin:0 0 12px}
+.iwi-row .iname{font-family:var(--serif);font-size:18px;font-weight:600}
+.iwi-row .imeta{color:var(--mist);font-size:13px}
+.org{background:var(--ink-2);border-radius:10px;padding:12px 14px;margin:8px 0 0}
+.org .oname{font-weight:600;margin-bottom:4px}
+.org .orole{color:var(--mist);font-size:12px;margin-bottom:8px}
+.org .ocontact{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:13px}
+.org .ocontact span:first-child{color:var(--mist)}
+.rohe-toggle{display:flex;align-items:center;gap:8px;margin:10px 0 0;color:var(--mist);font-size:13px}
+.rohe-toggle input{accent-color:var(--pounamu)}
+.note{color:var(--muted);font-size:12px;margin-top:18px;line-height:1.5}
+
+/* ---------- map ---------- */
+#map{flex:1;height:100%;background:#dfe6e2}
+.leaflet-container{font-family:var(--sans)}
+.leaflet-popup-content-wrapper{background:var(--bone);color:var(--ink);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.leaflet-popup-tip{background:var(--bone)}
+.leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.4}
+.leaflet-popup-content .pname{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.1}
+.leaflet-popup-content .pwh{color:#4c5553;font-style:italic;font-family:var(--serif)}
+.leaflet-popup-content button{margin-top:8px;background:var(--kokowai);color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer}
+.marker-cluster{background:rgba(180,67,43,.35)}
+.marker-cluster div{background:var(--kokowai);color:#fff;font-weight:600;font-family:var(--sans)}
+.basemap{position:absolute;right:12px;top:12px;z-index:800;display:flex;background:var(--bone);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.2);overflow:hidden}
+.basemap button{border:0;background:none;padding:7px 12px;cursor:pointer;color:#4c5553}
+.basemap button.on{background:var(--ink);color:var(--bone)}
+.credit{position:absolute;left:calc(var(--panel-w) + 12px);bottom:12px;z-index:800;background:rgba(245,244,240,.92);color:#4c5553;padding:6px 10px;border-radius:8px;font-size:11px;max-width:min(420px,calc(100% - 24px))}
+.credit a{color:var(--pounamu)}
+.loading{position:absolute;inset:0;z-index:900;display:flex;align-items:center;justify-content:center;background:rgba(27,36,38,.55);color:var(--bone);font-family:var(--serif);font-size:20px}
+.loading.hide{display:none}
+.errbox{background:var(--bone);color:var(--ink);padding:20px 24px;border-radius:12px;max-width:420px;font-family:var(--sans);font-size:14px}
+.errbox button{margin-top:10px;background:var(--kokowai);color:#fff;border:0;padding:8px 14px;border-radius:6px;cursor:pointer}
+
+/* ---------- mobile ---------- */
+@media (max-width:760px){
+  body{flex-direction:column-reverse}
+  #panel{width:100%;height:46vh;border-right:0;border-top:1px solid var(--ink-3)}
+  #map{height:54vh;flex:none}
+  #panel header{padding:12px 16px 8px}
+  #panel h1{font-size:20px}
+  .credit{left:12px;bottom:calc(46vh + 12px);font-size:10px}
+  .search,.filters,.status,#detail{margin-left:16px;margin-right:16px;padding-left:0;padding-right:0}
+  .status{padding-left:0}
+  #results li button{padding-left:16px;padding-right:16px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<aside id="panel">
+  <header>
+    <h1>Marae explorer</h1>
+    <p>Marae, hapū, iwi, rohe and representative contacts across Aotearoa.</p>
+  </header>
+
+  <div class="search">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <input id="q" type="search" placeholder="Search marae, wharenui, hapū, iwi or place" autocomplete="off" aria-label="Search">
+  </div>
+  <div class="filters">
+    <select id="fRegion" aria-label="Filter by region"><option value="">All regions</option></select>
+    <select id="fIwi" aria-label="Filter by iwi"><option value="">All iwi</option></select>
+  </div>
+  <div class="status">
+    <span id="count">Loading marae…</span>
+    <button id="csv" class="link" disabled>Download list as CSV</button>
+  </div>
+
+  <ul id="results"></ul>
+
+  <div id="detail"></div>
+</aside>
+
+<main id="map" role="region" aria-label="Map of marae"></main>
+
+<div class="basemap" role="group" aria-label="Basemap">
+  <button id="bmLight" class="on">Map</button><button id="bmSat">Satellite</button>
+</div>
+<div class="credit">Marae points and iwi areas of interest from <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">Te Puni Kōkiri</a> (CC BY 4.0), loaded live. Iwi and organisation details from <a href="https://www.tkm.govt.nz/" target="_blank" rel="noopener">Te Kāhui Māngai</a>. Areas of interest are indicative only.</div>
+<div id="loading" class="loading">Loading marae…</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script>
+const MARAE_URL = 'https://services2.arcgis.com/97skzKG31fDSvRnN/ArcGIS/rest/services/Shapefile_Marae/FeatureServer/0/query';
+const AOI_URL   = 'https://services2.arcgis.com/97skzKG31fDSvRnN/ArcGIS/rest/services/Shapefile_Iwi_AreasOfInterest/FeatureServer/0/query';
+
+// ---------- helpers ----------
+const norm = s => (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const esc  = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const splitNames = s => (s||'').split(/[;,]|\s+&\s+/).map(x=>x.trim()).filter(Boolean);
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// TPK layer names -> TKM names, where they differ
+const ALIAS = {waikato:'waikatotainui', taranaki:'taranakiiwi', ngatiapa:'ngawairikingatiapa',
+  tekaweraumaki:'tekaweraumaki', teatiawakiwhakarongotai:'teatiawakiwhakarongotai',
+  ngatiporoukiharataungakimataora:'ngatiporoukihauraki', ngatimaru:'ngatimaruhauraki',
+  maungaharurutangituhapu:'maungaharurutangituhapu'};
+
+// ---------- state ----------
+let iwiList = [], iwiIndex = new Map(), regionsById = {};
+let features = [], filtered = [], selected = null;
+const markersById = new Map();
+const roheCache = new Map();
+let roheLayer = L.layerGroup();
+
+// ---------- map ----------
+const map = L.map('map',{zoomControl:true, preferCanvas:true}).setView([-40.9,174.9],6);
+map.zoomControl.setPosition('bottomright');
+const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
+const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
+const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
+light.addTo(map); labels.addTo(map); roheLayer.addTo(map);
+document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
+document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
+function toggleBm(b){document.querySelectorAll('.basemap button').forEach(x=>x.classList.toggle('on',x===b))}
+
+const cluster = L.markerClusterGroup({maxClusterRadius:38, disableClusteringAtZoom:11, showCoverageOnHover:false, spiderfyOnMaxZoom:true});
+map.addLayer(cluster);
+const dotStyle  = {radius:6, color:'#fff', weight:1.5, fillColor:'#b4432b', fillOpacity:.95};
+const dotActive = {radius:9, color:'#d9a21b', weight:3, fillColor:'#b4432b', fillOpacity:1};
+
+// ---------- data loading ----------
+async function fetchAll(url, params){
+  const out=[]; let offset=0;
+  while(true){
+    const p = new URLSearchParams({...params, resultOffset:offset, resultRecordCount:2000, f:'geojson'});
+    const r = await fetch(`${url}?${p}`); if(!r.ok) throw new Error(`${r.status} from ArcGIS`);
+    const j = await r.json(); if(j.error) throw new Error(j.error.message||'ArcGIS error');
+    out.push(...(j.features||[]));
+    if(!(j.properties&&j.properties.exceededTransferLimit) && !(j.exceededTransferLimit)) break;
+    offset += j.features.length; if(!j.features.length) break;
+  }
+  return out;
+}
+
+async function init(){
+  try{
+    const [iwiJ, regJ, marae] = await Promise.all([
+      fetch('data/iwi.json').then(r=>r.json()).catch(()=>[]),
+      fetch('data/regions.json').then(r=>r.json()).catch(()=>({})),
+      fetchAll(MARAE_URL,{where:'1=1', outFields:'*', outSR:4326})
+    ]);
+    iwiList = iwiJ; regionsById = regJ;
+    iwiList.forEach(i=>{ iwiIndex.set(norm(i.name), i); });
+    features = marae.filter(f=>f.geometry&&f.geometry.coordinates).map(f=>{
+      const p=f.properties; const [lng,lat]=f.geometry.coordinates;
+      const iwiNames = splitNames(p.Iwi); const hapu = splitNames(p.Hapu);
+      const matched = iwiNames.map(matchIwi).filter(Boolean);
+      return {id:p.FID??p.GIS_MID, lat, lng, p, iwiNames, hapu, matched,
+              hay: norm([p.Name,p.Alternate,p.Wharenui,p.Location,p.Iwi,p.Hapu,p.TPK_Region,p.Region].join(' '))};
+    });
+    buildFilters(); render();
+    document.getElementById('loading').classList.add('hide');
+  }catch(err){
+    document.getElementById('loading').innerHTML = `<div class="errbox"><strong>The marae layer didn't load.</strong><br>${esc(err.message)}. Te Puni Kōkiri's ArcGIS service may be briefly unavailable.<br><button onclick="location.reload()">Try again</button></div>`;
+  }
+}
+function matchIwi(name){
+  let k = norm(name); k = ALIAS[k]||k;
+  if(iwiIndex.has(k)) return iwiIndex.get(k);
+  for(const [key,i] of iwiIndex) if(key.startsWith(k)||k.startsWith(key)) return i;
+  return null;
+}
+
+function buildFilters(){
+  const regs=[...new Set(features.map(f=>f.p.TPK_Region).filter(Boolean))].sort();
+  const fr=document.getElementById('fRegion'); regs.forEach(r=>fr.append(new Option(r,r)));
+  const iwis=[...new Set(features.flatMap(f=>f.iwiNames))].sort((a,b)=>a.localeCompare(b));
+  const fi=document.getElementById('fIwi'); iwis.forEach(i=>fi.append(new Option(i,i)));
+  ['q','fRegion','fIwi'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+  document.getElementById('csv').onclick = downloadCsv;
+}
+
+// ---------- rendering ----------
+function render(){
+  const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value;
+  filtered = features.filter(f => (!q||f.hay.includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)));
+  filtered.sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
+  // markers
+  cluster.clearLayers(); markersById.clear();
+  const ms = filtered.map(f=>{
+    const m=L.circleMarker([f.lat,f.lng], selected&&selected.id===f.id?dotActive:dotStyle);
+    m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button>`);
+    m.on('click',()=>highlightList(f.id));
+    markersById.set(f.id,m); return m;
+  });
+  cluster.addLayers(ms);
+  // list
+  const ul=document.getElementById('results'); ul.innerHTML='';
+  document.getElementById('count').textContent = `${filtered.length.toLocaleString()} of ${features.length.toLocaleString()} marae`;
+  document.getElementById('csv').disabled = !filtered.length;
+  if(!filtered.length){ ul.innerHTML='<li class="empty"><strong>No marae match.</strong>Try fewer words, or clear the region and iwi filters.</li>'; return; }
+  const frag=document.createDocumentFragment();
+  filtered.forEach(f=>{
+    const li=document.createElement('li'); const b=document.createElement('button');
+    b.className = selected&&selected.id===f.id?'active':''; b.dataset.id=f.id;
+    b.innerHTML=`<div class="name">${esc(f.p.Name)}</div><div class="sub">${esc([f.p.Location, f.iwiNames.join(', ')].filter(Boolean).join(' — '))}</div>`;
+    b.onclick=()=>select(f.id); li.append(b); frag.append(li);
+  });
+  ul.append(frag);
+  if(filtered.length && filtered.length<features.length && !selected){
+    const b=L.latLngBounds(filtered.map(f=>[f.lat,f.lng])); map.fitBounds(b.pad(.2),{animate:!reduced,maxZoom:12});
+  }
+}
+function highlightList(id){document.querySelectorAll('#results button').forEach(b=>b.classList.toggle('active',b.dataset.id==id))}
+
+window.select = function(id){
+  const f=features.find(x=>x.id==id); if(!f) return;
+  if(selected){ const old=markersById.get(selected.id); if(old) old.setStyle(dotStyle); }
+  selected=f; const m=markersById.get(id); if(m) m.setStyle(dotActive);
+  highlightList(id);
+  const target=[f.lat,f.lng];
+  if(reduced) map.setView(target, Math.max(map.getZoom(),12)); else map.flyTo(target, Math.max(map.getZoom(),12),{duration:.9});
+  showDetail(f); drawRohe(f);
+};
+
+function showDetail(f){
+  const p=f.p; const panel=document.getElementById('panel'); const d=document.getElementById('detail');
+  const iwiHtml = f.iwiNames.length ? f.iwiNames.map(n=>{
+    const i=matchIwi(n); if(!i) return `<div class="iwi-row"><div class="iname">${esc(n)}</div><div class="imeta">Not yet linked to a Te Kāhui Māngai entry</div></div>`;
+    const orgs=(i.orgs||[]).map(o=>`<div class="org"><div class="oname">${esc(o.org_name)}</div><div class="orole">${esc(o.org_role||'Representative organisation')}${o.legal_entity?` · ${esc(o.legal_entity)}`:''}</div>
+      <div class="ocontact">${(o.contacts||[]).filter(c=>c.full_name).map(c=>`<span>${esc(c.role)}</span><span>${esc(c.full_name)}</span>`).join('')}
+      ${o.phone?`<span>Phone</span><span><a href="tel:${esc(o.phone.replace(/\s/g,''))}">${esc(o.phone)}</a></span>`:''}
+      ${o.email?`<span>Email</span><span><a href="mailto:${esc(o.email)}">${esc(o.email)}</a></span>`:''}
+      ${o.website?`<span>Website</span><span><a href="${esc(o.website)}" target="_blank" rel="noopener">${esc(o.website.replace(/^https?:\/\//,''))}</a></span>`:''}
+      ${o.postal_address?`<span>Post</span><span>${esc(o.postal_address)}</span>`:''}</div></div>`).join('');
+    return `<div class="iwi-row"><div class="iname">${esc(i.name)}</div><div class="imeta">${esc((i.regions||[]).join(', '))}${i.population?` · population ${i.population.toLocaleString()}`:''} · <a href="${esc(i.tkm_url)}" target="_blank" rel="noopener">Te Kāhui Māngai page</a></div>${orgs||'<div class="imeta">Representative organisation not yet entered in the database — run the scraper to fill this in.</div>'}</div>`;
+  }).join('') : '<div class="imeta" style="color:var(--mist)">No iwi recorded for this marae in the TPK layer.</div>';
+
+  d.innerHTML = `
+    <button class="back" onclick="closeDetail()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>Back to list</button>
+    <h2>${esc(p.Name)}</h2>
+    ${p.Alternate?`<p class="alt">also ${esc(p.Alternate)}</p>`:'<p class="alt"></p>'}
+    <dl class="kv">
+      ${p.Wharenui?`<dt>Wharenui</dt><dd>${esc(p.Wharenui)}</dd>`:''}
+      ${p.Type?`<dt>Type</dt><dd>${esc(p.Type)}</dd>`:''}
+      ${p.Location?`<dt>Location</dt><dd>${esc(p.Location)}</dd>`:''}
+      ${p.TPK_Region?`<dt>TPK region</dt><dd>${esc(p.TPK_Region)}</dd>`:''}
+      <dt>Position</dt><dd>${f.lat.toFixed(5)}, ${f.lng.toFixed(5)} · <a href="https://www.google.com/maps?q=${f.lat},${f.lng}" target="_blank" rel="noopener">open in Google Maps</a></dd>
+    </dl>
+    <div class="section"><h3>Hapū</h3>${f.hapu.length?f.hapu.map(h=>`<span class="pill">${esc(h)}</span>`).join(''):'<span style="color:var(--mist)">Not recorded</span>'}</div>
+    <div class="section"><h3>Iwi and representative organisations</h3>${iwiHtml}
+      <label class="rohe-toggle"><input type="checkbox" id="roheChk" ${roheOn?'checked':''}> Show this iwi's area of interest on the map</label></div>
+    ${p.Comments?`<div class="section"><h3>Notes</h3>${esc(p.Comments)}</div>`:''}
+    <p class="note">${p.Source?`Source: ${esc(p.Source)}. `:''}${p.TKM_MID?`Te Kāhui Māngai marae ID ${esc(p.TKM_MID)}. `:''}Contact details are published by each organisation at its discretion; check the Te Kāhui Māngai page for the latest.</p>`;
+  d.classList.add('show'); panel.classList.add('detail-mode'); d.scrollTop=0;
+  document.getElementById('roheChk').onchange = e=>{roheOn=e.target.checked; drawRohe(f)};
+}
+window.closeDetail = function(){
+  document.getElementById('detail').classList.remove('show'); document.getElementById('panel').classList.remove('detail-mode');
+  roheLayer.clearLayers();
+  if(selected){ const m=markersById.get(selected.id); if(m) m.setStyle(dotStyle); }
+  selected=null; highlightList(null);
+};
+
+// ---------- rohe (iwi areas of interest) ----------
+let roheOn = true;
+async function drawRohe(f){
+  roheLayer.clearLayers(); if(!roheOn) return;
+  for(const name of f.iwiNames){
+    let gj = roheCache.get(name);
+    if(!gj){
+      try{
+        const p=new URLSearchParams({where:`Name='${name.replace(/'/g,"''")}'`, outFields:'Name,Source', outSR:4326, f:'geojson', geometryPrecision:5, maxAllowableOffset:0.0008});
+        gj = await (await fetch(`${AOI_URL}?${p}`)).json(); roheCache.set(name,gj);
+      }catch{ continue; }
+    }
+    if(selected!==f) return;
+    L.geoJSON(gj,{style:{color:'#2c6e5c',weight:1.5,fillColor:'#2c6e5c',fillOpacity:.14}, interactive:false}).addTo(roheLayer);
+  }
+}
+
+// ---------- CSV ----------
+function downloadCsv(){
+  const cols=['Name','Alternate','Wharenui','Type','Location','Hapu','Iwi','TPK_Region','Region','TKM_MID','Source'];
+  const rows=[['latitude','longitude',...cols].join(',')];
+  filtered.forEach(f=>rows.push([f.lat,f.lng,...cols.map(c=>`"${String(f.p[c]??'').replace(/"/g,'""')}"`)].join(',')));
+  const blob=new Blob(['\ufeff'+rows.join('\n')],{type:'text/csv;charset=utf-8'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='marae.csv'; a.click(); URL.revokeObjectURL(a.href);
+}
+
+init();
+</script>
+</body>
+</html>

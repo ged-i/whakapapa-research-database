@@ -1,0 +1,1352 @@
+[
+ {
+  "id": "I001",
+  "name": "Ngāi Takoto",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-takoto/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I002",
+  "name": "Ngāti Kurī",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kuri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I003",
+  "name": "Te Aupōuri",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-aupouri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I004",
+  "name": "Te Rarawa",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-rarawa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I005",
+  "name": "Ngāti Kahu",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kahu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I006",
+  "name": "Ngāti Kahu ki Whangaroa",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kahu-ki-whangaroa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I007",
+  "name": "Ngāpuhi / Ngāti Kahu ki Whaingaroa",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngapuhi-ngati-kahu-ki-whangaroa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I008",
+  "name": "Te Roroa",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-roroa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I009",
+  "name": "Ngāpuhi",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngapuhi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I010",
+  "name": "Ngātiwai",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngatiwai/",
+  "mfa": true,
+  "population": 5667,
+  "orgs": [
+   {
+    "org_id": "O001",
+    "iwi_id": "I010",
+    "org_name": "Ngātiwai Trust",
+    "org_role": "Iwi Representative Organisation",
+    "legal_entity": "Charitable Trust",
+    "governance_structure": "One trustee from each of 13 marae. Factions of the iwi/hapū Te Waiariki/Ngāti Korora, Te Waiariki/Ngāti Taka and Te Waiariki/Ngunguru have chosen to affiliate to the Ngātiwai Trust.",
+    "flag_treaty_mandate": "Y",
+    "flag_psge": "N",
+    "flag_mfa_mandated": "Y",
+    "flag_mfa_recognised": "N",
+    "flag_iao": "Y",
+    "flag_rma_iwi_authority": "Y",
+    "flag_tuhono": "Y",
+    "settlement_act": "",
+    "postal_address": "PO Box 1332, Whangārei 0140",
+    "physical_address": "129 Port Road, Whangārei",
+    "phone": "09 430 0939",
+    "email": "ngatiwai@ngatiwai.iwi.nz",
+    "website": "https://www.ngatiwai.iwi.nz",
+    "tkm_last_updated": "2025-03-11",
+    "notes": "",
+    "contacts": [
+     {
+      "contact_id": "C001",
+      "org_id": "O001",
+      "role": "Chair",
+      "full_name": "Aperahama Edwards",
+      "phone": "",
+      "email": "",
+      "notes": ""
+     },
+     {
+      "contact_id": "C002",
+      "org_id": "O001",
+      "role": "CEO",
+      "full_name": "Simon Mitchell",
+      "phone": "",
+      "email": "",
+      "notes": ""
+     },
+     {
+      "contact_id": "C003",
+      "org_id": "O001",
+      "role": "RMA Contact",
+      "full_name": "",
+      "phone": "",
+      "email": "",
+      "notes": "Not published for Ngātiwai; some iwi list a dedicated RMA contact with phone/email (e.g. Taranaki Iwi)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "I011",
+  "name": "Ngāti Whātua",
+  "regions": [
+   "Te Tai Tokerau",
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whatua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I012",
+  "name": "Te Uri o Hau",
+  "regions": [
+   "Te Tai Tokerau"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-uri-o-hau/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I013",
+  "name": "Ngāti Whātua o Kaipara",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whatua-o-kaipara/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I014",
+  "name": "Ngāti Whātua o Ōrākei",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whatua-o-orakei/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I015",
+  "name": "Ngāti Rehua",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rehua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I016",
+  "name": "Ngāti Manuhiri",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-manuhiri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I017",
+  "name": "Te Kawerau ā Maki",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-kawerau-a-maki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I018",
+  "name": "Ngāti Tamaoho",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tamaoho/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I019",
+  "name": "Te Ākitai Waiohua",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-akitai-waiohua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I020",
+  "name": "Ngāti Maru (Hauraki)",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-maru-hauraki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I021",
+  "name": "Te Patukirikiri",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-patukirikiri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I022",
+  "name": "Ngāti Pāoa",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-paoa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I023",
+  "name": "Ngāti Tamaterā",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tamatera/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I024",
+  "name": "Ngāi Tai ki Tāmaki",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-tai-ki-tamaki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I025",
+  "name": "Ngāti Whanaunga",
+  "regions": [
+   "Tāmaki",
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whanaunga/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I026",
+  "name": "Ngāti Te Ata",
+  "regions": [
+   "Tāmaki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-te-ata/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I027",
+  "name": "Waikato-Tainui",
+  "regions": [
+   "Tāmaki",
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/waikato/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I028",
+  "name": "Ngāti Hako",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-hako/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I029",
+  "name": "Ngāti Hei",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-hei/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I030",
+  "name": "Ngāti Porou ki Hauraki",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-porou-ki-hauraki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I031",
+  "name": "Ngāti Pūkenga ki Waiau",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-pukenga-ki-waiau/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I032",
+  "name": "Ngāti Rāhiri Tumutumu",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rahiri-tumutumu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I033",
+  "name": "Ngāti Tara Tokanui",
+  "regions": [
+   "Hauraki"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tara-tokanui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I034",
+  "name": "Ngāti Korokī Kahukura",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-koroki-kahukura/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I035",
+  "name": "Ngāti Hauā",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-haua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I036",
+  "name": "Raukawa",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/raukawa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I037",
+  "name": "Ngāti Hinerangi",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-hinerangi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I038",
+  "name": "Maniapoto",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/maniapoto/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I039",
+  "name": "Pouākani (Land Block)",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/pouakani/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I040",
+  "name": "Maraeroa A & B (Land Block)",
+  "regions": [
+   "Tainui"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/maraeroa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I041",
+  "name": "Ngāti Pūkenga",
+  "regions": [
+   "Tauranga Moana"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-pukenga/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I042",
+  "name": "Ngāi Te Rangi",
+  "regions": [
+   "Tauranga Moana"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-te-rangi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I043",
+  "name": "Ngāti Ranginui",
+  "regions": [
+   "Tauranga Moana"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-ranginui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I044",
+  "name": "Ngā Pōtiki",
+  "regions": [
+   "Tauranga Moana"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/nga-potiki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I045",
+  "name": "Ngāti Tūwharetoa (Bay of Plenty)",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tuwharetoa-bay-of-plenty/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I046",
+  "name": "Ngāti Mākino",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-makino/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I047",
+  "name": "Ngāti Pikiao",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-pikiao/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I048",
+  "name": "Ngāti Whakahemo",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whakahemo/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I049",
+  "name": "Waitaha",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/waitaha/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I050",
+  "name": "Tapuika",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/tapuika/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I051",
+  "name": "Ngāti Rangiwewehi",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rangiwewehi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I052",
+  "name": "Ngāti Rangiteaorere",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rangiteaorere/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I053",
+  "name": "Ngāti Rangitihi",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rangitihi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I054",
+  "name": "Ngāti Tarāwhai",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tarawhai/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I055",
+  "name": "Ngāti Rongomai",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rongomai/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I056",
+  "name": "Ngāti Whakaue",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whakaue/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I057",
+  "name": "Ngāti Uenukukōpako",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-uenukukopako/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I058",
+  "name": "Tūhourangi",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/tuhourangi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I059",
+  "name": "Ngāti Kea / Ngāti Tuarā",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kea-ngati-tuara/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I060",
+  "name": "Ngāti Tahu / Ngāti Whaoa",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tahu-ngati-whaoa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I061",
+  "name": "Ngāti Tūwharetoa",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tuwharetoa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I062",
+  "name": "Ngāti Tūrangitukua",
+  "regions": [
+   "Te Arawa Waka"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-turangitukua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I063",
+  "name": "Ngāti Awa",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-awa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I064",
+  "name": "Ngāti Manawa",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-manawa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I065",
+  "name": "Ngāti Whare",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whare/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I066",
+  "name": "Ngāitai (Bay of Plenty)",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngaitai-bay-of-plenty/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I067",
+  "name": "Whakatōhea",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/whakatohea/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I068",
+  "name": "Te Whānau a Apanui",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-whanau-a-apanui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I069",
+  "name": "Tūhoe",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/tuhoe/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I070",
+  "name": "Ngāti Ruapani ki Waikaremoana",
+  "regions": [
+   "Mātaatua"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-ruapani-ki-waikaremoana/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I071",
+  "name": "Ngāti Porou",
+  "regions": [
+   "Te Tai Rāwhiti"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-porou/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I072",
+  "name": "Te Aitanga ā Māhaki",
+  "regions": [
+   "Te Tai Rāwhiti"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-aitanga-a-mahaki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I073",
+  "name": "Rongowhakaata",
+  "regions": [
+   "Te Tai Rāwhiti"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/rongowhakaata/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I074",
+  "name": "Ngāi Tāmanuhiri",
+  "regions": [
+   "Te Tai Rāwhiti"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-tamanuhiri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I075",
+  "name": "Ngāti Kahungunu",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kahungunu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I076",
+  "name": "Te Wairoa Iwi and Hapū",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-wairoa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I077",
+  "name": "Ngāti Pāhauwera",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-pahauwera/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I078",
+  "name": "Ngāti Hineuru",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-hineuru/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I079",
+  "name": "Maungaharuru-Tangitū Hapū",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/maungaharuru-tangitu-hapu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I080",
+  "name": "Ahuriri Hapū",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ahuriri-hapu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I081",
+  "name": "Heretaunga Tamatea",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/heretaunga-tamatea/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I082",
+  "name": "Ngāti Kahungunu ki Wairarapa - Tāmaki nui-ā-Rua",
+  "regions": [
+   "Tākitimu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kahungunu-ki-wairarapa-tamaki-nui-a-rua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I083",
+  "name": "Rangitāne",
+  "regions": [
+   "Tākitimu",
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/rangitane/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I084",
+  "name": "Ngāti Tama",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tama/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I085",
+  "name": "Ngāti Mutunga",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-mutunga/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I086",
+  "name": "Te Ātiawa (Taranaki)",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-atiawa-taranaki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I087",
+  "name": "Taranaki Iwi",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/taranaki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I088",
+  "name": "Ngāti Maru (Te Iwi o Maruwharanui)",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-maru-taranaki/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I089",
+  "name": "Ngāruahine",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngaruahine/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I090",
+  "name": "Ngāti Ruanui",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-ruanui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I091",
+  "name": "Ngā Rauru Kītahi",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/nga-rauru-kitahi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I092",
+  "name": "Whanganui Iwi / Te Atihaunui a Pāpārangi",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/whanganui-iwi-te-atihaunui-a-paparangi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I093",
+  "name": "Ngāti Hāua (Upper Whanganui)",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-haua-upper-whanganui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I094",
+  "name": "Te Korowai o Wainuiārua (Central Whanganui)",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-korowai-o-wainuiarua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I095",
+  "name": "Whanganui Land Settlement (Lower Whanganui)",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/whanganui-land-settlement-lower-whanganui/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I096",
+  "name": "Ngāti Rangi",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rangi/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I097",
+  "name": "Ngāti Tamakōpiri",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tamakopiri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I098",
+  "name": "Ngāti Whitikaupeka",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-whitikaupeka/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I099",
+  "name": "Ngāi Te Ohuake",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-te-ohuake/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I100",
+  "name": "Ngāti Hauiti",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-hauiti/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I101",
+  "name": "Ngā Wairiki Ngāti Apa",
+  "regions": [
+   "Hauāuru"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-apa/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I102",
+  "name": "Muaūpoko",
+  "regions": [
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/muaupoko/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I103",
+  "name": "Ngāti Raukawa ki te Tonga",
+  "regions": [
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-raukawa-ki-te-tonga/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I104",
+  "name": "Ngāti Toa Rangatira",
+  "regions": [
+   "Te Moana O Raukawa",
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-toa-rangatira/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I105",
+  "name": "Te Ātiawa ki Whakarongotai",
+  "regions": [
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-atiawa-ki-whakarongotai/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I106",
+  "name": "Te Ātiawa (Wellington)",
+  "regions": [
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-atiawa-wellington/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I107",
+  "name": "Taranaki Whānui ki Te Upoko o Te Ika",
+  "regions": [
+   "Te Moana O Raukawa"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/taranaki-whanui-ki-te-upoko-o-te-ika/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I108",
+  "name": "Te Ātiawa o Te Waka-a-Māui",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/te-atiawa-te-tau-ihu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I109",
+  "name": "Ngāti Apa ki te Rā Tō",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-apa-ki-te-ra-to/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I110",
+  "name": "Rangitāne o Wairau",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/rangitane-o-wairau/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I111",
+  "name": "Ngāti Kuia",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-kuia/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I112",
+  "name": "Ngāti Rārua",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-rarua/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I113",
+  "name": "Ngāti Kōata",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-koata/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I114",
+  "name": "Ngāti Tama ki Te Tau Ihu",
+  "regions": [
+   "Te Tau Ihu"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-tama-ki-te-tau-ihu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I115",
+  "name": "Ngāi Tahu",
+  "regions": [
+   "Waipounamu and Rēkohu/Wharekauri"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngai-tahu/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I116",
+  "name": "Ngāti Mutunga o Wharekauri",
+  "regions": [
+   "Waipounamu and Rēkohu/Wharekauri"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/ngati-mutunga-o-wharekauri/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ },
+ {
+  "id": "I117",
+  "name": "Moriori",
+  "regions": [
+   "Waipounamu and Rēkohu/Wharekauri"
+  ],
+  "tkm_url": "https://www.tkm.govt.nz/iwi/moriori/",
+  "mfa": false,
+  "population": null,
+  "orgs": []
+ }
+]
