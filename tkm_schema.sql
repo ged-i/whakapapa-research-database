@@ -184,3 +184,8 @@ SELECT a.subject_type, a.subject_ref, a.relationship, a.object_ref AS object_a, 
        b.object_ref AS object_b, b.source_id AS source_b
 FROM claim a JOIN claim b ON a.subject_type=b.subject_type AND lower(a.subject_ref)=lower(b.subject_ref)
  AND a.relationship=b.relationship AND a.source_id<b.source_id AND lower(a.object_ref)<>lower(b.object_ref);
+
+CREATE TABLE hapu_alias (                 -- manual merges beyond the automatic fold (macrons, double vowels, punctuation)
+  alias_id TEXT PRIMARY KEY, canonical_name TEXT NOT NULL, alias TEXT NOT NULL,
+  alias_type TEXT, note TEXT, source_id TEXT REFERENCES source(source_id)
+);

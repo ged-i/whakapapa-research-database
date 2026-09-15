@@ -1,0 +1,130 @@
+[
+ {
+  "alias_id": "A001",
+  "canonical_name": "Ngāti Kinohaku",
+  "alias": "Kinohaku",
+  "alias_type": "short form",
+  "note": "Māori Maps lists both 'Kinohaku (Ngāti Maniapoto)' and 'Ngāti Kinohaku' for Maniapoto marae",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A002",
+  "canonical_name": "Ngāti Apakura",
+  "alias": "Apakura",
+  "alias_type": "short form",
+  "note": "Māori Maps uses 'Apakura' at Tane Hopuwai and Tomotuki, 'Ngāti Apakura' at Pūrekireki",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A003",
+  "canonical_name": "Ngāti Peehi",
+  "alias": "Peehi",
+  "alias_type": "short form",
+  "note": "Te Kumi listed as 'Peehi'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A004",
+  "canonical_name": "Ngāti Uekaha",
+  "alias": "Uekaha",
+  "alias_type": "short form",
+  "note": "Pohatuiri listed as 'Uekaha'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A005",
+  "canonical_name": "Ngāti Urunumia",
+  "alias": "Urunumia",
+  "alias_type": "short form",
+  "note": "",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A006",
+  "canonical_name": "Ngāti Paretekawa",
+  "alias": "Paretekawa",
+  "alias_type": "short form",
+  "note": "Napinapi listed as 'Paretekawa'; also 'Pare te Kawa'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A007",
+  "canonical_name": "Ngāti Paretekawa",
+  "alias": "Pare te Kawa",
+  "alias_type": "spacing",
+  "note": "",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A008",
+  "canonical_name": "Ngāti Rora",
+  "alias": "Rōrā",
+  "alias_type": "spelling",
+  "note": "",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A009",
+  "canonical_name": "Ngāti Ngutu",
+  "alias": "Ngutu",
+  "alias_type": "short form",
+  "note": "Mangatoatoa and Te Keeti listed as 'Ngutu (Ngāti Maniapoto)'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A010",
+  "canonical_name": "Ngāti Ahuru",
+  "alias": "Ahuru",
+  "alias_type": "short form",
+  "note": "Whakaaratamaiti listed as 'Ahuru'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A011",
+  "canonical_name": "Ngāti Matakore",
+  "alias": "Matakore",
+  "alias_type": "short form",
+  "note": "Kahotea listed as 'Matakore'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A012",
+  "canonical_name": "Ngāti Pourahui",
+  "alias": "Pourahui",
+  "alias_type": "short form",
+  "note": "",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A013",
+  "canonical_name": "Ngāti Kurahikakawa",
+  "alias": "Kurahikakawa",
+  "alias_type": "short form",
+  "note": "Waipapa-a-Iwi Mōhaka listed as 'Kurahikakawa'",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A014",
+  "canonical_name": "Te Whānau a Ruataupare",
+  "alias": "Te Whānau-a-Ruataupare",
+  "alias_type": "punctuation",
+  "note": "",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A015",
+  "canonical_name": "Ngāti Tū",
+  "alias": "Marangatuhetaua",
+  "alias_type": "also known as",
+  "note": "Māori Maps: 'Marangatuhetaua (also known as Ngāti Tū)' at Tangoio",
+  "source_id": "S03"
+ },
+ {
+  "alias_id": "A016",
+  "canonical_name": "Ngāti Kurī",
+  "alias": "Kurī Kino",
+  "alias_type": "variant",
+  "note": "Te Wai-iti listed as '(Ngāti Kurī) Kurī Kino'",
+  "source_id": "S03"
+ }
+]
