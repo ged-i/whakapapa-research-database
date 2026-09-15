@@ -163,3 +163,24 @@ CREATE TABLE tupuna_location (            -- a tupuna can point at many location
   source          TEXT
 );
 -- Later: Pātaka Whenua blocks (polygon) + block_owner(tupuna_id, block_id, share) join here.
+
+-- ---------------- Provenance: sources and claims ----------------
+CREATE TABLE source (
+  source_id   TEXT PRIMARY KEY, name TEXT NOT NULL, type TEXT, url TEXT, licence TEXT,
+  colour      TEXT, retrieved TEXT, weight_note TEXT
+);
+CREATE TABLE claim (                      -- one statement by one source; never merged
+  claim_id       TEXT PRIMARY KEY,
+  source_id      TEXT NOT NULL REFERENCES source(source_id),
+  subject_type   TEXT CHECK (subject_type IN ('Marae','Hapū','Iwi')),
+  subject_ref    TEXT NOT NULL, subject_detail TEXT,
+  relationship   TEXT CHECK (relationship IN ('has_hapu','belongs_to_iwi','has_waka','alias_of','located_at','other')),
+  object_ref     TEXT NOT NULL, object_detail TEXT,
+  page_url TEXT, retrieved TEXT, confidence TEXT CHECK (confidence IN ('stated','inferred','contested')), note TEXT
+);
+-- Conflicts: same subject + relationship, different objects across sources
+CREATE VIEW v_claim_conflicts AS
+SELECT a.subject_type, a.subject_ref, a.relationship, a.object_ref AS object_a, a.source_id AS source_a,
+       b.object_ref AS object_b, b.source_id AS source_b
+FROM claim a JOIN claim b ON a.subject_type=b.subject_type AND lower(a.subject_ref)=lower(b.subject_ref)
+ AND a.relationship=b.relationship AND a.source_id<b.source_id AND lower(a.object_ref)<>lower(b.object_ref);

@@ -1,0 +1,52 @@
+[
+ {
+  "source_id": "S01",
+  "name": "Te Kāhui Māngai (TKM)",
+  "type": "Government register",
+  "url": "https://www.tkm.govt.nz/",
+  "licence": "Crown copyright; check site",
+  "colour": "#b4432b",
+  "retrieved": "2026-09-16",
+  "weight_note": "Crown-recognised representative organisations; hapū/marae lists supplied by those organisations. The baseline layer on the map."
+ },
+ {
+  "source_id": "S02",
+  "name": "Te Puni Kōkiri marae layer",
+  "type": "Government GIS",
+  "url": "https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about",
+  "licence": "CC BY 4.0",
+  "colour": "#b4432b",
+  "retrieved": "live",
+  "weight_note": "Coordinates, hapū and iwi per marae; refreshed from TKM (last data edit Nov 2025). Loaded live, shown in kōkōwai red."
+ },
+ {
+  "source_id": "S03",
+  "name": "Māori Maps",
+  "type": "Community-curated",
+  "url": "https://maorimaps.com/",
+  "licence": "All rights reserved — cite, do not copy wholesale",
+  "colour": "#2f6fbf",
+  "retrieved": "",
+  "weight_note": "Te Potiki National Trust; fieldwork and marae-submitted updates. Records waka per marae. Entered by hand as citations."
+ },
+ {
+  "source_id": "S04",
+  "name": "Te Ara",
+  "type": "Encyclopaedia",
+  "url": "https://teara.govt.nz/",
+  "licence": "CC BY-NC 3.0 NZ",
+  "colour": "#8a5bc4",
+  "retrieved": "",
+  "weight_note": "Iwi histories and waka traditions."
+ },
+ {
+  "source_id": "S05",
+  "name": "Whānau records",
+  "type": "Whānau / oral",
+  "url": "",
+  "licence": "private",
+  "colour": "#d9a21b",
+  "retrieved": "",
+  "weight_note": "Kōrero, whakapapa books, MLC minute books held by whānau. Highest weight for our own lines; not for publication."
+ }
+]

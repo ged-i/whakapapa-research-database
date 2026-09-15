@@ -59,3 +59,14 @@ Entries are saved in the browser. **Export JSON** gives a file you can commit as
 `Tupuna_Location.csv` in exactly the columns of the two matching sheets in the workbook, so the
 spreadsheet remains the master record. Pātaka Whenua block boundaries and owner lists are the
 planned next layer (see `tkm_schema.sql`).
+
+## Sources and claims (provenance)
+
+Nothing from outside the live TPK layer is merged into it. Information from Māori Maps, Te Ara,
+whānau records or any other source is stored as **claims** — one row per statement, attributed
+to a **source** with its own colour (`Source` and `Claim` sheets; `docs/data/sources.json`,
+`docs/data/claims.json`). On the map each source can be switched on or off; marae that other
+sources describe get a coloured ring; a marae card shows what each source says side by side and
+flags where they differ; the Sources tab lists every conflict. Claims can be added from a marae
+card and exported as JSON/CSV in the sheet's columns. Māori Maps is all-rights-reserved: enter
+citations by hand, never bulk-copy.

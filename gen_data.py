@@ -64,3 +64,10 @@ if "Tupuna" in wb.sheetnames:
                 tup[l["tupuna_id"]]["links"].append(l)
 (out / "tupuna.json").write_text(json.dumps(list(tup.values()), ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"wrote {len(tup)} tupuna")
+
+# ---- provenance ----
+src = [{k: ("" if v is None else v) for k, v in r.items()} for r in rows("Source")] if "Source" in wb.sheetnames else []
+clm = [{k: ("" if v is None else v) for k, v in r.items()} for r in rows("Claim")] if "Claim" in wb.sheetnames else []
+(out / "sources.json").write_text(json.dumps(src, ensure_ascii=False, indent=1), encoding="utf-8")
+(out / "claims.json").write_text(json.dumps(clm, ensure_ascii=False, indent=1), encoding="utf-8")
+print(f"wrote {len(src)} sources, {len(clm)} claims")

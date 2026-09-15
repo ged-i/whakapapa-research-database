@@ -132,6 +132,33 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .leaflet-marker-icon.place-pin{background:var(--kowhai);border:2px solid #fff;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.4)}
 .leaflet-tooltip.tlabel{background:var(--ink);color:var(--bone);border:0;font-family:var(--sans);font-size:12px;border-radius:6px;padding:3px 8px}
 
+/* sources & claims */
+#panel[data-tab="sources"] .search,#panel[data-tab="sources"] .filters,#panel[data-tab="sources"] .status,#panel[data-tab="sources"] #results,#panel[data-tab="sources"] #summary{display:none}
+#panel[data-tab="marae"] #sourcesView,#panel[data-tab="tupuna"] #sourcesView{display:none}
+#panel[data-tab="sources"] #tupunaView{display:none}
+#sourcesView{flex:1;overflow-y:auto;scrollbar-color:var(--ink-3) transparent;display:flex;flex-direction:column}
+.src-row{display:flex;gap:10px;align-items:flex-start;padding:9px 22px;border-top:1px solid var(--ink-3)}
+.src-row input{margin-top:4px;accent-color:var(--kowhai)}
+.sw{width:12px;height:12px;border-radius:50%;flex:none;margin-top:5px;border:2px solid transparent}
+.sw.ring{background:transparent!important}
+.src-row .sbody{flex:1;min-width:0}
+.src-row .sname{font-weight:600}
+.src-row .smeta{color:var(--mist);font-size:12px}
+.bysrc{margin-top:6px}
+.bysrc .sblock{border-left:3px solid;padding:6px 10px;margin:6px 0;border-radius:0 8px 8px 0;background:var(--ink-2)}
+.bysrc .stitle{font-weight:600;font-size:13px;display:flex;justify-content:space-between;gap:8px}
+.bysrc .stitle a{color:var(--mist);font-weight:400;font-size:12px}
+.bysrc .cl{font-size:13px;margin-top:3px}
+.bysrc .cl .rel{color:var(--mist)}
+.bysrc .cl .x{background:none;border:0;color:var(--muted);cursor:pointer;padding:0 4px;font-size:14px}
+.conf{display:inline-block;background:var(--kowhai);color:var(--ink);border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;margin-left:4px;vertical-align:middle}
+.conf-row{padding:9px 22px;border-top:1px solid var(--ink-3);font-size:13px}
+.conf-row button{background:none;border:0;color:var(--bone);font:inherit;font-weight:600;padding:0;cursor:pointer;text-align:left;font-family:var(--serif);font-size:16px}
+.conf-row button:hover{color:var(--kowhai)}
+.conf-row .cv{margin-top:3px}
+.conf-row .cv span{display:inline-block;border-left:3px solid;padding-left:6px;margin:2px 10px 2px 0}
+.h3s{margin:14px 22px 6px;font-size:13px;font-weight:600;color:var(--mist)}
+
 /* ---------- map ---------- */
 #map{flex:1;height:100%;background:#dfe6e2}
 .leaflet-container{font-family:var(--sans)}
@@ -182,6 +209,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
   <div class="tabs" role="tablist">
     <button id="tabMarae" class="on" role="tab" onclick="setTab('marae')">Marae</button>
     <button id="tabTupuna" role="tab" onclick="setTab('tupuna')">Tupuna</button>
+    <button id="tabSources" role="tab" onclick="setTab('sources')">Sources</button>
   </div>
 
   <div class="search">
@@ -212,6 +240,15 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     </div>
     <div id="tupunaBody"></div>
     <div class="storenote">Tupuna and links are saved in this browser. Export JSON to keep a copy or to commit to the repo as docs/data/tupuna.json. <button onclick="resetStore()">Reload from repo</button></div>
+  </div>
+  <div id="sourcesView">
+    <div class="tbar">
+      <button class="btn quiet" onclick="exportClaims()">Export claims JSON</button>
+      <label class="btn quiet" style="cursor:pointer">Import<input type="file" accept="application/json" style="display:none" onchange="importClaims(this)"></label>
+      <button class="btn quiet" onclick="exportClaimsCsv()">Export CSV</button>
+    </div>
+    <div id="sourcesBody"></div>
+    <div class="storenote">Claims you add are saved in this browser. Export JSON and commit it as docs/data/claims.json to keep them in the repo. <button onclick="resetClaims()">Reload from repo</button></div>
   </div>
 </aside>
 <div id="pickmode" class="pickmode">Click the map to set this place — press Esc to cancel</div>
@@ -250,6 +287,9 @@ let roheLayer = L.layerGroup();
 // whakapapa layer
 const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaLayer=L.layerGroup(); let tab='marae';
 let pickCb=null;
+// provenance
+const CSTORE='wrd.claims.v1'; let sources=[], claims=[], sourceOn={}; const claimLayer=L.layerGroup();
+const RELS={has_hapu:'hapū',belongs_to_iwi:'belongs to iwi',has_waka:'waka',alias_of:'also known as',located_at:'located at',other:'note'};
 
 // ---------- map ----------
 const map = L.map('map',{zoomControl:true, preferCanvas:true}).setView([-40.9,174.9],6);
@@ -257,7 +297,7 @@ map.zoomControl.setPosition('bottomright');
 const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
 const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
 const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
-light.addTo(map); labels.addTo(map); roheLayer.addTo(map); tupunaLayer.addTo(map);
+light.addTo(map); labels.addTo(map); roheLayer.addTo(map); tupunaLayer.addTo(map); claimLayer.addTo(map);
 document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
 function toggleBm(b){document.querySelectorAll('.basemap button').forEach(x=>x.classList.toggle('on',x===b))}
@@ -284,12 +324,17 @@ async function fetchAll(url, params){
 
 async function init(){
   try{
-    const [iwiJ, regJ, marae, tupJ] = await Promise.all([
+    const [iwiJ, regJ, marae, tupJ, srcJ, clmJ] = await Promise.all([
       fetch('data/iwi.json').then(r=>r.json()).catch(()=>[]),
       fetch('data/regions.json').then(r=>r.json()).catch(()=>({})),
       fetchAll(MARAE_URL,{where:'1=1', outFields:'*', outSR:4326}),
-      fetch('data/tupuna.json').then(r=>r.json()).catch(()=>[])
+      fetch('data/tupuna.json').then(r=>r.json()).catch(()=>[]),
+      fetch('data/sources.json').then(r=>r.json()).catch(()=>[]),
+      fetch('data/claims.json').then(r=>r.json()).catch(()=>[])
     ]);
+    sources=srcJ; sources.forEach(x=>sourceOn[x.source_id]=true);
+    try{ const lc=localStorage.getItem(CSTORE); claims = lc ? JSON.parse(lc) : clmJ; }catch{ claims=clmJ; }
+    window._repoClaims=clmJ;
     iwiList = iwiJ; regionsById = regJ;
     try{ const local=localStorage.getItem(STORE); tupuna = local ? JSON.parse(local) : normalizeTupuna(tupJ); }catch{ tupuna = normalizeTupuna(tupJ); }
     window._repoTupuna = tupJ;
@@ -301,7 +346,7 @@ async function init(){
       return {id:p.FID??p.GIS_MID, lat, lng, p, iwiNames, hapu, matched,
               hay: norm([p.Name,p.Alternate,p.Wharenui,p.Location,p.Iwi,p.Hapu,p.TPK_Region,p.Region].join(' '))};
     });
-    buildFilters(); render(); renderTupuna();
+    buildFilters(); render(); renderTupuna(); renderSources();
     document.getElementById('loading').classList.add('hide');
   }catch(err){
     document.getElementById('loading').innerHTML = `<div class="errbox"><strong>The marae layer didn't load.</strong><br>${esc(err.message)}. Te Puni Kōkiri's ArcGIS service may be briefly unavailable.<br><button onclick="location.reload()">Try again</button></div>`;
@@ -317,9 +362,9 @@ function matchIwi(name){
 function buildFilters(){
   const regs=[...new Set(features.map(f=>f.p.TPK_Region).filter(Boolean))].sort();
   const fr=document.getElementById('fRegion'); regs.forEach(r=>fr.append(new Option(r,r)));
-  const iwis=[...new Set(features.flatMap(f=>f.iwiNames))].sort((a,b)=>a.localeCompare(b));
+  const iwis=[...new Set([...features.flatMap(f=>f.iwiNames), ...claims.filter(c=>c.relationship==='belongs_to_iwi').map(c=>c.object_ref)])].sort((a,b)=>a.localeCompare(b));
   const fi=document.getElementById('fIwi'); iwis.forEach(i=>fi.append(new Option(i,i)));
-  const hapus=[...new Set(features.flatMap(f=>f.hapu))].sort((a,b)=>a.localeCompare(b));
+  const hapus=[...new Set([...features.flatMap(f=>f.hapu), ...claims.filter(c=>c.relationship==='has_hapu').map(c=>c.object_ref)])].sort((a,b)=>a.localeCompare(b));
   const fh=document.getElementById('fHapu'); hapus.forEach(h=>fh.append(new Option(h,h)));
   ['q','fRegion','fIwi','fHapu'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); }));
   document.getElementById('csv').onclick = downloadCsv;
@@ -328,7 +373,8 @@ function buildFilters(){
 // ---------- rendering ----------
 function render(){
   const q=norm(document.getElementById('q').value), reg=document.getElementById('fRegion').value, iwi=document.getElementById('fIwi').value, hapu=document.getElementById('fHapu').value;
-  filtered = features.filter(f => (!q||f.hay.includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)) && (!hapu||f.hapu.includes(hapu)));
+  filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && (!reg||f.p.TPK_Region===reg) && (!iwi||f.iwiNames.includes(iwi)||claimsFor(f,'belongs_to_iwi').some(c=>c.object_ref===iwi)) && (!hapu||f.hapu.includes(hapu)||claimsFor(f,'has_hapu').some(c=>norm(c.object_ref)===norm(hapu))));
+  drawClaimRings();
   renderSummary(iwi,hapu);
   filtered.sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
   // markers
@@ -396,12 +442,13 @@ function showDetail(f){
     <div class="section"><h3>Hapū</h3>${f.hapu.length?f.hapu.map(h=>`<button class="pill link" title="Show all marae of ${esc(h)}" onclick="filterHapu('${esc(h).replace(/'/g,"\\'")}')">${esc(h)}</button>`).join(''):'<span style="color:var(--mist)">Not recorded</span>'}</div>
     <div class="section"><h3>Iwi and representative organisations</h3>${iwiHtml}
       <label class="rohe-toggle"><input type="checkbox" id="roheChk" ${roheOn?'checked':''}> Show this iwi's area of interest on the map</label></div>
+    <div class="section"><h3>What each source says</h3><div class="bysrc" id="bySrc"></div><div id="claimForm"></div></div>
     <div class="section"><h3>Tupuna connected to this marae</h3><div class="tupuna-here" id="tupunaHere"></div></div>
     ${p.Comments?`<div class="section"><h3>Notes</h3>${esc(p.Comments)}</div>`:''}
     <p class="note">${p.Source?`Source: ${esc(p.Source)}. `:''}${p.TKM_MID?`Te Kāhui Māngai marae ID ${esc(p.TKM_MID)}. `:''}Contact details are published by each organisation at its discretion; check the Te Kāhui Māngai page for the latest.</p>`;
   d.classList.add('show'); panel.classList.add('detail-mode'); d.scrollTop=0;
   document.getElementById('roheChk').onchange = e=>{roheOn=e.target.checked; drawRohe(f)};
-  renderTupunaHere(f);
+  renderTupunaHere(f); renderBySource(f);
 }
 window.closeDetail = function(){
   document.getElementById('detail').classList.remove('show'); document.getElementById('panel').classList.remove('detail-mode');
@@ -447,7 +494,9 @@ function renderSummary(iwi,hapu){
     box.innerHTML=`<button class="clear" onclick="clearFilter('fHapu')">clear hapū</button><strong>${esc(hapu)}</strong>
       ${filtered.length} marae${iwi?` under ${esc(iwi)}`:''}, across ${iwiC.length} iwi${regC.length>1?` and ${regC.length} regions`:''}.
       <div class="chips">${iwiC.map(([n,c])=>`<button class="chip ${n===iwi?'on':''}" onclick="setFilter('fIwi','${esc(n).replace(/'/g,"\\'")}')" title="Show only this iwi">${esc(n)} · ${c}</button>`).join('')}</div>`;
-    if(!selected&&!selectedTupuna) drawRoheByNames(iwiC.map(x=>x[0]), false);
+    const other=claims.filter(c=>c.subject_type==='Hapū'&&c.relationship==='belongs_to_iwi'&&norm(c.subject_ref)===norm(hapu)&&sourceOn[c.source_id]);
+    if(other.length) box.innerHTML+=`<div style="margin-top:8px;font-size:12px;color:var(--mist)">Other sources: ${other.map(c=>{const S=srcOf(c.source_id);return `<span style="border-left:3px solid ${S.colour};padding-left:5px;color:var(--bone)">${esc(S.name)} → ${esc(c.object_ref)}${iwiC.some(([n])=>norm(n)===norm(c.object_ref))?'':'<span class="conf">differs</span>'}</span>`;}).join(' ')}</div>`;
+    if(!selected&&!selectedTupuna) drawRoheByNames([...new Set([...iwiC.map(x=>x[0]),...other.map(c=>c.object_ref)])], false);
   } else {
     const hapC=counts(filtered.flatMap(f=>f.hapu));
     box.innerHTML=`<button class="clear" onclick="clearFilter('fIwi')">clear iwi</button><strong>${esc(iwi)}</strong>${filtered.length} marae, ${hapC.length} hapū named.
@@ -459,15 +508,91 @@ window.setFilter=function(id,val){ const el=document.getElementById(id); if(id==
 window.filterHapu=function(h){ map.closePopup(); closeDetail(); document.getElementById('q').value=''; document.getElementById('fIwi').value=''; document.getElementById('fHapu').value=h; roheLayer.clearLayers(); render(); document.getElementById('summary').scrollIntoView({block:'nearest'}); };
 window.clearFilter=function(id){ document.getElementById(id).value=''; if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); };
 
+// ================= sources & claims =================
+function srcOf(id){ return sources.find(x=>x.source_id===id)||{source_id:id,name:id,colour:'#999'}; }
+function saveClaims(){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); }catch{} }
+function maraeFor(name, detail){ const k=norm(name); const c=features.filter(f=>norm(f.p.Name)===k||norm(f.p.Alternate||'')===k); if(c.length>1&&detail){ const d=norm(detail); const x=c.find(f=>norm(f.p.Location)===d); if(x) return x; } return c[0]||null; }
+function claimsFor(f, rel){ return claims.filter(c=>c.subject_type==='Marae'&&(!rel||c.relationship===rel)&&sourceOn[c.source_id]&&maraeFor(c.subject_ref,c.subject_detail)===f); }
+function claimHay(f){ return norm(claimsFor(f).map(c=>c.object_ref+' '+c.object_detail).join(' ')); }
+function hapuIwiTPK(h){ const k=norm(h); return new Set(features.filter(f=>f.hapu.some(x=>norm(x)===k)).flatMap(f=>f.iwiNames.map(norm))); }
+
+// rings around marae that other sources talk about
+function drawClaimRings(){
+  claimLayer.clearLayers(); const bySrc=new Map();
+  claims.forEach(c=>{ if(c.subject_type!=='Marae'||!sourceOn[c.source_id]) return; const S=srcOf(c.source_id); if(S.source_id==='S01'||S.source_id==='S02') return; const f=maraeFor(c.subject_ref,c.subject_detail); if(!f||!filtered.includes(f)) return; const key=f.id; if(!bySrc.has(key)) bySrc.set(key,{f,srcs:new Set()}); bySrc.get(key).srcs.add(S.source_id); });
+  bySrc.forEach(({f,srcs})=>{ let r=11; srcs.forEach(id=>{ L.circleMarker([f.lat,f.lng],{radius:r,color:srcOf(id).colour,weight:2.5,fill:false,interactive:false}).addTo(claimLayer); r+=4; }); });
+}
+
+// conflicts: claims that differ from the TPK baseline or from each other
+function conflicts(){
+  const out=[];
+  claims.filter(c=>sourceOn[c.source_id]).forEach(c=>{
+    const S=srcOf(c.source_id);
+    if(c.subject_type==='Marae'){ const f=maraeFor(c.subject_ref,c.subject_detail);
+      if(!f) out.push({kind:'unmatched',subject:c.subject_ref,type:'Marae',text:`Not found on the TPK layer`,src:S,claim:c});
+      else if(c.relationship==='belongs_to_iwi'&&!f.iwiNames.some(n=>norm(n)===norm(c.object_ref))) out.push({kind:'iwi',subject:f.p.Name,type:'Marae',f,text:`iwi`,a:{who:'TPK',v:f.iwiNames.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c});
+      else if(c.relationship==='has_hapu'&&!f.hapu.some(n=>norm(n)===norm(c.object_ref))) out.push({kind:'hapu',subject:f.p.Name,type:'Marae',f,text:`hapū`,a:{who:'TPK',v:f.hapu.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c});
+      if(c.relationship==='has_hapu'&&c.object_detail&&f){ const claimedIwi=c.object_detail; if(!f.iwiNames.some(n=>norm(n)===norm(claimedIwi))) out.push({kind:'hapu-iwi',subject:f.p.Name,type:'Marae',f,text:`${c.object_ref} placed under`,a:{who:'TPK',v:f.iwiNames.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:claimedIwi,colour:S.colour},claim:c}); }
+    }
+    if(c.subject_type==='Hapū'&&c.relationship==='belongs_to_iwi'){ const t=hapuIwiTPK(c.subject_ref); if(t.size&&!t.has(norm(c.object_ref))) out.push({kind:'hapu-iwi',subject:c.subject_ref,type:'Hapū',text:`iwi of hapū`,a:{who:'TPK',v:[...new Set(features.filter(f=>f.hapu.some(x=>norm(x)===norm(c.subject_ref))).flatMap(f=>f.iwiNames))].join(', '),colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c}); }
+  });
+  // source vs source
+  const groups=new Map(); claims.filter(c=>sourceOn[c.source_id]&&c.relationship!=='other').forEach(c=>{ const k=c.subject_type+'|'+norm(c.subject_ref)+'|'+c.relationship; (groups.get(k)||groups.set(k,[]).get(k)).push(c); });
+  groups.forEach(g=>{ const bySrc=new Map(); g.forEach(c=>(bySrc.get(c.source_id)||bySrc.set(c.source_id,new Set()).get(c.source_id)).add(norm(c.object_ref))); const ids=[...bySrc.keys()]; for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){ const A=bySrc.get(ids[i]),B=bySrc.get(ids[j]); if(![...A].some(x=>B.has(x))) { const c=g[0]; out.push({kind:'src',subject:c.subject_ref,type:c.subject_type,f:c.subject_type==='Marae'?maraeFor(c.subject_ref,c.subject_detail):null,text:RELS[c.relationship],a:{who:srcOf(ids[i]).name,v:g.filter(x=>x.source_id===ids[i]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[i]).colour},b:{who:srcOf(ids[j]).name,v:g.filter(x=>x.source_id===ids[j]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[j]).colour},claim:c}); } } });
+  return out;
+}
+
+function renderSources(){
+  const body=document.getElementById('sourcesBody'); if(!body) return;
+  const counts=new Map(); claims.forEach(c=>counts.set(c.source_id,(counts.get(c.source_id)||0)+1));
+  const conf=conflicts();
+  body.innerHTML=`<div class="h3s">Sources — tick to show on the map</div>`+sources.map(S=>`<label class="src-row"><input type="checkbox" ${sourceOn[S.source_id]?'checked':''} onchange="toggleSource('${esc(S.source_id)}',this.checked)"><span class="sw ${S.source_id==='S01'||S.source_id==='S02'?'':'ring'}" style="background:${esc(S.colour)};border-color:${esc(S.colour)}"></span><div class="sbody"><div class="sname">${esc(S.name)}</div><div class="smeta">${esc(S.type)}${S.licence?` · ${esc(S.licence)}`:''}${S.source_id==='S02'?' · live baseline':` · ${counts.get(S.source_id)||0} claims`}${S.url?` · <a href="${esc(S.url)}" target="_blank" rel="noopener">site</a>`:''}</div>${S.weight_note?`<div class="smeta" style="margin-top:2px">${esc(S.weight_note)}</div>`:''}</div></label>`).join('')
+  +`<div class="h3s">Conflicts and differences (${conf.length})</div>`+(conf.length?conf.map(x=>`<div class="conf-row"><button onclick="${x.f?`setTab('marae');select(${JSON.stringify(x.f.id)})`:(x.type==='Hapū'?`filterHapu('${esc(x.subject).replace(/'/g,"\\\\'")}')`:'')}">${esc(x.subject)}</button> <span style="color:var(--mist)">${esc(x.type)} · ${esc(x.text)}</span>${x.a?`<div class="cv"><span style="border-color:${x.a.colour}">${esc(x.a.who)}: ${esc(x.a.v)}</span><span style="border-color:${x.b.colour}">${esc(x.b.who)}: ${esc(x.b.v)}</span></div>`:`<div class="cv"><span style="border-color:${x.src.colour}">${esc(x.src.name)}: ${esc(x.claim.subject_ref)}${x.claim.subject_detail?` (${esc(x.claim.subject_detail)})`:''}</span></div>`}</div>`).join(''):'<div class="empty">No differences between the sources currently shown.</div>');
+}
+window.toggleSource=function(id,on){ sourceOn[id]=on; render(); renderSources(); if(selected) renderBySource(selected); };
+
+function renderBySource(f){
+  const host=document.getElementById('bySrc'); if(!host) return;
+  const mine=claims.filter(c=>c.subject_type==='Marae'&&maraeFor(c.subject_ref,c.subject_detail)===f);
+  const conf=conflicts().filter(x=>x.f===f);
+  const blocks=[`<div class="sblock" style="border-color:#b4432b"><div class="stitle">Te Puni Kōkiri / TKM <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">baseline</a></div><div class="cl"><span class="rel">hapū</span> ${esc(f.hapu.join(', ')||'—')}</div><div class="cl"><span class="rel">iwi</span> ${esc(f.iwiNames.join(', ')||'—')}</div></div>`];
+  const bySrc=new Map(); mine.forEach(c=>(bySrc.get(c.source_id)||bySrc.set(c.source_id,[]).get(c.source_id)).push(c));
+  bySrc.forEach((cs,id)=>{ const S=srcOf(id); const hidden=!sourceOn[id];
+    blocks.push(`<div class="sblock" style="border-color:${esc(S.colour)};${hidden?'opacity:.45':''}"><div class="stitle">${esc(S.name)}${cs[0].page_url?` <a href="${esc(cs[0].page_url)}" target="_blank" rel="noopener">cited page</a>`:''}</div>${cs.map(c=>{const isConf=conf.some(x=>x.claim===c); return `<div class="cl"><span class="rel">${esc(RELS[c.relationship]||c.relationship)}</span> ${esc(c.object_ref)}${c.object_detail?` <span class="rel">(${esc(c.object_detail)})</span>`:''}${isConf?'<span class="conf">differs from TPK</span>':''}<button class="x" title="Remove this claim" onclick="removeClaim('${esc(c.claim_id)}')">×</button>${c.note?`<div class="rel" style="font-size:12px">${esc(c.note)}</div>`:''}</div>`;}).join('')}</div>`); });
+  host.innerHTML=blocks.join('')+`<button class="btn small" style="margin-top:8px" onclick="claimForm(${JSON.stringify(f.id)})">Add what another source says</button>`;
+}
+window.claimForm=function(fid){
+  const f=features.find(x=>x.id==fid); const host=document.getElementById('claimForm'); if(!f||!host) return;
+  const src=sources.filter(S=>S.source_id!=='S01'&&S.source_id!=='S02');
+  host.innerHTML=`<form class="f" onsubmit="return saveClaim(event,${JSON.stringify(f.id)})">
+    <label>Source<select name="src">${src.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('')}</select></label>
+    <label>Says that this marae…<select name="rel"><option value="has_hapu">has hapū</option><option value="belongs_to_iwi">belongs to iwi</option><option value="has_waka">has waka</option><option value="alias_of">is also known as</option><option value="other">other note</option></select></label>
+    <label>Name (hapū / iwi / waka / other name)<input name="obj" required></label>
+    <label>Detail, e.g. the iwi the source puts that hapū under<input name="det"></label>
+    <label>Page URL<input name="url" type="url" placeholder="https://"></label>
+    <div class="row2"><label>Confidence<select name="conf"><option>stated</option><option>inferred</option><option>contested</option></select></label><label>Retrieved<input name="ret" type="date" value="${new Date().toISOString().slice(0,10)}"></label></div>
+    <label>Note<input name="note"></label>
+    <div class="actions"><button class="btn" type="submit">Save claim</button><button class="btn quiet" type="button" onclick="document.getElementById('claimForm').innerHTML=''">Cancel</button></div></form>`;
+  host.querySelector('input[name=obj]').focus();
+};
+window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
+  claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
+  saveClaims(); document.getElementById('claimForm').innerHTML=''; renderBySource(f); drawClaimRings(); return false; };
+window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
+window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
+window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_type','subject_ref','subject_detail','relationship','object_ref','object_detail','page_url','retrieved','confidence','note']; download('Claim.csv', csvRows(cols, claims.map(c=>cols.map(k=>c[k]))), 'text/csv'); };
+window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
+window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; render(); renderSources(); };
+
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
 const TYPES=['Marae','Hapū','Iwi','Place'];
 function normalizeTupuna(list){ return (list||[]).map(t=>({...t, links:(t.links||[]).map(l=>({...l, latitude:l.latitude===''?null:l.latitude, longitude:l.longitude===''?null:l.longitude}))})); }
 function saveStore(){ try{ localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} }
-function nextId(prefix, arr, key){ let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(3,'0'))) n++; return prefix+String(n).padStart(3,'0'); }
+function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
-window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; document.getElementById('tabMarae').classList.toggle('on',t==='marae'); document.getElementById('tabTupuna').classList.toggle('on',t==='tupuna');
+window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; ['marae','tupuna','sources'].forEach(k=>document.getElementById('tab'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',t===k)); if(t==='sources') renderSources();
   if(t==='tupuna'){ closeDetail(); } else { selectedTupuna=null; tupunaLayer.clearLayers(); roheLayer.clearLayers(); render(); } };
 
 // ---- matching links to map features ----
