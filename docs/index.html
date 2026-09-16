@@ -272,9 +272,9 @@ const AOI_URL   = 'https://services2.arcgis.com/97skzKG31fDSvRnN/ArcGIS/rest/ser
 
 // ---------- helpers ----------
 let hapuAliasMap = new Map();  // foldKey(alias) -> foldKey(canonical)
-const fold = s => (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/([aeiou])\1/g,'$1').replace(/[^a-z0-9]/g,'');
+const _foldC=new Map(); const fold = s => { s=s||''; let v=_foldC.get(s); if(v===undefined){ v=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/([aeiou])\1/g,'$1').replace(/[^a-z0-9]/g,''); _foldC.set(s,v);} return v; };
 const hapuKey = s => { const k=fold(s); return hapuAliasMap.get(k)||k; };
-const norm = s => (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const _normC=new Map(); const norm = s => { s=s||''; let v=_normC.get(s); if(v===undefined){ v=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,''); _normC.set(s,v);} return v; };
 const esc  = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const splitNames = s => (s||'').split(/[;,]|\s+&\s+/).map(x=>x.trim()).filter(Boolean);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -354,7 +354,7 @@ async function init(){
       return {id:p.FID??p.GIS_MID, lat, lng, p, iwiNames, hapu, matched,
               hay: norm([p.Name,p.Alternate,p.Wharenui,p.Location,p.Iwi,p.Hapu,p.TPK_Region,p.Region].join(' '))};
     });
-    buildFilters(); render(); renderTupuna(); renderSources();
+    buildNameIndex(); indexClaims(); buildFilters(); render(); renderTupuna(); renderSources();
     document.getElementById('loading').classList.add('hide');
   }catch(err){
     document.getElementById('loading').innerHTML = `<div class="errbox"><strong>The marae layer didn't load.</strong><br>${esc(err.message)}. Te Puni Kōkiri's ArcGIS service may be briefly unavailable.<br><button onclick="location.reload()">Try again</button></div>`;
@@ -528,10 +528,14 @@ window.clearFilter=function(id){ document.getElementById(id).value=''; if(!selec
 // ================= sources & claims =================
 function srcOf(id){ return sources.find(x=>x.source_id===id)||{source_id:id,name:id,colour:'#999'}; }
 function saveClaims(){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); }catch{} }
-function maraeFor(name, detail){ const k=norm(name); const c=features.filter(f=>norm(f.p.Name)===k||norm(f.p.Alternate||'')===k); if(c.length>1&&detail){ const d=norm(detail); const x=c.find(f=>norm(f.p.Location)===d); if(x) return x; } return c[0]||null; }
-function claimsFor(f, rel){ return claims.filter(c=>c.subject_type==='Marae'&&(!rel||c.relationship===rel)&&sourceOn[c.source_id]&&maraeFor(c.subject_ref,c.subject_detail)===f); }
+let nameIndex=new Map(), claimsByFeature=new Map(), iwiWakaClaims=[], hapuIwiIndex=new Map();
+function buildNameIndex(){ nameIndex=new Map(); const add=(k,f)=>{ if(!k) return; (nameIndex.get(k)||nameIndex.set(k,[]).get(k)).push(f); }; features.forEach(f=>{ add(norm(f.p.Name),f); const a=norm(f.p.Alternate||''); if(a&&a!==norm(f.p.Name)) add(a,f); });
+  hapuIwiIndex=new Map(); features.forEach(f=>f.hapu.forEach(h=>{ const k=hapuKey(h); const S=hapuIwiIndex.get(k)||hapuIwiIndex.set(k,{iwi:new Set(),names:new Set(),feats:[]}).get(k); f.iwiNames.forEach(n=>{S.iwi.add(norm(n)); S.names.add(n);}); S.feats.push(f); })); }
+function maraeFor(name, detail){ const c=nameIndex.get(norm(name))||[]; if(c.length>1&&detail){ const d=norm(detail); const x=c.find(f=>norm(f.p.Location)===d); if(x) return x; } return c[0]||null; }
+function indexClaims(){ _confCache=null; claimsByFeature=new Map(); iwiWakaClaims=[]; claims.forEach(c=>{ c._f=null; if(c.subject_type==='Marae'){ c._f=maraeFor(c.subject_ref,c.subject_detail); if(c._f) (claimsByFeature.get(c._f.id)||claimsByFeature.set(c._f.id,[]).get(c._f.id)).push(c); } else if(c.subject_type==='Iwi'&&c.relationship==='has_waka'){ iwiWakaClaims.push(c); } }); }
+function claimsFor(f, rel){ return (claimsByFeature.get(f.id)||[]).filter(c=>(!rel||c.relationship===rel)&&sourceOn[c.source_id]); }
 function claimHay(f){ return norm(claimsFor(f).map(c=>c.object_ref+' '+c.object_detail).join(' ')); }
-function hapuIwiTPK(h){ const k=hapuKey(h); return new Set(features.filter(f=>f.hapu.some(x=>hapuKey(x)===k)).flatMap(f=>f.iwiNames.map(norm))); }
+function hapuIwiTPK(h){ const e=hapuIwiIndex.get(hapuKey(h)); return e?e.iwi:new Set(); }
 
 function popupWaka(f){ const wk=wakaOf(f); if(!wk.size) return ''; return `<div class="phapu pwaka">${[...wk].map(([w,ss])=>{const S=[...ss][0].replace(/ \(via.*$/,''); const col=(sources.find(x=>x.name===S)||{}).colour||'#2f6fbf'; return `<button class="ppill waka" style="border-color:${col}" title="${esc([...ss].join('; '))}" onclick="setFilter('fWaka','${esc(w).replace(/'/g,"\\'")}')">${esc(w)} waka</button>`;}).join('')}</div>`; }
 let hapuGroups=new Map();
@@ -545,36 +549,37 @@ function buildHapuGroups(){
 function hapuLabel(name){ const g=hapuGroups.get(hapuKey(name)); return g?g.label:name; }
 function wakaOf(f){ // {waka -> Set(source names)} from marae-level and iwi-level claims
   const out=new Map(); const add=(w,S,via)=>{ if(!out.has(w)) out.set(w,new Set()); out.get(w).add(S.name+(via?` (via ${via})`:'')); };
-  claims.forEach(c=>{ if(c.relationship!=='has_waka'||!sourceOn[c.source_id]) return; const S=srcOf(c.source_id);
-    if(c.subject_type==='Marae'&&maraeFor(c.subject_ref,c.subject_detail)===f) add(c.object_ref,S,'');
-    else if(c.subject_type==='Iwi'&&f.matched.some(i=>norm(i.name)===norm(c.subject_ref)||norm(i.name).startsWith(norm(c.subject_ref)))) add(c.object_ref,S,c.subject_ref); });
+  claimsFor(f,'has_waka').forEach(c=>add(c.object_ref,srcOf(c.source_id),''));
+  iwiWakaClaims.forEach(c=>{ if(!sourceOn[c.source_id]) return; const k=norm(c.subject_ref); if(f.matched.some(i=>norm(i.name)===k||norm(i.name).startsWith(k))) add(c.object_ref,srcOf(c.source_id),c.subject_ref); });
   return out; }
 function rebuildHapu(){ buildHapuGroups(); const fh=document.getElementById('fHapu'); const cur=fh.value; fh.innerHTML='<option value="">All hapū</option>'; [...hapuGroups.values()].sort((a,b)=>a.label.localeCompare(b.label)).forEach(g=>{ const o=new Option(g.spellings.length>1?`${g.label} (${g.spellings.length} spellings)`:g.label, g.key); o.title=g.spellings.map(v=>`${v.name} — ${v.srcs.join(', ')}`).join('\n'); fh.append(o); }); fh.value=cur; }
 function rebuildWaka(){ const fw=document.getElementById('fWaka'); const cur=fw.value; fw.innerHTML='<option value="">All waka</option>'; [...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().forEach(w=>fw.append(new Option(w,w))); fw.value=cur; }
 // rings around marae that other sources talk about
 function drawClaimRings(){
   claimLayer.clearLayers(); const bySrc=new Map();
-  claims.forEach(c=>{ if(c.subject_type!=='Marae'||!sourceOn[c.source_id]) return; const S=srcOf(c.source_id); if(S.source_id==='S01'||S.source_id==='S02') return; const f=maraeFor(c.subject_ref,c.subject_detail); if(!f||!filtered.includes(f)) return; const key=f.id; if(!bySrc.has(key)) bySrc.set(key,{f,srcs:new Set()}); bySrc.get(key).srcs.add(S.source_id); });
+  filtered.forEach(f=>{ const cs=claimsFor(f); cs.forEach(c=>{ if(c.source_id==='S01'||c.source_id==='S02') return; if(!bySrc.has(f.id)) bySrc.set(f.id,{f,srcs:new Set()}); bySrc.get(f.id).srcs.add(c.source_id); }); });
   bySrc.forEach(({f,srcs})=>{ let r=11; srcs.forEach(id=>{ L.circleMarker([f.lat,f.lng],{radius:r,color:srcOf(id).colour,weight:2.5,fill:false,interactive:false}).addTo(claimLayer); r+=4; }); });
 }
 
 // conflicts: claims that differ from the TPK baseline or from each other
+let _confCache=null, _confKey='';
 function conflicts(){
+  const key=JSON.stringify(sourceOn)+'|'+claims.length; if(_confCache&&_confKey===key) return _confCache;
   const out=[];
   claims.filter(c=>sourceOn[c.source_id]).forEach(c=>{
     const S=srcOf(c.source_id);
-    if(c.subject_type==='Marae'){ const f=maraeFor(c.subject_ref,c.subject_detail);
+    if(c.subject_type==='Marae'){ const f=c._f;
       if(!f) out.push({kind:'unmatched',subject:c.subject_ref,type:'Marae',text:`Not found on the TPK layer`,src:S,claim:c});
       else if(c.relationship==='belongs_to_iwi'&&!f.iwiNames.some(n=>norm(n)===norm(c.object_ref))) out.push({kind:'iwi',subject:f.p.Name,type:'Marae',f,text:`iwi`,a:{who:'TPK',v:f.iwiNames.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c});
       else if(c.relationship==='has_hapu'&&!f.hapu.some(n=>hapuKey(n)===hapuKey(c.object_ref))) out.push({kind:'hapu',subject:f.p.Name,type:'Marae',f,text:`hapū`,a:{who:'TPK',v:f.hapu.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c});
       if(c.relationship==='has_hapu'&&c.object_detail&&f){ const claimedIwi=c.object_detail; if(!f.iwiNames.some(n=>norm(n)===norm(claimedIwi))) out.push({kind:'hapu-iwi',subject:f.p.Name,type:'Marae',f,text:`${c.object_ref} placed under`,a:{who:'TPK',v:f.iwiNames.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:claimedIwi,colour:S.colour},claim:c}); }
     }
-    if(c.subject_type==='Hapū'&&c.relationship==='belongs_to_iwi'){ const t=hapuIwiTPK(c.subject_ref); if(t.size&&!t.has(norm(c.object_ref))) out.push({kind:'hapu-iwi',subject:c.subject_ref,type:'Hapū',text:`iwi of hapū`,a:{who:'TPK',v:[...new Set(features.filter(f=>f.hapu.some(x=>hapuKey(x)===hapuKey(c.subject_ref))).flatMap(f=>f.iwiNames))].join(', '),colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c}); }
+    if(c.subject_type==='Hapū'&&c.relationship==='belongs_to_iwi'){ const t=hapuIwiTPK(c.subject_ref); if(t.size&&!t.has(norm(c.object_ref))) out.push({kind:'hapu-iwi',subject:c.subject_ref,type:'Hapū',text:`iwi of hapū`,a:{who:'TPK',v:[...(hapuIwiIndex.get(hapuKey(c.subject_ref))||{names:new Set()}).names].join(', '),colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c}); }
   });
   // source vs source
   const groups=new Map(); claims.filter(c=>sourceOn[c.source_id]&&c.relationship!=='other').forEach(c=>{ const k=c.subject_type+'|'+norm(c.subject_ref)+'|'+c.relationship; (groups.get(k)||groups.set(k,[]).get(k)).push(c); });
   groups.forEach(g=>{ const bySrc=new Map(); g.forEach(c=>(bySrc.get(c.source_id)||bySrc.set(c.source_id,new Set()).get(c.source_id)).add(c.relationship==='has_hapu'?hapuKey(c.object_ref):norm(c.object_ref))); const ids=[...bySrc.keys()]; for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){ const A=bySrc.get(ids[i]),B=bySrc.get(ids[j]); if(![...A].some(x=>B.has(x))) { const c=g[0]; out.push({kind:'src',subject:c.subject_ref,type:c.subject_type,f:c.subject_type==='Marae'?maraeFor(c.subject_ref,c.subject_detail):null,text:RELS[c.relationship],a:{who:srcOf(ids[i]).name,v:g.filter(x=>x.source_id===ids[i]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[i]).colour},b:{who:srcOf(ids[j]).name,v:g.filter(x=>x.source_id===ids[j]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[j]).colour},claim:c}); } } });
-  return out;
+  _confCache=out; _confKey=key; return out;
 }
 
 function renderSources(){
@@ -589,7 +594,7 @@ window.toggleSource=function(id,on){ sourceOn[id]=on; render(); renderSources();
 
 function renderBySource(f){
   const host=document.getElementById('bySrc'); if(!host) return;
-  const mine=claims.filter(c=>c.subject_type==='Marae'&&maraeFor(c.subject_ref,c.subject_detail)===f);
+  const mine=(claimsByFeature.get(f.id)||[]);
   const conf=conflicts().filter(x=>x.f===f);
   const wk=wakaOf(f); const wakaLine = wk.size?`<div class="cl" style="margin:0 0 6px"><span class="rel">waka</span> ${[...wk].map(([w,ss])=>`<button class="pill link" onclick="setFilter('fWaka','${esc(w).replace(/'/g,"\\'")}')" title="${esc([...ss].join('; '))}">${esc(w)}</button>`).join('')}</div>`:'';
   const blocks=[wakaLine,`<div class="sblock" style="border-color:#b4432b"><div class="stitle">Te Puni Kōkiri / TKM <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">baseline</a></div><div class="cl"><span class="rel">hapū</span> ${esc(f.hapu.join(', ')||'—')}</div><div class="cl"><span class="rel">iwi</span> ${esc(f.iwiNames.join(', ')||'—')}</div></div>`];
@@ -614,12 +619,12 @@ window.claimForm=function(fid){
 };
 window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
   claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
-  saveClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); rebuildHapu(); renderBySource(f); render(); return false; };
-window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
+  saveClaims(); indexClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); rebuildHapu(); renderBySource(f); render(); return false; };
+window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); indexClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
 window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
 window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_type','subject_ref','subject_detail','relationship','object_ref','object_detail','page_url','retrieved','confidence','note']; download('Claim.csv', csvRows(cols, claims.map(c=>cols.map(k=>c[k]))), 'text/csv'); };
-window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
-window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; render(); renderSources(); };
+window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
+window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); };
 
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
@@ -638,7 +643,7 @@ function maraeForLink(l){
   if(cands.length>1 && l.location_detail){ const d=norm(l.location_detail); const c=cands.find(f=>norm(f.p.Location)===d); if(c) return c; }
   return cands[0]||null;
 }
-function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const k=hapuKey(l.location_ref); features.forEach(f=>{ if(f.hapu.some(h=>hapuKey(h)===k)) s.add(f.id); }); } }); return s; }
+function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>s.add(f.id)); } }); return s; }
 
 // ---- list / detail ----
 function renderTupuna(){
