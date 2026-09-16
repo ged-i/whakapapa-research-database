@@ -301,7 +301,7 @@ const ALIAS = {waikato:'waikatotainui', taranaki:'taranakiiwi', ngatiapa:'ngawai
 
 // ---------- state ----------
 let iwiList = [], iwiIndex = new Map(), regionsById = {};
-const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set()}; let hideOthers=false;
+const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set()}; let hideOthers=true;
 let features = [], filtered = [], selected = null;
 const markersById = new Map();
 const roheCache = new Map();
@@ -407,7 +407,7 @@ function renderChips(){
   sel.region.forEach(v=>items.push(['region','region',v,v])); sel.iwi.forEach(v=>items.push(['iwi','iwi',v,v]));
   sel.hapu.forEach(k=>items.push(['hapu','hapū',k,(hapuGroups.get(k)||{label:k}).label])); sel.waka.forEach(v=>items.push(['waka','waka',v,v]));
   sel.marae.forEach(id=>{ const f=features.find(x=>x.id==id); items.push(['marae','marae',id,f?f.p.Name:id]); });
-  bar.hidden=!items.length; bar.innerHTML=`<span class="k" style="color:var(--mist);font-size:12px;margin-right:2px">Collection</span>`+items.map(([cat,k,v,label])=>`<span class="fchip ${cat}"><span class="k">${k}</span>${esc(label)}<button title="Remove" onclick="removeSel('${cat}',${JSON.stringify(String(v)).replace(/"/g,'&quot;')})">×</button></span>`).join('')+`<label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'checked':''} onchange="hideOthers=this.checked;render()" style="accent-color:var(--pounamu)">hide others</label><button class="clearall" style="margin-left:8px" onclick="clearSel()">Clear collection</button>`;
+  bar.hidden=!items.length; bar.innerHTML=`<span class="k" style="color:var(--mist);font-size:12px;margin-right:2px">Collection</span>`+items.map(([cat,k,v,label])=>`<span class="fchip ${cat}"><span class="k">${k}</span>${esc(label)}<button title="Remove" onclick="removeSel('${cat}',${JSON.stringify(String(v)).replace(/"/g,'&quot;')})">×</button></span>`).join('')+`<label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show others faded</label><button class="clearall" style="margin-left:8px" onclick="clearSel()">Clear collection</button>`;
 }
 function refreshPillStates(){
   document.querySelectorAll('[data-sel]').forEach(el=>{ const cat=el.dataset.sel, val=el.dataset.val; const on=sel[cat].has(val); el.classList.toggle('on',on); if(el.classList.contains('pinbtn')) el.textContent=on?'Collected':'Collect'; });
