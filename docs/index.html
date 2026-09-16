@@ -301,7 +301,7 @@ const ALIAS = {waikato:'waikatotainui', taranaki:'taranakiiwi', ngatiapa:'ngawai
 
 // ---------- state ----------
 let iwiList = [], iwiIndex = new Map(), regionsById = {};
-const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set()};
+const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set()}; let hideOthers=false;
 let features = [], filtered = [], selected = null;
 const markersById = new Map();
 const roheCache = new Map();
@@ -329,6 +329,8 @@ map.addLayer(cluster);
 const dotStyle  = {radius:6, color:'#fff', weight:1.5, fillColor:'#b4432b', fillOpacity:.95};
 const dotActive = {radius:9, color:'#d9a21b', weight:3, fillColor:'#b4432b', fillOpacity:1};
 const dotTupuna = {radius:8, color:'#d9a21b', weight:3, fillColor:'#d9a21b', fillOpacity:.9};
+const dotFaded = {radius:4, color:'#fff', weight:1, fillColor:'#8a928d', fillOpacity:.55};
+const dotCollected = {radius:7, color:'#fff', weight:2, fillColor:'#2c6e5c', fillOpacity:1};
 
 // ---------- data loading ----------
 async function fetchAll(url, params){
@@ -399,13 +401,13 @@ function buildFilters(){
 function afterSelChange(){ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); refreshPillStates(); }
 window.toggleSel=function(cat,val){ if(sel[cat].has(val)) sel[cat].delete(val); else sel[cat].add(val); if(cat==='marae'||cat==='hapu'||cat==='waka'||cat==='iwi') map.closePopup(); afterSelChange(); };
 window.removeSel=function(cat,val){ sel[cat].delete(val); afterSelChange(); };
-window.clearSel=function(cat){ if(cat) sel[cat].clear(); else Object.values(sel).forEach(x=>x.clear()); afterSelChange(); };
+window.clearSel=function(cat){ if(cat) sel[cat].clear(); else Object.values(sel).forEach(x=>x.clear()); map._collFitted=false; afterSelChange(); };
 function renderChips(){
   const bar=document.getElementById('chips'); const items=[];
   sel.region.forEach(v=>items.push(['region','region',v,v])); sel.iwi.forEach(v=>items.push(['iwi','iwi',v,v]));
   sel.hapu.forEach(k=>items.push(['hapu','hapū',k,(hapuGroups.get(k)||{label:k}).label])); sel.waka.forEach(v=>items.push(['waka','waka',v,v]));
   sel.marae.forEach(id=>{ const f=features.find(x=>x.id==id); items.push(['marae','marae',id,f?f.p.Name:id]); });
-  bar.hidden=!items.length; bar.innerHTML=`<span class="k" style="color:var(--mist);font-size:12px;margin-right:2px">Collection</span>`+items.map(([cat,k,v,label])=>`<span class="fchip ${cat}"><span class="k">${k}</span>${esc(label)}<button title="Remove" onclick="removeSel('${cat}',${JSON.stringify(String(v)).replace(/"/g,'&quot;')})">×</button></span>`).join('')+'<button class="clearall" onclick="clearSel()">Clear collection</button>';
+  bar.hidden=!items.length; bar.innerHTML=`<span class="k" style="color:var(--mist);font-size:12px;margin-right:2px">Collection</span>`+items.map(([cat,k,v,label])=>`<span class="fchip ${cat}"><span class="k">${k}</span>${esc(label)}<button title="Remove" onclick="removeSel('${cat}',${JSON.stringify(String(v)).replace(/"/g,'&quot;')})">×</button></span>`).join('')+`<label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'checked':''} onchange="hideOthers=this.checked;render()" style="accent-color:var(--pounamu)">hide others</label><button class="clearall" style="margin-left:8px" onclick="clearSel()">Clear collection</button>`;
 }
 function refreshPillStates(){
   document.querySelectorAll('[data-sel]').forEach(el=>{ const cat=el.dataset.sel, val=el.dataset.val; const on=sel[cat].has(val); el.classList.toggle('on',on); if(el.classList.contains('pinbtn')) el.textContent=on?'Collected':'Collect'; });
@@ -424,14 +426,17 @@ function matchSel(f){  // collect-all: a marae is in the collection if ANY selec
 // ---------- rendering ----------
 function render(){
   const q=norm(document.getElementById('q').value);
-  filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && matchSel(f));
+  const inColl = f => matchSel(f);
+  filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && inColl(f));
+  const shown = (selEmpty()||hideOthers) ? filtered : features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)));
   renderChips(); renderSummaries();
   drawClaimRings();
-  filtered.sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
   // markers
   cluster.clearLayers(); markersById.clear();
-  const ms = filtered.map(f=>{
-    const m=L.circleMarker([f.lat,f.lng], selected&&selected.id===f.id?dotActive:(selectedTupuna&&linkedMaraeIds(selectedTupuna).has(f.id)?dotTupuna:dotStyle));
+  const ms = shown.map(f=>{
+    const isColl=!selEmpty()&&inColl(f);
+    const style = selected&&selected.id===f.id?dotActive:(selectedTupuna&&linkedMaraeIds(selectedTupuna).has(f.id)?dotTupuna:(selEmpty()?dotStyle:(isColl?dotCollected:dotFaded)));
+    const m=L.circleMarker([f.lat,f.lng], style);
     m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button><button class="pinbtn ${sel.marae.has(String(f.id))?'on':''}" data-sel="marae" data-val="${esc(String(f.id))}" onclick="toggleSel('marae','${esc(String(f.id))}')">${sel.marae.has(String(f.id))?'Collected':'Collect'}</button>${f.iwiNames.length?`<div class="phapu" style="border-top:0;margin-top:6px;padding-top:0">${f.iwiNames.map(n=>`<button class="ppill ${sel.iwi.has(n)?'on':''}" data-sel="iwi" data-val="${esc(n)}" style="background:#d9e8e3" title="Add/remove this iwi in the collection" onclick="toggleSel('iwi',${JSON.stringify(n).replace(/"/g,'&quot;')})">${esc(n)}</button>`).join('')}</div>`:''}${f.hapu.length?`<div class="phapu">${f.hapu.map(h=>`<button class="ppill ${sel.hapu.has(hapuKey(h))?'on':''}" data-sel="hapu" data-val="${esc(hapuKey(h))}" title="Add/remove this hapū in the collection" onclick="toggleSel('hapu','${esc(hapuKey(h))}')">${esc(h)}</button>`).join('')}</div>`:''}${popupWaka(f)}`,{maxWidth:280});
     m.on('click',()=>highlightList(f.id));
     markersById.set(f.id,m); return m;
@@ -450,7 +455,7 @@ function render(){
     b.onclick=()=>select(f.id); li.append(b); frag.append(li);
   });
   ul.append(frag);
-  if(filtered.length && filtered.length<features.length && !selected && !selectedTupuna){
+  if(!selEmpty() && filtered.length && !selected && !selectedTupuna && !map._collFitted){ map._collFitted=true;
     const b=L.latLngBounds(filtered.map(f=>[f.lat,f.lng])); map.fitBounds(b.pad(.2),{animate:!reduced,maxZoom:12});
   }
 }
