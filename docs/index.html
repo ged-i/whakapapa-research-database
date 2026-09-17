@@ -321,7 +321,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 <main id="map" role="region" aria-label="Map of marae"></main>
 
 <div class="basemap" role="group" aria-label="Basemap">
-  <button id="bmLight" class="on">Map</button><button id="bmSat">Satellite</button><button id="bmWhenua" title="Māori land blocks (Māori Land Court, 2017)">Whenua</button>
+  <button id="bmLight">Map</button><button id="bmSat" class="on">Satellite</button><button id="bmWhenua" title="Māori land blocks (Māori Land Court, 2017)">Whenua</button>
 </div>
 <div class="credit">Marae points and iwi areas of interest from <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">Te Puni Kōkiri</a> (CC BY 4.0), loaded live. Iwi and organisation details from <a href="https://www.tkm.govt.nz/" target="_blank" rel="noopener">Te Kāhui Māngai</a>. Areas of interest are indicative only.</div>
 <div id="loading" class="loading">Loading marae…</div>
@@ -337,6 +337,7 @@ let hapuAliasMap = new Map();  // foldKey(alias) -> foldKey(canonical)
 const _foldC=new Map(); const fold = s => { s=s||''; let v=_foldC.get(s); if(v===undefined){ v=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/([aeiou])\1/g,'$1').replace(/[^a-z0-9]/g,''); _foldC.set(s,v);} return v; };
 const hapuKey = s => { const k=fold(s); return hapuAliasMap.get(k)||k; };
 const _normC=new Map(); const norm = s => { s=s||''; let v=_normC.get(s); if(v===undefined){ v=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,''); _normC.set(s,v);} return v; };
+const tidyUrl = u => { u=(u||'').trim().replace(/\s+/g,''); if(!u) return ''; if(!/^[a-z]+:\/\//i.test(u)) u='https://'+u; return u; };
 const esc  = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const splitNames = s => (s||'').split(/[;,]|\s+&\s+/).map(x=>x.trim()).filter(Boolean);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -368,7 +369,7 @@ map.zoomControl.setPosition('bottomright');
 const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
 const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
 const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
-light.addTo(map); labels.addTo(map); roheLayer.addTo(map); blockLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map); blockHiLayer.addTo(map);
+sat.addTo(map); labels.addTo(map); roheLayer.addTo(map); blockLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map); blockHiLayer.addTo(map);
 document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmWhenua').onclick = e=>{ whenuaOn=!whenuaOn; e.target.classList.toggle('on',whenuaOn); document.getElementById('whenuaFind').hidden=!whenuaOn; if(whenuaOn&&!blockIndex) loadBlockIndex(); updateWhenua(); };
@@ -714,8 +715,8 @@ function renderSources(){
   +(unm.length?`<details style="margin:14px 22px 0"><summary style="cursor:pointer;color:var(--mist);font-size:13px;font-weight:600">Marae named by other sources but not found on the TPK layer (${[...new Set(unm.map(x=>x.subject))].length})</summary><div style="font-size:13px;color:var(--mist);margin-top:8px;line-height:1.7">${[...new Map(unm.map(x=>[x.subject,x])).values()].map(x=>`<span style="border-left:3px solid ${x.src.colour};padding-left:6px;margin-right:12px;display:inline-block">${esc(x.subject)}</span>`).join('')}</div><div class="hint" style="margin-top:6px">Usually a different name or spelling for a marae TPK lists under another name — add it to the Marae sheet as an alias, or to the map via a claim of type "also known as".</div></details>`:'');
 }
 window.discForm=function(){ const host=document.getElementById('discForm'); const opts=tupuna.map(t=>`<option value="${esc(t.tupuna_id)}">${esc(t.name)}</option>`).join('');
-  host.innerHTML=`<form class="f" style="margin:0 22px 10px" onsubmit="return saveDisc(event)"><label>Title<input name="title" required placeholder="e.g. Birth year differs between baptism register and succession order"></label><label>Tupuna (optional)<select name="tid"><option value="">—</option>${opts}</select></label><div class="row2"><label>Side A (source: what it says)<input name="a" required></label><label>Side B<input name="b" required></label></div><label>Working hypothesis<input name="hyp" placeholder="transcription error / deliberate alias / different person / unresolved"></label><div class="row2"><label>Status<select name="status"><option>open</option><option>working</option><option>resolved</option></select></label><label>Note<input name="note"></label></div><div class="actions"><button class="btn small" type="submit">Save</button><button class="btn quiet small" type="button" onclick="document.getElementById('discForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=title]').focus(); };
-window.saveDisc=function(e){ e.preventDefault(); const fd=new FormData(e.target); const d={disc_id:nextId('D',discrepancies,'disc_id'),title:fd.get('title').trim(),tupuna_id:fd.get('tid')||'',side_a:fd.get('a').trim(),side_b:fd.get('b').trim(),hypothesis:(fd.get('hyp')||'').trim(),status:fd.get('status'),note:(fd.get('note')||'').trim(),opened:new Date().toISOString().slice(0,10)}; discrepancies.push(d); saveDisc_(`opened "${d.title}"`); renderSources(); return false; };
+  host.innerHTML=`<form class="f" style="margin:0 22px 10px" novalidate onsubmit="return saveDisc(event)"><label>Title<input name="title" required placeholder="e.g. Birth year differs between baptism register and succession order"></label><label>Tupuna (optional)<select name="tid"><option value="">—</option>${opts}</select></label><div class="row2"><label>Side A (source: what it says)<input name="a" required></label><label>Side B<input name="b" required></label></div><label>Working hypothesis<input name="hyp" placeholder="transcription error / deliberate alias / different person / unresolved"></label><div class="row2"><label>Status<select name="status"><option>open</option><option>working</option><option>resolved</option></select></label><label>Note<input name="note"></label></div><div class="actions"><button class="btn small" type="submit">Save</button><button class="btn quiet small" type="button" onclick="document.getElementById('discForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=title]').focus(); };
+window.saveDisc=function(e){ e.preventDefault(); const fd=new FormData(e.target); if(!(fd.get('title')||'').trim()||!(fd.get('a')||'').trim()||!(fd.get('b')||'').trim()){ formErr(e.target,'Title, side A and side B are needed.'); return false; } const d={disc_id:nextId('D',discrepancies,'disc_id'),title:fd.get('title').trim(),tupuna_id:fd.get('tid')||'',side_a:fd.get('a').trim(),side_b:fd.get('b').trim(),hypothesis:(fd.get('hyp')||'').trim(),status:fd.get('status'),note:(fd.get('note')||'').trim(),opened:new Date().toISOString().slice(0,10)}; discrepancies.push(d); saveDisc_(`opened "${d.title}"`); renderSources(); return false; };
 window.discStatus=function(id){ const d=discrepancies.find(x=>x.disc_id===id); if(!d) return; const order=['open','working','resolved']; d.status=order[(order.indexOf(d.status||'open')+1)%3]; saveDisc_(`"${d.title}" → ${d.status}`); renderSources(); };
 window.removeDisc=function(id){ if(!confirm('Remove this discrepancy?')) return; const d=discrepancies.find(x=>x.disc_id===id); discrepancies=discrepancies.filter(x=>x.disc_id!==id); saveDisc_(`removed "${d?d.title:id}"`); renderSources(); };
 function saveDisc_(msg){ try{ localStorage.setItem('wrd.disc.v1',JSON.stringify(discrepancies)); }catch{} markDirty('discrepancies',msg); }
@@ -735,19 +736,19 @@ function renderBySource(f){
 window.claimForm=function(fid){
   const f=features.find(x=>x.id==fid); const host=document.getElementById('claimForm'); if(!f||!host) return;
   const src=sources.filter(S=>S.source_id!=='S01'&&S.source_id!=='S02');
-  host.innerHTML=`<form class="f" onsubmit="return saveClaim(event,${JSON.stringify(f.id)})">
+  host.innerHTML=`<form class="f" novalidate onsubmit="return saveClaim(event,${JSON.stringify(f.id)})">
     <label>Source<select name="src">${src.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('')}</select></label>
     <label>Says that this marae…<select name="rel"><option value="has_hapu">has hapū</option><option value="belongs_to_iwi">belongs to iwi</option><option value="has_waka">has waka</option><option value="alias_of">is also known as</option><option value="other">other note</option></select></label>
     <label>Name (hapū / iwi / waka / other name)<input name="obj" required></label>
     <label>Detail, e.g. the iwi the source puts that hapū under<input name="det"></label>
-    <label>Page URL<input name="url" type="url" placeholder="https://"></label>
+    <label>Page URL<input name="url" type="text" inputmode="url" placeholder="https://"></label>
     <div class="row2"><label>Confidence<select name="conf"><option>stated</option><option>inferred</option><option>contested</option></select></label><label>Retrieved<input name="ret" type="date" value="${new Date().toISOString().slice(0,10)}"></label></div>
     <label>Note<input name="note"></label>
     <div class="actions"><button class="btn" type="submit">Save claim</button><button class="btn quiet" type="button" onclick="document.getElementById('claimForm').innerHTML=''">Cancel</button></div></form>`;
   host.querySelector('input[name=obj]').focus();
 };
-window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
-  claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
+window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target); if(!(fd.get('obj')||'').trim()){ formErr(e.target,'Enter the name the source gives.'); return false; }
+  claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:tidyUrl(fd.get('url')),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
   saveClaims(`${srcOf(fd.get('src')).name}: ${f.p.Name} ${fd.get('rel')} ${fd.get('obj').trim()}`); indexClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); rebuildHapu(); renderBySource(f); render(); return false; };
 window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); indexClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
 window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
@@ -797,7 +798,7 @@ async function repoLoad(){ // read the live record from the repo; falls back to 
   catch(e){ setSync('err','Repo read failed — '+e.message.slice(0,80)); return false; }
 }
 window.toggleSettings=function(){ const el=document.getElementById('settings'); el.hidden=!el.hidden; if(!el.hidden) renderSettings(); };
-function renderSettings(){ loadGh(); document.getElementById('settings').innerHTML=`<form class="f" onsubmit="return saveSettings(event)">
+function renderSettings(){ loadGh(); document.getElementById('settings').innerHTML=`<form class="f" novalidate onsubmit="return saveSettings(event)">
   <div class="row2"><label>GitHub owner<input name="owner" value="${esc(gh.owner)}"></label><label>Repository<input name="repo" value="${esc(gh.repo)}"></label></div>
   <div class="row2"><label>Branch<input name="branch" value="${esc(gh.branch||'main')}"></label><label>Auto-save<select name="autosave"><option value="1" ${gh.autosave?'selected':''}>on (commit 4 s after a change)</option><option value="0" ${gh.autosave?'':'selected'}>off (Save now only)</option></select></label></div>
   <label>Fine-grained token (Contents: read & write, this repository only)<input name="token" type="password" value="${esc(gh.token||'')}" placeholder="github_pat_…"></label>
@@ -857,7 +858,7 @@ window.selectBlock=async function(props){
     <div class="bysrc"><div class="sblock" style="border-color:${BLOCK_COL}"><div class="stitle">Māori Land Court spatial dataset, May 2017 ${P.mlol?`<a href="${esc(P.mlol)}" target="_blank" rel="noopener">Māori Land Online record</a>`:''}</div><div class="cl rel" style="font-size:12px">Boundaries and attributes are as at May 2017. Partitions, amalgamations and ownership changes since then are not shown — check <a href="https://www.xn--morilandcourt-wqb.govt.nz/en/the-court-record/m%C4%81ori-land-data" target="_blank" rel="noopener">Pātaka Whenua</a> for the current title and owner list.</div></div></div>
     <div class="section"><h3>Tupuna with an interest in this block</h3>
       ${here.length?here.map(t=>{ const rels=t.links.filter(l=>l.location_type==='Block'&&String(l.location_ref)===id).map(l=>l.relationship+(l.notes?` — ${l.notes}`:'')).join(', '); return `<button class="tcard" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')"><div class="name" style="font-size:15px">${esc(t.name)}</div><div class="sub">${esc(rels)}</div></button>`;}).join(''):'<div class="hint">None recorded yet. Owner lists are not in the public dataset — look the block up in Pātaka Whenua and record the tupuna\'s interest here.</div>'}
-      ${tupuna.length?`<form class="f" style="margin-top:8px" onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div>
+      ${tupuna.length?`<form class="f" style="margin-top:8px" novalidate onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div>
         <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
         <div class="row2"><label>LINZ title reference<input name="linz" placeholder="e.g. 504121"></label><label>Shares<input name="shares" placeholder="e.g. 1 or 3.5"></label></div>
         <div class="row2"><label>Source<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label><label>Document / note<input name="note" placeholder="Pātaka Whenua owner list, minute book, pānui"></label></div>
@@ -1044,7 +1045,7 @@ window.editTupuna=function(id){
   const body=document.getElementById('tupunaBody'); setTab('tupuna');
   const v=k=>esc(t[k]||'');
   body.innerHTML=`<div class="tdetail"><h2 style="font-size:22px;margin-bottom:6px">${id?'Edit tupuna':'New tupuna'}</h2>
-  <form class="f" onsubmit="return saveTupuna(event,'${esc(t.tupuna_id)}',${id?'true':'false'})">
+  <form class="f" novalidate onsubmit="return saveTupuna(event,'${esc(t.tupuna_id)}',${id?'true':'false'})">
     <label>Name<input name="name" required value="${v('name')}"></label>
     <label>Other names<input name="other_names" value="${v('other_names')}"></label>
     <div class="row2"><label>Born<input name="born" placeholder="c. 1840" value="${v('born')}"></label><label>Died<input name="died" value="${v('died')}"></label></div>
@@ -1057,30 +1058,30 @@ window.editTupuna=function(id){
   body.querySelector('input[name=name]').focus();
 };
 window.saveTupuna=function(e,id,existing){
-  e.preventDefault(); const fd=new FormData(e.target); const t=existing?tupuna.find(x=>x.tupuna_id===id):{tupuna_id:id,links:[]};
+  e.preventDefault(); const fd=new FormData(e.target); if(!(fd.get('name')||'').trim()){ formErr(e.target,'Enter a name.'); return false; } const t=existing?tupuna.find(x=>x.tupuna_id===id):{tupuna_id:id,links:[]};
   ['name','other_names','born','died','birthplace','mother','father','notes','source'].forEach(k=>t[k]=(fd.get(k)||'').trim());
   if(!existing) tupuna.push(t); saveStore(`${existing?'edited':'added'} ${t.name}`); selectTupuna(id); return false;
 };
 
 window.identityForm=function(){ const host=document.getElementById('identityForm'); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('');
-  host.innerHTML=`<form class="f" onsubmit="return saveIdentity(event)"><label>Name exactly as written<input name="name" required></label><div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Date of record<input name="date" placeholder="1934 or 1934-05-07"></label></div><label>Document URL (Drive link, Pātaka Whenua, minute book scan)<input name="doc" type="url" placeholder="https://"></label><label>Note<input name="note" placeholder="e.g. spelt thus in MB 12 N 88; baptismal name"></label><div class="actions"><button class="btn" type="submit">Save name</button><button class="btn quiet" type="button" onclick="document.getElementById('identityForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
-window.saveIdentity=function(e){ e.preventDefault(); const fd=new FormData(e.target); const t=selectedTupuna; t.identities=t.identities||[]; t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name:fd.get('name').trim(),source_id:fd.get('src'),date:(fd.get('date')||'').trim(),document_url:(fd.get('doc')||'').trim(),note:(fd.get('note')||'').trim()}); saveStore(`${shortName(t)}: recorded name "${fd.get('name').trim()}"`); renderTupuna(); return false; };
+  host.innerHTML=`<form class="f" novalidate onsubmit="return saveIdentity(event)"><label>Name exactly as written<input name="name" required></label><div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Date of record<input name="date" placeholder="1934 or 1934-05-07"></label></div><label>Document URL (Drive link, Pātaka Whenua, minute book scan)<input name="doc" type="text" inputmode="url" placeholder="https://"></label><label>Note<input name="note" placeholder="e.g. spelt thus in MB 12 N 88; baptismal name"></label><div class="actions"><button class="btn" type="submit">Save name</button><button class="btn quiet" type="button" onclick="document.getElementById('identityForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
+window.saveIdentity=function(e){ e.preventDefault(); const fd=new FormData(e.target); const t=selectedTupuna; if(!(fd.get('name')||'').trim()){ formErr(e.target,'Enter the name as written.'); return false; } t.identities=t.identities||[]; t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name:fd.get('name').trim(),source_id:fd.get('src'),date:(fd.get('date')||'').trim(),document_url:tidyUrl(fd.get('doc')),note:(fd.get('note')||'').trim()}); saveStore(`${shortName(t)}: recorded name "${fd.get('name').trim()}"`); renderTupuna(); return false; };
 window.removeIdentity=function(i){ if(!confirm('Remove this recorded name?')) return; const x=selectedTupuna.identities.splice(i,1)[0]; saveStore(`${shortName(selectedTupuna)}: removed name "${x.name}"`); renderTupuna(); };
 window.eventForm=function(){ const host=document.getElementById('eventForm'); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('');
-  host.innerHTML=`<form class="f" onsubmit="return saveEvent(event)"><div class="row2"><label>Event<select name="type">${EVENT_TYPES.map(x=>`<option>${x}</option>`).join('')}</select></label><label>Date<input name="date" placeholder="1877, c. 1877, 1877-03-02"></label></div>
+  host.innerHTML=`<form class="f" novalidate onsubmit="return saveEvent(event)"><div class="row2"><label>Event<select name="type">${EVENT_TYPES.map(x=>`<option>${x}</option>`).join('')}</select></label><label>Date<input name="date" placeholder="1877, c. 1877, 1877-03-02"></label></div>
    <label>Place type<select name="ptype" onchange="evPlaceChanged(this.value)"><option value="">none</option><option>Marae</option><option>Block</option><option>Place</option></select></label>
    <label id="evMarae" style="display:none">Marae<input name="ev_marae" placeholder="type to search" autocomplete="off"></label>
    <label id="evBlock" style="display:none">Whenua block<input name="ev_block" placeholder="type a block name or ID" autocomplete="off"></label>
    <div id="evPlace" style="display:none"><label>Place name<input name="ev_place"></label><div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div><button type="button" class="btn quiet small" onclick="pickOnMapEv()">Pick on the map</button></div>
    <label>What happened<input name="desc" placeholder="e.g. succeeded to 3.5 shares in Ahipara A11; married Hone at Waitāruke"></label>
    <div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Confidence<select name="conf"><option>stated</option><option>inferred</option><option>contested</option></select></label></div>
-   <label>Document URL<input name="doc" type="url" placeholder="https://"></label><label>Note<input name="note"></label>
+   <label>Document URL<input name="doc" type="text" inputmode="url" placeholder="https://"></label><label>Note<input name="note"></label>
    <div class="actions"><button class="btn" type="submit">Save event</button><button class="btn quiet" type="button" onclick="document.getElementById('eventForm').innerHTML=''">Cancel</button></div></form>`;
   host._m=null; host._b=null; attachMaraePicker(host.querySelector('input[name=ev_marae]'), f=>{host._m=f;}); attachBlockPicker(host.querySelector('input[name=ev_block]'), b=>{host._b=b;}); };
 window.evPlaceChanged=function(v){ ['Marae','Block','Place'].forEach(k=>{ document.getElementById('ev'+k).style.display=(k===v)?'':'none'; }); };
 window.pickOnMapEv=function(){ document.getElementById('pickmode').classList.add('on'); map.getContainer().style.cursor='crosshair'; pickCb=ll=>{ const f=document.querySelector('#eventForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
 window.saveEvent=function(e){ e.preventDefault(); const fd=new FormData(e.target); const host=document.getElementById('eventForm'); const t=selectedTupuna; t.events=t.events||[];
-  const ev={event_id:nextId('E',t.events,'event_id'),type:fd.get('type'),date:(fd.get('date')||'').trim(),place_type:fd.get('ptype')||'',place_ref:'',place_detail:'',latitude:null,longitude:null,description:(fd.get('desc')||'').trim(),source_id:fd.get('src'),confidence:fd.get('conf'),document_url:(fd.get('doc')||'').trim(),note:(fd.get('note')||'').trim()};
+  const ev={event_id:nextId('E',t.events,'event_id'),type:fd.get('type'),date:(fd.get('date')||'').trim(),place_type:fd.get('ptype')||'',place_ref:'',place_detail:'',latitude:null,longitude:null,description:(fd.get('desc')||'').trim(),source_id:fd.get('src'),confidence:fd.get('conf'),document_url:tidyUrl(fd.get('doc')),note:(fd.get('note')||'').trim()};
   if(ev.place_type==='Marae'){ if(!host._m){alert('Choose a marae from the list.');return false;} ev.place_ref=host._m.p.Name; ev.place_detail=host._m.p.Name+(host._m.p.Location?' — '+host._m.p.Location:''); ev.latitude=host._m.lat; ev.longitude=host._m.lng; }
   else if(ev.place_type==='Block'){ if(!host._b){alert('Choose a block from the list.');return false;} ev.place_ref=host._b.id; ev.place_detail=host._b.name; ev.latitude=host._b.lat; ev.longitude=host._b.lng; }
   else if(ev.place_type==='Place'){ ev.place_ref=(fd.get('ev_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')),lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick on the map.');return false;} ev.latitude=la; ev.longitude=lo; }
@@ -1090,7 +1091,7 @@ window.addLinkForm=function(presetMarae, presetType){
   const host=document.getElementById('linkForm'); if(!host) return;
   const hapuOpts=[...new Set(features.flatMap(f=>f.hapu))].sort().map(h=>`<option value="${esc(h)}">`).join('');
   const iwiOpts=iwiList.map(i=>`<option value="${esc(i.name)}">${esc(i.name)}</option>`).join('');
-  host.innerHTML=`<form class="f" onsubmit="return saveLink(event)">
+  host.innerHTML=`<form class="f" novalidate onsubmit="return saveLink(event)">
     <label>Type<select name="type" onchange="linkTypeChanged(this.value)">${TYPES.map(x=>`<option ${(presetMarae&&x==='Marae')||(presetType===x)?'selected':''}>${x}</option>`).join('')}</select></label>
     <label id="refMarae">Marae<input name="ref_marae" placeholder="type to search, or click to browse all marae" autocomplete="off" value="${presetMarae?esc(presetMarae.p.Name+(presetMarae.p.Location?' — '+presetMarae.p.Location:'')):''}"></label>
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
@@ -1147,7 +1148,7 @@ function renderTupunaHere(f){
   host.innerHTML=(here.length?here.map(t=>{ const rels=t.links.filter(l=>(l.location_type==='Marae'&&maraeForLink(l)===f)||(l.location_type==='Hapū'&&f.hapu.some(h=>hapuKey(h)===hapuKey(l.location_ref)))).map(l=>l.relationship+(l.location_type==='Hapū'?` (via ${l.location_ref})`:'')).join(', ');
       return `<button class="tcard" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')"><div class="name" style="font-size:15px">${esc(t.name)}</div><div class="sub">${esc(rels)}</div></button>`;}).join('')
     :'<div class="hint">None linked yet.</div>')
-    + (tupuna.length?`<form class="f" style="margin-top:8px" onsubmit="return quickLink(event,${JSON.stringify(f.id)})"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Relationship<select name="rel">${REL.map(r=>`<option ${r==='Affiliated'?'selected':''}>${r}</option>`).join('')}</select></label></div><div class="actions"><button class="btn small" type="submit">Link to this marae</button></div></form>`
+    + (tupuna.length?`<form class="f" style="margin-top:8px" novalidate onsubmit="return quickLink(event,${JSON.stringify(f.id)})"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Relationship<select name="rel">${REL.map(r=>`<option ${r==='Affiliated'?'selected':''}>${r}</option>`).join('')}</select></label></div><div class="actions"><button class="btn small" type="submit">Link to this marae</button></div></form>`
       :'<div class="hint">Add a tupuna on the Tupuna tab, then link them here.</div>');
 }
 window.quickLink=function(e,fid){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const f=features.find(x=>x.id==fid); if(!t||!f) return false;
