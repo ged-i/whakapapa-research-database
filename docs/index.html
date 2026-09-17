@@ -677,7 +677,7 @@ function rebuildHapu(){ buildHapuGroups(); const fh=document.getElementById('fHa
 function rebuildWaka(){ const fw=document.getElementById('fWaka'); const cur=fw.value; fw.innerHTML='<option value="">Add waka…</option>'; [...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().forEach(w=>fw.append(new Option(w,w))); fw.value=cur; }
 // rings around marae that other sources talk about
 function drawClaimRings(){
-  claimLayer.clearLayers(); if(map.getZoom()<11) return; const bySrc=new Map();
+  claimLayer.clearLayers(); if(map.getZoom()<11 || tab==='tupuna') return; const bySrc=new Map();
   filtered.forEach(f=>{ const cs=claimsFor(f); cs.forEach(c=>{ if(c.source_id==='S01'||c.source_id==='S02') return; if(!bySrc.has(f.id)) bySrc.set(f.id,{f,srcs:new Set()}); bySrc.get(f.id).srcs.add(c.source_id); }); });
   bySrc.forEach(({f,srcs})=>{ let r=11; srcs.forEach(id=>{ L.circleMarker([f.lat,f.lng],{radius:r,color:srcOf(id).colour,weight:2.5,fill:false,interactive:false}).addTo(claimLayer); r+=4; }); });
 }
