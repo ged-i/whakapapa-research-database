@@ -125,7 +125,20 @@
  },
  {
   "tupuna_id": "T001",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L005",
+    "tupuna_id": "T001",
+    "location_type": "Marae",
+    "location_ref": "Mangaiti",
+    "location_detail": "142 Omaunu Road, Kāeo",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Assumed affiliation due to Wai (Erimana Taniora) and father's block ownership of 32923",
+    "source": ""
+   }
+  ],
   "name": "Wiremu Arama",
   "other_names": "Wiko",
   "born": "1907",
