@@ -981,7 +981,7 @@ function renderTupunaDetail(body){
     <div class="section"><h3>Timeline <span class="hint">(events)</span></h3>
       ${(t.events||[]).length?[...t.events].sort(evSort).map((e,i)=>`<div class="ev"><div class="when">${esc(e.date||'undated')}</div><div class="what"><div class="type">${esc(e.type)}${e.place_ref?` — ${esc(e.place_detail||e.place_ref)}`:''}</div>${e.description?`<div>${esc(e.description)}</div>`:''}<div class="meta">${esc([srcOf(e.source_id||'').name!==(e.source_id||'')?srcOf(e.source_id).name:e.source_id, e.confidence, e.note].filter(Boolean).join(' · '))}${e.document_url?` · <a href="${esc(e.document_url)}" target="_blank" rel="noopener">document</a>`:''}</div></div><button class="x" title="Remove" onclick="removeEvent('${esc(e.event_id)}')">×</button></div>`).join(''):'<div class="hint">No events yet. Births, marriages, succession orders, deaths — each dated, placed and sourced.</div>'}
       <button class="btn small" style="margin-top:8px" onclick="eventForm()">Add an event</button><div id="eventForm"></div></div>
-    <div class="section"><h3>Whakapapa</h3>${kinHtml}</div>
+    <div class="section"><h3>Whakapapa</h3>${kinHtml}<button class="btn small" style="margin-top:8px" onclick="addLinkForm(null,'Tupuna')">Link a tupuna</button>${tupuna.length<2?'<div class="hint" style="margin-top:6px">Add the other person first (All tupuna → Add tupuna), then link them here.</div>':''}</div>
     <div class="section"><h3>Locations of interest</h3>${links}
       <button class="btn small" style="margin-top:10px" onclick="addLinkForm()">Link a location</button>
       <div id="linkForm"></div></div>
@@ -1086,12 +1086,12 @@ window.saveEvent=function(e){ e.preventDefault(); const fd=new FormData(e.target
   else if(ev.place_type==='Place'){ ev.place_ref=(fd.get('ev_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')),lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick on the map.');return false;} ev.latitude=la; ev.longitude=lo; }
   t.events.push(ev); saveStore(`${shortName(t)}: ${ev.type} ${ev.date}`); renderTupuna(); drawTupuna(); return false; };
 window.removeEvent=function(id){ const t=selectedTupuna; const i=t.events.findIndex(x=>x.event_id===id); if(i<0||!confirm('Remove this event?')) return; const ev=t.events.splice(i,1)[0]; saveStore(`${shortName(t)}: removed ${ev.type} ${ev.date}`); renderTupuna(); drawTupuna(); };
-window.addLinkForm=function(presetMarae){
+window.addLinkForm=function(presetMarae, presetType){
   const host=document.getElementById('linkForm'); if(!host) return;
   const hapuOpts=[...new Set(features.flatMap(f=>f.hapu))].sort().map(h=>`<option value="${esc(h)}">`).join('');
   const iwiOpts=iwiList.map(i=>`<option value="${esc(i.name)}">${esc(i.name)}</option>`).join('');
   host.innerHTML=`<form class="f" onsubmit="return saveLink(event)">
-    <label>Type<select name="type" onchange="linkTypeChanged(this.value)">${TYPES.map(x=>`<option ${presetMarae&&x==='Marae'?'selected':''}>${x}</option>`).join('')}</select></label>
+    <label>Type<select name="type" onchange="linkTypeChanged(this.value)">${TYPES.map(x=>`<option ${(presetMarae&&x==='Marae')||(presetType===x)?'selected':''}>${x}</option>`).join('')}</select></label>
     <label id="refMarae">Marae<input name="ref_marae" placeholder="type to search, or click to browse all marae" autocomplete="off" value="${presetMarae?esc(presetMarae.p.Name+(presetMarae.p.Location?' — '+presetMarae.p.Location:'')):''}"></label>
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
     <label id="refIwi" style="display:none">Iwi<select name="ref_iwi">${iwiOpts}</select></label>
@@ -1100,7 +1100,7 @@ window.addLinkForm=function(presetMarae){
       <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
       <div class="row2"><label>LINZ title reference<input name="linz"></label><label>Shares<input name="shares"></label></div>
       <label>Source (register)<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label></div>
-    <label id="refTupuna" style="display:none">Tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
+    <label id="refTupuna" style="display:none">The other tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
       <button type="button" class="btn quiet small" onclick="pickOnMap()">Pick on the map</button></div>
@@ -1111,7 +1111,7 @@ window.addLinkForm=function(presetMarae){
   </form>`;
   attachMaraePicker(host.querySelector('input[name=ref_marae]'), ()=>{});
   host._blockPick=null; attachBlockPicker(host.querySelector('input[name=ref_block]'), b=>{ host._blockPick=b; });
-  if(!presetMarae) linkTypeChanged('Marae');
+  linkTypeChanged(presetType||'Marae'); if(presetType) host.scrollIntoView({block:'nearest'});
 };
 window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Waka','Block','Place','Tupuna'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Waka:'Waka',Block:'Block',Place:'Place',Tupuna:'Tupuna'}[t])?'':'none'; });
   const rs0=document.getElementById('relSel'); if(rs0&&t==='Block'){ rs0.innerHTML=['Owner','Land interest','Lived','Born','Died','Buried','Other'].map(r=>`<option>${r}</option>`).join(''); return; }
