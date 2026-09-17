@@ -136,6 +136,13 @@ form.f input,form.f select,form.f textarea{width:100%;padding:7px 9px;border-rad
 form.f textarea{min-height:56px;resize:vertical}
 form.f .row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 form.f .actions{display:flex;gap:8px;margin-top:4px}
+.picker{position:relative}
+.picker .plist{position:absolute;left:0;right:0;top:100%;z-index:50;max-height:240px;overflow-y:auto;background:var(--ink-2);border:1px solid var(--ink-3);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);display:none;scrollbar-color:var(--ink-3) transparent}
+.picker .plist.open{display:block}
+.picker .plist button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--bone);padding:7px 10px;cursor:pointer;font-size:13px;border-bottom:1px solid var(--ink-3)}
+.picker .plist button:hover,.picker .plist button.hi{background:var(--ink-3)}
+.picker .plist button .sub{color:var(--mist);font-size:12px}
+.picker .plist .more{color:var(--mist);font-size:12px;padding:6px 10px}
 .hint{color:var(--muted);font-size:12px}
 .pickmode{position:absolute;left:50%;top:12px;transform:translateX(-50%);z-index:850;background:var(--kowhai);color:var(--ink);padding:8px 14px;border-radius:8px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);display:none}
 .pickmode.on{display:block}
@@ -238,7 +245,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     <select id="fIwi" aria-label="Add an iwi"><option value="">Add iwi…</option></select>
     <select id="fHapu" aria-label="Add a hapū"><option value="">Add hapū…</option></select>
     <select id="fWaka" aria-label="Add a waka"><option value="">Add waka…</option></select>
-    <input id="fMarae" list="fMaraeList" placeholder="Add marae…" aria-label="Add a marae to the collection" autocomplete="off"><datalist id="fMaraeList"></datalist>
+    <input id="fMarae" placeholder="Add marae…" aria-label="Add a marae to the collection" autocomplete="off">
   </div>
   <div id="chips" class="chipbar" hidden></div>
   <div id="summary" class="summary" hidden></div>
@@ -393,10 +400,10 @@ function buildFilters(){
   const iwis=[...new Set([...features.flatMap(f=>f.iwiNames), ...claims.filter(c=>c.relationship==='belongs_to_iwi').map(c=>c.object_ref)])].sort((a,b)=>a.localeCompare(b));
   const fi=document.getElementById('fIwi'); iwis.forEach(i=>fi.append(new Option(i,i)));
   rebuildHapu(); rebuildWaka();
-  const dl=document.getElementById('fMaraeList'); features.slice().sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||'')).forEach(f=>{ const o=document.createElement('option'); o.value=`${f.p.Name}${f.p.Location?' — '+f.p.Location:''}`; o.dataset.id=f.id; dl.append(o); });
+
   const pick=(id,cat)=>{ const el=document.getElementById(id); el.addEventListener('change',()=>{ if(el.value){ sel[cat].add(el.value); el.value=''; afterSelChange(); } }); };
   pick('fRegion','region'); pick('fIwi','iwi'); pick('fHapu','hapu'); pick('fWaka','waka');
-  const fm=document.getElementById('fMarae'); fm.addEventListener('change',()=>{ const raw=fm.value.trim(); if(!raw) return; const [name,loc]=raw.split(' — '); const f=maraeFor(name.trim(),(loc||'').trim()); if(f){ sel.marae.add(String(f.id)); fm.value=''; afterSelChange(); } });
+  attachMaraePicker(document.getElementById('fMarae'), f=>{ sel.marae.add(String(f.id)); document.getElementById('fMarae').value=''; afterSelChange(); });
   document.getElementById('q').addEventListener('input',()=>render());
   document.getElementById('csv').onclick = downloadCsv;
 }
@@ -423,6 +430,21 @@ function matchSel(f){  // collect-all: a marae is in the collection if ANY selec
   if(f.hapu.some(h=>sel.hapu.has(hapuKey(h))) || claimsFor(f,'has_hapu').some(c=>sel.hapu.has(hapuKey(c.object_ref)))) return true;
   if(sel.waka.size){ const w=wakaOf(f); if([...sel.waka].some(x=>w.has(x))) return true; }
   return false;
+}
+
+// ---------- searchable marae picker ----------
+function attachMaraePicker(input, onPick){
+  const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
+  const list=document.createElement('div'); list.className='plist'; wrap.append(list); let hi=-1, items=[];
+  const sorted=()=>features.slice().sort((a,b)=>(a.p.Name||'').localeCompare(b.p.Name||''));
+  const show=()=>{ const q=norm(input.value); items=(q?sorted().filter(f=>f.hay.includes(q)):sorted()); hi=-1;
+    list.innerHTML=items.slice(0,80).map((f,i)=>`<button type="button" data-i="${i}"><div>${esc(f.p.Name)}${f.p.Alternate?` <span class="sub">(${esc(f.p.Alternate)})</span>`:''}</div><div class="sub">${esc([f.p.Location,f.iwiNames.join(', ')].filter(Boolean).join(' — '))}</div></button>`).join('')+(items.length>80?`<div class="more">${items.length-80} more — keep typing to narrow</div>`:(items.length?'':'<div class="more">No marae match</div>'));
+    list.classList.add('open'); };
+  const pick=f=>{ input.value=`${f.p.Name}${f.p.Location?' — '+f.p.Location:''}`; list.classList.remove('open'); onPick(f); };
+  list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); pick(items[+b.dataset.i]); } });
+  input.addEventListener('focus',show); input.addEventListener('input',show);
+  input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
+  input.addEventListener('keydown',e=>{ const bs=list.querySelectorAll('button'); if(e.key==='ArrowDown'){ hi=Math.min(hi+1,bs.length-1); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); bs[hi]?.scrollIntoView({block:'nearest'}); e.preventDefault(); } else if(e.key==='ArrowUp'){ hi=Math.max(hi-1,0); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); e.preventDefault(); } else if(e.key==='Enter'){ if(hi>=0&&items[hi]){ pick(items[hi]); e.preventDefault(); } else if(items.length===1){ pick(items[0]); e.preventDefault(); } } else if(e.key==='Escape'){ list.classList.remove('open'); } });
 }
 
 // ---------- rendering ----------
@@ -825,12 +847,11 @@ window.saveTupuna=function(e,id,existing){
 
 window.addLinkForm=function(presetMarae){
   const host=document.getElementById('linkForm'); if(!host) return;
-  const maraeOpts=features.map(f=>`<option value="${esc(f.p.Name)}${f.p.Location?` — ${esc(f.p.Location)}`:''}">`).join('');
   const hapuOpts=[...new Set(features.flatMap(f=>f.hapu))].sort().map(h=>`<option value="${esc(h)}">`).join('');
   const iwiOpts=iwiList.map(i=>`<option value="${esc(i.name)}">${esc(i.name)}</option>`).join('');
   host.innerHTML=`<form class="f" onsubmit="return saveLink(event)">
     <label>Type<select name="type" onchange="linkTypeChanged(this.value)">${TYPES.map(x=>`<option ${presetMarae&&x==='Marae'?'selected':''}>${x}</option>`).join('')}</select></label>
-    <label id="refMarae">Marae<input name="ref_marae" list="maraeList" placeholder="start typing a marae name" value="${presetMarae?esc(presetMarae.p.Name+(presetMarae.p.Location?' — '+presetMarae.p.Location:'')):''}"><datalist id="maraeList">${maraeOpts}</datalist></label>
+    <label id="refMarae">Marae<input name="ref_marae" placeholder="type to search, or click to browse all marae" autocomplete="off" value="${presetMarae?esc(presetMarae.p.Name+(presetMarae.p.Location?' — '+presetMarae.p.Location:'')):''}"></label>
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
     <label id="refIwi" style="display:none">Iwi<select name="ref_iwi">${iwiOpts}</select></label>
     <label id="refWaka" style="display:none">Waka<select name="ref_waka">${[...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().map(w=>`<option>${esc(w)}</option>`).join('')}</select></label>
@@ -843,6 +864,7 @@ window.addLinkForm=function(presetMarae){
     <label>Source<input name="source"></label>
     <div class="actions"><button class="btn" type="submit">Save link</button><button class="btn quiet" type="button" onclick="document.getElementById('linkForm').innerHTML=''">Cancel</button></div>
   </form>`;
+  attachMaraePicker(host.querySelector('input[name=ref_marae]'), ()=>{});
   if(!presetMarae) linkTypeChanged('Marae');
 };
 window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Waka','Place','Tupuna'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Waka:'Waka',Place:'Place',Tupuna:'Tupuna'}[t])?'':'none'; });
