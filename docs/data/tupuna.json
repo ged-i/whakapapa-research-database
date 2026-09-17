@@ -150,6 +150,21 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1cMwXZGz9FXQ0y9pa_17J1oxWIKmrvfaQ/view?usp=sharing",
     "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Marriage",
+    "date": "1928",
+    "place_type": "Marae",
+    "place_ref": "Waitāruke",
+    "place_detail": "Waitāruke — SH10, Waitāruke",
+    "latitude": -35.0720009999988,
+    "longitude": 173.713565,
+    "description": "Marriage",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/167IQi_DnLLaDBTU2i6HFqtewyiMM7p9h/view?usp=sharing",
+    "note": ""
    }
   ]
  }
