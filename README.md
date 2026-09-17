@@ -79,3 +79,19 @@ Grandparent / …). Kin links show from both sides. On the Tupuna tab, *Collect*
 the whakapapa collection and *Collect connected* pulls in everyone linked to them (repeat to go a
 generation further); the map then shows the union of all collected tupuna's marae, hapū, iwi,
 waka and places, labelled with who connects there and how.
+
+## Whenua — Māori land blocks
+
+`docs/data/blocks/` holds the Māori Land Court **Māori Land Spatial Dataset (May 2017)** — all
+27,212 Māori freehold and customary land blocks — converted from the MLC shapefile to WGS84
+GeoJSON, lightly simplified (4 m), and split by Māori Land Court district so the map loads only
+what's in view. `index.json` is a name/ID lookup; `districts.json` holds each district's bounds.
+The `Block` sheet in the workbook carries every block's attributes. Licence: CC BY 4.0, Ministry
+of Justice / Māori Land Court. The data is a static 2017 release — partitions, amalgamations and
+ownership changes since then are not reflected; Pātaka Whenua is the current record.
+
+On the map, the **Whenua** button (top right) shows block boundaries once zoomed in; the search box
+finds a block by name or ID; a block card shows title order, area, minute book, owner and share
+counts and management structures. Blocks can be collected, and a tupuna can be linked to a block
+(`location_type` = Block, `location_ref` = block_id) as owner, land interest, lived, born, died or
+buried — owner lists are not public, so these come from your own Pātaka Whenua lookups.

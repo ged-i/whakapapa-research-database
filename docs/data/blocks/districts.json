@@ -1,0 +1,72 @@
+{
+ "taitokerau": {
+  "name": "Taitokerau",
+  "count": 5142,
+  "bbox": [
+   -45.504,
+   170.14,
+   -34.405,
+   176.148
+  ]
+ },
+ "waiariki": {
+  "name": "Waiariki",
+  "count": 5149,
+  "bbox": [
+   -38.998,
+   175.543,
+   -37.476,
+   178.358
+  ]
+ },
+ "tairawhiti": {
+  "name": "Tairāwhiti",
+  "count": 5422,
+  "bbox": [
+   -39.302,
+   176.982,
+   -37.535,
+   178.55
+  ]
+ },
+ "waikato-maniapoto": {
+  "name": "Waikato-Maniapoto",
+  "count": 3714,
+  "bbox": [
+   -38.721,
+   174.092,
+   -35.286,
+   176.448
+  ]
+ },
+ "te-waipounamu": {
+  "name": "Te Waipounamu",
+  "count": 2375,
+  "bbox": [
+   -47.27,
+   -176.834,
+   -40.591,
+   174.384
+  ]
+ },
+ "takitimu": {
+  "name": "Tākitimu",
+  "count": 1390,
+  "bbox": [
+   -41.613,
+   175.171,
+   -38.998,
+   177.03
+  ]
+ },
+ "aotea": {
+  "name": "Aotea",
+  "count": 4020,
+  "bbox": [
+   -41.41,
+   173.754,
+   -36.762,
+   176.994
+  ]
+ }
+}

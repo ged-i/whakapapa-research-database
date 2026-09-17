@@ -48,5 +48,15 @@
   "colour": "#d9a21b",
   "retrieved": "",
   "weight_note": "Kōrero, whakapapa books, MLC minute books held by whānau. Highest weight for our own lines; not for publication."
+ },
+ {
+  "source_id": "S06",
+  "name": "Māori Land Court spatial dataset (May 2017)",
+  "type": "Government GIS",
+  "url": "https://catalogue.data.govt.nz/dataset/maori-land-spatial-dataset",
+  "licence": "CC BY 4.0",
+  "colour": "#8b5a2b",
+  "retrieved": "2026-09-17",
+  "weight_note": "27,212 Māori freehold and customary land blocks with boundaries, title order, area, owner count, shares and management structure. Static 2017 release; partitions since then are not reflected — check Pātaka Whenua. No owner names (privacy)."
  }
 ]

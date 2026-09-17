@@ -200,6 +200,15 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .basemap{position:absolute;right:12px;top:12px;z-index:800;display:flex;background:var(--bone);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.2);overflow:hidden}
 .basemap button{border:0;background:none;padding:7px 12px;cursor:pointer;color:#4c5553}
 .basemap button.on{background:var(--ink);color:var(--bone)}
+.basemap #bmWhenua{border-left:1px solid #d9d5cb}
+.basemap #bmWhenua.on{background:#8b5a2b;color:#fff}
+.whenua-find{margin:-4px 22px 10px}
+.whenua-find input{width:100%;padding:8px 10px;border-radius:8px;border:1px solid #8b5a2b;background:var(--ink-2);color:var(--bone)}
+.whenua-hint{position:absolute;left:50%;top:60px;transform:translateX(-50%);z-index:800;background:rgba(245,244,240,.92);color:#4c5553;padding:5px 12px;border-radius:8px;font-size:12px}
+.leaflet-tooltip.blabel{background:#8b5a2b;color:#fff;border:0;font-family:var(--sans);font-size:11px;border-radius:5px;padding:2px 7px}
+.leaflet-tooltip.blabel::before{border-top-color:#8b5a2b}
+.fchip.block{border-left-color:#8b5a2b}
+.dot.block{background:#8b5a2b;border-radius:2px}
 .credit{position:absolute;left:calc(var(--panel-w) + 12px);bottom:12px;z-index:800;background:rgba(245,244,240,.92);color:#4c5553;padding:6px 10px;border-radius:8px;font-size:11px;max-width:min(420px,calc(100% - 24px))}
 .credit a{color:var(--pounamu)}
 .loading{position:absolute;inset:0;z-index:900;display:flex;align-items:center;justify-content:center;background:rgba(27,36,38,.55);color:var(--bone);font-family:var(--serif);font-size:20px}
@@ -248,6 +257,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     <input id="fMarae" placeholder="Add marae…" aria-label="Add a marae to the collection" autocomplete="off">
   </div>
   <div id="chips" class="chipbar" hidden></div>
+  <div class="whenua-find" id="whenuaFind" hidden><input id="fBlock" placeholder="Find a whenua block by name or ID…" aria-label="Find a Māori land block" autocomplete="off"></div>
   <div id="summary" class="summary" hidden></div>
   <div class="status">
     <span id="count">Loading marae…</span>
@@ -278,12 +288,13 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     <div class="storenote">Claims you add are saved in this browser. Export JSON and commit it as docs/data/claims.json to keep them in the repo. <button onclick="resetClaims()">Reload from repo</button></div>
   </div>
 </aside>
+<div id="whenuaHint" class="whenua-hint" hidden>Zoom in to see Māori land blocks</div>
 <div id="pickmode" class="pickmode">Click the map to set this place — press Esc to cancel</div>
 
 <main id="map" role="region" aria-label="Map of marae"></main>
 
 <div class="basemap" role="group" aria-label="Basemap">
-  <button id="bmLight" class="on">Map</button><button id="bmSat">Satellite</button>
+  <button id="bmLight" class="on">Map</button><button id="bmSat">Satellite</button><button id="bmWhenua" title="Māori land blocks (Māori Land Court, 2017)">Whenua</button>
 </div>
 <div class="credit">Marae points and iwi areas of interest from <a href="https://hub.arcgis.com/datasets/TPK::marae-of-aotearoa/about" target="_blank" rel="noopener">Te Puni Kōkiri</a> (CC BY 4.0), loaded live. Iwi and organisation details from <a href="https://www.tkm.govt.nz/" target="_blank" rel="noopener">Te Kāhui Māngai</a>. Areas of interest are indicative only.</div>
 <div id="loading" class="loading">Loading marae…</div>
@@ -310,7 +321,9 @@ const ALIAS = {waikato:'waikatotainui', taranaki:'taranakiiwi', ngatiapa:'ngawai
 
 // ---------- state ----------
 let iwiList = [], iwiIndex = new Map(), regionsById = {};
-const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set()}; let hideOthers=true;
+const sel={region:new Set(), iwi:new Set(), hapu:new Set(), waka:new Set(), marae:new Set(), block:new Set()}; let hideOthers=true;
+// whenua (Māori land blocks)
+let whenuaOn=false, blockDistricts={}, blockData={}, blockIndex=null, blockById=new Map(), selectedBlock=null; const blockLayer=L.layerGroup(); const blockHiLayer=L.layerGroup(); const BLOCK_COL='#8b5a2b';
 let features = [], filtered = [], selected = null;
 const markersById = new Map();
 const roheCache = new Map();
@@ -328,10 +341,11 @@ map.zoomControl.setPosition('bottomright');
 const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
 const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
 const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
-light.addTo(map); labels.addTo(map); roheLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map);
+light.addTo(map); labels.addTo(map); roheLayer.addTo(map); blockLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map); blockHiLayer.addTo(map);
 document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
-function toggleBm(b){document.querySelectorAll('.basemap button').forEach(x=>x.classList.toggle('on',x===b))}
+document.getElementById('bmWhenua').onclick = e=>{ whenuaOn=!whenuaOn; e.target.classList.toggle('on',whenuaOn); document.getElementById('whenuaFind').hidden=!whenuaOn; if(whenuaOn&&!blockIndex) loadBlockIndex(); updateWhenua(); };
+function toggleBm(b){['bmLight','bmSat'].forEach(id=>document.getElementById(id).classList.toggle('on',document.getElementById(id)===b))}
 
 const cluster = L.markerClusterGroup({maxClusterRadius:38, disableClusteringAtZoom:11, showCoverageOnHover:false, spiderfyOnMaxZoom:true});
 map.addLayer(cluster);
@@ -367,6 +381,7 @@ async function init(){
       fetch('data/hapu_aliases.json').then(r=>r.json()).catch(()=>[])
     ]);
     window._aliases=aliJ; aliJ.forEach(a=>hapuAliasMap.set(fold(a.alias), fold(a.canonical_name)));
+    fetch('data/blocks/districts.json').then(r=>r.json()).then(j=>{ blockDistricts=j; if(j['te-waipounamu']) j['te-waipounamu'].bbox=[-47.4,166,-40.5,184]; }).catch(()=>{});
     sources=srcJ; sources.forEach(x=>sourceOn[x.source_id]=true);
     try{ const lc=localStorage.getItem(CSTORE); claims = lc ? JSON.parse(lc) : clmJ; }catch{ claims=clmJ; }
     window._repoClaims=clmJ;
@@ -407,8 +422,8 @@ function buildFilters(){
   document.getElementById('q').addEventListener('input',()=>render());
   document.getElementById('csv').onclick = downloadCsv;
 }
-function afterSelChange(){ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); refreshPillStates(); }
-window.toggleSel=function(cat,val){ if(sel[cat].has(val)) sel[cat].delete(val); else sel[cat].add(val); if(cat==='marae'||cat==='hapu'||cat==='waka'||cat==='iwi') map.closePopup(); afterSelChange(); };
+function afterSelChange(){ if(!selected&&!selectedTupuna) roheLayer.clearLayers(); render(); refreshPillStates(); drawCollectedBlocks(); if(whenuaOn) updateWhenua(); }
+window.toggleSel=function(cat,val){ if(sel[cat].has(val)) sel[cat].delete(val); else sel[cat].add(val); map.closePopup(); afterSelChange(); };
 window.removeSel=function(cat,val){ sel[cat].delete(val); afterSelChange(); };
 window.clearSel=function(cat){ if(cat) sel[cat].clear(); else Object.values(sel).forEach(x=>x.clear()); map._collFitted=false; afterSelChange(); };
 function renderChips(){
@@ -416,12 +431,13 @@ function renderChips(){
   sel.region.forEach(v=>items.push(['region','region',v,v])); sel.iwi.forEach(v=>items.push(['iwi','iwi',v,v]));
   sel.hapu.forEach(k=>items.push(['hapu','hapū',k,(hapuGroups.get(k)||{label:k}).label])); sel.waka.forEach(v=>items.push(['waka','waka',v,v]));
   sel.marae.forEach(id=>{ const f=features.find(x=>x.id==id); items.push(['marae','marae',id,f?f.p.Name:id]); });
+  sel.block.forEach(id=>{ const b=blockById.get(String(id)); items.push(['block','whenua',id,b?b.name:('block '+id)]); });
   bar.hidden=!items.length; bar.innerHTML=`<span class="k" style="color:var(--mist);font-size:12px;margin-right:2px">Collection</span>`+items.map(([cat,k,v,label])=>`<span class="fchip ${cat}"><span class="k">${k}</span>${esc(label)}<button title="Remove" onclick="removeSel('${cat}',${JSON.stringify(String(v)).replace(/"/g,'&quot;')})">×</button></span>`).join('')+`<label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show others faded</label><button class="clearall" style="margin-left:8px" onclick="clearSel()">Clear collection</button>`;
 }
 function refreshPillStates(){
   document.querySelectorAll('[data-sel]').forEach(el=>{ const cat=el.dataset.sel, val=el.dataset.val; const on=sel[cat].has(val); el.classList.toggle('on',on); if(el.classList.contains('pinbtn')) el.textContent=on?'Collected':'Collect'; });
 }
-function selEmpty(){ return !Object.values(sel).some(x=>x.size); }
+function selEmpty(){ return !['region','iwi','hapu','waka','marae'].some(k=>sel[k].size); }
 function matchSel(f){  // collect-all: a marae is in the collection if ANY selected item applies to it
   if(selEmpty()) return true;
   if(sel.marae.has(String(f.id))) return true;
@@ -540,7 +556,7 @@ function showDetail(f){
   document.getElementById('roheChk').onchange = e=>{roheOn=e.target.checked; drawRohe(f)};
   renderTupunaHere(f); renderBySource(f);
 }
-window.closeDetail = function(){
+window.closeDetail = function(){ if(selectedBlock){ selectedBlock=null; blockHiLayer.clearLayers(); drawCollectedBlocks(); }
   document.getElementById('detail').classList.remove('show'); document.getElementById('panel').classList.remove('detail-mode');
   roheLayer.clearLayers();
   if(selected){ const m=markersById.get(selected.id); if(m) m.setStyle(dotStyle); }
@@ -702,9 +718,85 @@ window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_t
 window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
 window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); };
 
+// ================= whenua: Māori land blocks =================
+async function loadBlockIndex(){ if(blockIndex) return blockIndex; try{ blockIndex=await (await fetch('data/blocks/index.json')).json(); blockIndex.forEach(b=>blockById.set(String(b[0]),{id:String(b[0]),name:b[1],district:b[2],lat:b[3],lng:b[4]})); }catch{ blockIndex=[]; } return blockIndex; }
+async function loadDistrict(k){ if(blockData[k]) return blockData[k]; try{ const gj=await (await fetch(`data/blocks/${k}.json`)).json(); gj.features.forEach(f=>{ f.properties.district_key=k; }); blockData[k]=gj; return gj; }catch{ return null; } }
+function bboxHits(b,bounds){ // b=[s,w,n,e]; tolerant of the antimeridian (Rēkohu)
+  const sw=bounds.getSouthWest(), ne=bounds.getNorthEast(); if(b[2]<sw.lat||b[0]>ne.lat) return false;
+  const nz=x=>((x%360)+360)%360; let w=nz(sw.lng), e=nz(ne.lng); if(e<w) e+=360; let bw=nz(b[1]), be=nz(b[3]); if(be<bw) be+=360;
+  return (be>=w&&bw<=e)||(be+360>=w&&bw+360<=e)||(be-360>=w&&bw-360<=e); }
+function fbbox(f){ if(f._bb) return f._bb; let s=90,w=400,n=-90,e=-400; const walk=c=>{ if(typeof c[0]==='number'){ const x=c[0]<0?c[0]+360:c[0]; if(c[1]<s)s=c[1]; if(c[1]>n)n=c[1]; if(x<w)w=x; if(x>e)e=x; } else c.forEach(walk); }; walk(f.geometry.coordinates); f._bb=L.latLngBounds([s,w>180?w-360:w],[n,e>180?e-360:e]); return f._bb; }
+const blockStyle = f => ({color:BLOCK_COL,weight:1.1,fillColor:BLOCK_COL,fillOpacity: sel.block.has(String(f.properties.id))?0.35:0.08});
+let whenuaGen=0;
+async function updateWhenua(){
+  const gen=++whenuaGen; blockLayer.clearLayers();
+  document.getElementById('whenuaHint').hidden = !(whenuaOn && map.getZoom()<10);
+  if(!whenuaOn || map.getZoom()<10) return;
+  const b=map.getBounds(); const vb=b.pad(.2);
+  for(const [k,d] of Object.entries(blockDistricts)){
+    if(!bboxHits(d.bbox,b)) continue;
+    const gj=await loadDistrict(k); if(gen!==whenuaGen||!gj) return;
+    L.geoJSON(gj,{style:blockStyle, filter:f=>{ const bb=fbbox(f); return vb.intersects(bb); }, onEachFeature:(f,l)=>{ l.on('click',()=>selectBlock(f.properties)); l.bindTooltip(f.properties.name||'',{className:'blabel',sticky:true}); }}).addTo(blockLayer);
+  }
+}
+map.on('moveend',()=>{ if(whenuaOn) updateWhenua(); });
+async function findBlock(id){ await loadBlockIndex(); const ix=blockById.get(String(id)); if(!ix) return null; const gj=await loadDistrict(ix.district); if(!gj) return null; return gj.features.find(f=>String(f.properties.id)===String(id))||null; }
+window.selectBlock=async function(props){
+  const f = props.geometry ? props : await findBlock(props.id); if(!f) return; const P=f.properties; selectedBlock=f;
+  setTab('marae'); closeDetail(); selected=null;
+  blockHiLayer.clearLayers(); L.geoJSON(f,{style:{color:'#d9a21b',weight:3,fillColor:'#d9a21b',fillOpacity:.15},interactive:false}).addTo(blockHiLayer);
+  const bb=L.geoJSON(f).getBounds(); if(!map.getBounds().contains(bb)) map.fitBounds(bb.pad(.6),{animate:!reduced,maxZoom:15});
+  if(!whenuaOn){ whenuaOn=true; document.getElementById('bmWhenua').classList.add('on'); document.getElementById('whenuaFind').hidden=false; updateWhenua(); }
+  const d=document.getElementById('detail'); const panel=document.getElementById('panel'); const id=String(P.id);
+  const here=tupuna.filter(t=>t.links.some(l=>l.location_type==='Block'&&String(l.location_ref)===id));
+  const opts=tupuna.length?[...tupuna].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${esc(t.tupuna_id)}">${esc(t.name)}</option>`).join(''):'';
+  d.innerHTML=`<button class="back" onclick="closeBlock()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>Back to list</button>
+    <h2>${esc(P.name||'Block')} <button class="pinbtn ${sel.block.has(id)?'on':''}" data-sel="block" data-val="${esc(id)}" onclick="toggleSel('block','${esc(id)}')">${sel.block.has(id)?'Collected':'Collect'}</button></h2>
+    <p class="alt">${esc(P.status||'')}${P.district?` · ${esc(blockDistricts[P.district_key]?.name||P.district)} district`:''}${P.aggregated?' · aggregated block':''}</p>
+    <dl class="kv">
+      <dt>Block ID</dt><dd>${esc(id)}</dd>
+      ${P.area_ha!=null?`<dt>Area</dt><dd>${Number(P.area_ha).toLocaleString(undefined,{maximumFractionDigits:2})} ha</dd>`:''}
+      ${P.title_order?`<dt>Title order</dt><dd>${esc(P.title_order)}${P.title_type?` — ${esc(P.title_type)}`:''}${P.title_date?` (${esc(P.title_date)})`:''}</dd>`:''}
+      ${P.minute_book?`<dt>Minute book</dt><dd>${esc(P.minute_book)}</dd>`:''}
+      ${P.plan?`<dt>Plan</dt><dd>${esc(P.plan)}</dd>`:''}
+      ${P.owners!=null?`<dt>Owners</dt><dd>${Number(P.owners).toLocaleString()} owners${P.shares!=null?` · ${Number(P.shares).toLocaleString(undefined,{maximumFractionDigits:3})} shares`:''}</dd>`:''}
+      ${P.mgmt?`<dt>Managed by</dt><dd>${esc(P.mgmt).split(';').map(x=>x.trim()).filter(Boolean).map(esc).join('<br>')}</dd>`:''}
+      ${P.notice?`<dt>Notice</dt><dd>${esc(P.notice)}</dd>`:''}
+    </dl>
+    <div class="bysrc"><div class="sblock" style="border-color:${BLOCK_COL}"><div class="stitle">Māori Land Court spatial dataset, May 2017 ${P.mlol?`<a href="${esc(P.mlol)}" target="_blank" rel="noopener">Māori Land Online record</a>`:''}</div><div class="cl rel" style="font-size:12px">Boundaries and attributes are as at May 2017. Partitions, amalgamations and ownership changes since then are not shown — check <a href="https://www.xn--morilandcourt-wqb.govt.nz/en/the-court-record/m%C4%81ori-land-data" target="_blank" rel="noopener">Pātaka Whenua</a> for the current title and owner list.</div></div></div>
+    <div class="section"><h3>Tupuna with an interest in this block</h3>
+      ${here.length?here.map(t=>{ const rels=t.links.filter(l=>l.location_type==='Block'&&String(l.location_ref)===id).map(l=>l.relationship+(l.notes?` — ${l.notes}`:'')).join(', '); return `<button class="tcard" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')"><div class="name" style="font-size:15px">${esc(t.name)}</div><div class="sub">${esc(rels)}</div></button>`;}).join(''):'<div class="hint">None recorded yet. Owner lists are not in the public dataset — look the block up in Pātaka Whenua and record the tupuna\'s interest here.</div>'}
+      ${tupuna.length?`<form class="f" style="margin-top:8px" onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div><label>Note / source (e.g. Pātaka Whenua owner list, minute book)<input name="note"></label><div class="actions"><button class="btn small" type="submit">Link to this block</button></div></form>`:''}
+    </div>`;
+  d.classList.add('show'); panel.classList.add('detail-mode'); d.scrollTop=0;
+};
+window.closeBlock=function(){ selectedBlock=null; blockHiLayer.clearLayers(); closeDetail(); };
+window.quickLinkBlock=function(e,id){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const ix=blockById.get(String(id)); if(!t) return false;
+  t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:ix?ix.name:(selectedBlock?.properties.name||''),latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:(fd.get('note')||'').trim()});
+  saveStore(); selectBlock({id}); return false; };
+// block picker (search index)
+function attachBlockPicker(input,onPick){
+  const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
+  const list=document.createElement('div'); list.className='plist'; wrap.append(list); let items=[];
+  const show=async()=>{ await loadBlockIndex(); const q=norm(input.value); if(!q){ list.innerHTML='<div class="more">Type part of a block name or its ID</div>'; list.classList.add('open'); return; }
+    items=blockIndex.filter(b=>norm(b[1]).includes(q)||String(b[0])===input.value.trim()).slice(0,200).sort((a,b)=>a[1].localeCompare(b[1]));
+    list.innerHTML=items.slice(0,80).map((b,i)=>`<button type="button" data-i="${i}"><div>${esc(b[1])}</div><div class="sub">ID ${b[0]} — ${esc(blockDistricts[b[2]]?.name||b[2])}</div></button>`).join('')+(items.length>80?`<div class="more">${items.length-80} more — keep typing</div>`:(items.length?'':'<div class="more">No blocks match</div>'));
+    list.classList.add('open'); };
+  list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); const it=items[+b.dataset.i]; input.value=`${it[1]} (${it[0]})`; list.classList.remove('open'); onPick({id:String(it[0]),name:it[1],district:it[2],lat:it[3],lng:it[4]}); } });
+  input.addEventListener('focus',show); input.addEventListener('input',show); input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
+}
+attachBlockPicker(document.getElementById('fBlock'), b=>{ document.getElementById('fBlock').value=''; selectBlock({id:b.id}); });
+// collected blocks drawn even when whenua layer off
+let collGen=0;
+async function drawCollectedBlocks(){
+  const gen=++collGen; blockHiLayer.clearLayers(); if(selectedBlock) L.geoJSON(selectedBlock,{style:{color:'#d9a21b',weight:3,fillColor:'#d9a21b',fillOpacity:.15},interactive:false}).addTo(blockHiLayer);
+  if(!sel.block.size) return; await loadBlockIndex();
+  for(const id of sel.block){ const f=await findBlock(id); if(gen!==collGen) return; if(f){ L.geoJSON(f,{style:{color:'#2c6e5c',weight:2,fillColor:'#2c6e5c',fillOpacity:.3}, onEachFeature:(ft,l)=>{ l.bindTooltip(ft.properties.name||'',{className:'blabel',direction:'center'}); l.on('click',()=>selectBlock(ft.properties)); }}).addTo(blockHiLayer); } }
+}
+
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
-const TYPES=['Marae','Hapū','Iwi','Waka','Place','Tupuna'];
+const TYPES=['Marae','Hapū','Iwi','Waka','Block','Place','Tupuna'];
 const KIN=['Mother','Father','Child','Spouse / partner','Sibling','Grandparent','Grandchild','Ancestor','Descendant','Whāngai','Other'];
 const KIN_INV={Mother:'Child',Father:'Child',Child:'Parent','Spouse / partner':'Spouse / partner',Sibling:'Sibling',Grandparent:'Grandchild',Grandchild:'Grandparent',Ancestor:'Descendant',Descendant:'Ancestor',Whāngai:'Whāngai parent',Other:'Other'};
 function normalizeTupuna(list){ return (list||[]).map(t=>({...t, links:(t.links||[]).map(l=>({...l, latitude:l.latitude===''?null:l.latitude, longitude:l.longitude===''?null:l.longitude}))})); }
@@ -713,7 +805,7 @@ function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
 window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; ['marae','tupuna','sources'].forEach(k=>document.getElementById('tab'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',t===k)); if(t==='sources') renderSources();
-  if(t==='tupuna'){ closeDetail(); drawTupuna(); } else { selectedTupuna=null; tupunaLayer.clearLayers(); tupunaMaraeLayer.clearLayers(); roheLayer.clearLayers(); render(); } };
+  if(t==='tupuna'){ closeDetail(); drawTupuna(); } else { selectedTupuna=null; tupunaLayer.clearLayers(); tupunaMaraeLayer.clearLayers(); roheLayer.clearLayers(); render(); drawCollectedBlocks(); } };
 
 // ---- matching links to map features ----
 function maraeForLink(l){
@@ -752,10 +844,11 @@ function renderTupunaDetail(body){
   const kin=kinLinks(t);
   const kinHtml=kin.length?kin.map(k=>`<div class="link-row"><span class="dot" style="background:var(--bone)"></span><div class="lbody"><div class="lref"><button onclick="selectTupuna('${esc(k.other.tupuna_id)}')">${esc(k.other.name)}</button></div><div class="lmeta">${esc(k.rel)}${k.note?` · ${esc(k.note)}`:''}${k.source?`<br>Source: ${esc(k.source)}`:''}</div></div>${k.dir==='out'?`<button class="x" title="Remove link" onclick="removeLink(${t.links.indexOf(k.link)})">×</button>`:`<button class="pinbtn ${tupColl.has(k.other.tupuna_id)?'on':''}" onclick="toggleTupColl('${esc(k.other.tupuna_id)}')">${tupColl.has(k.other.tupuna_id)?'Collected':'Collect'}</button>`}</div>`).join(''):'<div class="hint">No tupuna linked yet.</div>';
   const links=t.links.map((l,i)=>{ if(l.location_type==='Tupuna') return '';
-    const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Waka:'iwi',Place:'place'}[l.location_type]||'place';
+    const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Waka:'iwi',Block:'block',Place:'place'}[l.location_type]||'place';
     const f=l.location_type==='Marae'?maraeForLink(l):null;
-    const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):l.location_type, l.notes].filter(Boolean).join(' · ');
-    return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(l.location_ref)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}</div></div><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
+    const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):(l.location_type==='Block'?`whenua block ${l.location_ref}`:l.location_type), l.notes].filter(Boolean).join(' · ');
+    const label=l.location_type==='Block'?(l.location_detail||l.location_ref):l.location_ref;
+    return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(label)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}</div></div><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
   }).join('') || '<div class="hint">No locations linked yet.</div>';
   body.innerHTML=tupCollBar()+`<div class="tdetail">
     <button class="back" onclick="backToTupuna()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>All tupuna</button>
@@ -780,6 +873,7 @@ function renderTupunaDetail(body){
 window.focusLink=function(i){
   const l=selectedTupuna.links[i];
   if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f){ map.flyTo([f.lat,f.lng],13,{animate:!reduced}); const m=markersById.get(f.id); if(m) setTimeout(()=>m.openPopup(),400);} }
+  else if(l.location_type==='Block'){ selectBlock({id:l.location_ref}); setTab('tupuna'); }
   else if(l.location_type==='Place' && l.latitude!=null){ map.flyTo([+l.latitude,+l.longitude],14,{animate:!reduced}); }
   else if(l.location_type==='Iwi'){ drawRoheByNames([l.location_ref], true); }
   else if(l.location_type==='Waka'){ const fs=features.filter(f=>wakaOf(f).has(l.location_ref)); if(fs.length) map.fitBounds(L.latLngBounds(fs.map(f=>[f.lat,f.lng])).pad(.2),{animate:!reduced,maxZoom:10}); }
@@ -791,21 +885,25 @@ window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!
 // ---- draw tupuna on map ----
 function drawTupuna(){
   tupunaLayer.clearLayers(); roheLayer.clearLayers(); render();
-  const act=activeTupuna(); if(!act.length) return;
-  const pts=[]; const iwiNames=new Set();
+  const act=activeTupuna(); tupunaBlockLayerDraw([]); if(!act.length) return;
+  const pts=[]; const iwiNames=new Set(); const blockLinks=[];
   act.forEach(t=>t.links.forEach(l=>{
     if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f){ pts.push([f.lat,f.lng]); f.matched.forEach(i=>iwiNames.add(i.name)); } }
     else if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>pts.push([f.lat,f.lng])); }
     else if(l.location_type==='Waka'){ features.forEach(f=>{ if(wakaOf(f).has(l.location_ref)) pts.push([f.lat,f.lng]); }); }
     else if(l.location_type==='Iwi'){ iwiNames.add(l.location_ref); }
+    else if(l.location_type==='Block'){ if(l.latitude!=null&&l.longitude!=null) pts.push([+l.latitude,+l.longitude]); blockLinks.push([t,l]); }
     else if(l.location_type==='Place' && l.latitude!=null && l.longitude!=null){
       const ll=[+l.latitude,+l.longitude]; pts.push(ll);
       L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`<b>${esc(l.location_ref)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
     }
   }));
   if(iwiNames.size) drawRoheByNames([...iwiNames], false);
+  if(blockLinks.length) tupunaBlockLayerDraw(blockLinks, act.length>1);
   if(pts.length) map.fitBounds(L.latLngBounds(pts).pad(.35),{animate:!reduced,maxZoom:12});
 }
+let tbGen=0;
+async function tupunaBlockLayerDraw(links, multi){ const gen=++tbGen; blockHiLayer.clearLayers(); if(!links.length){ drawCollectedBlocks(); return; } for(const [t,l] of links){ const f=await findBlock(l.location_ref); if(gen!==tbGen) return; if(f) L.geoJSON(f,{style:{color:'#d9a21b',weight:2.5,fillColor:'#d9a21b',fillOpacity:.25},onEachFeature:(ft,ly)=>{ ly.bindTooltip(`<b>${esc(ft.properties.name||'')}</b><br>${multi?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,direction:'center',className:'tlabel'}); ly.on('click',()=>selectBlock(ft.properties)); }}).addTo(blockHiLayer); } }
 async function drawRoheByNames(names, fit){
   const bounds=[];
   for(const name of names){
@@ -855,6 +953,7 @@ window.addLinkForm=function(presetMarae){
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
     <label id="refIwi" style="display:none">Iwi<select name="ref_iwi">${iwiOpts}</select></label>
     <label id="refWaka" style="display:none">Waka<select name="ref_waka">${[...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().map(w=>`<option>${esc(w)}</option>`).join('')}</select></label>
+    <label id="refBlock" style="display:none">Whenua block<input name="ref_block" placeholder="type a block name or ID" autocomplete="off"></label>
     <label id="refTupuna" style="display:none">Tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
@@ -865,9 +964,11 @@ window.addLinkForm=function(presetMarae){
     <div class="actions"><button class="btn" type="submit">Save link</button><button class="btn quiet" type="button" onclick="document.getElementById('linkForm').innerHTML=''">Cancel</button></div>
   </form>`;
   attachMaraePicker(host.querySelector('input[name=ref_marae]'), ()=>{});
+  host._blockPick=null; attachBlockPicker(host.querySelector('input[name=ref_block]'), b=>{ host._blockPick=b; });
   if(!presetMarae) linkTypeChanged('Marae');
 };
-window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Waka','Place','Tupuna'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Waka:'Waka',Place:'Place',Tupuna:'Tupuna'}[t])?'':'none'; });
+window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Waka','Block','Place','Tupuna'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Waka:'Waka',Block:'Block',Place:'Place',Tupuna:'Tupuna'}[t])?'':'none'; });
+  const rs0=document.getElementById('relSel'); if(rs0&&t==='Block'){ rs0.innerHTML=['Owner','Land interest','Lived','Born','Died','Buried','Other'].map(r=>`<option>${r}</option>`).join(''); return; }
   const rs=document.getElementById('relSel'); if(rs){ const opts=t==='Tupuna'?KIN:REL; rs.innerHTML=opts.map(r=>`<option>${r}</option>`).join(''); } };
 window.pickOnMap=function(){ document.getElementById('pickmode').classList.add('on'); map.getContainer().style.cursor='crosshair';
   pickCb=ll=>{ const f=document.querySelector('#linkForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
@@ -882,6 +983,7 @@ window.saveLink=function(e){
   else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){alert('Enter a hapū.');return false;} }
   else if(type==='Iwi'){ l.location_ref=fd.get('ref_iwi'); }
   else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){alert('No waka recorded yet.');return false;} }
+  else if(type==='Block'){ const b=document.getElementById('linkForm')._blockPick; if(!b){alert('Choose a block from the list.');return false;} l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng; }
   else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){alert('Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
   else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
   t.links.push(l); saveStore(); renderTupuna(); drawTupuna(); return false;

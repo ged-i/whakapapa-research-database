@@ -189,3 +189,15 @@ CREATE TABLE hapu_alias (                 -- manual merges beyond the automatic 
   alias_id TEXT PRIMARY KEY, canonical_name TEXT NOT NULL, alias TEXT NOT NULL,
   alias_type TEXT, note TEXT, source_id TEXT REFERENCES source(source_id)
 );
+
+-- ---------------- Whenua: Māori Land Court blocks (May 2017 spatial dataset, CC BY 4.0) ----------------
+CREATE TABLE block (
+  block_id        INTEGER PRIMARY KEY, block_name TEXT, land_status TEXT, mlc_district TEXT,
+  area_ha DOUBLE PRECISION, title_order TEXT, title_date DATE, title_type TEXT, minute_book TEXT,
+  total_shares DOUBLE PRECISION, owner_count INTEGER, plan_ref TEXT, aggregated BOOLEAN,
+  mgmt_structures TEXT, mgmt_types TEXT, mlol_url TEXT, source_id TEXT REFERENCES source(source_id),
+  geom GEOMETRY(MULTIPOLYGON, 4326)      -- from docs/data/blocks/<district>.json
+);
+CREATE INDEX block_geom_idx ON block USING GIST (geom);
+-- A tupuna's interest in a block is a tupuna_location row with location_type='Block' and location_ref=block_id.
+-- Owner lists are not in the public dataset: record them from Pātaka Whenua / minute books, one link per tupuna.
