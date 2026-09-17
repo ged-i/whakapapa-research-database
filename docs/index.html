@@ -487,7 +487,7 @@ function attachMaraePicker(input, onPick){
   list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); pick(items[+b.dataset.i]); } });
   input.addEventListener('focus',show); input.addEventListener('input',show);
   input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
-  input.addEventListener('keydown',e=>{ const bs=list.querySelectorAll('button'); if(e.key==='ArrowDown'){ hi=Math.min(hi+1,bs.length-1); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); bs[hi]?.scrollIntoView({block:'nearest'}); e.preventDefault(); } else if(e.key==='ArrowUp'){ hi=Math.max(hi-1,0); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); e.preventDefault(); } else if(e.key==='Enter'){ if(hi>=0&&items[hi]){ pick(items[hi]); e.preventDefault(); } else if(items.length===1){ pick(items[0]); e.preventDefault(); } } else if(e.key==='Escape'){ list.classList.remove('open'); } });
+  input.addEventListener('keydown',e=>{ const bs=list.querySelectorAll('button'); if(e.key==='ArrowDown'){ hi=Math.min(hi+1,bs.length-1); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); bs[hi]?.scrollIntoView({block:'nearest'}); e.preventDefault(); } else if(e.key==='ArrowUp'){ hi=Math.max(hi-1,0); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); e.preventDefault(); } else if(e.key==='Enter'){ e.preventDefault(); if(hi>=0&&items[hi]) pick(items[hi]); else if(items.length) pick(items[0]); } else if(e.key==='Escape'){ list.classList.remove('open'); } });
 }
 
 // ---------- rendering ----------
@@ -861,13 +861,18 @@ function ensureLinzClaim(blockId, blockName, linz, source_id, note){ if(!linz) r
 // block picker (search index)
 function attachBlockPicker(input,onPick){
   const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
-  const list=document.createElement('div'); list.className='plist'; wrap.append(list); let items=[];
-  const show=async()=>{ await loadBlockIndex(); const q=norm(input.value); if(!q){ list.innerHTML='<div class="more">Type part of a block name, its ID, or a LINZ title reference</div>'; list.classList.add('open'); return; }
-    const byLinz=blockByLinz(input.value.trim()); items=blockIndex.filter(b=>norm(b[1]).includes(q)||String(b[0])===input.value.trim()||(byLinz&&String(b[0])===byLinz)).slice(0,200).sort((a,b)=>a[1].localeCompare(b[1]));
+  const list=document.createElement('div'); list.className='plist'; wrap.append(list); const conf=document.createElement('div'); conf.className='hint'; wrap.append(conf); let items=[], hi=-1;
+  const toObj=it=>({id:String(it[0]),name:it[1],district:it[2],lat:it[3],lng:it[4]});
+  const match=async q=>{ await loadBlockIndex(); const k=norm(q); if(!k) return []; const byLinz=blockByLinz(q.trim()); return blockIndex.filter(b=>norm(b[1]).includes(k)||String(b[0])===q.trim()||(byLinz&&String(b[0])===byLinz)).slice(0,200).sort((a,b)=>a[1].localeCompare(b[1])); };
+  const show=async()=>{ if(!input.value.trim()){ list.innerHTML='<div class="more">Type part of a block name, its ID, or a LINZ title reference</div>'; list.classList.add('open'); return; }
+    items=await match(input.value); hi=-1;
     list.innerHTML=items.slice(0,80).map((b,i)=>`<button type="button" data-i="${i}"><div>${esc(b[1])}</div><div class="sub">ID ${b[0]} — ${esc(blockDistricts[b[2]]?.name||b[2])}${blockClaims(b[0],'has_linz_title').length?` — LINZ ${esc(blockClaims(b[0],'has_linz_title').map(c=>c.object_ref).join(', '))}`:''}</div></button>`).join('')+(items.length>80?`<div class="more">${items.length-80} more — keep typing</div>`:(items.length?'':'<div class="more">No blocks match</div>'));
     list.classList.add('open'); };
-  list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); const it=items[+b.dataset.i]; input.value=`${it[1]} (${it[0]})`; list.classList.remove('open'); onPick({id:String(it[0]),name:it[1],district:it[2],lat:it[3],lng:it[4]}); } });
-  input.addEventListener('focus',show); input.addEventListener('input',show); input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
+  const pick=it=>{ const b=toObj(it); input.value=`${b.name} (${b.id})`; input._picked=b; conf.textContent=`Selected: ${b.name} — ID ${b.id}, ${blockDistricts[b.district]?.name||b.district}`; list.classList.remove('open'); onPick(b); };
+  input.resolve=async()=>{ if(input._picked && input.value===`${input._picked.name} (${input._picked.id})`) return input._picked; const m=await match(input.value); const exact=m.filter(b=>norm(b[1])===norm(input.value)||String(b[0])===input.value.trim()); if(exact.length===1) { pick(exact[0]); return input._picked; } if(m.length===1){ pick(m[0]); return input._picked; } return null; };
+  list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); pick(items[+b.dataset.i]); } });
+  input.addEventListener('focus',show); input.addEventListener('input',()=>{ input._picked=null; conf.textContent=''; show(); }); input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
+  input.addEventListener('keydown',e=>{ const bs=list.querySelectorAll('button'); if(e.key==='ArrowDown'){ hi=Math.min(hi+1,bs.length-1); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); bs[hi]?.scrollIntoView({block:'nearest'}); e.preventDefault(); } else if(e.key==='ArrowUp'){ hi=Math.max(hi-1,0); bs.forEach((b,i)=>b.classList.toggle('hi',i===hi)); e.preventDefault(); } else if(e.key==='Enter'){ e.preventDefault(); if(hi>=0&&items[hi]) pick(items[hi]); else if(items.length) pick(items[0]); } else if(e.key==='Escape'){ list.classList.remove('open'); } });
 }
 attachBlockPicker(document.getElementById('fBlock'), b=>{ document.getElementById('fBlock').value=''; selectBlock({id:b.id}); });
 // collected blocks drawn even when whenua layer off
@@ -1098,19 +1103,20 @@ function endPick(){ pickCb=null; document.getElementById('pickmode').classList.r
 map.on('click',e=>{ if(pickCb){ pickCb(e.latlng); endPick(); } });
 map.on('zoomend',()=>drawClaimRings());
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&pickCb) endPick(); });
-window.saveLink=function(e){
-  e.preventDefault(); const fd=new FormData(e.target); const type=fd.get('type'); const t=selectedTupuna;
+window.saveLink=function(e){ e.preventDefault(); saveLinkAsync(e.target); return false; };
+function formErr(form,msg){ let el=form.querySelector('.ferr'); if(!el){ el=document.createElement('div'); el.className='ferr'; el.style.cssText='color:#f0a08c;font-size:13px;margin-top:4px'; form.querySelector('.actions').before(el); } el.textContent=msg; }
+async function saveLinkAsync(form){ const fd=new FormData(form); const type=fd.get('type'); const t=selectedTupuna;
   const l={link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:type,location_ref:'',location_detail:'',latitude:null,longitude:null,relationship:fd.get('rel'),notes:(fd.get('notes')||'').trim(),source:(fd.get('source')||'').trim()};
-  if(type==='Marae'){ const raw=(fd.get('ref_marae')||'').trim(); const [name,loc]=raw.split(' — '); if(!name){alert('Choose a marae.');return false;} l.location_ref=name.trim(); l.location_detail=(loc||'').trim(); if(!maraeForLink(l)){ if(!confirm('That marae isn\'t on the map — save the link anyway?')) return false; } }
-  else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){alert('Enter a hapū.');return false;} }
+  if(type==='Marae'){ const raw=(fd.get('ref_marae')||'').trim(); const [name,loc]=raw.split(' — '); if(!name){formErr(form,'Choose a marae from the list.');return false;} l.location_ref=name.trim(); l.location_detail=(loc||'').trim(); if(!maraeForLink(l)){ if(!confirm('That marae isn\'t on the map — save the link anyway?')) return false; } }
+  else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){formErr(form,'Enter a hapū.');return false;} }
   else if(type==='Iwi'){ l.location_ref=fd.get('ref_iwi'); }
-  else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){alert('No waka recorded yet.');return false;} }
-  else if(type==='Block'){ const b=document.getElementById('linkForm')._blockPick; if(!b){alert('Choose a block from the list.');return false;} l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng;
+  else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){formErr(form,'No waka recorded yet.');return false;} }
+  else if(type==='Block'){ let b=document.getElementById('linkForm')._blockPick; const inp=form.querySelector('input[name=ref_block]'); if(!b||inp.value!==`${b.name} (${b.id})`){ b=await inp.resolve(); document.getElementById('linkForm')._blockPick=b; } if(!b){ formErr(form,'Choose a block: type part of its name and pick it from the list (or press Enter for the top match).'); return false; } l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng;
     l.as_recorded=(fd.get('asrec')||'').trim(); l.linz_title=(fd.get('linz')||'').trim(); l.shares=(fd.get('shares')||'').trim(); l.source_id=fd.get('srcid')||'';
     if(l.as_recorded && !t.identities?.some(x=>fold(x.name)===fold(l.as_recorded)) && fold(t.name)!==fold(l.as_recorded) && confirm(`"${l.as_recorded}" is not yet one of ${t.name}'s recorded names. Add it as an identity, sourced to this title?`)) ensureIdentity(t, l.as_recorded, l.source_id, `Name on title of ${b.name}${l.linz_title?` (LINZ ${l.linz_title})`:''}${l.source?` — ${l.source}`:''}`);
     ensureLinzClaim(b.id, b.name, l.linz_title, l.source_id, l.source); }
-  else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){alert('Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
-  else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
+  else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){formErr(form,'Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
+  else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){formErr(form,'Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
   t.links.push(l); saveStore(`linked ${shortName(t)} → ${l.location_detail||l.location_ref} (${l.relationship})`); renderTupuna(); drawTupuna(); return false;
 };
 
