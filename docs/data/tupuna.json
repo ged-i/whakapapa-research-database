@@ -137,6 +137,18 @@
     "relationship": "Affiliated",
     "notes": "Assumed affiliation due to Wai (Erimana Taniora) and father's block ownership of 32923",
     "source": ""
+   },
+   {
+    "link_id": "L006",
+    "tupuna_id": "T001",
+    "location_type": "Tupuna",
+    "location_ref": "T901",
+    "location_detail": "Rirena Theresa Arama (nee Rihari Matiu)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/167IQi_DnLLaDBTU2i6HFqtewyiMM7p9h/view?usp=sharing"
    }
   ],
   "name": "Wiremu Arama",
