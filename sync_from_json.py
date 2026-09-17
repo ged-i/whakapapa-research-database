@@ -31,8 +31,8 @@ def write(title, cols, rows, widths=None):
 tup = json.loads((D/"tupuna.json").read_text(encoding="utf-8"))
 tc=["tupuna_id","name","other_names","born","died","birthplace","mother","father","notes","source"]
 write("Tupuna", tc, [[t.get(c,"") for c in tc] for t in tup], [10,28,24,12,12,26,24,24,50,30])
-lc=["link_id","tupuna_id","location_type","location_ref","location_detail","latitude","longitude","relationship","notes","source"]
-write("Tupuna_Location", lc, [[l.get(c,"") if c!="tupuna_id" else t["tupuna_id"] for c in lc] for t in tup for l in t.get("links",[])], [9,10,14,30,30,11,11,16,40,28])
+lc=["link_id","tupuna_id","location_type","location_ref","location_detail","latitude","longitude","relationship","notes","source","as_recorded","linz_title","shares","source_id"]
+write("Tupuna_Location", lc, [[l.get(c,"") if c!="tupuna_id" else t["tupuna_id"] for c in lc] for t in tup for l in t.get("links",[])], [9,10,14,30,30,11,11,16,40,28,24,12,10,9])
 ic=["identity_id","tupuna_id","name","source_id","date","document_url","note"]
 write("Tupuna_Identity", ic, [[x.get(c,"") if c!="tupuna_id" else t["tupuna_id"] for c in ic] for t in tup for x in t.get("identities",[])], [10,10,30,10,12,44,40])
 ec=["event_id","tupuna_id","type","date","place_type","place_ref","place_detail","latitude","longitude","description","source_id","confidence","document_url","note"]

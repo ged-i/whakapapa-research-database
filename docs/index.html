@@ -687,6 +687,7 @@ function conflicts(){
   const out=[];
   claims.filter(c=>sourceOn[c.source_id]).forEach(c=>{
     const S=srcOf(c.source_id);
+    if(c.subject_type==='Block') return;
     if(c.subject_type==='Marae'){ const f=c._f;
       if(!f) out.push({kind:'unmatched',subject:c.subject_ref,type:'Marae',text:`Not found on the TPK layer`,src:S,claim:c});
       else if(c.relationship==='belongs_to_iwi'&&!f.iwiNames.some(n=>norm(n)===norm(c.object_ref))) out.push({kind:'iwi',subject:f.p.Name,type:'Marae',f,text:`iwi`,a:{who:'TPK',v:f.iwiNames.join(', ')||'none',colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c});
@@ -696,7 +697,7 @@ function conflicts(){
     if(c.subject_type==='Hapū'&&c.relationship==='belongs_to_iwi'){ const t=hapuIwiTPK(c.subject_ref); if(t.size&&!t.has(norm(c.object_ref))) out.push({kind:'hapu-iwi',subject:c.subject_ref,type:'Hapū',text:`iwi of hapū`,a:{who:'TPK',v:[...(hapuIwiIndex.get(hapuKey(c.subject_ref))||{names:new Set()}).names].join(', '),colour:'#b4432b'},b:{who:S.name,v:c.object_ref,colour:S.colour},claim:c}); }
   });
   // source vs source
-  const groups=new Map(); claims.filter(c=>sourceOn[c.source_id]&&c.relationship!=='other').forEach(c=>{ const k=c.subject_type+'|'+norm(c.subject_ref)+'|'+c.relationship; (groups.get(k)||groups.set(k,[]).get(k)).push(c); });
+  const groups=new Map(); claims.filter(c=>sourceOn[c.source_id]&&c.relationship!=='other'&&c.subject_type!=='Block').forEach(c=>{ const k=c.subject_type+'|'+norm(c.subject_ref)+'|'+c.relationship; (groups.get(k)||groups.set(k,[]).get(k)).push(c); });
   groups.forEach(g=>{ const bySrc=new Map(); g.forEach(c=>(bySrc.get(c.source_id)||bySrc.set(c.source_id,new Set()).get(c.source_id)).add(c.relationship==='has_hapu'?hapuKey(c.object_ref):norm(c.object_ref))); const ids=[...bySrc.keys()]; for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){ const A=bySrc.get(ids[i]),B=bySrc.get(ids[j]); if(![...A].some(x=>B.has(x))) { const c=g[0]; out.push({kind:'src',subject:c.subject_ref,type:c.subject_type,f:c.subject_type==='Marae'?maraeFor(c.subject_ref,c.subject_detail):null,text:RELS[c.relationship],a:{who:srcOf(ids[i]).name,v:g.filter(x=>x.source_id===ids[i]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[i]).colour},b:{who:srcOf(ids[j]).name,v:g.filter(x=>x.source_id===ids[j]).map(x=>x.object_ref).join(', '),colour:srcOf(ids[j]).colour},claim:c}); } } });
   _confCache=out; _confKey=key; return out;
 }
@@ -831,25 +832,39 @@ window.selectBlock=async function(props){
       ${P.owners!=null?`<dt>Owners</dt><dd>${Number(P.owners).toLocaleString()} owners${P.shares!=null?` · ${Number(P.shares).toLocaleString(undefined,{maximumFractionDigits:3})} shares`:''}</dd>`:''}
       ${P.mgmt?`<dt>Managed by</dt><dd>${esc(P.mgmt).split(';').map(x=>x.trim()).filter(Boolean).map(esc).join('<br>')}</dd>`:''}
       ${P.notice?`<dt>Notice</dt><dd>${esc(P.notice)}</dd>`:''}
+      ${blockClaims(id,'has_linz_title').length?`<dt>LINZ title</dt><dd>${blockClaims(id,'has_linz_title').map(c=>`${esc(c.object_ref)} <span style="color:var(--mist);font-size:12px">(${esc(srcOf(c.source_id).name)}${c.retrieved?', '+esc(c.retrieved):''})</span>`).join('<br>')}</dd>`:''}
     </dl>
+    ${namesOnTitle(id).length?`<div class="section" style="margin-top:0;padding-top:0;border:0"><h3>Names recorded on this title</h3>${namesOnTitle(id).map(({t,l})=>`<div class="ident"><span class="nm">${esc(l.as_recorded)}</span><span class="meta">= <button style="background:none;border:0;color:var(--pounamu-soft);font:inherit;padding:0;cursor:pointer;text-decoration:underline" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')">${esc(t.name)}</button>${l.shares?` · ${esc(l.shares)} shares`:''}${l.source?` · ${esc(l.source)}`:''}</span></div>`).join('')}</div>`:''}
     <div class="bysrc"><div class="sblock" style="border-color:${BLOCK_COL}"><div class="stitle">Māori Land Court spatial dataset, May 2017 ${P.mlol?`<a href="${esc(P.mlol)}" target="_blank" rel="noopener">Māori Land Online record</a>`:''}</div><div class="cl rel" style="font-size:12px">Boundaries and attributes are as at May 2017. Partitions, amalgamations and ownership changes since then are not shown — check <a href="https://www.xn--morilandcourt-wqb.govt.nz/en/the-court-record/m%C4%81ori-land-data" target="_blank" rel="noopener">Pātaka Whenua</a> for the current title and owner list.</div></div></div>
     <div class="section"><h3>Tupuna with an interest in this block</h3>
       ${here.length?here.map(t=>{ const rels=t.links.filter(l=>l.location_type==='Block'&&String(l.location_ref)===id).map(l=>l.relationship+(l.notes?` — ${l.notes}`:'')).join(', '); return `<button class="tcard" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')"><div class="name" style="font-size:15px">${esc(t.name)}</div><div class="sub">${esc(rels)}</div></button>`;}).join(''):'<div class="hint">None recorded yet. Owner lists are not in the public dataset — look the block up in Pātaka Whenua and record the tupuna\'s interest here.</div>'}
-      ${tupuna.length?`<form class="f" style="margin-top:8px" onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div><label>Note / source (e.g. Pātaka Whenua owner list, minute book)<input name="note"></label><div class="actions"><button class="btn small" type="submit">Link to this block</button></div></form>`:''}
+      ${tupuna.length?`<form class="f" style="margin-top:8px" onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div>
+        <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
+        <div class="row2"><label>LINZ title reference<input name="linz" placeholder="e.g. 504121"></label><label>Shares<input name="shares" placeholder="e.g. 1 or 3.5"></label></div>
+        <div class="row2"><label>Source<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label><label>Document / note<input name="note" placeholder="Pātaka Whenua owner list, minute book, pānui"></label></div>
+        <div class="actions"><button class="btn small" type="submit">Link to this block</button></div></form>`:''}
     </div>`;
   d.classList.add('show'); panel.classList.add('detail-mode'); d.scrollTop=0;
 };
 window.closeBlock=function(){ selectedBlock=null; blockHiLayer.clearLayers(); closeDetail(); };
 window.quickLinkBlock=function(e,id){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const ix=blockById.get(String(id)); if(!t) return false;
-  t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:ix?ix.name:(selectedBlock?.properties.name||''),latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:(fd.get('note')||'').trim()});
-  saveStore(`linked ${shortName(t)} → block ${ix?ix.name:id}`); selectBlock({id}); return false; };
+  const bname=ix?ix.name:(selectedBlock?.properties.name||''); const asrec=(fd.get('asrec')||'').trim(), linz=(fd.get('linz')||'').trim(), srcid=fd.get('srcid')||'', note=(fd.get('note')||'').trim();
+  t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:bname,latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:[srcOf(srcid).name,note].filter(Boolean).join(' — '),as_recorded:asrec,linz_title:linz,shares:(fd.get('shares')||'').trim(),source_id:srcid});
+  if(asrec && !t.identities?.some(x=>fold(x.name)===fold(asrec)) && fold(t.name)!==fold(asrec) && confirm(`"${asrec}" is not yet one of ${t.name}'s recorded names. Add it as an identity, sourced to this title?`)) ensureIdentity(t, asrec, srcid, `Name on title of ${bname}${linz?` (LINZ ${linz})`:''}${note?` — ${note}`:''}`);
+  ensureLinzClaim(id, bname, linz, srcid, note);
+  saveStore(`linked ${shortName(t)} → block ${bname}${asrec?` as "${asrec}"`:''}`); selectBlock({id}); return false; };
+function blockClaims(id, rel){ return claims.filter(c=>c.subject_type==='Block'&&String(c.subject_ref)===String(id)&&(!rel||c.relationship===rel)&&sourceOn[c.source_id]); }
+function blockByLinz(q){ const c=claims.find(x=>x.subject_type==='Block'&&x.relationship==='has_linz_title'&&norm(x.object_ref)===norm(q)); return c?String(c.subject_ref):null; }
+function namesOnTitle(id){ const out=[]; tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type==='Block'&&String(l.location_ref)===String(id)&&l.as_recorded) out.push({t,l}); })); return out; }
+function ensureIdentity(t, name, source_id, note){ if(!name) return; t.identities=t.identities||[]; if(t.identities.some(x=>fold(x.name)===fold(name))||fold(t.name)===fold(name)) return; t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name,source_id:source_id||'',date:'',document_url:'',note:note||''}); }
+function ensureLinzClaim(blockId, blockName, linz, source_id, note){ if(!linz) return; if(claims.some(c=>c.subject_type==='Block'&&String(c.subject_ref)===String(blockId)&&c.relationship==='has_linz_title'&&norm(c.object_ref)===norm(linz))) return; claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:source_id||'S05',subject_type:'Block',subject_ref:String(blockId),subject_detail:blockName||'',relationship:'has_linz_title',object_ref:linz.trim(),object_detail:'',page_url:'',retrieved:new Date().toISOString().slice(0,10),confidence:'stated',note:note||''}); saveClaims(`LINZ title ${linz} on block ${blockName||blockId}`); indexClaims(); }
 // block picker (search index)
 function attachBlockPicker(input,onPick){
   const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
   const list=document.createElement('div'); list.className='plist'; wrap.append(list); let items=[];
-  const show=async()=>{ await loadBlockIndex(); const q=norm(input.value); if(!q){ list.innerHTML='<div class="more">Type part of a block name or its ID</div>'; list.classList.add('open'); return; }
-    items=blockIndex.filter(b=>norm(b[1]).includes(q)||String(b[0])===input.value.trim()).slice(0,200).sort((a,b)=>a[1].localeCompare(b[1]));
-    list.innerHTML=items.slice(0,80).map((b,i)=>`<button type="button" data-i="${i}"><div>${esc(b[1])}</div><div class="sub">ID ${b[0]} — ${esc(blockDistricts[b[2]]?.name||b[2])}</div></button>`).join('')+(items.length>80?`<div class="more">${items.length-80} more — keep typing</div>`:(items.length?'':'<div class="more">No blocks match</div>'));
+  const show=async()=>{ await loadBlockIndex(); const q=norm(input.value); if(!q){ list.innerHTML='<div class="more">Type part of a block name, its ID, or a LINZ title reference</div>'; list.classList.add('open'); return; }
+    const byLinz=blockByLinz(input.value.trim()); items=blockIndex.filter(b=>norm(b[1]).includes(q)||String(b[0])===input.value.trim()||(byLinz&&String(b[0])===byLinz)).slice(0,200).sort((a,b)=>a[1].localeCompare(b[1]));
+    list.innerHTML=items.slice(0,80).map((b,i)=>`<button type="button" data-i="${i}"><div>${esc(b[1])}</div><div class="sub">ID ${b[0]} — ${esc(blockDistricts[b[2]]?.name||b[2])}${blockClaims(b[0],'has_linz_title').length?` — LINZ ${esc(blockClaims(b[0],'has_linz_title').map(c=>c.object_ref).join(', '))}`:''}</div></button>`).join('')+(items.length>80?`<div class="more">${items.length-80} more — keep typing</div>`:(items.length?'':'<div class="more">No blocks match</div>'));
     list.classList.add('open'); };
   list.addEventListener('mousedown',e=>{ const b=e.target.closest('button'); if(b){ e.preventDefault(); const it=items[+b.dataset.i]; input.value=`${it[1]} (${it[0]})`; list.classList.remove('open'); onPick({id:String(it[0]),name:it[1],district:it[2],lat:it[3],lng:it[4]}); } });
   input.addEventListener('focus',show); input.addEventListener('input',show); input.addEventListener('blur',()=>setTimeout(()=>list.classList.remove('open'),150));
@@ -918,7 +933,7 @@ function renderTupunaDetail(body){
   const links=t.links.map((l,i)=>{ if(l.location_type==='Tupuna') return '';
     const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Waka:'iwi',Block:'block',Place:'place'}[l.location_type]||'place';
     const f=l.location_type==='Marae'?maraeForLink(l):null;
-    const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):(l.location_type==='Block'?`whenua block ${l.location_ref}`:l.location_type), l.notes].filter(Boolean).join(' · ');
+    const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):(l.location_type==='Block'?`whenua block ${l.location_ref}`:l.location_type), l.as_recorded?`recorded as “${l.as_recorded}”`:'', l.linz_title?`LINZ ${l.linz_title}`:'', l.shares?`${l.shares} shares`:'', l.notes].filter(Boolean).join(' · ');
     const label=l.location_type==='Block'?(l.location_detail||l.location_ref):l.location_ref;
     return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(label)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}</div></div><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
   }).join('') || '<div class="hint">No locations linked yet.</div>';
@@ -1057,7 +1072,10 @@ window.addLinkForm=function(presetMarae){
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
     <label id="refIwi" style="display:none">Iwi<select name="ref_iwi">${iwiOpts}</select></label>
     <label id="refWaka" style="display:none">Waka<select name="ref_waka">${[...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().map(w=>`<option>${esc(w)}</option>`).join('')}</select></label>
-    <label id="refBlock" style="display:none">Whenua block<input name="ref_block" placeholder="type a block name or ID" autocomplete="off"></label>
+    <div id="refBlock" style="display:none"><label>Whenua block<input name="ref_block" placeholder="type a block name, ID or LINZ title" autocomplete="off"></label>
+      <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
+      <div class="row2"><label>LINZ title reference<input name="linz"></label><label>Shares<input name="shares"></label></div>
+      <label>Source (register)<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label></div>
     <label id="refTupuna" style="display:none">Tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
@@ -1087,7 +1105,10 @@ window.saveLink=function(e){
   else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){alert('Enter a hapū.');return false;} }
   else if(type==='Iwi'){ l.location_ref=fd.get('ref_iwi'); }
   else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){alert('No waka recorded yet.');return false;} }
-  else if(type==='Block'){ const b=document.getElementById('linkForm')._blockPick; if(!b){alert('Choose a block from the list.');return false;} l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng; }
+  else if(type==='Block'){ const b=document.getElementById('linkForm')._blockPick; if(!b){alert('Choose a block from the list.');return false;} l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng;
+    l.as_recorded=(fd.get('asrec')||'').trim(); l.linz_title=(fd.get('linz')||'').trim(); l.shares=(fd.get('shares')||'').trim(); l.source_id=fd.get('srcid')||'';
+    if(l.as_recorded && !t.identities?.some(x=>fold(x.name)===fold(l.as_recorded)) && fold(t.name)!==fold(l.as_recorded) && confirm(`"${l.as_recorded}" is not yet one of ${t.name}'s recorded names. Add it as an identity, sourced to this title?`)) ensureIdentity(t, l.as_recorded, l.source_id, `Name on title of ${b.name}${l.linz_title?` (LINZ ${l.linz_title})`:''}${l.source?` — ${l.source}`:''}`);
+    ensureLinzClaim(b.id, b.name, l.linz_title, l.source_id, l.source); }
   else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){alert('Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
   else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
   t.links.push(l); saveStore(`linked ${shortName(t)} → ${l.location_detail||l.location_ref} (${l.relationship})`); renderTupuna(); drawTupuna(); return false;
@@ -1115,7 +1136,7 @@ window.importJson=function(inp){ const file=inp.files[0]; if(!file) return; file
 function csvRows(header, rows){ const q=v=>`"${String(v??'').replace(/"/g,'""')}"`; return '\ufeff'+[header.join(','),...rows.map(r=>r.map(q).join(','))].join('\n'); }
 window.exportCsv=function(){
   const tcols=['tupuna_id','name','other_names','born','died','birthplace','mother','father','notes','source'];
-  const lcols=['link_id','tupuna_id','location_type','location_ref','location_detail','latitude','longitude','relationship','notes','source'];
+  const lcols=['link_id','tupuna_id','location_type','location_ref','location_detail','latitude','longitude','relationship','notes','source','as_recorded','linz_title','shares','source_id'];
   download('Tupuna.csv', csvRows(tcols, tupuna.map(t=>tcols.map(c=>t[c]))), 'text/csv');
   setTimeout(()=>download('Tupuna_Location.csv', csvRows(lcols, allLinks().map(l=>lcols.map(c=>l[c]))), 'text/csv'), 300);
   const icols=['identity_id','tupuna_id','name','source_id','date','document_url','note']; const ecols=['event_id','tupuna_id','type','date','place_type','place_ref','place_detail','latitude','longitude','description','source_id','confidence','document_url','note'];

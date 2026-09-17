@@ -217,3 +217,8 @@ CREATE TABLE discrepancy (                -- the case register of conflicts and 
   disc_id TEXT PRIMARY KEY, tupuna_id TEXT REFERENCES tupuna(tupuna_id), title TEXT NOT NULL,
   side_a TEXT, side_b TEXT, hypothesis TEXT, status TEXT CHECK (status IN ('open','working','resolved')), opened DATE, note TEXT
 );
+ALTER TABLE tupuna_location ADD COLUMN as_recorded TEXT;  -- name exactly as on the title (identity evidence)
+ALTER TABLE tupuna_location ADD COLUMN linz_title TEXT;
+ALTER TABLE tupuna_location ADD COLUMN shares TEXT;
+ALTER TABLE tupuna_location ADD COLUMN source_id TEXT REFERENCES source(source_id);
+-- claim.subject_type may also be 'Block' (subject_ref = block_id), e.g. relationship 'has_linz_title'
