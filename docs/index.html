@@ -310,7 +310,7 @@ const roheCache = new Map();
 let roheLayer = L.layerGroup();
 // whakapapa layer
 const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaLayer=L.layerGroup(); const tupunaMaraeLayer=L.layerGroup(); let tab='marae';
-let pickCb=null;
+let pickCb=null; const tupColl=new Set(); // whakapapa collection of tupuna_ids
 // provenance
 const CSTORE='wrd.claims.v1'; let sources=[], claims=[], sourceOn={}; const claimLayer=L.layerGroup();
 const RELS={has_hapu:'hapū',belongs_to_iwi:'belongs to iwi',has_waka:'waka',alias_of:'also known as',located_at:'located at',other:'note'};
@@ -432,11 +432,14 @@ function render(){
   filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && inColl(f));
   let shown = (selEmpty()||hideOthers) ? filtered : features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)));
   cluster.clearLayers(); markersById.clear(); tupunaMaraeLayer.clearLayers();
-  if(selectedTupuna){
-    const ids=linkedMaraeIds(selectedTupuna); const linked=features.filter(f=>ids.has(f.id));
-    shown = hideOthers ? [] : features.filter(f=>!ids.has(f.id));
-    linked.forEach(f=>{ const rels=tupunaRelsFor(selectedTupuna,f); const m=L.circleMarker([f.lat,f.lng],dotTupuna).bindTooltip(`${esc(f.p.Name)}${rels?` — ${esc(rels)}`:''}`,{permanent:true,direction:'top',offset:[0,-8],className:'tlabel'});
-      m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><div style="margin-top:4px;color:#4c5553">${esc(rels)}</div><button onclick="setTab('marae');select(${JSON.stringify(f.id)})">Details</button>`);
+  const act=(tab==='tupuna')?activeTupuna():[];
+  if(act.length){
+    const byMarae=new Map(); act.forEach(t=>linkedMaraeIds(t).forEach(id=>(byMarae.get(id)||byMarae.set(id,[]).get(id)).push(t)));
+    const linked=features.filter(f=>byMarae.has(f.id));
+    shown = hideOthers ? [] : features.filter(f=>!byMarae.has(f.id));
+    linked.forEach(f=>{ const ts=byMarae.get(f.id); const lines=ts.map(t=>`${act.length>1?shortName(t)+': ':''}${tupunaRelsFor(t,f)}`);
+      const m=L.circleMarker([f.lat,f.lng],dotTupuna).bindTooltip(`<b>${esc(f.p.Name)}</b>${lines.length?'<br>'+lines.map(esc).join('<br>'):''}`,{permanent:true,direction:'top',offset:[0,-8],className:'tlabel'});
+      m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><div style="margin-top:4px;color:#4c5553">${lines.map(esc).join('<br>')}</div><button onclick="setTab('marae');select(${JSON.stringify(f.id)})">Details</button>`);
       m.addTo(tupunaMaraeLayer); markersById.set(f.id,m); });
   }
   renderChips(); renderSummaries();
@@ -444,7 +447,7 @@ function render(){
   // markers
   const ms = shown.map(f=>{
     const isColl=!selEmpty()&&inColl(f);
-    const style = selected&&selected.id===f.id?dotActive:(selectedTupuna?dotFaded:(selEmpty()?dotStyle:(isColl?dotCollected:dotFaded)));
+    const style = selected&&selected.id===f.id?dotActive:(act.length?dotFaded:(selEmpty()?dotStyle:(isColl?dotCollected:dotFaded)));
     const m=L.circleMarker([f.lat,f.lng], style);
     m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button><button class="pinbtn ${sel.marae.has(String(f.id))?'on':''}" data-sel="marae" data-val="${esc(String(f.id))}" onclick="toggleSel('marae','${esc(String(f.id))}')">${sel.marae.has(String(f.id))?'Collected':'Collect'}</button>${f.iwiNames.length?`<div class="phapu" style="border-top:0;margin-top:6px;padding-top:0">${f.iwiNames.map(n=>`<button class="ppill ${sel.iwi.has(n)?'on':''}" data-sel="iwi" data-val="${esc(n)}" style="background:#d9e8e3" title="Add/remove this iwi in the collection" onclick="toggleSel('iwi',${JSON.stringify(n).replace(/"/g,'&quot;')})">${esc(n)}</button>`).join('')}</div>`:''}${f.hapu.length?`<div class="phapu">${f.hapu.map(h=>`<button class="ppill ${sel.hapu.has(hapuKey(h))?'on':''}" data-sel="hapu" data-val="${esc(hapuKey(h))}" title="Add/remove this hapū in the collection" onclick="toggleSel('hapu','${esc(hapuKey(h))}')">${esc(h)}</button>`).join('')}</div>`:''}${popupWaka(f)}`,{maxWidth:280});
     m.on('click',()=>highlightList(f.id));
@@ -679,14 +682,16 @@ window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser
 
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
-const TYPES=['Marae','Hapū','Iwi','Place'];
+const TYPES=['Marae','Hapū','Iwi','Waka','Place','Tupuna'];
+const KIN=['Mother','Father','Child','Spouse / partner','Sibling','Grandparent','Grandchild','Ancestor','Descendant','Whāngai','Other'];
+const KIN_INV={Mother:'Child',Father:'Child',Child:'Parent','Spouse / partner':'Spouse / partner',Sibling:'Sibling',Grandparent:'Grandchild',Grandchild:'Grandparent',Ancestor:'Descendant',Descendant:'Ancestor',Whāngai:'Whāngai parent',Other:'Other'};
 function normalizeTupuna(list){ return (list||[]).map(t=>({...t, links:(t.links||[]).map(l=>({...l, latitude:l.latitude===''?null:l.latitude, longitude:l.longitude===''?null:l.longitude}))})); }
 function saveStore(){ try{ localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} }
 function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
 window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; ['marae','tupuna','sources'].forEach(k=>document.getElementById('tab'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',t===k)); if(t==='sources') renderSources();
-  if(t==='tupuna'){ closeDetail(); } else { selectedTupuna=null; tupunaLayer.clearLayers(); roheLayer.clearLayers(); render(); } };
+  if(t==='tupuna'){ closeDetail(); drawTupuna(); } else { selectedTupuna=null; tupunaLayer.clearLayers(); tupunaMaraeLayer.clearLayers(); roheLayer.clearLayers(); render(); } };
 
 // ---- matching links to map features ----
 function maraeForLink(l){
@@ -694,8 +699,15 @@ function maraeForLink(l){
   if(cands.length>1 && l.location_detail){ const d=norm(l.location_detail); const c=cands.find(f=>norm(f.p.Location)===d); if(c) return c; }
   return cands[0]||null;
 }
-function tupunaRelsFor(t,f){ return t.links.filter(l=>(l.location_type==='Marae'&&maraeForLink(l)===f)||(l.location_type==='Hapū'&&f.hapu.some(h=>hapuKey(h)===hapuKey(l.location_ref)))).map(l=>l.relationship+(l.location_type==='Hapū'?` (via ${l.location_ref})`:'')).join(', '); }
-function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>s.add(f.id)); } }); return s; }
+function shortName(t){ return (t.name||'').split(/\s*\(/)[0].split(' ').slice(0,2).join(' '); }
+function tupunaById(id){ return tupuna.find(x=>x.tupuna_id===id); }
+function activeTupuna(){ const set=new Map(); tupColl.forEach(id=>{ const t=tupunaById(id); if(t) set.set(id,t); }); if(selectedTupuna) set.set(selectedTupuna.tupuna_id,selectedTupuna); return [...set.values()]; }
+function kinLinks(t){ // outbound + inbound tupuna links
+  const out=t.links.filter(l=>l.location_type==='Tupuna').map(l=>({other:tupunaById(l.location_ref),rel:l.relationship,note:l.note,source:l.source,dir:'out',link:l}));
+  tupuna.forEach(o=>{ if(o===t) return; o.links.forEach(l=>{ if(l.location_type==='Tupuna'&&l.location_ref===t.tupuna_id) out.push({other:o,rel:KIN_INV[l.relationship]||l.relationship,note:l.note,source:l.source,dir:'in',link:l}); }); });
+  return out.filter(x=>x.other); }
+function tupunaRelsFor(t,f){ return [...new Set(t.links.filter(l=>(l.location_type==='Marae'&&maraeForLink(l)===f)||(l.location_type==='Hapū'&&f.hapu.some(h=>hapuKey(h)===hapuKey(l.location_ref)))||(l.location_type==='Waka'&&wakaOf(f).has(l.location_ref))).map(l=>l.relationship+(l.location_type==='Hapū'||l.location_type==='Waka'?` (via ${l.location_ref})`:'')))].join(', '); }
+function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>s.add(f.id)); } if(l.location_type==='Waka'){ features.forEach(f=>{ if(wakaOf(f).has(l.location_ref)) s.add(f.id); }); } }); return s; }
 
 // ---- list / detail ----
 function renderTupuna(){
@@ -703,24 +715,31 @@ function renderTupuna(){
   if(selectedTupuna){ renderTupunaDetail(body); return; }
   if(!tupuna.length){ body.innerHTML='<div class="empty"><strong>No tupuna yet.</strong>Add your first ancestor, then link them to marae, hapū, iwi or places on the map.</div>'; return; }
   const sorted=[...tupuna].sort((a,b)=>(a.name||'').localeCompare(b.name||''));
-  body.innerHTML = sorted.map(t=>`<button class="tcard" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.length} location${t.links.length===1?'':'s'}`].filter(Boolean).join(' · '))}</div></button>`).join('');
+  body.innerHTML = tupCollBar() + sorted.map(t=>`<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`).join('');
 }
+function tupCollBar(){ if(!tupColl.size) return ''; const names=[...tupColl].map(id=>tupunaById(id)).filter(Boolean); return `<div class="chipbar" style="margin:0 22px 10px;display:flex"><span style="color:var(--mist);font-size:12px">Whakapapa collection</span>${names.map(t=>`<span class="fchip" style="border-left-color:var(--kowhai)">${esc(shortName(t))}<button title="Remove" onclick="toggleTupColl('${esc(t.tupuna_id)}')">×</button></span>`).join('')}<button class="clearall" onclick="tupColl.clear();refreshTupuna()">Clear</button></div>`; }
+function refreshTupuna(){ renderTupuna(); drawTupuna(); }
+window.toggleTupColl=function(id){ if(tupColl.has(id)) tupColl.delete(id); else tupColl.add(id); refreshTupuna(); };
+window.collectConnected=function(id){ const t=tupunaById(id); if(!t) return; tupColl.add(id); const frontier=[...tupColl]; frontier.forEach(x=>{ const tt=tupunaById(x); if(tt) kinLinks(tt).forEach(k=>tupColl.add(k.other.tupuna_id)); }); refreshTupuna(); };
 window.selectTupuna=function(id){
   selectedTupuna=tupuna.find(t=>t.tupuna_id===id)||null; renderTupuna(); drawTupuna(); };
-window.backToTupuna=function(){ selectedTupuna=null; tupunaLayer.clearLayers(); roheLayer.clearLayers(); render(); renderTupuna(); };
+window.backToTupuna=function(){ selectedTupuna=null; tupunaLayer.clearLayers(); roheLayer.clearLayers(); renderTupuna(); drawTupuna(); };
 
 function renderTupunaDetail(body){
   const t=selectedTupuna;
-  const links=t.links.map((l,i)=>{
-    const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Place:'place'}[l.location_type]||'place';
+  const kin=kinLinks(t);
+  const kinHtml=kin.length?kin.map(k=>`<div class="link-row"><span class="dot" style="background:var(--bone)"></span><div class="lbody"><div class="lref"><button onclick="selectTupuna('${esc(k.other.tupuna_id)}')">${esc(k.other.name)}</button></div><div class="lmeta">${esc(k.rel)}${k.note?` · ${esc(k.note)}`:''}${k.source?`<br>Source: ${esc(k.source)}`:''}</div></div>${k.dir==='out'?`<button class="x" title="Remove link" onclick="removeLink(${t.links.indexOf(k.link)})">×</button>`:`<button class="pinbtn ${tupColl.has(k.other.tupuna_id)?'on':''}" onclick="toggleTupColl('${esc(k.other.tupuna_id)}')">${tupColl.has(k.other.tupuna_id)?'Collected':'Collect'}</button>`}</div>`).join(''):'<div class="hint">No tupuna linked yet.</div>';
+  const links=t.links.map((l,i)=>{ if(l.location_type==='Tupuna') return '';
+    const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Waka:'iwi',Place:'place'}[l.location_type]||'place';
     const f=l.location_type==='Marae'?maraeForLink(l):null;
     const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):l.location_type, l.notes].filter(Boolean).join(' · ');
     return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(l.location_ref)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}</div></div><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
   }).join('') || '<div class="hint">No locations linked yet.</div>';
-  body.innerHTML=`<div class="tdetail">
+  body.innerHTML=tupCollBar()+`<div class="tdetail">
     <button class="back" onclick="backToTupuna()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>All tupuna</button>
     <h2>${esc(t.name)}</h2>
     ${t.other_names?`<p class="alt">also ${esc(t.other_names)}</p>`:'<p class="alt"></p>'}
+    <div style="display:flex;gap:8px;margin-bottom:12px"><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="margin:0" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button><button class="pinbtn" style="margin:0" title="Add this tupuna and everyone linked to them (press again to go a generation further)" onclick="collectConnected('${esc(t.tupuna_id)}')">Collect connected</button></div>
     <dl class="kv">
       ${t.born||t.died?`<dt>Lived</dt><dd>${esc([t.born,t.died].filter(Boolean).join(' – '))}</dd>`:''}
       ${t.birthplace?`<dt>Birthplace</dt><dd>${esc(t.birthplace)}</dd>`:''}
@@ -730,6 +749,7 @@ function renderTupunaDetail(body){
     </dl>
     ${t.notes?`<p style="margin:0 0 14px">${esc(t.notes)}</p>`:''}
     <div style="display:flex;gap:8px;align-items:center"><button class="btn quiet small" onclick="editTupuna('${esc(t.tupuna_id)}')">Edit</button><button class="btn quiet small" onclick="deleteTupuna('${esc(t.tupuna_id)}')">Delete</button><label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show other marae faded</label></div>
+    <div class="section"><h3>Whakapapa</h3>${kinHtml}</div>
     <div class="section"><h3>Locations of interest</h3>${links}
       <button class="btn small" style="margin-top:10px" onclick="addLinkForm()">Link a location</button>
       <div id="linkForm"></div></div>
@@ -739,26 +759,28 @@ window.focusLink=function(i){
   const l=selectedTupuna.links[i];
   if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f){ map.flyTo([f.lat,f.lng],13,{animate:!reduced}); const m=markersById.get(f.id); if(m) setTimeout(()=>m.openPopup(),400);} }
   else if(l.location_type==='Place' && l.latitude!=null){ map.flyTo([+l.latitude,+l.longitude],14,{animate:!reduced}); }
-  else if(l.location_type==='Iwi'){ const ids=[...linkedMaraeIds({links:[]})]; drawRoheByNames([l.location_ref], true); }
+  else if(l.location_type==='Iwi'){ drawRoheByNames([l.location_ref], true); }
+  else if(l.location_type==='Waka'){ const fs=features.filter(f=>wakaOf(f).has(l.location_ref)); if(fs.length) map.fitBounds(L.latLngBounds(fs.map(f=>[f.lat,f.lng])).pad(.2),{animate:!reduced,maxZoom:10}); }
   else if(l.location_type==='Hapū'){ const k=hapuKey(l.location_ref); const fs=features.filter(f=>f.hapu.some(h=>hapuKey(h)===k)); if(fs.length) map.fitBounds(L.latLngBounds(fs.map(f=>[f.lat,f.lng])).pad(.3),{animate:!reduced,maxZoom:12}); }
 };
 window.removeLink=function(i){ if(!confirm('Remove this link?')) return; selectedTupuna.links.splice(i,1); saveStore(); renderTupuna(); drawTupuna(); };
-window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!t||!confirm(`Delete ${t.name} and all their links?`)) return; tupuna=tupuna.filter(x=>x!==t); saveStore(); backToTupuna(); };
+window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!t||!confirm(`Delete ${t.name} and all their links?`)) return; tupuna=tupuna.filter(x=>x!==t); tupuna.forEach(o=>o.links=o.links.filter(l=>!(l.location_type==='Tupuna'&&l.location_ref===id))); tupColl.delete(id); saveStore(); backToTupuna(); };
 
 // ---- draw tupuna on map ----
 function drawTupuna(){
   tupunaLayer.clearLayers(); roheLayer.clearLayers(); render();
-  const t=selectedTupuna; if(!t) return;
+  const act=activeTupuna(); if(!act.length) return;
   const pts=[]; const iwiNames=new Set();
-  t.links.forEach(l=>{
+  act.forEach(t=>t.links.forEach(l=>{
     if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f){ pts.push([f.lat,f.lng]); f.matched.forEach(i=>iwiNames.add(i.name)); } }
-    else if(l.location_type==='Hapū'){ const k=hapuKey(l.location_ref); features.forEach(f=>{ if(f.hapu.some(h=>hapuKey(h)===k)) pts.push([f.lat,f.lng]); }); }
+    else if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>pts.push([f.lat,f.lng])); }
+    else if(l.location_type==='Waka'){ features.forEach(f=>{ if(wakaOf(f).has(l.location_ref)) pts.push([f.lat,f.lng]); }); }
     else if(l.location_type==='Iwi'){ iwiNames.add(l.location_ref); }
     else if(l.location_type==='Place' && l.latitude!=null && l.longitude!=null){
       const ll=[+l.latitude,+l.longitude]; pts.push(ll);
-      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`${esc(l.location_ref)} — ${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
+      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`<b>${esc(l.location_ref)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
     }
-  });
+  }));
   if(iwiNames.size) drawRoheByNames([...iwiNames], false);
   if(pts.length) map.fitBounds(L.latLngBounds(pts).pad(.35),{animate:!reduced,maxZoom:12});
 }
@@ -811,17 +833,20 @@ window.addLinkForm=function(presetMarae){
     <label id="refMarae">Marae<input name="ref_marae" list="maraeList" placeholder="start typing a marae name" value="${presetMarae?esc(presetMarae.p.Name+(presetMarae.p.Location?' — '+presetMarae.p.Location:'')):''}"><datalist id="maraeList">${maraeOpts}</datalist></label>
     <label id="refHapu" style="display:none">Hapū<input name="ref_hapu" list="hapuList"><datalist id="hapuList">${hapuOpts}</datalist></label>
     <label id="refIwi" style="display:none">Iwi<select name="ref_iwi">${iwiOpts}</select></label>
+    <label id="refWaka" style="display:none">Waka<select name="ref_waka">${[...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().map(w=>`<option>${esc(w)}</option>`).join('')}</select></label>
+    <label id="refTupuna" style="display:none">Tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
       <button type="button" class="btn quiet small" onclick="pickOnMap()">Pick on the map</button></div>
-    <label>Relationship<select name="rel">${REL.map(r=>`<option>${r}</option>`).join('')}</select></label>
+    <label>Relationship<select name="rel" id="relSel">${REL.map(r=>`<option>${r}</option>`).join('')}</select></label>
     <label>Notes<input name="notes"></label>
     <label>Source<input name="source"></label>
     <div class="actions"><button class="btn" type="submit">Save link</button><button class="btn quiet" type="button" onclick="document.getElementById('linkForm').innerHTML=''">Cancel</button></div>
   </form>`;
   if(!presetMarae) linkTypeChanged('Marae');
 };
-window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Place'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Place:'Place'}[t])?'':'none'; }); };
+window.linkTypeChanged=function(t){ ['Marae','Hapu','Iwi','Waka','Place','Tupuna'].forEach(k=>{ const el=document.getElementById('ref'+k); if(el) el.style.display=(k==={Marae:'Marae','Hapū':'Hapu',Iwi:'Iwi',Waka:'Waka',Place:'Place',Tupuna:'Tupuna'}[t])?'':'none'; });
+  const rs=document.getElementById('relSel'); if(rs){ const opts=t==='Tupuna'?KIN:REL; rs.innerHTML=opts.map(r=>`<option>${r}</option>`).join(''); } };
 window.pickOnMap=function(){ document.getElementById('pickmode').classList.add('on'); map.getContainer().style.cursor='crosshair';
   pickCb=ll=>{ const f=document.querySelector('#linkForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
 function endPick(){ pickCb=null; document.getElementById('pickmode').classList.remove('on'); map.getContainer().style.cursor=''; }
@@ -834,6 +859,8 @@ window.saveLink=function(e){
   if(type==='Marae'){ const raw=(fd.get('ref_marae')||'').trim(); const [name,loc]=raw.split(' — '); if(!name){alert('Choose a marae.');return false;} l.location_ref=name.trim(); l.location_detail=(loc||'').trim(); if(!maraeForLink(l)){ if(!confirm('That marae isn\'t on the map — save the link anyway?')) return false; } }
   else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){alert('Enter a hapū.');return false;} }
   else if(type==='Iwi'){ l.location_ref=fd.get('ref_iwi'); }
+  else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){alert('No waka recorded yet.');return false;} }
+  else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){alert('Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
   else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
   t.links.push(l); saveStore(); renderTupuna(); drawTupuna(); return false;
 };

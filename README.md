@@ -70,3 +70,12 @@ sources describe get a coloured ring; a marae card shows what each source says s
 flags where they differ; the Sources tab lists every conflict. Claims can be added from a marae
 card and exported as JSON/CSV in the sheet's columns. Māori Maps is all-rights-reserved: enter
 citations by hand, never bulk-copy.
+
+### Whakapapa links and the whakapapa collection
+
+A tupuna link can also point at a **Waka** or at another **Tupuna** (`location_type` = Tupuna,
+`location_ref` = the other tupuna_id, relationship = Mother / Father / Child / Spouse / Sibling /
+Grandparent / …). Kin links show from both sides. On the Tupuna tab, *Collect* adds a tupuna to
+the whakapapa collection and *Collect connected* pulls in everyone linked to them (repeat to go a
+generation further); the map then shows the union of all collected tupuna's marae, hapū, iwi,
+waka and places, labelled with who connects there and how.
