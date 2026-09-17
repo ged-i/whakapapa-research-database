@@ -134,6 +134,23 @@
   "mother": "Erihapeti Wiremu Tangata",
   "father": "Arama Taniora",
   "notes": "",
-  "source": "Death certificate, marriage certificate"
+  "source": "Death certificate, marriage certificate",
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1966",
+    "place_type": "Place",
+    "place_ref": "Pawarenga",
+    "place_detail": "",
+    "latitude": -35.318279,
+    "longitude": 173.2901,
+    "description": "Died of a heart attack",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1cMwXZGz9FXQ0y9pa_17J1oxWIKmrvfaQ/view?usp=sharing",
+    "note": ""
+   }
+  ]
  }
 ]
