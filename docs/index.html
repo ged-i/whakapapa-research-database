@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 <style>
 :root{
   --ink:#1b2426; --ink-2:#26393a; --ink-3:#334a4b;
@@ -103,7 +104,7 @@ a:hover{color:var(--bone)}
 .tabs{display:flex;margin:0 22px 12px;border-bottom:1px solid var(--ink-3)}
 .tabs button{flex:1;background:none;border:0;color:var(--mist);padding:8px 0 10px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;font-weight:500}
 .tabs button.on{color:var(--bone);border-bottom-color:var(--kowhai)}
-#panel[data-tab="tupuna"] .search,#panel[data-tab="tupuna"] .filters,#panel[data-tab="tupuna"] .status,#panel[data-tab="tupuna"] #results{display:none}
+#panel[data-tab="tupuna"] .chipbar,#panel[data-tab="tupuna"] #summary,#panel[data-tab="sources"] .chipbar,#panel[data-tab="tupuna"] .search,#panel[data-tab="tupuna"] .filters,#panel[data-tab="tupuna"] .status,#panel[data-tab="tupuna"] #results{display:none}
 #panel[data-tab="marae"] #tupunaView{display:none}
 #tupunaView{flex:1;overflow-y:auto;scrollbar-color:var(--ink-3) transparent;display:flex;flex-direction:column}
 .tbar{display:flex;gap:8px;align-items:center;padding:0 22px 10px;flex-wrap:wrap}
@@ -143,7 +144,8 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .tupuna-here{margin-top:6px}
 .tupuna-here .tcard{padding:6px 0}
 .leaflet-marker-icon.place-pin{background:var(--kowhai);border:2px solid #fff;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.4)}
-.leaflet-tooltip.tlabel{background:var(--ink);color:var(--bone);border:0;font-family:var(--sans);font-size:12px;border-radius:6px;padding:3px 8px}
+.leaflet-tooltip.tlabel{background:var(--ink);color:var(--bone);border:0;font-family:var(--sans);font-size:12px;border-radius:6px;padding:3px 8px;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.leaflet-tooltip.tlabel::before{border-top-color:var(--ink)}
 
 /* sources & claims */
 #panel[data-tab="sources"] .search,#panel[data-tab="sources"] .filters,#panel[data-tab="sources"] .status,#panel[data-tab="sources"] #results,#panel[data-tab="sources"] #summary{display:none}
@@ -186,8 +188,8 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .leaflet-popup-content .ppill:hover{background:var(--pounamu);color:#fff}
 .leaflet-popup-content .pwaka{border-top:0;margin-top:6px;padding-top:0}
 .leaflet-popup-content .ppill.waka{background:#fff;border:2px solid;font-style:italic;font-family:var(--serif)}
-.marker-cluster{background:rgba(180,67,43,.35)}
-.marker-cluster div{background:var(--kokowai);color:#fff;font-weight:600;font-family:var(--sans)}
+.marker-cluster{background:rgba(180,67,43,.35)!important;border-radius:20px}
+.marker-cluster div{background:var(--kokowai)!important;color:#fff;font-weight:600;font-family:var(--sans);border-radius:15px;width:30px;height:30px;margin:5px;text-align:center;line-height:30px}
 .basemap{position:absolute;right:12px;top:12px;z-index:800;display:flex;background:var(--bone);border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.2);overflow:hidden}
 .basemap button{border:0;background:none;padding:7px 12px;cursor:pointer;color:#4c5553}
 .basemap button.on{background:var(--ink);color:var(--bone)}
@@ -307,7 +309,7 @@ const markersById = new Map();
 const roheCache = new Map();
 let roheLayer = L.layerGroup();
 // whakapapa layer
-const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaLayer=L.layerGroup(); let tab='marae';
+const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaLayer=L.layerGroup(); const tupunaMaraeLayer=L.layerGroup(); let tab='marae';
 let pickCb=null;
 // provenance
 const CSTORE='wrd.claims.v1'; let sources=[], claims=[], sourceOn={}; const claimLayer=L.layerGroup();
@@ -319,7 +321,7 @@ map.zoomControl.setPosition('bottomright');
 const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
 const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
 const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
-light.addTo(map); labels.addTo(map); roheLayer.addTo(map); tupunaLayer.addTo(map); claimLayer.addTo(map);
+light.addTo(map); labels.addTo(map); roheLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map);
 document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
 function toggleBm(b){document.querySelectorAll('.basemap button').forEach(x=>x.classList.toggle('on',x===b))}
@@ -428,14 +430,21 @@ function render(){
   const q=norm(document.getElementById('q').value);
   const inColl = f => matchSel(f);
   filtered = features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)) && inColl(f));
-  const shown = (selEmpty()||hideOthers) ? filtered : features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)));
+  let shown = (selEmpty()||hideOthers) ? filtered : features.filter(f => (!q||f.hay.includes(q)||claimHay(f).includes(q)));
+  cluster.clearLayers(); markersById.clear(); tupunaMaraeLayer.clearLayers();
+  if(selectedTupuna){
+    const ids=linkedMaraeIds(selectedTupuna); const linked=features.filter(f=>ids.has(f.id));
+    shown = hideOthers ? [] : features.filter(f=>!ids.has(f.id));
+    linked.forEach(f=>{ const rels=tupunaRelsFor(selectedTupuna,f); const m=L.circleMarker([f.lat,f.lng],dotTupuna).bindTooltip(`${esc(f.p.Name)}${rels?` — ${esc(rels)}`:''}`,{permanent:true,direction:'top',offset:[0,-8],className:'tlabel'});
+      m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><div style="margin-top:4px;color:#4c5553">${esc(rels)}</div><button onclick="setTab('marae');select(${JSON.stringify(f.id)})">Details</button>`);
+      m.addTo(tupunaMaraeLayer); markersById.set(f.id,m); });
+  }
   renderChips(); renderSummaries();
   drawClaimRings();
   // markers
-  cluster.clearLayers(); markersById.clear();
   const ms = shown.map(f=>{
     const isColl=!selEmpty()&&inColl(f);
-    const style = selected&&selected.id===f.id?dotActive:(selectedTupuna&&linkedMaraeIds(selectedTupuna).has(f.id)?dotTupuna:(selEmpty()?dotStyle:(isColl?dotCollected:dotFaded)));
+    const style = selected&&selected.id===f.id?dotActive:(selectedTupuna?dotFaded:(selEmpty()?dotStyle:(isColl?dotCollected:dotFaded)));
     const m=L.circleMarker([f.lat,f.lng], style);
     m.bindPopup(`<div class="pname">${esc(f.p.Name)}</div>${f.p.Wharenui?`<div class="pwh">${esc(f.p.Wharenui)}</div>`:''}<div>${esc(f.p.Location||'')}</div><button onclick="select(${JSON.stringify(f.id)})">Details</button><button class="pinbtn ${sel.marae.has(String(f.id))?'on':''}" data-sel="marae" data-val="${esc(String(f.id))}" onclick="toggleSel('marae','${esc(String(f.id))}')">${sel.marae.has(String(f.id))?'Collected':'Collect'}</button>${f.iwiNames.length?`<div class="phapu" style="border-top:0;margin-top:6px;padding-top:0">${f.iwiNames.map(n=>`<button class="ppill ${sel.iwi.has(n)?'on':''}" data-sel="iwi" data-val="${esc(n)}" style="background:#d9e8e3" title="Add/remove this iwi in the collection" onclick="toggleSel('iwi',${JSON.stringify(n).replace(/"/g,'&quot;')})">${esc(n)}</button>`).join('')}</div>`:''}${f.hapu.length?`<div class="phapu">${f.hapu.map(h=>`<button class="ppill ${sel.hapu.has(hapuKey(h))?'on':''}" data-sel="hapu" data-val="${esc(hapuKey(h))}" title="Add/remove this hapū in the collection" onclick="toggleSel('hapu','${esc(hapuKey(h))}')">${esc(h)}</button>`).join('')}</div>`:''}${popupWaka(f)}`,{maxWidth:280});
     m.on('click',()=>highlightList(f.id));
@@ -598,7 +607,7 @@ function rebuildHapu(){ buildHapuGroups(); const fh=document.getElementById('fHa
 function rebuildWaka(){ const fw=document.getElementById('fWaka'); const cur=fw.value; fw.innerHTML='<option value="">Add waka…</option>'; [...new Set(claims.filter(c=>c.relationship==='has_waka').map(c=>c.object_ref))].sort().forEach(w=>fw.append(new Option(w,w))); fw.value=cur; }
 // rings around marae that other sources talk about
 function drawClaimRings(){
-  claimLayer.clearLayers(); const bySrc=new Map();
+  claimLayer.clearLayers(); if(map.getZoom()<11) return; const bySrc=new Map();
   filtered.forEach(f=>{ const cs=claimsFor(f); cs.forEach(c=>{ if(c.source_id==='S01'||c.source_id==='S02') return; if(!bySrc.has(f.id)) bySrc.set(f.id,{f,srcs:new Set()}); bySrc.get(f.id).srcs.add(c.source_id); }); });
   bySrc.forEach(({f,srcs})=>{ let r=11; srcs.forEach(id=>{ L.circleMarker([f.lat,f.lng],{radius:r,color:srcOf(id).colour,weight:2.5,fill:false,interactive:false}).addTo(claimLayer); r+=4; }); });
 }
@@ -685,6 +694,7 @@ function maraeForLink(l){
   if(cands.length>1 && l.location_detail){ const d=norm(l.location_detail); const c=cands.find(f=>norm(f.p.Location)===d); if(c) return c; }
   return cands[0]||null;
 }
+function tupunaRelsFor(t,f){ return t.links.filter(l=>(l.location_type==='Marae'&&maraeForLink(l)===f)||(l.location_type==='Hapū'&&f.hapu.some(h=>hapuKey(h)===hapuKey(l.location_ref)))).map(l=>l.relationship+(l.location_type==='Hapū'?` (via ${l.location_ref})`:'')).join(', '); }
 function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>s.add(f.id)); } }); return s; }
 
 // ---- list / detail ----
@@ -719,7 +729,7 @@ function renderTupunaDetail(body){
       ${t.source?`<dt>Source</dt><dd>${esc(t.source)}</dd>`:''}
     </dl>
     ${t.notes?`<p style="margin:0 0 14px">${esc(t.notes)}</p>`:''}
-    <div style="display:flex;gap:8px"><button class="btn quiet small" onclick="editTupuna('${esc(t.tupuna_id)}')">Edit</button><button class="btn quiet small" onclick="deleteTupuna('${esc(t.tupuna_id)}')">Delete</button></div>
+    <div style="display:flex;gap:8px;align-items:center"><button class="btn quiet small" onclick="editTupuna('${esc(t.tupuna_id)}')">Edit</button><button class="btn quiet small" onclick="deleteTupuna('${esc(t.tupuna_id)}')">Delete</button><label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show other marae faded</label></div>
     <div class="section"><h3>Locations of interest</h3>${links}
       <button class="btn small" style="margin-top:10px" onclick="addLinkForm()">Link a location</button>
       <div id="linkForm"></div></div>
@@ -746,7 +756,7 @@ function drawTupuna(){
     else if(l.location_type==='Iwi'){ iwiNames.add(l.location_ref); }
     else if(l.location_type==='Place' && l.latitude!=null && l.longitude!=null){
       const ll=[+l.latitude,+l.longitude]; pts.push(ll);
-      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`${esc(l.location_ref)} — ${esc(l.relationship||'')}`,{className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
+      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`${esc(l.location_ref)} — ${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
     }
   });
   if(iwiNames.size) drawRoheByNames([...iwiNames], false);
@@ -816,6 +826,7 @@ window.pickOnMap=function(){ document.getElementById('pickmode').classList.add('
   pickCb=ll=>{ const f=document.querySelector('#linkForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
 function endPick(){ pickCb=null; document.getElementById('pickmode').classList.remove('on'); map.getContainer().style.cursor=''; }
 map.on('click',e=>{ if(pickCb){ pickCb(e.latlng); endPick(); } });
+map.on('zoomend',()=>drawClaimRings());
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&pickCb) endPick(); });
 window.saveLink=function(e){
   e.preventDefault(); const fd=new FormData(e.target); const type=fd.get('type'); const t=selectedTupuna;
