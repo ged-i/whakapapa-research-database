@@ -17,8 +17,8 @@
     "location_type": "Marae",
     "location_ref": "Ngātiwai",
     "location_detail": "1561 Rawhiti Road, Ngāiotonga",
-    "latitude": "",
-    "longitude": "",
+    "latitude": null,
+    "longitude": null,
     "relationship": "Affiliated",
     "notes": "Placeholder example",
     "source": "Whānau records"
@@ -29,8 +29,8 @@
     "location_type": "Hapū",
     "location_ref": "Te Uri o Hikihiki",
     "location_detail": "",
-    "latitude": "",
-    "longitude": "",
+    "latitude": null,
+    "longitude": null,
     "relationship": "Affiliated",
     "notes": "",
     "source": ""
@@ -46,6 +46,132 @@
     "relationship": "Buried",
     "notes": "Custom place: give latitude/longitude",
     "source": ""
+   }
+  ],
+  "identities": [],
+  "events": []
+ },
+ {
+  "tupuna_id": "T901",
+  "name": "Rirena Theresa Arama (nee Rihari Matiu)",
+  "other_names": "",
+  "born": "c. 1911",
+  "died": "1980",
+  "birthplace": "",
+  "mother": "Maraea Piri Paraiho",
+  "father": "Rihari Matiu",
+  "notes": "",
+  "source": "Death certificate, marriage certificate",
+  "links": [
+   {
+    "link_id": "L002",
+    "tupuna_id": "T901",
+    "location_type": "Place",
+    "location_ref": "Rotokakahi Urupa",
+    "location_detail": "",
+    "latitude": -35.337454,
+    "longitude": 173.289333,
+    "relationship": "Buried",
+    "notes": "",
+    "source": ""
+   },
+   {
+    "link_id": "L001",
+    "tupuna_id": "T901",
+    "location_type": "Hapū",
+    "location_ref": "Te Uri o Tai",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   },
+   {
+    "link_id": "L003",
+    "tupuna_id": "T901",
+    "location_type": "Marae",
+    "location_ref": "Mōrehu",
+    "location_detail": "10-12 Te Riha Roadway, Pawarenga",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   },
+   {
+    "link_id": "L004",
+    "tupuna_id": "T901",
+    "location_type": "Block",
+    "location_ref": "29100",
+    "location_detail": "Whakakoro F Section 4",
+    "latitude": -35.3461,
+    "longitude": 173.2114,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Rirena Rihari Matiu",
+    "linz_title": "500923 — Native Land Act Order (1910-05-25)",
+    "shares": "6.534",
+    "source_id": "S06"
+   }
+  ],
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Rirena Rihari Matiu",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "500923 — Native Land Act Order (1910-05-25)"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Rirena Matthews",
+    "source_id": "S05",
+    "date": "1980",
+    "document_url": "https://drive.google.com/file/d/1_VVn6semEvKYNOUJ9vODGZ6hgfYwBYUh/view?usp=sharing",
+    "note": "Father's last name on Rirena's death certificate"
+   },
+   {
+    "identity_id": "N003",
+    "name": "Riena Rihari",
+    "source_id": "S05",
+    "date": "1928",
+    "document_url": "https://drive.google.com/file/d/167IQi_DnLLaDBTU2i6HFqtewyiMM7p9h/view?usp=sharing",
+    "note": "Rirena's first name on her marriage certificate"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1980",
+    "place_type": "Place",
+    "place_ref": "Whangarei Hospital, Maunu Road, Horahora, Whangārei 0110",
+    "place_detail": "",
+    "latitude": -35.73611,
+    "longitude": 174.30329,
+    "description": "Died",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_VVn6semEvKYNOUJ9vODGZ6hgfYwBYUh/view?usp=sharing",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Marriage",
+    "date": "1928",
+    "place_type": "Marae",
+    "place_ref": "Waitāruke",
+    "place_detail": "Waitāruke — SH10, Waitāruke",
+    "latitude": -35.0720009999988,
+    "longitude": 173.713565,
+    "description": "Marriage",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/167IQi_DnLLaDBTU2i6HFqtewyiMM7p9h/view?usp=sharing",
+    "note": ""
    }
   ]
  }
