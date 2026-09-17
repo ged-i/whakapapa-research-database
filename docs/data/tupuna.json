@@ -125,7 +125,20 @@
  },
  {
   "tupuna_id": "T001",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L005",
+    "tupuna_id": "T001",
+    "location_type": "Hapū",
+    "location_ref": "Tahaawai",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Wiremu Arama",
   "other_names": "Wiko",
   "born": "1907",
