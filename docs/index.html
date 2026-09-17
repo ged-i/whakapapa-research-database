@@ -295,6 +295,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
   <div id="tupunaView">
     <div class="sync"><span id="syncSt" class="st">Not connected to repo</span><button id="syncSave" onclick="commitAll('manual save')">Save now</button><button class="gear" onclick="toggleSettings()">Repo settings</button></div>
     <div id="settings" class="settings" hidden></div>
+    <div id="recoverBar" hidden></div>
     <div class="tbar">
       <button class="btn" onclick="editTupuna(null)">Add tupuna</button>
       <button class="btn quiet" onclick="exportJson()">Export JSON</button>
@@ -412,9 +413,9 @@ async function init(){
     try{ const lc=localStorage.getItem(CSTORE); claims = lc ? JSON.parse(lc) : clmJ; }catch{ claims=clmJ; }
     window._repoClaims=clmJ;
     iwiList = iwiJ; regionsById = regJ;
-    try{ const local=localStorage.getItem(STORE); tupuna = local ? JSON.parse(local) : normalizeTupuna(tupJ); }catch{ tupuna = normalizeTupuna(tupJ); }
+    try{ const local=localStorage.getItem(STORE); window._browserTupuna = local ? normalizeTupuna(JSON.parse(local)) : null; tupuna = window._browserTupuna ? normalizeTupuna(JSON.parse(local)) : normalizeTupuna(tupJ); }catch{ tupuna = normalizeTupuna(tupJ); window._browserTupuna=null; }
     window._repoTupuna = tupJ; discrepancies = await fetch('data/discrepancies.json').then(r=>r.json()).catch(()=>[]);
-    await repoLoad();
+    const connected = await repoLoad(); if(connected) checkBrowserExtras();
     iwiList.forEach(i=>{ iwiIndex.set(norm(i.name), i); });
     features = marae.filter(f=>f.geometry&&f.geometry.coordinates).map(f=>{
       const p=f.properties; const [lng,lat]=f.geometry.coordinates;
@@ -754,6 +755,24 @@ window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_t
 window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
 window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); };
 
+// ================= recovery of browser-only entries =================
+function browserExtras(){ let b=window._browserTupuna||[]; if(b.length<=1){ for(const k of [STORE+'.prev',STORE+'.backup']){ try{ const v=localStorage.getItem(k); if(v){ const arr=normalizeTupuna(JSON.parse(v)); if(arr.length>b.length) b=arr; } }catch{} } } const have=new Map(tupuna.map(t=>[t.tupuna_id,t]));
+  return b.filter(t=>{ const r=have.get(t.tupuna_id); if(!r) return true; if(fold(r.name)!==fold(t.name)) return true;
+    const keys=x=>new Set([...(x.links||[]).map(l=>l.location_type+'|'+l.location_ref+'|'+l.relationship),...(x.identities||[]).map(i=>'N|'+i.name),...(x.events||[]).map(e=>'E|'+e.type+'|'+e.date)]);
+    const rk=keys(r); return [...keys(t)].some(k=>!rk.has(k)); }); }
+function checkBrowserExtras(){ const extras=browserExtras(); const host=document.getElementById('recoverBar'); if(!host) return; if(!extras.length){ host.hidden=true; return; }
+  host.hidden=false; host.innerHTML=`<div class="settings" style="border-left:3px solid var(--kowhai)"><b>This browser holds entries that are not in the repo</b> — ${extras.map(t=>esc(t.name)).join(', ')}.<br>They are safe as long as you do not make changes before recovering.<div class="actions" style="margin-top:8px"><button class="btn small" onclick="recoverBrowser()">Recover and save to repo</button><button class="btn quiet small" onclick="exportBrowserCopy()">Download browser copy</button></div></div>`; }
+window.exportBrowserCopy=function(){ download('tupuna-browser-copy.json', JSON.stringify(window._browserTupuna||[],null,1), 'application/json'); };
+window.recoverBrowser=function(){ const extras=browserExtras(); if(!extras.length) return; let added=0, merged=0; const have=new Map(tupuna.map(t=>[t.tupuna_id,t]));
+  extras.forEach(t=>{ const r=have.get(t.tupuna_id);
+    if(!r){ tupuna.push(t); have.set(t.tupuna_id,t); added++; return; }
+    if(fold(r.name)!==fold(t.name)){ let id=t.tupuna_id, n=1; while(have.has(id)) id='T'+String(900+n++).padStart(3,'0'); t.tupuna_id=id; t.links.forEach(l=>l.tupuna_id=id); tupuna.push(t); have.set(id,t); added++; return; }
+    const lk=new Set(r.links.map(l=>l.location_type+'|'+l.location_ref+'|'+l.relationship)); (t.links||[]).forEach(l=>{ if(!lk.has(l.location_type+'|'+l.location_ref+'|'+l.relationship)) r.links.push(l); });
+    r.identities=r.identities||[]; const ik=new Set(r.identities.map(i=>fold(i.name))); (t.identities||[]).forEach(i=>{ if(!ik.has(fold(i.name))) r.identities.push(i); });
+    r.events=r.events||[]; const ek=new Set(r.events.map(e=>e.type+'|'+e.date)); (t.events||[]).forEach(e=>{ if(!ek.has(e.type+'|'+e.date)) r.events.push(e); });
+    ['other_names','born','died','birthplace','mother','father','notes','source'].forEach(k=>{ if(!r[k]&&t[k]) r[k]=t[k]; }); merged++; });
+  window._browserTupuna=null; document.getElementById('recoverBar').hidden=true; saveStore(`recovered ${added} tupuna from browser${merged?` and merged ${merged}`:''}`); renderTupuna(); drawTupuna(); if(ghOk()) commitAll('recovered browser entries'); };
+
 // ================= repo sync (GitHub Contents API) =================
 const GH_KEY='wrd.gh.v1'; let gh=null; const shas={}; let dirty=new Set(); let syncTimer=null; let syncBusy=false;
 function ghDefaults(){ const h=location.hostname, seg=location.pathname.split('/').filter(Boolean)[0]||''; const owner=h.endsWith('.github.io')?h.split('.')[0]:''; return {owner,repo:seg,branch:'main',token:'',autosave:true}; }
@@ -785,7 +804,7 @@ function renderSettings(){ loadGh(); document.getElementById('settings').innerHT
   <div class="actions"><button class="btn small" type="submit">Connect</button><button class="btn quiet small" type="button" onclick="gh.token='';localStorage.setItem(GH_KEY,JSON.stringify(gh));renderSettings();setSync('','Disconnected')">Forget token</button></div>
   <div class="hint">The token is kept in this browser only, never in the repo. Make one at github.com/settings/personal-access-tokens (Repository access: only this repo; Permissions → Contents: Read and write). Anyone with this browser profile can then commit.</div></form>`; }
 window.saveSettings=async function(e){ e.preventDefault(); const fd=new FormData(e.target); gh={owner:fd.get('owner').trim(),repo:fd.get('repo').trim(),branch:fd.get('branch').trim()||'main',token:fd.get('token').trim(),autosave:fd.get('autosave')==='1'}; localStorage.setItem(GH_KEY,JSON.stringify(gh));
-  const hadLocal=dirty.size>0; const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); if(hadLocal) alert('Connected. Note: unsaved browser changes were replaced by the repo copy.'); } return false; };
+  window._browserTupuna = normalizeTupuna(JSON.parse(JSON.stringify(tupuna))); const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); checkBrowserExtras(); } return false; };
 window.addEventListener('beforeunload',e=>{ if(dirty.size){ e.preventDefault(); e.returnValue=''; } });
 
 // ================= whenua: Māori land blocks =================
@@ -892,7 +911,7 @@ function normalizeTupuna(list){ return (list||[]).map(t=>({...t, identities:t.id
 const EVENT_TYPES=['Birth','Baptism','Marriage','Succession order','Partition / land order','Land transfer','Witness / appearance','Residence','Death','Burial','Other'];
 function evDate(e){ return e.date||''; }
 function evSort(a,b){ return evDate(a).localeCompare(evDate(b)); }
-function saveStore(msg){ try{ localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} markDirty('tupuna', msg||'update'); }
+function saveStore(msg){ try{ const prev=localStorage.getItem(STORE); if(prev) localStorage.setItem(STORE+'.prev', prev); localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} markDirty('tupuna', msg||'update'); }
 function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
@@ -1149,7 +1168,7 @@ window.exportCsv=function(){
   setTimeout(()=>download('Tupuna_Identity.csv', csvRows(icols, tupuna.flatMap(t=>(t.identities||[]).map(x=>icols.map(c=>c==='tupuna_id'?t.tupuna_id:x[c])))), 'text/csv'), 600);
   setTimeout(()=>download('Tupuna_Event.csv', csvRows(ecols, tupuna.flatMap(t=>(t.events||[]).map(x=>ecols.map(c=>c==='tupuna_id'?t.tupuna_id:x[c])))), 'text/csv'), 900);
 };
-window.resetStore=function(){ if(!confirm('Discard the tupuna saved in this browser and reload the copy in the repo?')) return; localStorage.removeItem(STORE); tupuna=normalizeTupuna(window._repoTupuna||[]); backToTupuna(); };
+window.resetStore=function(){ if(!confirm('Discard the tupuna saved in this browser and reload the copy in the repo?')) return; try{ localStorage.setItem(STORE+'.backup', localStorage.getItem(STORE)||''); }catch{} localStorage.removeItem(STORE); tupuna=normalizeTupuna(window._repoTupuna||[]); backToTupuna(); };
 
 init();
 </script>
