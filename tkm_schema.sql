@@ -201,3 +201,19 @@ CREATE TABLE block (
 CREATE INDEX block_geom_idx ON block USING GIST (geom);
 -- A tupuna's interest in a block is a tupuna_location row with location_type='Block' and location_ref=block_id.
 -- Owner lists are not in the public dataset: record them from Pātaka Whenua / minute books, one link per tupuna.
+
+-- ---------------- Person record ----------------
+CREATE TABLE tupuna_identity (            -- a name exactly as a source writes it; the person is the tupuna row
+  identity_id TEXT, tupuna_id TEXT REFERENCES tupuna(tupuna_id), name TEXT NOT NULL,
+  source_id TEXT REFERENCES source(source_id), date TEXT, document_url TEXT, note TEXT, PRIMARY KEY (tupuna_id, identity_id)
+);
+CREATE TABLE tupuna_event (               -- dated, placed, sourced happening
+  event_id TEXT, tupuna_id TEXT REFERENCES tupuna(tupuna_id), type TEXT, date TEXT,
+  place_type TEXT CHECK (place_type IN ('','Marae','Block','Place')), place_ref TEXT, place_detail TEXT,
+  latitude DOUBLE PRECISION, longitude DOUBLE PRECISION, geom GEOMETRY(POINT,4326),
+  description TEXT, source_id TEXT REFERENCES source(source_id), confidence TEXT, document_url TEXT, note TEXT, PRIMARY KEY (tupuna_id, event_id)
+);
+CREATE TABLE discrepancy (                -- the case register of conflicts and how they were resolved
+  disc_id TEXT PRIMARY KEY, tupuna_id TEXT REFERENCES tupuna(tupuna_id), title TEXT NOT NULL,
+  side_a TEXT, side_b TEXT, hypothesis TEXT, status TEXT CHECK (status IN ('open','working','resolved')), opened DATE, note TEXT
+);

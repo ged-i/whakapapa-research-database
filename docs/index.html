@@ -146,6 +146,30 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .hint{color:var(--muted);font-size:12px}
 .pickmode{position:absolute;left:50%;top:12px;transform:translateX(-50%);z-index:850;background:var(--kowhai);color:var(--ink);padding:8px 14px;border-radius:8px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.25);display:none}
 .pickmode.on{display:block}
+.sync{display:flex;align-items:center;gap:8px;padding:6px 22px;font-size:12px;color:var(--mist);border-bottom:1px solid var(--ink-3)}
+.sync .st{display:inline-flex;align-items:center;gap:6px}
+.sync .st::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.sync .st.ok::before{background:var(--pounamu-soft)} .sync .st.busy::before{background:var(--kowhai)} .sync .st.dirty::before{background:var(--kokowai-soft)} .sync .st.err::before{background:#e5533d}
+.sync button{background:none;border:0;color:var(--pounamu-soft);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px;font-size:12px}
+.sync .gear{margin-left:auto}
+.settings{background:var(--ink-2);border-radius:10px;padding:12px 14px;margin:8px 22px 10px;font-size:13px}
+.settings .hint{margin-top:6px}
+.ev{display:flex;gap:10px;padding:8px 0;border-top:1px solid var(--ink-3)}
+.ev .when{flex:0 0 78px;font-family:var(--serif);font-weight:600;font-size:14px;color:var(--kowhai)}
+.ev .what{flex:1;min-width:0}
+.ev .what .type{font-weight:600}
+.ev .what .meta{color:var(--mist);font-size:12px}
+.ev .what a{font-size:12px}
+.ident{display:flex;gap:8px;align-items:baseline;padding:5px 0;border-top:1px solid var(--ink-3)}
+.ident .nm{font-family:var(--serif);font-size:15px;font-weight:600;flex:1}
+.ident .meta{color:var(--mist);font-size:12px}
+.disc{padding:10px 22px;border-top:1px solid var(--ink-3);font-size:13px}
+.disc .ttl{font-weight:600}
+.disc .sides{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0}
+.disc .sides div{background:var(--ink-2);border-radius:8px;padding:6px 8px;font-size:12px}
+.disc .stat{display:inline-block;border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;margin-left:6px}
+.disc .stat.open{background:var(--kokowai);color:#fff} .disc .stat.working{background:var(--kowhai);color:var(--ink)} .disc .stat.resolved{background:var(--pounamu);color:#fff}
+.leaflet-marker-icon.ev-pin{background:var(--kowhai);color:var(--ink);border:2px solid #fff;border-radius:50%;font:700 11px/16px var(--sans);text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.4)}
 .storenote{padding:8px 22px 6px;color:var(--muted);font-size:12px;border-top:1px solid var(--ink-3);margin-top:auto}
 .storenote button{background:none;border:0;color:var(--pounamu-soft);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px;font-size:12px}
 .tupuna-here{margin-top:6px}
@@ -269,6 +293,8 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
   <div id="detail"></div>
 
   <div id="tupunaView">
+    <div class="sync"><span id="syncSt" class="st">Not connected to repo</span><button id="syncSave" onclick="commitAll('manual save')">Save now</button><button class="gear" onclick="toggleSettings()">Repo settings</button></div>
+    <div id="settings" class="settings" hidden></div>
     <div class="tbar">
       <button class="btn" onclick="editTupuna(null)">Add tupuna</button>
       <button class="btn quiet" onclick="exportJson()">Export JSON</button>
@@ -276,7 +302,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
       <button class="btn quiet" onclick="exportCsv()">Export CSV</button>
     </div>
     <div id="tupunaBody"></div>
-    <div class="storenote">Tupuna and links are saved in this browser. Export JSON to keep a copy or to commit to the repo as docs/data/tupuna.json. <button onclick="resetStore()">Reload from repo</button></div>
+    <div class="storenote">With repo settings connected, every change is committed to GitHub automatically. Without them, changes stay in this browser only — export JSON to keep them. <button onclick="resetStore()">Reload from repo</button></div>
   </div>
   <div id="sourcesView">
     <div class="tbar">
@@ -330,7 +356,7 @@ const roheCache = new Map();
 let roheLayer = L.layerGroup();
 // whakapapa layer
 const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaLayer=L.layerGroup(); const tupunaMaraeLayer=L.layerGroup(); let tab='marae';
-let pickCb=null; const tupColl=new Set(); // whakapapa collection of tupuna_ids
+let pickCb=null; const tupColl=new Set(); let discrepancies=[]; // whakapapa collection of tupuna_ids
 // provenance
 const CSTORE='wrd.claims.v1'; let sources=[], claims=[], sourceOn={}; const claimLayer=L.layerGroup();
 const RELS={has_hapu:'hapū',belongs_to_iwi:'belongs to iwi',has_waka:'waka',alias_of:'also known as',located_at:'located at',other:'note'};
@@ -387,7 +413,8 @@ async function init(){
     window._repoClaims=clmJ;
     iwiList = iwiJ; regionsById = regJ;
     try{ const local=localStorage.getItem(STORE); tupuna = local ? JSON.parse(local) : normalizeTupuna(tupJ); }catch{ tupuna = normalizeTupuna(tupJ); }
-    window._repoTupuna = tupJ;
+    window._repoTupuna = tupJ; discrepancies = await fetch('data/discrepancies.json').then(r=>r.json()).catch(()=>[]);
+    await repoLoad();
     iwiList.forEach(i=>{ iwiIndex.set(norm(i.name), i); });
     features = marae.filter(f=>f.geometry&&f.geometry.coordinates).map(f=>{
       const p=f.properties; const [lng,lat]=f.geometry.coordinates;
@@ -619,7 +646,7 @@ window.filterHapu=function(h){ map.closePopup(); closeDetail(); if(!sel.hapu.has
 
 // ================= sources & claims =================
 function srcOf(id){ return sources.find(x=>x.source_id===id)||{source_id:id,name:id,colour:'#999'}; }
-function saveClaims(){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); }catch{} }
+function saveClaims(msg){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); }catch{} markDirty('claims', msg||'update'); }
 let nameIndex=new Map(), claimsByFeature=new Map(), iwiWakaClaims=[], hapuIwiIndex=new Map();
 function buildNameIndex(){ nameIndex=new Map(); const add=(k,f)=>{ if(!k) return; (nameIndex.get(k)||nameIndex.set(k,[]).get(k)).push(f); }; features.forEach(f=>{ add(norm(f.p.Name),f); const a=norm(f.p.Alternate||''); if(a&&a!==norm(f.p.Name)) add(a,f); });
   hapuIwiIndex=new Map(); features.forEach(f=>f.hapu.forEach(h=>{ const k=hapuKey(h); const S=hapuIwiIndex.get(k)||hapuIwiIndex.set(k,{iwi:new Set(),names:new Set(),feats:[]}).get(k); f.iwiNames.forEach(n=>{S.iwi.add(norm(n)); S.names.add(n);}); S.feats.push(f); })); }
@@ -680,8 +707,16 @@ function renderSources(){
   const all=conflicts(); const conf=all.filter(x=>x.kind!=='unmatched'); const unm=all.filter(x=>x.kind==='unmatched');
   body.innerHTML=`<div class="h3s">Sources — tick to show on the map</div>`+sources.map(S=>`<label class="src-row"><input type="checkbox" ${sourceOn[S.source_id]?'checked':''} onchange="toggleSource('${esc(S.source_id)}',this.checked)"><span class="sw ${S.source_id==='S01'||S.source_id==='S02'?'':'ring'}" style="background:${esc(S.colour)};border-color:${esc(S.colour)}"></span><div class="sbody"><div class="sname">${esc(S.name)}</div><div class="smeta">${esc(S.type)}${S.licence?` · ${esc(S.licence)}`:''}${S.source_id==='S02'?' · live baseline':` · ${counts.get(S.source_id)||0} claims`}${S.url?` · <a href="${esc(S.url)}" target="_blank" rel="noopener">site</a>`:''}</div>${S.weight_note?`<div class="smeta" style="margin-top:2px">${esc(S.weight_note)}</div>`:''}</div></label>`).join('')
   +`<div class="h3s">Conflicts and differences (${conf.length})</div>`+(conf.length?conf.filter(x=>x.kind!=='unmatched').map(x=>`<div class="conf-row"><button onclick="${x.f?`setTab('marae');select(${JSON.stringify(x.f.id)})`:(x.type==='Hapū'?`filterHapu('${esc(x.subject).replace(/'/g,"\\\\'")}')`:'')}">${esc(x.subject)}</button> <span style="color:var(--mist)">${esc(x.type)} · ${esc(x.text)}</span>${x.a?`<div class="cv"><span style="border-color:${x.a.colour}">${esc(x.a.who)}: ${esc(x.a.v)}</span><span style="border-color:${x.b.colour}">${esc(x.b.who)}: ${esc(x.b.v)}</span></div>`:`<div class="cv"><span style="border-color:${x.src.colour}">${esc(x.src.name)}: ${esc(x.claim.subject_ref)}${x.claim.subject_detail?` (${esc(x.claim.subject_detail)})`:''}</span></div>`}</div>`).join(''):'<div class="empty">No differences between the sources currently shown.</div>')
+  +`<div class="h3s">Discrepancy register (${discrepancies.length}) <button class="btn small quiet" style="margin-left:8px" onclick="discForm()">Add</button></div><div id="discForm"></div>`
+  +(discrepancies.length?[...discrepancies].sort((a,b)=>(a.status||'').localeCompare(b.status||'')||(b.opened||'').localeCompare(a.opened||'')).map(x=>{ const t=x.tupuna_id?tupunaById(x.tupuna_id):null; return `<div class="disc"><div class="ttl">${t?`<button class="link" style="background:none;border:0;color:var(--bone);font:inherit;font-weight:600;padding:0;cursor:pointer" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')">${esc(t.name)}</button> — `:''}${esc(x.title)}<span class="stat ${esc(x.status||'open')}">${esc(x.status||'open')}</span></div><div class="sides"><div><b>A</b> ${esc(x.side_a||'')}</div><div><b>B</b> ${esc(x.side_b||'')}</div></div>${x.hypothesis?`<div><span style="color:var(--mist)">Working view:</span> ${esc(x.hypothesis)}</div>`:''}<div style="color:var(--mist);font-size:12px;margin-top:4px">${esc(x.opened||'')}${x.note?` · ${esc(x.note)}`:''} · <button class="x" style="font-size:12px" onclick="discStatus('${esc(x.disc_id)}')">change status</button> <button class="x" onclick="removeDisc('${esc(x.disc_id)}')">×</button></div></div>`; }).join(''):'<div class="hint" style="padding:0 22px 8px">Record every conflict here: what disagrees, the sources on each side, your working hypothesis, and its status. Automatic conflicts above are candidates; this register is the case record.</div>')
   +(unm.length?`<details style="margin:14px 22px 0"><summary style="cursor:pointer;color:var(--mist);font-size:13px;font-weight:600">Marae named by other sources but not found on the TPK layer (${[...new Set(unm.map(x=>x.subject))].length})</summary><div style="font-size:13px;color:var(--mist);margin-top:8px;line-height:1.7">${[...new Map(unm.map(x=>[x.subject,x])).values()].map(x=>`<span style="border-left:3px solid ${x.src.colour};padding-left:6px;margin-right:12px;display:inline-block">${esc(x.subject)}</span>`).join('')}</div><div class="hint" style="margin-top:6px">Usually a different name or spelling for a marae TPK lists under another name — add it to the Marae sheet as an alias, or to the map via a claim of type "also known as".</div></details>`:'');
 }
+window.discForm=function(){ const host=document.getElementById('discForm'); const opts=tupuna.map(t=>`<option value="${esc(t.tupuna_id)}">${esc(t.name)}</option>`).join('');
+  host.innerHTML=`<form class="f" style="margin:0 22px 10px" onsubmit="return saveDisc(event)"><label>Title<input name="title" required placeholder="e.g. Birth year differs between baptism register and succession order"></label><label>Tupuna (optional)<select name="tid"><option value="">—</option>${opts}</select></label><div class="row2"><label>Side A (source: what it says)<input name="a" required></label><label>Side B<input name="b" required></label></div><label>Working hypothesis<input name="hyp" placeholder="transcription error / deliberate alias / different person / unresolved"></label><div class="row2"><label>Status<select name="status"><option>open</option><option>working</option><option>resolved</option></select></label><label>Note<input name="note"></label></div><div class="actions"><button class="btn small" type="submit">Save</button><button class="btn quiet small" type="button" onclick="document.getElementById('discForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=title]').focus(); };
+window.saveDisc=function(e){ e.preventDefault(); const fd=new FormData(e.target); const d={disc_id:nextId('D',discrepancies,'disc_id'),title:fd.get('title').trim(),tupuna_id:fd.get('tid')||'',side_a:fd.get('a').trim(),side_b:fd.get('b').trim(),hypothesis:(fd.get('hyp')||'').trim(),status:fd.get('status'),note:(fd.get('note')||'').trim(),opened:new Date().toISOString().slice(0,10)}; discrepancies.push(d); saveDisc_(`opened "${d.title}"`); renderSources(); return false; };
+window.discStatus=function(id){ const d=discrepancies.find(x=>x.disc_id===id); if(!d) return; const order=['open','working','resolved']; d.status=order[(order.indexOf(d.status||'open')+1)%3]; saveDisc_(`"${d.title}" → ${d.status}`); renderSources(); };
+window.removeDisc=function(id){ if(!confirm('Remove this discrepancy?')) return; const d=discrepancies.find(x=>x.disc_id===id); discrepancies=discrepancies.filter(x=>x.disc_id!==id); saveDisc_(`removed "${d?d.title:id}"`); renderSources(); };
+function saveDisc_(msg){ try{ localStorage.setItem('wrd.disc.v1',JSON.stringify(discrepancies)); }catch{} markDirty('discrepancies',msg); }
 window.toggleSource=function(id,on){ sourceOn[id]=on; render(); renderSources(); if(selected) renderBySource(selected); };
 
 function renderBySource(f){
@@ -711,12 +746,46 @@ window.claimForm=function(fid){
 };
 window.saveClaim=function(e,fid){ e.preventDefault(); const f=features.find(x=>x.id==fid); const fd=new FormData(e.target);
   claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:fd.get('src'),subject_type:'Marae',subject_ref:f.p.Name,subject_detail:f.p.Location||'',relationship:fd.get('rel'),object_ref:fd.get('obj').trim(),object_detail:(fd.get('det')||'').trim(),page_url:(fd.get('url')||'').trim(),retrieved:fd.get('ret')||'',confidence:fd.get('conf'),note:(fd.get('note')||'').trim()});
-  saveClaims(); indexClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); rebuildHapu(); renderBySource(f); render(); return false; };
+  saveClaims(`${srcOf(fd.get('src')).name}: ${f.p.Name} ${fd.get('rel')} ${fd.get('obj').trim()}`); indexClaims(); document.getElementById('claimForm').innerHTML=''; rebuildWaka(); rebuildHapu(); renderBySource(f); render(); return false; };
 window.removeClaim=function(id){ if(!confirm('Remove this claim?')) return; claims=claims.filter(c=>c.claim_id!==id); saveClaims(); indexClaims(); if(selected) renderBySource(selected); drawClaimRings(); };
 window.exportClaims=function(){ download('claims.json', JSON.stringify(claims,null,1), 'application/json'); };
 window.exportClaimsCsv=function(){ const cols=['claim_id','source_id','subject_type','subject_ref','subject_detail','relationship','object_ref','object_detail','page_url','retrieved','confidence','note']; download('Claim.csv', csvRows(cols, claims.map(c=>cols.map(k=>c[k]))), 'text/csv'); };
 window.importClaims=function(inp){ const file=inp.files[0]; if(!file) return; file.text().then(t=>{ try{ const j=JSON.parse(t); if(!Array.isArray(j)) throw 0; if(claims.length&&!confirm('Replace the claims in this browser with the imported file?')) return; claims=j; saveClaims(); indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); }catch{ alert('That file isn\'t a claims JSON export.'); } }); inp.value=''; };
 window.resetClaims=function(){ if(!confirm('Discard claims saved in this browser and reload the repo copy?')) return; localStorage.removeItem(CSTORE); claims=window._repoClaims||[]; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderSources(); };
+
+// ================= repo sync (GitHub Contents API) =================
+const GH_KEY='wrd.gh.v1'; let gh=null; const shas={}; let dirty=new Set(); let syncTimer=null; let syncBusy=false;
+function ghDefaults(){ const h=location.hostname, seg=location.pathname.split('/').filter(Boolean)[0]||''; const owner=h.endsWith('.github.io')?h.split('.')[0]:''; return {owner,repo:seg,branch:'main',token:'',autosave:true}; }
+function loadGh(){ try{ gh=JSON.parse(localStorage.getItem(GH_KEY)||'null'); }catch{ gh=null; } if(!gh) gh=ghDefaults(); }
+function ghOk(){ return gh&&gh.owner&&gh.repo&&gh.token; }
+function setSync(cls,text){ const el=document.getElementById('syncSt'); if(el){ el.className='st '+cls; el.textContent=text; } document.getElementById('syncSave').style.display = ghOk()?'':'none'; }
+async function ghApi(path, opts={}){ const r=await fetch(`https://api.github.com/repos/${gh.owner}/${gh.repo}/${path}`,{...opts,headers:{'Authorization':`Bearer ${gh.token}`,'Accept':'application/vnd.github+json','Content-Type':'application/json',...(opts.headers||{})}}); if(!r.ok){ const t=await r.text(); throw new Error(`${r.status} ${t.slice(0,140)}`); } return r.json(); }
+const b64e=str=>btoa(unescape(encodeURIComponent(str))), b64d=str=>decodeURIComponent(escape(atob(str.replace(/\n/g,''))));
+async function ghRead(file){ const j=await ghApi(`contents/docs/data/${file}?ref=${encodeURIComponent(gh.branch)}&t=${Date.now()}`); shas[file]=j.sha; return JSON.parse(b64d(j.content)); }
+async function ghWrite(file, obj, message){ const body={message,content:b64e(JSON.stringify(obj,null,1)),branch:gh.branch}; if(shas[file]) body.sha=shas[file]; try{ const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify(body)}); shas[file]=j.content.sha; }catch(e){ if(/409|422/.test(e.message)){ await ghRead(file); const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify({...body,sha:shas[file]})}); shas[file]=j.content.sha; } else throw e; } }
+const FILES={tupuna:()=>tupuna, claims:()=>claims, discrepancies:()=>discrepancies};
+let lastMsg='';
+function markDirty(file, msg){ dirty.add(file); if(msg) lastMsg=msg; if(ghOk()&&gh.autosave){ setSync('dirty','Unsaved change — saving shortly'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),4000); } else if(ghOk()){ setSync('dirty','Unsaved changes — press Save now'); } else { setSync('dirty','Unsaved — browser only (connect repo settings)'); } }
+window.commitAll=async function(msg){ if(!ghOk()||!dirty.size||syncBusy) return; syncBusy=true; clearTimeout(syncTimer); setSync('busy','Saving to repo…');
+  try{ for(const file of [...dirty]){ await ghWrite(`${file}.json`, FILES[file](), `${file}: ${msg||'update'} (${new Date().toISOString().slice(0,16)}Z)`); dirty.delete(file); } setSync('ok',`Saved to repo ${new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`); }
+  catch(e){ setSync('err','Save failed — '+e.message.slice(0,80)); }
+  syncBusy=false; };
+async function repoLoad(){ // read the live record from the repo; falls back to Pages copy / browser
+  loadGh(); if(!ghOk()){ setSync('', 'Browser only — connect repo settings to save'); return false; }
+  try{ setSync('busy','Reading repo…'); const [t,c,d]=await Promise.all([ghRead('tupuna.json'),ghRead('claims.json'),ghRead('discrepancies.json').catch(()=>[])]);
+    tupuna=normalizeTupuna(t); claims=c; discrepancies=d; window._repoTupuna=t; window._repoClaims=c; dirty.clear(); setSync('ok','In sync with repo'); return true; }
+  catch(e){ setSync('err','Repo read failed — '+e.message.slice(0,80)); return false; }
+}
+window.toggleSettings=function(){ const el=document.getElementById('settings'); el.hidden=!el.hidden; if(!el.hidden) renderSettings(); };
+function renderSettings(){ loadGh(); document.getElementById('settings').innerHTML=`<form class="f" onsubmit="return saveSettings(event)">
+  <div class="row2"><label>GitHub owner<input name="owner" value="${esc(gh.owner)}"></label><label>Repository<input name="repo" value="${esc(gh.repo)}"></label></div>
+  <div class="row2"><label>Branch<input name="branch" value="${esc(gh.branch||'main')}"></label><label>Auto-save<select name="autosave"><option value="1" ${gh.autosave?'selected':''}>on (commit 4 s after a change)</option><option value="0" ${gh.autosave?'':'selected'}>off (Save now only)</option></select></label></div>
+  <label>Fine-grained token (Contents: read & write, this repository only)<input name="token" type="password" value="${esc(gh.token||'')}" placeholder="github_pat_…"></label>
+  <div class="actions"><button class="btn small" type="submit">Connect</button><button class="btn quiet small" type="button" onclick="gh.token='';localStorage.setItem(GH_KEY,JSON.stringify(gh));renderSettings();setSync('','Disconnected')">Forget token</button></div>
+  <div class="hint">The token is kept in this browser only, never in the repo. Make one at github.com/settings/personal-access-tokens (Repository access: only this repo; Permissions → Contents: Read and write). Anyone with this browser profile can then commit.</div></form>`; }
+window.saveSettings=async function(e){ e.preventDefault(); const fd=new FormData(e.target); gh={owner:fd.get('owner').trim(),repo:fd.get('repo').trim(),branch:fd.get('branch').trim()||'main',token:fd.get('token').trim(),autosave:fd.get('autosave')==='1'}; localStorage.setItem(GH_KEY,JSON.stringify(gh));
+  const hadLocal=dirty.size>0; const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); if(hadLocal) alert('Connected. Note: unsaved browser changes were replaced by the repo copy.'); } return false; };
+window.addEventListener('beforeunload',e=>{ if(dirty.size){ e.preventDefault(); e.returnValue=''; } });
 
 // ================= whenua: Māori land blocks =================
 async function loadBlockIndex(){ if(blockIndex) return blockIndex; try{ blockIndex=await (await fetch('data/blocks/index.json')).json(); blockIndex.forEach(b=>blockById.set(String(b[0]),{id:String(b[0]),name:b[1],district:b[2],lat:b[3],lng:b[4]})); }catch{ blockIndex=[]; } return blockIndex; }
@@ -773,7 +842,7 @@ window.selectBlock=async function(props){
 window.closeBlock=function(){ selectedBlock=null; blockHiLayer.clearLayers(); closeDetail(); };
 window.quickLinkBlock=function(e,id){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const ix=blockById.get(String(id)); if(!t) return false;
   t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:ix?ix.name:(selectedBlock?.properties.name||''),latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:(fd.get('note')||'').trim()});
-  saveStore(); selectBlock({id}); return false; };
+  saveStore(`linked ${shortName(t)} → block ${ix?ix.name:id}`); selectBlock({id}); return false; };
 // block picker (search index)
 function attachBlockPicker(input,onPick){
   const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
@@ -799,8 +868,11 @@ const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
 const TYPES=['Marae','Hapū','Iwi','Waka','Block','Place','Tupuna'];
 const KIN=['Mother','Father','Child','Spouse / partner','Sibling','Grandparent','Grandchild','Ancestor','Descendant','Whāngai','Other'];
 const KIN_INV={Mother:'Child',Father:'Child',Child:'Parent','Spouse / partner':'Spouse / partner',Sibling:'Sibling',Grandparent:'Grandchild',Grandchild:'Grandparent',Ancestor:'Descendant',Descendant:'Ancestor',Whāngai:'Whāngai parent',Other:'Other'};
-function normalizeTupuna(list){ return (list||[]).map(t=>({...t, links:(t.links||[]).map(l=>({...l, latitude:l.latitude===''?null:l.latitude, longitude:l.longitude===''?null:l.longitude}))})); }
-function saveStore(){ try{ localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} }
+function normalizeTupuna(list){ return (list||[]).map(t=>({...t, identities:t.identities||[], events:t.events||[], links:(t.links||[]).map(l=>({...l, latitude:l.latitude===''?null:l.latitude, longitude:l.longitude===''?null:l.longitude}))})); }
+const EVENT_TYPES=['Birth','Baptism','Marriage','Succession order','Partition / land order','Land transfer','Witness / appearance','Residence','Death','Burial','Other'];
+function evDate(e){ return e.date||''; }
+function evSort(a,b){ return evDate(a).localeCompare(evDate(b)); }
+function saveStore(msg){ try{ localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} markDirty('tupuna', msg||'update'); }
 function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
@@ -829,7 +901,7 @@ function renderTupuna(){
   if(selectedTupuna){ renderTupunaDetail(body); return; }
   if(!tupuna.length){ body.innerHTML='<div class="empty"><strong>No tupuna yet.</strong>Add your first ancestor, then link them to marae, hapū, iwi or places on the map.</div>'; return; }
   const sorted=[...tupuna].sort((a,b)=>(a.name||'').localeCompare(b.name||''));
-  body.innerHTML = tupCollBar() + sorted.map(t=>`<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`).join('');
+  body.innerHTML = tupCollBar() + sorted.map(t=>`<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${(t.identities||[]).length} names`, `${(t.events||[]).length} events`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`).join('');
 }
 function tupCollBar(){ if(!tupColl.size) return ''; const names=[...tupColl].map(id=>tupunaById(id)).filter(Boolean); return `<div class="chipbar" style="margin:0 22px 10px;display:flex"><span style="color:var(--mist);font-size:12px">Whakapapa collection</span>${names.map(t=>`<span class="fchip" style="border-left-color:var(--kowhai)">${esc(shortName(t))}<button title="Remove" onclick="toggleTupColl('${esc(t.tupuna_id)}')">×</button></span>`).join('')}<button class="clearall" onclick="tupColl.clear();refreshTupuna()">Clear</button></div>`; }
 function refreshTupuna(){ renderTupuna(); drawTupuna(); }
@@ -864,6 +936,12 @@ function renderTupunaDetail(body){
     </dl>
     ${t.notes?`<p style="margin:0 0 14px">${esc(t.notes)}</p>`:''}
     <div style="display:flex;gap:8px;align-items:center"><button class="btn quiet small" onclick="editTupuna('${esc(t.tupuna_id)}')">Edit</button><button class="btn quiet small" onclick="deleteTupuna('${esc(t.tupuna_id)}')">Delete</button><label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show other marae faded</label></div>
+    <div class="section"><h3>Names as recorded <span class="hint">(identities)</span></h3>
+      ${(t.identities||[]).length?t.identities.map((x,i)=>`<div class="ident"><span class="nm">${esc(x.name)}</span><span class="meta">${esc([x.date, srcOf(x.source_id||'').name!==(x.source_id||'')?srcOf(x.source_id).name:x.source_id, x.note].filter(Boolean).join(' · '))}${x.document_url?` · <a href="${esc(x.document_url)}" target="_blank" rel="noopener">document</a>`:''}</span><button class="x" title="Remove" onclick="removeIdentity(${i})">×</button></div>`).join(''):'<div class="hint">No recorded name variants yet. Add each spelling exactly as a source writes it, with the source.</div>'}
+      <button class="btn small" style="margin-top:8px" onclick="identityForm()">Add a recorded name</button><div id="identityForm"></div></div>
+    <div class="section"><h3>Timeline <span class="hint">(events)</span></h3>
+      ${(t.events||[]).length?[...t.events].sort(evSort).map((e,i)=>`<div class="ev"><div class="when">${esc(e.date||'undated')}</div><div class="what"><div class="type">${esc(e.type)}${e.place_ref?` — ${esc(e.place_detail||e.place_ref)}`:''}</div>${e.description?`<div>${esc(e.description)}</div>`:''}<div class="meta">${esc([srcOf(e.source_id||'').name!==(e.source_id||'')?srcOf(e.source_id).name:e.source_id, e.confidence, e.note].filter(Boolean).join(' · '))}${e.document_url?` · <a href="${esc(e.document_url)}" target="_blank" rel="noopener">document</a>`:''}</div></div><button class="x" title="Remove" onclick="removeEvent('${esc(e.event_id)}')">×</button></div>`).join(''):'<div class="hint">No events yet. Births, marriages, succession orders, deaths — each dated, placed and sourced.</div>'}
+      <button class="btn small" style="margin-top:8px" onclick="eventForm()">Add an event</button><div id="eventForm"></div></div>
     <div class="section"><h3>Whakapapa</h3>${kinHtml}</div>
     <div class="section"><h3>Locations of interest</h3>${links}
       <button class="btn small" style="margin-top:10px" onclick="addLinkForm()">Link a location</button>
@@ -879,8 +957,8 @@ window.focusLink=function(i){
   else if(l.location_type==='Waka'){ const fs=features.filter(f=>wakaOf(f).has(l.location_ref)); if(fs.length) map.fitBounds(L.latLngBounds(fs.map(f=>[f.lat,f.lng])).pad(.2),{animate:!reduced,maxZoom:10}); }
   else if(l.location_type==='Hapū'){ const k=hapuKey(l.location_ref); const fs=features.filter(f=>f.hapu.some(h=>hapuKey(h)===k)); if(fs.length) map.fitBounds(L.latLngBounds(fs.map(f=>[f.lat,f.lng])).pad(.3),{animate:!reduced,maxZoom:12}); }
 };
-window.removeLink=function(i){ if(!confirm('Remove this link?')) return; selectedTupuna.links.splice(i,1); saveStore(); renderTupuna(); drawTupuna(); };
-window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!t||!confirm(`Delete ${t.name} and all their links?`)) return; tupuna=tupuna.filter(x=>x!==t); tupuna.forEach(o=>o.links=o.links.filter(l=>!(l.location_type==='Tupuna'&&l.location_ref===id))); tupColl.delete(id); saveStore(); backToTupuna(); };
+window.removeLink=function(i){ if(!confirm('Remove this link?')) return; const l=selectedTupuna.links.splice(i,1)[0]; saveStore(`unlinked ${shortName(selectedTupuna)} → ${l.location_detail||l.location_ref}`); renderTupuna(); drawTupuna(); };
+window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!t||!confirm(`Delete ${t.name} and all their links?`)) return; tupuna=tupuna.filter(x=>x!==t); tupuna.forEach(o=>o.links=o.links.filter(l=>!(l.location_type==='Tupuna'&&l.location_ref===id))); tupColl.delete(id); saveStore(`deleted ${t.name}`); backToTupuna(); };
 
 // ---- draw tupuna on map ----
 function drawTupuna(){
@@ -898,6 +976,8 @@ function drawTupuna(){
       L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`<b>${esc(l.location_ref)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
     }
   }));
+  act.forEach(t=>{ [...(t.events||[])].sort(evSort).forEach((e,i)=>{ if(e.latitude==null||e.longitude==null) return; const ll=[+e.latitude,+e.longitude]; pts.push(ll);
+    L.marker(ll,{icon:L.divIcon({className:'ev-pin',iconSize:[20,20],html:String(i+1)}),zIndexOffset:500}).bindTooltip(`<b>${esc(e.date||'undated')} — ${esc(e.type)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(e.place_detail||e.place_ref||'')}${e.description?'<br>'+esc(e.description):''}`,{direction:'top',offset:[0,-10],className:'tlabel'}).addTo(tupunaLayer); }); });
   if(iwiNames.size) drawRoheByNames([...iwiNames], false);
   if(blockLinks.length) tupunaBlockLayerDraw(blockLinks, act.length>1);
   if(pts.length) map.fitBounds(L.latLngBounds(pts).pad(.35),{animate:!reduced,maxZoom:12});
@@ -940,9 +1020,33 @@ window.editTupuna=function(id){
 window.saveTupuna=function(e,id,existing){
   e.preventDefault(); const fd=new FormData(e.target); const t=existing?tupuna.find(x=>x.tupuna_id===id):{tupuna_id:id,links:[]};
   ['name','other_names','born','died','birthplace','mother','father','notes','source'].forEach(k=>t[k]=(fd.get(k)||'').trim());
-  if(!existing) tupuna.push(t); saveStore(); selectTupuna(id); return false;
+  if(!existing) tupuna.push(t); saveStore(`${existing?'edited':'added'} ${t.name}`); selectTupuna(id); return false;
 };
 
+window.identityForm=function(){ const host=document.getElementById('identityForm'); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('');
+  host.innerHTML=`<form class="f" onsubmit="return saveIdentity(event)"><label>Name exactly as written<input name="name" required></label><div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Date of record<input name="date" placeholder="1934 or 1934-05-07"></label></div><label>Document URL (Drive link, Pātaka Whenua, minute book scan)<input name="doc" type="url" placeholder="https://"></label><label>Note<input name="note" placeholder="e.g. spelt thus in MB 12 N 88; baptismal name"></label><div class="actions"><button class="btn" type="submit">Save name</button><button class="btn quiet" type="button" onclick="document.getElementById('identityForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
+window.saveIdentity=function(e){ e.preventDefault(); const fd=new FormData(e.target); const t=selectedTupuna; t.identities=t.identities||[]; t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name:fd.get('name').trim(),source_id:fd.get('src'),date:(fd.get('date')||'').trim(),document_url:(fd.get('doc')||'').trim(),note:(fd.get('note')||'').trim()}); saveStore(`${shortName(t)}: recorded name "${fd.get('name').trim()}"`); renderTupuna(); return false; };
+window.removeIdentity=function(i){ if(!confirm('Remove this recorded name?')) return; const x=selectedTupuna.identities.splice(i,1)[0]; saveStore(`${shortName(selectedTupuna)}: removed name "${x.name}"`); renderTupuna(); };
+window.eventForm=function(){ const host=document.getElementById('eventForm'); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}">${esc(S.name)}</option>`).join('');
+  host.innerHTML=`<form class="f" onsubmit="return saveEvent(event)"><div class="row2"><label>Event<select name="type">${EVENT_TYPES.map(x=>`<option>${x}</option>`).join('')}</select></label><label>Date<input name="date" placeholder="1877, c. 1877, 1877-03-02"></label></div>
+   <label>Place type<select name="ptype" onchange="evPlaceChanged(this.value)"><option value="">none</option><option>Marae</option><option>Block</option><option>Place</option></select></label>
+   <label id="evMarae" style="display:none">Marae<input name="ev_marae" placeholder="type to search" autocomplete="off"></label>
+   <label id="evBlock" style="display:none">Whenua block<input name="ev_block" placeholder="type a block name or ID" autocomplete="off"></label>
+   <div id="evPlace" style="display:none"><label>Place name<input name="ev_place"></label><div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div><button type="button" class="btn quiet small" onclick="pickOnMapEv()">Pick on the map</button></div>
+   <label>What happened<input name="desc" placeholder="e.g. succeeded to 3.5 shares in Ahipara A11; married Hone at Waitāruke"></label>
+   <div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Confidence<select name="conf"><option>stated</option><option>inferred</option><option>contested</option></select></label></div>
+   <label>Document URL<input name="doc" type="url" placeholder="https://"></label><label>Note<input name="note"></label>
+   <div class="actions"><button class="btn" type="submit">Save event</button><button class="btn quiet" type="button" onclick="document.getElementById('eventForm').innerHTML=''">Cancel</button></div></form>`;
+  host._m=null; host._b=null; attachMaraePicker(host.querySelector('input[name=ev_marae]'), f=>{host._m=f;}); attachBlockPicker(host.querySelector('input[name=ev_block]'), b=>{host._b=b;}); };
+window.evPlaceChanged=function(v){ ['Marae','Block','Place'].forEach(k=>{ document.getElementById('ev'+k).style.display=(k===v)?'':'none'; }); };
+window.pickOnMapEv=function(){ document.getElementById('pickmode').classList.add('on'); map.getContainer().style.cursor='crosshair'; pickCb=ll=>{ const f=document.querySelector('#eventForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
+window.saveEvent=function(e){ e.preventDefault(); const fd=new FormData(e.target); const host=document.getElementById('eventForm'); const t=selectedTupuna; t.events=t.events||[];
+  const ev={event_id:nextId('E',t.events,'event_id'),type:fd.get('type'),date:(fd.get('date')||'').trim(),place_type:fd.get('ptype')||'',place_ref:'',place_detail:'',latitude:null,longitude:null,description:(fd.get('desc')||'').trim(),source_id:fd.get('src'),confidence:fd.get('conf'),document_url:(fd.get('doc')||'').trim(),note:(fd.get('note')||'').trim()};
+  if(ev.place_type==='Marae'){ if(!host._m){alert('Choose a marae from the list.');return false;} ev.place_ref=host._m.p.Name; ev.place_detail=host._m.p.Name+(host._m.p.Location?' — '+host._m.p.Location:''); ev.latitude=host._m.lat; ev.longitude=host._m.lng; }
+  else if(ev.place_type==='Block'){ if(!host._b){alert('Choose a block from the list.');return false;} ev.place_ref=host._b.id; ev.place_detail=host._b.name; ev.latitude=host._b.lat; ev.longitude=host._b.lng; }
+  else if(ev.place_type==='Place'){ ev.place_ref=(fd.get('ev_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')),lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick on the map.');return false;} ev.latitude=la; ev.longitude=lo; }
+  t.events.push(ev); saveStore(`${shortName(t)}: ${ev.type} ${ev.date}`); renderTupuna(); drawTupuna(); return false; };
+window.removeEvent=function(id){ const t=selectedTupuna; const i=t.events.findIndex(x=>x.event_id===id); if(i<0||!confirm('Remove this event?')) return; const ev=t.events.splice(i,1)[0]; saveStore(`${shortName(t)}: removed ${ev.type} ${ev.date}`); renderTupuna(); drawTupuna(); };
 window.addLinkForm=function(presetMarae){
   const host=document.getElementById('linkForm'); if(!host) return;
   const hapuOpts=[...new Set(features.flatMap(f=>f.hapu))].sort().map(h=>`<option value="${esc(h)}">`).join('');
@@ -986,7 +1090,7 @@ window.saveLink=function(e){
   else if(type==='Block'){ const b=document.getElementById('linkForm')._blockPick; if(!b){alert('Choose a block from the list.');return false;} l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng; }
   else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){alert('Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
   else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
-  t.links.push(l); saveStore(); renderTupuna(); drawTupuna(); return false;
+  t.links.push(l); saveStore(`linked ${shortName(t)} → ${l.location_detail||l.location_ref} (${l.relationship})`); renderTupuna(); drawTupuna(); return false;
 };
 
 // tupuna shown on a marae's detail card, with quick-link
@@ -1002,7 +1106,7 @@ function renderTupunaHere(f){
 }
 window.quickLink=function(e,fid){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const f=features.find(x=>x.id==fid); if(!t||!f) return false;
   t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Marae',location_ref:f.p.Name,location_detail:f.p.Location||'',latitude:null,longitude:null,relationship:fd.get('rel'),notes:'',source:''});
-  saveStore(); renderTupunaHere(f); return false; };
+  saveStore(`linked ${shortName(t)} → ${f.p.Name}`); renderTupunaHere(f); return false; };
 
 // ---- import / export ----
 function download(name, text, type){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type})); a.download=name; a.click(); URL.revokeObjectURL(a.href); }
@@ -1014,6 +1118,9 @@ window.exportCsv=function(){
   const lcols=['link_id','tupuna_id','location_type','location_ref','location_detail','latitude','longitude','relationship','notes','source'];
   download('Tupuna.csv', csvRows(tcols, tupuna.map(t=>tcols.map(c=>t[c]))), 'text/csv');
   setTimeout(()=>download('Tupuna_Location.csv', csvRows(lcols, allLinks().map(l=>lcols.map(c=>l[c]))), 'text/csv'), 300);
+  const icols=['identity_id','tupuna_id','name','source_id','date','document_url','note']; const ecols=['event_id','tupuna_id','type','date','place_type','place_ref','place_detail','latitude','longitude','description','source_id','confidence','document_url','note'];
+  setTimeout(()=>download('Tupuna_Identity.csv', csvRows(icols, tupuna.flatMap(t=>(t.identities||[]).map(x=>icols.map(c=>c==='tupuna_id'?t.tupuna_id:x[c])))), 'text/csv'), 600);
+  setTimeout(()=>download('Tupuna_Event.csv', csvRows(ecols, tupuna.flatMap(t=>(t.events||[]).map(x=>ecols.map(c=>c==='tupuna_id'?t.tupuna_id:x[c])))), 'text/csv'), 900);
 };
 window.resetStore=function(){ if(!confirm('Discard the tupuna saved in this browser and reload the copy in the repo?')) return; localStorage.removeItem(STORE); tupuna=normalizeTupuna(window._repoTupuna||[]); backToTupuna(); };
 

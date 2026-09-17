@@ -95,3 +95,18 @@ finds a block by name or ID; a block card shows title order, area, minute book, 
 counts and management structures. Blocks can be collected, and a tupuna can be linked to a block
 (`location_type` = Block, `location_ref` = block_id) as owner, land interest, lived, born, died or
 buried — owner lists are not public, so these come from your own Pātaka Whenua lookups.
+
+## Saving to the repo from the map (person record)
+
+Open the Tupuna tab → **Repo settings**, enter the repository and a fine-grained GitHub token
+(Repository access: this repo only; Permissions → Contents: read and write). The token stays in
+that browser. From then on the map reads `docs/data/tupuna.json`, `claims.json` and
+`discrepancies.json` from the repo on load and commits every change about four seconds after you
+make it, with a message that says what changed and when — a full audit trail in the git history.
+Without a token the map works as before, but changes stay in the browser.
+
+A tupuna now carries **identities** (each name exactly as a source writes it, with source,
+document and date), **events** (dated, placed, sourced — shown as a timeline on the card and
+numbered pins on the map) and links; the Sources tab has a **discrepancy register** for conflicts,
+each with both sides, a working hypothesis and a status. `sync_from_json.py` rebuilds the matching
+workbook sheets from the JSON, since for these tables the repo is the master record.
