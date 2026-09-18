@@ -74887,5 +74887,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1390",
+  "source_id": "S05",
+  "subject_type": "Block",
+  "subject_ref": "30487",
+  "subject_detail": "Tauaki",
+  "relationship": "has_linz_title",
+  "object_ref": "497788 — Native Land Act Order (1899-11-09)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-18",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
