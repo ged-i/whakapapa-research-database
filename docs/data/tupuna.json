@@ -305,7 +305,20 @@
  },
  {
   "tupuna_id": "T003",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L013",
+    "tupuna_id": "T003",
+    "location_type": "Tupuna",
+    "location_ref": "T002",
+    "location_detail": "Arama Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+   }
+  ],
   "name": "Taniora Rihari",
   "other_names": "",
   "born": "-",
@@ -314,6 +327,8 @@
   "mother": "",
   "father": "",
   "notes": "As per Arama Taniora's death certificate",
-  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
+  "identities": [],
+  "events": []
  }
 ]
