@@ -217,6 +217,18 @@
     "relationship": "Child",
     "notes": "",
     "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+   },
+   {
+    "link_id": "L008",
+    "tupuna_id": "T002",
+    "location_type": "Hapū",
+    "location_ref": "Ngāti Tara",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Transcription error on death certificate reads, \"Ngatitira\"",
+    "source": ""
    }
   ],
   "name": "Arama Taniora",
