@@ -74872,5 +74872,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1389",
+  "source_id": "S05",
+  "subject_type": "Block",
+  "subject_ref": "31124",
+  "subject_detail": "Otangaroa 1C3B1",
+  "relationship": "has_linz_title",
+  "object_ref": "490501 — Partition Order (1921-06-02)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-18",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
