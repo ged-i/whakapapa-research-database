@@ -241,6 +241,22 @@
     "relationship": "Affiliated",
     "notes": "Transcription error on death certificate through his mother's line reads, Ngatipakari",
     "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+   },
+   {
+    "link_id": "L010",
+    "tupuna_id": "T002",
+    "location_type": "Block",
+    "location_ref": "32923",
+    "location_detail": "Mangaiti No 3B",
+    "latitude": -35.1024,
+    "longitude": 173.7655,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Arama Taniora",
+    "linz_title": "393833 — Certificate of Title (1899-11-03)",
+    "shares": "",
+    "source_id": "S06"
    }
   ],
   "name": "Arama Taniora",
@@ -251,6 +267,8 @@
   "mother": "Riha Taniora",
   "father": "Taniora Rihari",
   "notes": "Died early from Typhoid. \nLikely transcription errors on death certificate. Corrections for mother, \"Raiha\"; wife, \"Tangata\"; and hapū, \"Ngāti Tara.\"",
-  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
+  "identities": [],
+  "events": []
  }
 ]
