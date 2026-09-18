@@ -273,6 +273,22 @@
     "linz_title": "490501 — Partition Order (1921-06-02)",
     "shares": "0.446",
     "source_id": "S05"
+   },
+   {
+    "link_id": "L012",
+    "tupuna_id": "T002",
+    "location_type": "Block",
+    "location_ref": "30487",
+    "location_detail": "Tauaki",
+    "latitude": -35.113,
+    "longitude": 173.8322,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Arama Taniora",
+    "linz_title": "497788 — Native Land Act Order (1899-11-09)",
+    "shares": "0.009",
+    "source_id": "S05"
    }
   ],
   "name": "Arama Taniora",
