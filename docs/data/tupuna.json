@@ -454,6 +454,22 @@
     "linz_title": "497788 — Native Land Act Order (1899-11-09)",
     "shares": "",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L021",
+    "tupuna_id": "T005",
+    "location_type": "Block",
+    "location_ref": "31124",
+    "location_detail": "Otangaroa 1C3B1",
+    "latitude": -35.1048,
+    "longitude": 173.6371,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Betty or Erihapeti Arama or Hori",
+    "linz_title": "490501 — Partition Order (1921-06-02)",
+    "shares": "",
+    "source_id": "S06"
    }
   ],
   "name": "Betty or Erihapeti Arama or Hori",
