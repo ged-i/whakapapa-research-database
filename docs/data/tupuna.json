@@ -771,6 +771,22 @@
     "linz_title": "LINZ 366039 — Revesting Order (1983-11-30)",
     "shares": "306.1996",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L037",
+    "tupuna_id": "T009",
+    "location_type": "Block",
+    "location_ref": "30124",
+    "location_detail": "Te Puna Topu O Hokianga",
+    "latitude": -35.4647,
+    "longitude": 173.3346,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Rihari Matiu Wiripo",
+    "linz_title": "150005 — Partition Order (1974-05-02)",
+    "shares": "0.115",
+    "source_id": "S06"
    }
   ],
   "name": "Rihari Matiu",
@@ -790,6 +806,14 @@
     "date": "",
     "document_url": "",
     "note": "Name on title of Te Kopua No 3 (LINZ 366039 — Revesting Order (1983-11-30))"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Rihari Matiu Wiripo",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "Name on title of Te Puna Topu O Hokianga (LINZ 150005 — Partition Order (1974-05-02))"
    }
   ]
  }
