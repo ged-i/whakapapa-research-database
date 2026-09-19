@@ -827,6 +827,18 @@
     "relationship": "Spouse / partner",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L041",
+    "tupuna_id": "T009",
+    "location_type": "Iwi",
+    "location_ref": "Ngāti Kahu",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
    }
   ],
   "name": "Rihari Matiu",
