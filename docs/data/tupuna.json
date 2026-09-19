@@ -333,7 +333,20 @@
  },
  {
   "tupuna_id": "T004",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L014",
+    "tupuna_id": "T004",
+    "location_type": "Marae",
+    "location_ref": "Tahawai",
+    "location_detail": "245 Weber Road, Pupuke",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Erihapeti Arama (nee Wiremu Tangata)",
   "other_names": "",
   "born": "1880",
