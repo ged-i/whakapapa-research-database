@@ -74917,5 +74917,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1392",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "29484",
+  "subject_detail": "Waihapa 2B 4B",
+  "relationship": "has_linz_title",
+  "object_ref": "511022 — Partition Order (1946-07-16)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
