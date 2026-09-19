@@ -502,6 +502,22 @@
     "linz_title": "511022 — Partition Order (1946-07-16)",
     "shares": "",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L019",
+    "tupuna_id": "T005",
+    "location_type": "Block",
+    "location_ref": "32923",
+    "location_detail": "Mangaiti No 3B",
+    "latitude": -35.1024,
+    "longitude": 173.7655,
+    "relationship": "Owner",
+    "notes": "Potential false succession",
+    "source": "12 AT 232-233",
+    "as_recorded": "Betty or Erihapeti Arama or Hori",
+    "linz_title": "",
+    "shares": "0.143",
+    "source_id": "S06"
    }
   ],
   "name": "Betty or Erihapeti Arama or Hori",
