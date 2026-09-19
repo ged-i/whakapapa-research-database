@@ -75007,5 +75007,20 @@
   "confidence": "stated",
   "note": "86 W 74-77",
   "_f": null
+ },
+ {
+  "claim_id": "C1398",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "30124",
+  "subject_detail": "Te Puna Topu O Hokianga",
+  "relationship": "has_linz_title",
+  "object_ref": "150005 — Partition Order (1974-05-02)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
