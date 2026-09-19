@@ -424,22 +424,6 @@
   "tupuna_id": "T005",
   "links": [
    {
-    "link_id": "L020",
-    "tupuna_id": "T005",
-    "location_type": "Block",
-    "location_ref": "30487",
-    "location_detail": "Tauaki",
-    "latitude": -35.113,
-    "longitude": 173.8322,
-    "relationship": "Owner",
-    "notes": "",
-    "source": "",
-    "as_recorded": "Betty or Erihapeti Arama or Hori",
-    "linz_title": "497788 — Native Land Act Order (1899-11-09)",
-    "shares": "",
-    "source_id": "S06"
-   },
-   {
     "link_id": "L019",
     "tupuna_id": "T005",
     "location_type": "Block",
