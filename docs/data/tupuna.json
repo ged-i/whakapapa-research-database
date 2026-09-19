@@ -421,6 +421,18 @@
     "linz_title": "",
     "shares": "0.333",
     "source_id": "S05"
+   },
+   {
+    "link_id": "L050",
+    "tupuna_id": "T004",
+    "location_type": "Iwi",
+    "location_ref": "Ngāti Kahu",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Father's side as named on her sisters death certificate.",
+    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
    }
   ],
   "name": "Erihapeti Arama (nee Wiremu Tangata)",
