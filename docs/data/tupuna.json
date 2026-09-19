@@ -345,6 +345,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L015",
+    "tupuna_id": "T004",
+    "location_type": "Iwi",
+    "location_ref": "Ngāpuhi",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing"
    }
   ],
   "name": "Erihapeti Arama (nee Wiremu Tangata)",
