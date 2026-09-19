@@ -901,6 +901,18 @@
     "relationship": "Affiliated",
     "notes": "Mother's side on his birth certificate.",
     "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
+   },
+   {
+    "link_id": "L044",
+    "tupuna_id": "T010",
+    "location_type": "Iwi",
+    "location_ref": "Ngāpuhi",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Father's side on his birth certificate.",
+    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
    }
   ],
   "name": "Makura Arama",
