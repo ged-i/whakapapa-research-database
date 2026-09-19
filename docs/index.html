@@ -411,12 +411,14 @@ async function init(){
     window._aliases=aliJ; aliJ.forEach(a=>hapuAliasMap.set(fold(a.alias), fold(a.canonical_name)));
     fetch('data/blocks/districts.json').then(r=>r.json()).then(j=>{ blockDistricts=j; if(j['te-waipounamu']) j['te-waipounamu'].bbox=[-47.4,166,-40.5,184]; }).catch(()=>{});
     sources=srcJ; sources.forEach(x=>sourceOn[x.source_id]=true);
-    try{ const lc=localStorage.getItem(CSTORE); claims = lc ? JSON.parse(lc) : clmJ; }catch{ claims=clmJ; }
+    try{ const lc=localStorage.getItem(CSTORE); claims = (lc && localStorage.getItem(STORE+'.unsynced')==='1') ? JSON.parse(lc) : clmJ; }catch{ claims=clmJ; }
     window._repoClaims=clmJ;
     iwiList = iwiJ; regionsById = regJ;
-    try{ const local=localStorage.getItem(STORE); window._browserTupuna = local ? normalizeTupuna(JSON.parse(local)) : null; tupuna = window._browserTupuna ? normalizeTupuna(JSON.parse(local)) : normalizeTupuna(tupJ); }catch{ tupuna = normalizeTupuna(tupJ); window._browserTupuna=null; }
+    try{ const local=localStorage.getItem(STORE); window._browserTupuna = local ? normalizeTupuna(JSON.parse(local)) : null; }catch{ window._browserTupuna=null; }
+    const unsynced = localStorage.getItem(STORE+'.unsynced')==='1';
+    tupuna = (unsynced && window._browserTupuna) ? normalizeTupuna(JSON.parse(JSON.stringify(window._browserTupuna))) : normalizeTupuna(tupJ);
     window._repoTupuna = tupJ; discrepancies = await fetch('data/discrepancies.json').then(r=>r.json()).catch(()=>[]);
-    const connected = await repoLoad(); if(connected) checkBrowserExtras();
+    const connected = await repoLoad(); if(!connected && !unsynced) checkBrowserExtrasSoft(); if(connected) checkBrowserExtras();
     iwiList.forEach(i=>{ iwiIndex.set(norm(i.name), i); });
     features = marae.filter(f=>f.geometry&&f.geometry.coordinates).map(f=>{
       const p=f.properties; const [lng,lat]=f.geometry.coordinates;
@@ -648,7 +650,7 @@ window.filterHapu=function(h){ map.closePopup(); closeDetail(); if(!sel.hapu.has
 
 // ================= sources & claims =================
 function srcOf(id){ return sources.find(x=>x.source_id===id)||{source_id:id,name:id,colour:'#999'}; }
-function saveClaims(msg){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); }catch{} markDirty('claims', msg||'update'); }
+function saveClaims(msg){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); localStorage.setItem(STORE+'.unsynced','1'); }catch{} markDirty('claims', msg||'update'); }
 let nameIndex=new Map(), claimsByFeature=new Map(), iwiWakaClaims=[], hapuIwiIndex=new Map();
 function buildNameIndex(){ nameIndex=new Map(); const add=(k,f)=>{ if(!k) return; (nameIndex.get(k)||nameIndex.set(k,[]).get(k)).push(f); }; features.forEach(f=>{ add(norm(f.p.Name),f); const a=norm(f.p.Alternate||''); if(a&&a!==norm(f.p.Name)) add(a,f); });
   hapuIwiIndex=new Map(); features.forEach(f=>f.hapu.forEach(h=>{ const k=hapuKey(h); const S=hapuIwiIndex.get(k)||hapuIwiIndex.set(k,{iwi:new Set(),names:new Set(),feats:[]}).get(k); f.iwiNames.forEach(n=>{S.iwi.add(norm(n)); S.names.add(n);}); S.feats.push(f); })); }
@@ -761,6 +763,7 @@ function browserExtras(){ let b=window._browserTupuna||[]; if(b.length<=1){ for(
   return b.filter(t=>{ const r=have.get(t.tupuna_id); if(!r) return true; if(fold(r.name)!==fold(t.name)) return true;
     const keys=x=>new Set([...(x.links||[]).map(l=>l.location_type+'|'+l.location_ref+'|'+l.relationship),...(x.identities||[]).map(i=>'N|'+i.name),...(x.events||[]).map(e=>'E|'+e.type+'|'+e.date)]);
     const rk=keys(r); return [...keys(t)].some(k=>!rk.has(k)); }); }
+function checkBrowserExtrasSoft(){ const extras=browserExtras(); const host=document.getElementById('recoverBar'); if(!host||!extras.length){ if(host) host.hidden=true; return; } host.hidden=false; host.innerHTML=`<div class="settings" style="border-left:3px solid var(--kowhai)"><b>This browser has an older local copy</b> with entries not in the repo (${extras.map(t=>esc(t.name)).join(', ')}). The map is showing the repo. To keep those entries, connect the repo (Repo settings) and press Recover; otherwise ignore this.<div class="actions" style="margin-top:8px"><button class="btn quiet small" onclick="exportBrowserCopy()">Download browser copy</button><button class="btn quiet small" onclick="localStorage.removeItem(STORE);localStorage.removeItem(STORE+'.prev');localStorage.removeItem(STORE+'.backup');document.getElementById('recoverBar').hidden=true">Discard local copy</button></div></div>`; }
 function checkBrowserExtras(){ const extras=browserExtras(); const host=document.getElementById('recoverBar'); if(!host) return; if(!extras.length){ host.hidden=true; return; }
   host.hidden=false; host.innerHTML=`<div class="settings" style="border-left:3px solid var(--kowhai)"><b>This browser holds entries that are not in the repo</b> — ${extras.map(t=>esc(t.name)).join(', ')}.<br>They are safe as long as you do not make changes before recovering.<div class="actions" style="margin-top:8px"><button class="btn small" onclick="recoverBrowser()">Recover and save to repo</button><button class="btn quiet small" onclick="exportBrowserCopy()">Download browser copy</button></div></div>`; }
 window.exportBrowserCopy=function(){ download('tupuna-browser-copy.json', JSON.stringify(window._browserTupuna||[],null,1), 'application/json'); };
@@ -788,11 +791,11 @@ const FILES={tupuna:()=>tupuna, claims:()=>claims, discrepancies:()=>discrepanci
 let lastMsg='';
 function markDirty(file, msg){ dirty.add(file); ver[file]=(ver[file]||0)+1; if(msg) lastMsg=msg; if(ghOk()&&gh.autosave){ setSync('dirty','Unsaved change — saving shortly'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),4000); } else if(ghOk()){ setSync('dirty','Unsaved changes — press Save now'); } else { setSync('dirty','Unsaved — browser only (connect repo settings)'); } }
 window.commitAll=async function(msg){ if(!ghOk()||!dirty.size||syncBusy) return; syncBusy=true; clearTimeout(syncTimer); setSync('busy','Saving to repo…');
-  try{ for(const file of [...dirty]){ const v=ver[file]; await ghWrite(`${file}.json`, FILES[file](), `${file}: ${msg||'update'} (${new Date().toISOString().slice(0,16)}Z)`); if(ver[file]===v) dirty.delete(file); } setSync(dirty.size?'dirty':'ok', dirty.size?'Saving remaining changes…':`Saved to repo ${new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`); }
+  try{ for(const file of [...dirty]){ const v=ver[file]; await ghWrite(`${file}.json`, FILES[file](), `${file}: ${msg||'update'} (${new Date().toISOString().slice(0,16)}Z)`); if(ver[file]===v) dirty.delete(file); } if(!dirty.size){ try{ localStorage.removeItem(STORE+'.unsynced'); }catch{} } setSync(dirty.size?'dirty':'ok', dirty.size?'Saving remaining changes…':`Saved to repo ${new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`); }
   catch(e){ setSync('err','Save failed — '+e.message.slice(0,80)); }
   syncBusy=false; if(dirty.size){ clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),1500); } };
 async function repoLoad(){ // read the live record from the repo; falls back to Pages copy / browser
-  loadGh(); if(!ghOk()){ setSync('', 'Browser only — connect repo settings to save'); return false; }
+  loadGh(); if(!ghOk()){ setSync('', 'Showing the repo (read-only here) — connect repo settings to save changes'); return false; }
   try{ setSync('busy','Reading repo…'); const [t,c,d]=await Promise.all([ghRead('tupuna.json'),ghRead('claims.json'),ghRead('discrepancies.json').catch(()=>[])]);
     tupuna=normalizeTupuna(t); claims=c; discrepancies=d; window._repoTupuna=t; window._repoClaims=c; dirty.clear(); setSync('ok','In sync with repo'); return true; }
   catch(e){ setSync('err','Repo read failed — '+e.message.slice(0,80)); return false; }
@@ -913,7 +916,7 @@ function normalizeTupuna(list){ return (list||[]).map(t=>({...t, identities:t.id
 const EVENT_TYPES=['Birth','Baptism','Marriage','Succession order','Partition / land order','Land transfer','Witness / appearance','Residence','Death','Burial','Other'];
 function evDate(e){ return e.date||''; }
 function evSort(a,b){ return evDate(a).localeCompare(evDate(b)); }
-function saveStore(msg){ try{ const prev=localStorage.getItem(STORE); if(prev) localStorage.setItem(STORE+'.prev', prev); localStorage.setItem(STORE, JSON.stringify(tupuna)); }catch{} markDirty('tupuna', msg||'update'); }
+function saveStore(msg){ try{ const prev=localStorage.getItem(STORE); if(prev) localStorage.setItem(STORE+'.prev', prev); localStorage.setItem(STORE, JSON.stringify(tupuna)); localStorage.setItem(STORE+'.unsynced','1'); }catch{} markDirty('tupuna', msg||'update'); }
 function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
