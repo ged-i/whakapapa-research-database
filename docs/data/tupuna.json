@@ -449,16 +449,7 @@
   "father": "Wiremu Arama",
   "notes": "Potential false successor.",
   "source": "12 AT 232-233",
-  "identities": [
-   {
-    "identity_id": "N001",
-    "name": "Betty or Erihapeti Arama or Hori",
-    "source_id": "S06",
-    "date": "",
-    "document_url": "",
-    "note": "Name on title of Mangaiti No 3B"
-   }
-  ],
+  "identities": [],
   "events": []
  }
 ]
