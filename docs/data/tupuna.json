@@ -815,6 +815,18 @@
     "relationship": "Child",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L040",
+    "tupuna_id": "T009",
+    "location_type": "Tupuna",
+    "location_ref": "T008",
+    "location_detail": "Maraea Piri Paraiho",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Rihari Matiu",
