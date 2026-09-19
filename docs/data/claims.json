@@ -74992,5 +74992,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1397",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "7073",
+  "subject_detail": "Te Kopua No 3",
+  "relationship": "has_linz_title",
+  "object_ref": "LINZ 366039 — Revesting Order (1983-11-30)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "86 W 74-77",
+  "_f": null
  }
 ]
