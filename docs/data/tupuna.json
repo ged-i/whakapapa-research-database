@@ -62,6 +62,18 @@
     "linz_title": "500923 — Native Land Act Order (1910-05-25)",
     "shares": "6.534",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L045",
+    "tupuna_id": "T901",
+    "location_type": "Iwi",
+    "location_ref": "Te Aupōuri",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Aupouri named on Makura's Arama (sons) birth certificate.",
+    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
    }
   ],
   "identities": [
