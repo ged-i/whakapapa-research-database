@@ -972,6 +972,18 @@
     "relationship": "Mother",
     "notes": "Names Tura Hāre Hongi as Ngāti Maru and Wiremu Tangata as Ngāti Kahu",
     "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
+   },
+   {
+    "link_id": "L048",
+    "tupuna_id": "T011",
+    "location_type": "Tupuna",
+    "location_ref": "T006",
+    "location_detail": "Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "Names Wiremu Tangata as Ngāti Kahu and Tura Hāre Hongi as Ngāti Maru",
+    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
    }
   ],
   "name": "Ani Heka",
