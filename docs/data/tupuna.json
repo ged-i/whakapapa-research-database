@@ -422,7 +422,24 @@
  },
  {
   "tupuna_id": "T005",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L019",
+    "tupuna_id": "T005",
+    "location_type": "Block",
+    "location_ref": "32923",
+    "location_detail": "Mangaiti No 3B",
+    "latitude": -35.1024,
+    "longitude": 173.7655,
+    "relationship": "Owner",
+    "notes": "12 AT 232-233",
+    "source": "",
+    "as_recorded": "Betty or Erihapeti Arama or Hori",
+    "linz_title": "",
+    "shares": "",
+    "source_id": "S06"
+   }
+  ],
   "name": "Erihapeti Arama",
   "other_names": "Betty Hori",
   "born": "",
@@ -431,6 +448,16 @@
   "mother": "Rirena Arama",
   "father": "Wiremu Arama",
   "notes": "Potential false successor.",
-  "source": "12 AT 232-233"
+  "source": "12 AT 232-233",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Betty or Erihapeti Arama or Hori",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "Name on title of Mangaiti No 3B"
+   }
+  ]
  }
 ]
