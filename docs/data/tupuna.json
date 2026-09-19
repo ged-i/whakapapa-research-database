@@ -563,6 +563,22 @@
     "linz_title": "504121 — Partition Order (1983-09-16)",
     "shares": "1",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L026",
+    "tupuna_id": "T006",
+    "location_type": "Block",
+    "location_ref": "30658",
+    "location_detail": "Te Pupuke Church Site & Tapu",
+    "latitude": -35.0973,
+    "longitude": 173.7265,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Wiremu Tangata",
+    "linz_title": "509887 — Native Land Act Order (1901-11-25)",
+    "shares": "1",
+    "source_id": "S06"
    }
   ],
   "name": "Wiremu Tangata",
