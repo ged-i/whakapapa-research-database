@@ -74947,5 +74947,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1394",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "30658",
+  "subject_detail": "Te Pupuke Church Site & Tapu",
+  "relationship": "has_linz_title",
+  "object_ref": "509887 — Native Land Act Order (1901-11-25)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
