@@ -502,6 +502,22 @@
     "linz_title": "511022 — Partition Order (1946-07-16)",
     "shares": "0.208",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L022",
+    "tupuna_id": "T005",
+    "location_type": "Block",
+    "location_ref": "28869",
+    "location_detail": "Taupo 23C",
+    "latitude": -35.0115,
+    "longitude": 173.7207,
+    "relationship": "Owner",
+    "notes": "Potential false succession",
+    "source": "12 AT 232-233",
+    "as_recorded": "Betty or Erihapeti Arama or Hori",
+    "linz_title": "500151 — Partition Order (1914-03-10)",
+    "shares": "",
+    "source_id": "S06"
    }
   ],
   "name": "Betty or Erihapeti Arama or Hori",
