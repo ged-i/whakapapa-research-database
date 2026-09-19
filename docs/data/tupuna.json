@@ -719,7 +719,16 @@
   "father": "Hāre Hongi",
   "notes": "Unsure of mother, but whanau have mentioned Aramata.",
   "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing",
-  "identities": [],
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Tura Hāre Hongi",
+    "source_id": "S06",
+    "date": "1927",
+    "document_url": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing",
+    "note": "Named on Ani Heka's death certificate, her daughter and sister to Erihapeti"
+   }
+  ],
   "events": []
  },
  {
