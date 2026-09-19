@@ -74932,5 +74932,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1393",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "30171",
+  "subject_detail": "Pokaka B2B",
+  "relationship": "has_linz_title",
+  "object_ref": "504121 — Partition Order (1983-09-16)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
