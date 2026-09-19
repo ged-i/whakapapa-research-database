@@ -74977,5 +74977,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1396",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "7074",
+  "subject_detail": "Te Kopua No 4",
+  "relationship": "has_linz_title",
+  "object_ref": "368023 — Revesting Order (1983-11-30)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
