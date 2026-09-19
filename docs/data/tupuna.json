@@ -697,7 +697,20 @@
  },
  {
   "tupuna_id": "T008",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L033",
+    "tupuna_id": "T008",
+    "location_type": "Tupuna",
+    "location_ref": "T901",
+    "location_detail": "Rirena Theresa Arama (nee Rihari Matiu)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1Ges8k9WuA8fdioRF4nqOKeKVgMjR6Rk7/view?usp=sharing"
+   }
+  ],
   "name": "Maraea Piri Paraiho",
   "other_names": "",
   "born": "-",
