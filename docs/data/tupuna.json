@@ -723,7 +723,24 @@
  },
  {
   "tupuna_id": "T009",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L034",
+    "tupuna_id": "T009",
+    "location_type": "Block",
+    "location_ref": "7073",
+    "location_detail": "Te Kopua No 3",
+    "latitude": -37.8067,
+    "longitude": 174.8467,
+    "relationship": "Owner",
+    "notes": "Te Whanaupani is likely a hapū reference",
+    "source": "",
+    "as_recorded": "Te Whanaupani Rihari Matiu",
+    "linz_title": "366039 — Revesting Order (1983-11-30)",
+    "shares": "2619.7403",
+    "source_id": "S06"
+   }
+  ],
   "name": "Rihari Matiu",
   "other_names": "Charlie Matthews",
   "born": "1880",
@@ -732,6 +749,16 @@
   "mother": "Mini Matiu",
   "father": "Matiu Wiripo",
   "notes": "Rihari remarried several times.",
-  "source": ""
+  "source": "",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Te Whanaupani Rihari Matiu",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "Name on title of Te Kopua No 3 (LINZ 366039 — Revesting Order (1983-11-30))"
+   }
+  ]
  }
 ]
