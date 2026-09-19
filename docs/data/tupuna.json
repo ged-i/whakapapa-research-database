@@ -535,7 +535,20 @@
  },
  {
   "tupuna_id": "T006",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L024",
+    "tupuna_id": "T006",
+    "location_type": "Tupuna",
+    "location_ref": "T004",
+    "location_detail": "Erihapeti Arama (nee Wiremu Tangata)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Wiremu Tangata",
   "other_names": "",
   "born": "1861",
