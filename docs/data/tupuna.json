@@ -787,6 +787,22 @@
     "linz_title": "150005 — Partition Order (1974-05-02)",
     "shares": "0.115",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L038",
+    "tupuna_id": "T009",
+    "location_type": "Block",
+    "location_ref": "30072",
+    "location_detail": "Parengarenga B3A",
+    "latitude": -34.5311,
+    "longitude": 172.9461,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Rihari Matiu",
+    "linz_title": "NA55A/1289 — Partition Order (1973-08-01)",
+    "shares": "4.417",
+    "source_id": "S06"
    }
   ],
   "name": "Rihari Matiu",
