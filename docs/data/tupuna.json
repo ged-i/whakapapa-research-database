@@ -408,7 +408,16 @@
   "father": "Wiremu Tangata",
   "notes": "",
   "source": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
-  "identities": [],
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Peti Wiremu Tangata",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "Pokaka A"
+   }
+  ],
   "events": []
  }
 ]
