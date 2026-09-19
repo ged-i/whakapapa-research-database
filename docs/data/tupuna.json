@@ -803,6 +803,18 @@
     "linz_title": "NA55A/1289 — Partition Order (1973-08-01)",
     "shares": "4.417",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L039",
+    "tupuna_id": "T009",
+    "location_type": "Tupuna",
+    "location_ref": "T901",
+    "location_detail": "Rirena Theresa Arama (nee Rihari Matiu)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Rihari Matiu",
