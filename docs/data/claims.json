@@ -75022,5 +75022,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1399",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "30072",
+  "subject_detail": "Parengarenga B3A",
+  "relationship": "has_linz_title",
+  "object_ref": "NA55A/1289 — Partition Order (1973-08-01)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
