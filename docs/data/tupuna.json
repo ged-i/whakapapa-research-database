@@ -635,7 +635,20 @@
  },
  {
   "tupuna_id": "T007",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L029",
+    "tupuna_id": "T007",
+    "location_type": "Tupuna",
+    "location_ref": "T004",
+    "location_detail": "Erihapeti Arama (nee Wiremu Tangata)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Tura Wiremu Tangata",
   "other_names": "Tura Hāre Hongi",
   "born": "",
