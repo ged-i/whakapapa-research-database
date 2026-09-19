@@ -74902,5 +74902,20 @@
   "confidence": "stated",
   "note": "",
   "_f": null
+ },
+ {
+  "claim_id": "C1391",
+  "source_id": "S06",
+  "subject_type": "Block",
+  "subject_ref": "28869",
+  "subject_detail": "Taupo 23C",
+  "relationship": "has_linz_title",
+  "object_ref": "500151 — Partition Order (1914-03-10)",
+  "object_detail": "",
+  "page_url": "",
+  "retrieved": "2026-09-19",
+  "confidence": "stated",
+  "note": "",
+  "_f": null
  }
 ]
