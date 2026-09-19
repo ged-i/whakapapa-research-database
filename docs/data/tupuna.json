@@ -424,22 +424,6 @@
   "tupuna_id": "T005",
   "links": [
    {
-    "link_id": "L019",
-    "tupuna_id": "T005",
-    "location_type": "Block",
-    "location_ref": "32923",
-    "location_detail": "Mangaiti No 3B",
-    "latitude": -35.1024,
-    "longitude": 173.7655,
-    "relationship": "Owner",
-    "notes": "12 AT 232-233",
-    "source": "",
-    "as_recorded": "Betty or Erihapeti Arama or Hori",
-    "linz_title": "",
-    "shares": "",
-    "source_id": "S06"
-   },
-   {
     "link_id": "L020",
     "tupuna_id": "T005",
     "location_type": "Block",
