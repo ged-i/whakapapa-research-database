@@ -755,6 +755,22 @@
     "linz_title": "368023 — Revesting Order (1983-11-30)",
     "shares": "2619.7403",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L036",
+    "tupuna_id": "T009",
+    "location_type": "Block",
+    "location_ref": "7073",
+    "location_detail": "Te Kopua No 3",
+    "latitude": -37.8067,
+    "longitude": 174.8467,
+    "relationship": "Owner",
+    "notes": "Charlie Matiu also appears on the Minute Book Reference: 86 W 74-77",
+    "source": "86 W 74-77",
+    "as_recorded": "Te Whanaupani Rihari Matiu",
+    "linz_title": "LINZ 366039 — Revesting Order (1983-11-30)",
+    "shares": "306.1996",
+    "source_id": "S06"
    }
   ],
   "name": "Rihari Matiu",
