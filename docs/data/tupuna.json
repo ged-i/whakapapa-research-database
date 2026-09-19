@@ -544,6 +544,16 @@
   "mother": "Ani Tangiwhare",
   "father": "Tangiwhare",
   "notes": "Died in Omaunu. Two death records with slightly different information.",
-  "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Wiremu Tangiwhare",
+    "source_id": "S06",
+    "date": "",
+    "document_url": "",
+    "note": "Pokaka 2B"
+   }
+  ]
  }
 ]
