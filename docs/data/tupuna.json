@@ -960,7 +960,20 @@
  },
  {
   "tupuna_id": "T011",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L047",
+    "tupuna_id": "T011",
+    "location_type": "Tupuna",
+    "location_ref": "T007",
+    "location_detail": "Tura Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "Names Tura Hāre Hongi as Ngāti Maru and Wiremu Tangata as Ngāti Kahu",
+    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
+   }
+  ],
   "name": "Ani Heka",
   "other_names": "Ani Wiremu Tangata",
   "born": "1883",
