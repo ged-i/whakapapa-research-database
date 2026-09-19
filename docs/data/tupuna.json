@@ -829,18 +829,6 @@
     "source": ""
    },
    {
-    "link_id": "L041",
-    "tupuna_id": "T009",
-    "location_type": "Iwi",
-    "location_ref": "Ngāti Kahu",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "",
-    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
-   },
-   {
     "link_id": "L042",
     "tupuna_id": "T009",
     "location_type": "Iwi",
@@ -850,6 +838,18 @@
     "longitude": null,
     "relationship": "Affiliated",
     "notes": "Father's side",
+    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
+   },
+   {
+    "link_id": "L041",
+    "tupuna_id": "T009",
+    "location_type": "Iwi",
+    "location_ref": "Ngāti Kahu",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Mother's side",
     "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
    }
   ],
