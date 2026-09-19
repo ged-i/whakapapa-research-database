@@ -547,6 +547,22 @@
     "relationship": "Child",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L025",
+    "tupuna_id": "T006",
+    "location_type": "Block",
+    "location_ref": "30171",
+    "location_detail": "Pokaka B2B",
+    "latitude": -35.0673,
+    "longitude": 173.6649,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "",
+    "as_recorded": "Wiremu Tangiwhare",
+    "linz_title": "504121 — Partition Order (1983-09-16)",
+    "shares": "1",
+    "source_id": "S06"
    }
   ],
   "name": "Wiremu Tangata",
