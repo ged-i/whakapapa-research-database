@@ -647,6 +647,18 @@
     "relationship": "Child",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L030",
+    "tupuna_id": "T007",
+    "location_type": "Tupuna",
+    "location_ref": "T006",
+    "location_detail": "Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Tura Wiremu Tangata",
