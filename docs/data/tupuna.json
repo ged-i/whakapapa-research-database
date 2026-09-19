@@ -1040,6 +1040,22 @@
     "relationship": "Sibling",
     "notes": "Sisters",
     "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
+   },
+   {
+    "link_id": "L053",
+    "tupuna_id": "T011",
+    "location_type": "Block",
+    "location_ref": "30694",
+    "location_detail": "Pokaka A",
+    "latitude": -35.0708,
+    "longitude": 173.6625,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "Whānau records — Pokaka A",
+    "as_recorded": "Ani Tangata Heka Raua Ko Te Ranga Heka Whanau Trust",
+    "linz_title": "",
+    "shares": "0.667",
+    "source_id": "S05"
    }
   ],
   "name": "Ani Heka",
@@ -1050,6 +1066,16 @@
   "mother": "Tura Hāre Hongi",
   "father": "Wiremu Tangata",
   "notes": "Connects Wiremu Tangata to Ngāti Kahu and Tura Hāre Hongi to Ngāti Manu (with a transcription error, \"Ngātimanu\"",
-  "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Ani Tangata Heka Raua Ko Te Ranga Heka Whanau Trust",
+    "source_id": "S05",
+    "date": "",
+    "document_url": "",
+    "note": "Name on title of Pokaka A — Pokaka A"
+   }
+  ]
  }
 ]
