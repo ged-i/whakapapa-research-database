@@ -659,6 +659,18 @@
     "relationship": "Spouse / partner",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L031",
+    "tupuna_id": "T007",
+    "location_type": "Tupuna",
+    "location_ref": "T001",
+    "location_detail": "Wiremu Arama",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Grandchild",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Tura Wiremu Tangata",
