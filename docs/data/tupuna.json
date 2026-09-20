@@ -1207,6 +1207,18 @@
     "relationship": "Child",
     "notes": "",
     "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
+   },
+   {
+    "link_id": "L058",
+    "tupuna_id": "T013",
+    "location_type": "Iwi",
+    "location_ref": "Te Aupōuri",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
    }
   ],
   "name": "Matiu Wiripo",
