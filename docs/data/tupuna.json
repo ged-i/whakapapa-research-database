@@ -968,18 +968,6 @@
   "tupuna_id": "T010",
   "links": [
    {
-    "link_id": "L043",
-    "tupuna_id": "T010",
-    "location_type": "Tupuna",
-    "location_ref": "T009",
-    "location_detail": "Rihari Matiu",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Child",
-    "notes": "",
-    "source": ""
-   },
-   {
     "link_id": "L044",
     "tupuna_id": "T010",
     "location_type": "Hapū",
@@ -1002,6 +990,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://drive.google.com/file/d/17qkgvcuXk-THBnFCqT8Fd6cJ1uZYEQS-/view?usp=sharing"
+   },
+   {
+    "link_id": "L043",
+    "tupuna_id": "T010",
+    "location_type": "Tupuna",
+    "location_ref": "T009",
+    "location_detail": "Rihari Matiu",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
    }
   ],
   "name": "Matiu Wiripo",
