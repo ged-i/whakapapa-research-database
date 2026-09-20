@@ -1035,6 +1035,22 @@
     "note": ""
    }
   ],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1925",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "",
+    "note": ""
+   }
+  ]
  }
 ]
