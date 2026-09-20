@@ -820,7 +820,7 @@ let lastMsg='';
 function markDirty(file, msg){ dirty.add(file); ver[file]=(ver[file]||0)+1; if(msg) lastMsg=msg; if(ghOk()&&gh.autosave){ setSync('dirty','Unsaved change — saving shortly'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),4000); } else if(ghOk()){ setSync('dirty','Unsaved changes — press Save now'); } else { setSync('dirty','Unsaved — browser only (connect repo settings)'); } }
 window.commitAll=async function(msg){ if(!ghOk()||!dirty.size||syncBusy) return; syncBusy=true; clearTimeout(syncTimer); setSync('busy','Saving to repo…');
   try{ for(const file of [...dirty]){ const v=ver[file]; await ghWrite(`${file}.json`, FILES[file](), `${file}: ${msg||'update'} (${new Date().toISOString().slice(0,16)}Z)`); if(ver[file]===v) dirty.delete(file); } if(!dirty.size){ try{ localStorage.removeItem(STORE+'.unsynced'); }catch{} } setSync(dirty.size?'dirty':'ok', dirty.size?'Saving remaining changes…':`Saved to repo ${new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}`); }
-  catch(e){ setSync('err','Save failed — '+e.message.slice(0,80)); }
+  catch(e){ setSync('err','Save failed — '+e.message.slice(0,60)+' (retrying)'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),15000); }
   syncBusy=false; if(dirty.size){ clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),1500); } };
 async function repoLoad(){ // read the live record from the repo; falls back to Pages copy / browser
   loadGh(); if(!ghOk()){ setSync('', 'Showing the repo (read-only here) — connect repo settings to save changes'); return false; }
@@ -838,6 +838,8 @@ function renderSettings(){ loadGh(); document.getElementById('settings').innerHT
 window.saveSettings=async function(e){ e.preventDefault(); const fd=new FormData(e.target); gh={owner:fd.get('owner').trim(),repo:fd.get('repo').trim(),branch:fd.get('branch').trim()||'main',token:fd.get('token').trim(),autosave:fd.get('autosave')==='1'}; localStorage.setItem(GH_KEY,JSON.stringify(gh));
   window._browserTupuna = normalizeTupuna(JSON.parse(JSON.stringify(tupuna))); const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); checkBrowserExtras(); } return false; };
 window.addEventListener('beforeunload',e=>{ if(dirty.size){ e.preventDefault(); e.returnValue=''; } });
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden'&&dirty.size&&ghOk()&&!syncBusy){ clearTimeout(syncTimer); commitAll(lastMsg); } });
+setInterval(()=>{ if(dirty.size&&ghOk()&&!syncBusy&&!syncTimer){ commitAll(lastMsg); } },30000);
 
 // ================= whenua: Māori land blocks =================
 async function loadBlockIndex(){ if(blockIndex) return blockIndex; try{ blockIndex=await (await fetch('data/blocks/index.json')).json(); blockIndex.forEach(b=>blockById.set(String(b[0]),{id:String(b[0]),name:b[1],district:b[2],lat:b[3],lng:b[4]})); }catch{ blockIndex=[]; } return blockIndex; }
