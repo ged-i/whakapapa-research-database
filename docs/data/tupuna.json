@@ -1420,6 +1420,23 @@
   "mother": "",
   "father": "",
   "notes": "",
-  "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Residence",
+    "date": "1931",
+    "place_type": "Place",
+    "place_ref": "Place",
+    "place_detail": "",
+    "latitude": -35.3363,
+    "longitude": 173.289617,
+    "description": "",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
+    "note": "As stated on Matiu Wiripo's (her son's) death certificate."
+   }
+  ]
  }
 ]
