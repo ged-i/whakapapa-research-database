@@ -1204,6 +1204,16 @@
   "mother": "Iriaka Te Moki",
   "father": "Wiripo Te Moki",
   "notes": "",
-  "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Matiu Whiripo",
+    "source_id": "S05",
+    "date": "1928",
+    "document_url": "https://drive.google.com/file/d/1YElYSMYQQ1uFAxHo2iszSnld-xYD15KY/view?usp=sharing",
+    "note": "Likely transcription error on marriage of Rihari Matiu"
+   }
+  ]
  }
 ]
