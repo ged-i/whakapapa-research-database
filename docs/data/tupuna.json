@@ -966,7 +966,20 @@
  },
  {
   "tupuna_id": "T010",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L043",
+    "tupuna_id": "T010",
+    "location_type": "Tupuna",
+    "location_ref": "T009",
+    "location_detail": "Rihari Matiu",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Matiu Wiripo",
   "other_names": "",
   "born": "1856",
