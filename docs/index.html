@@ -112,6 +112,18 @@ a:hover{color:var(--bone)}
 .btn.quiet{background:var(--ink-3);color:var(--bone)}
 .btn.small{padding:4px 9px;font-size:12px}
 .btn:disabled{opacity:.5;cursor:default}
+.wgroup{border-top:1px solid var(--ink-3)}
+.wgroup .ghead{display:flex;align-items:center;gap:8px;padding:10px 22px;cursor:pointer}
+.wgroup .ghead:hover{background:var(--ink-2)}
+.wgroup .ghead .chev{width:14px;height:14px;flex:none;transition:transform .15s;color:var(--mist)}
+.wgroup.open .ghead .chev{transform:rotate(90deg)}
+.wgroup .ghead .gname{font-family:var(--serif);font-size:17px;font-weight:600;flex:1}
+.wgroup .ghead .gmeta{color:var(--mist);font-size:12px}
+.wgroup .gbody{display:none;padding-bottom:6px}
+.wgroup.open .gbody{display:block}
+.wgroup .gbody .tcard{padding-top:7px;padding-bottom:7px}
+.wgroup .gbody .tcard .name{font-size:15px}
+.gen{display:inline-block;color:var(--muted);font-size:11px;margin-right:6px}
 .tcard{display:block;width:100%;text-align:left;background:none;border:0;color:var(--bone);padding:10px 22px;cursor:pointer;border-left:3px solid transparent}
 .tcard:hover{background:var(--ink-2)}
 .tcard.active{background:var(--ink-2);border-left-color:var(--kowhai)}
@@ -940,12 +952,33 @@ function tupunaRelsFor(t,f){ return [...new Set(t.links.filter(l=>(l.location_ty
 function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f) s.add(f.id);} if(l.location_type==='Hapū'){ const e=hapuIwiIndex.get(hapuKey(l.location_ref)); if(e) e.feats.forEach(f=>s.add(f.id)); } if(l.location_type==='Waka'){ features.forEach(f=>{ if(wakaOf(f).has(l.location_ref)) s.add(f.id); }); } }); return s; }
 
 // ---- list / detail ----
+const openGroups=new Set();
+function whakapapaGroups(){ // connected components over kin links, with a root (no parents in group; earliest born) and a generation depth
+  const byId=new Map(tupuna.map(t=>[t.tupuna_id,t])); const adj=new Map(tupuna.map(t=>[t.tupuna_id,new Set()])); const parents=new Map(tupuna.map(t=>[t.tupuna_id,new Set()])); const children=new Map(tupuna.map(t=>[t.tupuna_id,new Set()]));
+  tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type!=='Tupuna'||!byId.has(l.location_ref)) return; const o=l.location_ref; adj.get(t.tupuna_id).add(o); adj.get(o).add(t.tupuna_id);
+    const r=l.relationship; if(r==='Mother'||r==='Father'){ parents.get(t.tupuna_id).add(o); children.get(o).add(t.tupuna_id); } else if(r==='Child'){ parents.get(o).add(t.tupuna_id); children.get(t.tupuna_id).add(o); } else if(r==='Grandparent'||r==='Ancestor'){ parents.get(t.tupuna_id).add(o); children.get(o).add(t.tupuna_id); } else if(r==='Grandchild'||r==='Descendant'){ parents.get(o).add(t.tupuna_id); children.get(t.tupuna_id).add(o); } }));
+  const seen=new Set(); const groups=[];
+  const yr=t=>{ const m=(t.born||'').match(/\d{4}/); return m?+m[0]:9999; };
+  tupuna.forEach(t=>{ if(seen.has(t.tupuna_id)) return; const comp=[]; const q=[t.tupuna_id]; seen.add(t.tupuna_id); while(q.length){ const id=q.shift(); comp.push(byId.get(id)); adj.get(id).forEach(n=>{ if(!seen.has(n)){ seen.add(n); q.push(n); } }); }
+    if(comp.length===1){ groups.push({single:comp[0]}); return; }
+    const roots=comp.filter(x=>![...parents.get(x.tupuna_id)].some(pid=>comp.some(c=>c.tupuna_id===pid))); const root=(roots.length?roots:comp).sort((a,b)=>yr(a)-yr(b)||a.name.localeCompare(b.name))[0];
+    const depth=new Map([[root.tupuna_id,0]]); const dq=[root.tupuna_id]; while(dq.length){ const id=dq.shift(); const d=depth.get(id); children.get(id).forEach(c=>{ if(!depth.has(c)){ depth.set(c,d+1); dq.push(c); } }); adj.get(id).forEach(n=>{ if(!depth.has(n)&&!parents.get(n).has(id)&&!children.get(n).has(id)){ depth.set(n,d); dq.push(n); } }); }
+    comp.forEach(x=>{ if(!depth.has(x.tupuna_id)) depth.set(x.tupuna_id,0); });
+    const members=comp.filter(x=>x!==root).sort((a,b)=>depth.get(a.tupuna_id)-depth.get(b.tupuna_id)||yr(a)-yr(b)||a.name.localeCompare(b.name));
+    groups.push({root,members,depth}); });
+  return groups.sort((a,b)=>(a.single?a.single:a.root).name.localeCompare((b.single?b.single:b.root).name));
+}
+function tcard(t, indent){ return `<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1;${indent?`padding-left:${22+indent*14}px`:''}" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${indent!=null&&indent>0?`<span class="gen">gen ${indent}</span>`:''}${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${(t.identities||[]).length} names`, `${(t.events||[]).length} events`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`; }
+window.toggleGroup=function(id){ if(openGroups.has(id)) openGroups.delete(id); else openGroups.add(id); renderTupuna(); };
+window.collectGroup=function(id){ const g=whakapapaGroups().find(x=>x.root&&x.root.tupuna_id===id); if(!g) return; [g.root,...g.members].forEach(t=>tupColl.add(t.tupuna_id)); refreshTupuna(); };
 function renderTupuna(){
   const body=document.getElementById('tupunaBody');
   if(selectedTupuna){ renderTupunaDetail(body); return; }
   if(!tupuna.length){ body.innerHTML='<div class="empty"><strong>No tupuna yet.</strong>Add your first ancestor, then link them to marae, hapū, iwi or places on the map.</div>'; return; }
-  const sorted=[...tupuna].sort((a,b)=>(a.name||'').localeCompare(b.name||''));
-  body.innerHTML = tupCollBar() + sorted.map(t=>`<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${(t.identities||[]).length} names`, `${(t.events||[]).length} events`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`).join('');
+  const groups=whakapapaGroups();
+  body.innerHTML = tupCollBar() + groups.map(g=>{ if(g.single) return tcard(g.single);
+    const id=g.root.tupuna_id, open=openGroups.has(id), n=g.members.length+1, gens=Math.max(...[...g.depth.values()])+1;
+    return `<div class="wgroup ${open?'open':''}"><div class="ghead" onclick="toggleGroup('${esc(id)}')"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg><div><div class="gname">${esc(g.root.name)}</div><div class="gmeta">whakapapa of ${n} · ${gens} generation${gens===1?'':'s'}${g.root.born?` · from ${esc(g.root.born)}`:''}</div></div><button class="pinbtn" style="margin:0" onclick="event.stopPropagation();collectGroup('${esc(id)}')">Collect all</button></div><div class="gbody">${tcard(g.root,0)}${g.members.map(m=>tcard(m,g.depth.get(m.tupuna_id))).join('')}</div></div>`; }).join('');
 }
 function tupCollBar(){ if(!tupColl.size) return ''; const names=[...tupColl].map(id=>tupunaById(id)).filter(Boolean); return `<div class="chipbar" style="margin:0 22px 10px;display:flex"><span style="color:var(--mist);font-size:12px">Whakapapa collection</span>${names.map(t=>`<span class="fchip" style="border-left-color:var(--kowhai)">${esc(shortName(t))}<button title="Remove" onclick="toggleTupColl('${esc(t.tupuna_id)}')">×</button></span>`).join('')}<button class="clearall" onclick="tupColl.clear();refreshTupuna()">Clear</button></div>`; }
 function refreshTupuna(){ renderTupuna(); drawTupuna(); }
