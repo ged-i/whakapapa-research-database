@@ -678,7 +678,7 @@ window.filterHapu=function(h){ map.closePopup(); closeDetail(); if(!sel.hapu.has
 
 // ================= sources & claims =================
 function srcOf(id){ return sources.find(x=>x.source_id===id)||{source_id:id,name:id,colour:'#999'}; }
-function saveClaims(msg){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims)); localStorage.setItem(STORE+'.unsynced','1'); }catch{} markDirty('claims', msg||'update'); }
+function saveClaims(msg){ try{ localStorage.setItem(CSTORE, JSON.stringify(claims,stripInternal)); localStorage.setItem(STORE+'.unsynced','1'); }catch{} markDirty('claims', msg||'update'); }
 let nameIndex=new Map(), claimsByFeature=new Map(), iwiWakaClaims=[], hapuIwiIndex=new Map();
 function buildNameIndex(){ nameIndex=new Map(); const add=(k,f)=>{ if(!k) return; (nameIndex.get(k)||nameIndex.set(k,[]).get(k)).push(f); }; features.forEach(f=>{ add(norm(f.p.Name),f); const a=norm(f.p.Alternate||''); if(a&&a!==norm(f.p.Name)) add(a,f); });
   hapuIwiIndex=new Map(); features.forEach(f=>f.hapu.forEach(h=>{ const k=hapuKey(h); const S=hapuIwiIndex.get(k)||hapuIwiIndex.set(k,{iwi:new Set(),names:new Set(),feats:[]}).get(k); f.iwiNames.forEach(n=>{S.iwi.add(norm(n)); S.names.add(n);}); S.feats.push(f); })); }
@@ -813,8 +813,9 @@ function ghOk(){ return gh&&gh.owner&&gh.repo&&gh.token; }
 function setSync(cls,text){ const el=document.getElementById('syncSt'); if(el){ el.className='st '+cls; el.textContent=text; } document.getElementById('syncSave').style.display = ghOk()?'':'none'; }
 async function ghApi(path, opts={}){ const r=await fetch(`https://api.github.com/repos/${gh.owner}/${gh.repo}/${path}`,{...opts,headers:{'Authorization':`Bearer ${gh.token}`,'Accept':'application/vnd.github+json','Content-Type':'application/json',...(opts.headers||{})}}); if(!r.ok){ const t=await r.text(); throw new Error(`${r.status} ${t.slice(0,140)}`); } return r.json(); }
 const b64e=str=>btoa(unescape(encodeURIComponent(str))), b64d=str=>decodeURIComponent(escape(atob(str.replace(/\n/g,''))));
-async function ghRead(file){ const j=await ghApi(`contents/docs/data/${file}?ref=${encodeURIComponent(gh.branch)}&t=${Date.now()}`); shas[file]=j.sha; return JSON.parse(b64d(j.content)); }
-async function ghWrite(file, obj, message){ const body={message,content:b64e(JSON.stringify(obj,null,1)),branch:gh.branch}; if(shas[file]) body.sha=shas[file]; try{ const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify(body)}); shas[file]=j.content.sha; }catch(e){ if(/409|422/.test(e.message)){ await ghRead(file); const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify({...body,sha:shas[file]})}); shas[file]=j.content.sha; } else throw e; } }
+async function ghRead(file){ const j=await ghApi(`contents/docs/data/${file}?ref=${encodeURIComponent(gh.branch)}&t=${Date.now()}`); shas[file]=j.sha; if(j.content){ return JSON.parse(b64d(j.content)); } const blob=await ghApi(`git/blobs/${j.sha}`); return JSON.parse(b64d(blob.content)); }
+const stripInternal=(k,v)=>(typeof k==='string'&&k.startsWith('_'))?undefined:v;
+async function ghWrite(file, obj, message){ const body={message,content:b64e(JSON.stringify(obj,stripInternal,1)),branch:gh.branch}; if(shas[file]) body.sha=shas[file]; try{ const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify(body)}); shas[file]=j.content.sha; }catch(e){ if(/409|422/.test(e.message)){ await ghRead(file); const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify({...body,sha:shas[file]})}); shas[file]=j.content.sha; } else throw e; } }
 const FILES={tupuna:()=>tupuna, claims:()=>claims, discrepancies:()=>discrepancies}; const ver={tupuna:0,claims:0,discrepancies:0};
 let lastMsg='';
 function markDirty(file, msg){ dirty.add(file); ver[file]=(ver[file]||0)+1; if(msg) lastMsg=msg; if(ghOk()&&gh.autosave){ setSync('dirty','Unsaved change — saving shortly'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),4000); } else if(ghOk()){ setSync('dirty','Unsaved changes — press Save now'); } else { setSync('dirty','Unsaved — browser only (connect repo settings)'); } }
