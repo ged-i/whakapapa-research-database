@@ -1192,6 +1192,22 @@
     "note": "As recorded on Wiripo Matiu (her son and Rihari Matiu's brother) death certificate."
    }
   ],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1927",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/17hCac38ZCb84CO7oYqy0IVNi7tDPDhDF/view?usp=sharing",
+    "note": "Died from heart failure, likely following chronic asthma."
+   }
+  ]
  }
 ]
