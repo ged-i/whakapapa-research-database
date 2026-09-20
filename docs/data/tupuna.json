@@ -1070,7 +1070,20 @@
  },
  {
   "tupuna_id": "T011",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L047",
+    "tupuna_id": "T011",
+    "location_type": "Hapū",
+    "location_ref": "Ngāti Pākahi",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "Mother's side on her death certificate.",
+    "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing"
+   }
+  ],
   "name": "Mini Matiu",
   "other_names": "",
   "born": "1847",
