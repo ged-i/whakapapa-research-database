@@ -1094,6 +1094,18 @@
     "relationship": "Affiliated",
     "notes": "Father's side as named on her death certificate.",
     "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing"
+   },
+   {
+    "link_id": "L049",
+    "tupuna_id": "T011",
+    "location_type": "Tupuna",
+    "location_ref": "T010",
+    "location_detail": "Matiu Wiripo",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing"
    }
   ],
   "name": "Mini Matiu",
