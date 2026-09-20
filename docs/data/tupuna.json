@@ -486,7 +486,23 @@
     "note": "Pokaka A"
    }
   ],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Birth",
+    "date": "1880",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Birth",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
+    "note": ""
+   }
+  ]
  },
  {
   "tupuna_id": "T005",
