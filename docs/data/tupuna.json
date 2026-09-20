@@ -1002,6 +1002,18 @@
     "relationship": "Child",
     "notes": "",
     "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
+   },
+   {
+    "link_id": "L046",
+    "tupuna_id": "T010",
+    "location_type": "Tupuna",
+    "location_ref": "T901",
+    "location_detail": "Rirena Theresa Arama",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Grandchild",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1W7L-gCxbRrem6NqJffM1wSDZXitmSmgZ/view?usp=sharing"
    }
   ],
   "name": "Matiu Wiripo",
