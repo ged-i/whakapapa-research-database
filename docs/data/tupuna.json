@@ -1254,6 +1254,18 @@
     "relationship": "Spouse / partner",
     "notes": "",
     "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+   },
+   {
+    "link_id": "L053",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T002",
+    "location_detail": "Arama Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
    }
   ],
   "name": "Raiha Taniora",
