@@ -1118,6 +1118,18 @@
     "relationship": "Child",
     "notes": "",
     "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
+   },
+   {
+    "link_id": "L051",
+    "tupuna_id": "T011",
+    "location_type": "Place",
+    "location_ref": "Pukepoto",
+    "location_detail": "",
+    "latitude": -35.278698,
+    "longitude": 173.570938,
+    "relationship": "Lived",
+    "notes": "Mother on her death certificate states, Pukepoto as her residence.",
+    "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing"
    }
   ],
   "name": "Mini Matiu",
