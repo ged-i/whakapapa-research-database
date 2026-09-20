@@ -501,6 +501,21 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
     "note": "80 years old at time of death in 1960"
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1960",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Pneumonia, cancer, and metastases in abdomen",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
+    "note": ""
    }
   ]
  },
