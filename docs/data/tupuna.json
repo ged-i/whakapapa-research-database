@@ -62,30 +62,6 @@
     "linz_title": "500923 — Native Land Act Order (1910-05-25)",
     "shares": "6.534",
     "source_id": "S06"
-   },
-   {
-    "link_id": "L045",
-    "tupuna_id": "T901",
-    "location_type": "Iwi",
-    "location_ref": "Te Aupōuri",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Aupouri named on Makura's Arama (sons) birth certificate.",
-    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
-   },
-   {
-    "link_id": "L046",
-    "tupuna_id": "T901",
-    "location_type": "Tupuna",
-    "location_ref": "T010",
-    "location_detail": "Makura Arama",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Child",
-    "notes": "",
-    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
    }
   ],
   "identities": [
@@ -325,7 +301,38 @@
   "notes": "Died early from Typhoid. \nLikely transcription errors on death certificate. Corrections for mother, \"Raiha\" (claim supported by Rihari Taniora marriage certificate); wife, \"Tangata\"; and hapū, \"Ngāti Tara.\"",
   "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
   "identities": [],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1915",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died of Typhoid",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1CcyKYJkC4BnPF0xEYtXKzR5jsLqi7Q4K/view?usp=sharing",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Birth",
+    "date": "1980",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Birth",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1CcyKYJkC4BnPF0xEYtXKzR5jsLqi7Q4K/view?usp=sharing",
+    "note": "Back dated from \"35 years\" at time of death."
+   }
+  ]
  },
  {
   "tupuna_id": "T003",
@@ -421,45 +428,9 @@
     "linz_title": "",
     "shares": "0.333",
     "source_id": "S05"
-   },
-   {
-    "link_id": "L050",
-    "tupuna_id": "T004",
-    "location_type": "Iwi",
-    "location_ref": "Ngāti Kahu",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Father's side as named on her sisters death certificate.",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L051",
-    "tupuna_id": "T004",
-    "location_type": "Hapū",
-    "location_ref": "Ngāti Manu",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Mother's side as named on her sisters death certificate.",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L052",
-    "tupuna_id": "T004",
-    "location_type": "Hapū",
-    "location_ref": "Tahaawai",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Father's side as named on his death certificate.",
-    "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing"
    }
   ],
-  "name": "Erihapeti Arama",
+  "name": "Erihapeti Arama (nee Wiremu Tangata)",
   "other_names": "Betty Arama, Adams",
   "born": "1880",
   "died": "1960",
@@ -476,14 +447,6 @@
     "date": "",
     "document_url": "",
     "note": "Pokaka A"
-   },
-   {
-    "identity_id": "N002",
-    "name": "Erihapeti Wiremu Tangata",
-    "source_id": "S06",
-    "date": "",
-    "document_url": "",
-    "note": "Pokaka A"
    }
   ],
   "events": [
@@ -496,11 +459,11 @@
     "place_detail": "",
     "latitude": null,
     "longitude": null,
-    "description": "Birth",
+    "description": "",
     "source_id": "S05",
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
-    "note": "80 years old at time of death in 1960"
+    "note": "80 years old at death in 1960."
    },
    {
     "event_id": "E002",
@@ -511,11 +474,26 @@
     "place_detail": "",
     "latitude": null,
     "longitude": null,
-    "description": "Pneumonia, cancer, and metastases in abdomen",
+    "description": "Died",
     "source_id": "S05",
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
-    "note": ""
+    "note": "Lived in Brady Road, Otahuhu"
+   },
+   {
+    "event_id": "E003",
+    "type": "Burial",
+    "date": "1960",
+    "place_type": "Place",
+    "place_ref": "Pupuke Church Site and Urūpa",
+    "place_detail": "",
+    "latitude": -35.099568,
+    "longitude": 173.723556,
+    "description": "",
+    "source_id": "S01",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1kKZ5pxjtqQjSn1-KdFG4IInfojMxezoP/view?usp=drive_link",
+    "note": "Children's whakapapa on tombstone"
    }
   ]
  },
@@ -794,16 +772,7 @@
   "father": "Hāre Hongi",
   "notes": "Unsure of mother, but whanau have mentioned Aramata.",
   "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing",
-  "identities": [
-   {
-    "identity_id": "N001",
-    "name": "Tura Hāre Hongi",
-    "source_id": "S06",
-    "date": "1927",
-    "document_url": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing",
-    "note": "Named on Ani Heka's death certificate, her daughter and sister to Erihapeti"
-   }
-  ],
+  "identities": [],
   "events": []
  },
  {
@@ -994,295 +963,5 @@
    }
   ],
   "events": []
- },
- {
-  "tupuna_id": "T010",
-  "links": [
-   {
-    "link_id": "L043",
-    "tupuna_id": "T010",
-    "location_type": "Iwi",
-    "location_ref": "Te Aupōuri",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Mother's side on his birth certificate.",
-    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
-   },
-   {
-    "link_id": "L044",
-    "tupuna_id": "T010",
-    "location_type": "Iwi",
-    "location_ref": "Ngāpuhi",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Father's side on his birth certificate.",
-    "source": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing"
-   },
-   {
-    "link_id": "L054",
-    "tupuna_id": "T010",
-    "location_type": "Iwi",
-    "location_ref": "Ngāti Kahu",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "See great grandfather's (Wiremu Tangata) daughter, his great aunty (Ani Heka)",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L055",
-    "tupuna_id": "T010",
-    "location_type": "Hapū",
-    "location_ref": "Tahaawai",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Wiremu Tangata death certificate",
-    "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing"
-   }
-  ],
-  "name": "Makura Arama",
-  "other_names": "",
-  "born": "1940",
-  "died": "1989",
-  "birthplace": "",
-  "mother": "Rirena Theresa Arama (nee Rihari Matiu)",
-  "father": "Wiremu Arama",
-  "notes": "Birth and death certificates available.",
-  "source": "https://drive.google.com/file/d/1r6k-elS2K2MGDfFkSjZ4L50zeDCtfYey/view?usp=sharing",
-  "events": [
-   {
-    "event_id": "E001",
-    "type": "Birth",
-    "date": "1940",
-    "place_type": "",
-    "place_ref": "",
-    "place_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "description": "",
-    "source_id": "S06",
-    "confidence": "stated",
-    "document_url": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing",
-    "note": "Born in Pawarenga"
-   },
-   {
-    "event_id": "E002",
-    "type": "Death",
-    "date": "1989",
-    "place_type": "",
-    "place_ref": "",
-    "place_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "description": "",
-    "source_id": "S05",
-    "confidence": "stated",
-    "document_url": "https://drive.google.com/file/d/1r6k-elS2K2MGDfFkSjZ4L50zeDCtfYey/view?usp=sharing",
-    "note": "Intracerebral bleed from cerebral metastases"
-   }
-  ],
-  "identities": []
- },
- {
-  "tupuna_id": "T011",
-  "links": [
-   {
-    "link_id": "L047",
-    "tupuna_id": "T011",
-    "location_type": "Tupuna",
-    "location_ref": "T007",
-    "location_detail": "Tura Wiremu Tangata",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Mother",
-    "notes": "Names Tura Hāre Hongi as Ngāti Maru and Wiremu Tangata as Ngāti Kahu",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L048",
-    "tupuna_id": "T011",
-    "location_type": "Tupuna",
-    "location_ref": "T006",
-    "location_detail": "Wiremu Tangata",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Father",
-    "notes": "Names Wiremu Tangata as Ngāti Kahu and Tura Hāre Hongi as Ngāti Maru",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L049",
-    "tupuna_id": "T011",
-    "location_type": "Tupuna",
-    "location_ref": "T004",
-    "location_detail": "Erihapeti Arama (nee Wiremu Tangata)",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Sibling",
-    "notes": "Sisters",
-    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
-   },
-   {
-    "link_id": "L053",
-    "tupuna_id": "T011",
-    "location_type": "Block",
-    "location_ref": "30694",
-    "location_detail": "Pokaka A",
-    "latitude": -35.0708,
-    "longitude": 173.6625,
-    "relationship": "Owner",
-    "notes": "",
-    "source": "Whānau records — Pokaka A",
-    "as_recorded": "Ani Tangata Heka Raua Ko Te Ranga Heka Whanau Trust",
-    "linz_title": "",
-    "shares": "0.667",
-    "source_id": "S05"
-   }
-  ],
-  "name": "Ani Heka",
-  "other_names": "Ani Wiremu Tangata",
-  "born": "1883",
-  "died": "1927",
-  "birthplace": "",
-  "mother": "Tura Hāre Hongi",
-  "father": "Wiremu Tangata",
-  "notes": "Connects Wiremu Tangata to Ngāti Kahu and Tura Hāre Hongi to Ngāti Manu (with a transcription error, \"Ngātimanu\"",
-  "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing",
-  "identities": [
-   {
-    "identity_id": "N001",
-    "name": "Ani Tangata Heka Raua Ko Te Ranga Heka Whanau Trust",
-    "source_id": "S05",
-    "date": "",
-    "document_url": "",
-    "note": "Name on title of Pokaka A — Pokaka A"
-   }
-  ],
-  "events": []
- },
- {
-  "tupuna_id": "T012",
-  "links": [
-   {
-    "link_id": "L056",
-    "tupuna_id": "T012",
-    "location_type": "Tupuna",
-    "location_ref": "T003",
-    "location_detail": "Taniora Rihari",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Spouse / partner",
-    "notes": "",
-    "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
-   }
-  ],
-  "name": "Raiha Taniora",
-  "other_names": "",
-  "born": "",
-  "died": "",
-  "birthplace": "",
-  "mother": "",
-  "father": "",
-  "notes": "Transcription error on Arama Taniora's death certificate names her, \"Riha Taniora\". Rihari Taniora's (Arama Taniora's brother's wedding certificate rectifies this).",
-  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
- },
- {
-  "tupuna_id": "T013",
-  "links": [
-   {
-    "link_id": "L057",
-    "tupuna_id": "T013",
-    "location_type": "Tupuna",
-    "location_ref": "T009",
-    "location_detail": "Rihari Matiu",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Child",
-    "notes": "",
-    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
-   },
-   {
-    "link_id": "L058",
-    "tupuna_id": "T013",
-    "location_type": "Iwi",
-    "location_ref": "Te Aupōuri",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "As per son's death certificate.",
-    "source": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing"
-   },
-   {
-    "link_id": "L059",
-    "tupuna_id": "T013",
-    "location_type": "Hapū",
-    "location_ref": "Te Uri o Tai",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "Teuriotai on his own death certificate",
-    "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
-   }
-  ],
-  "name": "Matiu Wiripo",
-  "other_names": "",
-  "born": "1856",
-  "died": "1931",
-  "birthplace": "",
-  "mother": "Iriaka Te Moki",
-  "father": "Wiripo Te Moki",
-  "notes": "",
-  "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
-  "identities": [
-   {
-    "identity_id": "N001",
-    "name": "Matiu Whiripo",
-    "source_id": "S05",
-    "date": "1928",
-    "document_url": "https://drive.google.com/file/d/1YElYSMYQQ1uFAxHo2iszSnld-xYD15KY/view?usp=sharing",
-    "note": "Likely transcription error on marriage of Rihari Matiu"
-   }
-  ],
-  "events": [
-   {
-    "event_id": "E001",
-    "type": "Birth",
-    "date": "1856",
-    "place_type": "",
-    "place_ref": "",
-    "place_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "description": "",
-    "source_id": "S05",
-    "confidence": "stated",
-    "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
-    "note": ""
-   },
-   {
-    "event_id": "E002",
-    "type": "Death",
-    "date": "1931",
-    "place_type": "",
-    "place_ref": "",
-    "place_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "description": "Died in Rotokakahi, Pawarenga",
-    "source_id": "S01",
-    "confidence": "stated",
-    "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
-    "note": ""
-   }
-  ]
  }
 ]
