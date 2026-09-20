@@ -1017,6 +1017,7 @@ function tupCollBar(){ if(!tupColl.size) return ''; const names=[...tupColl].map
 function refreshTupuna(){ renderTupuna(); drawTupuna(); }
 window.toggleTupColl=function(id){ if(tupColl.has(id)) tupColl.delete(id); else tupColl.add(id); refreshTupuna(); };
 window.collectConnected=function(id){ const t=tupunaById(id); if(!t) return; tupColl.add(id); const frontier=[...tupColl]; frontier.forEach(x=>{ const tt=tupunaById(x); if(tt) kinLinks(tt).forEach(k=>tupColl.add(k.other.tupuna_id)); }); refreshTupuna(); };
+window.editKinOn=function(otherId, linkId){ selectTupuna(otherId); const o=tupunaById(otherId); const i=o?o.links.findIndex(l=>l.link_id===linkId):-1; if(i>=0){ addLinkForm(null,'Tupuna',i); const f=document.getElementById('linkForm'); if(f) f.scrollIntoView({block:'center'}); toast(`Editing on ${shortName(o)}'s card`); } };
 window.selectTupuna=function(id){
   selectedTupuna=tupuna.find(t=>t.tupuna_id===id)||null; renderTupuna(); drawTupuna(); };
 window.backToTupuna=function(){ selectedTupuna=null; tupunaLayer.clearLayers(); roheLayer.clearLayers(); renderTupuna(); drawTupuna(); };
@@ -1024,7 +1025,7 @@ window.backToTupuna=function(){ selectedTupuna=null; tupunaLayer.clearLayers(); 
 function renderTupunaDetail(body){
   const t=selectedTupuna;
   const kin=kinLinks(t);
-  const kinHtml=kin.length?kin.map(k=>`<div class="link-row"><span class="dot" style="background:var(--bone)"></span><div class="lbody"><div class="lref"><button onclick="selectTupuna('${esc(k.other.tupuna_id)}')">${esc(k.other.name)}</button></div><div class="lmeta">${esc(k.rel)}${k.note?` · ${esc(k.note)}`:''}${k.source?`<br>Source: ${esc(k.source)}`:''}</div></div>${k.dir==='out'?`<button class="x" title="Remove link" onclick="removeLink(${t.links.indexOf(k.link)})">×</button>`:`<button class="pinbtn ${tupColl.has(k.other.tupuna_id)?'on':''}" onclick="toggleTupColl('${esc(k.other.tupuna_id)}')">${tupColl.has(k.other.tupuna_id)?'Collected':'Collect'}</button>`}</div>`).join(''):'<div class="hint">No tupuna linked yet.</div>';
+  const kinHtml=kin.length?kin.map(k=>`<div class="link-row"><span class="dot" style="background:var(--bone)"></span><div class="lbody"><div class="lref"><button onclick="selectTupuna('${esc(k.other.tupuna_id)}')">${esc(k.other.name)}</button></div><div class="lmeta">${esc(k.rel)}${k.note?` · ${esc(k.note)}`:''}${k.source?`<br>Source: ${esc(k.source)}`:''}</div></div>${k.dir==='out'?`<button class="x" title="Edit relationship" onclick="addLinkForm(null,'Tupuna',${t.links.indexOf(k.link)})">✎</button><button class="x" title="Remove link" onclick="removeLink(${t.links.indexOf(k.link)})">×</button>`:`<button class="x" title="Edit this relationship (recorded on ${esc(k.other.name)}'s card)" onclick="editKinOn('${esc(k.other.tupuna_id)}','${esc(k.link.link_id)}')">✎</button><button class="pinbtn ${tupColl.has(k.other.tupuna_id)?'on':''}" onclick="toggleTupColl('${esc(k.other.tupuna_id)}')">${tupColl.has(k.other.tupuna_id)?'Collected':'Collect'}</button>`}</div>`).join(''):'<div class="hint">No tupuna linked yet.</div>';
   const links=t.links.map((l,i)=>{ if(l.location_type==='Tupuna') return '';
     const cls={Marae:'marae','Hapū':'hapu',Iwi:'iwi',Waka:'iwi',Block:'block',Place:'place'}[l.location_type]||'place';
     const f=l.location_type==='Marae'?maraeForLink(l):null;
@@ -1177,7 +1178,7 @@ window.addLinkForm=function(presetMarae, presetType, editIdx){
       <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
       <div class="row2"><label>LINZ title reference<input name="linz"></label><label>Shares<input name="shares"></label></div>
       <label>Source (register)<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label></div>
-    <label id="refTupuna" style="display:none">The other tupuna<select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
+    <label id="refTupuna" style="display:none">The other tupuna <span class="hint">(relationship is from this card's point of view)</span><select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
       <button type="button" class="btn quiet small" onclick="pickOnMap()">Pick on the map</button></div>
