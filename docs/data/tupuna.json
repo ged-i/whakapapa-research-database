@@ -978,6 +978,18 @@
     "relationship": "Child",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L044",
+    "tupuna_id": "T010",
+    "location_type": "Hapū",
+    "location_ref": "Te Uri o Tai",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
    }
   ],
   "name": "Matiu Wiripo",
