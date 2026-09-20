@@ -112,6 +112,22 @@ a:hover{color:var(--bone)}
 .btn.quiet{background:var(--ink-3);color:var(--bone)}
 .btn.small{padding:4px 9px;font-size:12px}
 .btn:disabled{opacity:.5;cursor:default}
+.treebar{display:flex;justify-content:space-between;padding:4px 22px 8px;color:var(--mist);font-size:12px}
+.treebar button{background:none;border:0;color:var(--pounamu-soft);cursor:pointer;font-size:12px;padding:0;text-decoration:underline;text-underline-offset:3px}
+.trow{display:flex;align-items:flex-start;gap:6px;padding:7px 12px 7px 14px;border-top:1px solid var(--ink-3)}
+.trow .chev{flex:none;width:22px;height:22px;background:none;border:0;color:var(--mist);cursor:pointer;padding:3px;margin-top:2px}
+.trow .chev svg{width:16px;height:16px;transition:transform .15s}
+.trow .chev.open svg{transform:rotate(90deg)}
+.trow .chev.none{cursor:default}
+.trow .tbody{flex:1;min-width:0}
+.trow .tname{background:none;border:0;color:var(--bone);font-family:var(--serif);font-size:16px;font-weight:600;padding:0;cursor:pointer;text-align:left;line-height:1.25}
+.trow .tname:hover{color:var(--kowhai)}
+.trow .tname.active{color:var(--kowhai)}
+.trow .sp{color:var(--mist);font-size:14px;margin-left:6px}
+.trow .sp .tname{font-size:14px;font-weight:600;color:var(--bone)}
+.trow .sub{color:var(--mist);font-size:12px;margin-top:2px}
+.trow .tacts{display:flex;flex-direction:column;gap:4px;align-items:flex-end;flex:none}
+.trow .tacts .pinbtn{margin:0;white-space:nowrap}
 .wgroup{border-top:1px solid var(--ink-3)}
 .wgroup .ghead{display:flex;align-items:center;gap:8px;padding:10px 22px;cursor:pointer}
 .wgroup .ghead:hover{background:var(--ink-2)}
@@ -953,32 +969,46 @@ function linkedMaraeIds(t){ const s=new Set(); t.links.forEach(l=>{ if(l.locatio
 
 // ---- list / detail ----
 const openGroups=new Set();
-function whakapapaGroups(){ // connected components over kin links, with a root (no parents in group; earliest born) and a generation depth
-  const byId=new Map(tupuna.map(t=>[t.tupuna_id,t])); const adj=new Map(tupuna.map(t=>[t.tupuna_id,new Set()])); const parents=new Map(tupuna.map(t=>[t.tupuna_id,new Set()])); const children=new Map(tupuna.map(t=>[t.tupuna_id,new Set()]));
-  tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type!=='Tupuna'||!byId.has(l.location_ref)) return; const o=l.location_ref; adj.get(t.tupuna_id).add(o); adj.get(o).add(t.tupuna_id);
-    const r=l.relationship; if(r==='Mother'||r==='Father'){ parents.get(t.tupuna_id).add(o); children.get(o).add(t.tupuna_id); } else if(r==='Child'){ parents.get(o).add(t.tupuna_id); children.get(t.tupuna_id).add(o); } else if(r==='Grandparent'||r==='Ancestor'){ parents.get(t.tupuna_id).add(o); children.get(o).add(t.tupuna_id); } else if(r==='Grandchild'||r==='Descendant'){ parents.get(o).add(t.tupuna_id); children.get(t.tupuna_id).add(o); } }));
-  const seen=new Set(); const groups=[];
-  const yr=t=>{ const m=(t.born||'').match(/\d{4}/); return m?+m[0]:9999; };
-  tupuna.forEach(t=>{ if(seen.has(t.tupuna_id)) return; const comp=[]; const q=[t.tupuna_id]; seen.add(t.tupuna_id); while(q.length){ const id=q.shift(); comp.push(byId.get(id)); adj.get(id).forEach(n=>{ if(!seen.has(n)){ seen.add(n); q.push(n); } }); }
-    if(comp.length===1){ groups.push({single:comp[0]}); return; }
-    const roots=comp.filter(x=>![...parents.get(x.tupuna_id)].some(pid=>comp.some(c=>c.tupuna_id===pid))); const root=(roots.length?roots:comp).sort((a,b)=>yr(a)-yr(b)||a.name.localeCompare(b.name))[0];
-    const depth=new Map([[root.tupuna_id,0]]); const dq=[root.tupuna_id]; while(dq.length){ const id=dq.shift(); const d=depth.get(id); children.get(id).forEach(c=>{ if(!depth.has(c)){ depth.set(c,d+1); dq.push(c); } }); adj.get(id).forEach(n=>{ if(!depth.has(n)&&!parents.get(n).has(id)&&!children.get(n).has(id)){ depth.set(n,d); dq.push(n); } }); }
-    comp.forEach(x=>{ if(!depth.has(x.tupuna_id)) depth.set(x.tupuna_id,0); });
-    const members=comp.filter(x=>x!==root).sort((a,b)=>depth.get(a.tupuna_id)-depth.get(b.tupuna_id)||yr(a)-yr(b)||a.name.localeCompare(b.name));
-    groups.push({root,members,depth}); });
-  return groups.sort((a,b)=>(a.single?a.single:a.root).name.localeCompare((b.single?b.single:b.root).name));
-}
-function tcard(t, indent){ return `<div style="display:flex;align-items:stretch"><button class="tcard ${tupColl.has(t.tupuna_id)?'active':''}" style="flex:1;${indent?`padding-left:${22+indent*14}px`:''}" onclick="selectTupuna('${esc(t.tupuna_id)}')"><div class="name">${indent!=null&&indent>0?`<span class="gen">gen ${indent}</span>`:''}${esc(t.name)}</div><div class="sub">${esc([ [t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${(t.identities||[]).length} names`, `${(t.events||[]).length} events`, `${kinLinks(t).length} whakapapa links`].filter(Boolean).join(' · '))}</div></button><button class="pinbtn ${tupColl.has(t.tupuna_id)?'on':''}" style="align-self:center;margin-right:22px" onclick="toggleTupColl('${esc(t.tupuna_id)}')">${tupColl.has(t.tupuna_id)?'Collected':'Collect'}</button></div>`; }
+function kinGraph(){ const byId=new Map(tupuna.map(t=>[t.tupuna_id,t])); const mk=()=>new Map(tupuna.map(t=>[t.tupuna_id,new Set()])); const parents=mk(), children=mk(), spouses=mk(), grand=mk();
+  tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type!=='Tupuna'||!byId.has(l.location_ref)) return; const a=t.tupuna_id,o=l.location_ref,r=l.relationship;
+    if(r==='Mother'||r==='Father'){ parents.get(a).add(o); children.get(o).add(a); } else if(r==='Child'){ parents.get(o).add(a); children.get(a).add(o); }
+    else if(r==='Grandparent'||r==='Ancestor'){ grand.get(o).add(a); } else if(r==='Grandchild'||r==='Descendant'){ grand.get(a).add(o); }
+    else if(r==='Spouse / partner'){ spouses.get(a).add(o); spouses.get(o).add(a); } }));
+  return {byId,parents,children,spouses,grand}; }
+const yr=t=>{ const m=(t.born||'').match(/\d{4}/); return m?+m[0]:9999; };
+function treeRoots(G){ const isParentless=t=>!G.parents.get(t.tupuna_id).size&&![...G.grand.values()].some(set=>set.has(t.tupuna_id));
+  const inLaw=t=>[...G.spouses.get(t.tupuna_id)].some(sp=>!isParentless(G.byId.get(sp)));
+  const cands=tupuna.filter(t=>isParentless(t)&&!inLaw(t)).sort((a,b)=>yr(a)-yr(b)||a.name.localeCompare(b.name));
+  const roots=[], taken=new Set();
+  cands.forEach(t=>{ if(taken.has(t.tupuna_id)) return; roots.push(t); taken.add(t.tupuna_id); G.spouses.get(t.tupuna_id).forEach(sp=>taken.add(sp)); });
+  return roots; }
+function coupleKids(G,ids){ const kids=new Set(), gk=new Set(); ids.forEach(id=>{ G.children.get(id).forEach(c=>kids.add(c)); G.grand.get(id).forEach(c=>gk.add(c)); }); kids.forEach(k=>gk.delete(k)); return {kids:[...kids].map(k=>G.byId.get(k)).filter(Boolean), gk:[...gk].map(k=>G.byId.get(k)).filter(Boolean)}; }
+function descendants(G,id,seen=new Set()){ if(seen.has(id)) return seen; seen.add(id); const ids=[id,...G.spouses.get(id)]; const {kids,gk}=coupleKids(G,ids); [...kids,...gk].forEach(c=>descendants(G,c.tupuna_id,seen)); return seen; }
+function treeNode(G,t,depth,seen,viaGrand,allSeen){
+  const id=t.tupuna_id; if(seen.has(id)) return ''; seen.add(id); allSeen.add(id);
+  const spouses=[...G.spouses.get(id)].map(x=>G.byId.get(x)).filter(Boolean).filter(x=>!seen.has(x.tupuna_id)); spouses.forEach(sp=>{ seen.add(sp.tupuna_id); allSeen.add(sp.tupuna_id); });
+  const {kids,gk}=coupleKids(G,[id,...spouses.map(x=>x.tupuna_id)]);
+  const hasKids=kids.length+gk.length>0; const open=openGroups.has(id); const nDesc=descendants(G,id).size-1;
+  const row=`<div class="trow" style="padding-left:${14+depth*16}px">
+    ${hasKids?`<button class="chev ${open?'open':''}" title="${open?'Collapse':'Expand'} descendants" onclick="toggleGroup('${esc(id)}')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg></button>`:'<span class="chev none"></span>'}
+    <div class="tbody"><button class="tname ${tupColl.has(id)?'active':''}" onclick="selectTupuna('${esc(id)}')">${depth>0?`<span class="gen">gen ${depth}${viaGrand?' (via grandparent link)':''}</span>`:''}${esc(t.name)}</button>${spouses.map(sp=>`<span class="sp">+ <button class="tname ${tupColl.has(sp.tupuna_id)?'active':''}" onclick="selectTupuna('${esc(sp.tupuna_id)}')">${esc(sp.name)}</button></span>`).join('')}
+      <div class="sub">${esc([[t.born,t.died].filter(Boolean).join(' – '), t.birthplace, `${t.links.filter(l=>l.location_type!=='Tupuna').length} locations`, `${(t.identities||[]).length} names`, `${(t.events||[]).length} events`, hasKids?`${nDesc} descendant${nDesc===1?'':'s'}`:''].filter(Boolean).join(' · '))}</div></div>
+    <div class="tacts"><button class="pinbtn ${tupColl.has(id)?'on':''}" onclick="toggleTupColl('${esc(id)}')">${tupColl.has(id)?'Collected':'Collect'}</button>${hasKids?`<button class="pinbtn" title="Collect this person and all descendants" onclick="collectBranch('${esc(id)}')">+ line</button>`:''}</div></div>`;
+  const kidsHtml=open?[...kids.sort((a,b)=>yr(a)-yr(b)||a.name.localeCompare(b.name)).map(k=>treeNode(G,k,depth+1,seen,false,allSeen)), ...gk.sort((a,b)=>yr(a)-yr(b)).map(k=>treeNode(G,k,depth+2,seen,true,allSeen))].join(''):'';
+  return row+kidsHtml; }
 window.toggleGroup=function(id){ if(openGroups.has(id)) openGroups.delete(id); else openGroups.add(id); renderTupuna(); };
-window.collectGroup=function(id){ const g=whakapapaGroups().find(x=>x.root&&x.root.tupuna_id===id); if(!g) return; [g.root,...g.members].forEach(t=>tupColl.add(t.tupuna_id)); refreshTupuna(); };
+window.collectBranch=function(id){ const G=kinGraph(); descendants(G,id).forEach(x=>{ tupColl.add(x); G.spouses.get(x).forEach(sp=>tupColl.add(sp)); }); refreshTupuna(); };
+window.expandAll=function(on){ if(on){ tupuna.forEach(t=>openGroups.add(t.tupuna_id)); } else openGroups.clear(); renderTupuna(); };
 function renderTupuna(){
   const body=document.getElementById('tupunaBody');
   if(selectedTupuna){ renderTupunaDetail(body); return; }
   if(!tupuna.length){ body.innerHTML='<div class="empty"><strong>No tupuna yet.</strong>Add your first ancestor, then link them to marae, hapū, iwi or places on the map.</div>'; return; }
-  const groups=whakapapaGroups();
-  body.innerHTML = tupCollBar() + groups.map(g=>{ if(g.single) return tcard(g.single);
-    const id=g.root.tupuna_id, open=openGroups.has(id), n=g.members.length+1, gens=Math.max(...[...g.depth.values()])+1;
-    return `<div class="wgroup ${open?'open':''}"><div class="ghead" onclick="toggleGroup('${esc(id)}')"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg><div><div class="gname">${esc(g.root.name)}</div><div class="gmeta">whakapapa of ${n} · ${gens} generation${gens===1?'':'s'}${g.root.born?` · from ${esc(g.root.born)}`:''}</div></div><button class="pinbtn" style="margin:0" onclick="event.stopPropagation();collectGroup('${esc(id)}')">Collect all</button></div><div class="gbody">${tcard(g.root,0)}${g.members.map(m=>tcard(m,g.depth.get(m.tupuna_id))).join('')}</div></div>`; }).join('');
+  const G=kinGraph(); const roots=treeRoots(G); const allSeen=new Set();
+  const trees=roots.map(r=>treeNode(G,r,0,new Set(),false,allSeen)).join('');
+  // anyone not reachable when lines are fully expanded is listed on their own
+  const reach=new Set(); roots.forEach(r=>{ descendants(G,r.tupuna_id).forEach(x=>{ reach.add(x); G.spouses.get(x).forEach(sp=>reach.add(sp)); }); });
+  const orphans=tupuna.filter(t=>!reach.has(t.tupuna_id)).sort((a,b)=>a.name.localeCompare(b.name)).map(t=>treeNode(G,t,0,new Set(),false,allSeen)).join('');
+  body.innerHTML = tupCollBar() + `<div class="treebar"><span>${roots.length} line${roots.length===1?'':'s'} · ${tupuna.length} tupuna</span><span><button onclick="expandAll(true)">expand all</button> · <button onclick="expandAll(false)">collapse all</button></span></div>` + trees + orphans;
 }
 function tupCollBar(){ if(!tupColl.size) return ''; const names=[...tupColl].map(id=>tupunaById(id)).filter(Boolean); return `<div class="chipbar" style="margin:0 22px 10px;display:flex"><span style="color:var(--mist);font-size:12px">Whakapapa collection</span>${names.map(t=>`<span class="fchip" style="border-left-color:var(--kowhai)">${esc(shortName(t))}<button title="Remove" onclick="toggleTupColl('${esc(t.tupuna_id)}')">×</button></span>`).join('')}<button class="clearall" onclick="tupColl.clear();refreshTupuna()">Clear</button></div>`; }
 function refreshTupuna(){ renderTupuna(); drawTupuna(); }
