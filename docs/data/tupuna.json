@@ -1330,7 +1330,20 @@
  },
  {
   "tupuna_id": "T015",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L057",
+    "tupuna_id": "T015",
+    "location_type": "Hapū",
+    "location_ref": "Te Uri o Tai",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
+   }
+  ],
   "name": "Wiripo Te Moki",
   "other_names": "",
   "born": "",
