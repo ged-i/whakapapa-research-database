@@ -1055,6 +1055,18 @@
     "relationship": "Father",
     "notes": "",
     "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
+   },
+   {
+    "link_id": "L059",
+    "tupuna_id": "T010",
+    "location_type": "Tupuna",
+    "location_ref": "T014",
+    "location_detail": "Iriaka Te Moki",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
    }
   ],
   "name": "Matiu Wiripo",
