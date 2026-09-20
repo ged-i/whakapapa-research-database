@@ -1128,6 +1128,16 @@
   "mother": "",
   "father": "",
   "notes": "Death certificate does not hold a mother and father, but holds their hapū and iwi information.",
-  "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Mini Matiu Wiripo",
+    "source_id": "S05",
+    "date": "1949",
+    "document_url": "https://drive.google.com/file/d/1USUcURPsapkrHIVJQ3yR_q6xnOa0JcDy/view?usp=sharing",
+    "note": "As named on her son, Rihari Matiu's, death certificate"
+   }
+  ]
  }
 ]
