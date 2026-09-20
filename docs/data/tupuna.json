@@ -1047,6 +1047,21 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing",
     "note": "Born in Pawarenga"
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1989",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1r6k-elS2K2MGDfFkSjZ4L50zeDCtfYey/view?usp=sharing",
+    "note": "Intracerebral bleed from cerebral metastases"
    }
   ]
  },
