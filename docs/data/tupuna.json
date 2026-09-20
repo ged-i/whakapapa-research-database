@@ -800,7 +800,16 @@
   "father": "",
   "notes": "Limited information on Maraea Piri Paraiho. Likely transcription error for Maraea Peri Paraihe. Potentially died young giving birth to Rirena or a sibling of hers, but is recorded on marriage certificate.",
   "source": "https://drive.google.com/file/d/1Ges8k9WuA8fdioRF4nqOKeKVgMjR6Rk7/view?usp=sharing",
-  "identities": [],
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Maraea Rihari",
+    "source_id": "S05",
+    "date": "1913",
+    "document_url": "https://drive.google.com/file/d/1JFfJSGkhLX0jW-DrwFz_BVEm_eD_fzCw/view?usp=sharing",
+    "note": "As named, 'mother' informant Hira's birth certificate"
+   }
+  ],
   "events": []
  },
  {
@@ -1174,6 +1183,7 @@
     "document_url": "https://drive.google.com/file/d/1Yyh8ngP4Mh7sNhzGccMkIflWa3B69oiI/view?usp=sharing",
     "note": "As recorded on Wiripo Matiu (her son and Rihari Matiu's brother) death certificate."
    }
-  ]
+  ],
+  "events": []
  }
 ]
