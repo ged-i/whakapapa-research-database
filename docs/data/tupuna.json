@@ -1267,6 +1267,21 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
     "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1931",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died in Rotokakahi, Pawarenga",
+    "source_id": "S01",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
+    "note": ""
    }
   ]
  }
