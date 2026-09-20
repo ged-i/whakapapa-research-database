@@ -1169,7 +1169,20 @@
  },
  {
   "tupuna_id": "T012",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L056",
+    "tupuna_id": "T012",
+    "location_type": "Tupuna",
+    "location_ref": "T003",
+    "location_detail": "Taniora Rihari",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+   }
+  ],
   "name": "Raiha Taniora",
   "other_names": "",
   "born": "",
