@@ -1,8 +1,8 @@
 [
  {
   "tupuna_id": "T901",
-  "name": "Rirena Theresa Arama (nee Rihari Matiu)",
-  "other_names": "",
+  "name": "Rirena Theresa Arama",
+  "other_names": "Rirena Rihari Matiu",
   "born": "c. 1911",
   "died": "1980",
   "birthplace": "",
@@ -329,20 +329,7 @@
  },
  {
   "tupuna_id": "T003",
-  "links": [
-   {
-    "link_id": "L013",
-    "tupuna_id": "T003",
-    "location_type": "Tupuna",
-    "location_ref": "T002",
-    "location_detail": "Arama Taniora",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Child",
-    "notes": "Son",
-    "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
-   }
-  ],
+  "links": [],
   "name": "Taniora Rihari",
   "other_names": "",
   "born": "-",
