@@ -1094,6 +1094,21 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
     "note": ""
+   },
+   {
+    "event_id": "E003",
+    "type": "Residence",
+    "date": "1931",
+    "place_type": "Place",
+    "place_ref": "Rotokakahi, Pawarenga",
+    "place_detail": "",
+    "latitude": -35.336308,
+    "longitude": 173.289703,
+    "description": "",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
+    "note": ""
    }
   ]
  },
