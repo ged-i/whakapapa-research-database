@@ -1031,7 +1031,24 @@
   "mother": "Rirena Theresa Arama (nee Rihari Matiu)",
   "father": "Wiremu Arama",
   "notes": "Birth and death certificates available.",
-  "source": "https://drive.google.com/file/d/1r6k-elS2K2MGDfFkSjZ4L50zeDCtfYey/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1r6k-elS2K2MGDfFkSjZ4L50zeDCtfYey/view?usp=sharing",
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Birth",
+    "date": "1940",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Birth",
+    "source_id": "S06",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1pcyD3XyRYjAjwPGF37tk2ixpmrvwx7tc/view?usp=sharing",
+    "note": "Born in Pawarenga"
+   }
+  ]
  },
  {
   "tupuna_id": "T011",
