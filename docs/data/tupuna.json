@@ -1381,6 +1381,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
+   },
+   {
+    "link_id": "L060",
+    "tupuna_id": "T015",
+    "location_type": "Tupuna",
+    "location_ref": "T014",
+    "location_detail": "Iriaka Te Moki",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing"
    }
   ],
   "name": "Wiripo Te Moki",
