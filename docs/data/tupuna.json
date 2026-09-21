@@ -1538,7 +1538,20 @@
  },
  {
   "tupuna_id": "T017",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L069",
+    "tupuna_id": "T017",
+    "location_type": "Hapū",
+    "location_ref": "Ngāi Tāwake",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   }
+  ],
   "name": "Hongi Hika",
   "other_names": "",
   "born": "1772",
