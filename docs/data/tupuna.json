@@ -1646,6 +1646,18 @@
     "relationship": "Spouse / partner",
     "notes": "",
     "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+   },
+   {
+    "link_id": "L078",
+    "tupuna_id": "T017",
+    "location_type": "Tupuna",
+    "location_ref": "T007",
+    "location_detail": "Tura Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Grandchild",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Hongi Hika",
