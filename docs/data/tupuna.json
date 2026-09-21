@@ -1443,30 +1443,6 @@
   "tupuna_id": "T016",
   "links": [
    {
-    "link_id": "L061",
-    "tupuna_id": "T016",
-    "location_type": "Hapū",
-    "location_ref": "Te Tahawai / Ngāti Tupango",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "",
-    "source": ""
-   },
-   {
-    "link_id": "L062",
-    "tupuna_id": "T016",
-    "location_type": "Hapū",
-    "location_ref": "Tahāwai",
-    "location_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Affiliated",
-    "notes": "",
-    "source": ""
-   },
-   {
     "link_id": "L063",
     "tupuna_id": "T016",
     "location_type": "Hapū",
@@ -1483,6 +1459,18 @@
     "tupuna_id": "T016",
     "location_type": "Hapū",
     "location_ref": "Te Tahawai / Ngāti Tupango",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+   },
+   {
+    "link_id": "L062",
+    "tupuna_id": "T016",
+    "location_type": "Hapū",
+    "location_ref": "Tahāwai",
     "location_detail": "",
     "latitude": null,
     "longitude": null,
