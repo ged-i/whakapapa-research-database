@@ -1489,6 +1489,18 @@
     "relationship": "Lived",
     "notes": "",
     "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+   },
+   {
+    "link_id": "L081",
+    "tupuna_id": "T016",
+    "location_type": "Tupuna",
+    "location_ref": "T007",
+    "location_detail": "Tura Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "Named on Ani Heka's death certificate as Tura Hāre Hongi",
+    "source": "https://drive.google.com/file/d/1wRqD0kQzvg0MywWs9CoD9tRQRCnpLe0u/view?usp=sharing"
    }
   ],
   "name": "Hāre Hongi Hika",
