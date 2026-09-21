@@ -1477,6 +1477,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+   },
+   {
+    "link_id": "L064",
+    "tupuna_id": "T016",
+    "location_type": "Place",
+    "location_ref": "Te Wainui",
+    "location_detail": "",
+    "latitude": -35.015939,
+    "longitude": 173.854201,
+    "relationship": "Lived",
+    "notes": "",
+    "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
    }
   ],
   "name": "Hāre Hongi Hika",
@@ -1522,22 +1534,6 @@
     "note": ""
    }
   ],
-  "events": [
-   {
-    "event_id": "E001",
-    "type": "Residence",
-    "date": "1870",
-    "place_type": "Place",
-    "place_ref": "Te Wainui",
-    "place_detail": "",
-    "latitude": -35.01797706,
-    "longitude": 173.8512268,
-    "description": "",
-    "source_id": "S01",
-    "confidence": "stated",
-    "document_url": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika",
-    "note": "Primary residence, but had interests in Whangaroa too."
-   }
-  ]
+  "events": []
  }
 ]
