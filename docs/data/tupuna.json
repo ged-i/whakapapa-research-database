@@ -440,18 +440,6 @@
     "linz_title": "",
     "shares": "0.333",
     "source_id": "S05"
-   },
-   {
-    "link_id": "L082",
-    "tupuna_id": "T004",
-    "location_type": "Tupuna",
-    "location_ref": "T001",
-    "location_detail": "Wiremu Arama",
-    "latitude": null,
-    "longitude": null,
-    "relationship": "Child",
-    "notes": "",
-    "source": ""
    }
   ],
   "name": "Erihapeti Arama (nee Wiremu Tangata)",
