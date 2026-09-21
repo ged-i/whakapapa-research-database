@@ -1672,7 +1672,20 @@
  },
  {
   "tupuna_id": "T018",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L079",
+    "tupuna_id": "T018",
+    "location_type": "Tupuna",
+    "location_ref": "T007",
+    "location_detail": "Tura Wiremu Tangata",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Grandchild",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Turikatuku",
   "other_names": "",
   "born": "1700s",
