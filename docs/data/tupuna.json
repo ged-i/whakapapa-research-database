@@ -1574,6 +1574,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   },
+   {
+    "link_id": "L072",
+    "tupuna_id": "T017",
+    "location_type": "Hapū",
+    "location_ref": "Ngāti Rēhia",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
    }
   ],
   "name": "Hongi Hika",
