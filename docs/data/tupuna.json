@@ -1622,6 +1622,18 @@
     "relationship": "Father",
     "notes": "",
     "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   },
+   {
+    "link_id": "L076",
+    "tupuna_id": "T017",
+    "location_type": "Tupuna",
+    "location_ref": "T020",
+    "location_detail": "Tuhikura",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
    }
   ],
   "name": "Hongi Hika",
