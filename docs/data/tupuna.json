@@ -1634,6 +1634,18 @@
     "relationship": "Mother",
     "notes": "",
     "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   },
+   {
+    "link_id": "L077",
+    "tupuna_id": "T017",
+    "location_type": "Tupuna",
+    "location_ref": "T018",
+    "location_detail": "Turikatuku",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
    }
   ],
   "name": "Hongi Hika",
