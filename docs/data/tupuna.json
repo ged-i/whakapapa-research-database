@@ -1684,6 +1684,18 @@
     "relationship": "Grandchild",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L080",
+    "tupuna_id": "T018",
+    "location_type": "Tupuna",
+    "location_ref": "T016",
+    "location_detail": "Hāre Hongi Hika",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
    }
   ],
   "name": "Turikatuku",
