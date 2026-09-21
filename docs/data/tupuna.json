@@ -1577,7 +1577,20 @@
  },
  {
   "tupuna_id": "T020",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L065",
+    "tupuna_id": "T020",
+    "location_type": "Hapū",
+    "location_ref": "Ngāti Rēhia",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   }
+  ],
   "name": "Tuhikura",
   "other_names": "",
   "born": "-",
