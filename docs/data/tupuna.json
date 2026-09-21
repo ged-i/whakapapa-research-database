@@ -1586,6 +1586,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   },
+   {
+    "link_id": "L073",
+    "tupuna_id": "T017",
+    "location_type": "Place",
+    "location_ref": "Kōroripo Pā",
+    "location_detail": "",
+    "latitude": -35.218075,
+    "longitude": 173.965888,
+    "relationship": "Other",
+    "notes": "",
+    "source": "https://tohuwhenua.nz/regions/te-tai-tokerau-northland/kororipo-heritage-park/"
    }
   ],
   "name": "Hongi Hika",
