@@ -1450,6 +1450,16 @@
   "mother": "Turikatuku",
   "father": "Hongi Hika",
   "notes": "",
-  "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+  "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Ruinga",
+    "source_id": "S05",
+    "date": "",
+    "document_url": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika",
+    "note": ""
+   }
+  ]
  }
 ]
