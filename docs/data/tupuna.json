@@ -1441,7 +1441,20 @@
  },
  {
   "tupuna_id": "T016",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L061",
+    "tupuna_id": "T016",
+    "location_type": "Hapū",
+    "location_ref": "Te Tahawai / Ngāti Tupango",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
+   }
+  ],
   "name": "Hāre Hongi Hika",
   "other_names": "",
   "born": "1813",
