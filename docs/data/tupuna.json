@@ -1564,7 +1564,20 @@
  },
  {
   "tupuna_id": "T019",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L066",
+    "tupuna_id": "T019",
+    "location_type": "Hapū",
+    "location_ref": "Ngāti Rāhiri",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   }
+  ],
   "name": "Hōtete",
   "other_names": "",
   "born": "-",
