@@ -1465,6 +1465,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": ""
+   },
+   {
+    "link_id": "L063",
+    "tupuna_id": "T016",
+    "location_type": "Hapū",
+    "location_ref": "Tahaawai",
+    "location_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Affiliated",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Hāre Hongi Hika",
