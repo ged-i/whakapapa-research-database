@@ -1610,6 +1610,18 @@
     "relationship": "Child",
     "notes": "",
     "source": "https://nzhistory.govt.nz/politics/declaration/signatory/h%C4%81re-hongi-hika"
+   },
+   {
+    "link_id": "L075",
+    "tupuna_id": "T017",
+    "location_type": "Tupuna",
+    "location_ref": "T019",
+    "location_detail": "Hōtete",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "",
+    "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
    }
   ],
   "name": "Hongi Hika",
