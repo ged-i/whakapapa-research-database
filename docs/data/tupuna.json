@@ -591,6 +591,18 @@
     "linz_title": "497788 — Native Land Act Order (1899-11-09)",
     "shares": "0.009",
     "source_id": "S06"
+   },
+   {
+    "link_id": "L083",
+    "tupuna_id": "T005",
+    "location_type": "Tupuna",
+    "location_ref": "T001",
+    "location_detail": "Wiremu Arama",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "False succession.",
+    "source": ""
    }
   ],
   "name": "Betty Hori",
