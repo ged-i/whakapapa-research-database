@@ -1278,7 +1278,20 @@
  },
  {
   "tupuna_id": "T012",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L082",
+    "tupuna_id": "T012",
+    "location_type": "Tupuna",
+    "location_ref": "T003",
+    "location_detail": "Taniora Rihari",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "Erimana Taniora",
+    "source": ""
+   }
+  ],
   "name": "Rihari Te Kuri",
   "other_names": "",
   "born": "",
@@ -1339,7 +1352,9 @@
   "mother": "",
   "father": "",
   "notes": "Transcription error \"Riha\" is resolved on Rihari Taniora's marriage certificate (Arama Taniora's brother) as mother, \"Raiha Taniora\". \n\nUnconfirmed, Raiha Rakena or Kaumatua. Facebook page Pawarenga, Te Uri o Tai (Official page).",
-  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
+  "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
+  "identities": [],
+  "events": []
  },
  {
   "tupuna_id": "T014",
@@ -1382,7 +1397,8 @@
     "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
     "note": "As stated on Matiu Wiripo's (her son's) death certificate."
    }
-  ]
+  ],
+  "identities": []
  },
  {
   "tupuna_id": "T015",
@@ -1437,7 +1453,8 @@
     "document_url": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
     "note": "As stated on Matiu Wiripo's (her son's) death certificate."
    }
-  ]
+  ],
+  "identities": []
  },
  {
   "tupuna_id": "T016",
@@ -1680,7 +1697,9 @@
   "mother": "Tuhikura",
   "father": "Te Hōtete",
   "notes": "",
-  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika",
+  "identities": [],
+  "events": []
  },
  {
   "tupuna_id": "T018",
@@ -1718,7 +1737,9 @@
   "mother": "",
   "father": "Mutunga II",
   "notes": "",
-  "source": "https://teara.govt.nz/en/biographies/1t114/turikatuku"
+  "source": "https://teara.govt.nz/en/biographies/1t114/turikatuku",
+  "identities": [],
+  "events": []
  },
  {
   "tupuna_id": "T019",
@@ -1768,7 +1789,9 @@
   "mother": "",
   "father": "",
   "notes": "",
-  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika",
+  "identities": [],
+  "events": []
  },
  {
   "tupuna_id": "T020",
@@ -1794,6 +1817,8 @@
   "mother": "",
   "father": "",
   "notes": "",
-  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+  "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika",
+  "identities": [],
+  "events": []
  }
 ]
