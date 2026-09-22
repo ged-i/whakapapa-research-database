@@ -1819,6 +1819,18 @@
     "relationship": "Affiliated",
     "notes": "",
     "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika"
+   },
+   {
+    "link_id": "L084",
+    "tupuna_id": "T020",
+    "location_type": "Tupuna",
+    "location_ref": "T019",
+    "location_detail": "Hōtete",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": ""
    }
   ],
   "name": "Tuhikura",
