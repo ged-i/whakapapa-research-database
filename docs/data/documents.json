@@ -5,14 +5,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1279339)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A3B1B1B — list of owners as at 14 Aug 1940 (Matiu Wiripo and three Rihari Matiu children) with schedule of ownership orders 1969–1990",
+  "blocks_recorded": [
+   "Rotokakahi A3B1B1B"
+  ],
+  "block_ids": [
+   "30211"
+  ],
+  "record_date": "1940-08-14",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "KT 6/32-13; KT 6/315; 2/298; AT 12/360; RW 3/213",
   "pages": 9,
   "page_range": "",
   "file_name": "00787710_01279339_0001_0009_LHO_Document-1279339.pdf",
@@ -20,10 +24,431 @@
   "file_size": 1626675,
   "url": "https://drive.google.com/file/d/1XVSEXmu9IAiqin57HCFoF2meZ00kZTv8/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Nine pages (area 57:3:36 = 23.4363 ha; 63.636 shares). The 1940 list has just four owners: MATIU WIRIPO 36.363 (4/7) and Rirena Arama @ Rirena Rihari Matiu, \"Tame Rihari Matiu @ Manuera Rihari Matiu\" and Whina Rihari Matiu, 9.091 each (1/7) — the block came down through Matiu Wiripo, with Rihari Matiu's three children already holding their father's share. Then: (a) 4 Nov 1969 Rirena vested her 9.091 in her sons Makura (4.546) and Charlie Arama (4.545); (b) 3 Mar 1970 Matiu Wiripo's 36.363 was divided among his lines (S.V.O., KT 6/32-13): Wiremu Matiu and Reta Waipouri (2.577 each), the seven \"Te Okena Matiu\" children (Topia, Takuira, Pataraki or Pataraki Atama, Manuera, Iwa, Mane…), Te Okena and Hone Piriparaihe (Ruhia's line), the four Rihari Matiu children Rirena, Rata, Hira and HARE (1.299 each), the Maihi/Rurawhe line, the Wikitaringi Taitimu line, the Hapakuku, Wharewaka and Wi Hone lines; (c) 9 Nov 1970 WHINA's 9.091 went solely to \"Rirena Rihari Matiu or Rirena Arama of Pawarenga\" (KT 6/315); (d) 20 Oct 1981 Rirena's 10.390 to her EIGHT children — Lucy Nicholas, Michael, Makura, Graham, Andrew, Ken Arama, Hannah Wano and Charlie Arama, 1.299 each; (e) 1990 Makura's share to Michael Arama and Charlie's to Hannah Wano. Also Arapeta Peri Paraihe (list 15, 1.731) to the Public Trustee, 1982. The 1970 succession is the Court's own statement that the Te Okena (Atama) Matiu children, Ruhia's Piriparaihe sons and Rihari Matiu's children were all Matiu Wiripo's descendants.",
+  "names": [
+   {
+    "name": "Matiu Wiripo",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "36.363",
+    "tupuna_id": "T010",
+    "confidence": "stated",
+    "note": "list no. 1 (1940); deceased — S.V.O. 3.3.1970 (KT 6/32-13) → nos 7–26"
+   },
+   {
+    "name": "Rirena Arama @ Rirena Rihari Matiu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "list no. 2 (1940); by order Sec 213/53 of 4.11.69 (2/298) → no. 5 Makura Arama 4.546, no. 6 Charlie Arama 4.545"
+   },
+   {
+    "name": "Tame Rihari Matiu @ Manuera Rihari Matiu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "list no. 3 (1940) — not struck through on this copy"
+   },
+   {
+    "name": "Whina Rihari Matiu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": "list no. 4 (1940); S.V.O. 9.11.1970 (KT 6/315) → no. 35 Rirena Rihari Matiu or Rirena Arama of Pawarenga, f.a., solely"
+   },
+   {
+    "name": "Makura Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4.546",
+    "tupuna_id": "T065",
+    "confidence": "stated",
+    "note": "no. 5, 1969; → no. 43 (1981, 1.299 more); deceased → Michael Arama (1990)"
+   },
+   {
+    "name": "Charlie Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4.545",
+    "tupuna_id": "T067",
+    "confidence": "stated",
+    "note": "no. 6, 1969; → no. 48 (1981); deceased → Hannah Wano (1990)"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".072 = 2.577",
+    "tupuna_id": "T141",
+    "confidence": "stated",
+    "note": "no. 7, from Matiu Wiripo 1970"
+   },
+   {
+    "name": "Reta Waipouri",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": ".071 = 2.577",
+    "tupuna_id": "T142",
+    "confidence": "stated",
+    "note": "no. 8"
+   },
+   {
+    "name": "Topia Te Okena Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".024 = .866",
+    "tupuna_id": "T052",
+    "confidence": "stated",
+    "note": "no. 9"
+   },
+   {
+    "name": "Takuira Te Okena Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".024 = .866",
+    "tupuna_id": "T051",
+    "confidence": "stated",
+    "note": "no. 10"
+   },
+   {
+    "name": "Pataraki Te Okena or Pataraki Atama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".024 = .866",
+    "tupuna_id": "T053",
+    "confidence": "stated",
+    "note": "no. 11 — both names written"
+   },
+   {
+    "name": "Manuera Te Okena Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".024 = .866",
+    "tupuna_id": "T054",
+    "confidence": "stated",
+    "note": "no. 12, struck → 60"
+   },
+   {
+    "name": "Iwa Te Okena Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".024 = .866",
+    "tupuna_id": "T055",
+    "confidence": "stated",
+    "note": "no. 13, struck; \"whanau trust\" annotation"
+   },
+   {
+    "name": "Mane Te Okena Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".023 = .866",
+    "tupuna_id": "T050",
+    "confidence": "stated",
+    "note": "no. 14"
+   },
+   {
+    "name": "Te Okena Piriparaihe",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".048 = 1.731",
+    "tupuna_id": "T028",
+    "confidence": "stated",
+    "note": "no. 16 (a struck no. 15 \"… Piriparaihe\" precedes) — Okena Peri Paraihe's line"
+   },
+   {
+    "name": "Hone Piriparaihe",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".048 = 1.732",
+    "tupuna_id": "T027",
+    "confidence": "stated",
+    "note": "no. 17"
+   },
+   {
+    "name": "Rirena Rihari Matiu or Rirena Arama",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".034 = 1.299",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "no. 18, struck → 35"
+   },
+   {
+    "name": "Rata Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "T063",
+    "confidence": "stated",
+    "note": "no. 19, struck"
+   },
+   {
+    "name": "Hira Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "T062",
+    "confidence": "stated",
+    "note": "no. 20"
+   },
+   {
+    "name": "Hare Rihari Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "T140",
+    "confidence": "stated",
+    "note": "no. 21"
+   },
+   {
+    "name": "Erina Rurawhe (Rudolf)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22, struck — the Paihia 1D1E2 \"Erina Mihipa Maihi or Erina Rurawhe\" line"
+   },
+   {
+    "name": "Matiu Maihi",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 23–24 (Maihi), struck"
+   },
+   {
+    "name": "Hone Wikitaringi Taitimu",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".029 = 1.039",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27, struck → 60"
+   },
+   {
+    "name": "Hamiota Cassidy",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".028 = 1.039",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28, struck → 59"
+   },
+   {
+    "name": "Ripeka Brass",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.039",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29"
+   },
+   {
+    "name": "Ria Wikitaringi Taitimu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.039",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30, struck → 70"
+   },
+   {
+    "name": "Peru Ratana Hapakuku",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".036 = 1.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31"
+   },
+   {
+    "name": "Ira Kapua Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32, struck → 39 (Thomas Clifton Proctor, 1975)"
+   },
+   {
+    "name": "Makene Wi Hone",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33, struck → 40 (Thomas Clifton Proctor, 1975)"
+   },
+   {
+    "name": "Pahu Ratana Hapakuku",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34, struck → 37"
+   },
+   {
+    "name": "Rirena Rihari Matiu or Rirena Arama of Pawarenga",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "9.091 (total 10.390)",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "no. 35, sole successor to Whina Rihari Matiu, 9.11.70; deceased — AT 12/360, 78A/67, 20.10.81 → nos 41–48"
+   },
+   {
+    "name": "Mabel Marsh",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".866",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36, sole successor to Matiu Maihi (no. 24), 1974"
+   },
+   {
+    "name": "Thomas Clifton Proctor",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.299 ×3 (+ from Erina Rurawhe)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 37–40, 1975–76"
+   },
+   {
+    "name": "Lucy Nicholas",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1.298",
+    "tupuna_id": "T064",
+    "confidence": "stated",
+    "note": "no. 41, 1981"
+   },
+   {
+    "name": "Michael Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299 (5.845 total after 1990)",
+    "tupuna_id": "T143",
+    "confidence": "stated",
+    "note": "no. 42; took Makura's 4.546 (order 15.8.90?)"
+   },
+   {
+    "name": "Makura Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299",
+    "tupuna_id": "T065",
+    "confidence": "stated",
+    "note": "no. 43, struck → 66"
+   },
+   {
+    "name": "Graham Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299",
+    "tupuna_id": "T144",
+    "confidence": "stated",
+    "note": "no. 44"
+   },
+   {
+    "name": "Andrew Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299",
+    "tupuna_id": "T145",
+    "confidence": "stated",
+    "note": "no. 45"
+   },
+   {
+    "name": "Ken Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299",
+    "tupuna_id": "T146",
+    "confidence": "stated",
+    "note": "no. 46"
+   },
+   {
+    "name": "Hannah Wano",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1.299 (6.xxx total after 1990)",
+    "tupuna_id": "T066",
+    "confidence": "stated",
+    "note": "no. 47; took Charlie's 4.545 (order 15.12.90?)"
+   },
+   {
+    "name": "Charlie Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1.299",
+    "tupuna_id": "T067",
+    "confidence": "stated",
+    "note": "no. 48"
+   },
+   {
+    "name": "Arapeta Peri Paraihe shown as Arapeta Piriparaihe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.731",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "list no. 15; RW 3/213; order 81/67; 21.7.(82) → no. 49 Public Trustee as administrator"
+   }
+  ],
+  "notes": "Pages 4–9 (further 1970s–90s entries) only partly read. Several share figures on page 1 are faint."
  },
  {
   "document_id": "PW-1491535",
@@ -31,10 +456,27 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1491535)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A — succession register 1889–1896: Wiremu Paraihe and Mereana Paraihe to Peri Paraihe, Hira Amuketi and Mereana Pirini (16 Mar 1896)",
+  "blocks_recorded": [
+   "Rotokakahi A"
+  ],
+  "block_ids": [
+   "28396",
+   "30176",
+   "30211",
+   "30221",
+   "30225",
+   "30242",
+   "30299",
+   "30344",
+   "30352",
+   "30357",
+   "30396",
+   "30549",
+   "30562",
+   "30563"
+  ],
+  "record_date": "1889–1896",
   "effective_date": "",
   "court": "",
   "judge": "",
@@ -46,10 +488,241 @@
   "file_size": 955070,
   "url": "https://drive.google.com/file/d/1QrxE1dPIVos3FZbjrgsZEAYDPKh0u5dl/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Four register pages for the parent block Rotokakahi A, successions 1889–1896. Page 3 carries the earliest Paraihe record in this collection: WIREMU PARAIHE (d. 19 Dec 1891) and MEREANA PARAIHE, each succeeded on 16 March 1896 by Peri Paraihe (m), Hira Amuketi (f) and Mereana Pirini (f), one third each — the same three who took Hone Paraihe's Whakakoro F4 interest in 1914 (Hira by then dead and represented by her Amuketi children). This confirms Hira Amuketi as Peri Paraihe's sister and adds two more Paraihe (Wiremu and Mereana) who died before 1896 and whose relationship — sibling or parent — the register does not state. Also the Tipene (Hone Tana Papahia), Rikihana, Paraone, Hokopu and other families of Rotokakahi A.",
+  "names": [
+   {
+    "name": "Wepiha Peretahi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.1: (14.10.88) 2.8.89 → Hapeha Peretahi m, Raiha Herepete f, Hana Maka f, Puhipi te Ua m"
+   },
+   {
+    "name": "Hoki te Matarena",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.1: → Erana Hoki, Hipirona te Tetaha f 15"
+   },
+   {
+    "name": "Hone Tana Papahia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (23.6.93?) 5.10.93 → Ihapera Riwhi, Kahu Tipene, Mihi Tipene, Meri Tipene, Hone Tipene m 18, Peri Tipene m 16, Karena Tipene m 9, Wene Ruki m 6, Hera Tipene f 8 — the Tipene family also on Whakakoro F4"
+   },
+   {
+    "name": "Mataika",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (1894) 6.2.95 → Hira, Matiu, Hemi, Ina Mataika, 1/4 each"
+   },
+   {
+    "name": "Heri Harimana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (9.2.95) 7.2.95 → Hone, Hori Harimana, Annie Watkins, Raiha Rikihana"
+   },
+   {
+    "name": "Popata Kohimako alias Kapu alias Popata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (27.9.91) 8.2.95 → Te Ngawe, Puhi Kohimako, Aperahama Erikena"
+   },
+   {
+    "name": "Ngaurupa Mataraua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (20.10.90) 24.5.96 → Rai m"
+   },
+   {
+    "name": "Hare Paora alias Matiu Paora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.2: (8.9.92) 15.5.96 → Paurii(?) m 19, Wiremu Kaiana m 13; trustee …"
+   },
+   {
+    "name": "Hemi Hokopu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (1892) 15.5.96 → Ka te Ua Hemi Hokopu, Hera Hemi Hokopu, Moawhaka Hemi Hokopu, 1/3 each"
+   },
+   {
+    "name": "Hapai Paiha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (8.9.89) → Ripeka Puhipi f 8; trustee Eruera Paiha"
+   },
+   {
+    "name": "Ngaiwa Ngataierua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (1896) → Amuka Ngataierua, Ngarama Ngataierua 1/2 each"
+   },
+   {
+    "name": "Hare Uea",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (10.5.91) 16.3.96 → Maata Hohua f 1/2, Miriama Panehio f 1/2"
+   },
+   {
+    "name": "Wiremu Paraihe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T138",
+    "confidence": "stated",
+    "note": "p.3: died 19.12.91; order 16.3.96 (ditto) → Peri Paraihe m 1/3, Hira Amuketi f 1/3, Mereana Pirini f 1/3"
+   },
+   {
+    "name": "Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3 (×2)",
+    "tupuna_id": "T021",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hira Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/3 (×2)",
+    "tupuna_id": "T135",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mereana Pirini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/3 (×2)",
+    "tupuna_id": "T035",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mereana Paraihe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T139",
+    "confidence": "stated",
+    "note": "p.3: order 16.3.96 (ditto) → \"do. Equally\" — the same three successors"
+   },
+   {
+    "name": "Hera Rikihana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (14.8.89) 18.5.96 → Raiha Timoti f 13; trustee Kahu …"
+   },
+   {
+    "name": "Rokena Paraone",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (1.12.86) 19.5.96 → Wiremu, Meti, Eruna, Mereana, Mihiwira Rokena"
+   },
+   {
+    "name": "Mita Hana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (23.8.87) 8.8.96 → Peata Pereha f"
+   },
+   {
+    "name": "Hemi Rui Makutu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: (10.8.93?) 3.9.96 → Matiu Hemi Rui Makutu, Mepi Hemi Rui Makutu, equally"
+   },
+   {
+    "name": "Wiremu Kingi Parera",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.4: (1891) 27.11.96 → Carry Parera f 17, Riuhi(?) Parera m 15, 1/2 each"
+   },
+   {
+    "name": "Wirihana Paraone alias Mei Paraone",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.4: (7.9.93) 28.11.96 → Hone Paraone m"
+   }
+  ],
+  "notes": "Whether Wiremu and Mereana Paraihe are siblings or parents of Peri needs the 1896 minute (Rotokakahi A, 16.3.96). Entered provisionally as Hone Paraihe's children."
  },
  {
   "document_id": "PW-1491567",
@@ -57,14 +730,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1491567)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A3B1B1B — succession order schedule: Peri Paraihe (1936), Ria Hone Wharewaka (1940) and the exchange orders of 14 Aug 1940 consolidating Peri Paraihe's interest in Rirena, Tame and Whina Rihari Matiu",
+  "blocks_recorded": [
+   "Rotokakahi A3B1B1B"
+  ],
+  "block_ids": [
+   "30211"
+  ],
+  "record_date": "1936–1940",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "HK 15/261; HK 10A/181; HK 17/294-5; HK 17/296-7",
   "pages": 1,
   "page_range": "",
   "file_name": "00991996_01491567_0001_0001_LHO_Document-1491567.pdf",
@@ -72,10 +749,181 @@
   "file_size": 158142,
   "url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Form 16 schedule for Rotokakahi A3B1B1B. (1) Peri Paraihe alias Kaperiere Paraihe (d. 1929): the same nine-way succession of 25 Sep 1936 as in Whakakoro F4 and Oturu A, with Rirena Arama trustee for Whina and Ria Hone Wharewaka trustee for the Okena Peri children. (2) Ria Hone Wharewaka (d. by 1940): her fifth to Wati Ratahi Topia, Erina, Rauriti, Ani and Ihaka Hone Wharewaka. (3) Two EXCHANGE ORDERS of 14 Aug 1940 (HK 17/294-5 and 296-7) by which Arapeta and Hone Peri Paraihe, the three Okena Peri children and Ria's five successors all gave up their Rotokakahi A3B1B1B shares to Rirena, Tame (Manuera) and Whina Rihari Matiu — so that by the 14 Aug 1940 list (doc 1279339) Rihari Matiu's three children held the whole of Peri Paraihe's 3/7 of the block (9.091 each) beside Matiu Wiripo's 4/7. This is the mechanism by which the Rihari Matiu line consolidated Peri Paraihe's Rotokakahi interest — and, presumably, gave up shares elsewhere in return.",
+  "names": [
+   {
+    "name": "Kaperiere Paraihe @ Peri Paraihe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T021",
+    "confidence": "stated",
+    "note": "HK 15/261, 1929; 25.9.36 → Rirena Arama f 1/15, Tame Rihari Matiu m 1/15, Whina f 18 1/15, Ria Hone Wharewaka (d) f 1/5, Hone Peri Paraihe m 1/5, Rawiri Okena Peri m 15 1/15, Ngarimu f 9 1/15, Hone Okena Peri m 13 1/15, Arapeta Peri Paraihe m 1/5; \"Tr for No 3 Rirena Arama f; 6, 7, 8 Ria Hone Wharewaka f\""
+   },
+   {
+    "name": "Ria Hone Wharewaka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T024",
+    "confidence": "stated",
+    "note": "HK 10A/181; 13.8.40 → Wati Ratahi Topia m, Erina f (\"1947\"), Rauriti Hone Wharewaka m, Ani Hone Wharewaka f, Ihaka Hone Wharewaka m (\"1952\") — 1/5 each of her 1/5"
+   },
+   {
+    "name": "Exchange order HK 17/294-5, 14.8.40",
+    "role": "Other",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Arapeta Peri Paraihe 1/5, Hone Peri Paraihe 1/5, Rawiri Okena Peri 1/15, Ngarimu 1/15, Hone Okena Peri 1/15 (= 8/15) exchanged TO Rirena Arama f, Tame Rihari Matiu m, Whina f — 8/45 each"
+   },
+   {
+    "name": "Exchange order HK 17/296-7, 14.8.40",
+    "role": "Other",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Wati Ratahi Topia, Erina, Rauriti Hone Wharewaka, Ani Hone Wharewaka, Ihaka Hone Wharewaka (Ria's 1/5) exchanged TO Rirena Rihari Matiu f, Manuera (Tame) m, Whina f — 1/15 each"
+   },
+   {
+    "name": "Rirena Arama",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/15 + 8/45 + 1/15 = 1/3 of Peri Paraihe's interest (9.091)",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "written \"Rirena Arama\" (1936, first exchange) and \"Rirena Rihari Matiu\" (second exchange)"
+   },
+   {
+    "name": "Tame Rihari Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3 of Peri Paraihe's interest (9.091)",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "written \"Tame Rihari Matiu\" and \"Manuera\""
+   },
+   {
+    "name": "Whina Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "18 (1936)",
+    "shares": "1/3 of Peri Paraihe's interest (9.091)",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rauriti Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T043",
+    "confidence": "stated",
+    "note": "read \"Ramuti\" on the Whakakoro schedule; \"Rauriti\" here"
+   },
+   {
+    "name": "Wati Ratahi Topia",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T041",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Erina Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T042",
+    "confidence": "stated",
+    "note": "\"1947\" beside the name"
+   },
+   {
+    "name": "Ani Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T044",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ihaka Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T045",
+    "confidence": "stated",
+    "note": "\"1952\" beside the name"
+   },
+   {
+    "name": "Arapeta Peri Paraihe",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "1/5 exchanged away 1940",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hone Peri Paraihe",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "1/5 exchanged away 1940",
+    "tupuna_id": "T027",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rawiri Okena Peri",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "T031",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ngarimu Okena Peri",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "T032",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hone Okena Peri",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "T033",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
+  "notes": "\"Rauriti\" corrects the earlier reading \"Ramuti\" of the fourth Wharewaka successor. The exchange counterpart blocks are not named on this page."
  },
  {
   "document_id": "PW-1491571",
@@ -83,10 +931,17 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1491571)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A No 3B — succession register page: Ringori Ritete (1910) and Pirini (Wiripo) (1910)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1910",
   "effective_date": "",
   "court": "",
   "judge": "",
@@ -98,9 +953,60 @@
   "file_size": 114264,
   "url": "https://drive.google.com/file/d/1o7WNlWNbKhRLfqponESHLz-oQLrYdHD5/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Register page for Rotokakahi A No 3B recording the two Opononi orders of May 1910 (docs 1509333 and 1509327): Ringori Ritete alias Ringori Ritete Piriti (d. 22.1.07) to Erana Matiu Kapa, and Pirini (Wiripo) (d. 24.11.07) to Matiu Wiripo 1/3, Hohepa Riki 1/3 and four others 1/12. Footer: \"Rotokakahi A No 3B No 1A\" (the later partition).",
+  "names": [
+   {
+    "name": "Ringori Ritete alias Ringori Ritete Piriti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(22.1.07); 4.5.10 → Erana Matiu Kapa f"
+   },
+   {
+    "name": "Erana Matiu Kapa",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Pirini (Wiripo)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T046",
+    "confidence": "stated",
+    "note": "(24.11.07); 6.5.10 → Matiu Wiripo m 1/3, Hohepa Riki m 1/3, Rena Waru f 1/12, Ritete Waipouri m 1/12, Ewa Tahi f 1/12, Tamati Waipouri m 1/12"
+   },
+   {
+    "name": "Matiu Wiripo",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T010",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hohepa Riki",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T137",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -109,10 +1015,26 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1491593)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A No 3 — succession register 1896–1906: Amuketi Himiona succeeds Te Hau Haremea (1905); Hira Amuketi (1906)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3"
+  ],
+  "block_ids": [
+   "28396",
+   "30176",
+   "30211",
+   "30225",
+   "30242",
+   "30299",
+   "30344",
+   "30352",
+   "30357",
+   "30396",
+   "30549",
+   "30562",
+   "30563"
+  ],
+  "record_date": "1896–1906",
   "effective_date": "",
   "court": "",
   "judge": "",
@@ -124,10 +1046,121 @@
   "file_size": 242920,
   "url": "https://drive.google.com/file/d/1jzrDxk606XRVzrx3JZqeqDLVb7tJEBoc/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Register page (MLC 16A schedule) for Rotokakahi A No 3, successions 1896–1906, ending with the Hira Amuketi succession of 4 Oct 1906. Adds that AMUKETI HIMIONA (trustee for Hira's children) was himself sole successor in 1905 to \"Te Hau Haremea\" (d. 5.4.05) in this block, and that Anaru Ngawaka (later successor to Ani Amuketi) came in through Iehu Ngawaka (d. 1900) — the Hapakuku, Hone Heke, Koha, Reihana, Ngawaka and Kanara families being co-owners of the Amuketi whānau in Rotokakahi A3.",
+  "names": [
+   {
+    "name": "Henare Kanara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(1889); 23.3.97 → Hone Hiri m 17 (\"… Kanara …\" annotation)"
+   },
+   {
+    "name": "Kuhaia Hiri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(1889); 23.3.97 → Raiha Kanara …"
+   },
+   {
+    "name": "Raiha Kanara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "27.11.96 → Carry Kanara m 17 1/2, Riuhi Kanara m 15 1/2; annotated \"this order was made for Rotokakahi A but … not included in partition orders 1893\""
+   },
+   {
+    "name": "Yuia Hapakuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(6.7.1900); 4.3.03 → Himi Hapakuku m 1/5, Okena Hapakuku m 1/5, Wikitera Hapakuku m 1/5, Mozawate Koha f 1/15, Rire te Koha m 15 1/15, Kahiti te Koha m 10 1/15, Peka Hone Heke f 15 1/10, Wiha Hone Heke f 10 1/10; trustees Mereana Rihihana for nos 5–6, Himi Hapakuku for nos 7–8"
+   },
+   {
+    "name": "Amiria Reihana (A3B)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(10.4.01); 5.3.03 → Amiria te Awa f 1/2, Peka Hone Heke f 15 1/4, Wiha Hone Heke f 10 1/4; trustee Himi Hapakuku"
+   },
+   {
+    "name": "Iehu Ngawaka (A3B)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(11.3.1900); 4.3.03 → Anaru Ngawaka m, Parore Ngawaka m"
+   },
+   {
+    "name": "Anaru Ngawaka",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "the Anaru Ngawaka who later succeeded to Ani Proctor alias Ani Amuketi (1951) and Akinihi Iehu Timoti Puhipi (1956) in Whakakoro F4"
+   },
+   {
+    "name": "Rengi Paparangi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(1901); 9.4.04 → Atama Paparangi"
+   },
+   {
+    "name": "Te Hau Haremea",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "(5.4.05); 4.7.05 → Amuketi Himiona — reading of the deceased's name uncertain"
+   },
+   {
+    "name": "Amuketi Himiona",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T136",
+    "confidence": "stated",
+    "note": "sole successor to Te Hau Haremea, 4 July 1905 — an owner in Rotokakahi A No 3 in his own right"
+   },
+   {
+    "name": "Hira Amuketi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T135",
+    "confidence": "stated",
+    "note": "(15.7.98); 4.10.06 → Hamahona Amuketi m 20, Ani Amuketi f 18, Mereana Amuketi f 15, Rirena Amuketi f 12, Pio Amuketi m 10, equally; trustee Amuketi Himiona"
+   }
+  ],
+  "notes": "Several readings uncertain (small faint hand)."
  },
  {
   "document_id": "PW-1491679",
@@ -135,14 +1168,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Rotokakahi",
-  "title": "List of owners — Rotokakahi (Pātaka Whenua doc 1491679)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Rotokakahi A3B1B1B — typed schedule of ownership orders: Kaperiere Paraihe's 27.273 shares (1936) and the 1940 exchange orders, in figures",
+  "blocks_recorded": [
+   "Rotokakahi A3B1B1B"
+  ],
+  "block_ids": [
+   "30211"
+  ],
+  "record_date": "1936–1940",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "HK 15/261; HK 10A/181; HK 17/294-5; HK 17/296-7",
   "pages": 2,
   "page_range": "",
   "file_name": "00992108_01491679_0001_0002_LHO_Document-1491679 (1).pdf",
@@ -150,10 +1187,211 @@
   "file_size": 381690,
   "url": "https://drive.google.com/file/d/10plaP_ZEF5YnDf9sDy1FXTunO8he1xV4/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Two typed pages giving the share arithmetic behind the 1940 owner list of Rotokakahi A3B1B1B (area 57:3:36, 63.636 shares): Kaperiere Paraihe (list no. 1) held 27.273 = 3/7 of the block; 25 Sep 1936 → the nine successors (fifteenths of 1.818, fifths of 5.455); 13 Aug 1940 Ria Hone Wharewaka's 5.455 → her five children at 1.091; 14 Aug 1940 exchange orders: nos 7–11 (Hone and Arapeta Peri Paraihe, the three Okena Peri) 16.364 → Rirena, Tame and Whina Rihari Matiu (7.273 each); nos 12–16 (the Wharewaka five) 5.455 → the same three, giving each exactly 9.091 — the figures on the 14 Aug 1940 list (doc 1279339). Rirena appears as \"Rirena Arama\" and \"Rirena Arama or Rirena Rihari Matiu\"; Tame as \"Tame Rihari Matiu\" and \"Tame or Manuera\".",
+  "names": [
+   {
+    "name": "Kaperiere Paraihe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "27.273",
+    "tupuna_id": "T021",
+    "confidence": "stated",
+    "note": "list no. 1; HK 15/261; S.O. 25.9.36 → nos 3–11"
+   },
+   {
+    "name": "Rirena Arama",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "no. 3"
+   },
+   {
+    "name": "Tame Rihari Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "no. 4"
+   },
+   {
+    "name": "Whina Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": "no. 5"
+   },
+   {
+    "name": "Ria Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/5 = 5.455",
+    "tupuna_id": "T024",
+    "confidence": "stated",
+    "note": "no. 6; HK 10A/181, S.O. 13.8.40 → nos 12–16 (1.091 each)"
+   },
+   {
+    "name": "Hone Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/5 = 5.455",
+    "tupuna_id": "T027",
+    "confidence": "stated",
+    "note": "no. 7"
+   },
+   {
+    "name": "Rawiri Okena Peri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T031",
+    "confidence": "stated",
+    "note": "no. 8"
+   },
+   {
+    "name": "Ngarimu Okena Peri",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T032",
+    "confidence": "stated",
+    "note": "no. 9"
+   },
+   {
+    "name": "Hone Okena Peri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/15 = 1.818",
+    "tupuna_id": "T033",
+    "confidence": "stated",
+    "note": "no. 10"
+   },
+   {
+    "name": "Arapeta Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/5 = 5.455",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "no. 11"
+   },
+   {
+    "name": "Wati Ratahi Topia",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.091",
+    "tupuna_id": "T041",
+    "confidence": "stated",
+    "note": "no. 12"
+   },
+   {
+    "name": "Erina Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.091",
+    "tupuna_id": "T042",
+    "confidence": "stated",
+    "note": "no. 13"
+   },
+   {
+    "name": "Rauriti Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.091",
+    "tupuna_id": "T043",
+    "confidence": "stated",
+    "note": "no. 14"
+   },
+   {
+    "name": "Ani Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.091",
+    "tupuna_id": "T044",
+    "confidence": "stated",
+    "note": "no. 15"
+   },
+   {
+    "name": "Ihaka Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.091",
+    "tupuna_id": "T045",
+    "confidence": "stated",
+    "note": "no. 16"
+   },
+   {
+    "name": "Exchange order HK 17/294-5, 14.8.40 — \"all numbers 7–11\", 16.364 shares",
+    "role": "Other",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "→ no. 17 Rirena Arama (1.818 + 5.455 = 7.273), no. 18 Tame Rihari Matiu (7.273), no. 19 Whina (7.272)"
+   },
+   {
+    "name": "Exchange order HK 17/296-7, 14.8.40 — \"all numbers 12–16\", 5.455 shares",
+    "role": "Other",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "→ no. 20 \"Rirena Arama or Rirena Rihari Matiu\" (7.273 + 1.818 = 9.091), no. 21 \"Tame or Manuera\" (9.091), no. 22 Whina Rihari Matiu (9.091)"
+   },
+   {
+    "name": "Rirena Arama or Rirena Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "9.091 (total after both exchanges)",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "nos 17 and 20"
+   },
+   {
+    "name": "Tame or Manuera Rihari Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "nos 18 and 21 — \"Tame … or Manuera\""
+   },
+   {
+    "name": "Whina Rihari Matiu (no. 22)",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": "nos 19 and 22"
+   }
+  ],
+  "notes": "Companion to the handwritten schedule doc 1491567."
  },
  {
   "document_id": "PW-1509327",
@@ -161,13 +1399,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509327)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
-  "effective_date": "",
-  "court": "",
-  "judge": "",
+  "title": "Succession order — Pirini (Wiripo), Rotokakahi A No 3B, to Matiu Wiripo, Hohepa Riki and four others (Opononi, 6 May 1910)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1910-05-06",
+  "effective_date": "1907-11-24",
+  "court": "Native Land Court, Auckland District, sitting at Opononi",
+  "judge": "Michael Gilfedder",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -176,9 +1421,80 @@
   "file_size": 93509,
   "url": "https://drive.google.com/file/d/1EEp9RZemv0lpzQT6X-V_KidatSl5SjsT/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order determining successors to \"Pirini (Wiripo)\", deceased, in Rotokakahi A No 3B: Matiu Wiripo m 1/3, Hohepa Riki m 1/3, Reora Waru f 1/12, Ritete Waipouri m 1/12, Ewa Tahi f 1/12, Tamati Waipouri m 1/12, in those proportions from 24 November 1907. Fee 5/-. Marginal \"297-84\", \"5/129\". Two days earlier the same judge gave Pirini Wiripo's Paihia No 1D interest to Matiu Wiripo alone (doc 1445102); here the entitlement is split three ways, which points to Hohepa Riki being a sibling of Pirini and Matiu Wiripo and the Rotokakahi interest coming through a different parent.",
+  "names": [
+   {
+    "name": "Pirini (Wiripo)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T046",
+    "confidence": "stated",
+    "note": "\"Wiripo\" in brackets; vesting from 24 Nov 1907 — the date of death given in the Paihia 1D order"
+   },
+   {
+    "name": "Matiu Wiripo",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T010",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hohepa Riki",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T137",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Reora Waru",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ritete Waipouri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ewa Tahi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Tamati Waipouri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -187,13 +1503,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509330)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
-  "effective_date": "",
-  "court": "",
-  "judge": "",
+  "title": "Succession order — Pirini (Wiripo), Rotokakahi A No 3B, to Matiu Wiripo, Hohepa Riki and four others (Opononi, 6 May 1910) — duplicate",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1910-05-06",
+  "effective_date": "1907-11-24",
+  "court": "Native Land Court, Auckland District, sitting at Opononi",
+  "judge": "Michael Gilfedder",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -202,9 +1525,80 @@
   "file_size": 91888,
   "url": "https://drive.google.com/file/d/1HPcAq_0qZRRZpZ2ar4QDr2LAPRY5349C/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order determining successors to \"Pirini (Wiripo)\", deceased, in Rotokakahi A No 3B: Matiu Wiripo m 1/3, Hohepa Riki m 1/3, Reora Waru f 1/12, Ritete Waipouri m 1/12, Ewa Tahi f 1/12, Tamati Waipouri m 1/12, in those proportions from 24 November 1907. Fee 5/-. Marginal \"297-84\", \"5/129\". Two days earlier the same judge gave Pirini Wiripo's Paihia No 1D interest to Matiu Wiripo alone (doc 1445102); here the entitlement is split three ways, which points to Hohepa Riki being a sibling of Pirini and Matiu Wiripo and the Rotokakahi interest coming through a different parent. Second, identical copy of the order.",
+  "names": [
+   {
+    "name": "Pirini (Wiripo)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T046",
+    "confidence": "stated",
+    "note": "\"Wiripo\" in brackets; vesting from 24 Nov 1907 — the date of death given in the Paihia 1D order"
+   },
+   {
+    "name": "Matiu Wiripo",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T010",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hohepa Riki",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T137",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Reora Waru",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ritete Waipouri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ewa Tahi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Tamati Waipouri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -213,13 +1607,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509333)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
-  "effective_date": "",
-  "court": "",
-  "judge": "",
+  "title": "Succession order — Ringori Ritete alias Ringori Ritete Pirini, Rotokakahi A No 3B, to Erana Matiu Kapa (Opononi, 4 May 1910)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1910-05-04",
+  "effective_date": "1907-01-22",
+  "court": "Native Land Court, Auckland District, sitting at Opononi",
+  "judge": "Michael Gilfedder",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -228,9 +1629,30 @@
   "file_size": 84460,
   "url": "https://drive.google.com/file/d/1YqIh-u-cXksBS4gP7fPxpENpD9e7nYF3/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order determining Erana Matiu Kapa (f.) sole successor to Ringori Ritete alias Ringori Ritete Pirini, deceased, in Rotokakahi A No 3B, from 22 January 1907. Fee 5/-. Marginal \"297-79\", \"S/07\". Ritete / Pirini / Matiu Kapa names as in Paihia 1D1C.",
+  "names": [
+   {
+    "name": "Ringori Ritete alias Ringori Ritete Pirini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "alias on the face of the order"
+   },
+   {
+    "name": "Erana Matiu Kapa",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "the Matiu Kapa name recurs in Paihia 1D1C (Pera Matiu Kapa, 1950)"
+   }
+  ],
   "notes": ""
  },
  {
@@ -239,13 +1661,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509341)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
-  "effective_date": "",
-  "court": "",
-  "judge": "",
+  "title": "Succession order — Hira Amuketi, Rotokakahi A No 3B, to her five Amuketi children (Rawene, 4 Oct 1906)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1906-10-04",
+  "effective_date": "1898-07-15",
+  "court": "Native Land Court, Auckland District, sitting at Rawene",
+  "judge": "Walter Edward Rawson; Hemi Erueti, Assessor",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -254,9 +1683,70 @@
   "file_size": 94786,
   "url": "https://drive.google.com/file/d/1BGlZ1Epng4SweQydCJfybfo1vsqrayk5/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order determining successors (Rule 51, Native Land Court Act 1894) to Hira Amuketi in Rotokakahi A No 3B: Hamahona (m 20), Ani (f 18), Mereana (f 15), Rirena (f 12) and Pio Amuketi (m 10), equally, from 15 July 1898. Fee 5/-. Marginal \"301\", \"S/07\". With the 1914 Whakakoro F4 schedule (where four of these five took one third of Hone Paraihe's interest) this identifies Hira Amuketi as a child of Hone Paraihe and sister of Peri Paraihe, and gives the Amuketi children's ages.",
+  "names": [
+   {
+    "name": "Hira Amuketi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T135",
+    "confidence": "stated",
+    "note": "died 15 July 1898 (vesting date)"
+   },
+   {
+    "name": "Hamahona Amuketi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "20",
+    "shares": "1/5",
+    "tupuna_id": "T037",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ani Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "18",
+    "shares": "1/5",
+    "tupuna_id": "T036",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mereana Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "15",
+    "shares": "1/5",
+    "tupuna_id": "T038",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rirena Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "12",
+    "shares": "1/5",
+    "tupuna_id": "T039",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Pio Amuketi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "10",
+    "shares": "1/5",
+    "tupuna_id": "T134",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -265,13 +1755,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509344)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Trustee order — Amuketi Himiona for the Amuketi minors, Rotokakahi A No 3B (Rawene, 4 Oct 1906)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1906-10-04",
   "effective_date": "",
-  "court": "",
-  "judge": "",
+  "court": "Native Land Court, Auckland District, sitting at Rawene",
+  "judge": "Walter Edward Rawson; Hemi Erueti, Assessor",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -280,9 +1777,80 @@
   "file_size": 94789,
   "url": "https://drive.google.com/file/d/1ZK_6qhiLZVymEReh23sVk0tMOuvHelGt/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order under the Maori Real Estate Management Act 1888 vesting the estate of the five Amuketi minors (successors to Hira Amuketi) in Rotokakahi A No 3B in Amuketi Himiona, m., as trustee — presumably their father. Companion to doc 1509341.",
+  "names": [
+   {
+    "name": "Amuketi Himiona",
+    "role": "Trustee",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T136",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hamahona Amuketi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "20",
+    "shares": "",
+    "tupuna_id": "T037",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Ani Amuketi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "18",
+    "shares": "",
+    "tupuna_id": "T036",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mereana Amuketi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "15",
+    "shares": "",
+    "tupuna_id": "T038",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rirena Amuketi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "12",
+    "shares": "",
+    "tupuna_id": "T039",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Pio Amuketi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "10",
+    "shares": "",
+    "tupuna_id": "T134",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hira Amuketi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T135",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -291,13 +1859,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509389)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Trustee order — Mereana Rihihana for Rire and Kahiti te Koha, successors to Yuia Hapakuku, Rotokakahi A No 3B (Rawene, 4 Mar 1903)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1903-03-04",
   "effective_date": "",
-  "court": "",
-  "judge": "",
+  "court": "Native Land Court, Auckland District, sitting at Rawene",
+  "judge": "Edward Clare Blomfield, Commissioner; John Bell, Assessor",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -306,9 +1881,50 @@
   "file_size": 79168,
   "url": "https://drive.google.com/file/d/1BwQ8p7FPxqC4LJaDbTSkxaia4Qxeu2U0/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order under the Maori Real Estate Management Act 1888 vesting the estate of Rire te Koha (m 13) and Kahiti te Koha (m 10), part successors to Yuia Hapakuku, in Rotokakahi A No 3B in Mereana Rihihana as trustee. No whānau names.",
+  "names": [
+   {
+    "name": "Rire te Koha",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "13",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Kahiti te Koha",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "10",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "reading uncertain"
+   },
+   {
+    "name": "Yuia Hapakuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "reading uncertain (Yuia / Tuia)"
+   },
+   {
+    "name": "Mereana Rihihana",
+    "role": "Trustee",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "reading uncertain"
+   }
+  ],
   "notes": ""
  },
  {
@@ -317,13 +1933,20 @@
   "type": "ORD",
   "type_label": "Court order",
   "folder": "Rotokakahi",
-  "title": "Court order — Rotokakahi (Pātaka Whenua doc 1509391)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Trustee order — Himi Hapakuku for Peka and Wiha Hone Heke, successors to Yuia Hapakuku, Rotokakahi A No 3B (Rawene, 4 Mar 1903)",
+  "blocks_recorded": [
+   "Rotokakahi A No 3B"
+  ],
+  "block_ids": [
+   "30176",
+   "30211",
+   "30299",
+   "30344"
+  ],
+  "record_date": "1903-03-04",
   "effective_date": "",
-  "court": "",
-  "judge": "",
+  "court": "Native Land Court, Auckland District, sitting at Rawene",
+  "judge": "Edward Clare Blomfield, Commissioner; John Bell, Assessor",
   "minute_book": "",
   "pages": 1,
   "page_range": "",
@@ -332,9 +1955,50 @@
   "file_size": 84697,
   "url": "https://drive.google.com/file/d/1T347I38lXSek24dzrdaRKks18EFGw7cC/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "Order under the Maori Real Estate Management Act 1888 vesting the estate of Peka Hone Heke (f 13) and Wiha Hone Heke (f 10), part successors to Yuia Hapakuku, in Rotokakahi A No 3B in Himi Hapakuku as trustee. No whānau names.",
+  "names": [
+   {
+    "name": "Peka Hone Heke",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "13",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Wiha Hone Heke",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "10",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Yuia Hapakuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Himi Hapakuku",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  },
  {
@@ -3107,14 +4771,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Tauaki",
-  "title": "List of owners — Tauaki (Pātaka Whenua doc 1282697)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Tauaki — compiled list of owners as at 17 Mar 1970 with schedule of ownership orders 1970–1989 (24 pages): Wiremu Arama → Betty Hori (1 Jul 1981)",
+  "blocks_recorded": [
+   "Tauaki"
+  ],
+  "block_ids": [
+   "30487"
+  ],
+  "record_date": "1970-03-17",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "AT 12/232-3; AT 4/209; KT 9/174; KT 7/222; AT 10/320; 15 KT 13; 1 AT(S) 239; RW 3/…",
   "pages": 24,
   "page_range": "",
   "file_name": "00791067_01282697_0001_0024_LHO_Document-1282697.pdf",
@@ -3122,10 +4790,291 @@
   "file_size": 5784379,
   "url": "https://drive.google.com/file/d/1cSAFABZAGKMfCQlNSrBYQxudD1AnWUTH/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "partly transcribed",
+  "summary": "Typed compiled list of the ~190 owners of Tauaki (65:0:00 = 26.3045 ha, 21.500 shares) as at 17 March 1970 (pp.1–7, file \"14157\"), followed by the handwritten schedule of ownership orders, entries 191–305, 1970–1989 (pp.8–24). Page 17 carries the whānau entry: \"WIREMU ARAMA TANIORA or WIREMU ARAMA\", list no. 182, .009 shares (AT 12/232-3, order 136/53) → 1 July 1981 to \"BETTY or ERIHAPETI ARAMA or HORI\", f.a., solely — the same order and date as in Taupo 23C (doc 1268972), so the 1981 succession to Wiremu Arama covered at least both blocks, and this is the entry behind \"Betty Arama 0.009\" on the current LINZ title 497788. Other Taniora entries: the Hii Taniora line (Hauraki d. by 1975 → Erina, Ngatoka, Mama Hii Taniora; Ngatoka → \"Hare Hare Arama or Charles Adams\" 1975 → Iritana Adams 1987 — possibly Charlie Arama, son of Rirena, unconfirmed); Puti Hetaraka Taniora → 1976; the Herewini line → Cindy Baker 1987; Mori Mane Tarapatiki → Topia (Sonny) Motu Heta 1976.",
+  "names": [
+   {
+    "name": "Arama or Honetiaki Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "compiled list 17/3/70, no. 5"
+   },
+   {
+    "name": "Te Hape or Hone Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T099",
+    "confidence": "stated",
+    "note": "no. 20"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "no. 23; deceased (\"or Charles Heywood Selwyn\", 15 KT 13) → Cindy Baker 1987"
+   },
+   {
+    "name": "Himi Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T101",
+    "confidence": "stated",
+    "note": "no. 44"
+   },
+   {
+    "name": "Te Kui or Marara Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T100",
+    "confidence": "stated",
+    "note": "no. 60"
+   },
+   {
+    "name": "Maki Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T096",
+    "confidence": "stated",
+    "note": "no. 66"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "no. 70"
+   },
+   {
+    "name": "Maria Mandy Rihari or Mrs Rapana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T093",
+    "confidence": "stated",
+    "note": "no. 74"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": "no. 90"
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": "no. 113"
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "no. 116"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": "no. 121"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "no. 135"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "no. 137"
+   },
+   {
+    "name": "Taitimu or Wereta Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "no. 166"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "no. 182"
+   },
+   {
+    "name": "Wiremu Arama Taniora or Wiremu Arama",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "p.17: list no. 182; M.B. AT 12/232-3; order 136/53; date 1.7.81 → no. 268"
+   },
+   {
+    "name": "Betty or Erihapeti Arama or Hori",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": ".009",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "no. 268, sole successor to Wiremu Arama, 1 July 1981 — the entry behind \"Betty Arama\" 0.009 on the current title (LINZ 497788)"
+   },
+   {
+    "name": "Ngatoka Hii Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list 102; AT 4/209; S.V.O. 28.4.75 → no. 208 \"Hare Hare Arama or Charles Adams\", m.a., solely (.025)"
+   },
+   {
+    "name": "Hare Hare Arama or Charles Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 208 (1975, from Ngatoka Hii Taniora); later (p.20, \"Hare Adams / Charles Adams\", 1 AT(S) 239, 18.3.87) → no. 279 Iritana Adams f., solely. Possibly Charlie Arama, son of Rirena and Wiremu — not confirmed"
+   },
+   {
+    "name": "Iritana Adams",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 279, 1987"
+   },
+   {
+    "name": "Hauraki Hii Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list 25; KT 9/174; 1.9.75 → Erina Hii Taniora, Ngatoka Hii Taniora, Mama Hii Taniora (Mrs Daniels), 1/3 each"
+   },
+   {
+    "name": "Puti Hetaraka Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "p.13: list 122; KT 7/222; S.V.O. 9.2.76 → no. 215 Huni(?) Taniora f., solely"
+   },
+   {
+    "name": "Erina Hii Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".034",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.14: list 212; 5 MB 75/288(?); S.V.O. 18.1.77 → no. 224 Heeni Witara"
+   },
+   {
+    "name": "Mori Mane Tarapatiki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "T112",
+    "confidence": "stated",
+    "note": "p.17: list 95; AT 10/320; 136/53; 5.11.76 → no. 266 Topia (Sonny) Motu Heta m, solely"
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "p.15: list 164; 10.2.77 → no. 225 Laura Tasker f., solely"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "p.19: list 32; 15 KT 13; 213/53; 3.4.87 → no. 278 Cindy Baker"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini or Charles Heywood Selwyn",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "p.20: list 23; 15 KT 13; 9.4.87 → no. 281 Cindy Baker (total .034)"
+   }
+  ],
+  "notes": "Pages 8–12 and 21–24 (Rurawhe, Heta, Moihi, Tomo, Tipene/Rivers, Gaulton, Māori Trustee entries) not transcribed. The compiled list is the 1962 list re-typed with 1962–70 changes."
  },
  {
   "document_id": "PW-1526207",
@@ -3133,14 +5082,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Tauaki",
-  "title": "List of owners — Tauaki (Pātaka Whenua doc 1526207)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Tauaki — succession order schedules 1917–1964 (16 pages): Himi Taniora (d. 1918) to the 29 Taniora Rihari successors (29 Feb 1932); Manga Taniora Rihari (1962)",
+  "blocks_recorded": [
+   "Tauaki"
+  ],
+  "block_ids": [
+   "30487"
+  ],
+  "record_date": "1917–1964",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "N66A/100; N66A/118; N66A/121; N 88/126; N 88/168; N 59/340; N 60/101; K 41/119",
   "pages": 16,
   "page_range": "",
   "file_name": "01026630_01526207_0001_0016_LHO_Document-1526207.pdf",
@@ -3148,10 +5101,181 @@
   "file_size": 3136829,
   "url": "https://drive.google.com/file/d/1wozRCpWLRWh7uO4G6CqpjlGNeujWH38A/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "partly transcribed",
+  "summary": "Sixteen pages of Tauaki succession schedules and ownership-order schedules (Form 16, \"Schedule — Successors\", and typed schedule pages), 1917–1964. Page 4 is the Tauaki copy of the Taniora Rihari succession of 29 Feb 1932, here headed \"HIMI TANIORA, N66A/100, 1918\" — the same 29 successors in sevenths as in Taupo 23C, with \"Taitimu or Wereta\" written in full and Rahera Hetaraka Taniora as trustee. Two points for the discrepancy register: the deceased's name (Himi Taniora / Taniora Rihari / Rihari Taniora) and the year of death (1918 here, 1922 in Taupo 23C; N66A/99 vs N66A/100 — possibly two adjacent orders, one for Taniora Rihari and one for a brother Himi, with identical successors). Page 2: Manga Taniora Rihari's .071 to Maria Mandy Rihari, 16 Mar 1962. Pages 1, 3, 5–16: Tomo, Taiapo, Timoti, Ropiha, Moihi, Rurawhe, Heke, Toetoe, Hepehi/Tei and other Whangaroa families (not transcribed).",
+  "names": [
+   {
+    "name": "Himi Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": "p.4: N66A/100, died 1918; order 29.2.32 — the same 29 successors in sevenths as Taupo 23C (doc 1527268): Manga Taniora Rihari, Rihari, seven Hetaraka Taniora (Tr: Rahera Hetaraka Taniora), eight Arama Taniora (incl. \"Taitimu or Wereta\"), Werahiko & Te Uinga Pereene Kini, Mori Mane Tarapatiki, Peka Toma Ngarangi, Mita & Tupakongia Heremaia Kingi, four Hamuera Herewini. Interest .143 = 1/150 of 21.500. NB here the deceased is written \"Himi Taniora\" and dated 1918 (Taupo: \"Taniora Rihari or Rihari Taniora\", 1922)"
+   },
+   {
+    "name": "Manga Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7 of .143",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rahera Hetaraka Taniora",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T095",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "18",
+    "shares": "1/56",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Arama or Honetiaki Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Taitimu or Wereta Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "\"Taitimu or Wereta\" — confirms the alias Wereta"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Te Wirihana Tomo",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.4: N66A/118, 1921; 29.2.32 → Arihia Wirihana Tomo f 1932, Mautini f 1934, Timikara m 1936 (1/3 each)"
+   },
+   {
+    "name": "Meri Riwhi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.4: N66A/121, 1922; 29.2.32 → Pahi Puru m, Ruakino f (1/2 each)"
+   },
+   {
+    "name": "Manga Taniora Rihari (deceased, list 74)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "p.2 (schedule of ownership orders): N 88/126, S.V.O. 16.3.62 → no. 217 Maria Mandy Rihari f, solely (.071)"
+   },
+   {
+    "name": "Maria Mandy Rihari",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T093",
+    "confidence": "stated",
+    "note": "no. 217, 16.3.62"
+   },
+   {
+    "name": "Arama Moihi (Amato Riwhi Moihi)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.3: succession vesting order N 88/168 — Amato Riwhi Moihi's interest to Arama, Honepapita, Rakena(?), Hoana, Anikaro, Matekino, Hera, and Ripeka Riwhi Moihi (1/20 – 1/10 each); trustee Mrs Mariana Amato Riwhi"
+   }
+  ],
+  "notes": "Only whānau pages read in detail. The \"Himi Taniora 1918\" vs \"Taniora Rihari 1922\" question needs the two minute-book entries N66A/99 and N66A/100 side by side."
  },
  {
   "document_id": "PW-1526219",
@@ -3159,14 +5283,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Tauaki",
-  "title": "List of owners — Tauaki (Pātaka Whenua doc 1526219)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Tauaki — compiled list of owners as at 16 Mar 1962 (188 owners, 21.500 shares) with schedule of ownership orders 1963–64",
+  "blocks_recorded": [
+   "Tauaki"
+  ],
+  "block_ids": [
+   "30487"
+  ],
+  "record_date": "1962-03-16",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "K 41/119; R 1/185, 186, 179",
   "pages": 7,
   "page_range": "",
   "file_name": "01026646_01526219_0001_0007_LHO_Document-1526219 (1).pdf",
@@ -3174,10 +5302,281 @@
   "file_size": 1536310,
   "url": "https://drive.google.com/file/d/1JoS6dVH8KEMRI_oR_c7Um0G5S_2C4J6n/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "partly transcribed",
+  "summary": "Seven pages: the typed compiled list of 188 owners of Tauaki (65:0:00, 21.500 shares) as at 16 March 1962 (pp.1–5) and the schedule of ownership orders 1963–64 (pp.6–7). Whānau entries transcribed: the eight Arama Taniora children at .009 each (Arama or Honetiaki, Mane, Mio, Peepi, Raiha, Rirena, Taitimu, Wiremu — Wiremu Arama Taniora no. 185), the seven Hetaraka Taniora at .010, Rihari Taniora Rihari .071 and \"Maria Mandy Rihari @ Mrs Rapana\" .071, the Hii Taniora family (Erina, Hauraki, Mama, Ngatoka — .025 each; another Taniora line), the Herewini, Kini and Hone Arama (1.000) entries. The tiny Arama Taniora shares (.009 of 21.500) match the 0.009 that Arama Taniora and Betty Arama each hold on the current title (LINZ 497788) — Wiremu's .009 having passed to Betty. Compare Taupo 23C where the same eight held 0.696 each.",
+  "names": [
+   {
+    "name": "Arama or Honetiaki Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 4"
+   },
+   {
+    "name": "Erina Hii Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 14"
+   },
+   {
+    "name": "Te Hape or Hone Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T099",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 17"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 19"
+   },
+   {
+    "name": "Hauraki Hii Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 22"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 31"
+   },
+   {
+    "name": "Himi Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T101",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 35"
+   },
+   {
+    "name": "Hoana Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T097",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 42"
+   },
+   {
+    "name": "Hone Arama",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 44"
+   },
+   {
+    "name": "Te Kui or Marara Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T100",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 61"
+   },
+   {
+    "name": "Mama Hii Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 65"
+   },
+   {
+    "name": "Maki Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T096",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 68"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 70"
+   },
+   {
+    "name": "Maria Mandy Rihari @ Mrs Rapana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T093",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 73"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 86"
+   },
+   {
+    "name": "Maria Hamuera Herewini",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 87"
+   },
+   {
+    "name": "Ngatoka Hii Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 100"
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 114"
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 115"
+   },
+   {
+    "name": "Puti Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".010",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 120"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 122"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".071",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 134"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 136"
+   },
+   {
+    "name": "Te Uinga Pereeme Kini",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "T111",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 166"
+   },
+   {
+    "name": "Werahiko Pereeme Kini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "T110",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 178"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62, no. 185"
+   },
+   {
+    "name": "Taitimu Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".009",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "compiled list 16/3/62 (page 5, number not read)"
+   }
+  ],
+  "notes": "Only the whānau-relevant rows of the 188 have been transcribed; the rest are the Moihi, Rurawhe, Heta, Ropiha, Hemi, Karena, Tomo, Heke, Ritete, Timoti and other Whangaroa families. Schedule pp.6–7 (Tukariri, Hepehi/Tei successions 1963–64) not whānau."
  },
  {
   "document_id": "PW-1268972",
@@ -3185,14 +5584,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Taupo",
-  "title": "List of owners — Taupo (Pātaka Whenua doc 1268972)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Taupo 23C — schedule of ownership orders 1957–1998 (95 entries): Wiremu Arama → Betty Hori (1981); Mane and Taitimu Arama Taniora → Adams successors",
+  "blocks_recorded": [
+   "Taupo 23C"
+  ],
+  "block_ids": [
+   "28869"
+  ],
+  "record_date": "1957–1998",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "AT 12/232-3; RW 2/283, 319; AT 14/353; N 88/126; KT 7/222, 278, 279, 280; AT 3/321; 2 NH(S) 214; 18 KT 64–65; 15 KT 13; 19 AOT(S) 152; AT(S) 1/22",
   "pages": 9,
   "page_range": "",
   "file_name": "00781082_01268972_0001_0009_LHO_Document-1268972 (3).pdf",
@@ -3200,10 +5603,361 @@
   "file_size": 2125259,
   "url": "https://drive.google.com/file/d/13E1pN7Tx0kWcD8XuUhjD3nGeb4BB2UuL/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Nine pages: the 1957 compiled list (p.1, with strike-throughs to successor numbers) and the handwritten schedule of ownership orders, entries 39–95, 1971–1993. The Arama Taniora line: WIREMU ARAMA (\"Wiremu Arama or Wiremu Arama Taniora\", list 38, 0.696) → 1 July 1981 to \"BETTY or ERIHAPETI ARAMA or HORI\", f.a., solely (AT 12/232-3) — the Court record that Betty Hori is Wiremu Arama's sole successor in this block. TAITIMU (\"Taitimu Arama or Taitimu (Wereta) Arama Taniora or Tim Adams\", list 30) → 1979–80 via executrix Annie Theresa Waipouri to Rosie Adams, Hinemoa Adams and Annie Theresa Waipouri. MANE (\"Mane Arama Taniora or Mane Arama or Monday Adams\", list 12) → 25 Mar 1983 to eight Adams children (Sarah Waikato, William, Peter Moses, Joseph, Nicholas, Maria Moses, Albert, Jacob). Most of those Adams shares then went to Sarah Heath in 1993. Also: Manga Taniora Rihari → Maria Maudie Rihari (Mrs Rapana) 1962; Puti Hetaraka Taniora → Maria Tupe; Hoana Hetaraka Taniora or Hoana Henry → Edwards/Rawhiti/Mathews/Henry (1992); the Herewini, Hare Paora, Kini and Tarapatiki lines. Four more recorded names for the whānau: Wereta, Tim Adams, Monday Adams, Hoana Henry.",
+  "names": [
+   {
+    "name": "Wiremu Arama or Wiremu Arama Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.696",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "list no. 38; M.B. AT 12/232-3; order 136/53; 1.7.81 → no. 59"
+   },
+   {
+    "name": "Betty or Erihapeti Arama or Hori",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "0.696",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "no. 59, sole successor to Wiremu Arama, 1.7.81"
+   },
+   {
+    "name": "Taitimu Arama or Taitimu (Wereta) Arama Taniora or Tim Adams",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.696",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "list no. 30 (typed list annotated \"or WERETA\"); RW 2/283; order 81/67; 19.10.79 → no. 53 Annie Theresa Waipouri as executrix; then RW 2/319, 81A/67, 18.4.80 → nos 54–56"
+   },
+   {
+    "name": "Annie Theresa Waipouri",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.232",
+    "tupuna_id": "T124",
+    "confidence": "stated",
+    "note": "nos 53 (executrix) and 56; → Sarah Heath (no. 90) 14.6.93"
+   },
+   {
+    "name": "Rosie Adams",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.232",
+    "tupuna_id": "T122",
+    "confidence": "stated",
+    "note": "no. 54; \"Rosie Adams or Rosie Vakaruna\" → Sarah Heath (no. 93) 14.6.93"
+   },
+   {
+    "name": "Hinemoa Adams",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.232",
+    "tupuna_id": "T123",
+    "confidence": "stated",
+    "note": "no. 55; → Sarah Heath (no. 89) 14.6.93"
+   },
+   {
+    "name": "Mane Arama Taniora or Mane Arama or Monday Adams",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.696",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "list no. 12; AT 14/353; order 136/53; 25.3.83 → nos 61–68 (0.087 each)"
+   },
+   {
+    "name": "Sarah Waikato",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T125",
+    "confidence": "stated",
+    "note": "no. 61"
+   },
+   {
+    "name": "William Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T126",
+    "confidence": "stated",
+    "note": "no. 62; → Sarah Heath (87) 1993"
+   },
+   {
+    "name": "Peter Moses Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T127",
+    "confidence": "stated",
+    "note": "no. 63; → Sarah Heath (91) 1993"
+   },
+   {
+    "name": "Joseph Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T128",
+    "confidence": "stated",
+    "note": "no. 64; → Sarah Heath (88) 1993"
+   },
+   {
+    "name": "Nicholas Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T129",
+    "confidence": "stated",
+    "note": "no. 65"
+   },
+   {
+    "name": "Maria Moses Adams",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T130",
+    "confidence": "stated",
+    "note": "no. 66, \"Adams\" struck; as \"Maria Moses\" → Sarah Heath (92) 1993"
+   },
+   {
+    "name": "Albert Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T131",
+    "confidence": "stated",
+    "note": "no. 67; → Sarah Heath (94) 1993"
+   },
+   {
+    "name": "Jacob Adams",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.087",
+    "tupuna_id": "T132",
+    "confidence": "stated",
+    "note": "no. 68; → Sarah Heath (95) 1993"
+   },
+   {
+    "name": "Sarah Heath",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.218 (total)",
+    "tupuna_id": "T133",
+    "confidence": "stated",
+    "note": "nos 87–95, orders 213/53 of 14.6.93 (18 KT 64–65)"
+   },
+   {
+    "name": "Manga Taniora Rihari",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.571",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "list no. 13; N 88/126; S.V.O. 16.3.62 → no. 60 Maria Maudie Rihari (Mrs Rapana), solely"
+   },
+   {
+    "name": "Maria Maudie Rihari (Mrs Rapana)",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.571",
+    "tupuna_id": "T093",
+    "confidence": "stated",
+    "note": "no. 60"
+   },
+   {
+    "name": "Puti Hetaraka Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.082",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "list no. 26; KT 7/222; 5.10.72(?) → no. 50 Maria Tupe f.a. solely"
+   },
+   {
+    "name": "Maria Tupe",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50 (on the 2009 list)"
+   },
+   {
+    "name": "Hoana Hetaraka Taniora or Hoana Henry",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.082",
+    "tupuna_id": "T097",
+    "confidence": "stated",
+    "note": "list no. 7; 2 NH(S) 214; 78A/67; 5.11.92 → nos 82–86"
+   },
+   {
+    "name": "Ellie Edwards",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82"
+   },
+   {
+    "name": "Martha Rawhiti",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 83"
+   },
+   {
+    "name": "Racheal Mathews",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "0.017",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 84"
+   },
+   {
+    "name": "Rauna Henry",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.017",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85"
+   },
+   {
+    "name": "Henry Henry",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "0.017",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86"
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "list no. 24, annotated \"decd — Appln Succn lodged 1529\""
+   },
+   {
+    "name": "Werahiko Pereene Kini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.143",
+    "tupuna_id": "T110",
+    "confidence": "stated",
+    "note": "list no. 35; AT 3/321; 2.8.71 → no. 39 Merikahutaha Wright f.a. solely; later (AT(S) 1/22, 26.11.85) → nos 69–78 Hinemoa Taylor, Hoana Waitai, Ted Mathew John Wright, St John Heremaia Wright, Ngawaka Hohepa Wright, Eru Patuone Wright, Hope Raiha Harris, Robert, Stephen, Jason Wright"
+   },
+   {
+    "name": "Mori Mane Tarapatiki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.143",
+    "tupuna_id": "T112",
+    "confidence": "stated",
+    "note": "list no. 20; 22.11.76 → no. 51 Winnie Simmonds f.a. solely"
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "list no. 33; 10.2.77 → no. 52 Laura Tasker; Laura Tasker (19 AOT(S) 152, 10.5.91) → no. 81 Ernest Felix Davis"
+   },
+   {
+    "name": "Miria Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "list no. 18; 16.2.76 → Moana, Colin, Eddie Pourewa and Sally Norman (nos 43–46, 0.286 each)"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "list no. 5; 15 KT 13; 3.4.87 → no. 79 Cindy Baker"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "list no. 3; \"or Charles Haywood Selwyn\"; 15 KT 13; 3.4.87 → no. 80 Cindy Baker (total 2.286)"
+   },
+   {
+    "name": "Mau Hare Paora or Mau Hongi Paora or Mrs Annie Phillips",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list no. 14; KT 7/278; 3.10.72 → no. 40 Wiremu Piri Hongi Hare Paora; also Mere Hare Paora (16) and Naru Hare Paora (21) → same, 3.10.72 (total 3.000); Wiremu Piri Hongi Hare Paora (KT 8/250, 10.10.74) → no. 49 Catherine Murray"
+   },
+   {
+    "name": "Te Turi Hare Paora or Turi Shortland",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "0.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list no. 32; 2.7.74 → no. 47 Alan Jenkinson as administrator → no. 48 Matini Waa Waa Hoterene or Daniel Walter Shortland (18.8.76) → 1982 → no. 58 James William Epere"
+   }
+  ],
+  "notes": "Adams = Arama throughout. Betty's four-name entry (\"Betty or Erihapeti Arama or Hori\") is the source of her recorded names on the 2009 list."
  },
  {
   "document_id": "PW-1527268",
@@ -3211,14 +5965,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Taupo",
-  "title": "List of owners — Taupo (Pātaka Whenua doc 1527268)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
-  "effective_date": "",
+  "title": "Taupo 23C — succession order schedule: Taniora Rihari or Rihari Taniora (d. 1922), order 29 Feb 1932; Matire Taniora (d. 1918); Manga Taniora Rihari (1962)",
+  "blocks_recorded": [
+   "Taupo 23C"
+  ],
+  "block_ids": [
+   "28869"
+  ],
+  "record_date": "1932-02-29",
+  "effective_date": "1922",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "N66A/99; N66A/102; N66A/239; N30/26; N 86/126",
   "pages": 2,
   "page_range": "",
   "file_name": "01027696_01527268_0001_0002_LHO_Document-1527268.pdf",
@@ -3226,10 +5984,361 @@
   "file_size": 343222,
   "url": "https://drive.google.com/file/d/1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Two-page Form 16 succession order schedule for Taupo 23C. Page 2 is the key whānau record: \"Taniora Rihari or Rihari Taniora\", died 1922 (N66A/99), succession order 29 February 1932 dividing his interest into SEVENTHS — (1) Manga Taniora Rihari m, (2) Rihari Taniora Rihari m, (3) the seven children of the late Hetaraka Taniora at 1/49 each (Maki, Hoana, Pera, Te Hape or Hone, Te Kui or Marara, Himi, Pueti; trustee Rahera Hetaraka Taniora), (4) the EIGHT children of the late Arama Taniora at 1/56 each — Mane, Peepi, WIREMU, Arama or Honetiaki II, Raiha, Taitimu, Mio and Rirena Arama Taniora — with \"Tr: PETI WIREMU TANGATA\" (their mother Erihapeti, Arama Taniora's widow), (5) Werahiko and Te Uinga Pereene Kini, Maori Moana Tarapatiki and Peka Toma Ngarangi at 1/28, (6) Mita and Tupakongia Heremaia Kingi at 1/14 (trustee Peti Kingi), (7) the four Hamuera Herewini children at 1/28 — who also took, 1/4 each, the interest of Matire Taniora (d. 1918, N66A/102), evidently their mother and Taniora Rihari's daughter. Years written beside the minors (1924–1943) are coming-of-age years. A 1962 succession vesting order (N 86/126) passes Manga Taniora Rihari's share solely to Maria Maudy Rihari. Page 1: Maata Putete Hape (d. 1933) to eight Hare Paora/Hongi successors (1938); Matarae Arano (d. 31.12.32) to Mere Matarae Arano (1951). This one page gives Taniora Rihari's seven lines of descent and names all eight of Arama Taniora and Peti's children — including a second \"Rirena\" (Rirena Arama Taniora, b. c. 1912, Wiremu Arama's sister), distinct from Rirena Theresa Arama née Rihari Matiu (b. c. 1911), Wiremu's wife.",
+  "names": [
+   {
+    "name": "Maata Putete Hape",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.1: N66A/239, 1933; 12.9.38 → Wiremu Piri Hongi m 1/8, Naru Hare Paora m 1/8, Putete Hare Paora m 1/8, Wiremu Hare Paora m 1/8, Te Turi f 1/8, Here f 1/8, Maui f 1/8, Mere Hare Paora f 1/8"
+   },
+   {
+    "name": "Matarae Arano",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.1: succession vesting order; N30/26, d. 31.12.32; 28.8.51 → Mere Matarae Arano f solely (5.0000 on the 2009 list)"
+   },
+   {
+    "name": "Taniora Rihari or Rihari Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": "p.2: Division \"Himi\"(?); N66A/99; died 1922; succession order 29.2.32; Division column reads \"Himi\" — cf. \"Himi Taniora Rihari\" on the ownership schedule"
+   },
+   {
+    "name": "Manga Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "underlined; later → Maria Maudy Rihari (S.V.O. N 86/126, 16.3.62)"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Maki Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T096",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Hoana Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T097",
+    "confidence": "stated",
+    "note": "\"1933\""
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "\"1934\""
+   },
+   {
+    "name": "Te Hape or Hone Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T099",
+    "confidence": "stated",
+    "note": "\"1935\""
+   },
+   {
+    "name": "Te Kui or Marara Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T100",
+    "confidence": "stated",
+    "note": "\"1937\""
+   },
+   {
+    "name": "Himi Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T101",
+    "confidence": "stated",
+    "note": "\"1940\""
+   },
+   {
+    "name": "Pueti Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "\"1943\""
+   },
+   {
+    "name": "Rahera Hetaraka Taniora",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T095",
+    "confidence": "stated",
+    "note": "\"Tr: Rahera Hetaraka Taniora\" for the seven Hetaraka Taniora minors"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "= Wiremu Arama (b. 1907)"
+   },
+   {
+    "name": "Arama or Honetiaki Arama Taniora II",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "\"II\" written after the name"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Taitimu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "\"1932\"; first name reading uncertain"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "\"1933\" — a daughter of Arama Taniora, not Rirena (née Rihari Matiu) who married Wiremu Arama"
+   },
+   {
+    "name": "Peti Wiremu Tangata",
+    "role": "Trustee",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T004",
+    "confidence": "stated",
+    "note": "\"Tr: Peti Wiremu Tangata\" for the Arama Taniora minors — Erihapeti, widow of Arama Taniora, under her maiden name"
+   },
+   {
+    "name": "Werahiko Pereene Kini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "T110",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Te Uinga Pereene Kini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "T111",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Maori Moana Tarapatiki",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "T112",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Peka Toma Ngarangi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "T113",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Mita Heremaia Kingi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "T114",
+    "confidence": "stated",
+    "note": "\"1924\""
+   },
+   {
+    "name": "Tupakongia Heremaia Kingi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "T115",
+    "confidence": "stated",
+    "note": "\"1932\""
+   },
+   {
+    "name": "Peti Kingi",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T116",
+    "confidence": "stated",
+    "note": "\"Tr: Peti Kingi\" for the Heremaia Kingi minors"
+   },
+   {
+    "name": "Miria Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 (and 1/4 of Matire Taniora)",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "\"1931\""
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28 (and 1/4 of Matire Taniora)",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "\"1938\""
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28 (and 1/4 of Matire Taniora)",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "\"1935\""
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 (and 1/4 of Matire Taniora)",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "\"1937\""
+   },
+   {
+    "name": "Matire Taniora",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T117",
+    "confidence": "stated",
+    "note": "p.2: N66A/102, died 1918; 29.2.32 → the four Hamuera Herewini children, 1/4 each"
+   },
+   {
+    "name": "Maria Maudy Rihari",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "T093",
+    "confidence": "stated",
+    "note": "succession vesting order N 86/126, 16.3.62, from Manga Taniora Rihari; entered 23/5/62"
+   }
+  ],
+  "notes": "The 2009 consolidated order (doc 3844962) carries the same lines forward: six Arama Taniora at 0.6960 (Betty Arama/Hori holding Wiremu's), five Hetaraka Taniora at 0.0820, Rihari Taniora Rihari 4.5710, Maria Maudie Rihari 0.5710. Division column reads \"Himi\" (uncertain)."
  },
  {
   "document_id": "PW-1527452",
@@ -3237,14 +6346,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Taupo",
-  "title": "List of owners — Taupo (Pātaka Whenua doc 1527452)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Taupo 23C — compiled list of owners as at 28 Aug 1957 (38 owners, 36.000 shares) with schedule of ownership orders 1932–1957",
+  "blocks_recorded": [
+   "Taupo 23C"
+  ],
+  "block_ids": [
+   "28869"
+  ],
+  "record_date": "1957-08-28",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "N66A/99, 100, 102, 239; N30/26",
   "pages": 4,
   "page_range": "",
   "file_name": "01027880_01527452_0001_0004_LHO_Document-1527452.pdf",
@@ -3252,10 +6365,931 @@
   "file_size": 713914,
   "url": "https://drive.google.com/file/d/126X08PWv9RAiD-imgSWmWegJgMMggu91/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Four pages: (1) typed \"Compiled List of Owners as at 28/8/57\" for Taupo 23C (38:0:20; 36.000 shares), 38 owners; (2–4) the typed schedule of ownership orders, entries 9–56. The original owners (list nos 1–8) included ARAMA TANIORA (no. 1, 5.000 shares — N66A/100), \"HIMI TANIORA RIHARI\" (no. 2, 4.000 — N66A/99, i.e. Taniora Rihari under a third recorded name), Matarae Arano (5, 5.000), Matire Taniora (6, 4.000), Maata Putete Hape (7, 6.000) and Rihari Taniora Rihari (8, 4.000). On 29 Feb 1932 Taniora Rihari's 4.000 went in sevenths (nos 9–35) and Arama Taniora's own 5.000 went equally to his eight children (nos 49–56, 0.625 each), so that Mane, Peepi, Wiremu, Arama or Honetiaki II, Raiha, Taitimu, Mio and Rirena Arama Taniora each held 0.696 by 1957 — the figure still carried by the six survivors on the 2009 list, with Betty Arama/Hori holding Wiremu's. Rihari Taniora Rihari: 4.000 + 0.571 = 4.571 (as in 2009).",
+  "names": [
+   {
+    "name": "Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "T002",
+    "confidence": "stated",
+    "note": "list no. 1; N66A/100; S.O. 29/2/32 → nos 49–56 (0.625 each)"
+   },
+   {
+    "name": "Himi Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": "list no. 2; N66A/99; S.O. 29/2/32 → nos 9–35"
+   },
+   {
+    "name": "Matarae Arano",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list no. 5; N30/26; S.V.O. 28.8.57 → no. 48 Mere Matarae Arano F 5.000"
+   },
+   {
+    "name": "Matire Taniora",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "T117",
+    "confidence": "stated",
+    "note": "list no. 6; N66A/102; S.O. 29/2/32 → nos 36–39 (1.000 each)"
+   },
+   {
+    "name": "Maata Putete Hape",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "6.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list no. 7; N66A/239; S.O. 12/9/38 → nos 40–47 (0.750 each)"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "list no. 8; original owner; plus no. 10 (0.571) = 4.571"
+   },
+   {
+    "name": "Manga Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7 = .571",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "no. 9"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/7 = .571 (total 4.571)",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "no. 10"
+   },
+   {
+    "name": "Maki Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T096",
+    "confidence": "stated",
+    "note": "no. 11"
+   },
+   {
+    "name": "Hoana Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T097",
+    "confidence": "stated",
+    "note": "no. 12"
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "no. 13"
+   },
+   {
+    "name": "Te Hape or Hone Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T099",
+    "confidence": "stated",
+    "note": "no. 14"
+   },
+   {
+    "name": "Te Kui or Marara Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T100",
+    "confidence": "stated",
+    "note": "no. 15"
+   },
+   {
+    "name": "Himi Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T101",
+    "confidence": "stated",
+    "note": "no. 16"
+   },
+   {
+    "name": "Puti Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/49 = .082",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "no. 17"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 49",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "no. 18"
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 50",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": "no. 19"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 51",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "no. 20"
+   },
+   {
+    "name": "Arama or Honetiaki Arama Taniora II",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 52",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "no. 21"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 53",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": "no. 22"
+   },
+   {
+    "name": "Taitimu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 54",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "no. 23"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 55",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": "no. 24"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/56 = .071 → no. 56",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "no. 25"
+   },
+   {
+    "name": "Werahiko Pereene Kini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T110",
+    "confidence": "stated",
+    "note": "no. 26"
+   },
+   {
+    "name": "Te Uinga Pereene Kini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T111",
+    "confidence": "stated",
+    "note": "no. 27"
+   },
+   {
+    "name": "Maori Moana Tarapatiki",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T112",
+    "confidence": "stated",
+    "note": "no. 28"
+   },
+   {
+    "name": "Peka Toma Ngarangi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T113",
+    "confidence": "stated",
+    "note": "no. 29"
+   },
+   {
+    "name": "Mita Heremaia Kingi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/14 = .286",
+    "tupuna_id": "T114",
+    "confidence": "stated",
+    "note": "no. 30"
+   },
+   {
+    "name": "Tupakongia Heremaia Kingi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/14 = .286",
+    "tupuna_id": "T115",
+    "confidence": "stated",
+    "note": "no. 31"
+   },
+   {
+    "name": "Miria Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "no. 32"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "no. 33"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "no. 34"
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/28 = .143",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "no. 35"
+   },
+   {
+    "name": "Miria Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/4 of Matire Taniora = 1.000 (total 1.143)",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "no. 36"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/4 = 1.000 (total 1.143)",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "no. 37"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/4 = 1.000 (total 1.143)",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "no. 38"
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/4 = 1.000 (total 1.143)",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "no. 39"
+   },
+   {
+    "name": "Wiremu Piri Hongi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 of Maata Putete Hape = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40"
+   },
+   {
+    "name": "Naru Hare Paora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41"
+   },
+   {
+    "name": "Putete Hare Paora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42"
+   },
+   {
+    "name": "Wiremu Hare Paora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43"
+   },
+   {
+    "name": "Te Turi Hare Paora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44"
+   },
+   {
+    "name": "Here Hare Paora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45"
+   },
+   {
+    "name": "Mau Hare Paora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46"
+   },
+   {
+    "name": "Mere Hare Paora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47"
+   },
+   {
+    "name": "Mere Matarae Arano",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "sole = 5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "equally (1/8 of Arama Taniora) = .625 (total .696)",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "no. 49"
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": "no. 50"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "no. 51"
+   },
+   {
+    "name": "Arama or Honetiaki Arama Taniora II",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "no. 52"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": "no. 53"
+   },
+   {
+    "name": "Taitimu Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "no. 54"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": "no. 55"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/8 = .625 (total .696)",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "no. 56"
+   },
+   {
+    "name": "Arama or Honetiaki Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T105",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 1"
+   },
+   {
+    "name": "Te Hape or Hone Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T099",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 2"
+   },
+   {
+    "name": "Hare or Wire Hamuera Herewini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T119",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 3"
+   },
+   {
+    "name": "Hemo Tihi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 4"
+   },
+   {
+    "name": "Herewini Hamuera Herewini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T120",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 5"
+   },
+   {
+    "name": "Himi Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T101",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 6"
+   },
+   {
+    "name": "Hoana Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T097",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 7"
+   },
+   {
+    "name": "Ka Pihema",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 8"
+   },
+   {
+    "name": "Kere Hare Paora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 9"
+   },
+   {
+    "name": "Te Kui or Marara Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T100",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 10"
+   },
+   {
+    "name": "Maki Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T096",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 11"
+   },
+   {
+    "name": "Mane Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T103",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 12"
+   },
+   {
+    "name": "Manga Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".571",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 13"
+   },
+   {
+    "name": "Mau Hare Paora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 14"
+   },
+   {
+    "name": "Mere Matarae Arano",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 15"
+   },
+   {
+    "name": "Mere Hare Paora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 16"
+   },
+   {
+    "name": "Mio Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T108",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 17"
+   },
+   {
+    "name": "Miria Hamuera Herewini",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T118",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 18"
+   },
+   {
+    "name": "Mita Heremaia Kingi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".286",
+    "tupuna_id": "T114",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 19"
+   },
+   {
+    "name": "Mori Mane Tarapatiki",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".143",
+    "tupuna_id": "T112",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 20"
+   },
+   {
+    "name": "Naru Hare Paora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 21"
+   },
+   {
+    "name": "Peepi Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T104",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 22"
+   },
+   {
+    "name": "Peka Toma Ngarangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".143",
+    "tupuna_id": "T113",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 23"
+   },
+   {
+    "name": "Pera Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T098",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 24"
+   },
+   {
+    "name": "Putete Hare Paora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 25"
+   },
+   {
+    "name": "Puti Hetaraka Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".082",
+    "tupuna_id": "T102",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 26"
+   },
+   {
+    "name": "Raiha Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T106",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 27"
+   },
+   {
+    "name": "Rihari Taniora Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": "4.571",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 28"
+   },
+   {
+    "name": "Rirena Arama Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T109",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 29"
+   },
+   {
+    "name": "Taitimu Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T107",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 30"
+   },
+   {
+    "name": "Tupakongia Heremaia Kingi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".286",
+    "tupuna_id": "T115",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 31"
+   },
+   {
+    "name": "Te Turi Hare Paora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 32"
+   },
+   {
+    "name": "Te Uinga Hamuera Herewini",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "T121",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 33"
+   },
+   {
+    "name": "Te Uinga Pereene Kini",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "",
+    "shares": ".143",
+    "tupuna_id": "T111",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 34"
+   },
+   {
+    "name": "Werahiko Pereene Kini",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".143",
+    "tupuna_id": "T110",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 35"
+   },
+   {
+    "name": "Wiremu Piri Hongi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 36"
+   },
+   {
+    "name": "Wiremu Hare Paora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 37"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".696",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "compiled list 28/8/57, no. 38"
+   }
+  ],
+  "notes": "Corrects three readings from the handwritten schedule (doc 1527268): Hoana (not Moana) Hetaraka Taniora; Mane (not Moana) and Taitimu (not Taehinu) Arama Taniora. \"Mori Mane Tarapatiki\" on the 1957 list = \"Maori Moana Tarapatiki\" on the schedule."
  },
  {
   "document_id": "PW-3844962",
@@ -3301,7 +7335,7 @@
     "sex": "",
     "age": "",
     "shares": "0.6960",
-    "tupuna_id": "",
+    "tupuna_id": "T105",
     "confidence": "stated",
     "note": "no. 2"
    },
@@ -3461,7 +7495,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0820",
-    "tupuna_id": "",
+    "tupuna_id": "T101",
     "confidence": "stated",
     "note": "no. 18"
    },
@@ -3591,7 +7625,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0820",
-    "tupuna_id": "",
+    "tupuna_id": "T096",
     "confidence": "stated",
     "note": "no. 31"
    },
@@ -3601,7 +7635,7 @@
     "sex": "",
     "age": "",
     "shares": "0.5710",
-    "tupuna_id": "",
+    "tupuna_id": "T093",
     "confidence": "stated",
     "note": "no. 32"
    },
@@ -3651,7 +7685,7 @@
     "sex": "",
     "age": "",
     "shares": "0.6960",
-    "tupuna_id": "",
+    "tupuna_id": "T108",
     "confidence": "stated",
     "note": "no. 37"
    },
@@ -3661,7 +7695,7 @@
     "sex": "",
     "age": "",
     "shares": "0.2860",
-    "tupuna_id": "",
+    "tupuna_id": "T114",
     "confidence": "stated",
     "note": "no. 38"
    },
@@ -3731,7 +7765,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0870",
-    "tupuna_id": "",
+    "tupuna_id": "T129",
     "confidence": "stated",
     "note": "no. 45"
    },
@@ -3741,7 +7775,7 @@
     "sex": "",
     "age": "",
     "shares": "0.6960",
-    "tupuna_id": "",
+    "tupuna_id": "T104",
     "confidence": "stated",
     "note": "no. 46"
    },
@@ -3751,7 +7785,7 @@
     "sex": "",
     "age": "",
     "shares": "0.1430",
-    "tupuna_id": "",
+    "tupuna_id": "T113",
     "confidence": "stated",
     "note": "no. 47"
    },
@@ -3761,7 +7795,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0820",
-    "tupuna_id": "",
+    "tupuna_id": "T098",
     "confidence": "stated",
     "note": "no. 48"
    },
@@ -3791,7 +7825,7 @@
     "sex": "",
     "age": "",
     "shares": "0.6960",
-    "tupuna_id": "",
+    "tupuna_id": "T106",
     "confidence": "stated",
     "note": "no. 51"
    },
@@ -3811,7 +7845,7 @@
     "sex": "",
     "age": "",
     "shares": "4.5710",
-    "tupuna_id": "",
+    "tupuna_id": "T092",
     "confidence": "stated",
     "note": "no. 53"
    },
@@ -3821,7 +7855,7 @@
     "sex": "",
     "age": "",
     "shares": "0.6960",
-    "tupuna_id": "",
+    "tupuna_id": "T109",
     "confidence": "stated",
     "note": "no. 54"
    },
@@ -3861,7 +7895,7 @@
     "sex": "",
     "age": "",
     "shares": "1.2180",
-    "tupuna_id": "",
+    "tupuna_id": "T133",
     "confidence": "stated",
     "note": "no. 58"
    },
@@ -3871,7 +7905,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0870",
-    "tupuna_id": "",
+    "tupuna_id": "T125",
     "confidence": "stated",
     "note": "no. 59"
    },
@@ -3931,7 +7965,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0820",
-    "tupuna_id": "",
+    "tupuna_id": "T099",
     "confidence": "stated",
     "note": "no. 65"
    },
@@ -3941,7 +7975,7 @@
     "sex": "",
     "age": "",
     "shares": "0.0820",
-    "tupuna_id": "",
+    "tupuna_id": "T100",
     "confidence": "stated",
     "note": "no. 66"
    },
@@ -3951,7 +7985,7 @@
     "sex": "",
     "age": "",
     "shares": "0.1430",
-    "tupuna_id": "",
+    "tupuna_id": "T111",
     "confidence": "stated",
     "note": "no. 67"
    },
@@ -3981,7 +8015,7 @@
     "sex": "",
     "age": "",
     "shares": "0.2860",
-    "tupuna_id": "",
+    "tupuna_id": "T115",
     "confidence": "stated",
     "note": "no. 70"
    },
@@ -9787,14 +13821,18 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Owhata",
-  "title": "List of owners — Owhata (Pātaka Whenua doc 1280290)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Owhata C — memorial schedule / schedule of ownership orders 1980–1990s: Rirena Rihari Matiu (Mrs Arama) to her eight children (1981); Arapeta Peri Paraihe (1982)",
+  "blocks_recorded": [
+   "Owhata C"
+  ],
+  "block_ids": [
+   "30779"
+  ],
+  "record_date": "c. 1980–1995",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "AT 12/360; RW 3/213, 241; KT 11/246; AT 14/345; AT(S) 1/160",
   "pages": 15,
   "page_range": "",
   "file_name": "00788660_01280290_0001_0015_LHO_Document-1280290 (1).pdf",
@@ -9802,10 +13840,251 @@
   "file_size": 3486874,
   "url": "https://drive.google.com/file/d/1rVjcYnLVhsCTVJ5-_6vINKAAamO9jZiv/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Fifteen pages (file 2088/5, \"9253\"): the compiled list of the ~190 owners of Owhata C (12.1700 ha, 37.500 shares) with strike-throughs, followed by the schedule of ownership orders, entries 111–190s (1980 onward). Whānau entries: \"RIRENA RIHARI MATIU (MRS ARAMA)\", list no. 77, 2.350 shares → 20 Oct 1981 (AT 12/360, 78A/67) to Lucy Nicholas, Michael, Makura, Graham, Andrew, Ken Arama, Hannah Wano and Charlie Arama, .293/.294 each — the same eight as in Rotokakahi A3B1B1B, in the third block in which Rirena's succession is recorded; \"ALBERT PERI or ARAPETA PERI PARAIHE\", list no. 1, .320 → 1982 via the Public Trustee to the nine Peri (Paraihe) children; \"Rikihana Hemara Peri or Dick Peri\" (4.400) → 1985 to Mabel Kathleen Peri for life, remainder to twelve Perry/Peri children (a separate Peri line). Owhata C is the successor title to the Owhata B named in the 1936 minute for Peri Paraihe's interest — Rirena's 2.350 here descends from her 1/15 of Peri Paraihe plus later exchanges/successions.",
+  "names": [
+   {
+    "name": "Albert Peri or Arapeta Peri Paraihe",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": ".320",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "compiled list no. 1 (struck → 120); RW 3/213; 81/67; 21.7.82 → no. 120 Public Trustee as administrator; RW 3/241, 81A/67, 16.8.82 → nos 121–129 (.036/.035 each)"
+   },
+   {
+    "name": "Public Trustee",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": ".320",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 120, administrator of the estate of Arapeta Peri Paraihe, 1982"
+   },
+   {
+    "name": "Henry Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".036",
+    "tupuna_id": "T071",
+    "confidence": "stated",
+    "note": "no. 121"
+   },
+   {
+    "name": "Richard Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".036",
+    "tupuna_id": "T072",
+    "confidence": "stated",
+    "note": "no. 122"
+   },
+   {
+    "name": "Frances Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".036",
+    "tupuna_id": "T073",
+    "confidence": "stated",
+    "note": "no. 123"
+   },
+   {
+    "name": "Wiremu Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".036",
+    "tupuna_id": "T074",
+    "confidence": "stated",
+    "note": "no. 124"
+   },
+   {
+    "name": "Jane Takurua",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".036",
+    "tupuna_id": "T075",
+    "confidence": "stated",
+    "note": "no. 125"
+   },
+   {
+    "name": "Annette Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".035",
+    "tupuna_id": "T076",
+    "confidence": "stated",
+    "note": "no. 126"
+   },
+   {
+    "name": "Alfred Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".035",
+    "tupuna_id": "T077",
+    "confidence": "stated",
+    "note": "no. 127"
+   },
+   {
+    "name": "Anthony Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".035",
+    "tupuna_id": "T078",
+    "confidence": "stated",
+    "note": "no. 128 (p.7)"
+   },
+   {
+    "name": "John Peri (Paraihe)",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".035",
+    "tupuna_id": "T079",
+    "confidence": "stated",
+    "note": "no. 129 (p.7)"
+   },
+   {
+    "name": "Rirena Rihari Matiu (Mrs Arama)",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "2.350",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "list no. 77; AT 12/360; order 78A/67; 20.10.81 → nos 111–118 equally"
+   },
+   {
+    "name": "Lucy Nicholas",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": ".293",
+    "tupuna_id": "T064",
+    "confidence": "stated",
+    "note": "no. 111"
+   },
+   {
+    "name": "Michael Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".293",
+    "tupuna_id": "T143",
+    "confidence": "stated",
+    "note": "no. 112"
+   },
+   {
+    "name": "Makura Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T065",
+    "confidence": "stated",
+    "note": "no. 113, struck → 181"
+   },
+   {
+    "name": "Graham Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T144",
+    "confidence": "stated",
+    "note": "no. 114"
+   },
+   {
+    "name": "Andrew Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T145",
+    "confidence": "stated",
+    "note": "no. 115"
+   },
+   {
+    "name": "Ken Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T146",
+    "confidence": "stated",
+    "note": "no. 116"
+   },
+   {
+    "name": "Hannah Wano",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T066",
+    "confidence": "stated",
+    "note": "no. 117"
+   },
+   {
+    "name": "Charlie Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": ".294",
+    "tupuna_id": "T067",
+    "confidence": "stated",
+    "note": "no. 118"
+   },
+   {
+    "name": "Timoti Herepete or Herepete",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.7: list 86; AT 14/345; 213/53; 21.2.83 → no. 130 Kawiri Timoti Herbert, solely (.209)"
+   },
+   {
+    "name": "Te Kirimate Herepete or Kirimate Tipene or Mona Herepete",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.7: list 25; 21.2.83 → no. 131 Kawiri Timoti Herbert (.209; total .418)"
+   },
+   {
+    "name": "Rikihana Hemara Peri or Dick Peri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "4.400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.8: list 76; AT(S) 1/160; 78A/67; 23.7.85 → no. 136 Mabel Kathleen Peri for a life interest, remainder equally to Margaret Bowie, Turiwhaka Perry, William Hemara Perry, Timothy Perry, Annette Ellen Collier, Thomas Perry, Joseph Perry, Mary Kathleen Hemara, Bernard Anthony Perry, Rachel Perry, Helen Edith Bryant, Paul Perry (.339 / .338 each) — a further Peri/Perry line in Owhata"
+   },
+   {
+    "name": "Taniora Heke",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "",
+    "shares": ".002",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list no. 186"
+   }
+  ],
+  "notes": "Compiled list pages 1–5 not transcribed beyond the whānau rows. \"Owhata B\" (1936) → Owhata C mapping inferred from the presence of the Peri Paraihe successors on this title."
  },
  {
   "document_id": "PW-1487280",
@@ -9813,14 +14092,20 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Owhata",
-  "title": "List of owners — Owhata (Pātaka Whenua doc 1487280)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Owhata / Owhata A — schedule of ownership orders 1889–1962: Moengaroa (Paraihe) to the four Paraihe siblings (1889); Peri Paraihe (1936); Hira Amuketi (1940)",
+  "blocks_recorded": [
+   "Owhata",
+   "Owhata A"
+  ],
+  "block_ids": [
+   "30778",
+   "30779"
+  ],
+  "record_date": "1889–1962",
   "effective_date": "",
   "court": "",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "N 10/4; N 32/178; HK 15/261; HK 10A/173, 178-9, 187; HK 31/184",
   "pages": 5,
   "page_range": "",
   "file_name": "00987709_01487280_0001_0005_LHO_Document-1487280.pdf",
@@ -9828,10 +14113,231 @@
   "file_size": 1262587,
   "url": "https://drive.google.com/file/d/1_4KfDIMuQTdyUKBDEm8kf2n_OBQ1tptG/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": ""
+  "status": "transcribed",
+  "summary": "Five pages of the schedule of ownership orders for Owhata / Owhata A (21:0:00, 100.000 shares). The Paraihe line from its earliest record: MOENGAROA (PARAIHE), list no. 11, 9.090 shares → 13 Nov 1889 to Peri Paraihe, Wi Paraihe, Hira Amuketi and Te Hemowai Pirini (2.273/2.272 each) — the four Paraihe siblings, so Moengaroa is their mother (Hone Paraihe's wife) or a sibling; then PERI PARAIHE's 2.273 → 25 Sep 1936 to the nine (Rirena Arama .152 …); HIRA AMUKETI's 2.272 → 13 Aug 1940 to Hamahona, Ani and Mereana Amuketi only; the Okena Peri thirds → Arapeta (\"Albert Peri or Arapeta Peri Paraihe\") 1959; Hone Peri Paraihe → Lila May Perry or Mrs John Klaricich (1.060). Also the Korotu / Pene / te Kopa line (Ehaiama Karanui 1902) and the Ihaka Uruhau te Whata and Hone Paraihe (list 8) successions of 1940 — the Paihia 1D1C families. Owhata B (Peri Paraihe's block in the 1936 minute) is presumably the other partition.",
+  "names": [
+   {
+    "name": "Moengaroa (Paraihe)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "9.090",
+    "tupuna_id": "T147",
+    "confidence": "stated",
+    "note": "list no. 11; M.B. N 10/4(?); S.V.O. 13.11.89 → nos 12–15"
+   },
+   {
+    "name": "Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/4 = 2.273",
+    "tupuna_id": "T021",
+    "confidence": "stated",
+    "note": "no. 12 (1889); deceased — HK 15/261, S.V.O. 25.9.36 → nos 34–42"
+   },
+   {
+    "name": "Wi Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/4 = 2.273",
+    "tupuna_id": "T138",
+    "confidence": "stated",
+    "note": "no. 13 (1889)"
+   },
+   {
+    "name": "Hira Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/4 = 2.272",
+    "tupuna_id": "T135",
+    "confidence": "stated",
+    "note": "no. 14 (1889); deceased — HK 10A/173, S.V.O. 13.8.40 → nos 43–45 Hamahona (.758), Ani (.757), Mereana Amuketi (.757)"
+   },
+   {
+    "name": "Te Hemowai Pirini",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/4 = 2.272",
+    "tupuna_id": "T035",
+    "confidence": "stated",
+    "note": "no. 15 (1889)"
+   },
+   {
+    "name": "Ehaiama Karanui",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list no. 5; N 32/178; S.V.O. 15.1.02 → Pereri te Korotu m 1/2 4.545, Maraea Pene f 1/4 2.273, Kerehi te Kopa m 1/4 2.273 — the Whakakoro F Korotu / Pene / te Kopa people"
+   },
+   {
+    "name": "Rirena Arama",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/15 = .152",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "no. 34, from Peri Paraihe 25.9.36"
+   },
+   {
+    "name": "Tame Rihari Matiu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".152",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "no. 35"
+   },
+   {
+    "name": "Whina Rihari Matiu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".152",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": "no. 36"
+   },
+   {
+    "name": "Ria Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/5 = .454",
+    "tupuna_id": "T024",
+    "confidence": "stated",
+    "note": "no. 37"
+   },
+   {
+    "name": "Hone Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".454",
+    "tupuna_id": "T027",
+    "confidence": "stated",
+    "note": "no. 38; deceased — → no. 82 \"Lila May Perry or Mrs John Klaricich\" f., solely, 1.060 (page 5; transferor header cut off)"
+   },
+   {
+    "name": "Rawiri Okena Peri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".152",
+    "tupuna_id": "T031",
+    "confidence": "stated",
+    "note": "no. 39"
+   },
+   {
+    "name": "Ngarimu Okena Peri",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".152",
+    "tupuna_id": "T032",
+    "confidence": "stated",
+    "note": "no. 40"
+   },
+   {
+    "name": "Hone Okena Peri",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".151",
+    "tupuna_id": "T033",
+    "confidence": "stated",
+    "note": "no. 41"
+   },
+   {
+    "name": "Arapeta Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".454",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "no. 42; + .455 from nos 39–41 (HK 31/184, S.V.O. 21.10.59) → no. 83 \"Albert Peri or Arapeta Peri Paraihe\" 1.515 total"
+   },
+   {
+    "name": "Hamahona Amuketi",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": ".758",
+    "tupuna_id": "T037",
+    "confidence": "stated",
+    "note": "no. 43, from Hira Amuketi 13.8.40"
+   },
+   {
+    "name": "Ani Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".757",
+    "tupuna_id": "T036",
+    "confidence": "stated",
+    "note": "no. 44"
+   },
+   {
+    "name": "Mereana Amuketi",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": ".757",
+    "tupuna_id": "T038",
+    "confidence": "stated",
+    "note": "no. 45 — only three Amuketi in 1940 (Rirena and Pio not named)"
+   },
+   {
+    "name": "Ihaka Uruhau te Whata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 32; HK 10A/187; 13.8.40 → Manuera Ihaka Uruhau, Rimini(?), Pere te Hira Tukino (1/4 each), Emeri Haimona Paraihe, Winika, Wikitorini (1/12 each) — the Paihia 1D1C people"
+   },
+   {
+    "name": "Hone Paraihe (list 8)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "9.091",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/178-9; 13.8.40 → no. 52 Mereana Hone Paraihe f 1/3 3.030 … — a Hone Paraihe succeeded in 1940: not the Hone Paraihe (d. before 1914) of Whakakoro F4 unless this is a late succession; more likely the Paihia 1D1C \"Haimona Paraihe\" line"
+   },
+   {
+    "name": "Lila May Perry or Mrs John Klaricich",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1.060",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82, sole successor, page 5 — cf. Robert James Perry, Hone Peri Paraihe's successor in Whakakoro F4"
+   },
+   {
+    "name": "Albert Peri or Arapeta Peri Paraihe",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1.515",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "no. 83; S.V.O. 21.10.59 (HK 31/184, 3 orders) from Rawiri, Ngarimu and Hone Okena Peri"
+   }
+  ],
+  "notes": "Owhata A and C are the 2017 titles; Owhata B not in the dataset. Page 2 and page 4 entries not fully read. Lila May Perry's transferor header is cut off at the top of page 5 — assumed Hone Peri Paraihe (cf. Robert James Perry)."
  },
  {
   "document_id": "PW-1487772",
@@ -9839,10 +14345,16 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Owhata",
-  "title": "List of owners — Owhata (Pātaka Whenua doc 1487772)",
-  "blocks_recorded": [],
-  "block_ids": [],
-  "record_date": "",
+  "title": "Owhata / Owhata A — schedule of successors 1916–1937 (Henare Keepa; Hemi Neri / Johnson purchases)",
+  "blocks_recorded": [
+   "Owhata",
+   "Owhata A"
+  ],
+  "block_ids": [
+   "30778",
+   "30779"
+  ],
+  "record_date": "1916–1937",
   "effective_date": "",
   "court": "",
   "judge": "",
@@ -9854,9 +14366,60 @@
   "file_size": 262216,
   "url": "https://drive.google.com/file/d/1i34zPFnH1TNe99ed3R31k1hvgjqyuk-f/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
+  "status": "transcribed",
+  "summary": "One Form 16 \"Schedule — Successors\" page for Owhata / Owhata A: Henare Keepa (1916) to the Tame Reo and Hemi Neri boys; Romana Hemi Neri (d. 1920) to Desmond James Rowe Johnson (1928); purchases by Hikuwai Hemi Neri 1936–37. No whānau names.",
+  "names": [
+   {
+    "name": "Henare Keepa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Owhata: 29.11.16 → Hemi Tame Reo m 15, Tiuni Tame Reo m 9 (balance equally), Romana Hemi Neri m 17 (1 acre), Te Toru Hemi Neri m 15 (1 acre); trustees Meta Wepiha for 1–2, Hura Hemi for 3–4; \"see new trustee order dated 26/11/20\""
+   },
+   {
+    "name": "Romana Hemi Neri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Owhata A: (2.6.20) 2.10.28 → Desmond James Rowe Johnson m 8, solely; trustee Hura Hemi"
+   },
+   {
+    "name": "Desmond J. R. Johnson",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "16.10.36 → Hikuwai Hemi Neri (by purchase)"
+   },
+   {
+    "name": "Te Toru Hemi Neri",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "23.8.37 → Hikuwai Hemi Neri (by purchase)"
+   },
+   {
+    "name": "Hikuwai Hemi Neri",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": ""
+   }
+  ],
   "notes": ""
  }
 ]

@@ -5,8 +5,8 @@
   "title": "Rirena Arama's Whakakoro F4 shares: 2.178 in 1936 but 6.534 by c. 1988",
   "side_a": "Succession schedule (doc 1517478): Rirena Arama took 1/15 = 2.178 shares of Peri Paraihe's 32.667 in 1936",
   "side_b": "Owner list c. 1988 (doc 1279748): \"Rirena Rihari Matiu (Mrs Arama)\" 6.534 shares; also 6.534 shares on the current title (S06)",
-  "hypothesis": "6.534 = 3 × 2.178: Rirena later succeeded to the shares of her brother Tame and sister Whina Rihari Matiu (both presumably died without issue after 1960). Look for succession orders to Tame and Whina Rihari Matiu, 1960–1988, in Whakakoro F4 (and the other Peri Paraihe blocks).",
-  "status": "open",
+  "hypothesis": "6.534 = 3 × 2.178: Rirena later succeeded to the shares of her brother Tame and sister Whina Rihari Matiu (both presumably died without issue after 1960). Look for succession orders to Tame and Whina Rihari Matiu, 1960–1988, in Whakakoro F4 (and the other Peri Paraihe blocks). SUPPORT: in Rotokakahi A3B1B1B Whina's whole share passed solely to Rirena on 9 Nov 1970 (doc 1279339, KT 6/315). A parallel order for Tame (alias Manuera Rihari Matiu) has not yet been seen.",
+  "status": "working",
   "note": "Inference from share arithmetic only.",
   "opened": "2026-09-27"
  },
@@ -30,6 +30,39 @@
   "hypothesis": "Resolved as a reading error. Tura Wiremu succeeded to her father Hāre Hongi Hika in Waihapa (27.2.90, with Rongo Kahira, Mereana Paora, Rati Pona, Wini Tuta, Huia Miriama, Arihia Hemi, Poni Rewharewha) and Otangaroa No 1 (28.2.90, with Rongo Kahira, Mereana Paora, Rati Poni, Wini Tuta, Meti Toetoe). The Otangaroa clerk wrote \"m.\" against her name in error.",
   "status": "resolved",
   "note": "Corrected 2026-09-27 from the Waihapa register.",
+  "opened": "2026-09-27"
+ },
+ {
+  "disc_id": "D004",
+  "tupuna_id": "T901",
+  "title": "Two Rirenas: Rirena Arama Taniora (daughter of Arama Taniora, b. c. 1912) and Rirena Theresa Arama née Rihari Matiu (wife of Wiremu Arama, b. c. 1911)",
+  "side_a": "Taupo 23C 1932 (doc 1527268) and 2009 (doc 3844962): \"Rirena Arama Taniora\", f., one of Arama Taniora and Peti Wiremu Tangata's eight children, coming of age 1933",
+  "side_b": "Paihia 1D1E2 and Whakakoro F4: \"Rirena Rihari Matiu or Rirena Arama\" — Rirena Theresa, daughter of Rihari Matiu and Maraea, married Wiremu Arama 1928, d. 1980",
+  "hypothesis": "Two different women, sister-in-law and wife of Wiremu Arama, both recorded as \"Rirena Arama\" in some documents. Any record citing \"Rirena Arama\" without a patronym or block context must be checked against both: interests derived from Taniora Rihari / Arama Taniora belong to Rirena Arama Taniora; interests derived from Peri Paraihe / Rihari Matiu / Matiu Wiripo belong to Rirena Theresa. The 1981 succession to Rirena in Paihia 1D1E2 (a Wiripo-line block) is Rirena Theresa's.",
+  "status": "working",
+  "note": "Case-manager alert — alias collision across two lines.",
+  "opened": "2026-09-27"
+ },
+ {
+  "disc_id": "D005",
+  "tupuna_id": "T021",
+  "title": "Paraihe parents and siblings: Moengaroa (Paraihe, d. by 1889), Wiremu/Wi Paraihe (d. 1891), Mereana Paraihe (d. by 1896), Te Hemowai Pirini — how they fit around Hone Paraihe",
+  "side_a": "Rotokakahi A register (doc 1491535): both succeeded 16.3.96 by Peri Paraihe, Hira Amuketi and Mereana Pirini equally; Owhata A schedule (doc 1487280): Moengaroa (Paraihe) succeeded 13.11.89 by Peri Paraihe, Wi Paraihe, Hira Amuketi and Te Hemowai Pirini equally",
+  "side_b": "Whakakoro F4 schedule (doc 1517478): Hone Paraihe succeeded 28.4.14 by the same three (Hira via her children) — Hone is the father",
+  "hypothesis": "Wi/Wiremu Paraihe was a co-successor in 1889 and himself succeeded by the other three in 1896 — a sibling. Moengaroa (1889) and Mereana Paraihe (1896) were each succeeded by the siblings equally — one is likely the mother (Hone Paraihe's wife), the other possibly a sister, or the same woman under two names. Te Hemowai Pirini (1889) is probably Mereana Pirini (1896, 1914) under another name. Check the 1889 Owhata and 1896 Rotokakahi A minutes.",
+  "status": "open",
+  "note": "Provisional: Moengaroa entered as Hone Paraihe's wife; Wiremu and Mereana Paraihe as his children.",
+  "opened": "2026-09-27"
+ },
+ {
+  "disc_id": "D006",
+  "tupuna_id": "T003",
+  "title": "Taniora Rihari: \"Himi Taniora, d. 1918\" (Tauaki, N66A/100) vs \"Taniora Rihari or Rihari Taniora, d. 1922\" (Taupo 23C, N66A/99) — same person or two brothers?",
+  "side_a": "Tauaki schedule (doc 1526207 p.4): deceased \"Himi Taniora\", N66A/100, 1918; order 29.2.32; 29 successors in sevenths",
+  "side_b": "Taupo 23C schedule (doc 1527268): \"Taniora Rihari or Rihari Taniora\", N66A/99, 1922; same 29 successors; Taupo ownership schedule (doc 1527452) heads the entry \"Himi Taniora Rihari\"",
+  "hypothesis": "Consecutive minute-book entries (N66A/99 and /100) at the same sitting with identical successors point to one person under two recorded names — Himi Taniora Rihari — with the year of death recorded inconsistently (1918 / 1922). Alternatively Himi was a brother who died without issue, his interest going to Taniora Rihari's descendants. Check N66A/99–100.",
+  "status": "open",
+  "note": "Opened from the Tauaki transcription.",
   "opened": "2026-09-27"
  }
 ]
