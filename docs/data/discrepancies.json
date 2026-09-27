@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "disc_id": "D001",
+  "tupuna_id": "T901",
+  "title": "Rirena Arama's Whakakoro F4 shares: 2.178 in 1936 but 6.534 by c. 1988",
+  "side_a": "Succession schedule (doc 1517478): Rirena Arama took 1/15 = 2.178 shares of Peri Paraihe's 32.667 in 1936",
+  "side_b": "Owner list c. 1988 (doc 1279748): \"Rirena Rihari Matiu (Mrs Arama)\" 6.534 shares; also 6.534 shares on the current title (S06)",
+  "hypothesis": "6.534 = 3 × 2.178: Rirena later succeeded to the shares of her brother Tame and sister Whina Rihari Matiu (both presumably died without issue after 1960). Look for succession orders to Tame and Whina Rihari Matiu, 1960–1988, in Whakakoro F4 (and the other Peri Paraihe blocks).",
+  "status": "open",
+  "note": "Inference from share arithmetic only.",
+  "opened": "2026-09-27"
+ },
+ {
+  "disc_id": "D002",
+  "tupuna_id": "T008",
+  "title": "Maraea's children: 1936 whakapapa names Rirena, Tame and Whina only; Paihia 1D1E2 shows Hira and Rata Rihari Matiu as equal owners with Rirena",
+  "side_a": "Minute book 15 HK 261 (doc 1650181), whakapapa supplied 25.9.36: Maraea = Rihari Matiu → Rirena Arama, Tame Rihari Matiu, Whina Rihari Matiu",
+  "side_b": "Paihia 1D1E2 owner list (doc 1284640): Hira Rihari Matui 5.318, Rata Rihari Matui 5.317, Rirena Rihari Matiu or Rirena Arama 5.317 — equal shares; whānau records: Hira's 1913 birth certificate names Maraea as mother",
+  "hypothesis": "The 1936 whakapapa was limited to those succeeding to Peri Paraihe (Maraea's side) — Hira and Rata may have been omitted deliberately, been whāngai, or be children of Rihari Matiu by another mother; alternatively the Paihia 1D1E2 shares came through Rihari Matiu (Wiripo line), not Maraea. Check the Paihia 1D1E2 title order / partition minute for the source of the six 5.317 shares, and the 1936 minute for objections.",
+  "status": "open",
+  "note": "Opened from the Paihia 1D1E2 transcription.",
+  "opened": "2026-09-27"
+ },
+ {
+  "disc_id": "D003",
+  "tupuna_id": "T007",
+  "title": "Tura (Hāre Hongi) and Hare Hongi Hika's 1890 successions — resolved: \"Tura Wiremu\" is named in both Waihapa and Otangaroa",
+  "side_a": "Whānau whakapapa: Tura Wiremu Tangata / Tura Hāre Hongi is a child of Hāre Hongi Hika (T016)",
+  "side_b": "Otangaroa No 1 register (doc 1439296): the third successor, first read as \"Piera Wiremu m.\", is \"Tura Wiremu\" (a stray tick over the T; the Waihapa register, doc 1492723, has \"Tura Wiremu f.\" in the same list of 27.2.90).",
+  "hypothesis": "Resolved as a reading error. Tura Wiremu succeeded to her father Hāre Hongi Hika in Waihapa (27.2.90, with Rongo Kahira, Mereana Paora, Rati Pona, Wini Tuta, Huia Miriama, Arihia Hemi, Poni Rewharewha) and Otangaroa No 1 (28.2.90, with Rongo Kahira, Mereana Paora, Rati Poni, Wini Tuta, Meti Toetoe). The Otangaroa clerk wrote \"m.\" against her name in error.",
+  "status": "resolved",
+  "note": "Corrected 2026-09-27 from the Waihapa register.",
+  "opened": "2026-09-27"
+ }
+]
