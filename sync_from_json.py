@@ -1,7 +1,7 @@
 """
 sync_from_json.py — rebuild the research sheets in the workbook from docs/data/*.json.
 
-The map commits tupuna.json, claims.json and discrepancies.json to the repo directly, so for
+The map commits tupuna.json, claims.json, discrepancies.json and documents.json to the repo directly, so for
 those tables the JSON is the master record and the workbook is a report. Run this after pulling:
 
     python sync_from_json.py [TKM_Iwi_Hapu_Marae_Database.xlsx]
@@ -43,4 +43,9 @@ write("Discrepancy", dc, [[x.get(c,"") for c in dc] for x in disc], [9,10,40,36,
 cc=["claim_id","source_id","subject_type","subject_ref","subject_detail","relationship","object_ref","object_detail","page_url","retrieved","confidence","note"]
 clm = json.loads((D/"claims.json").read_text(encoding="utf-8"))
 write("Claim", cc, [[x.get(c,"") for c in cc] for x in clm], [9,9,11,24,28,16,24,24,44,12,11,40])
+docs = json.loads((D/"documents.json").read_text(encoding="utf-8")) if (D/"documents.json").exists() else []
+doc_c=["document_id","doc_no","type","type_label","folder","title","blocks_recorded","block_ids","record_date","effective_date","court","judge","minute_book","pages","page_range","file_name","drive_id","url","source_id","status","summary","notes"]
+write("Document", doc_c, [[("; ".join(map(str,x.get(c) or [])) if c in ("blocks_recorded","block_ids") else x.get(c,"")) for c in doc_c] for x in docs], [12,10,6,14,12,44,24,16,12,12,28,20,14,7,10,40,30,44,9,14,50,40])
+dn_c=["document_id","name","role","sex","age","shares","tupuna_id","confidence","note"]
+write("Document_Name", dn_c, [[x["document_id"] if c=="document_id" else n.get(c,"") for c in dn_c] for x in docs for n in x.get("names",[])], [12,30,14,6,6,12,10,11,40])
 wb.save(xlsx); print("saved", xlsx)

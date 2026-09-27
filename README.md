@@ -96,12 +96,37 @@ counts and management structures. Blocks can be collected, and a tupuna can be l
 (`location_type` = Block, `location_ref` = block_id) as owner, land interest, lived, born, died or
 buried — owner lists are not public, so these come from your own Pātaka Whenua lookups.
 
+## Court records (ownership schedules) — Records tab
+
+`docs/data/documents.json` indexes every Māori Land Court record held in the whānau Google Drive
+folder **Ownership Schedules** (one sub-folder per block group). The PDFs stay in Drive; the repo
+holds only the index and the transcription. `drive_manifest.json` lists the Drive files and
+`build_documents.py` (re)builds the index from it without touching anything already transcribed.
+Pātaka Whenua exports are named `{batch}_{docId}_{firstPage}_{lastPage}_{TYPE}_Document-{docId}.pdf`
+with TYPE = **ORD** court order, **LHO** list of owners, **MIN** minute book; the document number is
+the citation (source **S07**, Māori Land Court records).
+
+Each record carries: type, date on the record, effective/vesting date, court and judge, minute book,
+the **block(s) exactly as written**, the current 2017 block IDs it has been matched to, a status
+(indexed → partly transcribed → transcribed), a summary, and **every name on the record exactly as
+the clerk wrote it** with role (owner, successor, deceased…), sex, age and shares as recorded, and
+the tupuna it is attributed to. Attributing a name adds that spelling to the tupuna's identities
+and, for owners and successors, an interest in the attached block — both citing the document.
+
+On the map, any block with a tupuna interest or an attached record is drawn in kōwhai (gold) at
+every zoom: solid where a tupuna is recorded on it, dashed where records exist but no name has yet
+been attributed. Click it for the block card, which lists the records, the names on title and the
+**whakapapa from the recorded owners** — each owner and their linked descendants, so a case manager
+can follow the line from the title to the applicant. A tupuna card lists the records naming them,
+with the role and shares as recorded. Identity, event and location forms have a "court record"
+picker so every fact can cite a document in the index.
+
 ## Saving to the repo from the map (person record)
 
 Open the Tupuna tab → **Repo settings**, enter the repository and a fine-grained GitHub token
 (Repository access: this repo only; Permissions → Contents: read and write). The token stays in
-that browser. From then on the map reads `docs/data/tupuna.json`, `claims.json` and
-`discrepancies.json` from the repo on load and commits every change about four seconds after you
+that browser. From then on the map reads `docs/data/tupuna.json`, `claims.json`, `discrepancies.json`
+and `documents.json` from the repo on load and commits every change about four seconds after you
 make it, with a message that says what changed and when — a full audit trail in the git history.
 Without a token the map works as before, but changes stay in the browser.
 

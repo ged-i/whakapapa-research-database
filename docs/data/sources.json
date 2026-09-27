@@ -58,5 +58,15 @@
   "colour": "#8b5a2b",
   "retrieved": "2026-09-17",
   "weight_note": "27,212 Māori freehold and customary land blocks with boundaries, title order, area, owner count, shares and management structure. Static 2017 release; partitions since then are not reflected — check Pātaka Whenua. No owner names (privacy)."
+ },
+ {
+  "source_id": "S07",
+  "name": "Māori Land Court records (Pātaka Whenua)",
+  "type": "Court record",
+  "url": "https://www.xn--morilandcourt-wqb.govt.nz/en/patakawhenua",
+  "licence": "Court record; copies held in whānau Drive folder “Ownership Schedules” — cite by document number",
+  "colour": "#b8407a",
+  "retrieved": "2026-09-27",
+  "weight_note": "Orders, lists of owners and minute-book pages exported from Pātaka Whenua and filed by block. Primary evidence of names as recorded on title, shares and successions. Each document is indexed in documents.json and cited by its Pātaka Whenua document number."
  }
 ]

@@ -222,3 +222,39 @@ ALTER TABLE tupuna_location ADD COLUMN linz_title TEXT;
 ALTER TABLE tupuna_location ADD COLUMN shares TEXT;
 ALTER TABLE tupuna_location ADD COLUMN source_id TEXT REFERENCES source(source_id);
 -- claim.subject_type may also be 'Block' (subject_ref = block_id), e.g. relationship 'has_linz_title'
+
+CREATE TABLE document (                   -- one court record (Pātaka Whenua export or any other document) — the PDF stays in Drive
+  document_id     TEXT PRIMARY KEY,       -- PW-{Pātaka Whenua document number}, or DOC-… for other documents
+  doc_no          TEXT,                   -- Pātaka Whenua document number
+  type            TEXT CHECK (type IN ('ORD','LHO','MIN','URL')),  -- court order / list of owners / minute book / other
+  type_label      TEXT,
+  folder          TEXT,                   -- Drive sub-folder = block group the record was filed under
+  title           TEXT NOT NULL,
+  blocks_recorded TEXT,                   -- block name(s) exactly as written on the document, ';'-separated
+  record_date     TEXT,                   -- date on the document
+  effective_date  TEXT,                   -- e.g. the date an interest vests from (often the date of death)
+  court           TEXT, judge TEXT, minute_book TEXT,
+  pages           INTEGER, page_range TEXT,
+  file_name       TEXT, drive_id TEXT, url TEXT,
+  source_id       TEXT REFERENCES source(source_id),   -- S07 Māori Land Court records
+  status          TEXT CHECK (status IN ('indexed','partly transcribed','transcribed')),
+  summary         TEXT, notes TEXT
+);
+CREATE TABLE document_block (             -- which current (2017) titles a record relates to
+  document_id TEXT REFERENCES document(document_id),
+  block_id    TEXT REFERENCES block(block_id),
+  PRIMARY KEY (document_id, block_id)
+);
+CREATE TABLE document_name (              -- every name on the record exactly as the clerk wrote it, and who we say it is
+  document_id TEXT REFERENCES document(document_id),
+  seq         INTEGER,
+  name        TEXT NOT NULL,
+  role        TEXT,                       -- Owner / Successor / Deceased / Applicant / Trustee / Witness / …
+  sex         TEXT, age TEXT, shares TEXT,
+  tupuna_id   TEXT REFERENCES tupuna(tupuna_id),     -- attribution (may be NULL until resolved)
+  confidence  TEXT CHECK (confidence IN ('stated','inferred','contested')),
+  note        TEXT,
+  PRIMARY KEY (document_id, seq)
+);
+-- tupuna_location, tupuna_identity and tupuna_event each gain a nullable document_id REFERENCES document(document_id)
+-- so that every interest, recorded name and event can cite the record it came from.

@@ -233,6 +233,35 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
 .conf-row .cv span{display:inline-block;border-left:3px solid;padding-left:6px;margin:2px 10px 2px 0}
 .h3s{margin:14px 22px 6px;font-size:13px;font-weight:600;color:var(--mist)}
 
+/* records (court documents) */
+#panel[data-tab="records"] .search,#panel[data-tab="records"] .filters,#panel[data-tab="records"] .status,#panel[data-tab="records"] #results,#panel[data-tab="records"] #summary,#panel[data-tab="records"] .chipbar,#panel[data-tab="records"] #tupunaView,#panel[data-tab="records"] #sourcesView,#panel[data-tab="records"] .whenua-find{display:none}
+#panel:not([data-tab="records"]) #recordsView{display:none}
+#recordsView{flex:1;overflow-y:auto;scrollbar-color:var(--ink-3) transparent;display:flex;flex-direction:column}
+.dbadge{flex:none;display:inline-block;min-width:38px;text-align:center;border-radius:5px;padding:2px 5px;font-size:11px;font-weight:700;letter-spacing:.02em;background:#b8407a;color:#fff;margin-top:2px}
+.dbadge.LHO{background:#7a4fb8} .dbadge.MIN{background:#4f7ab8} .dbadge.URL{background:var(--ink-3);color:var(--bone)}
+.docrow{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--ink-3)}
+.docrow:first-of-type{border-top:0}
+.docrow .lbody{flex:1;min-width:0}
+.docrow .lref button,.tlink{background:none;border:0;color:var(--bone);font:inherit;font-weight:600;padding:0;cursor:pointer;text-align:left;line-height:1.3}
+.docrow .lref button:hover,.tlink:hover{color:var(--kowhai)}
+.docrow .lmeta{color:var(--mist);font-size:12px}
+.docrow a.x{text-decoration:none;font-size:15px}
+.rgroup .docrow{padding-left:22px;padding-right:22px}
+.dstat{display:inline-block;border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;vertical-align:middle}
+.dstat.indexed{background:var(--ink-3);color:var(--mist)} .dstat.partly{background:var(--kowhai);color:var(--ink)} .dstat.transcribed{background:var(--pounamu);color:#fff}
+.names{width:100%;border-collapse:collapse;font-size:13px;margin-top:4px}
+.names th{color:var(--mist);font-weight:500;text-align:left;font-size:11px;padding:2px 4px;border-bottom:1px solid var(--ink-3)}
+.names td{padding:5px 4px;border-bottom:1px solid var(--ink-3);vertical-align:top}
+.names td.nm{font-family:var(--serif);font-weight:600;font-size:14px}
+.names select{width:100%;max-width:170px;padding:3px 5px;border-radius:6px;border:1px solid var(--ink-3);background:var(--ink-2);color:var(--bone);font-size:12px}
+.names select.unset{color:var(--mist)}
+.names .x{background:none;border:0;color:var(--muted);cursor:pointer;padding:0 3px;font-size:14px}
+.names .x:hover{color:var(--kokowai-soft)}
+.descent{margin:6px 0 10px;padding:8px 10px;border-radius:8px;background:var(--ink-2)}
+.descent .dline{padding:2px 0;font-size:13px}
+.descent .dline b{font-family:var(--serif);font-size:15px}
+.leaflet-interactive.intdot{cursor:pointer}
+
 /* ---------- map ---------- */
 #map{flex:1;height:100%;background:#dfe6e2}
 .leaflet-container{font-family:var(--sans)}
@@ -294,6 +323,7 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
   <div class="tabs" role="tablist">
     <button id="tabMarae" class="on" role="tab" onclick="setTab('marae')">Marae</button>
     <button id="tabTupuna" role="tab" onclick="setTab('tupuna')">Tupuna</button>
+    <button id="tabRecords" role="tab" onclick="setTab('records')">Records</button>
     <button id="tabSources" role="tab" onclick="setTab('sources')">Sources</button>
   </div>
 
@@ -332,6 +362,16 @@ form.f .actions{display:flex;gap:8px;margin-top:4px}
     </div>
     <div id="tupunaBody"></div>
     <div class="storenote">With repo settings connected, every change is committed to GitHub automatically. Without them, changes stay in this browser only — export JSON to keep them. <button onclick="resetStore()">Reload from repo</button></div>
+  </div>
+  <div id="recordsView">
+    <div class="tbar">
+      <button class="btn" onclick="newDocForm(null)">Add a record</button>
+      <button class="btn quiet" onclick="download('documents.json', JSON.stringify(documents,null,1), 'application/json')">Export JSON</button>
+      <button class="btn quiet" onclick="exportDocsCsv()">Export CSV</button>
+    </div>
+    <div id="newDocHost"></div>
+    <div id="recordsBody"></div>
+    <div class="storenote">Court records are indexed in <code>docs/data/documents.json</code>; the PDFs stay in the whānau Drive folder “Ownership Schedules”. Attach a record to a block and attribute the names on it to tupuna — every attribution is a citation a case manager can open.</div>
   </div>
   <div id="sourcesView">
     <div class="tbar">
@@ -389,6 +429,9 @@ const STORE='wrd.tupuna.v1'; let tupuna=[]; let selectedTupuna=null; let tupunaL
 let pickCb=null; const tupColl=new Set(); let discrepancies=[]; // whakapapa collection of tupuna_ids
 // provenance
 const CSTORE='wrd.claims.v1'; let sources=[], claims=[], sourceOn={}; const claimLayer=L.layerGroup();
+// court records (documents) — index of the Pātaka Whenua exports in the Drive folder, plus any URL the user adds
+const DSTORE='wrd.docs.v1'; let documents=[]; const interestLayer=L.layerGroup(); const DOC_TYPES={ORD:'Court order',LHO:'List of owners',MIN:'Minute book',URL:'Other document'};
+const NAME_ROLES=['Owner','Successor','Deceased','Applicant','Trustee','Witness','Vendor / transferor','Purchaser / transferee','Mentioned','Other'];
 const RELS={has_hapu:'hapū',belongs_to_iwi:'belongs to iwi',has_waka:'waka',alias_of:'also known as',located_at:'located at',other:'note'};
 
 // ---------- map ----------
@@ -397,7 +440,7 @@ map.zoomControl.setPosition('bottomright');
 const light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'});
 const labels = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png',{maxZoom:19,pane:'shadowPane'});
 const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri'});
-sat.addTo(map); labels.addTo(map); roheLayer.addTo(map); blockLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map); blockHiLayer.addTo(map);
+sat.addTo(map); labels.addTo(map); roheLayer.addTo(map); blockLayer.addTo(map); interestLayer.addTo(map); tupunaLayer.addTo(map); tupunaMaraeLayer.addTo(map); claimLayer.addTo(map); blockHiLayer.addTo(map);
 document.getElementById('bmLight').onclick = e=>{map.removeLayer(sat);light.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmSat').onclick   = e=>{map.removeLayer(light);sat.addTo(map);labels.addTo(map);toggleBm(e.target)};
 document.getElementById('bmWhenua').onclick = e=>{ whenuaOn=!whenuaOn; e.target.classList.toggle('on',whenuaOn); document.getElementById('whenuaFind').hidden=!whenuaOn; if(whenuaOn&&!blockIndex) loadBlockIndex(); updateWhenua(); };
@@ -427,15 +470,17 @@ async function fetchAll(url, params){
 
 async function init(){
   try{
-    const [iwiJ, regJ, marae, tupJ, srcJ, clmJ, aliJ] = await Promise.all([
+    const [iwiJ, regJ, marae, tupJ, srcJ, clmJ, aliJ, docJ] = await Promise.all([
       fetch('data/iwi.json').then(r=>r.json()).catch(()=>[]),
       fetch('data/regions.json').then(r=>r.json()).catch(()=>({})),
       fetchAll(MARAE_URL,{where:'1=1', outFields:'*', outSR:4326}),
       fetch('data/tupuna.json').then(r=>r.json()).catch(()=>[]),
       fetch('data/sources.json').then(r=>r.json()).catch(()=>[]),
       fetch('data/claims.json').then(r=>r.json()).catch(()=>[]),
-      fetch('data/hapu_aliases.json').then(r=>r.json()).catch(()=>[])
+      fetch('data/hapu_aliases.json').then(r=>r.json()).catch(()=>[]),
+      fetch('data/documents.json').then(r=>r.json()).catch(()=>[])
     ]);
+    try{ const ld=localStorage.getItem(DSTORE); documents=(ld && localStorage.getItem(STORE+'.unsynced')==='1') ? JSON.parse(ld) : docJ; }catch{ documents=docJ; } window._repoDocs=docJ;
     window._aliases=aliJ; aliJ.forEach(a=>hapuAliasMap.set(fold(a.alias), fold(a.canonical_name)));
     fetch('data/blocks/districts.json').then(r=>r.json()).then(j=>{ blockDistricts=j; if(j['te-waipounamu']) j['te-waipounamu'].bbox=[-47.4,166,-40.5,184]; }).catch(()=>{});
     sources=srcJ; sources.forEach(x=>sourceOn[x.source_id]=true);
@@ -457,6 +502,7 @@ async function init(){
     });
     buildNameIndex(); indexClaims(); buildFilters(); render(); renderTupuna(); renderSources();
     document.getElementById('loading').classList.add('hide');
+    loadBlockIndex().then(()=>drawInterestBlocks());
   }catch(err){
     document.getElementById('loading').innerHTML = `<div class="errbox"><strong>The marae layer didn't load.</strong><br>${esc(err.message)}. Te Puni Kōkiri's ArcGIS service may be briefly unavailable.<br><button onclick="location.reload()">Try again</button></div>`;
   }
@@ -816,7 +862,7 @@ const b64e=str=>btoa(unescape(encodeURIComponent(str))), b64d=str=>decodeURIComp
 async function ghRead(file){ const j=await ghApi(`contents/docs/data/${file}?ref=${encodeURIComponent(gh.branch)}&t=${Date.now()}`); shas[file]=j.sha; if(j.content){ return JSON.parse(b64d(j.content)); } const blob=await ghApi(`git/blobs/${j.sha}`); return JSON.parse(b64d(blob.content)); }
 const stripInternal=(k,v)=>(typeof k==='string'&&k.startsWith('_'))?undefined:v;
 async function ghWrite(file, obj, message){ const body={message,content:b64e(JSON.stringify(obj,stripInternal,1)),branch:gh.branch}; if(shas[file]) body.sha=shas[file]; try{ const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify(body)}); shas[file]=j.content.sha; }catch(e){ if(/409|422/.test(e.message)){ await ghRead(file); const j=await ghApi(`contents/docs/data/${file}`,{method:'PUT',body:JSON.stringify({...body,sha:shas[file]})}); shas[file]=j.content.sha; } else throw e; } }
-const FILES={tupuna:()=>tupuna, claims:()=>claims, discrepancies:()=>discrepancies}; const ver={tupuna:0,claims:0,discrepancies:0};
+const FILES={tupuna:()=>tupuna, claims:()=>claims, discrepancies:()=>discrepancies, documents:()=>documents}; const ver={tupuna:0,claims:0,discrepancies:0,documents:0};
 let lastMsg='';
 function markDirty(file, msg){ dirty.add(file); ver[file]=(ver[file]||0)+1; if(msg) lastMsg=msg; if(ghOk()&&gh.autosave){ setSync('dirty','Unsaved change — saving shortly'); clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),4000); } else if(ghOk()){ setSync('dirty','Unsaved changes — press Save now'); } else { setSync('dirty','Unsaved — browser only (connect repo settings)'); } }
 window.commitAll=async function(msg){ if(!ghOk()||!dirty.size||syncBusy) return; syncBusy=true; clearTimeout(syncTimer); setSync('busy','Saving to repo…');
@@ -825,8 +871,8 @@ window.commitAll=async function(msg){ if(!ghOk()||!dirty.size||syncBusy) return;
   syncBusy=false; if(dirty.size){ clearTimeout(syncTimer); syncTimer=setTimeout(()=>commitAll(lastMsg),1500); } };
 async function repoLoad(){ // read the live record from the repo; falls back to Pages copy / browser
   loadGh(); if(!ghOk()){ setSync('', 'Showing the repo (read-only here) — connect repo settings to save changes'); return false; }
-  try{ setSync('busy','Reading repo…'); const [t,c,d]=await Promise.all([ghRead('tupuna.json'),ghRead('claims.json'),ghRead('discrepancies.json').catch(()=>[])]);
-    tupuna=normalizeTupuna(t); claims=c; discrepancies=d; window._repoTupuna=t; window._repoClaims=c; dirty.clear(); setSync('ok','In sync with repo'); return true; }
+  try{ setSync('busy','Reading repo…'); const [t,c,d,dd]=await Promise.all([ghRead('tupuna.json'),ghRead('claims.json'),ghRead('discrepancies.json').catch(()=>[]),ghRead('documents.json').catch(()=>null)]);
+    tupuna=normalizeTupuna(t); claims=c; discrepancies=d; if(dd) documents=dd; window._repoTupuna=t; window._repoClaims=c; window._repoDocs=dd||window._repoDocs; dirty.clear(); setSync('ok','In sync with repo'); return true; }
   catch(e){ setSync('err','Repo read failed — '+e.message.slice(0,80)); return false; }
 }
 window.toggleSettings=function(){ const el=document.getElementById('settings'); el.hidden=!el.hidden; if(!el.hidden) renderSettings(); };
@@ -837,7 +883,7 @@ function renderSettings(){ loadGh(); document.getElementById('settings').innerHT
   <div class="actions"><button class="btn small" type="submit">Connect</button><button class="btn quiet small" type="button" onclick="gh.token='';localStorage.setItem(GH_KEY,JSON.stringify(gh));renderSettings();setSync('','Disconnected')">Forget token</button></div>
   <div class="hint">The token is kept in this browser only, never in the repo. Make one at github.com/settings/personal-access-tokens (Repository access: only this repo; Permissions → Contents: Read and write). Anyone with this browser profile can then commit.</div></form>`; }
 window.saveSettings=async function(e){ e.preventDefault(); const fd=new FormData(e.target); gh={owner:fd.get('owner').trim(),repo:fd.get('repo').trim(),branch:fd.get('branch').trim()||'main',token:fd.get('token').trim(),autosave:fd.get('autosave')==='1'}; localStorage.setItem(GH_KEY,JSON.stringify(gh));
-  window._browserTupuna = normalizeTupuna(JSON.parse(JSON.stringify(tupuna))); const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); checkBrowserExtras(); } return false; };
+  window._browserTupuna = normalizeTupuna(JSON.parse(JSON.stringify(tupuna))); const ok=await repoLoad(); if(ok){ document.getElementById('settings').hidden=true; indexClaims(); rebuildWaka(); rebuildHapu(); render(); renderTupuna(); renderSources(); if(tab==='records') renderRecords(); drawInterestBlocks(); checkBrowserExtras(); } return false; };
 window.addEventListener('beforeunload',e=>{ if(dirty.size){ e.preventDefault(); e.returnValue=''; } });
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden'&&dirty.size&&ghOk()&&!syncBusy){ clearTimeout(syncTimer); commitAll(lastMsg); } });
 setInterval(()=>{ if(dirty.size&&ghOk()&&!syncBusy&&!syncTimer){ commitAll(lastMsg); } },30000);
@@ -874,8 +920,11 @@ window.selectBlock=async function(props){ if(pickCb) return;
   const d=document.getElementById('detail'); const panel=document.getElementById('panel'); const id=String(P.id);
   const here=tupuna.filter(t=>t.links.some(l=>l.location_type==='Block'&&String(l.location_ref)===id));
   const opts=tupuna.length?[...tupuna].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${esc(t.tupuna_id)}">${esc(t.name)}</option>`).join(''):'';
+  const bdocs=docsForBlock(id); const namedHere=new Set(); bdocs.forEach(dd=>(dd.names||[]).forEach(n=>{ if(n.tupuna_id) namedHere.add(n.tupuna_id); }));
+  const onRecordOnly=[...namedHere].filter(x=>!here.some(t=>t.tupuna_id===x)).map(tupunaById).filter(Boolean);
   d.innerHTML=`<button class="back" onclick="closeBlock()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>Back to list</button>
     <h2>${esc(P.name||'Block')} <button class="pinbtn ${sel.block.has(id)?'on':''}" data-sel="block" data-val="${esc(id)}" onclick="toggleSel('block','${esc(id)}')">${sel.block.has(id)?'Collected':'Collect'}</button></h2>
+    ${(here.length||bdocs.length)?`<p class="alt" style="color:var(--kowhai);font-style:normal;font-family:var(--sans);font-size:13px">${here.length?`${here.length} tupuna with a recorded interest`:''}${here.length&&bdocs.length?' · ':''}${bdocs.length?`${bdocs.length} court record${bdocs.length===1?'':'s'}`:''}</p>`:''}
     <p class="alt">${esc(P.status||'')}${P.district?` · ${esc(blockDistricts[P.district_key]?.name||P.district)} district`:''}${P.aggregated?' · aggregated block':''}</p>
     <dl class="kv">
       <dt>Block ID</dt><dd>${esc(id)}</dd>
@@ -895,23 +944,33 @@ window.selectBlock=async function(props){ if(pickCb) return;
       ${tupuna.length?`<form class="f" style="margin-top:8px" novalidate onsubmit="return quickLinkBlock(event,'${esc(id)}')"><div class="row2"><label>Tupuna<select name="tid">${opts}</select></label><label>Interest<select name="rel"><option>Owner</option><option>Land interest</option><option>Lived</option><option>Born</option><option>Died</option><option>Buried</option><option>Other</option></select></label></div>
         <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
         <div class="row2"><label>LINZ title reference<input name="linz" placeholder="e.g. 504121"></label><label>Shares<input name="shares" placeholder="e.g. 1 or 3.5"></label></div>
-        <div class="row2"><label>Source<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label><label>Document / note<input name="note" placeholder="Pātaka Whenua owner list, minute book, pānui"></label></div>
+        <div class="row2"><label>Source<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S07'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label><label>Court record<select name="docid" onchange="docPicked(this)"><option value="">— none —</option>${docOptions('',id)}</select></label></div>
+        <label>Note<input name="note" placeholder="e.g. minute book reference, pānui"></label>
         <div class="actions"><button class="btn small" type="submit">Link to this block</button></div></form>`:''}
-    </div>`;
+    </div>
+    <div class="section"><h3>Court records for this block <span class="hint">(${bdocs.length})</span></h3>
+      ${bdocs.length?bdocs.map(dd=>docRow(dd,{block:id})).join(''):'<div class="hint">No record attached yet. Attach one from the index below, or add a new one by URL.</div>'}
+      ${onRecordOnly.length?`<div class="hint" style="margin-top:6px">Also named on these records (no interest link yet): ${onRecordOnly.map(t=>`<button class="tlink" style="font-weight:500;color:var(--pounamu-soft)" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')">${esc(t.name)}</button>`).join(', ')}</div>`:''}
+      <form class="f" style="margin-top:8px" novalidate onsubmit="return attachDocToBlock(event,'${esc(id)}')"><label>Attach a record from the index<select name="did"><option value="">— choose a document —</option>${docOptions('',id,true)}</select></label>
+        <div class="actions"><button class="btn small quiet" type="submit">Attach to this block</button><button class="btn small quiet" type="button" onclick="newDocForm('${esc(id)}')">Add a new record (URL)</button></div></form><div id="newDocHostBlock"></div>
+    </div>
+    ${here.length?`<div class="section"><h3>Whakapapa from the recorded owners</h3><div class="hint" style="margin-bottom:6px">Each recorded owner, then their descendants as linked on the Tupuna tab — the line a case manager follows from the title to the applicant.</div>${here.map(t=>descentHtml(t,id)).join('')}</div>`:''}`;
   d.classList.add('show'); panel.classList.add('detail-mode'); d.scrollTop=0;
 };
 window.closeBlock=function(){ selectedBlock=null; blockHiLayer.clearLayers(); closeDetail(); };
 window.quickLinkBlock=function(e,id){ e.preventDefault(); const fd=new FormData(e.target); const t=tupuna.find(x=>x.tupuna_id===fd.get('tid')); const ix=blockById.get(String(id)); if(!t) return false;
-  const bname=ix?ix.name:(selectedBlock?.properties.name||''); const asrec=(fd.get('asrec')||'').trim(), linz=(fd.get('linz')||'').trim(), srcid=fd.get('srcid')||'', note=(fd.get('note')||'').trim();
-  t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:bname,latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:[srcOf(srcid).name,note].filter(Boolean).join(' — '),as_recorded:asrec,linz_title:linz,shares:(fd.get('shares')||'').trim(),source_id:srcid});
-  if(asrec) ensureIdentity(t, asrec, srcid, `Name on title of ${bname}${linz?` (LINZ ${linz})`:''}${note?` — ${note}`:''}`);
+  const bname=ix?ix.name:(selectedBlock?.properties.name||''); const asrec=(fd.get('asrec')||'').trim(), linz=(fd.get('linz')||'').trim(), srcid=fd.get('srcid')||'', note=(fd.get('note')||'').trim(), docid=fd.get('docid')||''; const dref=docById(docid);
+  t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:String(id),location_detail:bname,latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:fd.get('rel'),notes:'',source:[srcOf(srcid).name,dref?`doc ${dref.doc_no||dref.document_id}`:'',note].filter(Boolean).join(' — '),as_recorded:asrec,linz_title:linz,shares:(fd.get('shares')||'').trim(),source_id:srcid,document_id:docid});
+  if(asrec) ensureIdentity(t, asrec, srcid, `Name on title of ${bname}${linz?` (LINZ ${linz})`:''}${note?` — ${note}`:''}`, docid);
   ensureLinzClaim(id, bname, linz, srcid, note);
-  saveStore(`linked ${shortName(t)} → block ${bname}${asrec?` as "${asrec}"`:''}`); selectBlock({id}); toast('Link saved'); return false; };
+  if(dref){ dref.block_ids=dref.block_ids||[]; if(!dref.block_ids.map(String).includes(String(id))){ dref.block_ids.push(String(id)); } if(asrec&&!(dref.names||[]).some(n=>fold(n.name)===fold(asrec))){ dref.names=dref.names||[]; dref.names.push({name:asrec,role:fd.get('rel')==='Owner'?'Owner':'Mentioned',sex:'',age:'',shares:(fd.get('shares')||'').trim(),tupuna_id:t.tupuna_id,confidence:'stated',note:''}); } saveDocs(`${dref.document_id}: ${shortName(t)} on ${bname}`); }
+  saveStore(`linked ${shortName(t)} → block ${bname}${asrec?` as "${asrec}"`:''}`); selectBlock({id}); drawInterestBlocks(); toast('Link saved'); return false; };
 function blockClaims(id, rel){ return claims.filter(c=>c.subject_type==='Block'&&String(c.subject_ref)===String(id)&&(!rel||c.relationship===rel)&&sourceOn[c.source_id]); }
-function blockByLinz(q){ const c=claims.find(x=>x.subject_type==='Block'&&x.relationship==='has_linz_title'&&norm(x.object_ref)===norm(q)); return c?String(c.subject_ref):null; }
+function blockByLinz(q){ const k=linzKey(q); if(!k) return null; const c=claims.find(x=>x.subject_type==='Block'&&x.relationship==='has_linz_title'&&linzKey(x.object_ref)===k); return c?String(c.subject_ref):null; }
 function namesOnTitle(id){ const out=[]; tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type==='Block'&&String(l.location_ref)===String(id)&&l.as_recorded) out.push({t,l}); })); return out; }
-function ensureIdentity(t, name, source_id, note){ if(!name) return; t.identities=t.identities||[]; if(t.identities.some(x=>fold(x.name)===fold(name))||fold(t.name)===fold(name)) return; t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name,source_id:source_id||'',date:'',document_url:'',note:note||''}); }
-function ensureLinzClaim(blockId, blockName, linz, source_id, note){ if(!linz) return; if(claims.some(c=>c.subject_type==='Block'&&String(c.subject_ref)===String(blockId)&&c.relationship==='has_linz_title'&&norm(c.object_ref)===norm(linz))) return; claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:source_id||'S05',subject_type:'Block',subject_ref:String(blockId),subject_detail:blockName||'',relationship:'has_linz_title',object_ref:linz.trim(),object_detail:'',page_url:'',retrieved:new Date().toISOString().slice(0,10),confidence:'stated',note:note||''}); saveClaims(`LINZ title ${linz} on block ${blockName||blockId}`); indexClaims(); }
+function ensureIdentity(t, name, source_id, note, document_id){ if(!name) return false; t.identities=t.identities||[]; if(t.identities.some(x=>fold(x.name)===fold(name))||fold(t.name)===fold(name)) return false; const d=docById(document_id); t.identities.push({identity_id:nextId('N',t.identities,'identity_id'),name,source_id:source_id||'',date:d?(d.record_date||''):'',document_url:d?d.url:'',document_id:document_id||'',note:note||''}); return true; }
+const linzKey=s=>norm(String(s||'').replace(/^\s*linz\s*/i,'').split(/\s+[—-]\s+/)[0]);
+function ensureLinzClaim(blockId, blockName, linz, source_id, note){ if(!linz) return; if(claims.some(c=>c.subject_type==='Block'&&String(c.subject_ref)===String(blockId)&&c.relationship==='has_linz_title'&&linzKey(c.object_ref)===linzKey(linz))) return; claims.push({claim_id:nextId('C',claims,'claim_id'),source_id:source_id||'S05',subject_type:'Block',subject_ref:String(blockId),subject_detail:blockName||'',relationship:'has_linz_title',object_ref:linz.trim(),object_detail:'',page_url:'',retrieved:new Date().toISOString().slice(0,10),confidence:'stated',note:note||''}); saveClaims(`LINZ title ${linz} on block ${blockName||blockId}`); indexClaims(); }
 // block picker (search index)
 function attachBlockPicker(input,onPick){
   const wrap=document.createElement('div'); wrap.className='picker'; input.parentNode.insertBefore(wrap,input); wrap.append(input);
@@ -938,6 +997,138 @@ async function drawCollectedBlocks(){
   for(const id of sel.block){ const f=await findBlock(id); if(gen!==collGen) return; if(f){ L.geoJSON(f,{style:{color:'#2c6e5c',weight:2,fillColor:'#2c6e5c',fillOpacity:.3}, onEachFeature:(ft,l)=>{ l.bindTooltip(ft.properties.name||'',{className:'blabel',direction:'center'}); l.on('click',()=>selectBlock(ft.properties)); }}).addTo(blockHiLayer); } }
 }
 
+// ================= court records (documents) =================
+function docById(id){ return id?documents.find(d=>d.document_id===id):null; }
+function docLink(id){ const d=docById(id); return d?` · <button class="tlink" style="font-weight:500;color:var(--pounamu-soft);font-size:12px" title="${esc(d.title)}" onclick="showDocument('${esc(d.document_id)}')">record ${esc(d.doc_no||d.document_id)}</button>`:''; }
+function docSelect(name, cur, blockId){ return `<label>Court record (from the index)<select name="${name}" onchange="docPicked(this)"><option value="">— none —</option>${docOptions(cur||'',blockId||'')}</select></label>`; }
+function docsForBlock(id){ id=String(id); return documents.filter(d=>(d.block_ids||[]).map(String).includes(id)); }
+function docCites(t){ const s=new Set(); (t.links||[]).forEach(l=>{ if(l.document_id) s.add(l.document_id); }); (t.identities||[]).forEach(i=>{ if(i.document_id) s.add(i.document_id); }); (t.events||[]).forEach(e=>{ if(e.document_id) s.add(e.document_id); }); return s; }
+function docsForTupuna(t){ const cited=docCites(t); return documents.filter(d=>(d.names||[]).some(n=>n.tupuna_id===t.tupuna_id)||cited.has(d.document_id)); }
+function docTupuna(d){ const s=new Set(); (d.names||[]).forEach(n=>{ if(n.tupuna_id) s.add(n.tupuna_id); }); tupuna.forEach(t=>{ if(docCites(t).has(d.document_id)) s.add(t.tupuna_id); }); return [...s].map(tupunaById).filter(Boolean); }
+function docSort(a,b){ return (a.folder||'').localeCompare(b.folder||'')||(a.record_date||'9999').localeCompare(b.record_date||'9999')||(a.doc_no||'').localeCompare(b.doc_no||''); }
+function docLabel(d){ return `${d.folder?d.folder+' · ':''}${d.type_label||DOC_TYPES[d.type]||d.type}${d.record_date?' '+d.record_date:''}${(d.blocks_recorded||[]).length?' — '+d.blocks_recorded.join(', '):''} (${d.doc_no?'doc '+d.doc_no:d.document_id})`; }
+function docOptions(selId, blockId, onlyUnattached){ const bid=blockId?String(blockId):''; let list=[...documents].sort(docSort); if(onlyUnattached&&bid) list=list.filter(d=>!(d.block_ids||[]).map(String).includes(bid)); const first=bid?list.filter(d=>(d.block_ids||[]).map(String).includes(bid)):[]; const rest=list.filter(d=>!first.includes(d)); const opt=d=>`<option value="${esc(d.document_id)}" ${d.document_id===selId?'selected':''}>${esc(docLabel(d))}</option>`; return (first.length?`<optgroup label="Attached to this block">${first.map(opt).join('')}</optgroup><optgroup label="All records">`:'')+rest.map(opt).join('')+(first.length?'</optgroup>':''); }
+window.docPicked=function(sel){ const d=docById(sel.value); const f=sel.form; if(!f) return; const u=f.querySelector('input[name=doc]'); if(d&&u&&!u.value) u.value=d.url; const dt=f.querySelector('input[name=date]'); if(d&&dt&&!dt.value&&d.record_date) dt.value=d.record_date; };
+function saveDocs(msg){ try{ localStorage.setItem(DSTORE, JSON.stringify(documents)); localStorage.setItem(STORE+'.unsynced','1'); }catch{} markDirty('documents', msg||'update'); }
+function docRow(d,ctx={}){ const mine=ctx.tupuna?(d.names||[]).filter(n=>n.tupuna_id===ctx.tupuna):[]; const named=(d.names||[]).filter(n=>n.tupuna_id).length; const st=(d.status||'indexed').split(' ')[0];
+  return `<div class="docrow"><span class="dbadge ${esc(d.type)}">${esc(d.type)}</span><div class="lbody"><div class="lref"><button onclick="showDocument('${esc(d.document_id)}')">${esc(d.title||docLabel(d))}</button></div><div class="lmeta">${esc([d.record_date, (d.blocks_recorded||[]).join(', ')||d.folder, d.pages?`${d.pages} p.`:'' ].filter(Boolean).join(' · '))} <span class="dstat ${esc(st)}">${esc(d.status||'indexed')}</span>${mine.length?`<br>named as ${mine.map(n=>`“${esc(n.name)}”${n.role?' — '+esc(n.role)+(n.shares?', '+esc(n.shares):''):''}`).join('; ')}`:''}${!ctx.tupuna&&(d.names||[]).length?`<br>${(d.names||[]).length} name${(d.names||[]).length===1?'':'s'} on record, ${named} attributed to tupuna`:''}</div></div><a class="x" href="${esc(d.url)}" target="_blank" rel="noopener" title="Open the PDF">↗</a></div>`; }
+function interestBlocks(){ const M=new Map(); const get=id=>{ id=String(id); if(!M.has(id)) M.set(id,{tupuna:new Set(),docs:[]}); return M.get(id); };
+  tupuna.forEach(t=>t.links.forEach(l=>{ if(l.location_type==='Block'&&l.location_ref) get(l.location_ref).tupuna.add(t.tupuna_id); }));
+  documents.forEach(d=>(d.block_ids||[]).forEach(id=>{ const e=get(id); e.docs.push(d); (d.names||[]).forEach(n=>{ if(n.tupuna_id) e.tupuna.add(n.tupuna_id); }); }));
+  return M; }
+let intGen=0, intTimer=null;
+async function drawInterestBlocks(){ const gen=++intGen; interestLayer.clearLayers(); if(tab==='tupuna'&&activeTupuna().length) return; const M=interestBlocks(); if(!M.size) return; await loadBlockIndex(); if(gen!==intGen) return; const z=map.getZoom(); const vb=map.getBounds().pad(.3);
+  for(const [id,info] of M){ const ix=blockById.get(id); if(!ix) continue; const hasT=info.tupuna.size>0;
+    const names=[...info.tupuna].map(x=>tupunaById(x)).filter(Boolean).map(shortName); const tip=`<b>${esc(ix.name)}</b>${names.length?'<br>'+esc(names.join(', ')):''}<br><span style="color:var(--mist)">${info.docs.length} court record${info.docs.length===1?'':'s'}${hasT?'':' — no tupuna attributed yet'}</span>`;
+    const m=L.circleMarker([ix.lat,ix.lng],{radius:6,color:'#1b2426',weight:1.5,fillColor:'#d9a21b',fillOpacity:hasT?1:.55,className:'intdot'}); m._intDot=true; m._fo=hasT?1:.55; m.bindTooltip(tip,{className:'tlabel',direction:'top',offset:[0,-6]}); m.on('click',()=>selectBlock({id})); m.addTo(interestLayer);
+    // polygons only once the district file is around (or the block is in view at a useful zoom) — keeps first load light
+    if(blockData[ix.district] || (z>=9 && vb.contains([ix.lat,ix.lng]))){ const f=await findBlock(id); if(gen!==intGen) return;
+      if(f) L.geoJSON(f,{style:hasT?{color:'#d9a21b',weight:2,fillColor:'#d9a21b',fillOpacity:.32}:{color:'#d9a21b',weight:2,dashArray:'5 4',fillColor:'#d9a21b',fillOpacity:.12},onEachFeature:(ft,ly)=>{ ly.bindTooltip(tip,{className:'tlabel',sticky:true}); ly.on('click',()=>selectBlock(ft.properties)); }}).addTo(interestLayer); } }
+  intDots(); }
+function intDots(){ const show=map.getZoom()<13; interestLayer.eachLayer(l=>{ if(l._intDot) l.setStyle({opacity:show?1:0, fillOpacity:show?l._fo:0}); }); }
+map.on('zoomend',()=>intDots());
+map.on('moveend',()=>{ if(map.getZoom()<9) return; clearTimeout(intTimer); intTimer=setTimeout(()=>{ const missing=[...interestBlocks().keys()].some(id=>{ const ix=blockById.get(id); return ix&&!blockData[ix.district]&&map.getBounds().pad(.3).contains([ix.lat,ix.lng]); }); if(missing) drawInterestBlocks(); },400); });
+function descentHtml(t, blockId){ const G=kinGraph(); const bid=String(blockId); const own=t.links.filter(l=>l.location_type==='Block'&&String(l.location_ref)===bid);
+  const parents=[...G.parents.get(t.tupuna_id)].map(x=>G.byId.get(x)).filter(Boolean);
+  const head=`<div class="dline"><b><button class="tlink" style="font:inherit" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')">${esc(t.name)}</button></b> <span class="hint">${own.map(l=>[l.as_recorded?`recorded as “${l.as_recorded}”`:'',l.shares?l.shares+' shares':'',l.relationship].filter(Boolean).join(', ')).join('; ')}</span></div>${parents.length?`<div class="dline hint">↑ child of ${parents.map(p=>`<button class="tlink" style="font-weight:500;color:var(--mist)" onclick="setTab('tupuna');selectTupuna('${esc(p.tupuna_id)}')">${esc(p.name)}</button>`).join(' and ')}</div>`:''}`;
+  const rows=[]; const walk=(id,depth,seen)=>{ if(depth>6||seen.has(id)) return; seen.add(id); const sp=[...G.spouses.get(id)]; const {kids,gk}=coupleKids(G,[id,...sp]);
+    const line=(k,dep,tag)=>{ const onTitle=k.links.some(l=>l.location_type==='Block'&&String(l.location_ref)===bid); rows.push(`<div class="dline" style="padding-left:${dep*14}px">↳ <button class="tlink" onclick="setTab('tupuna');selectTupuna('${esc(k.tupuna_id)}')">${esc(k.name)}</button>${[...G.spouses.get(k.tupuna_id)].map(s=>G.byId.get(s)).filter(Boolean).map(s=>` <span class="hint">+ ${esc(shortName(s))}</span>`).join('')}${tag?` <span class="hint">(${tag})</span>`:''}${onTitle?' <span class="conf" title="also recorded on this title">on title</span>':''}</div>`); };
+    kids.sort((a,b)=>yr(a)-yr(b)||a.name.localeCompare(b.name)).forEach(k=>{ line(k,depth,''); walk(k.tupuna_id,depth+1,seen); });
+    gk.sort((a,b)=>yr(a)-yr(b)).forEach(k=>{ line(k,depth+1,'grandchild — intermediate generation not yet entered'); walk(k.tupuna_id,depth+2,seen); }); };
+  walk(t.tupuna_id,1,new Set()); return `<div class="descent">${head}${rows.join('')||'<div class="dline hint" style="padding-left:14px">No descendants linked yet — link children on the Tupuna tab.</div>'}</div>`; }
+// ---- document card ----
+let docBack=null;
+window.showDocument=function(id, from){ const d=docById(id); if(!d) return; if(from) docBack=from; else if(tab==='records') docBack={kind:'records'}; else if(selectedBlock) docBack={kind:'block',id:String(selectedBlock.properties.id)}; else if(selectedTupuna&&tab==='tupuna') docBack={kind:'tupuna',id:selectedTupuna.tupuna_id}; else docBack=null;
+  setTab('marae'); const det=document.getElementById('detail'); const panel=document.getElementById('panel'); if(selected){ const om=markersById.get(selected.id); if(om) om.setStyle(dotStyle); } selected=null;
+  const tOpts=(cur)=>`<option value="">— not attributed —</option>`+[...tupuna].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${esc(t.tupuna_id)}" ${cur===t.tupuna_id?'selected':''}>${esc(t.name)}</option>`).join('');
+  const blocks=(d.block_ids||[]).map(String); const cites=docTupuna(d);
+  const namesHtml=(d.names||[]).length?`<table class="names"><tr><th>Name as written</th><th>Role · shares</th><th>Who this is</th><th></th></tr>${d.names.map((n,i)=>`<tr><td class="nm">${esc(n.name)}${n.sex||n.age?`<div class="hint" style="font-weight:400;font-family:var(--sans)">${esc([n.sex,n.age?'age '+n.age:''].filter(Boolean).join(', '))}</div>`:''}${n.note?`<div class="hint" style="font-weight:400;font-family:var(--sans)">${esc(n.note)}</div>`:''}</td><td>${esc(n.role||'')}${n.shares?`<div class="hint">${esc(n.shares)}</div>`:''}</td><td><select class="${n.tupuna_id?'':'unset'}" onchange="attribName('${esc(d.document_id)}',${i},this.value)">${tOpts(n.tupuna_id)}</select>${n.tupuna_id&&n.confidence&&n.confidence!=='stated'?`<div class="hint">${esc(n.confidence)}</div>`:''}</td><td style="white-space:nowrap"><button class="x" title="Edit" onclick="docNameForm('${esc(d.document_id)}',${i})">✎</button><button class="x" title="Remove" onclick="removeDocName('${esc(d.document_id)}',${i})">×</button></td></tr>`).join('')}</table>`:'<div class="hint">No names transcribed from this record yet.</div>';
+  det.innerHTML=`<button class="back" onclick="docBackNav()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>${docBack?.kind==='block'?'Back to block':(docBack?.kind==='tupuna'?'Back to tupuna':(docBack?.kind==='records'?'Back to records':'Back'))}</button>
+    <div style="display:flex;gap:10px;align-items:flex-start"><span class="dbadge ${esc(d.type)}" style="margin-top:8px">${esc(d.type)}</span><h2 style="font-size:24px">${esc(d.title||docLabel(d))}</h2></div>
+    <p class="alt">${esc(d.type_label||DOC_TYPES[d.type]||d.type)}${d.doc_no?` · Pātaka Whenua document ${esc(d.doc_no)}`:''} · <span class="dstat ${esc((d.status||'indexed').split(' ')[0])}">${esc(d.status||'indexed')}</span></p>
+    <dl class="kv">
+      ${d.record_date?`<dt>Dated</dt><dd>${esc(d.record_date)}</dd>`:''}
+      ${d.effective_date?`<dt>Effective</dt><dd>${esc(d.effective_date)}</dd>`:''}
+      ${d.court||d.judge?`<dt>Court</dt><dd>${esc([d.court,d.judge].filter(Boolean).join(' · '))}</dd>`:''}
+      ${d.minute_book?`<dt>Minute book</dt><dd>${esc(d.minute_book)}</dd>`:''}
+      ${(d.blocks_recorded||[]).length?`<dt>Block as written</dt><dd>${esc(d.blocks_recorded.join('; '))}</dd>`:''}
+      <dt>Filed under</dt><dd>${esc(d.folder||'—')}${d.pages?` · ${d.pages} page${d.pages===1?'':'s'}`:''}${d.page_range?` (${esc(d.page_range)})`:''}</dd>
+      <dt>File</dt><dd><a href="${esc(d.url)}" target="_blank" rel="noopener">Open the PDF ↗</a>${d.file_name?`<div class="hint" style="word-break:break-all">${esc(d.file_name)}</div>`:''}</dd>
+      <dt>Source</dt><dd>${esc(srcOf(d.source_id||'S07').name)}</dd>
+    </dl>
+    ${d.summary?`<p style="margin:0 0 12px">${esc(d.summary)}</p>`:''}
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button class="btn quiet small" onclick="docMetaForm('${esc(d.document_id)}')">Edit details</button><button class="btn quiet small" onclick="deleteDoc('${esc(d.document_id)}')">Remove from index</button></div>
+    <div id="docMetaForm"></div>
+    <div class="section"><h3>Blocks this record relates to</h3>
+      ${blocks.length?blocks.map(b=>{ const ix=blockById.get(b); return `<span class="pill" style="background:#8b5a2b"><button class="tlink" style="font-weight:500" onclick="selectBlock({id:'${esc(b)}'})">${esc(ix?ix.name:'block '+b)}</button> <button class="x" title="Detach" style="background:none;border:0;color:#fff;cursor:pointer;padding:0 2px" onclick="detachDocBlock('${esc(d.document_id)}','${esc(b)}')">×</button></span>`; }).join(''):'<div class="hint">Not yet matched to a block on the map.</div>'}
+      <form class="f" style="margin-top:8px" novalidate onsubmit="return attachBlockToDoc(event,'${esc(d.document_id)}')"><label>Add a block (2017 title)<input name="blk" placeholder="type a block name, ID or LINZ title" autocomplete="off"></label><div class="actions"><button class="btn small quiet" type="submit">Attach block</button></div></form>
+      ${(d.blocks_recorded||[]).length?`<div class="hint" style="margin-top:6px">Current titles whose name begins with the block as written: ${blocksLike(d.blocks_recorded).slice(0,12).map(b=>`<button class="tlink" style="font-weight:500;color:var(--pounamu-soft)" onclick="attachBlockId('${esc(d.document_id)}','${esc(b.id)}')">${esc(b.name)}</button>`).join(', ')||'none found'}</div>`:''}
+    </div>
+    <div class="section"><h3>Names on this record <span class="hint">(${(d.names||[]).length})</span></h3><div class="hint" style="margin-bottom:4px">Every name exactly as the clerk wrote it. Attributing a name to a tupuna records it as one of their identities and, for owners and successors, as an interest in the attached block — both cite this document.</div>${namesHtml}
+      <button class="btn small" style="margin-top:8px" onclick="docNameForm('${esc(d.document_id)}')">Add a name</button><div id="docNameForm"></div></div>
+    <div class="section"><h3>Tupuna connected to this record <span class="hint">(${cites.length})</span></h3>${cites.length?cites.map(t=>`<button class="tcard" style="padding-left:0;padding-right:0" onclick="setTab('tupuna');selectTupuna('${esc(t.tupuna_id)}')"><div class="name" style="font-size:15px">${esc(t.name)}</div><div class="sub">${esc((d.names||[]).filter(n=>n.tupuna_id===t.tupuna_id).map(n=>`as “${n.name}”${n.role?' ('+n.role+')':''}`).join('; ')||'cites this record')}</div></button>`).join(''):'<div class="hint">None yet.</div>'}</div>
+    ${d.notes?`<div class="section"><h3>Notes</h3><p style="margin:0">${esc(d.notes)}</p></div>`:''}`;
+  det.classList.add('show'); panel.classList.add('detail-mode'); det.scrollTop=0;
+  attachBlockPicker(det.querySelector('input[name=blk]'), ()=>{});
+};
+window.docBackNav=function(){ const b=docBack; docBack=null; if(b?.kind==='block'){ selectBlock({id:b.id}); } else if(b?.kind==='tupuna'){ closeDetail(); setTab('tupuna'); selectTupuna(b.id); } else if(b?.kind==='records'){ closeDetail(); setTab('records'); } else closeDetail(); };
+function blocksLike(names){ if(!blockIndex) return []; const out=[]; names.forEach(n=>{ const k=norm(n); if(!k) return; blockIndex.forEach(b=>{ const bn=norm(b[1]); if(bn===k||bn.startsWith(k)) out.push({id:String(b[0]),name:b[1]}); }); }); return out; }
+window.attachBlockId=function(did,bid){ const d=docById(did); if(!d) return; d.block_ids=d.block_ids||[]; if(!d.block_ids.map(String).includes(String(bid))) d.block_ids.push(String(bid)); saveDocs(`${d.document_id}: attached block ${bid}`); showDocument(did, docBack); drawInterestBlocks(); toast('Block attached'); };
+window.attachBlockToDoc=async function(e,did){ e.preventDefault(); const inp=e.target.querySelector('input[name=blk]'); let b=inp._picked; if(!b||inp.value!==`${b.name} (${b.id})`) b=await inp.resolve(); if(!b){ formErr(e.target,'Pick a block from the list (or press Enter for the top match).'); return false; } attachBlockId(did,b.id); return false; };
+window.detachDocBlock=function(did,bid){ const d=docById(did); if(!d) return; d.block_ids=(d.block_ids||[]).filter(x=>String(x)!==String(bid)); saveDocs(`${d.document_id}: detached block ${bid}`); showDocument(did, docBack); drawInterestBlocks(); };
+window.attachDocToBlock=function(e,bid){ e.preventDefault(); const did=new FormData(e.target).get('did'); if(!did){ formErr(e.target,'Choose a record.'); return false; } attachBlockId(did,bid); selectBlock({id:bid}); return false; };
+window.docMetaForm=function(did){ const d=docById(did); const host=document.getElementById('docMetaForm'); if(!d||!host) return; const v=k=>esc(d[k]||'');
+  host.innerHTML=`<form class="f" novalidate onsubmit="return saveDocMeta(event,'${esc(did)}')"><label>Title<input name="title" value="${v('title')}"></label>
+    <div class="row2"><label>Type<select name="type">${Object.entries(DOC_TYPES).map(([k,l])=>`<option value="${k}" ${d.type===k?'selected':''}>${l}</option>`).join('')}</select></label><label>Status<select name="status">${['indexed','partly transcribed','transcribed'].map(s=>`<option ${(d.status||'indexed')===s?'selected':''}>${s}</option>`).join('')}</select></label></div>
+    <div class="row2"><label>Date on record<input name="record_date" placeholder="1936-09-25" value="${v('record_date')}"></label><label>Effective / vesting date<input name="effective_date" value="${v('effective_date')}"></label></div>
+    <label>Block(s) exactly as written, separated by ;<input name="blocks_recorded" value="${esc((d.blocks_recorded||[]).join('; '))}"></label>
+    <div class="row2"><label>Court / sitting<input name="court" placeholder="Native Land Court, Tokerau district, Pawarenga" value="${v('court')}"></label><label>Judge<input name="judge" value="${v('judge')}"></label></div>
+    <div class="row2"><label>Minute book<input name="minute_book" placeholder="e.g. 12 AT 232" value="${v('minute_book')}"></label><label>Pātaka Whenua doc no.<input name="doc_no" value="${v('doc_no')}"></label></div>
+    <label>URL<input name="url" type="text" inputmode="url" value="${v('url')}"></label>
+    <label>Summary (what the record does)<textarea name="summary">${v('summary')}</textarea></label>
+    <label>Notes<textarea name="notes">${v('notes')}</textarea></label>
+    <div class="actions"><button class="btn small" type="submit">Save</button><button class="btn quiet small" type="button" onclick="document.getElementById('docMetaForm').innerHTML=''">Cancel</button></div></form>`; host.scrollIntoView({block:'nearest'}); };
+window.saveDocMeta=function(e,did){ e.preventDefault(); const d=docById(did); if(!d) return false; const fd=new FormData(e.target); ['title','type','status','record_date','effective_date','court','judge','minute_book','doc_no','summary','notes'].forEach(k=>d[k]=(fd.get(k)||'').trim()); d.type_label=DOC_TYPES[d.type]||d.type; d.url=tidyUrl(fd.get('url')); d.blocks_recorded=(fd.get('blocks_recorded')||'').split(';').map(s=>s.trim()).filter(Boolean); if(!d.title) d.title=docLabel(d); saveDocs(`${d.document_id}: edited details`); showDocument(did, docBack); toast('Saved'); return false; };
+window.docNameForm=function(did,idx){ const d=docById(did); const host=document.getElementById('docNameForm'); if(!d||!host) return; const ed=idx!=null?d.names[idx]:null; const v=k=>esc(ed?(ed[k]||''):'');
+  host.innerHTML=`<form class="f" novalidate ${ed?`data-edit="${idx}"`:''} onsubmit="return saveDocName(event,'${esc(did)}')"><label>Name exactly as written<input name="name" required value="${v('name')}"></label>
+    <div class="row2"><label>Role on the record<select name="role">${NAME_ROLES.map(r=>`<option ${ed&&ed.role===r?'selected':''}>${r}</option>`).join('')}</select></label><label>Shares / fraction<input name="shares" placeholder="1/15, 6.534" value="${v('shares')}"></label></div>
+    <div class="row2"><label>Sex (as recorded)<select name="sex"><option value=""></option><option ${ed&&ed.sex==='f.'?'selected':''}>f.</option><option ${ed&&ed.sex==='m.'?'selected':''}>m.</option></select></label><label>Age (as recorded)<input name="age" value="${v('age')}"></label></div>
+    <div class="row2"><label>Who this is<select name="tid"><option value="">— not yet attributed —</option>${[...tupuna].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${esc(t.tupuna_id)}" ${ed&&ed.tupuna_id===t.tupuna_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select></label><label>Confidence<select name="conf">${['stated','inferred','contested'].map(c=>`<option ${ed&&ed.confidence===c?'selected':''}>${c}</option>`).join('')}</select></label></div>
+    <label>Note<input name="note" placeholder="e.g. struck through; ‘or Rirena Arama’ added in pencil" value="${v('note')}"></label>
+    <div class="actions"><button class="btn small" type="submit">${ed?'Save changes':'Add name'}</button><button class="btn quiet small" type="button" onclick="document.getElementById('docNameForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
+window.saveDocName=function(e,did){ e.preventDefault(); const d=docById(did); if(!d) return false; const fd=new FormData(e.target); const name=(fd.get('name')||'').trim(); if(!name){ formErr(e.target,'Enter the name as written.'); return false; } d.names=d.names||[]; const ei=e.target.dataset.edit!=null?+e.target.dataset.edit:null;
+  const rec={name,role:fd.get('role')||'',sex:fd.get('sex')||'',age:(fd.get('age')||'').trim(),shares:(fd.get('shares')||'').trim(),tupuna_id:fd.get('tid')||'',confidence:fd.get('conf')||'stated',note:(fd.get('note')||'').trim()};
+  if(ei!=null) d.names[ei]=rec; else d.names.push(rec); if(d.status==='indexed') d.status='partly transcribed';
+  saveDocs(`${d.document_id}: name "${name}"${rec.tupuna_id?' → '+shortName(tupunaById(rec.tupuna_id)||{name:''}):''}`); if(rec.tupuna_id) applyAttribution(d,rec); showDocument(did, docBack); toast('Name saved'); return false; };
+window.removeDocName=function(did,i){ const d=docById(did); if(!d||!confirm('Remove this name from the record?')) return; const n=d.names.splice(i,1)[0]; saveDocs(`${d.document_id}: removed name "${n.name}"`); showDocument(did, docBack); };
+window.attribName=function(did,i,tid){ const d=docById(did); if(!d) return; const n=d.names[i]; n.tupuna_id=tid||''; saveDocs(`${d.document_id}: "${n.name}" → ${tid?shortName(tupunaById(tid)||{name:tid}):'unattributed'}`); if(tid) applyAttribution(d,n); showDocument(did, docBack); drawInterestBlocks(); };
+function applyAttribution(d,n){ const t=tupunaById(n.tupuna_id); if(!t) return; let changed=false; const what=[];
+  if(ensureIdentity(t, n.name, d.source_id||'S07', `${n.role||'named'} on ${d.type_label||d.type} ${d.doc_no?'doc '+d.doc_no:''}${(d.blocks_recorded||[]).length?' — '+d.blocks_recorded.join(', '):''}`.trim(), d.document_id)){ changed=true; what.push('recorded name'); }
+  if(/^(Owner|Successor)$/.test(n.role||'')){ (d.block_ids||[]).forEach(bid=>{ bid=String(bid); if(t.links.some(l=>l.location_type==='Block'&&String(l.location_ref)===bid)) return; const ix=blockById.get(bid); t.links.push({link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:'Block',location_ref:bid,location_detail:ix?ix.name:'',latitude:ix?ix.lat:null,longitude:ix?ix.lng:null,relationship:'Owner',notes:n.role==='Successor'?'by succession':'',source:`${srcOf(d.source_id||'S07').name} — doc ${d.doc_no||d.document_id}`,as_recorded:n.name,linz_title:'',shares:n.shares||'',source_id:d.source_id||'S07',document_id:d.document_id}); changed=true; what.push(`interest in ${ix?ix.name:'block '+bid}`); }); }
+  if(changed){ saveStore(`${shortName(t)}: from ${d.document_id} — ${what.join(', ')}`); toast(`${shortName(t)}: added ${what.join(' and ')}`); } }
+window.deleteDoc=function(did){ const d=docById(did); if(!d||!confirm(`Remove "${d.title}" from the index? The PDF in Drive is not touched.`)) return; documents=documents.filter(x=>x!==d); saveDocs(`removed ${did}`); docBackNav(); drawInterestBlocks(); };
+window.newDocForm=function(blockId){ const host=document.getElementById(blockId?'newDocHostBlock':'newDocHost')||document.getElementById('newDocHost'); if(!host) return;
+  host.innerHTML=`<form class="f" style="margin:${blockId?'8px 0 0':'0 22px 10px'}" novalidate onsubmit="return saveNewDoc(event,${blockId?`'${esc(blockId)}'`:'null'})"><label>Title<input name="title" required placeholder="e.g. Succession order — Peri Paraihe (Oturu A), 25 Sep 1936"></label>
+    <div class="row2"><label>Type<select name="type">${Object.entries(DOC_TYPES).map(([k,l])=>`<option value="${k}">${l}</option>`).join('')}</select></label><label>Date on record<input name="record_date" placeholder="1936-09-25"></label></div>
+    <label>URL (Drive share link, Pātaka Whenua, Papers Past…)<input name="url" type="text" inputmode="url" placeholder="https://"></label>
+    <div class="row2"><label>Filed under (block group)<input name="folder" list="folderList" value="${blockId&&blockById.get(String(blockId))?esc(blockById.get(String(blockId)).name.split(' ')[0]):''}"><datalist id="folderList">${[...new Set(documents.map(x=>x.folder).filter(Boolean))].sort().map(f=>`<option value="${esc(f)}">`).join('')}</datalist></label><label>Pātaka Whenua doc no. (if any)<input name="doc_no"></label></div>
+    <label>Block(s) as written<input name="blocks_recorded"></label>
+    <div class="actions"><button class="btn small" type="submit">Add to index</button><button class="btn quiet small" type="button" onclick="this.closest('form').parentNode.innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=title]').focus(); };
+window.saveNewDoc=function(e,blockId){ e.preventDefault(); const fd=new FormData(e.target); const title=(fd.get('title')||'').trim(); const url=tidyUrl(fd.get('url')); if(!title){ formErr(e.target,'Give the record a title.'); return false; } if(!url){ formErr(e.target,'Add the link to the document.'); return false; }
+  const docno=(fd.get('doc_no')||'').trim(); let id=docno?`PW-${docno}`:`DOC-${Date.now().toString(36)}`; if(docById(id)){ formErr(e.target,`${id} is already in the index.`); return false; }
+  const d={document_id:id,doc_no:docno,type:fd.get('type'),type_label:DOC_TYPES[fd.get('type')]||fd.get('type'),folder:(fd.get('folder')||'').trim(),title,blocks_recorded:(fd.get('blocks_recorded')||'').split(';').map(s=>s.trim()).filter(Boolean),block_ids:blockId?[String(blockId)]:[],record_date:(fd.get('record_date')||'').trim(),effective_date:'',court:'',judge:'',minute_book:'',pages:null,page_range:'',file_name:'',drive_id:(url.match(/\/d\/([A-Za-z0-9_-]{20,})/)||[])[1]||'',file_size:null,url,source_id:'S07',status:'indexed',summary:'',names:[],notes:''};
+  documents.push(d); saveDocs(`added record ${id}: ${title}`); e.target.parentNode.innerHTML=''; if(blockId) selectBlock({id:blockId}); else renderRecords(); drawInterestBlocks(); toast('Record added'); return false; };
+// ---- Records tab ----
+const openFolders=new Set();
+function renderRecords(){ const body=document.getElementById('recordsBody'); if(!body) return; if(!documents.length){ body.innerHTML='<div class="empty"><strong>No court records indexed.</strong>Add one with the button above, or run build_documents.py against the Drive manifest.</div>'; return; }
+  const groups=new Map(); [...documents].sort(docSort).forEach(d=>{ const k=d.folder||'Unfiled'; (groups.get(k)||groups.set(k,[]).get(k)).push(d); });
+  const st=s=>documents.filter(d=>(d.status||'indexed')===s).length; const attributed=documents.reduce((a,d)=>a+(d.names||[]).filter(n=>n.tupuna_id).length,0);
+  body.innerHTML=`<div class="treebar"><span>${documents.length} records · ${st('transcribed')} transcribed, ${st('partly transcribed')} partly, ${st('indexed')} indexed only · ${attributed} names attributed</span><span><button onclick="documents.forEach(d=>openFolders.add(d.folder||'Unfiled'));renderRecords()">expand all</button> · <button onclick="openFolders.clear();renderRecords()">collapse all</button></span></div>`
+    +[...groups].map(([k,ds])=>{ const open=openFolders.has(k); const bset=new Set(ds.flatMap(d=>(d.block_ids||[]).map(String))); const tset=new Set(ds.flatMap(d=>(d.names||[]).filter(n=>n.tupuna_id).map(n=>n.tupuna_id)));
+      return `<div class="wgroup rgroup ${open?'open':''}"><div class="ghead" onclick="openFolders.${open?'delete':'add'}('${esc(k)}');renderRecords()"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg><span class="gname">${esc(k)}</span><span class="gmeta">${ds.length} record${ds.length===1?'':'s'} · ${bset.size} block${bset.size===1?'':'s'} · ${tset.size} tupuna</span></div><div class="gbody">${ds.map(d=>docRow(d)).join('')}</div></div>`; }).join(''); }
+window.exportDocsCsv=function(){ const cols=['document_id','doc_no','type','type_label','folder','title','blocks_recorded','block_ids','record_date','effective_date','court','judge','minute_book','pages','url','source_id','status','summary','notes']; download('Document.csv', csvRows(cols, documents.map(d=>cols.map(k=>Array.isArray(d[k])?d[k].join('; '):d[k]))), 'text/csv');
+  const ncols=['document_id','name','role','sex','age','shares','tupuna_id','confidence','note']; setTimeout(()=>download('Document_Name.csv', csvRows(ncols, documents.flatMap(d=>(d.names||[]).map(n=>ncols.map(k=>k==='document_id'?d.document_id:n[k])))), 'text/csv'),300); };
+
 // ================= whakapapa layer =================
 const REL=['Born','Lived','Died','Buried','Affiliated','Land interest','Other'];
 const TYPES=['Marae','Hapū','Iwi','Waka','Block','Place','Tupuna'];
@@ -951,8 +1142,8 @@ function saveStore(msg){ try{ const prev=localStorage.getItem(STORE); if(prev) l
 function nextId(prefix, arr, key){ const w=prefix==='C'?4:3; let n=1; const has=new Set(arr.map(x=>x[key])); while(has.has(prefix+String(n).padStart(w,'0'))) n++; return prefix+String(n).padStart(w,'0'); }
 function allLinks(){ return tupuna.flatMap(t=>t.links.map(l=>({...l,_t:t}))); }
 
-window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; ['marae','tupuna','sources'].forEach(k=>document.getElementById('tab'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',t===k)); if(t==='sources') renderSources();
-  if(t==='tupuna'){ closeDetail(); if(selectedTupuna&&!document.querySelector('#tupunaBody .tdetail')) renderTupuna(); drawTupuna(); } else { tupunaLayer.clearLayers(); tupunaMaraeLayer.clearLayers(); roheLayer.clearLayers(); render(); drawCollectedBlocks(); } };
+window.setTab=function(t){ tab=t; document.getElementById('panel').dataset.tab=t; ['marae','tupuna','records','sources'].forEach(k=>document.getElementById('tab'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',t===k)); if(t==='sources') renderSources(); if(t==='records') renderRecords();
+  if(t==='tupuna'){ closeDetail(); if(selectedTupuna&&!document.querySelector('#tupunaBody .tdetail')) renderTupuna(); drawTupuna(); } else { tupunaLayer.clearLayers(); tupunaMaraeLayer.clearLayers(); roheLayer.clearLayers(); render(); drawCollectedBlocks(); drawInterestBlocks(); } };
 
 // ---- matching links to map features ----
 function maraeForLink(l){
@@ -1031,8 +1222,9 @@ function renderTupunaDetail(body){
     const f=l.location_type==='Marae'?maraeForLink(l):null;
     const meta=[l.relationship, l.location_type==='Marae'?(f?f.p.Location:'not found on map'):(l.location_type==='Block'?`whenua block ${l.location_ref}`:l.location_type), l.as_recorded?`recorded as “${l.as_recorded}”`:'', l.linz_title?`LINZ ${l.linz_title}`:'', l.shares?`${l.shares} shares`:'', l.notes].filter(Boolean).join(' · ');
     const label=l.location_type==='Block'?(l.location_detail||l.location_ref):l.location_ref;
-    return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(label)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}</div></div><button class="x" title="Edit link" onclick="addLinkForm(null,null,${i})">✎</button><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
+    return `<div class="link-row"><span class="dot ${cls}"></span><div class="lbody"><div class="lref"><button onclick="focusLink(${i})">${esc(label)}</button></div><div class="lmeta">${esc(meta)}${l.source?`<br>Source: ${esc(l.source)}`:''}${docLink(l.document_id)}</div></div><button class="x" title="Edit link" onclick="addLinkForm(null,null,${i})">✎</button><button class="x" title="Remove link" onclick="removeLink(${i})">×</button></div>`;
   }).join('') || '<div class="hint">No locations linked yet.</div>';
+  const tdocs=docsForTupuna(t);
   body.innerHTML=tupCollBar()+`<div class="tdetail" data-tid="${esc(t.tupuna_id)}">
     <button class="back" onclick="backToTupuna()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>All tupuna</button>
     <h2>${esc(t.name)}</h2>
@@ -1048,11 +1240,13 @@ function renderTupunaDetail(body){
     ${t.notes?`<p style="margin:0 0 14px">${esc(t.notes)}</p>`:''}
     <div style="display:flex;gap:8px;align-items:center"><button class="btn quiet small" onclick="editTupuna('${esc(t.tupuna_id)}')">Edit</button><button class="btn quiet small" onclick="deleteTupuna('${esc(t.tupuna_id)}')">Delete</button><label style="font-size:12px;color:var(--mist);display:inline-flex;gap:5px;align-items:center;margin-left:auto"><input type="checkbox" ${hideOthers?'':'checked'} onchange="hideOthers=!this.checked;render()" style="accent-color:var(--pounamu)">show other marae faded</label></div>
     <div class="section"><h3>Names as recorded <span class="hint">(identities)</span></h3>
-      ${(t.identities||[]).length?t.identities.map((x,i)=>`<div class="ident"><span class="nm">${esc(x.name)}</span><span class="meta">${esc([x.date, srcOf(x.source_id||'').name!==(x.source_id||'')?srcOf(x.source_id).name:x.source_id, x.note].filter(Boolean).join(' · '))}${x.document_url?` · <a href="${esc(x.document_url)}" target="_blank" rel="noopener">document</a>`:''}</span><button class="x" title="Edit" onclick="identityForm(${i})">✎</button><button class="x" title="Remove" onclick="removeIdentity(${i})">×</button></div>`).join(''):'<div class="hint">No recorded name variants yet. Add each spelling exactly as a source writes it, with the source.</div>'}
+      ${(t.identities||[]).length?t.identities.map((x,i)=>`<div class="ident"><span class="nm">${esc(x.name)}</span><span class="meta">${esc([x.date, srcOf(x.source_id||'').name!==(x.source_id||'')?srcOf(x.source_id).name:x.source_id, x.note].filter(Boolean).join(' · '))}${x.document_url?` · <a href="${esc(x.document_url)}" target="_blank" rel="noopener">document</a>`:''}${docLink(x.document_id)}</span><button class="x" title="Edit" onclick="identityForm(${i})">✎</button><button class="x" title="Remove" onclick="removeIdentity(${i})">×</button></div>`).join(''):'<div class="hint">No recorded name variants yet. Add each spelling exactly as a source writes it, with the source.</div>'}
       <button class="btn small" style="margin-top:8px" onclick="identityForm()">Add a recorded name</button><div id="identityForm"></div></div>
     <div class="section"><h3>Timeline <span class="hint">(events)</span></h3>
-      ${(t.events||[]).length?[...t.events].sort(evSort).map((e,i)=>`<div class="ev"><div class="when">${esc(e.date||'undated')}</div><div class="what"><div class="type">${esc(e.type)}${e.place_ref?` — ${esc(e.place_detail||e.place_ref)}`:''}</div>${e.description?`<div>${esc(e.description)}</div>`:''}<div class="meta">${esc([srcOf(e.source_id||'').name!==(e.source_id||'')?srcOf(e.source_id).name:e.source_id, e.confidence, e.note].filter(Boolean).join(' · '))}${e.document_url?` · <a href="${esc(e.document_url)}" target="_blank" rel="noopener">document</a>`:''}</div></div><button class="x" title="Edit" onclick="eventForm('${esc(e.event_id)}')">✎</button><button class="x" title="Remove" onclick="removeEvent('${esc(e.event_id)}')">×</button></div>`).join(''):'<div class="hint">No events yet. Births, marriages, succession orders, deaths — each dated, placed and sourced.</div>'}
+      ${(t.events||[]).length?[...t.events].sort(evSort).map((e,i)=>`<div class="ev"><div class="when">${esc(e.date||'undated')}</div><div class="what"><div class="type">${esc(e.type)}${e.place_ref?` — ${esc(e.place_detail||e.place_ref)}`:''}</div>${e.description?`<div>${esc(e.description)}</div>`:''}<div class="meta">${esc([srcOf(e.source_id||'').name!==(e.source_id||'')?srcOf(e.source_id).name:e.source_id, e.confidence, e.note].filter(Boolean).join(' · '))}${e.document_url?` · <a href="${esc(e.document_url)}" target="_blank" rel="noopener">document</a>`:''}${docLink(e.document_id)}</div></div><button class="x" title="Edit" onclick="eventForm('${esc(e.event_id)}')">✎</button><button class="x" title="Remove" onclick="removeEvent('${esc(e.event_id)}')">×</button></div>`).join(''):'<div class="hint">No events yet. Births, marriages, succession orders, deaths — each dated, placed and sourced.</div>'}
       <button class="btn small" style="margin-top:8px" onclick="eventForm()">Add an event</button><div id="eventForm"></div></div>
+    <div class="section"><h3>Court records naming this tupuna <span class="hint">(${tdocs.length})</span></h3>
+      ${tdocs.length?tdocs.sort(docSort).map(dd=>docRow(dd,{tupuna:t.tupuna_id})).join(''):'<div class="hint">None yet. Open a record (Records tab or a block card) and attribute a name on it to this tupuna; it will then be listed here with the role and shares as recorded.</div>'}</div>
     <div class="section"><h3>Whakapapa</h3>${kinHtml}<button class="btn small" style="margin-top:8px" onclick="addLinkForm(null,'Tupuna')">Link a tupuna</button>${tupuna.length<2?'<div class="hint" style="margin-top:6px">Add the other person first (All tupuna → Add tupuna), then link them here.</div>':''}</div>
     <div class="section"><h3>Locations of interest</h3>${links}
       <button class="btn small" style="margin-top:10px" onclick="addLinkForm()">Link a location</button>
@@ -1074,7 +1268,7 @@ window.deleteTupuna=function(id){ const t=tupuna.find(x=>x.tupuna_id===id); if(!
 // ---- draw tupuna on map ----
 function drawTupuna(){
   tupunaLayer.clearLayers(); roheLayer.clearLayers(); render();
-  const act=activeTupuna(); tupunaBlockLayerDraw([]); if(!act.length) return;
+  const act=activeTupuna(); tupunaBlockLayerDraw([]); drawInterestBlocks(); if(!act.length) return;
   const pts=[]; const iwiNames=new Set(); const blockLinks=[];
   act.forEach(t=>t.links.forEach(l=>{
     if(l.location_type==='Marae'){ const f=maraeForLink(l); if(f){ pts.push([f.lat,f.lng]); f.matched.forEach(i=>iwiNames.add(i.name)); } }
@@ -1135,8 +1329,8 @@ window.saveTupuna=function(e,id,existing){
 };
 
 window.identityForm=function(editIdx){ const host=document.getElementById('identityForm'); const ed=editIdx!=null?selectedTupuna.identities[editIdx]:null; const v=k=>esc(ed?(ed[k]||''):''); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}" ${ed&&ed.source_id===S.source_id?'selected':''}>${esc(S.name)}</option>`).join('');
-  host.innerHTML=`<form class="f" novalidate ${ed?`data-edit="${editIdx}"`:''} onsubmit="return saveIdentity(event)"><label>Name exactly as written<input name="name" required value="${v('name')}"></label><div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Date of record<input name="date" placeholder="1934 or 1934-05-07" value="${v('date')}"></label></div><label>Document URL (Drive link, Pātaka Whenua, minute book scan)<input name="doc" type="text" inputmode="url" placeholder="https://" value="${v('document_url')}"></label><label>Note<input name="note" placeholder="e.g. spelt thus in MB 12 N 88; baptismal name" value="${v('note')}"></label><div class="actions"><button class="btn" type="submit">${ed?'Save changes':'Save name'}</button><button class="btn quiet" type="button" onclick="document.getElementById('identityForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
-window.saveIdentity=function(e){ e.preventDefault(); const fd=new FormData(e.target); const t=currentTupuna(); if(!t) return false; if(!(fd.get('name')||'').trim()){ formErr(e.target,'Enter the name as written.'); return false; } t.identities=t.identities||[]; const ei=e.target.dataset.edit!=null?+e.target.dataset.edit:null; const rec={identity_id:ei!=null?t.identities[ei].identity_id:nextId('N',t.identities,'identity_id'),name:fd.get('name').trim(),source_id:fd.get('src'),date:(fd.get('date')||'').trim(),document_url:tidyUrl(fd.get('doc')),note:(fd.get('note')||'').trim()}; if(ei!=null) t.identities[ei]=rec; else t.identities.push(rec); saveStore(`${shortName(t)}: recorded name "${fd.get('name').trim()}"`); renderTupuna(); toast('Name saved'); flashLast('#tupunaBody .ident'); return false; };
+  host.innerHTML=`<form class="f" novalidate ${ed?`data-edit="${editIdx}"`:''} onsubmit="return saveIdentity(event)"><label>Name exactly as written<input name="name" required value="${v('name')}"></label><div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Date of record<input name="date" placeholder="1934 or 1934-05-07" value="${v('date')}"></label></div>${docSelect('docid', ed?ed.document_id:'')}<label>Document URL (Drive link, Pātaka Whenua, minute book scan)<input name="doc" type="text" inputmode="url" placeholder="https://" value="${v('document_url')}"></label><label>Note<input name="note" placeholder="e.g. spelt thus in MB 12 N 88; baptismal name" value="${v('note')}"></label><div class="actions"><button class="btn" type="submit">${ed?'Save changes':'Save name'}</button><button class="btn quiet" type="button" onclick="document.getElementById('identityForm').innerHTML=''">Cancel</button></div></form>`; host.querySelector('input[name=name]').focus(); };
+window.saveIdentity=function(e){ e.preventDefault(); const fd=new FormData(e.target); const t=currentTupuna(); if(!t) return false; if(!(fd.get('name')||'').trim()){ formErr(e.target,'Enter the name as written.'); return false; } t.identities=t.identities||[]; const ei=e.target.dataset.edit!=null?+e.target.dataset.edit:null; const rec={identity_id:ei!=null?t.identities[ei].identity_id:nextId('N',t.identities,'identity_id'),name:fd.get('name').trim(),source_id:fd.get('src'),date:(fd.get('date')||'').trim(),document_url:tidyUrl(fd.get('doc')),document_id:fd.get('docid')||'',note:(fd.get('note')||'').trim()}; if(ei!=null) t.identities[ei]=rec; else t.identities.push(rec); saveStore(`${shortName(t)}: recorded name "${fd.get('name').trim()}"`); renderTupuna(); toast('Name saved'); flashLast('#tupunaBody .ident'); return false; };
 window.removeIdentity=function(i){ if(!confirm('Remove this recorded name?')) return; const x=selectedTupuna.identities.splice(i,1)[0]; saveStore(`${shortName(selectedTupuna)}: removed name "${x.name}"`); renderTupuna(); };
 window.eventForm=function(editId){ const host=document.getElementById('eventForm'); const ed=editId?selectedTupuna.events.find(x=>x.event_id===editId):null; const v=k=>esc(ed?(ed[k]??''):''); const srcOpts=sources.map(S=>`<option value="${esc(S.source_id)}" ${ed&&ed.source_id===S.source_id?'selected':''}>${esc(S.name)}</option>`).join('');
   host.innerHTML=`<form class="f" novalidate ${ed?`data-edit="${esc(ed.event_id)}"`:''} onsubmit="return saveEvent(event)"><div class="row2"><label>Event<select name="type">${EVENT_TYPES.map(x=>`<option ${ed&&ed.type===x?'selected':''}>${x}</option>`).join('')}</select></label><label>Date<input name="date" placeholder="1877, c. 1877, 1877-03-02" value="${v('date')}"></label></div>
@@ -1146,7 +1340,7 @@ window.eventForm=function(editId){ const host=document.getElementById('eventForm
    <div id="evPlace" style="display:none"><label>Place name<input name="ev_place"></label><div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div><button type="button" class="btn quiet small" onclick="pickOnMapEv()">Pick on the map</button></div>
    <label>What happened<input name="desc" placeholder="e.g. succeeded to 3.5 shares in Ahipara A11; married Hone at Waitāruke" value="${v('description')}"></label>
    <div class="row2"><label>Source<select name="src">${srcOpts}</select></label><label>Confidence<select name="conf">${['stated','inferred','contested'].map(x=>`<option ${ed&&ed.confidence===x?'selected':''}>${x}</option>`).join('')}</select></label></div>
-   <label>Document URL<input name="doc" type="text" inputmode="url" placeholder="https://" value="${v('document_url')}"></label><label>Note<input name="note" value="${v('note')}"></label>
+   ${docSelect('docid', ed?ed.document_id:'')}<label>Document URL<input name="doc" type="text" inputmode="url" placeholder="https://" value="${v('document_url')}"></label><label>Note<input name="note" value="${v('note')}"></label>
    <div class="actions"><button class="btn" type="submit">${ed?'Save changes':'Save event'}</button><button class="btn quiet" type="button" onclick="document.getElementById('eventForm').innerHTML=''">Cancel</button></div></form>`;
   host._m=null; host._b=null; attachMaraePicker(host.querySelector('input[name=ev_marae]'), f=>{host._m=f;}); attachBlockPicker(host.querySelector('input[name=ev_block]'), b=>{host._b=b;});
   if(ed){ const f=host.querySelector('form'); evPlaceChanged(ed.place_type||'');
@@ -1156,7 +1350,7 @@ window.eventForm=function(editId){ const host=document.getElementById('eventForm
 window.evPlaceChanged=function(v){ ['Marae','Block','Place'].forEach(k=>{ document.getElementById('ev'+k).style.display=(k===v)?'':'none'; }); };
 window.pickOnMapEv=function(){ document.getElementById('pickmode').classList.add('on'); map.getContainer().style.cursor='crosshair'; pickCb=ll=>{ const f=document.querySelector('#eventForm form'); if(f){ f.lat.value=ll.lat.toFixed(6); f.lng.value=ll.lng.toFixed(6);} }; };
 window.saveEvent=function(e){ e.preventDefault(); const fd=new FormData(e.target); const host=document.getElementById('eventForm'); const t=currentTupuna(); if(!t) return false; t.events=t.events||[];
-  const editId=e.target.dataset.edit||null; const ev={event_id:editId||nextId('E',t.events,'event_id'),type:fd.get('type'),date:(fd.get('date')||'').trim(),place_type:fd.get('ptype')||'',place_ref:'',place_detail:'',latitude:null,longitude:null,description:(fd.get('desc')||'').trim(),source_id:fd.get('src'),confidence:fd.get('conf'),document_url:tidyUrl(fd.get('doc')),note:(fd.get('note')||'').trim()};
+  const editId=e.target.dataset.edit||null; const ev={event_id:editId||nextId('E',t.events,'event_id'),type:fd.get('type'),date:(fd.get('date')||'').trim(),place_type:fd.get('ptype')||'',place_ref:'',place_detail:'',latitude:null,longitude:null,description:(fd.get('desc')||'').trim(),source_id:fd.get('src'),confidence:fd.get('conf'),document_url:tidyUrl(fd.get('doc')),document_id:fd.get('docid')||'',note:(fd.get('note')||'').trim()};
   if(ev.place_type==='Marae'){ if(!host._m){alert('Choose a marae from the list.');return false;} ev.place_ref=host._m.p.Name; ev.place_detail=host._m.p.Name+(host._m.p.Location?' — '+host._m.p.Location:''); ev.latitude=host._m.lat; ev.longitude=host._m.lng; }
   else if(ev.place_type==='Block'){ if(!host._b){alert('Choose a block from the list.');return false;} ev.place_ref=host._b.id; ev.place_detail=host._b.name; ev.latitude=host._b.lat; ev.longitude=host._b.lng; }
   else if(ev.place_type==='Place'){ ev.place_ref=(fd.get('ev_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')),lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){alert('Set a latitude and longitude, or pick on the map.');return false;} ev.latitude=la; ev.longitude=lo; }
@@ -1177,14 +1371,15 @@ window.addLinkForm=function(presetMarae, presetType, editIdx){
     <div id="refBlock" style="display:none"><label>Whenua block<input name="ref_block" placeholder="type a block name, ID or LINZ title" autocomplete="off"></label>
       <label>Name exactly as recorded on the title<input name="asrec" placeholder="e.g. Wiremu Tangiwhare"></label>
       <div class="row2"><label>LINZ title reference<input name="linz"></label><label>Shares<input name="shares"></label></div>
-      <label>Source (register)<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S05'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label></div>
+      <label>Source (register)<select name="srcid">${sources.map(S=>`<option value="${esc(S.source_id)}" ${S.source_id==='S07'?'selected':''}>${esc(S.name)}</option>`).join('')}</select></label></div>
     <label id="refTupuna" style="display:none">The other tupuna <span class="hint">(relationship is from this card's point of view)</span><select name="ref_tupuna">${tupuna.filter(x=>x!==selectedTupuna).sort((a,b)=>a.name.localeCompare(b.name)).map(x=>`<option value="${esc(x.tupuna_id)}">${esc(x.name)}</option>`).join('')}</select></label>
     <div id="refPlace" style="display:none;display:none"><label>Place name<input name="ref_place" placeholder="e.g. urupā, kāinga, block name"></label>
       <div class="row2"><label>Latitude<input name="lat" type="number" step="any"></label><label>Longitude<input name="lng" type="number" step="any"></label></div>
       <button type="button" class="btn quiet small" onclick="pickOnMap()">Pick on the map</button></div>
     <label>Relationship<select name="rel" id="relSel">${REL.map(r=>`<option>${r}</option>`).join('')}</select></label>
     <label>Notes<input name="notes" value="${v('notes')}"></label>
-    <label>Source<input name="source" value="${v('source')}"></label>
+    ${docSelect('docid', ed?ed.document_id:'')}
+    <label>Source (free text)<input name="source" value="${v('source')}" placeholder="e.g. whānau kōrero; minute book 12 AT 232"></label>
     <div class="actions"><button class="btn" type="submit">${ed?'Save changes':'Save link'}</button><button class="btn quiet" type="button" onclick="document.getElementById('linkForm').innerHTML=''">Cancel</button></div>
   </form>`;
   attachMaraePicker(host.querySelector('input[name=ref_marae]'), ()=>{});
@@ -1215,18 +1410,19 @@ function flashLast(sel){ requestAnimationFrame(()=>{ const els=document.querySel
 function formErr(form,msg){ let el=form.querySelector('.ferr'); if(!el){ el=document.createElement('div'); el.className='ferr'; el.style.cssText='color:#f0a08c;font-size:13px;margin-top:4px'; form.querySelector('.actions').before(el); } el.textContent=msg; }
 function currentTupuna(){ if(selectedTupuna) return selectedTupuna; const id=document.querySelector('#tupunaBody .tdetail')?.dataset.tid; selectedTupuna=id?tupunaById(id):null; return selectedTupuna; }
 async function saveLinkAsync(form){ const fd=new FormData(form); const type=form.querySelector('select[name=type]').value; const editIdx=form.dataset.edit!=null?+form.dataset.edit:null; const t=currentTupuna(); if(!t){ formErr(form,'Lost track of which tupuna this is — open the tupuna again.'); return false; }
-  const l={link_id:editIdx!=null?t.links[editIdx].link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:type,location_ref:'',location_detail:'',latitude:null,longitude:null,relationship:fd.get('rel'),notes:(fd.get('notes')||'').trim(),source:(fd.get('source')||'').trim()};
+  const l={link_id:editIdx!=null?t.links[editIdx].link_id:nextId('L',allLinks(),'link_id'),tupuna_id:t.tupuna_id,location_type:type,location_ref:'',location_detail:'',latitude:null,longitude:null,relationship:fd.get('rel'),notes:(fd.get('notes')||'').trim(),source:(fd.get('source')||'').trim(),document_id:fd.get('docid')||''};
   if(type==='Marae'){ const raw=(fd.get('ref_marae')||'').trim(); const [name,loc]=raw.split(' — '); if(!name){formErr(form,'Choose a marae from the list.');return false;} l.location_ref=name.trim(); l.location_detail=(loc||'').trim(); if(!maraeForLink(l)){ if(!confirm('That marae isn\'t on the map — save the link anyway?')) return false; } }
   else if(type==='Hapū'){ l.location_ref=(fd.get('ref_hapu')||'').trim(); if(!l.location_ref){formErr(form,'Enter a hapū.');return false;} }
   else if(type==='Iwi'){ l.location_ref=fd.get('ref_iwi'); }
   else if(type==='Waka'){ l.location_ref=fd.get('ref_waka')||''; if(!l.location_ref){formErr(form,'No waka recorded yet.');return false;} }
   else if(type==='Block'){ let b=document.getElementById('linkForm')._blockPick; const inp=form.querySelector('input[name=ref_block]'); if(!b||inp.value!==`${b.name} (${b.id})`){ b=await inp.resolve(); document.getElementById('linkForm')._blockPick=b; } if(!b){ formErr(form,'Choose a block: type part of its name and pick it from the list (or press Enter for the top match).'); return false; } l.location_ref=b.id; l.location_detail=b.name; l.latitude=b.lat; l.longitude=b.lng;
     l.as_recorded=(fd.get('asrec')||'').trim(); l.linz_title=(fd.get('linz')||'').trim(); l.shares=(fd.get('shares')||'').trim(); l.source_id=fd.get('srcid')||'';
-    if(l.as_recorded){ const had=(t.identities||[]).length; ensureIdentity(t, l.as_recorded, l.source_id, `Name on title of ${b.name}${l.linz_title?` (LINZ ${l.linz_title})`:''}${l.source?` — ${l.source}`:''}`); if((t.identities||[]).length>had) toast(`Added "${l.as_recorded}" as a recorded name`); }
-    ensureLinzClaim(b.id, b.name, l.linz_title, l.source_id, l.source); }
+    if(l.as_recorded){ if(ensureIdentity(t, l.as_recorded, l.source_id, `Name on title of ${b.name}${l.linz_title?` (LINZ ${l.linz_title})`:''}${l.source?` — ${l.source}`:''}`, l.document_id)) toast(`Added "${l.as_recorded}" as a recorded name`); }
+    ensureLinzClaim(b.id, b.name, l.linz_title, l.source_id, l.source);
+    const dref=docById(l.document_id); if(dref){ dref.block_ids=dref.block_ids||[]; let ch=false; if(!dref.block_ids.map(String).includes(String(b.id))){ dref.block_ids.push(String(b.id)); ch=true; } if(l.as_recorded&&!(dref.names||[]).some(n=>fold(n.name)===fold(l.as_recorded))){ dref.names=dref.names||[]; dref.names.push({name:l.as_recorded,role:l.relationship==='Owner'?'Owner':'Mentioned',sex:'',age:'',shares:l.shares,tupuna_id:t.tupuna_id,confidence:'stated',note:''}); ch=true; } if(ch) saveDocs(`${dref.document_id}: ${shortName(t)} on ${b.name}`); } }
   else if(type==='Tupuna'){ l.location_ref=fd.get('ref_tupuna')||''; if(!l.location_ref){formErr(form,'Add another tupuna first.');return false;} l.location_detail=(tupunaById(l.location_ref)||{}).name||''; }
   else { l.location_ref=(fd.get('ref_place')||'').trim()||'Place'; const la=parseFloat(fd.get('lat')), lo=parseFloat(fd.get('lng')); if(isNaN(la)||isNaN(lo)){formErr(form,'Set a latitude and longitude, or pick the place on the map.');return false;} l.latitude=la; l.longitude=lo; }
-  t.links.push(l); saveStore(`linked ${shortName(t)} → ${l.location_detail||l.location_ref} (${l.relationship})`); renderTupuna(); drawTupuna(); return false;
+  if(editIdx!=null) t.links[editIdx]=l; else t.links.push(l); saveStore(`${editIdx!=null?'edited link':'linked'} ${shortName(t)} → ${l.location_detail||l.location_ref} (${l.relationship})`); renderTupuna(); drawTupuna(); toast(editIdx!=null?'Link updated':'Link saved'); return false;
 };
 
 // tupuna shown on a marae's detail card, with quick-link
