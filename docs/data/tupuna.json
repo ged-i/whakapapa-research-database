@@ -13449,7 +13449,21 @@
  },
  {
   "tupuna_id": "T148",
-  "links": [],
+  "links": [
+   {
+    "link_id": "L570",
+    "tupuna_id": "T148",
+    "location_type": "Tupuna",
+    "location_ref": "T013",
+    "location_detail": "Raiha Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "",
+    "source": "",
+    "document_id": ""
+   }
+  ],
   "name": "Arama Te Patara",
   "other_names": "",
   "born": "",
