@@ -103,7 +103,7 @@ folder **Ownership Schedules** (one sub-folder per block group). The PDFs stay i
 holds only the index and the transcription. `drive_manifest.json` lists the Drive files and
 `build_documents.py` (re)builds the index from it without touching anything already transcribed.
 Pātaka Whenua exports are named `{batch}_{docId}_{firstPage}_{lastPage}_{TYPE}_Document-{docId}.pdf`
-with TYPE = **ORD** court order, **LHO** list of owners, **MIN** minute book; the document number is
+with TYPE = **ORD** court order, **LHO** list of owners, **MIN** minute book, **HMS** historical memorial schedule (the odd export lacks the `_Document-…` suffix — the script copes); the document number is
 the citation (source **S07**, Māori Land Court records).
 
 Each record carries: type, date on the record, effective/vesting date, court and judge, minute book,
@@ -120,6 +120,12 @@ been attributed. Click it for the block card, which lists the records, the names
 can follow the line from the title to the applicant. A tupuna card lists the records naming them,
 with the role and shares as recorded. Identity, event and location forms have a "court record"
 picker so every fact can cite a document in the index.
+
+To add records: drop the Pātaka Whenua PDFs into the block's sub-folder in Drive (new sub-folder per
+new block group, file names unchanged) and ask for the folder to be re-scanned; only files not already
+in `drive_manifest.json` are added. Files over about 6 MB cannot be fetched through the Drive connector
+— attach them to the chat or split them. Records that name people with no link yet to a tupuna are
+kept unattributed and the possible links are logged in `discrepancies.json` (D007–D012).
 
 ## Saving to the repo from the map (person record)
 

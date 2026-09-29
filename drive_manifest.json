@@ -1,5 +1,9 @@
 {
- "root_folder": {"id": "1DBg2qPb2rFN714Vr27FNV3bUfug4tixY", "name": "Ownership Schedules", "owner": "ged@corporaterowing.co.nz"},
+ "root_folder": {
+  "id": "1DBg2qPb2rFN714Vr27FNV3bUfug4tixY",
+  "name": "Ownership Schedules",
+  "owner": "ged@corporaterowing.co.nz"
+ },
  "folders": {
   "Rotokakahi": "1RRO2kneqhc15MhO6z_A6q2IGlRCGhfka",
   "Paihia": "1O9YiBYLYD_L-vme2tfjN6uW_8NKWvvr_",
@@ -11,61 +15,508 @@
   "Whakakoro": "1Ya6GxFeNye4ic97GodHT66OIpsCpB2mj",
   "Mangaiti": "1a3ze5dDVXn6uS9T5WgoQpQpFNAuCfr5R",
   "Otangaroa": "1pt4jDHIuhORm3LSUS2ybmy6Ml2ZMsDVj",
-  "Owhata": "1qfg4oX7sZqWHgoMYrU4KvzlqC9RZSIpY"
+  "Owhata": "1qfg4oX7sZqWHgoMYrU4KvzlqC9RZSIpY",
+  "Te Puna Topu O Hokianga": "1FshpfyaDCAfHu5AWBdDP25BCQDwCfPNR",
+  "Waimate North": "1gE2583-HENykHkOJE9sr0vM0D47m6LzL",
+  "Te Kohanga": "1ZnFeFgQjSRF2Xt2XHprG7smlyd7NLqsk",
+  "Karikari": "1QpifPnHudicuI9BEy5g1WWo0HWwoFsrP",
+  "Parengarenga": "1hi6gCAyFMLuON-9x5zHamGHsL9s3Xz18"
  },
  "files": [
-  ["Rotokakahi", "1o7WNlWNbKhRLfqponESHLz-oQLrYdHD5", "00992000_01491571_0001_0001_LHO_Document-1491571.pdf", 114264],
-  ["Rotokakahi", "1jzrDxk606XRVzrx3JZqeqDLVb7tJEBoc", "00992022_01491593_0001_0001_LHO_Document-1491593.pdf", 242920],
-  ["Rotokakahi", "1BGlZ1Epng4SweQydCJfybfo1vsqrayk5", "01009765_01509341_0001_0001_ORD_Document-1509341.pdf", 94786],
-  ["Rotokakahi", "1BwQ8p7FPxqC4LJaDbTSkxaia4Qxeu2U0", "01009814_01509389_0001_0001_ORD_Document-1509389.pdf", 79168],
-  ["Rotokakahi", "1ZK_6qhiLZVymEReh23sVk0tMOuvHelGt", "01009768_01509344_0001_0001_ORD_Document-1509344.pdf", 94789],
-  ["Rotokakahi", "1YqIh-u-cXksBS4gP7fPxpENpD9e7nYF3", "01009757_01509333_0001_0001_ORD_Document-1509333.pdf", 84460],
-  ["Rotokakahi", "1EEp9RZemv0lpzQT6X-V_KidatSl5SjsT", "01009751_01509327_0001_0001_ORD_Document-1509327.pdf", 93509],
-  ["Rotokakahi", "1HPcAq_0qZRRZpZ2ar4QDr2LAPRY5349C", "01009754_01509330_0001_0001_ORD_Document-1509330.pdf", 91888],
-  ["Rotokakahi", "1QrxE1dPIVos3FZbjrgsZEAYDPKh0u5dl", "00991964_01491535_0001_0004_LHO_Document-1491535.pdf", 955070],
-  ["Rotokakahi", "1XVSEXmu9IAiqin57HCFoF2meZ00kZTv8", "00787710_01279339_0001_0009_LHO_Document-1279339.pdf", 1626675],
-  ["Rotokakahi", "1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU", "00991996_01491567_0001_0001_LHO_Document-1491567.pdf", 158142],
-  ["Rotokakahi", "10plaP_ZEF5YnDf9sDy1FXTunO8he1xV4", "00992108_01491679_0001_0002_LHO_Document-1491679 (1).pdf", 381690],
-  ["Rotokakahi", "1T347I38lXSek24dzrdaRKks18EFGw7cC", "01009815_01509391_0001_0001_ORD_Document-1509391.pdf", 84697],
-  ["Paihia", "1eu7Ja6pVoj-crbPfs-R2Bq8LGvVQKVIw", "00988601_01488172_0001_0001_LHO_Document-1488172.pdf", 240076],
-  ["Paihia", "1eiO5o1j78q-qWqs1c6_4qVszxBWl_cQa", "00988594_01488165_0001_0007_LHO_Document-1488165.pdf", 1374709],
-  ["Paihia", "1Tdq70cMlZD8AunjUVj-hnIxjsT_EovJr", "00793010_01284640_0001_0006_LHO_Document-1284640.pdf", 1348329],
-  ["Paihia", "14VdXBGwQwJQsjKyKKGuZtjnBaI2ZoLYF", "00988591_01488162_0001_0001_LHO_Document-1488162.pdf", 205631],
-  ["Paihia", "1dqRTVUSzpPr5gvhBBPtJXUIEs-t0FjKH", "00980385_01479952_0001_0001_LHO_Document-1479952.pdf", 218332],
-  ["Paihia", "1HJ9146fEWxSNWA4MnwujJiriaZgIFSk6", "00945529_01445102_0001_0001_ORD_Document-1445102.pdf", 127285],
-  ["Waihapa", "1LPToceWlAC_JvvsFgA-SHVcu5ndk4pcF", "01021649_01521222_0001_0001_ORD_Document-1521222.pdf", 162606],
-  ["Waihapa", "16SLGhFHkBCLlV-KJPfMgc3Ta8i0ZOYvk", "01021648_01521221_0001_0001_ORD_Document-1521221.pdf", 138824],
-  ["Waihapa", "1o3sIr-ehXR_H9Yvu9Lb3y0OVoOIpmbmb", "00993151_01492723_0001_0003_LHO_Document-1492723.pdf", 523631],
-  ["Waihapa", "1vhNNbtyxuFxFDEh-Oktco6EGgEVh5gEy", "00993154_01492726_0001_0003_LHO_Document-1492726.pdf", 632871],
-  ["Tauaki", "1wozRCpWLRWh7uO4G6CqpjlGNeujWH38A", "01026630_01526207_0001_0016_LHO_Document-1526207.pdf", 3136829],
-  ["Tauaki", "1cSAFABZAGKMfCQlNSrBYQxudD1AnWUTH", "00791067_01282697_0001_0024_LHO_Document-1282697.pdf", 5784379],
-  ["Tauaki", "1JoS6dVH8KEMRI_oR_c7Um0G5S_2C4J6n", "01026646_01526219_0001_0007_LHO_Document-1526219 (1).pdf", 1536310],
-  ["Taupo", "1Y7_JpJ2ChZJFkXiwdNFFHjSvg-DgzRIe", "02600980_03844962_0265_0268_MIN_Document-3844962.pdf", 170991],
-  ["Taupo", "126X08PWv9RAiD-imgSWmWegJgMMggu91", "01027880_01527452_0001_0004_LHO_Document-1527452.pdf", 713914],
-  ["Taupo", "13E1pN7Tx0kWcD8XuUhjD3nGeb4BB2UuL", "00781082_01268972_0001_0009_LHO_Document-1268972 (3).pdf", 2125259],
-  ["Taupo", "1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9", "01027696_01527268_0001_0002_LHO_Document-1527268.pdf", 343222],
-  ["Pokaka", "1Q2OwxSIujL6oUH1s45o1EdAfXMVTdPn5", "00976385_01475956_0001_0003_ORD_Document-1475956.pdf", 447693],
-  ["Pupuke", "1x-cR9-3XJOMkgcvX_rJPwdX3FN_lceLh", "00998851_01498426_0001_0001_LHO_Document-1498426.pdf", 193175],
-  ["Pupuke", "1rWfx2vBmjWNUiNKn_7_ftb4364qkU7pn", "00920967_01420552_0001_0001_LHO_Document-1420552.pdf", 152822],
-  ["Pupuke", "1Wz1me_cenjWHmTYndW9E_8nfAQZuqmto", "00998970_01498544_0001_0001_LHO_Document-1498544.pdf", 199591],
-  ["Pupuke", "11XyP_8VTs9zjrlvZit8axhveHhFZZA4T", "00998773_01498346_0001_0002_LHO_Document-1498346.pdf", 495035],
-  ["Whakakoro", "1Si76RlAWqSa0dNotpnuUBiU2NqrpX0Og", "01083274_01732035_0001_0007_LHO_Document-1732035.pdf", 1120677],
-  ["Whakakoro", "178IqTtdutdtJVdaXR9Lvz_uMd2FIeQ-S", "00986969_01486540_0001_0001_ORD_Document-1486540.pdf", 180643],
-  ["Whakakoro", "1T0GulrJ4mBmSxgyA2inrpR3lETi1I3TJ", "01074894_01650181_0264_0264_MIN_Document-1650181.pdf", 558960],
-  ["Whakakoro", "1bvHbrVkyY_99_KLBmFT7aZVrX8rCIzUU", "00788121_01279748_0001_0011_LHO_Document-1279748 (2).pdf", 1782354],
-  ["Whakakoro", "1WiTffW3ZV2fYzQ1XSbvJGj1S3j8KWgg5", "01017881_01517478_0001_0013_LHO_Document-1517478.pdf", 2711145],
-  ["Whakakoro", "1RkoLSUVk-8wynpdt40m_1V-TYvbeFSLx", "01083111_01731872_0001_0002_LHO_Document-1731872.pdf", 271318],
-  ["Whakakoro", "1NfLK_O0q5_JxKoDHLP8LIVL7JkiAxfxF", "01017653_01517226_0001_0001_ORD_Document-1517226.pdf", 132310],
-  ["Whakakoro", "1dlMo5clyxOMrogYqMpdisWA6tpEZiD8C", "01018043_01517616_0001_0003_LHO_Document-1517616 (1).pdf", 417627],
-  ["Mangaiti", "1pGPzUTOYRjCxl8zkLOaLjH26jfSysQeO", "00947283_01446854_0001_0001_LHO_Document-1446854.pdf", 211156],
-  ["Mangaiti", "1vDN4R8Qkoql4o7aTzqBZLvrect5E7gBB", "00947504_01447074_0001_0002_ORD_Document-1447074.pdf", 191624],
-  ["Mangaiti", "1gF0xufQ1_WXqghzm5jPKk3HwCBn3tDt2", "00947281_01446852_0001_0002_LHO_Document-1446852.pdf", 496309],
-  ["Mangaiti", "1uOMCxORmjeUKY3KvT_C5Q6mFVFtIi9fj", "00890061_01389633_0001_0001_LHO_Document-1389633.pdf", 209414],
-  ["Otangaroa", "1H5ZIyRqbb6MuOh42Ief-vi4WCRZZqROa", "00939861_01439447_0001_0001_ORD_Document-1439447.pdf", 140845],
-  ["Otangaroa", "1oYtUaVkzbKID8QAHYpCtfvSzVTDXYIkX", "00939710_01439296_0001_0002_LHO_Document-1439296.pdf", 465618],
-  ["Otangaroa", "1pmlwQ2J4WGtpaKapm_6ZDRnTs5IwYFXa", "00939709_01439295_0001_0001_LHO_Document-1439295.pdf", 417920],
-  ["Owhata", "1rVjcYnLVhsCTVJ5-_6vINKAAamO9jZiv", "00788660_01280290_0001_0015_LHO_Document-1280290 (1).pdf", 3486874],
-  ["Owhata", "1_4KfDIMuQTdyUKBDEm8kf2n_OBQ1tptG", "00987709_01487280_0001_0005_LHO_Document-1487280.pdf", 1262587],
-  ["Owhata", "1i34zPFnH1TNe99ed3R31k1hvgjqyuk-f", "00988201_01487772_0001_0001_LHO_Document-1487772.pdf", 262216]
+  [
+   "Rotokakahi",
+   "1o7WNlWNbKhRLfqponESHLz-oQLrYdHD5",
+   "00992000_01491571_0001_0001_LHO_Document-1491571.pdf",
+   114264
+  ],
+  [
+   "Rotokakahi",
+   "1jzrDxk606XRVzrx3JZqeqDLVb7tJEBoc",
+   "00992022_01491593_0001_0001_LHO_Document-1491593.pdf",
+   242920
+  ],
+  [
+   "Rotokakahi",
+   "1BGlZ1Epng4SweQydCJfybfo1vsqrayk5",
+   "01009765_01509341_0001_0001_ORD_Document-1509341.pdf",
+   94786
+  ],
+  [
+   "Rotokakahi",
+   "1BwQ8p7FPxqC4LJaDbTSkxaia4Qxeu2U0",
+   "01009814_01509389_0001_0001_ORD_Document-1509389.pdf",
+   79168
+  ],
+  [
+   "Rotokakahi",
+   "1ZK_6qhiLZVymEReh23sVk0tMOuvHelGt",
+   "01009768_01509344_0001_0001_ORD_Document-1509344.pdf",
+   94789
+  ],
+  [
+   "Rotokakahi",
+   "1YqIh-u-cXksBS4gP7fPxpENpD9e7nYF3",
+   "01009757_01509333_0001_0001_ORD_Document-1509333.pdf",
+   84460
+  ],
+  [
+   "Rotokakahi",
+   "1EEp9RZemv0lpzQT6X-V_KidatSl5SjsT",
+   "01009751_01509327_0001_0001_ORD_Document-1509327.pdf",
+   93509
+  ],
+  [
+   "Rotokakahi",
+   "1HPcAq_0qZRRZpZ2ar4QDr2LAPRY5349C",
+   "01009754_01509330_0001_0001_ORD_Document-1509330.pdf",
+   91888
+  ],
+  [
+   "Rotokakahi",
+   "1QrxE1dPIVos3FZbjrgsZEAYDPKh0u5dl",
+   "00991964_01491535_0001_0004_LHO_Document-1491535.pdf",
+   955070
+  ],
+  [
+   "Rotokakahi",
+   "1XVSEXmu9IAiqin57HCFoF2meZ00kZTv8",
+   "00787710_01279339_0001_0009_LHO_Document-1279339.pdf",
+   1626675
+  ],
+  [
+   "Rotokakahi",
+   "1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU",
+   "00991996_01491567_0001_0001_LHO_Document-1491567.pdf",
+   158142
+  ],
+  [
+   "Rotokakahi",
+   "10plaP_ZEF5YnDf9sDy1FXTunO8he1xV4",
+   "00992108_01491679_0001_0002_LHO_Document-1491679 (1).pdf",
+   381690
+  ],
+  [
+   "Rotokakahi",
+   "1T347I38lXSek24dzrdaRKks18EFGw7cC",
+   "01009815_01509391_0001_0001_ORD_Document-1509391.pdf",
+   84697
+  ],
+  [
+   "Paihia",
+   "1eu7Ja6pVoj-crbPfs-R2Bq8LGvVQKVIw",
+   "00988601_01488172_0001_0001_LHO_Document-1488172.pdf",
+   240076
+  ],
+  [
+   "Paihia",
+   "1eiO5o1j78q-qWqs1c6_4qVszxBWl_cQa",
+   "00988594_01488165_0001_0007_LHO_Document-1488165.pdf",
+   1374709
+  ],
+  [
+   "Paihia",
+   "1Tdq70cMlZD8AunjUVj-hnIxjsT_EovJr",
+   "00793010_01284640_0001_0006_LHO_Document-1284640.pdf",
+   1348329
+  ],
+  [
+   "Paihia",
+   "14VdXBGwQwJQsjKyKKGuZtjnBaI2ZoLYF",
+   "00988591_01488162_0001_0001_LHO_Document-1488162.pdf",
+   205631
+  ],
+  [
+   "Paihia",
+   "1dqRTVUSzpPr5gvhBBPtJXUIEs-t0FjKH",
+   "00980385_01479952_0001_0001_LHO_Document-1479952.pdf",
+   218332
+  ],
+  [
+   "Paihia",
+   "1HJ9146fEWxSNWA4MnwujJiriaZgIFSk6",
+   "00945529_01445102_0001_0001_ORD_Document-1445102.pdf",
+   127285
+  ],
+  [
+   "Waihapa",
+   "1LPToceWlAC_JvvsFgA-SHVcu5ndk4pcF",
+   "01021649_01521222_0001_0001_ORD_Document-1521222.pdf",
+   162606
+  ],
+  [
+   "Waihapa",
+   "16SLGhFHkBCLlV-KJPfMgc3Ta8i0ZOYvk",
+   "01021648_01521221_0001_0001_ORD_Document-1521221.pdf",
+   138824
+  ],
+  [
+   "Waihapa",
+   "1o3sIr-ehXR_H9Yvu9Lb3y0OVoOIpmbmb",
+   "00993151_01492723_0001_0003_LHO_Document-1492723.pdf",
+   523631
+  ],
+  [
+   "Waihapa",
+   "1vhNNbtyxuFxFDEh-Oktco6EGgEVh5gEy",
+   "00993154_01492726_0001_0003_LHO_Document-1492726.pdf",
+   632871
+  ],
+  [
+   "Tauaki",
+   "1wozRCpWLRWh7uO4G6CqpjlGNeujWH38A",
+   "01026630_01526207_0001_0016_LHO_Document-1526207.pdf",
+   3136829
+  ],
+  [
+   "Tauaki",
+   "1cSAFABZAGKMfCQlNSrBYQxudD1AnWUTH",
+   "00791067_01282697_0001_0024_LHO_Document-1282697.pdf",
+   5784379
+  ],
+  [
+   "Tauaki",
+   "1JoS6dVH8KEMRI_oR_c7Um0G5S_2C4J6n",
+   "01026646_01526219_0001_0007_LHO_Document-1526219 (1).pdf",
+   1536310
+  ],
+  [
+   "Taupo",
+   "1Y7_JpJ2ChZJFkXiwdNFFHjSvg-DgzRIe",
+   "02600980_03844962_0265_0268_MIN_Document-3844962.pdf",
+   170991
+  ],
+  [
+   "Taupo",
+   "126X08PWv9RAiD-imgSWmWegJgMMggu91",
+   "01027880_01527452_0001_0004_LHO_Document-1527452.pdf",
+   713914
+  ],
+  [
+   "Taupo",
+   "13E1pN7Tx0kWcD8XuUhjD3nGeb4BB2UuL",
+   "00781082_01268972_0001_0009_LHO_Document-1268972 (3).pdf",
+   2125259
+  ],
+  [
+   "Taupo",
+   "1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9",
+   "01027696_01527268_0001_0002_LHO_Document-1527268.pdf",
+   343222
+  ],
+  [
+   "Pokaka",
+   "1Q2OwxSIujL6oUH1s45o1EdAfXMVTdPn5",
+   "00976385_01475956_0001_0003_ORD_Document-1475956.pdf",
+   447693
+  ],
+  [
+   "Pupuke",
+   "1x-cR9-3XJOMkgcvX_rJPwdX3FN_lceLh",
+   "00998851_01498426_0001_0001_LHO_Document-1498426.pdf",
+   193175
+  ],
+  [
+   "Pupuke",
+   "1rWfx2vBmjWNUiNKn_7_ftb4364qkU7pn",
+   "00920967_01420552_0001_0001_LHO_Document-1420552.pdf",
+   152822
+  ],
+  [
+   "Pupuke",
+   "1Wz1me_cenjWHmTYndW9E_8nfAQZuqmto",
+   "00998970_01498544_0001_0001_LHO_Document-1498544.pdf",
+   199591
+  ],
+  [
+   "Pupuke",
+   "11XyP_8VTs9zjrlvZit8axhveHhFZZA4T",
+   "00998773_01498346_0001_0002_LHO_Document-1498346.pdf",
+   495035
+  ],
+  [
+   "Whakakoro",
+   "1Si76RlAWqSa0dNotpnuUBiU2NqrpX0Og",
+   "01083274_01732035_0001_0007_LHO_Document-1732035.pdf",
+   1120677
+  ],
+  [
+   "Whakakoro",
+   "178IqTtdutdtJVdaXR9Lvz_uMd2FIeQ-S",
+   "00986969_01486540_0001_0001_ORD_Document-1486540.pdf",
+   180643
+  ],
+  [
+   "Whakakoro",
+   "1T0GulrJ4mBmSxgyA2inrpR3lETi1I3TJ",
+   "01074894_01650181_0264_0264_MIN_Document-1650181.pdf",
+   558960
+  ],
+  [
+   "Whakakoro",
+   "1bvHbrVkyY_99_KLBmFT7aZVrX8rCIzUU",
+   "00788121_01279748_0001_0011_LHO_Document-1279748 (2).pdf",
+   1782354
+  ],
+  [
+   "Whakakoro",
+   "1WiTffW3ZV2fYzQ1XSbvJGj1S3j8KWgg5",
+   "01017881_01517478_0001_0013_LHO_Document-1517478.pdf",
+   2711145
+  ],
+  [
+   "Whakakoro",
+   "1RkoLSUVk-8wynpdt40m_1V-TYvbeFSLx",
+   "01083111_01731872_0001_0002_LHO_Document-1731872.pdf",
+   271318
+  ],
+  [
+   "Whakakoro",
+   "1NfLK_O0q5_JxKoDHLP8LIVL7JkiAxfxF",
+   "01017653_01517226_0001_0001_ORD_Document-1517226.pdf",
+   132310
+  ],
+  [
+   "Whakakoro",
+   "1dlMo5clyxOMrogYqMpdisWA6tpEZiD8C",
+   "01018043_01517616_0001_0003_LHO_Document-1517616 (1).pdf",
+   417627
+  ],
+  [
+   "Mangaiti",
+   "1pGPzUTOYRjCxl8zkLOaLjH26jfSysQeO",
+   "00947283_01446854_0001_0001_LHO_Document-1446854.pdf",
+   211156
+  ],
+  [
+   "Mangaiti",
+   "1vDN4R8Qkoql4o7aTzqBZLvrect5E7gBB",
+   "00947504_01447074_0001_0002_ORD_Document-1447074.pdf",
+   191624
+  ],
+  [
+   "Mangaiti",
+   "1gF0xufQ1_WXqghzm5jPKk3HwCBn3tDt2",
+   "00947281_01446852_0001_0002_LHO_Document-1446852.pdf",
+   496309
+  ],
+  [
+   "Mangaiti",
+   "1uOMCxORmjeUKY3KvT_C5Q6mFVFtIi9fj",
+   "00890061_01389633_0001_0001_LHO_Document-1389633.pdf",
+   209414
+  ],
+  [
+   "Otangaroa",
+   "1H5ZIyRqbb6MuOh42Ief-vi4WCRZZqROa",
+   "00939861_01439447_0001_0001_ORD_Document-1439447.pdf",
+   140845
+  ],
+  [
+   "Otangaroa",
+   "1oYtUaVkzbKID8QAHYpCtfvSzVTDXYIkX",
+   "00939710_01439296_0001_0002_LHO_Document-1439296.pdf",
+   465618
+  ],
+  [
+   "Otangaroa",
+   "1pmlwQ2J4WGtpaKapm_6ZDRnTs5IwYFXa",
+   "00939709_01439295_0001_0001_LHO_Document-1439295.pdf",
+   417920
+  ],
+  [
+   "Owhata",
+   "1rVjcYnLVhsCTVJ5-_6vINKAAamO9jZiv",
+   "00788660_01280290_0001_0015_LHO_Document-1280290 (1).pdf",
+   3486874
+  ],
+  [
+   "Owhata",
+   "1_4KfDIMuQTdyUKBDEm8kf2n_OBQ1tptG",
+   "00987709_01487280_0001_0005_LHO_Document-1487280.pdf",
+   1262587
+  ],
+  [
+   "Owhata",
+   "1i34zPFnH1TNe99ed3R31k1hvgjqyuk-f",
+   "00988201_01487772_0001_0001_LHO_Document-1487772.pdf",
+   262216
+  ],
+  [
+   "Te Puna Topu O Hokianga",
+   "1sfynGfwJRHaIFaQpa_XtIdsjD-c0RygV",
+   "00998710_01498338_0001_0049_LHO_Document-1498338.pdf",
+   "12449855"
+  ],
+  [
+   "Te Puna Topu O Hokianga",
+   "1_KdHq9Fgdxnxsmy8K5Bq2rX_7N5k_BJm",
+   "00784436_01273528_0001_0141_LHO_Document-1273528.pdf",
+   "41530818"
+  ],
+  [
+   "Te Puna Topu O Hokianga",
+   "1mxJy5KhZVRQmOLPn5qEZeShXQWF0VG16",
+   "01060226_01559797_0001_0002_LHO_Document-1559797.pdf",
+   "506781"
+  ],
+  [
+   "Waimate North",
+   "1y8dkeucImcquXbOsdsmmTMH2u5kOzMQk",
+   "01015776_01515362_0001_0047_LHO_Document-1515362.pdf",
+   "9980947"
+  ],
+  [
+   "Waimate North",
+   "1IUSriBTmUtQn47bdW5nHE6omD1PXqcZe",
+   "01015795_01515373_0001_0010_LHO_Document-1515373.pdf",
+   "1456873"
+  ],
+  [
+   "Waimate North",
+   "1ZU2hjLOFny0Vk4nWVLBEiZ2jtPO89UQX",
+   "00783986_01273080_0001_0023_LHO_Document-1273080.pdf",
+   "5186645"
+  ],
+  [
+   "Waimate North",
+   "17i-qC52H6stqVJHfpOI0EUnLQEIcculo",
+   "01015806_01515383_0001_0017_LHO_Document-1515383.pdf",
+   "3803482"
+  ],
+  [
+   "Te Kohanga",
+   "1JigGW4LIoK0WfobJVCLwn1b0MOcOsPQU",
+   "00780777_01265224_0001_0015_HMS_Document-1265224.pdf",
+   "3261581"
+  ],
+  [
+   "Te Kohanga",
+   "1ixM9g54VZxPirWcAJGASUEkFixsTWdgU",
+   "00891890_01391476_0001_0046_LHO_Document-1391476.pdf",
+   "11167134"
+  ],
+  [
+   "Te Kohanga",
+   "1GldtVMqbvync4kJtPO26f7aOFGqk-wLJ",
+   "00892040_01391616_0001_0006_LHO_Document-1391616.pdf",
+   "1797253"
+  ],
+  [
+   "Te Kohanga",
+   "1OUzrVJYuyOOcjbgSjidJ1AG4NcvPH4pb",
+   "00891904_01391494_0001_0043_LHO_Document-1391494.pdf",
+   "9720052"
+  ],
+  [
+   "Karikari",
+   "1Aykd5mKH-33DqyQ9bTepX-9OF-15wqrR",
+   "00907451_01407034_0001_0001_LHO_Document-1407034.pdf",
+   "225451"
+  ],
+  [
+   "Karikari",
+   "13nBX77uCk88OqvenTt7MFDaJcuxJbH1W",
+   "00780704_01265151_0001_0003_LHO_Document-1265151.pdf",
+   "499366"
+  ],
+  [
+   "Karikari",
+   "1jEgV36ZuxGH-shQ0FkS163fg-hasY5G0",
+   "00907464_01407047_0001_0001_LHO_Document-1407047.pdf",
+   "254605"
+  ],
+  [
+   "Karikari",
+   "1yt8zzOE35IPwr7_W2zUkGh5vflkzybwQ",
+   "00907331_01406914_0001_0001_LHO.pdf",
+   "263893"
+  ],
+  [
+   "Karikari",
+   "1rLqLog7DGS0Qk82lbrE3VA6UZwWnMECe",
+   "00780702_01265149_0001_0002_LHO_Document-1265149.pdf",
+   "361172"
+  ],
+  [
+   "Karikari",
+   "12A_PFoD4VhbvRGHUVs1vTENSXnU_X6Tv",
+   "00907339_01406922_0001_0011_LHO_Document-1406922.pdf",
+   "3298675"
+  ],
+  [
+   "Karikari",
+   "1RYdLF21nGdibDGezkwhhn_DjshLcxFA3",
+   "00907496_01407079_0001_0008_LHO_Document-1407079.pdf",
+   "2111968"
+  ],
+  [
+   "Karikari",
+   "1xJO_sEP-XA4vb7Smw9aB7SFAXRG7ifcC",
+   "00780710_01265157_0001_0013_LHO_Document-1265157.pdf",
+   "3039809"
+  ],
+  [
+   "Karikari",
+   "1pON-NSZ0OZvevQr4dIEgAgyM3ZDsQp2D",
+   "00907449_01407032_0001_0012_LHO_Document-1407032.pdf",
+   "2777586"
+  ],
+  [
+   "Karikari",
+   "1t2NmVdV-5Q4dNy4JtiYVKZZpJYcRHWi4",
+   "00907491_01407074_0001_0003_LHO_Document-1407074.pdf",
+   "774070"
+  ],
+  [
+   "Karikari",
+   "1BlSm1IM1H1R0xq7GZlCJnYAKhP7xwSDT",
+   "00907450_01407033_0001_0001_LHO_Document-1407033.pdf",
+   "144822"
+  ],
+  [
+   "Karikari",
+   "1PGrsCN-lGbVsl3NCYvN65P4l89R7ElqM",
+   "00907465_01407048_0001_0003_LHO_Document-1407048.pdf",
+   "818249"
+  ],
+  [
+   "Karikari",
+   "1Ip5e-UCjEKxCaN2HSlk2S91QcM8-lIMZ",
+   "00907334_01406918_0001_0003_LHO_Document-1406918.pdf",
+   "951222"
+  ],
+  [
+   "Parengarenga",
+   "1e6LmgUYzW4U2TmCW4S6UTAIa7yWxfKgM",
+   "00960055_01459641_0001_0025_LHO_Document-1459641.pdf",
+   "6186380"
+  ],
+  [
+   "Parengarenga",
+   "1BwTlMt5E6_9k6RijdZFQm2ZtBv0zoqjk",
+   "00959997_01459568_0001_0001_LHO_Document-1459568.pdf",
+   "276471"
+  ],
+  [
+   "Parengarenga",
+   "1tPcPeTbpEb10ljdUow-hgM2OB5W6jG8j",
+   "01055016_01554588_0001_0037_LHO_Document-1554588.pdf",
+   "7363857"
+  ],
+  [
+   "Parengarenga",
+   "1le1UDNPpasAk-y2KsFsA7tIxrgPXr7QY",
+   "00790955_01282585_0001_0063_LHO_Document-1282585.pdf",
+   "17767035"
+  ]
+ ],
+ "skipped": [
+  [
+   "Karikari",
+   "139hb4hfl1v5l-EP5wFMDJfrNa8ZLmg09",
+   "Improving the on-hold experience.pdf",
+   "575667",
+   "not a court record — ignored"
+  ]
  ]
 }
