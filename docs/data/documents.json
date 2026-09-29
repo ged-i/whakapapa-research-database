@@ -15577,7 +15577,7 @@
   "status": "indexed",
   "summary": "",
   "names": [],
-  "notes": "Not yet read: the file is over the size the Drive connector will deliver (≈6.5 MB), so it is indexed from its Drive metadata only. Attach it to the chat or split it into halves under 6 MB in Drive and it can be transcribed."
+  "notes": "Not yet read: the file is over the size the Drive connector will deliver (≈6.5 MB), so it is indexed from its Drive metadata only. Attach it to the chat or split it into halves under 6 MB in Drive and it can be transcribed. Text pass (Drive OCR, 29.9.26): a hand-written MLC 102 \"names of owners\" schedule — older than the 1965 list; not machine-readable, needs the images."
  },
  {
   "document_id": "PW-1391494",
@@ -15608,7 +15608,7 @@
   "status": "indexed",
   "summary": "",
   "names": [],
-  "notes": "Not yet read: the file is over the size the Drive connector will deliver (≈6.5 MB), so it is indexed from its Drive metadata only. Attach it to the chat or split it into halves under 6 MB in Drive and it can be transcribed."
+  "notes": "Not yet read: the file is over the size the Drive connector will deliver (≈6.5 MB), so it is indexed from its Drive metadata only. Attach it to the chat or split it into halves under 6 MB in Drive and it can be transcribed. Text pass (Drive OCR, 29.9.26): this is the full typed 1965 list, owners 1–329 (pages 1–4 carry nos 1–169: A–Me); no \"Kaperiera\" in the K section (Kapeti Wi Hamiora, Katene Raukawa Motu, Katerina Tuia Kahiti, Kathleen Arano, Keoti Makinira Wiremu, Kehu Te Para te Paa, Kereihi Hehi Te Hira, Kerewai Wakarua Hohipa, Kerewai Wire Kamariera, Kihirini Rapata Tamati, Kiri Wiki Takerei …); Rihipeti Arama is no. 269 (24.405) on this copy."
  },
  {
   "document_id": "PW-1391616",
@@ -23714,7 +23714,7 @@
     "shares": "2.110",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 83 (p.5)"
+    "note": "no. 83 (p.5); see D008"
    },
    {
     "name": "Kaperiera Matiu",
@@ -23724,7 +23724,7 @@
     "shares": "6.733",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 84 (p.5)"
+    "note": "no. 84 (p.5); Kaperiera = Kaperiere (Peri Paraihe's alias) — the name occurs nowhere in the Karikari or Te Kohanga records; see D008"
    },
    {
     "name": "Kapeti Mete Keepa Horo or Kapeti Noble",
