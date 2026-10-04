@@ -19,7 +19,7 @@ import json, re, pathlib
 ROOT = pathlib.Path(__file__).parent
 MAN = json.loads((ROOT / "drive_manifest.json").read_text(encoding="utf-8"))
 OUT = ROOT / "docs" / "data" / "documents.json"
-TYPE_LABEL = {"ORD": "Court order", "LHO": "List of owners", "MIN": "Minute book", "HMS": "Historical memorial schedule"}
+TYPE_LABEL = {"ORD": "Court order", "LHO": "List of owners", "MIN": "Minute book", "HMS": "Historical memorial schedule", "REC": "Record sheet"}
 
 existing = {}
 if OUT.exists():
@@ -28,7 +28,9 @@ if OUT.exists():
 
 pat = re.compile(r"^(\d+)_(\d+)_(\d+)_(\d+)_([A-Z]{3})(?:_Document-(\d+))?(?: \(\d+\))?\.pdf$")
 docs = []
-for folder, drive_id, fname, size in MAN["files"]:
+seen = set()
+# Drive files first, then PDFs the whānau attached to the chat (no Drive copy yet): [folder, "", file_name, size]
+for folder, drive_id, fname, size in list(MAN["files"]) + [list(x) for x in MAN.get("attached", [])]:
     m = pat.match(fname)
     if not m:
         raise SystemExit(f"unexpected file name: {fname}")
@@ -51,22 +53,30 @@ for folder, drive_id, fname, size in MAN["files"]:
         "court": "", "judge": "", "minute_book": "",
         "pages": pages, "page_range": f"{int(p1)}–{int(p2)}" if typ == "MIN" else "",
         "file_name": fname, "drive_id": drive_id, "file_size": size,
-        "url": f"https://drive.google.com/file/d/{drive_id}/view",
+        "url": f"https://drive.google.com/file/d/{drive_id}/view" if drive_id else "",
         "source_id": "S07",
         "status": "indexed",                    # indexed → partly transcribed → transcribed
         "summary": "",
         "names": [],                            # [{name, role, sex, age, shares, tupuna_id, confidence, note}]
         "notes": "",
     }
+    if did in seen:
+        continue                                # a Drive copy and an attached copy of the same record: Drive wins
+    seen.add(did)
     if did in existing:
         keep = existing[did]
         for k in ("file_name", "drive_id", "file_size", "url", "pages", "page_range", "folder", "type", "type_label", "doc_no"):
-            keep[k] = base[k]
+            if base[k] or k not in keep:
+                keep[k] = base[k]
         for k, v in base.items():
             keep.setdefault(k, v)
         docs.append(keep)
     else:
         docs.append(base)
+# records added in the map (type URL) or otherwise outside the manifest are kept as they are
+for did, keep in existing.items():
+    if did not in seen:
+        docs.append(keep)
 
 order = list(MAN["folders"].keys())
 docs.sort(key=lambda d: (order.index(d["folder"]) if d["folder"] in order else 99, d["type"], d["doc_no"]))

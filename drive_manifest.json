@@ -20,7 +20,13 @@
   "Waimate North": "1gE2583-HENykHkOJE9sr0vM0D47m6LzL",
   "Te Kohanga": "1ZnFeFgQjSRF2Xt2XHprG7smlyd7NLqsk",
   "Karikari": "1QpifPnHudicuI9BEy5g1WWo0HWwoFsrP",
-  "Parengarenga": "1hi6gCAyFMLuON-9x5zHamGHsL9s3Xz18"
+  "Parengarenga": "1hi6gCAyFMLuON-9x5zHamGHsL9s3Xz18",
+  "Takou": "1a1ZLrvATMHi-Fi5Od5tp8RaL2LAQfUaC",
+  "Matangirau": "18p7AZD01diD06WFYb4tY9GS3aRqJ64tQ",
+  "Taimaro": "1JWpu0yTgUwnkPXgSWDUl_lr7fqPUAuBR",
+  "Matauri": "1gJf-t2s63CZhdEKJ4U5Tk0kXaaOF16di",
+  "Manukau": "1G49rKuYXmWNvmXxFvrOqhmM9WopUkdDB",
+  "Wainui": ""
  },
  "files": [
   [
@@ -508,15 +514,135 @@
    "1le1UDNPpasAk-y2KsFsA7tIxrgPXr7QY",
    "00790955_01282585_0001_0063_LHO_Document-1282585.pdf",
    "17767035"
+  ],
+  [
+   "Takou",
+   "1AakfxdvMalczuc6NPzVxUU4icRekv-Cz",
+   "00789039_01280669_0001_0022_LHO_Document-1280669.pdf",
+   "5740856"
+  ],
+  [
+   "Matangirau",
+   "1vJgJ2cwKxX5e9aROp479LLqpl2D9CZPN",
+   "00889649_01389221_0001_0003_LHO.pdf",
+   "473852"
+  ],
+  [
+   "Taimaro",
+   "1G-9YB5YVYmcJXLX7sCgS8tujOhm9gL4j",
+   "01010491_01510069_0001_0015_LHO_Document-1510069.pdf",
+   "3075877"
+  ],
+  [
+   "Taimaro",
+   "1vGhLspaQwrFXkxz0A30TkMmgkTDLS4xh",
+   "01010487_01510063_0001_0002_LHO_Document-1510063.pdf",
+   "350632"
+  ],
+  [
+   "Taimaro",
+   "13AOmKfKXfBUGrrfLGYp5j331Ob-5FmNd",
+   "01010489_01510065_0001_0001_LHO_Document-1510065.pdf",
+   "219611"
+  ],
+  [
+   "Matauri",
+   "17ovwdCqGsH2qQwXbX0qYOb7RMKOLdGZu",
+   "00876272_01375844_0001_0001_LHO_Document-1375844.pdf",
+   "134643"
+  ],
+  [
+   "Matauri",
+   "1LhRDva7VIFn519FACyNWgE1aaIxHyfNx",
+   "00886866_01386450_0001_0020_LHO_Document-1386450.pdf",
+   "4899520"
+  ],
+  [
+   "Matauri",
+   "1ABfVzv7GFr9AHoQqtDwgXK_Hzgy8jMoO",
+   "00876328_01375903_0001_0004_LHO.pdf",
+   "1221797"
+  ],
+  [
+   "Matauri",
+   "1tsw0k7x6E-fsfRZc7qWapxQ7D0uH0Wxx",
+   "00876150_01375721_0001_0002_LHO_Document-1375721.pdf",
+   "430312"
+  ],
+  [
+   "Manukau",
+   "16rx7z7TZU-pxjt163_W-S98EYuqUtfUk",
+   "00786496_01277705_0001_0002_LHO_Document-1277705.pdf",
+   "521853"
+  ],
+  [
+   "Taupo",
+   "1qgRdnbdduWfeeRuU1L2hQv4NDX3W4i28",
+   "01037388_01536960_0001_0002_LHO_Document-1536960.pdf",
+   "421565"
+  ],
+  [
+   "Taupo",
+   "1vUeApqHbutRB556yMJcctnFCrH-5tIFf",
+   "01027660_01527232_0001_0001_LHO_Document-1527232.pdf",
+   "180220"
+  ],
+  [
+   "Taupo",
+   "1Mxsu2p16bSxdjyM5j-pQbSuOEMYUovC3",
+   "01027843_01527413_0001_0001_LHO_Document-1527413.pdf",
+   "168998"
+  ],
+  [
+   "Taupo",
+   "1yiubWLCqRbttGeY-pGD1VG65Nju2i1u2",
+   "01027631_01527203_0001_0001_LHO_Document-1527203.pdf",
+   "220800"
   ]
  ],
- "skipped": [
+ "skipped": [],
+ "attached": [
   [
-   "Karikari",
-   "139hb4hfl1v5l-EP5wFMDJfrNa8ZLmg09",
-   "Improving the on-hold experience.pdf",
-   "575667",
-   "not a court record — ignored"
+   "Wainui",
+   "",
+   "00783315_01272408_0001_0002_REC_Document-1272408.pdf",
+   "531982"
+  ],
+  [
+   "Wainui",
+   "",
+   "01037933_01537505_0001_0001_LHO_Document-1537505.pdf",
+   "215969"
+  ],
+  [
+   "Wainui",
+   "",
+   "00962235_01461807_0001_0001_LHO_Document-1461807.pdf",
+   "92214"
+  ],
+  [
+   "Wainui",
+   "",
+   "00962415_01461987_0001_0002_LHO_Document-1461987.pdf",
+   "313293"
+  ],
+  [
+   "Wainui",
+   "",
+   "00962214_01461786_0001_0002_LHO_Document-1461786.pdf",
+   "396845"
+  ],
+  [
+   "Wainui",
+   "",
+   "00962396_01461969_0001_0004_LHO_Document-1461969.pdf",
+   "738677"
+  ],
+  [
+   "Wainui",
+   "",
+   "00968780_01468358_0001_0013_LHO_Document-1468358.pdf",
+   "1563154"
   ]
  ]
 }
