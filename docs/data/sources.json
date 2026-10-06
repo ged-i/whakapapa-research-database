@@ -68,5 +68,15 @@
   "colour": "#b8407a",
   "retrieved": "2026-09-27",
   "weight_note": "Orders, lists of owners and minute-book pages exported from Pātaka Whenua and filed by block. Primary evidence of names as recorded on title, shares and successions. Each document is indexed in documents.json and cited by its Pātaka Whenua document number."
+ },
+ {
+  "source_id": "S08",
+  "name": "Published histories and biographies",
+  "type": "Published",
+  "url": "",
+  "licence": "various (cited page by page)",
+  "colour": "#4b8a6e",
+  "retrieved": "2026-10-06",
+  "weight_note": "Tohu Whenua, NZHistory, DNZB/Te Ara biographies, WikiTree/Geni compilations — good for public figures and dates; cite the page."
  }
 ]

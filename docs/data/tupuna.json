@@ -2128,6 +2128,18 @@
     "shares": "one of 29 owners (undivided)",
     "source_id": "S07",
     "document_id": "PW-1521222"
+   },
+   {
+    "link_id": "L573",
+    "tupuna_id": "T007",
+    "location_type": "Tupuna",
+    "location_ref": "T149",
+    "location_detail": "Hariata Rongo (Hariata Hongi Hika)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Aunt / uncle",
+    "notes": "aunty of Tura Hāre Hongi",
+    "source": "Whānau whakapapa (S05)"
    }
   ],
   "name": "Tura Wiremu Tangata",
@@ -3378,6 +3390,18 @@
     "relationship": "Child",
     "notes": "inferred — Hongi sibling group on the Waihapa memorial",
     "source": "Māori Land Court records (Pātaka Whenua) — Waihapa memorial of ownership, 7 Oct 1876 (docs 1521222, 1521221)"
+   },
+   {
+    "link_id": "L572",
+    "tupuna_id": "T016",
+    "location_type": "Tupuna",
+    "location_ref": "T149",
+    "location_detail": "Hariata Rongo (Hariata Hongi Hika)",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Sibling",
+    "notes": "Hariata Rongo, sister of Hāre Hongi Hika",
+    "source": "Whānau whakapapa (S05); both children of Hongi Hika and Turikatuku"
    }
   ],
   "name": "Hāre Hongi Hika",
@@ -13560,5 +13584,113 @@
   "father": "Te Patara Te Whakararowai",
   "notes": "Erimana Taniora",
   "source": ""
+ },
+ {
+  "tupuna_id": "T149",
+  "name": "Hariata Rongo (Hariata Hongi Hika)",
+  "other_names": "Rongo Hongi; Hariata Rongomai",
+  "born": "c. 1812",
+  "died": "1894",
+  "birthplace": "",
+  "mother": "Turikatuku",
+  "father": "Hongi Hika",
+  "notes": "Daughter of Hongi Hika and Turikatuku; sister of Hāre Hongi Hika (T016) and so aunt of Tura Hāre Hongi (T007), who married Wiremu Tangata — placed in this whakapapa by the whānau (6 Oct 2026). Educated at the Kerikeri mission girls' school; married Hōne Heke at Kerikeri in March 1837 and, after his death (1850), Arama Karaka Pī of Waimā, Hokianga; died 1894 aged about 79 (Tohu Whenua; WikiTree gives 1812–1894). Because she died in 1894 she is NOT the \"Hariata Haimona\" who succeeded on Te Kohanga No. 1 in Sept 1896, nor the \"Hariata Hongi (Mrs Davis)\" declared an owner of Pokaka (group A, beside Tura) in July 1895 — those are namesakes, probably of the next generation (a daughter of Hāre Hongi Hika or of the Otangaroa \"Hare Hongi\" is the obvious candidate for Mrs Davis).",
+  "source": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Rongo Hongi",
+    "source_id": "S08",
+    "date": "",
+    "document_url": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
+    "document_id": "",
+    "note": "Tohu Whenua story; the Kerikeri mission slates"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Hariata Rongo",
+    "source_id": "S08",
+    "date": "1837-03",
+    "document_url": "https://en.wikipedia.org/wiki/H%C5%8Dne_Heke",
+    "document_id": "",
+    "note": "Christian name at her marriage to Hōne Heke, Kerikeri, March 1837"
+   },
+   {
+    "identity_id": "N003",
+    "name": "Hariata Hongi Hika",
+    "source_id": "S05",
+    "date": "",
+    "document_url": "",
+    "document_id": "",
+    "note": "Whānau whakapapa: daughter of Hongi Hika, sister to Hāre Hongi Hika, aunty to Tura Hāre Hongi"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Birth",
+    "date": "c. 1812",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Born c. 1812 to Hongi Hika and Turikatuku",
+    "source_id": "S08",
+    "confidence": "stated",
+    "document_url": "https://www.wikitree.com/wiki/Hongi-3",
+    "document_id": "",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Marriage",
+    "date": "1837-03",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "Kerikeri Chapel",
+    "latitude": -35.2227,
+    "longitude": 173.9519,
+    "description": "Married Hōne Heke Pōkai at the Kerikeri Chapel",
+    "source_id": "S08",
+    "confidence": "stated",
+    "document_url": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
+    "document_id": "",
+    "note": ""
+   },
+   {
+    "event_id": "E003",
+    "type": "Marriage",
+    "date": "after 1850",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "Waimā, Hokianga",
+    "latitude": null,
+    "longitude": null,
+    "description": "Married Arama Karaka Pī of Waimā after Hōne Heke's death",
+    "source_id": "S08",
+    "confidence": "stated",
+    "document_url": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
+    "document_id": "",
+    "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Death",
+    "date": "1894",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died 1894, aged about 79",
+    "source_id": "S08",
+    "confidence": "stated",
+    "document_url": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
+    "document_id": "",
+    "note": "Rules her out as the 1895 Pokaka owner \"Hariata Hongi (Mrs Davis)\" and the 1896 Te Kohanga successor \"Hariata Haimona\""
+   }
+  ],
+  "links": []
  }
 ]
