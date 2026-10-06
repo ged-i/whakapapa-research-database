@@ -16041,19 +16041,19 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Te Kohanga",
-  "title": "List of owners — Te Kohanga (Pātaka Whenua doc 1391476)",
+  "title": "Te Kohanga No. 1 — original list of owners (1867), succession schedules 1875–1962, schedule of ownership orders, and compiled list as at 6 Mar 1963 (171 owners, 25.000 shares; 41a 2r 0p)",
   "blocks_recorded": [
-   "Te Kohanga"
+   "Te Kohanga No. 1",
+   "Te Kohanga 1"
   ],
   "block_ids": [
-   "32529",
-   "32578"
+   "32529"
   ],
-  "record_date": "",
-  "effective_date": "",
-  "court": "",
+  "record_date": "1963-03-06",
+  "effective_date": "1867-01-01",
+  "court": "Native/Māori Land Court, Tokerau district (Kaitaia)",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "N 1/78, N 1/193, N 2/16, N 4/285, N 17/24-47, N 31/6-32, N 31/233, N 37/11, N 43/141, N 43/173, N 47/315, N 48/88-112, N 56/84, N 56/195, N 57/114, N 57/292, N 58/145, N 58/231, N 59/4, N66A/17-313, N 67/286-331, N 72/698-738, N 76/165, N 78/52-112, N 84/137, K 30/34, N 86/344, K 31/243-295, N 87/226, N 88/30-92",
   "pages": 46,
   "page_range": "",
   "file_name": "00891890_01391476_0001_0046_LHO_Document-1391476.pdf",
@@ -16061,10 +16061,1611 @@
   "file_size": "11167134",
   "url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
   "source_id": "S07",
-  "status": "indexed",
-  "summary": "",
-  "names": [],
-  "notes": "Not yet read: the file is over the size the Drive connector will deliver (≈6.5 MB), so it is indexed from its Drive metadata only. Attach it to the chat or split it into halves under 6 MB in Drive and it can be transcribed. Text pass (Drive OCR, 29.9.26): a hand-written MLC 102 \"names of owners\" schedule — older than the 1965 list; not machine-readable, needs the images."
+  "status": "partly transcribed",
+  "summary": "Forty-six pages (hand-written MLC 102 / Form 16 schedules, then typed): (1) F. E. Maning's 1867 list of the 25 persons interested in Te Kohanga No. 1 under s.17 of the Native Lands Act 1867 — Mumu Ngapipi, Puhipi, Te Pana, Hamihana, Kingi Wiremu, Nepia, Honi Te Karaparapa, Timoti Puhipi, Te Waaka Rangaunu, Taipari (the ten named in the Crown grant), Poharama, Te Henare, Paora, Te Kirihini Nepia, Te Rapihana, Ranga, Takerei, Hamiora, Patana, Meri, Erina, Herepete, Wiremu Tana Hamihana, Hapita, Makoare Haki; (2) succession orders 1875–1909 (Kingi Wiremu, Te Pana, Takerei, Erina, the 1896 sitting — Meri → Raniera Matiu and Tamihana Rihimona; Makoare Haki; Herepete; Hamihana Paka; **Hamiora Rungaiterangi alias Hamiora → Rihipeti Arama, Hariata Haimona, Te Wikiriwhi Poutu, 5.9.1896** — Te Waaka Rangaunu, Honi te Karaparapa, Nepia, Patana te Maru (1901), Poharama Karanui (1905), Mumu Ngapipi and Taipari (1909)); (3) orders 1912–62 including Rihipeti Arama (d. 17.12.1922) → Eruera Paora (1925) → the Eruera Wahapu / Makinira Wiremu children (1944), the big Whangaroa/Kaitaia sitting of 18–19 Nov 1931 (N66A), Kiritiana Matiu → her Matiu children (1936, as on Karikari 2), the Hohipa, Mihaka, Nopera Arano and Natanahira lines and the 1949 exchange orders against Parengarenga 5B2B; (4) the typed schedule of ownership orders (nos 26–338); (5) the compiled list of 171 owners as at 6.3.1963 (25.000 shares). The 1965 Te Kohanga (Lots 1, 3–27) list of 329 owners / 1,745 shares (docs 1391494, 1391616) is a later, larger title.",
+  "names": [
+   {
+    "name": "Mumu Ngapipi",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 1 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Puhipi",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 2 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Te Pana",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 3 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Hamihana",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 4 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Kingi Wiremu",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 5 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Nepia",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 6 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Honi Te Karaparapa",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 7 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Timoti Puhipi",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 8 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Te Waaka Rangaunu",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 9 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Taipari",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 10 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Poharama",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 11 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Te Henare",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 12 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Paora",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 13 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Te Kirihini Nepia",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 14 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Te Rapihana",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 15 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Ranga",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 16 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Takerei",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 17 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Hamiora",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 18 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\") — \"Hamiora\", later written \"Hamiora Rungaiterangi alias Hamiora\""
+   },
+   {
+    "name": "Patana",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 19 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Meri",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 20 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Erina",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 21 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Herepete",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 22 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Wiremu Tana Hamihana",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 23 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\") — Wi Tana Hamihana / Wi Tana Tamihana, son of Hamihana Paka, d. 1901 (N66A/183) — not Wiremu Tangata of Pupuke"
+   },
+   {
+    "name": "Hapita",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 24 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Makoare Haki",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner no. 25 (list of persons interested, s.17 Native Lands Act 1867, F. E. Maning; the first ten \"to be named in the Crown grant\")"
+   },
+   {
+    "name": "Hamiora Rungaiterangi alias Hamiora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 18; s.o. 5.9.1896 (N 17/47) → 37 Rihipeti Arama F 1/3 .334, 38 Hariata Haimona F 1/3 .333, 39 Te Wikiriwhi Poutu M 1/3 .333"
+   },
+   {
+    "name": "Rihipeti Arama",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37, 1896, one of three successors of Hamiora Rungaiterangi; died 17.12.1922 (succession schedule) — her .334 → Eruera Paora, m, solely, 21.2.1925 (N 59/4?). NOT Erihapeti Arama née Wiremu Tangata (T004, d. 1960) — see D009"
+   },
+   {
+    "name": "Hariata Haimona",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38, 1896 — the only \"Haimona\" on the block; cf. Hariata Rapata / Hariata Haimona of Matauri"
+   },
+   {
+    "name": "Te Wikiriwhi Poutu",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39, 1896; d. (s.o. 25.3.1912, N 48/112) → Nopera Arano"
+   },
+   {
+    "name": "Rihipeti Arama",
+    "role": "Deceased",
+    "sex": "F",
+    "age": "",
+    "shares": ".334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 17.12.1922; s.o. 21.2.1925 → 93 Eruera Paora m solely"
+   },
+   {
+    "name": "Eruera Paora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 93, 1925; = Eruera Paora Wahapu, d. April 1942 (N 72/698); s.v.o. 8.3.1944 → 305 Marama Eruera Wahapu F 1/3 .111, 306 Emere Eruera Wahapu F 1/3 .111, 307 Keeti Makinira Wiremu F 7 1/6 .056, 308 Morehu Makinira Wiremu F 3 1/6 .056; trustee Hikuroa Eruera"
+   },
+   {
+    "name": "Marama Eruera Wahapu",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 305, 1944"
+   },
+   {
+    "name": "Emere Eruera Wahapu",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 306, 1944; .111 on the 1963 list (no. 17) and 18.582 on the 1965 Te Kohanga list"
+   },
+   {
+    "name": "Keeti Makinira Wiremu",
+    "role": "Successor",
+    "sex": "F",
+    "age": "7",
+    "shares": ".056",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 307, 1944"
+   },
+   {
+    "name": "Morehu Makinira Wiremu",
+    "role": "Successor",
+    "sex": "F",
+    "age": "3",
+    "shares": ".056",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 308, 1944"
+   },
+   {
+    "name": "Hikuroa Eruera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1944"
+   },
+   {
+    "name": "Kingi Wiremu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 5; s.o. 1.5.1875 (N 1/78) → 26 Ruihi Wiremu Kingi F sole"
+   },
+   {
+    "name": "Ruihi Wiremu Kingi",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1875; d. — s.o. 14.4.1880 (N 4/285) → 33 Mihaka Kingi Wiremu M sole"
+   },
+   {
+    "name": "Te Pana Taurere (Te Pana)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 3; s.o. 3.11.1875 → 27 Hone Taurere M sole"
+   },
+   {
+    "name": "Hone Taurere",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1875; N66A/51, d. 1880(?); s.o. 18.11.31 → Roka, Rangi, Teipara, Riki Papa Hone 1/8, Huhana Panau Wi 1/4, Ani or Miria 1/4"
+   },
+   {
+    "name": "Takerei",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 17; s.o. 15.11.1878 (N 1/193) → 28 Pirihira, 29 Te Wiki, 30 Te Harawira, 31 Matiu, 32 Tipene Takerei .200 each; Tipene Takerei d. → 13.5.1882 (N 2/16-7) → the other four .050 each"
+   },
+   {
+    "name": "Pirihira Takerei",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".200 (.250)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1878 / 1882"
+   },
+   {
+    "name": "Te Wiki Takerei",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".200 (.250)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1878 / 1882"
+   },
+   {
+    "name": "Te Harawira Takerei",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".200 (.250)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1878 / 1882"
+   },
+   {
+    "name": "Matiu Takerei",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".200 (.250)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1878 / 1882"
+   },
+   {
+    "name": "Tipene Takerei",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".200 (.250)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1878 / 1882"
+   },
+   {
+    "name": "Erina (Epina Waka)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 21; s.o. 14.4.1880 → Ana Maraea F 16, Hatareta Makarini F 14, Neri Makarini M 12, Pere Makarini M 6 .250 each; trustee Akinihi Waka (Puhipi?)"
+   },
+   {
+    "name": "Mihaka Kingi Wiremu",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.000 + .500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1880 (from Ruihi Wiremu Kingi) and 1896 (1/2 of Herepete); d. (N 56/84) s.o. 18.2.1915 → 83 Haimona Mihaka, 84 Wi Mihaka .750 each"
+   },
+   {
+    "name": "Meri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 20; s.o. 3.9.1896 (N 17/24) → 28a Raniera Matiu M 1/2 .500, 29a Tamihana Rihimona M 1/2 .500 — the Karikari 2 Raniera (Waata) Matiu"
+   },
+   {
+    "name": "Raniera Matiu",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1896; the Karikari/Te Kohanga Matiu whānau (son of Kiritiana Matiu — s.o. 13.2.36, N66A/170, → Raniera, Miha, Reihana, Wiremu, Riwhi, Heni Matiu 1/7 and Erana, Kare, Rina, Ana Umuroa 1/28, exactly as on Karikari 2); .554 on the 1963 list, 38.669 on the 1965 list"
+   },
+   {
+    "name": "Tamihana Rihimona",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1896; N66A/47, d. 1920; s.o. 18.11.31 → 164 Tiini Matiu M sole .500"
+   },
+   {
+    "name": "Waata Haki alias Makoare Haki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 25; s.o. 3.9.1896 (N 17/25) → 30a Nopera, 31a Patana, 32a Akinihi, 33a Apetona Waata Haki .250 each"
+   },
+   {
+    "name": "Herepete Kingi Wiremu alias Herepete",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 22; s.o. 3.9.1896 (N 17/26) → 34a Mihaka Kingi Wiremu .500, 35a Pene Arano .500"
+   },
+   {
+    "name": "Hamihana Paka alias Hami Pakaa alias Hamihana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 4; s.o. 4.9.1896 (N 17/41) → 36a Wi Tana Tamihana M sole"
+   },
+   {
+    "name": "Wi Tana Hamihana or Wi Tana Tamihana",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1896; d. 1901 (N66A/183); s.o. 13.2.36 → Matiu Wi Tana, Maruwhenua Wi Tana, Akuhata, Eru, Perahama, Waata, Marae, Te Henare Wi Tana (.250 / .125 each) — listed as \"Wiremu Tana Hamihana\", original owner no. 23"
+   },
+   {
+    "name": "Akinihi Waata Haki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "s.o. 18.9.1901 (N 31/6) → 40 Paratene, 41 Maata, 42 Roka, 43 Raiha Hone Hinga .063/.062"
+   },
+   {
+    "name": "Te Waaka Rangaunu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 9; s.o. 21.9.1901 (N 31/27) → 44 Neri Makarini 1/3 .333, 45–48 Te Para, Ani, Herewini, Henare Puhipi 1/12 .084/.083, 49–51 Wi, Raiha, Rihi Moka 1/9 .111; trustee Rewi Ng…"
+   },
+   {
+    "name": "Honi te Karaparapa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 7; s.o. 21.9.1901 (N 31/30) → 52 Patana Karaparapa, 53 Hone Wiki .500 each"
+   },
+   {
+    "name": "Nepia te Morenga (Nepia)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6; s.o. 21.9.1901 (N 31/32) → 54 Te Kirihini te Morenga M, 55 Akinihi Puhipi F .500 each"
+   },
+   {
+    "name": "Patana te Maru (Patana)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 19; s.o. 21.10.1901 (N 31/233) → 56 Te Rapihana te Maru 1/3 .333, 57 Ngarama te Maru 1/3 .333, 58 Maki Hohipa, 61 Waata, 62 Maata, 63 Te Kiriora Hohipa 1/15 .067, 59 Tia Iehu Puhipi, 60 Mei Iehu Puhipi 1/30 .033"
+   },
+   {
+    "name": "Poharama Karanui",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 11; s.o. 30.3.1905 (N 37/11) → 64 Pereri te Korotu 1/2 .500, 65 Maraea Pene, 66 Kerehi te Kopa 1/6 .166, 67–70 Apiria, Heni, Mere, Rahera Taniwe 1/24 .042"
+   },
+   {
+    "name": "Mumu Ngapipi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1; s.o. 4.11.1909 (N 43/141) → 71 Nopera Arano M sole"
+   },
+   {
+    "name": "Nopera Arano",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.000 (3.333 by 1923)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1909; also took Puhipi (1912, with Pene Arano), Timoti Puhipi (1922), Te Wikiriwhi Poutu (1912), Paora (1923): 3.333 total; d. — s.v.o. 23.8.1944 (N 72/738, \"Nopera Arano & Ngakuku Arano\") → 314 Wiremu Nopera Arano m sole; → Peti Nopera Arano 1952; Waikeri Nopera Arano took the Wakarua Hohipa and Kare Patana Karaparapa interests 1954–57 → Elizabeth Allen 1959"
+   },
+   {
+    "name": "Taipari alias Kingi Taipari",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 10; s.o. 26.11.1909 (N 43/173) → 72 Mapere Kingi, 73 Ho Reihana Ngatote .500 each"
+   },
+   {
+    "name": "Puhipi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2; s.o. 19.3.1912 (N 48/89) → 74 Pene Arano, 75 Nopera Arano .500 each"
+   },
+   {
+    "name": "Timoti Puhipi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 8; s.o. 19.3.1922 (N 48/88) → 76 Pene Arano, 77 Nopera Arano .500 each"
+   },
+   {
+    "name": "Te Kirihini te Morenga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 54; s.o. 22.3.1912 (N 47/315) → 78 Kiritiana Matiu, 79 Hariata Rapata, 80 Mereana Kirihini, 81 Hana Mohi F .375 each — Kiritiana Matiu (mother of the Karikari Matiu) was a successor of Te Kirihini te Morenga"
+   },
+   {
+    "name": "Kiritiana Matiu",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1912; d. 1936 (N66A/170); s.o. 13.2.36 → 206 Raniera (.054), 207 Miha, 208 Reihana, 209 Riwhi, 210 Heni, 215 Wiremu Matiu 1/7 .053, 211–214 Erana Umuroa, Kare, Rina, Ana 1/28 .014"
+   },
+   {
+    "name": "Te Wikiriwhi Poutu",
+    "role": "Deceased",
+    "sex": "M",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 39; s.o. 25.3.1912 (N 48/112) → 82 Nopera Arano sole"
+   },
+   {
+    "name": "Rapihana te Maru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "s.o. 11.2.1916 (N 56/195) → 85 Te Oti Rapihana M sole"
+   },
+   {
+    "name": "Ngarama te Maru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "s.o. 11.2.1918 (N 57/114-5) → 86 Wiremu Rangitakena M sole; d. 18.4.21 → Hariata Ngarama of Motairehe 23.2.22"
+   },
+   {
+    "name": "Pene Arano",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 76; d. 10.9.1915; s.o. 20.2.1920 (N 57/292) → 87 Morehu Pene F, 88 Te Koti Pene M 17, 89 Te Pomana Pene M 12 .500 each; trustee Hemoata Pene"
+   },
+   {
+    "name": "Mereana Kirihini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 80; d. 1.8.19; s.o. 21.2.22 (N 58/145) → 90 Teopira Heiwari of Ahipara M sole"
+   },
+   {
+    "name": "Paora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 13; d. 25.11.18; s.o. 17.2.23 (N 58/231) → 92 Nopera Arano M sole"
+   },
+   {
+    "name": "Mapere Kingi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 72; d. 1927(?); s.o. 18.11.31 (N66A/25) → 94 Kararaina Mapere Kingi F, 95 Ani, 96 Tame .167/.166; Kararaina Mapere Kingi d. — 9.3.44 (N 72/701) → Nahi Eri Ropi, Naiki Poata, Ada or Hilda Wirihana, Taipari Mare, Hariata Berghan"
+   },
+   {
+    "name": "Pomana Pene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 89; d. 1922(?); s.o. 18.11.31 (N66A/17) → 97 Morehu Pene Arano F, 98 Moanga, 99 Hone, 100 Tare, 101 Kohora 1/6 .083, 102 Joanna, 103 Kathleen, 104 Bowman 1/18 .028 (…Georgina Arano)"
+   },
+   {
+    "name": "Hariata Rapata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 79; d. 1926 (N66A/18); s.o. 18.11.31 → 105 Mare Rapata Tamati, 106 Pakete, 107 Meri, 108 Piripi, 109 Kihirini 1/6 .063/.062, 110 Erana Hori Maihi, 111 Ani 1/12 .031"
+   },
+   {
+    "name": "Kerehi Kopa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 66; d. 1925 (N66A/22); s.o. 18.11.31 → 112 Ramari Nehu Kingi, 113 Rawiri Kopa Kiriona, 114 Puhipi, 115 Nuku 1/6 .028; 116–121 Himi, Hemi, Tipiwhenua, Hemoata or Hariata, Tangi, Ngaro Waahi Miha 1/36 .004/.005; 122 Heni Piritaka Keha, 123 Hera 1/12 .014"
+   },
+   {
+    "name": "Te Para Puhipi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".084",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 45; d. 1918 (N66A/25); s.o. 18.11.31 → 124–130 Eparaima te Para te Paa, Puhipi, Ani, Kehu (f 20), Hunia (m 19), Paniwaka (f 17), Rawiri (m 14) 1/7 .012; Herewini Puhipi (d. 1918, N66A/26) and Henare Puhipi (d. 1910, N66A/27) and Ani Puhipi (d. 1912) likewise 1931"
+   },
+   {
+    "name": "Hone Wiki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 53; d. 1917 (N66A/39); s.o. 18.11.31 → 152 Mata Wiremu Hone F sole"
+   },
+   {
+    "name": "Patana Karaparapa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 52; d. 1905 (N66A/35); s.o. 18.11.31 → 149 Kare Patana Karaparapa F 1/3 .167, 150 Ani F .167, 151 Ngawaka M .166"
+   },
+   {
+    "name": "Patana Waata Haki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 31a; d. 1921 (N66A/59); s.o. 19.11.31 → 190 Nopera Waata Haki, 191 Apetona, 192(3) Makoare 1/4 .062/.063, 194 Roka, 195 Raiha Hone Hinga, 196 Paratene 1/12 .021"
+   },
+   {
+    "name": "Mere Taniwe",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".042",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 69; d. 1894 (N66A/80); s.o. 29.2.32 → 200 Rahera II Himi Taniwe, 201 Heni Himi Taniwe, 202 Meri, 203 Amiria 1/4 .011/.010"
+   },
+   {
+    "name": "Maraea Pene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 65; d. 27.9.30 (N66A/149); s.o. 29.2.32 → 204 Tere Wiripo M sole"
+   },
+   {
+    "name": "Te Henare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 12; d. 1900 (N66A/168); s.o. 13.2.36 → 205 Erina Henare F sole (1.000 on the 1963 list, no. 22)"
+   },
+   {
+    "name": "Hana Mohi alias Hana Moki",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 81; d. 1914 (N66A/171); s.o. 13.2.36 → 216 Nehua Karaka Motu, 217 Maki Arapeta, 218 Pipi Karaka Motu, 219 Te Ruapounamu Karaka Motu 1/6 .062; 220–226 Tamihana, Heeni, Wirihana, Reremoana, Hone, Honetana, Mahurangi Motu 1/36 .011; 227 Erina 1/12 .021 — the Karikari 2 Motu whānau"
+   },
+   {
+    "name": "Matiu Takerei alias Matiu Takerei Heremaia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 153(31); d. 1898 (N66A/189); s.o. 24.3.36 → 236 Mihireweti Matiu Takerei, 237 Manihera, 238 Rehutai, 239 Whena, 240 Te Haki, 241 Albert (1941), Himi (1943), Tame (1946) .042 each; Hone(?) Ngarama Matiu Takerei"
+   },
+   {
+    "name": "Wi Mihaka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 84; d. 1935 (N66A/311); s.o. 3.11.41 → 284 Tare Teri Romana F, 285 Marara Wiremu Mihaka F, 286 Hemi Wiremu Mihaka M, 287 Akeli Haki Meketanara F 17 — 1/4 .187/.188; trustee Tare Teri Romana"
+   },
+   {
+    "name": "Haimona Mihaka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 83; d. 26.12.40 (N66A/312); s.o. 3.11.41 → the same four, .187/.188 (totals .375)"
+   },
+   {
+    "name": "Apikera Reihana @ Apikera Waiari Matiu",
+    "role": "Vendor / transferor",
+    "sex": "F",
+    "age": "",
+    "shares": ".105",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 270; gift 16.1.42 (N 67/328-331) → Rupi Parikena F 17 1/3 .035, Hapai Waiari Matiu F 1/3 .035, Wi Tamihana Waiari Matiu M 1/3 .035; later exchange orders 12.1.49 (N 78/52, 42, 84) → Mata Wiremu Hone and Haumutunga Rawiri (Parengarenga 5B2B counterparts)"
+   },
+   {
+    "name": "Tiopira Heiwari",
+    "role": "Vendor / transferor",
+    "sex": "M",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 90; gift 28.11.41 (N 67/286) → 295 Hare Hemi Manuera M, 296 Merehana Hemi Manuera F .188/.187 each"
+   },
+   {
+    "name": "Pai Tuauru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 174(?); d. 1935 (N66A/175); s.o. 13.2.36 → Mika, Taniora, Maraea, Tamati, Raiha, Tame (16), Herepete Tuauru 1/8 .012; Hector Herbert Masters (14), Julia Herbert Masters (12) 1/16"
+   },
+   {
+    "name": "Ani Mapere Kingi alias Ani Mapere alias Ani Taipare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 95; d. 8.2.1945 (N 76/165); s.o. 25.11.47 → 315 Maki Kahiti Hapakuku (Mrs Woodcock) F, 316 Katerina Tuia Kahiti Hapakuku F 20, 317 Te Mihinga Kahiti Hapakuku F 18, 318 Kahiti Kahiti Hapakuku M 11 — equally .042; trustee the Native Trustee"
+   },
+   {
+    "name": "Haumutunga Rawiri @ Haumutunga Morepaea Nathan",
+    "role": "Deceased",
+    "sex": "M",
+    "age": "",
+    "shares": ".587",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange orders 12.1.49 (N 78/84-112; counterparts in Parengarenga 5B2B A/46, A/71, A/72, A/74 of Witana Natanahira, Hira Witana Natanahira, Hirikia and Wi Kaipo Witana Natanahira); s.v.o. 12.10.1960 (K 31/243) → 332 Gladys Nathan F 15 sole .180; Te Hau Rawiri (6.12.5?) → .069"
+   },
+   {
+    "name": "Waikeri Nopera Arano",
+    "role": "Deceased",
+    "sex": "M",
+    "age": "",
+    "shares": ".179",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "took Kare Patana Karaparapa (31.8.54), the seven Wakarua Hohipa interests (29.8.57, K 30/34) and others; d. — s.v.o. N 86/344, 16.11.59 → 331 Elizabeth Allen F sole .179 (no. 16 on the 1963 list); \"Jack Noble Allen\""
+   },
+   {
+    "name": "Te Oti Rapihana",
+    "role": "Deceased",
+    "sex": "M",
+    "age": "",
+    "shares": "1.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 85; \"Ho Reihana Ngatote\" d. — s.v.o. 8.11.1960 (N 87/226) → 333 Ratahi Ho Reihana M sole .500"
+   },
+   {
+    "name": "Māori Trustee",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order s.152/53, 25.11.1960 (C.V. 1/80) → 334 Pere Karaka M .333 (Waikeri Nopera Arano's interest of Hohipa Wakarua Hohipa)"
+   },
+   {
+    "name": "Wi Moka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 49; s.v.o. 18.5.1961 (K 31/295) → 335 Hohaia or Hohepa Wi Moka M sole"
+   },
+   {
+    "name": "Maruwhenua Wi Tana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 229; s.v.o. 6.9.61 (BT 37/2) → 336 Meri Wi Tana or Mrs Kameka F sole"
+   },
+   {
+    "name": "Aue Umuroa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".014",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 214; s.v.o. 2.11.1961 (N 88/30) → 337 Herangi Fletcher or Mrs R. Matiu F sole — as on Karikari 2 (Rangi Hiroa Fletcher)"
+   },
+   {
+    "name": "Wana or Waana Harris or Henare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": ".012",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 269a; s.v.o. 6.3.62 (N 88/92) → 338 Jesse Harris M sole"
+   },
+   {
+    "name": "Ada or Hilda Wirihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".033",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 1 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Akeli Haki Meketanara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 2 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Akinihi Paratene Hinga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".105",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 3 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Akinihi Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 4 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Akuhata Wi Tana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 5 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Albert Matiu Takerei",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".042",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 6 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Amiria Himi Taniwe @ Amiria Taniwe",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 7 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Ani Patana Karaparapa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 8 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Ani Hori Maihi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".031",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 9 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Ani Natanahira",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 10 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Ani te Para te Paa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 11 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Ani or Miria Panau Wi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 12 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Apetona Waata Haki",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".312",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 13 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Arapani Witana Natanahira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".014",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 14 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Bowman Arano",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 15 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Elizabeth Allen",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".179",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 16 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Emere Eruera Wahapu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 17 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Eparaima te Paa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 18 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erana Riwai Kamariera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".023",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 19 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erana Hori Maihi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".031",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 20 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erana Umuroa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".014",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 21 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erina Henare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 22 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erina Motu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".031",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 23 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Erinatea Witana Natanahira",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".014",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 24 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Eru Wi Tana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 25 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Gladys Nathan",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".180",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 26 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Te Haki Matiu Takerei",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".042",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 27 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Haki or Taniora Tuauru",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".012",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 28 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hapita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 29 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hare Hemi Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".188",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 30 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Harepeka Henare te Paa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".056",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 31 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hariata Berghan",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".033",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 32 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hariata Ngarama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 33 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hauraki or Tamati Tuauru",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".012",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 34 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hector Herbert Masters",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".008",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 35 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Heeni Motu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 36 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemi Harris",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".012",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 37 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemi Wakarua Hohipa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".002",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 38 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemi Henare Natanahira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".037",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 39 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemi Waahi Miha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".004",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 40 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemi Wiremu Mihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 41 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Hemoata or Hariata Waahi Miha",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".004",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list as at 6.3.1963, no. 42 of 171 (25.000 shares)"
+   },
+   {
+    "name": "Raniera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".554",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 136"
+   },
+   {
+    "name": "Riwhi Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 147"
+   },
+   {
+    "name": "Reihana Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 141"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 170"
+   },
+   {
+    "name": "Miha Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 95"
+   },
+   {
+    "name": "Rihi Moka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 144"
+   },
+   {
+    "name": "Ranga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 137"
+   },
+   {
+    "name": "Ratahi Ho Reihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 139"
+   },
+   {
+    "name": "Pere Karaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 121"
+   },
+   {
+    "name": "Pereri te Korotu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 122"
+   },
+   {
+    "name": "Peti Nopera Arano",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 123"
+   },
+   {
+    "name": "Nopera Waata Haki",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".312",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 114"
+   },
+   {
+    "name": "Morehu Pene Arano",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 102"
+   },
+   {
+    "name": "Mihaka Wiremu Hone(?)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".187",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 92"
+   },
+   {
+    "name": "Matiu Wi Tana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 89"
+   },
+   {
+    "name": "Tiini Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 162"
+   },
+   {
+    "name": "Wirihana Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 1963, no. 171"
+   }
+  ],
+  "notes": "Attached to the chat 6 Oct 2026 (the Drive copy is 11 MB, over the connector limit). Answers D009: the Rihipeti Arama of Te Kohanga No. 1 succeeded in 1896 to HAMIORA (Rungaiterangi), not to a Himiona, and died 17 Dec 1922 — so she is not Erihapeti Arama née Wiremu Tangata (1880–1960). No Himiona, Tangata or Renata appears on Te Kohanga No. 1 at any date. The \"Rihipeti Arama 24.405\" on the 1965 Te Kohanga list is absent from the 1963 Te Kohanga 1 list, so it derives from another parent block of the 1965 title (Te Kohanga 2?), not from No. 1. Pages 1–41 read in full for the whānau questions; the 171-owner 1963 list is entered for nos 1–42 and selected others."
  },
  {
   "document_id": "PW-1391494",
