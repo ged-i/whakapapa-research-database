@@ -16330,9 +16330,9 @@
     "sex": "F",
     "age": "",
     "shares": ".334",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "no. 37, 1896, one of three successors of Hamiora Rungaiterangi; died 17.12.1922 (succession schedule) — her .334 → Eruera Paora, m, solely, 21.2.1925 (N 59/4?). NOT Erihapeti Arama née Wiremu Tangata (T004, d. 1960) — see D009"
+    "tupuna_id": "T013",
+    "confidence": "inferred",
+    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015."
    },
    {
     "name": "Hariata Haimona",
@@ -16360,9 +16360,9 @@
     "sex": "F",
     "age": "",
     "shares": ".334",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "d. 17.12.1922; s.o. 21.2.1925 → 93 Eruera Paora m solely"
+    "tupuna_id": "T013",
+    "confidence": "inferred",
+    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015."
    },
    {
     "name": "Eruera Paora",

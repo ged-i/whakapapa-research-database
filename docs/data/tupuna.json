@@ -3048,16 +3048,76 @@
    }
   ],
   "name": "Raiha Taniora",
-  "other_names": "",
+  "other_names": "Rihipeti Arama (inferred)",
   "born": "",
   "died": "",
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Transcription error \"Riha\" is resolved on Rihari Taniora's marriage certificate (Arama Taniora's brother) as mother, \"Raiha Taniora\". \n\nUnconfirmed, Raiha Rakena or Kaumatua. Facebook page Pawarenga, Te Uri o Tai (Official page).",
+  "notes": "Transcription error \"Riha\" is resolved on Rihari Taniora's marriage certificate (Arama Taniora's brother) as mother, \"Raiha Taniora\". \n\nUnconfirmed, Raiha Rakena or Kaumatua. Facebook page Pawarenga, Te Uri o Tai (Official page).\n\nTE KOHANGA No. 1 (inferred, 6 Oct 2026): the \"Rihipeti Arama\" who succeeded to Hamiora Rungaiterangi at Ahipara in 1896 and died 17 Dec 1922 is proposed by the whānau to be this Raiha (Eliza/Elizabeth), daughter of Arama Te Patara. The dates fit (adult in 1896; Arama Taniora b. 1880; Taniora Rihari also d. 1922). If so, the 1925 order giving her share solely to \"Eruera Paora\" passed over her Taniora Rihari descendants — D015.",
   "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
-  "identities": [],
-  "events": []
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Rihipeti Arama",
+    "source_id": "S07",
+    "date": "1896-09-05",
+    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
+    "document_id": "PW-1391476",
+    "note": "Successor (1/3) to Hamiora Rungaiterangi alias Hamiora on Te Kohanga No. 1, 5 Sep 1896 (N 17/47), with Hariata Haimona and Te Wikiriwhi Poutu; died 17 Dec 1922; her .334 → Eruera Paora (Wahapu) solely, 21 Feb 1925. Identification with Raiha Taniora is inferred (Rihipeti = Elizabeth, Raiha = Eliza; Arama = daughter of Arama Te Patara) — see D015.",
+    "confidence": "inferred"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1896-09-05",
+    "place_type": "Block",
+    "place_ref": "32529",
+    "place_detail": "Te Kohanga No. 1 (Ahipara)",
+    "latitude": -35.1804,
+    "longitude": 173.1176,
+    "description": "Succeeded (as \"Rihipeti Arama\") with Hariata Haimona and Te Wikiriwhi Poutu to one third each of Hamiora Rungaiterangi alias Hamiora's 1.000 share in Te Kohanga No. 1 (N 17/47)",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
+    "document_id": "PW-1391476",
+    "note": "Identity with Raiha Taniora inferred — D015"
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1922-12-17",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Date of death recorded against \"Rihipeti Arama\" on the Te Kohanga No. 1 succession schedule (order 21 Feb 1925)",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
+    "document_id": "PW-1391476",
+    "note": "Identity inferred — D015. Taniora Rihari's death is also recorded as 1922 (N66A/99)."
+   },
+   {
+    "event_id": "E003",
+    "type": "Succession order",
+    "date": "1925-02-21",
+    "place_type": "Block",
+    "place_ref": "32529",
+    "place_detail": "Te Kohanga No. 1 (Ahipara)",
+    "latitude": -35.1804,
+    "longitude": 173.1176,
+    "description": "Her .334 in Te Kohanga No. 1 vested solely in Eruera Paora (m) — later Eruera Paora Wahapu, d. April 1942",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
+    "document_id": "PW-1391476",
+    "note": "If she is Raiha Taniora, her Taniora Rihari descendants were not named — D015"
+   }
+  ]
  },
  {
   "tupuna_id": "T014",
