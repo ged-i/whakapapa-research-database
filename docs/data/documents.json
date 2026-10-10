@@ -26753,7 +26753,7 @@
   "type": "LHO",
   "type_label": "List of owners",
   "folder": "Takou",
-  "title": "Takou Block — schedule of ownership orders under the amalgamation order of 4 May 1991 (323.9320 ha; 665,000.000 shares; c. 400 owners; 22 pages)",
+  "title": "Takou Block — ownership schedule under the amalgamation order of 4 May 1991 (323.9320 ha; 665,000 shares): 420 owners, with the schedule of ownership orders nos 421–516, July 1991 – June 1998 (22 pages)",
   "blocks_recorded": [
    "Takou Block"
   ],
@@ -26761,10 +26761,10 @@
    "29815"
   ],
   "record_date": "1991-05-04",
-  "effective_date": "",
+  "effective_date": "1998-06-15",
   "court": "Māori Land Court, Tai Tokerau",
   "judge": "",
-  "minute_book": "",
+  "minute_book": "72 WH 24, 28; 74 WH 141; 70 WH 90; 85 WH 126-127, 156; 20 KH 85, 301; 23 KH 27, 114, 115; 26 KH 213-214; 38 KH 33; 2 KH(S) 172, 372-3; 4 WH(S) 48; 3 AT(S) 158; 18 AT 293-294; 22 AT 211; 23 AT 289-291; 24 AT 103, 246-7, 300-301; 25 AT(S); 8 RGTO 224, 243-4; 8 ROTO 71; 78 OTO 33, 111; 68 Aotea 177-178; 90 Whakatane 247",
   "pages": 22,
   "page_range": "",
   "file_name": "00789039_01280669_0001_0022_LHO_Document-1280669.pdf",
@@ -26772,91 +26772,5921 @@
   "file_size": "5740856",
   "url": "https://drive.google.com/file/d/1AakfxdvMalczuc6NPzVxUU4icRekv-Cz/view",
   "source_id": "S07",
-  "status": "partly transcribed",
-  "summary": "Twenty-two pages: the computer-printed owners list for the amalgamated Takou Block (Takou Bay; 323.9320 ha; 665,000.000 shares) with later entries to the 1990s. Names picked out by the text pass: Hetana Rihari 2,410.947, Meeke Rihari 1,479.791, Ramiri Rihari 1,480.618 and Raymond Rihari (1992) — a Rihari family of Takou/Ngāti Rēhia; Warren Taniora 3,789.575; Take Hemi Manuera 358.756; Te Aue Kingi Heihei and Teri Kingi Heihei 428.325 each; Horitina Hori Tareha 24,623.174; Temaramatanga Napia 388.122; Rupena Huperio Riwhi Moihi 4,595.820.",
+  "status": "transcribed",
+  "summary": "Pages 1–10: the typed owners list attached to the Takou Block amalgamation order of 04/05/91 (LAND Takou Block; AREA 323.9320 ha; TOTAL SHARE 665000.000), 420 owners in alphabetical order of first name with sex/age and relative interest, hand-annotated with strike-throughs and the numbers of the later entries that replaced them; file no. 14236. Pages 11–22: the handwritten M.A. 835 'Schedule of ownership orders', entries 421–516 (10 Jul 1991 – 15 Jun 1998) — successions, vestings, gifts and whānau-trust orders citing Whangarei (WH), Kaikohe (KH), Aotea (AT), Rotorua, Ōtorohanga and Whakatāne minute books. Largest interests: Horitina Hori Tareha 24,623; Te Hira Mou Wiremu 22,150; Wi Parihi Mou Wiremu 21,716; Aperere Watene / Alfred Williams 18,937; Himi (Kutu) Hone Puru 17,771; Haare Puru 17,769; Ronald Taylor Hou 17,346; Edna Mary Paul 14,518 (life); Ngapine Reihana 12,901; Ngapine Haki 12,590; Hokena Wi Haare 12,027. Family groups visible from equal interests: Rihari (Hamuhamu Te Kiri, Ramiri, Tokowha, Whaekaimau 1,480.618 each; Sophie Robina, Taku, Ture, Whakaropai 357.449 each; Te Atarangi 2,323.558; Hetana 2,410.947; Meeke 1,479.791; Rehi 531.281), Kanuta Paerau, Kaiawe Parangi, Heihei, Kira, Haare, Hikuwai, Moana Hira, Rameka, Tahere, Tuhi, Tihi, Napia (388.122 each), Henry, Moihi. Whānau-relevant names: Mihiarangi Hulena or Taniora (2,741.935) and Warren Taniora (3,789.575 — the same figure as Rebecca Schneider); the Henry family (Maryanne 1,384.435 = Tania Dorretta Poulson; Teresa 2,675.389; Micheal John, Paul Stuart, Steven Richard, Wayne Andrew c. 374–378) — cf. Hoana Hetaraka Taniora 'or Hoana Henry' (T097); Ngawai Amato Riwhi Moihi 914.435 and Reupena Huperio Riwhi Moihi 4,595.820 — the Moihi/Amato whānau also on Tauaki (Arama Moihi alias Amato Riwhi Moihi, d. before 1917) and Taupo (Huperio Moihi, 1913; Taiapo Arama and Hapeta Arama Amato, Taupo No. 11); Paora Pita Taiapo and Manawhakaora Taiapo (Paora) — cf. the Taiapo Pita / Wirihana Taiapo owners of Te Wainui 2G; the Napia family (cf. Hare Napia, Otangaroa 1875); Taku Rihari and Aperahama Kaiawe Parangi, also owners of Waimate North; and the Kira, Wati Haare, Tame Hikuwai, Heihei and Taumaunu owners shared with Wainui A (1958) and Matauri X (1970). Arithmetic note: the 420 typed interests as read sum to 662,000.000 against the stated 665,000.000; the 3,000-share gap has not been located (either one thousands digit misread, or a typing error in the schedule).",
   "names": [
+   {
+    "name": "Aden Moon",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 066.089",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1"
+   },
+   {
+    "name": "Te Ahere Te Ohu or Here Paraone Te Ohu or Here Mure",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "minor",
+    "shares": "1 769.982",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2"
+   },
+   {
+    "name": "Alf Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "50.726",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3"
+   },
+   {
+    "name": "Alfred Alexander",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4"
+   },
+   {
+    "name": "Alfred Hikuwai",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 113.646",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; struck → 434–435 (succession 24 Feb 1992)"
+   },
+   {
+    "name": "Alfreda or Freda Rebecca Kena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 444.274",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; struck → 503 (whānau trust 1997)"
+   },
+   {
+    "name": "Aloma Billie Moon",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 066.089",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; for a life interest or until remarriage, remainder to (1) Langel Thomas George Moon ma"
+   },
+   {
+    "name": "Langel Thomas George Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 7 Aloma Billie Moon's life interest"
+   },
+   {
+    "name": "Amelia Simmons",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8"
+   },
+   {
+    "name": "Anaru Winiata Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9"
+   },
+   {
+    "name": "Anita Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "142.809",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10"
+   },
+   {
+    "name": "Anita Paraone Te Ohu or Anita Mure or Mata Peterson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "minor",
+    "shares": "1 533.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11"
+   },
+   {
+    "name": "Anne Hoori Taylor",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "4 972.611",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12"
+   },
+   {
+    "name": "Anne-Marie Sparrey",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 383.064",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13"
+   },
+   {
+    "name": "Annie Reid",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14"
+   },
+   {
+    "name": "Aperahama Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; also an owner of Waimate North (doc 1515373)"
+   },
+   {
+    "name": "Aperere Watene or Aperere Wiremu or Alfred Watene or Alfred Wiremu or Alfred Williams or Aperere Parihi Watene",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "18 937.189",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16"
+   },
+   {
+    "name": "Te Aroha Moon",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 066.089",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17"
+   },
+   {
+    "name": "Te Atarangi Rihari",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18"
+   },
+   {
+    "name": "Athens Greece Etana Kanuta Paerau",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19"
+   },
+   {
+    "name": "Te Aue Kingi Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "428.325",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20"
+   },
+   {
+    "name": "Aurakei Riwa",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "252.877",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21"
+   },
+   {
+    "name": "Auwha Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "82.323",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22"
+   },
+   {
+    "name": "Te Awe Kira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 766.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23"
+   },
+   {
+    "name": "Betty Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "50.726",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; struck → 426 (transfer to Mark Heihei 11 Nov 1991); 'Betty (Heihei) Barlow'"
+   },
+   {
+    "name": "Betty Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.404",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25"
+   },
+   {
+    "name": "Billy Tuhi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "76.590",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26"
+   },
+   {
+    "name": "Bunny Peikohu Moa",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "339.716",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27"
+   },
+   {
+    "name": "Charlie Broughton",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "947.394",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28"
+   },
+   {
+    "name": "Charlie Heihei or Hare Charlie Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "501.286",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29"
+   },
+   {
+    "name": "Charlie Hikuwai or Charles Hare Hikuwai",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 328.210",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30"
+   },
+   {
+    "name": "Charlie Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31"
+   },
+   {
+    "name": "Charlotte Bradshaw",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; struck → 508 (transfer 5 Feb 1998)"
+   },
+   {
+    "name": "Clarke Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33"
+   },
+   {
+    "name": "Colin Paul",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "223.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "David Court",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "28.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35"
+   },
+   {
+    "name": "David Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "178.110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; struck → 427 (transfer to Mark Heihei 11 Nov 1991); 'David Hare Heihei'"
+   },
+   {
+    "name": "David Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37"
+   },
+   {
+    "name": "David Timoti",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 458.610",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38"
+   },
+   {
+    "name": "Dora Apiata",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 444.274",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39"
+   },
+   {
+    "name": "Douglas Broughton",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "34.753",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40"
+   },
+   {
+    "name": "Edith Brown",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "574.514",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41"
+   },
+   {
+    "name": "Edna Mary Paul",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "14 518.307",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; for life or remarriage, remainder to (1) Ngaire Fennella Paul fa (2) Tania Rhonda Paul fa (3) Alistair Chan Paul ma"
+   },
+   {
+    "name": "Ngaire Fennella Paul",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 42 Edna Mary Paul's life interest"
+   },
+   {
+    "name": "Tania Rhonda Paul",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 42 Edna Mary Paul's life interest"
+   },
+   {
+    "name": "Alistair Chan Paul",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 42 Edna Mary Paul's life interest"
+   },
+   {
+    "name": "Edward Taki Court",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "771.855",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43"
+   },
+   {
+    "name": "Edward Moana Hira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44"
+   },
+   {
+    "name": "Elizabeth Anderson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45"
+   },
+   {
+    "name": "Elizabeth Broughton",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "30.964",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46"
+   },
+   {
+    "name": "Elizabeth Henare",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 519.800",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47"
+   },
+   {
+    "name": "Elizabeth Puru",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "4 224.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48"
+   },
+   {
+    "name": "Ema Nahi Chellum",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 517.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49"
+   },
+   {
+    "name": "Ema Raharuhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 871.878",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50"
+   },
+   {
+    "name": "Emere Rowena Mare or Emily Murray",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 275.270",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51"
+   },
+   {
+    "name": "Emma Court",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "28.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52"
+   },
+   {
+    "name": "Ene Te Waa",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 291.507",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; struck → 470–475 (succession 7 Apr 1995, 'Ene Te Waa Paul or Ene Te Waa Paora')"
+   },
+   {
+    "name": "Erana Te Ohu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "10 668.770",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54"
+   },
+   {
+    "name": "Erana Wiremu Epiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "7 943.995",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55"
+   },
+   {
+    "name": "Erana Heta or Erana Mure or Erana Paraone Te Ohu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 168.547",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56"
+   },
+   {
+    "name": "Eric Broughton or Eriki Te Ohu or Eriki Mure or Eriki Paraone Te Ohu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4 330.563",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57"
+   },
+   {
+    "name": "Eunice Pawa Parangi or Urupaina Muunu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "5 945.892",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58"
+   },
+   {
+    "name": "Evelyn Birch",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 470.755",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59"
+   },
+   {
+    "name": "Ewa Papara",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "212.216",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60"
+   },
+   {
+    "name": "Florence Epiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "645.068",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61"
+   },
+   {
+    "name": "Frank Te Anaru Maunsell",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "115.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 62"
+   },
+   {
+    "name": "Frank Rivers",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63"
+   },
+   {
+    "name": "Frank Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 64"
+   },
+   {
+    "name": "Fred Renata or Tawhiro Kaweka Te Ohu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "minor",
+    "shares": "325.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 65"
+   },
+   {
+    "name": "Frederick Charles Ashby",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 226.608",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 66"
+   },
+   {
+    "name": "George John Sparrey",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 384.435",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 67"
+   },
+   {
+    "name": "Gloria Thompson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "30.964",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 68"
+   },
+   {
+    "name": "Graham Alexander",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 69"
+   },
+   {
+    "name": "Grant Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 70"
+   },
+   {
+    "name": "Haahi Pawa",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 550.973",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 71"
+   },
+   {
+    "name": "Haare Puru or Hare Puru or Hare Wati Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "17 769.274",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 72"
+   },
+   {
+    "name": "Haare Hati Taumaunu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4 786.241",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 73; struck → 476–477 (succession 6 Mar 1995); also on Wainui A 1958 and Matauri X 1970"
+   },
+   {
+    "name": "Haki Pakihana Niira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "115.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 74"
+   },
+   {
+    "name": "Haki Taka Tukariri",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "500.464",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 75"
+   },
+   {
+    "name": "Hamuhamu Te Kiri Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 480.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 76"
+   },
+   {
+    "name": "Hape Paraone Tito",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "856.855",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 77"
+   },
+   {
+    "name": "Harata Kanuta Paerau",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "571.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 78"
+   },
+   {
+    "name": "Hare Waikato Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 042.891",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 79"
+   },
+   {
+    "name": "Hariata Kira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 759.347",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 80; struck → 446–455 (gifts 18 Jun 1993, retaining 1 859.347)"
+   },
+   {
+    "name": "Harry Rivers",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 81"
+   },
+   {
+    "name": "Heemi or Jimmy Moana Hira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82"
+   },
+   {
+    "name": "Heeni (Jane) Wikiriwhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "508.092",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 83"
+   },
+   {
+    "name": "Hema Kingi Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "428.325",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 84"
+   },
+   {
+    "name": "Hemo Komene Takena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Henare Te Rangi Napia",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "388.122",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86"
+   },
+   {
+    "name": "Henare Titore Tango",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "minor",
+    "shares": "1 481.989",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87"
+   },
+   {
+    "name": "Henry Broughton",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "30.963",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 88"
+   },
+   {
+    "name": "Hera Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89"
+   },
+   {
+    "name": "Hera Atawhai Raharuhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 562.273",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 90"
+   },
+   {
+    "name": "Hera Te Paea Takena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 91"
+   },
+   {
+    "name": "Herbert Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 92"
+   },
+   {
+    "name": "Heremaia Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 93"
+   },
    {
     "name": "Hetana Rihari",
     "role": "Owner",
-    "sex": "m.a.",
-    "age": "",
-    "shares": "2,410.947",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 410.947",
     "tupuna_id": "",
     "confidence": "stated",
     "note": "no. 94"
    },
    {
+    "name": "Te Hiiritanga Edmonds",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "761.649",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 95"
+   },
+   {
+    "name": "Hilda Remuera",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "344.113",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 96"
+   },
+   {
+    "name": "Hima Hoori",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 479.791",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 97"
+   },
+   {
+    "name": "Himi (Kutu) Hone Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "17 770.645",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 98"
+   },
+   {
+    "name": "Hineira Pakihana Niira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 99"
+   },
+   {
+    "name": "Hinemoa Makiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "30.964",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 100"
+   },
+   {
+    "name": "Hinemoa Tua",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101"
+   },
+   {
+    "name": "Te Hira Mou Wiremu or Te Hira Mou or Te Hira Parihi Mou",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "22 149.947",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; largest single interest"
+   },
+   {
+    "name": "Hiria Tihi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "126.457",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 103"
+   },
+   {
+    "name": "Hobson Waitangi Pene",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 142.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 104"
+   },
+   {
+    "name": "Hoera Karena Hemi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "500.464",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 105"
+   },
+   {
+    "name": "Hohepa Tarawau Kira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "8 770.599",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 106"
+   },
+   {
+    "name": "Hokena Wi Haare or Hokena Wiremu Hare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "12 026.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 107; struck → 433 (succession 30 Sep 1992); also on Matauri X 1970"
+   },
+   {
+    "name": "Hokimate Wolfgram",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "142.809",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 108"
+   },
+   {
+    "name": "Hoki Tua",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "525.762",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 109"
+   },
+   {
+    "name": "Hone Wati Haare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 556.471",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 110; also on Wainui A 1958"
+   },
+   {
+    "name": "Hone Kingi Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 481.611",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 111"
+   },
+   {
+    "name": "Hone Te Ohu or Hone Wi Mure or Hone Wi Paraone Te Ohu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 162.015",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 112"
+   },
+   {
+    "name": "Hone Hau Kanuta Paerau",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 113"
+   },
+   {
+    "name": "Hone Rapine",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "140.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 114"
+   },
+   {
+    "name": "Hori Tame Tame",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 448.063",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 115"
+   },
+   {
+    "name": "Horitina Hori Tareha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "24 623.174",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 116"
+   },
+   {
+    "name": "Hoterene Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 117; struck → 501 (whānau trust 22 Sep 1997)"
+   },
+   {
+    "name": "Huhana Epiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "954.700",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 118"
+   },
+   {
+    "name": "Huhana Renata",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "500.464",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 119"
+   },
+   {
+    "name": "Huia Daniels",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 120"
+   },
+   {
+    "name": "Huia Hei Hei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 556.471",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 121"
+   },
+   {
+    "name": "Hunoke Dowling",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 066.089",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 122"
+   },
+   {
+    "name": "Hurihanga Kingi Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "428.325",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 123"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "424.987",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 124; → 469 (succession 31 Oct 1994)"
+   },
+   {
+    "name": "Ihaka Kuku Waha",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 125; struck then marked STET (strike cancelled)"
+   },
+   {
+    "name": "Ihikera Mauger",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "506.717",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 126"
+   },
+   {
+    "name": "Irene Haighmark",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 127"
+   },
+   {
+    "name": "Isobel May Richardson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "758.668",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 128"
+   },
+   {
+    "name": "Isobel Walker",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 129"
+   },
+   {
+    "name": "James Tarawau Kira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 282.673",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 130; struck → 456–464 (succession 9 Aug 1993)"
+   },
+   {
+    "name": "James Rivers",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 131"
+   },
+   {
+    "name": "Jane Pene",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "30.963",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 132"
+   },
+   {
+    "name": "Jane Poole or Heni Kaweka Te Ohu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "325.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 133"
+   },
+   {
+    "name": "Janie Paul",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "223.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 134; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Joan Tuiti Paonga",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "571.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 135"
+   },
+   {
+    "name": "Joe Rivers",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 136"
+   },
+   {
+    "name": "John Alexander",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 137"
+   },
+   {
+    "name": "John Matua Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 138"
+   },
+   {
+    "name": "John Reid",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "71.290",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 139"
+   },
+   {
+    "name": "Josephine Whittaker",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 470.755",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 140"
+   },
+   {
+    "name": "Kaani Paraone Tito",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "856.855",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 141"
+   },
+   {
+    "name": "Kahu Sealeaf",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 142; struck → 514–515 (transfer 27 Mar 1998)"
+   },
+   {
+    "name": "Te Kahuwhero Myrtle Niira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 143"
+   },
+   {
+    "name": "Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 144"
+   },
+   {
+    "name": "Kana Komene Takena or Kaana Komene Takena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 145"
+   },
+   {
+    "name": "Karae Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "526.751",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 146"
+   },
+   {
+    "name": "Kare Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 559.423",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 147"
+   },
+   {
+    "name": "Karehu Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "174.320",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 148"
+   },
+   {
+    "name": "Te Karehu Tarawau Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "288.008",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 149"
+   },
+   {
+    "name": "Kareongamoana Tame Hikuwai",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 513.060",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 150; = Kare-o-Ngamoana Tame Hikuwai of Wainui D (1932) / Wainui A (1958)"
+   },
+   {
+    "name": "Karena Karena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "318.182",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 151"
+   },
+   {
+    "name": "Karitiana Waikato Puru",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "5 657.407",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 152"
+   },
+   {
+    "name": "Kath Goldsmith or Kaa (Kath) Goldsmith",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 917.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 153"
+   },
+   {
+    "name": "Kathleen Jean Blacklaw",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "223.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 154; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Kathleen Heihei or Kathleen Anne Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "180.044",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 155; struck → 423 (consolidated 2 Oct 1991)"
+   },
+   {
+    "name": "Kawhi Tame Hikuwai",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 486.800",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 156; also on Wainui A 1958"
+   },
+   {
+    "name": "Keith Ashby",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 226.608",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 157"
+   },
+   {
+    "name": "Keith Blomfield",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 184.720",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 158"
+   },
+   {
+    "name": "Kiri Pukupuku Pene as administratrix to the estate of John Pene",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 143.387",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 159"
+   },
+   {
+    "name": "Kiri Rapana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "142.809",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 160"
+   },
+   {
+    "name": "Kiriahi Muunu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "5 923.044",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 161"
+   },
+   {
+    "name": "Kohine Komene Takena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 162"
+   },
+   {
+    "name": "Kororia Ashby (Mrs Keith)",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "357.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 163"
+   },
+   {
+    "name": "Kotahi Reihana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "10 321.085",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 164"
+   },
+   {
+    "name": "Kura Eru Ihaka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 165"
+   },
+   {
+    "name": "Lena Beazley",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 166"
+   },
+   {
+    "name": "Lena Hancy",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "34.753",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 167"
+   },
+   {
+    "name": "Leslie Court",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "27.419",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 168"
+   },
+   {
+    "name": "Loma Allen",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "9 183.179",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 169"
+   },
+   {
+    "name": "Loma Blomfield",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 705.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 170"
+   },
+   {
+    "name": "Lorraine Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 171"
+   },
+   {
+    "name": "Lydia Te Rewa Marsh",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 142.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 172"
+   },
+   {
+    "name": "Maaka Komene Takena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 173; struck → 504–507 (succession 4 Feb 1998, with no. 177)"
+   },
+   {
+    "name": "Maera (Myra) Peters",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 174"
+   },
+   {
+    "name": "Maera John Poland",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 175"
+   },
+   {
+    "name": "Te Maia Tanga Edwards",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 176"
+   },
+   {
+    "name": "Maka Komene Takena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "253.889",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 177; struck → 504–507 (succession 4 Feb 1998, with no. 173)"
+   },
+   {
+    "name": "Te Mamae Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 178; struck → 502 (whānau trust 11 Dec 1997)"
+   },
+   {
+    "name": "Mana Whakaora Paora or Mana Whakaora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 766.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 179; struck → 467 (succession 31 May 1994)"
+   },
+   {
+    "name": "Manamotuhake Karena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "318.182",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 180"
+   },
+   {
+    "name": "Mane Tomo Hone Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "505.754",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 181"
+   },
+   {
+    "name": "Manu Rapine",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "267.714",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 182"
+   },
+   {
+    "name": "Maraea Akuhata",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 183"
+   },
+   {
+    "name": "Marama Patuwai",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 184"
+   },
+   {
+    "name": "Marcella Kuku Waha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 185; struck → 421 (Māori Trustee as administrator, 10 Jul 1991)"
+   },
+   {
+    "name": "Marcia Shortland",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 186; struck → 498–499 (transfer 30 Jul 1996)"
+   },
+   {
+    "name": "Maria Te Aroha Rameka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "342.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 187"
+   },
+   {
+    "name": "Mariata Kemp",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "89.113",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 188"
+   },
+   {
+    "name": "Mariata Winoona Niira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 189"
+   },
+   {
+    "name": "Marie Reid",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.290",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 190"
+   },
+   {
+    "name": "Mark Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "50.726",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 191; struck → 426 (consolidated with nos 24 and 36, 11 Nov 1991)"
+   },
+   {
+    "name": "Marlene Susan Tahi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 192"
+   },
+   {
+    "name": "Maro Haare",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 317.390",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 193; for a life interest or until remarriage, remainder to (1) Daniel Tonga Haare ma 552.898 (2) Kataraina Haare fa 552.898 [struck → 491–494] (3) Mere Haare fa 552.898 [struck → 484–488] (4) Tommy Thomas Haare ma 552.898 [struck → 489–490] (5) Sylvia Haare fa 552.899 (6) Loletta Haare fa 552.899; hand note on the life interest"
+   },
+   {
+    "name": "Daniel Tonga Haare",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 193 Maro Haare's life interest"
+   },
+   {
+    "name": "Kataraina Haare",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 193 Maro Haare's life interest; struck → 491–494"
+   },
+   {
+    "name": "Mere Haare",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 193 Maro Haare's life interest; struck → 484–488"
+   },
+   {
+    "name": "Tommy Thomas Haare",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (4) under no. 193 Maro Haare's life interest; struck → 489–490"
+   },
+   {
+    "name": "Sylvia Haare",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "552.899",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (5) under no. 193 Maro Haare's life interest"
+   },
+   {
+    "name": "Loletta Haare",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "552.899",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (6) under no. 193 Maro Haare's life interest"
+   },
+   {
+    "name": "Martha Edna Moon",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 559.503",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 194; for a life interest or until remarriage, remainder to (1) Tene Alvin Paul Rankin ma (2) Hoterene Moon ma (3) Iri Charmaine Moon fa (4) Victor Moon ma (5) Vianne Merata Moon fa (6) Andrew John Moon ma (7) Walter Phillip Moon ma (8) Albert Hepi Moanariki Moon ma"
+   },
+   {
+    "name": "Tene Alvin Paul Rankin",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Hoterene Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Iri Charmaine Moon",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Victor Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (4) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Vianne Merata Moon",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (5) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Andrew John Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (6) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Walter Phillip Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (7) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Albert Hepi Moanariki Moon",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (8) under no. 194 Martha Edna Moon's life interest"
+   },
+   {
+    "name": "Mary Annette Halloway",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "227.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 195; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Mary Shortland",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 669.496",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 196; for a life interest or until remarriage, remainder to (1) Rita Haturini fa (2) Marie O'Shea fa (3) Ray Shortland ma (4) Ada Peck fa (5) Rangimarie Rangi fa"
+   },
+   {
+    "name": "Rita Haturini",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 196 Mary Shortland's life interest"
+   },
+   {
+    "name": "Marie O'Shea",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 196 Mary Shortland's life interest"
+   },
+   {
+    "name": "Ray Shortland",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 196 Mary Shortland's life interest"
+   },
+   {
+    "name": "Ada Peck",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (4) under no. 196 Mary Shortland's life interest"
+   },
+   {
+    "name": "Rangimarie Rangi",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (5) under no. 196 Mary Shortland's life interest"
+   },
+   {
+    "name": "Mary Sparrey",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 519.800",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 197"
+   },
+   {
+    "name": "Maryann Timo",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 475.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 198"
+   },
+   {
+    "name": "Maryanne Henry",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 384.435",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 199"
+   },
+   {
+    "name": "Maryanne Lucy Sparrey",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 379.275",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 200"
+   },
+   {
+    "name": "Mate Kuku Waha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "285.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 201; struck → 425 (administrator Hone Paki, 10 Jun 1992); 'Aroha Paki or Matakino Waha or Mate Te Waha or Mate Paki'"
+   },
+   {
+    "name": "Matehaere Anderson",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "388.122",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 202"
+   },
+   {
+    "name": "Matehereora Eru Ihaka or Mrs Nathan",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.751",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 203"
+   },
+   {
+    "name": "Matehereora Hira Witana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 204"
+   },
+   {
+    "name": "Matengahere Raharuhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "minor",
+    "shares": "7 025.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 205"
+   },
+   {
+    "name": "Materoa Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.404",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 206"
+   },
+   {
+    "name": "Matire Te Karehu Diamond",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 207"
+   },
+   {
+    "name": "Matire Tarawau Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "312.581",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 208"
+   },
+   {
+    "name": "Matire Himiona",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "508.922",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 209"
+   },
+   {
+    "name": "Matutaera Eru Ihaka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "419.468",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 210"
+   },
+   {
+    "name": "Maunga or Manihera Waikato Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "5 661.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 211; struck → 428–432 (succession 24 Apr 1992); 'Te Maunga Puru or John Mansell Puru'"
+   },
+   {
+    "name": "Te Maungaronga Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "minor (1996 as typed)",
+    "shares": "82.323",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 212; minor, born 1996 as typed (sic — probably 1966)"
+   },
+   {
+    "name": "Mautini Wirihana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "168.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 213"
+   },
+   {
+    "name": "May Whare",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 214"
+   },
+   {
+    "name": "Meeke Waikato Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "5 661.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 215; struck → 465–466 (vesting 11 Sep 1994)"
+   },
+   {
     "name": "Meeke Rihari",
     "role": "Owner",
-    "sex": "m.a.",
-    "age": "",
-    "shares": "1,479.791",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 479.791",
     "tupuna_id": "",
     "confidence": "stated",
     "note": "no. 216"
    },
    {
+    "name": "Mere Miraka Apiata",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 276.453",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 217"
+   },
+   {
+    "name": "Mere Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "106.108",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 218"
+   },
+   {
+    "name": "Mere Rapine",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "267.714",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 219"
+   },
+   {
+    "name": "Mere Tomo Hone Tua",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "505.754",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 220"
+   },
+   {
+    "name": "Micheal John Henry",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "377.657",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 221"
+   },
+   {
+    "name": "Mihi Taka Tukariri",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "500.464",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 222"
+   },
+   {
+    "name": "Mihiarangi Hulena or Taniora",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 741.935",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 223; a Taniora — whānau connection untested"
+   },
+   {
+    "name": "Millie Maraki",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "104.582",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 224"
+   },
+   {
+    "name": "Mikaera Kanuta Paerau",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "minor",
+    "shares": "761.649",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 225"
+   },
+   {
+    "name": "Minnie Takimoana",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "227.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 226; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Miria Puru",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "4 224.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 227"
+   },
+   {
+    "name": "Mita Selwyn Pickering Jnr or Mita Pikari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 960.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 228"
+   },
+   {
+    "name": "Mitai Karena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 375.258",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 229"
+   },
+   {
+    "name": "Moana Munitai Haare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "508.092",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 230"
+   },
+   {
+    "name": "Moengaroa Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "82.323",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 231"
+   },
+   {
+    "name": "Moengaroa Heihei or Moengaroa Shirley Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "507.010",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 232"
+   },
+   {
+    "name": "Moengaroa Waikato Puru or Mrs Heemi Tarawau Kira",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "5 661.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 233"
+   },
+   {
+    "name": "Mohi Moses Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 234"
+   },
+   {
+    "name": "Mori Kaihaere Elberthe",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 479.791",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 235"
+   },
+   {
+    "name": "Motatau Komene Rudolph",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "259.408",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 236"
+   },
+   {
+    "name": "Muru Pawa",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 556.471",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 237"
+   },
+   {
+    "name": "Naere June Bubby Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "571.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 238"
+   },
+   {
+    "name": "Ngahiraka Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "296.673",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 239; also a successor on Te Wainui 2G (1965)"
+   },
+   {
+    "name": "Ngaipu Tarawau Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "36.124",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 240"
+   },
+   {
+    "name": "Ngaire Tewehenga Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "82.323",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 241"
+   },
+   {
+    "name": "Ngakina Iro Tomo",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "101.136",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 242"
+   },
+   {
+    "name": "Te Ngangi Watene or Te Ngangi Wiremu or Te Ngangi Mau Paru or Jack Williams",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "10 994.567",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 243"
+   },
+   {
+    "name": "Ngapine Haki",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "12 590.221",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 244"
+   },
+   {
+    "name": "Ngapine Reihana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "12 901.357",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 245"
+   },
+   {
+    "name": "Ngapou Epiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "646.439",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 246"
+   },
+   {
+    "name": "Ngarangi Pukahu (or Elsie) Renata or Ngarangi Pukahu Kaweka Te Ohu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "325.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 247"
+   },
+   {
+    "name": "Ngarimu Pere Epiha",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 248"
+   },
+   {
+    "name": "Te Ngaru Reihana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "10 321.085",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 249; struck → 468 (succession 2 Sep 1994); 'Te Ngaru Reihana Pene'"
+   },
+   {
+    "name": "Ngawai Amato Riwhi Moihi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "914.435",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 250; Moihi / Amato whānau — cf. Arama Moihi (Amato Riwhi Moihi) of Tauaki, d. before 1917, and Huperio Moihi of Taupo (1913)"
+   },
+   {
+    "name": "Ngawaka Eru Ihaka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 251"
+   },
+   {
+    "name": "Nellie Holtz",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 252"
+   },
+   {
+    "name": "Neri Wire Kei Hapa or Neri Wiri Shephard",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 253"
+   },
+   {
+    "name": "Nora Rameka or Nora Tawhai Rameka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "856.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 254; struck → 480–481 (transfer 20 Jul 1995)"
+   },
+   {
+    "name": "Ohumauri Moana Hira or Lily Moana Hira or Lilly Anderson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 255"
+   },
+   {
+    "name": "Te Oikau Waka Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 256"
+   },
+   {
+    "name": "Te Paa Ratana Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 257"
+   },
+   {
+    "name": "Pahangawai Iro Tomo",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "101.136",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 258"
+   },
+   {
+    "name": "Paki Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "228.952",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 259"
+   },
+   {
+    "name": "Paki Winiata Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 260"
+   },
+   {
+    "name": "Pakihana (Frank Nevil) Niira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "115.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 261"
+   },
+   {
+    "name": "Pani Kanuta Paerau",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 262"
+   },
+   {
+    "name": "Paora Etana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "5 976.848",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 263"
+   },
+   {
+    "name": "Paora Pita or Paora Pita Taiapo",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 084.903",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 264; struck → 513 (Te Roopu Whanau Trust, 24 AT 246)"
+   },
+   {
+    "name": "Papa Ihaia",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "834.793",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 265"
+   },
+   {
+    "name": "Papamoeroa Ihaia Hikuwai",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 484.408",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 266"
+   },
+   {
+    "name": "Pare Tihi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "126.457",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 267"
+   },
+   {
+    "name": "Patu Whakaari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 481.989",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 268"
+   },
+   {
+    "name": "Paul Stuart Henry",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "377.657",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 269"
+   },
+   {
+    "name": "Paul Paul or Paora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "227.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 270; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Pauline Blomfield or Mrs Yearbury",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 554.366",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 271"
+   },
+   {
+    "name": "Pauline Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.405",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 272"
+   },
+   {
+    "name": "Pearl Allen",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 708.574",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 273"
+   },
+   {
+    "name": "Pera Kanuta Paerau",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "761.649",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 274"
+   },
+   {
+    "name": "Peter Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "71.404",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 275"
+   },
+   {
+    "name": "Peter Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 276"
+   },
+   {
+    "name": "Peti Hotere",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 277"
+   },
+   {
+    "name": "Phillip Logan Apiata",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 281.613",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 278"
+   },
+   {
+    "name": "Phiona Eva Pickering or Mrs Wilson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 404.346",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 279"
+   },
+   {
+    "name": "Phillip Robert Grey Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 280"
+   },
+   {
+    "name": "Pikiteora Watene",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 556.133",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 281"
+   },
+   {
+    "name": "Pikore Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "minor",
+    "shares": "4 224.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 282"
+   },
+   {
+    "name": "Pirihira Raharuhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 372.807",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 283"
+   },
+   {
+    "name": "Pirika Komene Takena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 284"
+   },
+   {
+    "name": "Pita Moana Hira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 285"
+   },
+   {
+    "name": "Pita Erueti Reihana Pene",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "10 321.085",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 286"
+   },
+   {
+    "name": "Poneke Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "223.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 287"
+   },
+   {
+    "name": "Te Pua Waitanga Silich",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 288"
+   },
+   {
+    "name": "Puti Tuhi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "76.589",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 289"
+   },
+   {
+    "name": "Rae Toms",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 563.224",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 290"
+   },
+   {
+    "name": "Rahera Paraone Tito (Mrs Boyte)",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "856.855",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 291"
+   },
+   {
+    "name": "Raiha Mahirau Ihaka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "424.987",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 292; for a life interest or until remarriage, remainder to (1) Maurice Edwin Ihaka m (2) David Kini Ihaka m (3) Joy Elizabeth Ihaka f (4) Dawn Tangipo Hineauta Ihaka f"
+   },
+   {
+    "name": "Maurice Edwin Ihaka",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 292 Raiha Mahirau Ihaka's life interest"
+   },
+   {
+    "name": "David Kini Ihaka",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 292 Raiha Mahirau Ihaka's life interest"
+   },
+   {
+    "name": "Joy Elizabeth Ihaka",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 292 Raiha Mahirau Ihaka's life interest"
+   },
+   {
+    "name": "Dawn Tangipo Hineauta Ihaka",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (4) under no. 292 Raiha Mahirau Ihaka's life interest"
+   },
+   {
+    "name": "Raiha Tuhi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "76.589",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 293"
+   },
+   {
+    "name": "Ramari Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "106.108",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 294"
+   },
+   {
     "name": "Ramiri Rihari",
     "role": "Owner",
-    "sex": "f.a.",
-    "age": "",
-    "shares": "1,480.618",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 480.618",
     "tupuna_id": "",
     "confidence": "stated",
     "note": "no. 295"
    },
    {
-    "name": "Raymond Rihari",
-    "role": "Successor",
-    "sex": "m",
-    "age": "",
-    "shares": "",
+    "name": "Rangi Rika",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "508.092",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "1992"
+    "note": "no. 296"
    },
    {
-    "name": "Warren Taniora",
+    "name": "Rangi Tahere",
     "role": "Owner",
-    "sex": "m.a.",
-    "age": "",
-    "shares": "3,789.575",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 387"
+    "note": "no. 297"
+   },
+   {
+    "name": "Rangimaria Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 298; struck → 516 (whānau trust 15 Jun 1998)"
+   },
+   {
+    "name": "Rania Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "106.108",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 299"
+   },
+   {
+    "name": "Te Ranui Tanga Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 300"
+   },
+   {
+    "name": "Te Rautau Niira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "113.790",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 301"
+   },
+   {
+    "name": "Rawiri Kanuta Paerau",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "761.649",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 302"
+   },
+   {
+    "name": "Raymond Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "71.404",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 303"
+   },
+   {
+    "name": "Rebecca Marsh",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 475.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 304"
+   },
+   {
+    "name": "Rebecca Schneider",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "3 789.575",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 305; same interest as Warren Taniora (no. 387)"
+   },
+   {
+    "name": "Reewe Eru Ihaka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 306"
+   },
+   {
+    "name": "Rehi Rihari",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 307"
+   },
+   {
+    "name": "Reihana Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 142.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 308"
+   },
+   {
+    "name": "Reihana Raharuhi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 089.709",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 309"
+   },
+   {
+    "name": "Renata or Leonard Moana Hira",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 310"
+   },
+   {
+    "name": "Reo Powhiri Karena",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "321.972",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 311"
+   },
+   {
+    "name": "Reuben Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "178.110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 312"
+   },
+   {
+    "name": "Reupena Huperio Moihi or Rupena Huperio Riwhi Moihi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4 595.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 313; Moihi whānau — cf. Huperio Moihi, vendor on Taupo blocks 1913"
+   },
+   {
+    "name": "Rewi Iro Tomo",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "101.136",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 314"
+   },
+   {
+    "name": "Riana Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "106.108",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 315"
+   },
+   {
+    "name": "Riana Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 316"
+   },
+   {
+    "name": "Riana Tuhi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "76.589",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 317"
+   },
+   {
+    "name": "Rihipeti Tame Murray",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 318"
+   },
+   {
+    "name": "Riki Reihana Eru Ihaka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 319"
+   },
+   {
+    "name": "Ringapoto Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 276.871",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 320"
+   },
+   {
+    "name": "Riwa Tuhi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "76.589",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 321"
+   },
+   {
+    "name": "Robert Aubrey",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 322"
+   },
+   {
+    "name": "Robin Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 323"
+   },
+   {
+    "name": "Rona Bryce",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "minor",
+    "shares": "479.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 324"
+   },
+   {
+    "name": "Ronald Taylor Hou",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "17 346.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 325"
+   },
+   {
+    "name": "Rongopaihou Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 326"
+   },
+   {
+    "name": "Rora Anaru Hone Rameka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "minor",
+    "shares": "227.581",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 327"
+   },
+   {
+    "name": "Rowene Tame (Mrs)",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 443.486",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 328"
+   },
+   {
+    "name": "Ruiha Whitewood",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 329"
+   },
+   {
+    "name": "Sarah Miller",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 330"
+   },
+   {
+    "name": "Sarah Ricket",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "30.963",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 331"
+   },
+   {
+    "name": "Shane Barry Ross Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.237",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 332"
+   },
+   {
+    "name": "Sidney Alexander",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 333"
+   },
+   {
+    "name": "Simon Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 334"
+   },
+   {
+    "name": "Snowy Maihi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "212.216",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 335"
+   },
+   {
+    "name": "Solomon Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 336; struck → 495 (transfer 30 Jul 1996)"
+   },
+   {
+    "name": "Sophie Robina Rihari",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "357.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 337; for a life interest or until remarriage, remainder to (1) Raymond Rihari m, 1992 (2) Waitai Rihari m, 1993 (minors, years of majority as typed)"
+   },
+   {
+    "name": "Stanley Tokorangi Walker",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "4 138.650",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 338"
+   },
+   {
+    "name": "Stephen Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "571.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 339"
+   },
+   {
+    "name": "Steve Hokai",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "758.668",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 340"
+   },
+   {
+    "name": "Steven Richard Henry",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "373.868",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 341"
+   },
+   {
+    "name": "Stewart Solomona Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "342.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 342"
+   },
+   {
+    "name": "Sullivan Thompson",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "761.649",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 343"
+   },
+   {
+    "name": "Sylvana Huhana Pahi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "4 343.299",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 344"
+   },
+   {
+    "name": "Tahana Kaiawe Parangi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 345"
+   },
+   {
+    "name": "Takangaroa Auckland",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 976.459",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 346; struck → 509–512 (transfers 30 Mar 1998, retaining 2 326.459)"
    },
    {
     "name": "Take Hemi Manuera",
     "role": "Owner",
-    "sex": "f.a.",
-    "age": "",
+    "sex": "f.",
+    "age": "adult",
     "shares": "358.756",
     "tupuna_id": "",
     "confidence": "stated",
     "note": "no. 347"
    },
    {
-    "name": "Horitina Hori Tareha",
+    "name": "Taku Rihari",
     "role": "Owner",
-    "sex": "f.a.",
-    "age": "",
-    "shares": "24,623.174",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "357.449",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 116"
+    "note": "no. 348; also an owner of Waimate North (doc 1273080, 0.6310)"
    },
    {
-    "name": "Rupena Huperio Riwhi Moihi",
+    "name": "Tamaki Hemara",
     "role": "Owner",
-    "sex": "m.a.",
-    "age": "",
-    "shares": "4,595.820",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "109.742",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 313; the Moihi family (cf. Tauaki)"
+    "note": "no. 349"
+   },
+   {
+    "name": "Tamati Mou Paru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "108.371",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 350"
+   },
+   {
+    "name": "Tame Wati Haare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "238.743",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 351; also on Wainui A 1958"
+   },
+   {
+    "name": "Tame Anaru Hone Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "228.952",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 352"
+   },
+   {
+    "name": "Tame Winiata Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 353"
+   },
+   {
+    "name": "Tame Muru Waata or Thomas Houston Walters",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "424.987",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 354; for a life interest or until remarriage, remainder to (1) Rihipeti Hinerangi Reid fa (2) Muru Hori Walters ma (3) Tangimoana Opai fa (4) Keena Makinihi Rapihana fa (5) Marara Walters fa (6) Noel Thomas Walters ma (7) Anita June Whitehouse fa (8) Matiu Thomas Walters ma (9) Peggy Angland fa (10) Patana Thomas Walters ma"
+   },
+   {
+    "name": "Rihipeti Hinerangi Reid",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (1) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Muru Hori Walters",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (2) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Tangimoana Opai",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (3) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Keena Makinihi Rapihana",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (4) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Marara Walters",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (5) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Noel Thomas Walters",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (6) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Anita June Whitehouse",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (7) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Matiu Thomas Walters",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (8) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Peggy Angland",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (9) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Patana Thomas Walters",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "remainderman (10) under no. 354 Tame Muru Waata or Thomas Houston Walters's life interest"
+   },
+   {
+    "name": "Tangiora Kataraina Smith",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "6 413.116",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 355"
+   },
+   {
+    "name": "Tania Dorretta Poulson",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 384.435",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 356"
+   },
+   {
+    "name": "Taniora Tihi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "126.457",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 357; Tihi whānau (126.457 each) — 'Taniora' here is a given name"
+   },
+   {
+    "name": "Tapae Napia",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "388.122",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 358"
+   },
+   {
+    "name": "Tare Iro Tomo",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "101.136",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 359"
+   },
+   {
+    "name": "Temaramatanga Napia",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "388.122",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 360"
+   },
+   {
+    "name": "Temiringa Martha Ngawaka",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 475.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 361"
+   },
+   {
+    "name": "Tere Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 362"
+   },
+   {
+    "name": "Teresa Henry",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 675.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 363"
+   },
+   {
+    "name": "Teri Kingi Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "428.325",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 364"
+   },
+   {
+    "name": "Teri Karena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "321.972",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 365"
+   },
+   {
+    "name": "Terry Reid",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "142.581",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 366"
+   },
+   {
+    "name": "Thomas Broughton",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "32.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 367"
+   },
+   {
+    "name": "Thomas Goulton",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 034.597",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 368"
+   },
+   {
+    "name": "Thomas Andrew Paul",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "223.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 369; struck → 513 (Te Roopu Whanau Trust, 24 AT 246-7)"
+   },
+   {
+    "name": "Timi Kara Wirihana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "168.585",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 370"
+   },
+   {
+    "name": "Tini Tihi",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "126.457",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 371"
+   },
+   {
+    "name": "Tipene Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "142.809",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 372"
+   },
+   {
+    "name": "Tokowha Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 480.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 373"
+   },
+   {
+    "name": "Trayton Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "71.405",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 374"
+   },
+   {
+    "name": "Tunisia Karanga",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "32.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 375"
+   },
+   {
+    "name": "Ture Rihari",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "357.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 376"
+   },
+   {
+    "name": "Te Ua (Eva) Strongman",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "2 563.224",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 377"
+   },
+   {
+    "name": "Urukowhai Napia",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "388.122",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 378"
+   },
+   {
+    "name": "Vera Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.405",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 379"
+   },
+   {
+    "name": "Vivian Aubrey",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 380"
+   },
+   {
+    "name": "Waitai Wati Haare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 550.973",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 381; = Te Waitai Wati Haare of Wainui A 1958"
+   },
+   {
+    "name": "Waitai Puru",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 479.791",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 382"
+   },
+   {
+    "name": "Waitai Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "525.762",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 383"
+   },
+   {
+    "name": "Waitapu (Julie) Ewins",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "508.092",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 384"
+   },
+   {
+    "name": "Waiunupo Moana Hira or Waiunupo Komene",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "78.140",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 385"
+   },
+   {
+    "name": "Walter Pene",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 475.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 386"
+   },
+   {
+    "name": "Warren Taniora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 789.575",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 387; a Taniora — whānau connection untested; same interest as Rebecca Schneider (no. 305)"
+   },
+   {
+    "name": "Wayne Kanuta",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "190.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 388"
+   },
+   {
+    "name": "Wayne Andrew Henry",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "376.286",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 389"
+   },
+   {
+    "name": "Whaekaimau Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 480.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 390"
+   },
+   {
+    "name": "Whakaaria Rapine",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "140.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 391"
+   },
+   {
+    "name": "Whakaropai Rihari",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "357.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 392"
+   },
+   {
+    "name": "Whetu Karena",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "321.972",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 393; struck → 445 (vesting 22 Apr 1993); 'Whetu Karena or Whetu Moana Karena'"
+   },
+   {
+    "name": "Wi Paratene Campbell",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "108.371",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 394"
+   },
+   {
+    "name": "Wi Tua",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "525.762",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 395"
+   },
+   {
+    "name": "Wi Parihi Watene",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "144.495",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 396"
+   },
+   {
+    "name": "Wi Parihi Mou Wiremu",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21 716.423",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 397"
+   },
+   {
+    "name": "Wiki or Wikitoria Murupaenga",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "4 644.480",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 398"
+   },
+   {
+    "name": "Wikitoria Bacon",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "87.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 399"
+   },
+   {
+    "name": "William David Dixon",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "374.569",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 400"
+   },
+   {
+    "name": "William Wallace Pickering",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1 390.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 401"
+   },
+   {
+    "name": "William Rivers",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "25.288",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 402"
+   },
+   {
+    "name": "Willie Paora",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "3 801.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 403"
+   },
+   {
+    "name": "Wilma Moana Hira or Wilma Ellis",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "78.178",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 404"
+   },
+   {
+    "name": "Wilson Tahere",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "21.082",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 405"
+   },
+   {
+    "name": "Winiata II Winiata Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "98.710",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 406"
+   },
+   {
+    "name": "Winika Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 559.423",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 407; struck → 423–424 (consolidation 2 Oct 1991)"
+   },
+   {
+    "name": "Winika Waimirangi Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 480.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 408"
+   },
+   {
+    "name": "Winika McGee",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 066.089",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 409"
+   },
+   {
+    "name": "Winnie Heihei",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "644.228",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 410"
+   },
+   {
+    "name": "Winnie Morehu",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 475.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 411"
+   },
+   {
+    "name": "Wiremu Pokai Haare",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "502.926",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 412"
+   },
+   {
+    "name": "Wiremu Maihi",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "339.716",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 413"
+   },
+   {
+    "name": "Wiremu Paati Rameka",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 414"
+   },
+   {
+    "name": "Wiremu Haare Tame Tame",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 443.486",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 415"
+   },
+   {
+    "name": "Wiri Iro Tomo",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "101.136",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 416"
+   },
+   {
+    "name": "Wirihana Rapine",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "140.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 417"
+   },
+   {
+    "name": "Wiritua Heihei",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 418"
+   },
+   {
+    "name": "Witana Witana",
+    "role": "Owner",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "353.236",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 419"
+   },
+   {
+    "name": "Zelda Kanuta",
+    "role": "Owner",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "71.405",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 420"
+   },
+   {
+    "name": "Marcella Kuku Waha or Kuku te Waha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.11: list no. 185; M.B. 78 OTO 111; order s 81/67; date 1991-07-10 → 421"
+   },
+   {
+    "name": "The Maori Trustee as administrator to the estate of Marcella Kuku Waha",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 421; → 422"
+   },
+   {
+    "name": "The Maori Trustee as administrator to the estate of Marcella Kuku Waha or Kuku te Waha",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.11: list no. 421; M.B. 78 OTO 33; order s 81A/67; date 1991-12-11 → 422"
+   },
+   {
+    "name": "Mona Pita Paora",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "286.532",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 422; subject to a life interest, remainder to Hazel Jackson and Clancy Michael Johnny Waka"
+   },
+   {
+    "name": "Winika Heihei",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1 559.423",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.12: list no. 407; M.B. 72 WH 24; order s 213(1)/(5)/53; date 1991-10-02 → 423–424"
+   },
+   {
+    "name": "Kathleen Heihei or Kathleen Anne Heihei",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "350.417",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 423; already owned 180.044 (no. 155) + 170.373 acquired"
+   },
+   {
+    "name": "Winika Heihei",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 389.050",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 424"
+   },
+   {
+    "name": "Aroha Paki or Matakino Waha or Mate Te Waha or Mate Waha or Mate Paki or Mate Kuku Waha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "285.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.12: list no. 201; M.B. 8 ROTO 71; order s 81/67; date 1992-06-10 → 425"
+   },
+   {
+    "name": "Hone Paki",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "285.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 425; appointed administrator of the estate of the said deceased → 436–444"
+   },
+   {
+    "name": "Betty (Heihei) Barlow or Betty Heihei",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "50.726",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.12: list no. 24; M.B. 72 WH 28; order s 213/53; date 1991-11-11 → 426"
+   },
+   {
+    "name": "Mark Heihei",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "101.452",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 426; already owned 50.726 (no. 191) + 50.726"
+   },
+   {
+    "name": "David Hare Heihei or David Heihei",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "178.110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.12: list no. 36; M.B. 72 WH 28; order s 213/53; date 1991-11-11 → 427"
+   },
+   {
+    "name": "Mark Heihei",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "279.562",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 427; already owned 101.452 (no. 426) + 178.110"
+   },
+   {
+    "name": "Maunga Waikato Puru or Manihera Waikato Puru or Te Maunga Puru or John Mansell Puru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "5 661.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list no. 211; M.B. 3 AT(S) 158; order s 118/67; date 1992-04-24 → 428–432"
+   },
+   {
+    "name": "Wendy Leigh Puru",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 132.239",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 428"
+   },
+   {
+    "name": "Dale Matu Puru",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 132.239",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 429"
+   },
+   {
+    "name": "Jason Rex Puru",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 132.239",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 430"
+   },
+   {
+    "name": "Clarke William Puru",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 132.240",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 431"
+   },
+   {
+    "name": "Rhys Nolan Puru",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 132.240",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 432"
+   },
+   {
+    "name": "Hokena Wi Haare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "12 026.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list no. 107; M.B. 20 KH 85; order s 213/53; date 1992-09-30 → 433"
+   },
+   {
+    "name": "Poihakena Syd Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "12 026.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 433"
+   },
+   {
+    "name": "Alfred Hikuwai",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "2 113.646",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list no. 5; M.B. 74 WH 141; order s 213/53; date 1992-02-24 → 434–435"
+   },
+   {
+    "name": "Kathleen Anne Heihei",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "378.373",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 434; already owned 350.417 (no. 423) + 27.956"
+   },
+   {
+    "name": "Alfred Hikuwai",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "2 085.690",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 435"
+   },
+   {
+    "name": "Hone Paki, administrator of the estate of Aroha Paki",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "285.161",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.13: list no. 425; M.B. 38 KH 33; order s 81/67; date 1993-04-02 → 436–444"
+   },
+   {
+    "name": "Hone Paki",
+    "role": "Purchaser / transferee",
+    "sex": "m.",
+    "age": "",
+    "shares": "57.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 436"
+   },
+   {
+    "name": "Te Riro Paki",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "57.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 437"
+   },
+   {
+    "name": "Huirangi Paki",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "57.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 438"
+   },
+   {
+    "name": "Elizabeth Tupara",
+    "role": "Purchaser / transferee",
+    "sex": "m.",
+    "age": "",
+    "shares": "57.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 439; sex as written"
+   },
+   {
+    "name": "Matauria Valerie Paranihi",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "11.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 440; surname reading uncertain"
+   },
+   {
+    "name": "Tamar Rangimarie Paki",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "11.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 441"
+   },
+   {
+    "name": "Albert Paki",
+    "role": "Purchaser / transferee",
+    "sex": "m.",
+    "age": "",
+    "shares": "11.407",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 442"
+   },
+   {
+    "name": "Lavinia Marangatanga Paki",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "11.407",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 443"
+   },
+   {
+    "name": "Temma Ngarimu Paki",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "11.407",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 444"
+   },
+   {
+    "name": "Whetu Karena or Whetu Moana Karena (transferor Te Whakamarama Fredrick Garland)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "321.972",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.14: list no. 393; M.B. 173/174 (book not read); order s 73B/67; date 1993-04-22 → 445"
+   },
+   {
+    "name": "Nancy Garland",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "321.972",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 445"
+   },
+   {
+    "name": "Hariata Kira",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "2 759.347",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.14: list no. 80; M.B. 20 KH 301; order s 213/53; date 1993-06-18 → 446–455"
+   },
+   {
+    "name": "Sandra Hau-Laurence",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 446"
+   },
+   {
+    "name": "Rongopai Kira (Jnr)",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 447"
+   },
+   {
+    "name": "Wayne Kira",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 448"
+   },
+   {
+    "name": "Diane Johns",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 449"
+   },
+   {
+    "name": "Alan Kira",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 450"
+   },
+   {
+    "name": "Eugene Kira",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 451"
+   },
+   {
+    "name": "Nancy Kira",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 452"
+   },
+   {
+    "name": "Robert Kira",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 453"
+   },
+   {
+    "name": "Rongopai Kira (Snr)",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 454"
+   },
+   {
+    "name": "Hariata Kira",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1 859.347",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 455; balance retained"
+   },
+   {
+    "name": "James Tarawau Kira",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "3 282.673",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.15: list no. 130; M.B. 70 WH 90; order s 213/53; date 1993-08-09 → 456–464"
+   },
+   {
+    "name": "Anaru Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 456"
+   },
+   {
+    "name": "Taranau Hokena Heemi Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 457"
+   },
+   {
+    "name": "Manihera Heemi Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 458"
+   },
+   {
+    "name": "Edna Arena Heemi Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 459"
+   },
+   {
+    "name": "June Carol Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 460"
+   },
+   {
+    "name": "James Richard Heemi Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 461"
+   },
+   {
+    "name": "Avis Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 462"
+   },
+   {
+    "name": "Luana Sheree Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 463"
+   },
+   {
+    "name": "James Taranau Kira",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "2 482.673",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 464"
+   },
+   {
+    "name": "Meeke Waikato Puru",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "5 661.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.15: list no. 215; M.B. 16 WH 150; order s 164/93; date 1994-09-11 → 465–466"
+   },
+   {
+    "name": "Jacqueline Pearl Hemai Watson",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 465"
+   },
+   {
+    "name": "Meeke Waikato Puru",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "5 461.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 466; → 478–479"
+   },
+   {
+    "name": "Mana Whakaora Paora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "2 766.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.16: list no. 179; M.B. 22 AT 211; order s 164/93; date 1994-05-31 → 467"
+   },
+   {
+    "name": "Manawhakaora Taiapo (Paora) Junior",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "2 766.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 467"
+   },
+   {
+    "name": "Te Ngaru Reihana or Te Ngaru Tamati Reihana Pene (Joyce Ellen Brooks and Brian Robert Couper as executors)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "10 321.085",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.16: list no. 249; M.B. 8 RGTO 224; order ss 81/67 and 81A/67; date 1994-09-02 → 468"
+   },
+   {
+    "name": "Brian Robert Couper",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "10 321.085",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 468"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "424.987",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.16: list no. 124; M.B. 18 AT 293-294; order s 164/93; date 1994-10-31 → 469"
+   },
+   {
+    "name": "Kingi Ihaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "424.987",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 469"
+   },
+   {
+    "name": "Ene Te Waa Paul or Ene Te Waa Paora or Ene Te Waa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "1 291.507",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.16: list no. 53; M.B. 2 KH(S) 172; order s 78A/67; date 1995-04-07 → 470–475"
+   },
+   {
+    "name": "Aurirana Pomare De Vantier",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "215.251",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 470; first name reading uncertain"
+   },
+   {
+    "name": "Millie Alice Olga Hoko Paul",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "215.252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 471; reading uncertain"
+   },
+   {
+    "name": "Russell Paul",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "215.251",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 472; middle name illegible; sex as written"
+   },
+   {
+    "name": "Jay Janson Paul",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "215.251",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 473"
+   },
+   {
+    "name": "Florence Moanaroa Paul",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "215.251",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 474"
+   },
+   {
+    "name": "Carolyn Katerina Paul",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "215.251",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 475"
+   },
+   {
+    "name": "Haare Hati Taumaunu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "4 786.241",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.17: list no. 73; M.B. 8 RGTO 243-4; order s 117/93; date 1995-03-06 → 476–477"
+   },
+   {
+    "name": "Ivan James Taumaunu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "2 393.121",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 476; → 500"
+   },
+   {
+    "name": "Ringapoto Taumaunu",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "2 393.120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 477"
+   },
+   {
+    "name": "Meeke Waikato Puru",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "5 461.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.17: list no. 466; M.B. 23 KH 115; order s 164/93 (vesting order); date 1995-06-08 → 478–479"
+   },
+   {
+    "name": "Meeke Waikato Puru",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "5 261.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 478"
+   },
+   {
+    "name": "Patricia Francis Puru",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 479"
+   },
+   {
+    "name": "Nora Rameka or Nora Tawhai Rameka",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "856.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.17: list no. 254; M.B. 23 KH 114; order s 164/93; date 1995-07-20 → 480–481"
+   },
+   {
+    "name": "Clinton Ihaka Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "m.",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 480"
+   },
+   {
+    "name": "Nora Rameka or Nora Tawhai Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "656.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 481; → 482–483"
+   },
+   {
+    "name": "Nora Rameka or Nora Tawhai Rameka",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "656.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.17: list no. 481; M.B. 23 KH 27; order s 164/93; date 1995-12-07 → 482–483"
+   },
+   {
+    "name": "Puterena Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 482; first name reading uncertain"
+   },
+   {
+    "name": "Nora Rameka or Nora Tawhai Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "",
+    "shares": "456.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 483; → 496–497"
+   },
+   {
+    "name": "Mere Haare or Mere Pohoi Haare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.18: list no. 193C; M.B. 23 AT 289-291; order s 164/93; date 1996-04-09 → 484–488"
+   },
+   {
+    "name": "Kelly David Takitaki",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "110.580",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 484"
+   },
+   {
+    "name": "Rhys Rangi Haare",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "110.580",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 485"
+   },
+   {
+    "name": "Kaloni Haare",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "110.580",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 486"
+   },
+   {
+    "name": "Faone Haare",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "110.579",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 487"
+   },
+   {
+    "name": "Faiva Haare",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "110.579",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 488"
+   },
+   {
+    "name": "Tommy Thomas Haare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.18: list no. 193D; M.B. 23 AT 289-291; order s 164/1993; date 1996-04-09 → 489–490"
+   },
+   {
+    "name": "Quentin Haare",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "276.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 489"
+   },
+   {
+    "name": "Rik James Haare",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "276.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 490"
+   },
+   {
+    "name": "Kataraina Haare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "552.898",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.18: list no. 193B; M.B. 23 AT 289-291; order s 164/93; date 1996-04-09 → 491–494"
+   },
+   {
+    "name": "Riria Cassidy Rameka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "138.225",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 491"
+   },
+   {
+    "name": "Maunga Rongo Rameka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "138.225",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 492"
+   },
+   {
+    "name": "Awhina Rameka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "138.224",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 493"
+   },
+   {
+    "name": "Raihana Karena Rameka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "138.224",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 494"
+   },
+   {
+    "name": "Solomon Tua",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.19: list no. 336; M.B. 24 AT 103; order s 164/93; date 1996-07-30 → 495"
+   },
+   {
+    "name": "Patrina Tua",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 495"
+   },
+   {
+    "name": "Nora Rameka",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "456.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.19: list no. 483; M.B. 24 AT 103; order s 164/93; date 1996-07-30 → 496–497"
+   },
+   {
+    "name": "Whati Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 496"
+   },
+   {
+    "name": "Nora Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "256.784",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 497"
+   },
+   {
+    "name": "Marcia Shortland",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.19: list no. 186; M.B. 24 AT 103; order s 164/93; date 1996-07-30 → 498–499"
+   },
+   {
+    "name": "Hoterene Adrian Shortland",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 498"
+   },
+   {
+    "name": "Marcia Shortland",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "331.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 499"
+   },
+   {
+    "name": "Ivan James Taumaunu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "2 393.121",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.19: list no. 476; M.B. 68 Aotea 177-178; order s 118/93; date 1997-03-03 → 500"
+   },
+   {
+    "name": "Haze Marie Bell Taumaunu",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "2 393.121",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 500; name reading uncertain; Michelle Dulcie Bell appointed kaitiaki trustee (68 Aotea 177-178)"
+   },
+   {
+    "name": "Hoterene Tua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.20: list no. 117; M.B. 24 AT 300-301; order ss 220, 222/93; date 1997-09-22 → 501"
+   },
+   {
+    "name": "Maata Tua, Iris Pihema, Elsie Tua, Hoterene Tua (Jnr) and Rehi Tua as responsible trustees for the Hoterene Tua (Snr) Whanau Trust",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "531.281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 501"
+   },
+   {
+    "name": "Te Mamae Parangi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.20: list no. 178; M.B. 85 WH 156; order ss 220, 222/93; date 1997-12-11 → 502"
+   },
+   {
+    "name": "Reihana Parangi, Kathleen Caldwell, Wyles Kaiawe, Haahi Kaiawe and Carl Parangi as responsible trustees of the Te Mamae Senior Parangi Kaiawe Whanau Trust",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "2 323.558",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 502; trustee names partly uncertain"
+   },
+   {
+    "name": "Alfreda or Freda Rebecca Kena or Alfreda Ripeka Kena or Alfreda Rebecca Kena",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "2 444.274",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.20: list no. 6; M.B. 85 WH 126-127; order ss 220, 222/1993; date 1997-11-28 → 503"
+   },
+   {
+    "name": "Alfreda Ripeka Kena, Colleen Joyce Walters, Alfred Thomas Kena and Victor Mansell Kena as trustees of the Alfreda Ripeka Whanau Trust",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "2 444.274",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 503"
+   },
+   {
+    "name": "Maaka Komene or Maka Komene Takena",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "367.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.21: list no. 173 and 177; M.B. 4 WH(S) 48; order s 117/93; date 1998-02-04 → 504–507"
+   },
+   {
+    "name": "James Hipiriona Malcom Komene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "91.919",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 504"
+   },
+   {
+    "name": "Kaana Waimirirangi Komene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "91.920",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 505"
+   },
+   {
+    "name": "Janet Arsenia Komene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "91.920",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 506"
+   },
+   {
+    "name": "Kohine Komene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "91.920",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 507"
+   },
+   {
+    "name": "Charlotte Bradshaw",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.21: list no. 32; M.B. 90 Whakatane 247; order s 164/158(1)/93; date 1998-02-05 → 508"
+   },
+   {
+    "name": "John Rameka Alexander",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "97.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 508"
+   },
+   {
+    "name": "Takangaroa Auckland",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "2 976.459",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.21: list no. 346; M.B. 26 KH 213-214; order s 164/93; date 1998-03-30 → 509–512"
+   },
+   {
+    "name": "Annette Auckland",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "250.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 509"
+   },
+   {
+    "name": "Helen Doreen Morrison",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 510"
+   },
+   {
+    "name": "Maree Auckland",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 511"
+   },
+   {
+    "name": "Takangaroa Auckland",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "2 326.459",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 512; balance retained"
+   },
+   {
+    "name": "Thomas Paul (369), Paora Pita (264), Paul Paul (270), Colin Paul (34), Janie Paul (134), Kathleen Jean Blacklaw (154), Hemo K. Takena (85), Mary A. Halloway (195), Minnie Takimoana (226)",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "4 029.047",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.22: list no. 369, 264, 270, 34, 134, 154, 85, 195, 226; M.B. 24 AT 246; order s 214/93; date 1996-01-31 → 513"
+   },
+   {
+    "name": "Te Roopu Whanau Trust — trustees Paul Paora (Snr), Dean Blacklaw, Mary Holloway, Janie Harris, Elizabeth Horner, Lachrisha Holloway and Saul Paul",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "4 029.047",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 513; date read as 31/1/96; trustee names partly uncertain"
+   },
+   {
+    "name": "Kahu Sealeaf",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "529.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.22: list no. 142; M.B. 25 AT(S) (page not read); order s 164/93; date 1998-03-27 → 514–515"
+   },
+   {
+    "name": "Walter Rameka",
+    "role": "Purchaser / transferee",
+    "sex": "m.",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 514"
+   },
+   {
+    "name": "Kahu Sealeaf",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "329.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 515"
+   },
+   {
+    "name": "Rangimaria Kaiawe Parangi",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "p.22: list no. 298; M.B. 2 KH(S) 372-3; order s 214/93; date 1998-06-15 → 516"
+   },
+   {
+    "name": "Te Kena Whanau Whenua Whanau Trust — trustees Nukumai Herewini, Horomoana Herewini, Ringapoto Herewini and Erihi Herewini",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "337.375",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 516; trustee surnames shown by ditto marks under Herewini"
    }
   ],
-  "notes": "Indexed from the OCR layer; not yet read page by page. Takou is Ngāti Rēhia land north of Kerikeri; the Rihari and Taniora names here are modern and unlinked to Taniora Rihari's Whangaroa line — lead only (cf. D011)."
+  "notes": "Full transcription (OCR of the typed pages checked against the page images; the handwritten order pages read by eye — names marked 'reading uncertain' where the hand is unclear). The Rihari and Taniora names here are Ngāti Rēhia owners of Takou Bay and are NOT attributed to the Whangaroa Taniora Rihari line without evidence — see D017 for the leads. Earlier index entry (text pass only) replaced 10 Oct 2026."
  },
  {
   "document_id": "PW-1389221",
