@@ -26,7 +26,8 @@
   "Taimaro": "1JWpu0yTgUwnkPXgSWDUl_lr7fqPUAuBR",
   "Matauri": "1gJf-t2s63CZhdEKJ4U5Tk0kXaaOF16di",
   "Manukau": "1G49rKuYXmWNvmXxFvrOqhmM9WopUkdDB",
-  "Wainui": "19THQyopjdYn_i1A6j1aDvX62b5IuALtN"
+  "Wainui": "19THQyopjdYn_i1A6j1aDvX62b5IuALtN",
+  "Tutukau East": ""
  },
  "files": [
   [
@@ -679,5 +680,42 @@
   ]
  ],
  "skipped": [],
- "attached": []
+ "attached": [
+  [
+   "Tutukau East",
+   "",
+   "00699359_01164494_0001_0137_LHO_Document-1164494.pdf",
+   "20954391"
+  ],
+  [
+   "Tutukau East",
+   "",
+   "00699356_01164488_0001_0101_LHO_Document-1164488.pdf",
+   "15245365"
+  ],
+  [
+   "Tutukau East",
+   "",
+   "00699353_01164486_0001_0090_LHO_Document-1164486.pdf",
+   "12619224"
+  ],
+  [
+   "Tutukau East",
+   "",
+   "00699363_01164496_0001_0073_LHO_Document-1164496.pdf",
+   "11463959"
+  ],
+  [
+   "Tutukau East",
+   "",
+   "00482077_00880411_0001_0055_LHO_Document-880411.pdf",
+   "3961638"
+  ],
+  [
+   "Tutukau East",
+   "",
+   "00483267_00881601_0001_0097_LHO_Document-881601.pdf",
+   "8614086"
+  ]
+ ]
 }
