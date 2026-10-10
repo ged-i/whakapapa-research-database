@@ -1527,6 +1527,50 @@
   "notes": "Attached to the chat 10 Oct 2026 (85 KB); not yet in Drive — filed with Rotokakahi (Rirena's principal whānau land) and linked to Paihia 1D1E2 and Owhata C. Folio 301 (the rest of the Court's direction) and the orders of 20 Oct 1981 (12 AT 360) are still to be pulled. The 1980 addresses of the family are deliberately left out of this public record."
  },
  {
+  "document_id": "PW-1688372",
+  "doc_no": "1688372",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Rotokakahi",
+  "title": "Auckland minute book 11 AT 353 — sitting of 20 November 1980: Rirena Arama (s 78A, item 60 continued) — 'the titles officer has discussed an arrangement with the family'; provisional orders offered pending the original will",
+  "blocks_recorded": [
+   "(minute book page — Rirena Arama's estate, continued from folios 300/301; her interests were in Rotokakahi A3B1B1B, Owhata C, Te Puna o Hokianga and the Paihia 1D1 blocks)"
+  ],
+  "block_ids": [
+   "30211",
+   "30779",
+   "30124",
+   "30723"
+  ],
+  "record_date": "1980-11-20",
+  "effective_date": "",
+  "court": "Māori Land Court, Tai Tokerau (sitting at Auckland)",
+  "judge": "",
+  "minute_book": "11 AT 353",
+  "pages": 1,
+  "page_range": "353",
+  "file_name": "01076422_01688372_0353_0353_MIN_Document-1688372.pdf",
+  "drive_id": "",
+  "file_size": "115621",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "One handwritten page, folio 353 of Auckland minute book 11 (book scan 01076422), margin date 20.11.80. (a) The upper two-thirds belong to another family's matter: 'Order: s 136 as follows — Panguru B30 5, value $245, to Nos 1–4 above 1/9th share each, No 11 1/9th solely, Nos 12–18 1/63rd, Nos 19–21 1/27th, Nos 24–28 1/45th, Nos 32–34 and 37–42 1/81st. The above block has potential afforestation value. Wharau 5 to Adelaide Wood(?), No … above, solely. Rebecca's children were present when all agreed that only one person be put in to this small interest and that as the youngest surviving daughter it should go to Adelaide.' A later note in another hand — '(Refer to AT 16/219-220 for final [orders])' — sits between the two items and most probably belongs to that matter. (b) '60 (cont'd) RIRENA ARAMA, S. 78A. See folio 300/301. Court: The titles officer has discussed an arrangement with the family. The Court awaits production of original will but is prepared to make provisional orders subject to ratification by Judge in Chambers when original will to hand.' The page ends there; the provisional orders themselves should follow on folio 354. Read with 11 AT 300 (17 Nov 1980: Erihapeti/Betty applicant, nine children listed), 12 AT 232 (1 Jul 1981: will still outstanding; Wiremu Arama's interests vested in Betty alone) and the final order AT 12/360 (20 Oct 1981, 'in terms of will', to the other eight), this is the Court's own record that the 1981 outcome was a negotiated family arrangement.",
+  "names": [
+   {
+    "name": "Rirena Arama",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "item 60 (cont'd), s 78A; arrangement discussed between the family and the Court's titles officer; provisional orders offered pending the original will"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (113 KB); not yet in Drive — filed with Rotokakahi. Folio 354 (the provisional orders) and 11 AT 301 are still to be pulled; the Panguru/Wharau item at the top is not whānau business and is summarised only."
+ },
+ {
   "document_id": "PW-1355796",
   "doc_no": "1355796",
   "type": "ORD",
