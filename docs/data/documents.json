@@ -7779,6 +7779,81 @@
   "notes": "Taupo Nos 11 and 13 are small consolidation-scheme sections near Taupo 23C (Whangaroa); not separately in the 2017 layer. The \"Arama\" here is the Arama Amato (Moihi) family — no link to Arama Taniora shown."
  },
  {
+  "document_id": "PW-1682179",
+  "doc_no": "1682179",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Taupo",
+  "title": "Auckland minute book 12 AT 232 — sitting of 1 July 1981: Rirena Rihari Matiu (Mrs Arama), succession held up pending her will (item 62); Wiremu Arama Taniora dec'd, Erihapeti Arama sworn as applicant and daughter (item 72, continues on 233)",
+  "blocks_recorded": [
+   "(minute book page — Wiremu Arama Taniora and Rirena Rihari Matiu successions; the 1 Jul 1981 order covered Taupo 23C, Tauaki, Mangaiti 3B, Waihapa 2B4B and Otangaroa 1C3B1)"
+  ],
+  "block_ids": [
+   "28869",
+   "30487",
+   "32923",
+   "29484",
+   "31124"
+  ],
+  "record_date": "1981-07-01",
+  "effective_date": "",
+  "court": "Māori Land Court, Tai Tokerau (sitting at Auckland)",
+  "judge": "",
+  "minute_book": "12 AT 232",
+  "pages": 1,
+  "page_range": "233",
+  "file_name": "01076095_01682179_0233_0233_MIN_Document-1682179.pdf",
+  "drive_id": "",
+  "file_size": "139261",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "One handwritten page, folio 232 of Auckland minute book 12 (Pātaka Whenua page 233 of book scan 01076095), headed 'Auckland … 1.7.81'. Three items. (a) Tail of an earlier application about a lease fixture: 'with the consent of the lessee, the Maori Land Board, the Commissioner of Crown Lands. Court: Discussed matter with parties. The application is adjourned to a fixture to be arranged by the applicant or his solicitor after consultation with the Board, Mr [Moanan?] or his solicitor and the Court Registrar. Adjourned in interim to next Whangarei [sitting] but may be later adjourned if negotiations still proceeding.' Copies to the Maori Land Board, Mr [Moanan?] and Mr [Rahiti?] of [Pegg Bros?] — not whānau business. (b) Item 62, '3 copies 1.7.81': 'RIRENA RIHARI MATIU (Mrs ARAMA) (S 78A/67). Court: I refer to AT 11/300-301. Acting Registrar is to write to Malcolm Douglas, Solicitor, Manurewa and request him to forward original will to Court so that succession can be completed. File to be referred to Court for order when will received.' — i.e. Rirena (T901, d. 1980) left a will held by a Manurewa solicitor, and her succession (made 20 Oct 1981, AT 12/360) waited on it. (c) Item 72, '3 copies 1.7.81': 'WIREMU ARAMA TANIORA Dec'd (S 135). Erihapeti Arama sworn: I am the applicant. The deceased was my father. Died at Pawarenga on the 4th June 1966. I was' — the evidence continues on folio 233 (not in this file). This is the minute behind the 1 Jul 1981 sole succession of 'Betty or Erihapeti Arama or Hori' to Wiremu Arama's interests (order 136/53) in Taupo 23C, Tauaki, Mangaiti 3B, Waihapa 2B4B and Otangaroa 1C3B1.",
+  "names": [
+   {
+    "name": "Rirena Rihari Matiu (Mrs Arama)",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "item 62; succession application under s 78A (Maori Affairs Amendment Act 1967); earlier minute AT 11/300-301; original will held by Malcolm Douglas, solicitor, Manurewa"
+   },
+   {
+    "name": "Malcolm Douglas, Solicitor, Manurewa",
+    "role": "Other",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "item 62; holder of Rirena's original will"
+   },
+   {
+    "name": "Wiremu Arama Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "item 72; '(S 135)'; died at Pawarenga 4 June 1966 per his daughter's sworn evidence; order recorded on the block schedules as 136/53"
+   },
+   {
+    "name": "Erihapeti Arama",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "item 72; sworn: 'I am the applicant. The deceased was my father. Died at Pawarenga on the 4th June 1966. I was …' (continues 12 AT 233)"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (136 KB); not yet in Drive — belongs with the Taupo 23C / Tauaki succession records. The next page of the book scan (Pātaka Whenua page 234 = folio 233) carries the rest of Erihapeti Arama's evidence — siblings, her own particulars, and the Court's order — and is the key page for D016; the earlier Rirena minute AT 11/300-301 is also worth pulling."
+ },
+ {
   "document_id": "PW-3844962",
   "doc_no": "3844962",
   "type": "MIN",

@@ -128,7 +128,7 @@ in `drive_manifest.json` are added. Files over about 6 MB cannot be fetched thro
 `attached` in the manifest and indexed without a link; drop the same file into Drive later and the next
 scan links it (the record is matched by its Pātaka Whenua document number). Records that name people with no link yet to a tupuna are
 kept unattributed and the possible links are logged in `discrepancies.json` (D007–D016). The six
-Tutukau East Z files (Waiariki, Oct 2026) are attached-only: a `Tutukau East` sub-folder is reserved in the
+Tutukau East Z files (Waiariki, Oct 2026) and the 12 AT 232 minute page (doc 1682179, filed under Taupo) are attached-only: a `Tutukau East` sub-folder is reserved in the
 manifest with no Drive id — create it, drop the six PDFs in, and the next scan links them.
 
 ## Saving to the repo from the map (person record)
