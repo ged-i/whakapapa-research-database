@@ -1527,6 +1527,50 @@
   "notes": "Attached to the chat 10 Oct 2026 (85 KB); not yet in Drive — filed with Rotokakahi (Rirena's principal whānau land) and linked to Paihia 1D1E2 and Owhata C. Folio 301 (the rest of the Court's direction) and the orders of 20 Oct 1981 (12 AT 360) are still to be pulled. The 1980 addresses of the family are deliberately left out of this public record."
  },
  {
+  "document_id": "PW-1688320",
+  "doc_no": "1688320",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Rotokakahi",
+  "title": "Auckland minute book 11 AT 301 — 17 November 1980: end of the Rirena Arama item ('…a possible arrangement. Application is adjourned for will to be produced and a submission to be prepared for Judge in Chambers'), then unrelated items",
+  "blocks_recorded": [
+   "(minute book page — end of the Rirena Arama item of 17 Nov 1980; two unrelated items follow)"
+  ],
+  "block_ids": [
+   "30211",
+   "30779",
+   "30124",
+   "30723"
+  ],
+  "record_date": "1980-11-17",
+  "effective_date": "",
+  "court": "Māori Land Court, Tai Tokerau (sitting at Auckland)",
+  "judge": "",
+  "minute_book": "11 AT 301",
+  "pages": 1,
+  "page_range": "301",
+  "file_name": "01076422_01688320_0301_0301_MIN_Document-1688320.pdf",
+  "drive_id": "",
+  "file_size": "112732",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Folio 301 of Auckland minute book 11 (book scan 01076422), 17.11.80. The Rirena Arama item carried over from folio 300 ends: '… a possible arrangement. Application is adjourned for will to be produced and a submission to be prepared for Judge in Chambers.' A later note adds 'to folio 353'. The rest of the page is other families' business: item 4, Kareponia 1B2D2 (s 213) — Mrs Marsden applicant, Mrs Sukmitzky(?) in support; a lawyer, Mr R. D. McQuinlan(?) of Shortland St, Auckland, was paid $10 to lodge an application and had not done so; the Registrar to write to him; the estate apparently administered by a grant of letters of administration over some European land; adjourned to next Auckland sitting. Item 53, Ngahuia Nani Paraha (Mrs) (s 78A) — Mr [Bruce] Penney: 'My wife died on the 26th October 1979 at Middlemore Hospital, Auckland. I was present at her funeral. She left no will. No assets requiring grant of administration. She left the following children …' (continues).",
+  "names": [
+   {
+    "name": "Rirena Arama",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "item 60 concluded: family to discuss a possible arrangement with the titles officer; application adjourned for the will and a submission for a Judge in Chambers; 'to folio 353'"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (113 KB); not yet in Drive — filed with Rotokakahi. The Kareponia and Paraha items are not whānau business and are summarised only."
+ },
+ {
   "document_id": "PW-1688372",
   "doc_no": "1688372",
   "type": "MIN",
@@ -1548,7 +1592,7 @@
   "judge": "",
   "minute_book": "11 AT 353",
   "pages": 1,
-  "page_range": "353",
+  "page_range": "353–353",
   "file_name": "01076422_01688372_0353_0353_MIN_Document-1688372.pdf",
   "drive_id": "",
   "file_size": "115621",
@@ -1569,6 +1613,160 @@
    }
   ],
   "notes": "Attached to the chat 10 Oct 2026 (113 KB); not yet in Drive — filed with Rotokakahi. Folio 354 (the provisional orders) and 11 AT 301 are still to be pulled; the Panguru/Wharau item at the top is not whānau business and is summarised only."
+ },
+ {
+  "document_id": "PW-1688373",
+  "doc_no": "1688373",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Rotokakahi",
+  "title": "Auckland minute book 11 AT 354 — 20 November 1980: the whānau arrangement on Rirena Arama's estate — Erihapeti (Betty) to take nothing from her mother and her father's land interests solely; s 78A orders to the other eight",
+  "blocks_recorded": [
+   "Rotokakahi A3B1B1B",
+   "Owhata C",
+   "Te Puna-o-Hokianga",
+   "Paihia 1D1E1",
+   "Paihia 1M5",
+   "Paihia 1D1E2",
+   "Paihia 1D1L",
+   "Paihia 1D1M"
+  ],
+  "block_ids": [
+   "30211",
+   "30779",
+   "30124",
+   "30720",
+   "30723",
+   "30730",
+   "30733"
+  ],
+  "record_date": "1980-11-20",
+  "effective_date": "",
+  "court": "Māori Land Court, Tai Tokerau (sitting at Auckland)",
+  "judge": "",
+  "minute_book": "11 AT 354",
+  "pages": 1,
+  "page_range": "354",
+  "file_name": "01076422_01688373_0354_0354_MIN_Document-1688373.pdf",
+  "drive_id": "",
+  "file_size": "83369",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Folio 354 of Auckland minute book 11 (book scan 01076422), 20.11.80, continuing item 60 from folio 353. Verbatim: 'There were 8 of the 9 children entitled under the will present in Court and these children met with Mr Naera, Titles Officer, to discuss an arrangement. They were unanimous and it was decided that Erihapeti — No 2 on folio 300 — would not take any interest from her mother but she would take her father's land interests solely when succession was put through. Accordingly the Court determines that persons entitled are Nos 1–9 on folio 300. Orders Section 78A as follows: Rotokakahi A3B1B1B $680, Owhata C $376, Te Puna-o-Hokianga $34 — to Nos 1, 3–9 inclusive a 1/8th share each; Paihia 1D1E1 $14, Paihia 1M5 $7 — to No 3 solely; Paihia 1D1E2 $79 — Nos 1, 8, 9 & 4 a 1/4th share equally; Paihia 1D1L $25, Paihia 1D1M $39 — Nos 5, 6, 7 a 1/3rd share equally. The Deputy Registrar will please forward a copy of these minutes to applicant.' (Nos refer to the list on folio 300: 1 Lucy Nicholas, 2 Betty/Erihapeti Hori, 3 Michael Arama, 4 Makura Arama, 5 Graham Arama, 6 Andrew Arama, 7 Ken Arama, 8 Hannah Wano, 9 Charlie Arama.) These are the provisional orders later sealed as AT 12/360 (20 Oct 1981, 'in terms of will', doc 1355796) after the original will was produced; the other half of the arrangement is the s 136 order of 1 Jul 1981 vesting Wiremu Arama's interests in Betty solely (doc 1355755).",
+  "names": [
+   {
+    "name": "Rirena Arama",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "nine children 'entitled under the will'; orders under s 78A by unanimous family arrangement"
+   },
+   {
+    "name": "Erihapeti (Betty) Arama or Hori",
+    "role": "Other",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "nil (by arrangement)",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "'No 2 on folio 300 would not take any interest from her mother but she would take her father's land interests solely when succession was put through'"
+   },
+   {
+    "name": "Mr Naera, Titles Officer",
+    "role": "Other",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Court titles officer who met the family to settle the arrangement"
+   },
+   {
+    "name": "Lucy Nicholas",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1/8; and 1/4 of Paihia 1D1E2",
+    "tupuna_id": "T064",
+    "confidence": "stated",
+    "note": "No 1"
+   },
+   {
+    "name": "Michael Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and Paihia 1D1E1 & 1M5 solely",
+    "tupuna_id": "T143",
+    "confidence": "stated",
+    "note": "No 3"
+   },
+   {
+    "name": "Makura Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and 1/4 of Paihia 1D1E2",
+    "tupuna_id": "T065",
+    "confidence": "stated",
+    "note": "No 4"
+   },
+   {
+    "name": "Graham Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and 1/3 of Paihia 1D1L & 1D1M",
+    "tupuna_id": "T144",
+    "confidence": "stated",
+    "note": "No 5"
+   },
+   {
+    "name": "Andrew Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and 1/3 of Paihia 1D1L & 1D1M",
+    "tupuna_id": "T145",
+    "confidence": "stated",
+    "note": "No 6"
+   },
+   {
+    "name": "Ken Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and 1/3 of Paihia 1D1L & 1D1M",
+    "tupuna_id": "T146",
+    "confidence": "stated",
+    "note": "No 7"
+   },
+   {
+    "name": "Hannah Wano",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "1/8; and 1/4 of Paihia 1D1E2",
+    "tupuna_id": "T066",
+    "confidence": "stated",
+    "note": "No 8"
+   },
+   {
+    "name": "Charlie Arama",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "1/8; and 1/4 of Paihia 1D1E2",
+    "tupuna_id": "T067",
+    "confidence": "stated",
+    "note": "No 9"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (83 KB); not yet in Drive — filed with Rotokakahi. This page is the Court's own record that the 1981 Arama successions were a unanimous whānau arrangement; it closes the 'potential false succession' question on Betty Hori (T005). Paihia 1M5 is not in the 2017 block index."
  },
  {
   "document_id": "PW-1355796",
@@ -9004,6 +9202,130 @@
    }
   ],
   "notes": "The six Arama Taniora owners at 0.6960 are one sibling set — presumably the children of Wiremu Arama and Rirena (Betty Hori's siblings), several under names not seen in the Paihia 1D1E2 succession of 1981 (Lucy Nicholas, Makura Albert Cassidy Arama, Hannah Wano, Charlie Arama) — to be reconciled. Rihari Taniora Rihari's 4.5710 is the largest whānau holding."
+ },
+ {
+  "document_id": "PW-1355385",
+  "doc_no": "1355385",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Taupo",
+  "title": "Order for payment of money held in trust (Maori Affairs Act 1953, s 32) — Māori Trustee to pay all moneys held for Wiremu Arama or Wiremu Arama Taniora to Betty or Erihapeti Arama or Hori; Auckland, 1 Jul 1981, Judge McHugh (AT 12/232-3)",
+  "blocks_recorded": [
+   "(money held by the Māori Trustee in trust for Wiremu Arama — no block named; account B C 5561)"
+  ],
+  "block_ids": [
+   "30487",
+   "32923",
+   "31124",
+   "28869",
+   "29484"
+  ],
+  "record_date": "1981-07-01",
+  "effective_date": "",
+  "court": "Māori Land Court, Tokerau District (sitting at Auckland)",
+  "judge": "Ashley George McHugh",
+  "minute_book": "AT 12/232-3",
+  "pages": 1,
+  "page_range": "1",
+  "file_name": "00855815_01355385_0001_0001_ORD_Document-1355385.pdf",
+  "drive_id": "",
+  "file_size": "204056",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.L.C. 31 'Order for Payment of Money Held in Trust — The Maori Affairs Act 1953, Section 32', Tokerau District, in the matter of money held by the Maori Trustee in trust for WIREMU ARAMA or WIREMU ARAMA TANIORA. At a sitting at Auckland on 1 July 1981 before Ashley George McHugh Esq., Judge: it is ordered that the Maori Trustee do pay to Betty or Erihapeti Arama or Hori [address at Mauku, R.D. 3, Pukekohe] the sum of all moneys from money held by the said Maori Trustee in trust for Wiremu Arama or Wiremu Arama Taniora, such money being held at credit on B C 5561. Sealed; Deputy Registrar. A second minute reference, partly cut off at the top of the page, reads AT 12/25[4?]. Companion to the s 136 vesting order of the same day (doc 1355755): Betty received her father's accumulated rents and other moneys as well as his land interests.",
+  "names": [
+   {
+    "name": "Wiremu Arama or Wiremu Arama Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "moneys held in trust by the Māori Trustee, account B C 5561"
+   },
+   {
+    "name": "Betty or Erihapeti Arama or Hori",
+    "role": "Purchaser / transferee",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "all moneys",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "payee; address recorded (Mauku, Pukekohe) — not reproduced"
+   },
+   {
+    "name": "The Maori Trustee",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "ordered to pay out account B C 5561"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (199 KB); not yet in Drive — filed with Taupo alongside the Wiremu Arama succession records."
+ },
+ {
+  "document_id": "PW-1355755",
+  "doc_no": "1355755",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Taupo",
+  "title": "Order vesting the interests of Wiremu Arama or Wiremu Arama Taniora, deceased, in Betty or Erihapeti Arama or Hori solely — succession on intestacy, s 136 Maori Affairs Act 1953; Auckland, 1 Jul 1981, Judge McHugh (AT 12/232-3; also marked AT 12/263)",
+  "blocks_recorded": [
+   "Tauaki",
+   "Mangaiti 3B",
+   "Otangaroa 1C3B1",
+   "Taupo 23C",
+   "Waihapa 2B4B"
+  ],
+  "block_ids": [
+   "30487",
+   "32923",
+   "31124",
+   "28869",
+   "29484"
+  ],
+  "record_date": "1981-07-01",
+  "effective_date": "1966-06-04",
+  "court": "Māori Land Court, Tokerau District (sitting at Auckland)",
+  "judge": "Ashley George McHugh",
+  "minute_book": "AT 12/232-3 (and AT 12/263 typed above)",
+  "pages": 1,
+  "page_range": "1",
+  "file_name": "00856185_01355755_0001_0001_ORD_Document-1355755.pdf",
+  "drive_id": "",
+  "file_size": "262034",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.L.C. 88 'Order Vesting Interest of Deceased in Successors' (Maori Affairs Act 1953, Section 136 — the 1955 and 1967 Act headings struck), Tokerau District, in the matter of an application to succeed to WIREMU ARAMA or WIREMU ARAMA TANIORA, deceased. At a sitting at Auckland on 1 July 1981 before Ashley George McHugh Esq., Judge: the interests of the deceased in the scheduled lands vested in the person shown as from the 4th day of June 1966 (his death). Minute-book references typed at the head: 'AT12/263' and 'AT12/232-3'. SCHEDULE — 'SUCCESSION ON INTESTACY': Tauaki (value N/V), Mangaiti 3B ($45), Otangaroa 1C3B1 ($50), Taupo 23C ($106), Waihapa 2B4B ($125) — 1. Betty or Erihapeti Arama or Hori [Mauku, R.D. 3, Pukekohe], fa — SOLELY. Entered 4/3/82(?), checked 2/8/82(?); sealed, Deputy Registrar. This is the order recorded as 136/53 on the Tauaki and Taupo 23C schedules, and it gives effect to the whānau arrangement minuted on 20 Nov 1980 (11 AT 354): Betty took her father's lands solely and nothing from her mother.",
+  "names": [
+   {
+    "name": "Wiremu Arama or Wiremu Arama Taniora",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T001",
+    "confidence": "stated",
+    "note": "died 4 June 1966; intestate; interests in five blocks valued at $326 plus Tauaki (no value)"
+   },
+   {
+    "name": "Betty or Erihapeti Arama or Hori",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "sole successor by the whānau arrangement of 20 Nov 1980; address recorded (Mauku, Pukekohe) — not reproduced"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (256 KB); not yet in Drive — filed with Taupo. Primary source for the 1 Jul 1981 succession previously known only from the block schedules (docs 1268972, 1282697)."
  },
  {
   "document_id": "PW-1475956",
