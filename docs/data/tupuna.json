@@ -1811,6 +1811,38 @@
     "document_url": "https://drive.google.com/file/d/1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9/view",
     "document_id": "PW-1527268",
     "note": ""
+   },
+   {
+    "event_id": "E006",
+    "type": "Death",
+    "date": "1960-03-18",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died 18 March 1960 — date as found by the Court on 8 Oct 2026 from the death certificate",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   },
+   {
+    "event_id": "E007",
+    "type": "Succession order",
+    "date": "2026-10-08",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Found entitled to 1/3 of her father Wiremu Tangata's interests in Pokaka B2B and Te Pupuke Church Site & Tapu; her own estate to be succeeded to by a separate application (Pānui 28)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
    }
   ]
  },
@@ -2260,6 +2292,38 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1x-cR9-3XJOMkgcvX_rJPwdX3FN_lceLh/view",
     "document_id": "PW-1498426",
+    "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Death",
+    "date": "1927-02-13",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died at Ōmaunu on 13 February 1927 — per the death certificate filed with the 2026 succession application (the 1949 Te Pupuke J schedule had recorded 31 Dec 1925)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   },
+   {
+    "event_id": "E005",
+    "type": "Succession order",
+    "date": "2026-10-08",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succession determined at Auckland (ss 113, 118): Pokaka B2B and Te Pupuke Church Site & Tapu — 1/3 Ani Wiremu Tangata, 1/3 Erihapeti (Peti) Arama, 1/6 each Toetoe and Mereana Whitinui (Pānui 28, Judge Williams)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
     "note": ""
    }
   ]
@@ -10440,7 +10504,40 @@
   "notes": "Daughter of Wiremu Tangata (inferred: 1/3 successor alongside Peti Wiremu Tangata, 20 July 1949, Te Pupuke J). Sister of Erihapeti (Peti) Arama. Cf. \"Ani\" appearing with \"Wiremu Tana\" and \"Paora\" names in the Pokaka records (whānau note on Wiremu Tangata).",
   "source": "Māori Land Court records (Pātaka Whenua) — Te Pupuke J succession order schedule (doc 1498426)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1927-03-15",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died 15 March 1927 — as found by the Court on 8 Oct 2026",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Succession order",
+    "date": "2026-10-08",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Found entitled to 1/3 of Wiremu Tangata's interests in Pokaka B2B and Te Pupuke Church Site & Tapu (Pānui 28)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   }
+  ],
   "links": [
    {
     "link_id": "L327",
@@ -10473,7 +10570,24 @@
   "notes": "Grandchild of Wiremu Tangata (inferred): took 1/6 of his Te Pupuke J interest in 1949 with Mereana Whitinui — the share of a deceased child of Wiremu Tangata who had married a Whitinui. Note the Toetoe name among the 1895 Pokaka owners (Hau, Meti, Retete, Wairua Toetoe).",
   "source": "Māori Land Court records (Pātaka Whenua) — Te Pupuke J succession order schedule (doc 1498426)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "2026-10-08",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Found entitled to 1/6 of Wiremu Tangata's interests in Pokaka B2B and Te Pupuke Church Site & Tapu, as child of Mate Wiremu Tangata (Pānui 28)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   }
+  ],
   "links": [
    {
     "link_id": "L328",
@@ -10506,7 +10620,24 @@
   "notes": "Grandchild of Wiremu Tangata (inferred): 1/6 of his Te Pupuke J interest, 1949, with Toetoe Whitinui.",
   "source": "Māori Land Court records (Pātaka Whenua) — Te Pupuke J succession order schedule (doc 1498426)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "2026-10-08",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Found entitled to 1/6 of Wiremu Tangata's interests in Pokaka B2B and Te Pupuke Church Site & Tapu, as child of Mate Wiremu Tangata (Pānui 28)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "MLC-DS-29057",
+    "note": ""
+   }
+  ],
   "links": [
    {
     "link_id": "L329",

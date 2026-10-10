@@ -1548,7 +1548,7 @@
   "judge": "",
   "minute_book": "11 AT 301",
   "pages": 1,
-  "page_range": "301",
+  "page_range": "301–301",
   "file_name": "01076422_01688320_0301_0301_MIN_Document-1688320.pdf",
   "drive_id": "",
   "file_size": "112732",
@@ -1646,7 +1646,7 @@
   "judge": "",
   "minute_book": "11 AT 354",
   "pages": 1,
-  "page_range": "354",
+  "page_range": "354–354",
   "file_name": "01076422_01688373_0354_0354_MIN_Document-1688373.pdf",
   "drive_id": "",
   "file_size": "83369",
@@ -9326,6 +9326,99 @@
    }
   ],
   "notes": "Attached to the chat 10 Oct 2026 (256 KB); not yet in Drive — filed with Taupo. Primary source for the 1 Jul 1981 succession previously known only from the block schedules (docs 1268972, 1282697)."
+ },
+ {
+  "document_id": "MLC-DS-29057",
+  "doc_no": "DS-29057",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Pokaka",
+  "title": "Pānui 28 — succession to Wiremu Tangata (aka Wiremu Tangiwhare, Wiremu Tana): minute and orders of 8 October 2026, Auckland, Judge T K T A R Williams (AP-20250000007054)",
+  "blocks_recorded": [
+   "Pokaka B2B",
+   "Te Pupuke Church Site & Tapu"
+  ],
+  "block_ids": [
+   "30171",
+   "30658"
+  ],
+  "record_date": "2026-10-08",
+  "effective_date": "1927-02-13",
+  "court": "Māori Land Court, Te Tai Tokerau (sitting at Auckland)",
+  "judge": "T K T A R Williams",
+  "minute_book": "Pānui 28 (DS-29057)",
+  "pages": 3,
+  "page_range": "1-3",
+  "file_name": "Panui_28_-_DS-29057.pdf",
+  "drive_id": "",
+  "file_size": "",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Court minute (pānui) of the hearing at Auckland on 8 October 2026 before Judge T K T A R Williams (T Hepi, clerk; B Ward, registrar; M Rapana, court assistant) on an application under ss 113 and 118 of Te Ture Whenua Māori Act 1993 to succeed to the Māori land interests of Wiremu Tangata, also known as Wiremu Tangiwhare and Wiremu Tana. Facts found: died 13 February 1927 at Ōmaunu (death certificate); born c. 1861; child of Ani Tangiwhare and Tangiwhare; no will and no assets requiring a grant of administration; no partner at death; three children — Mate Wiremu Tangata (f, other parent Tura Wiremu Tangata; predeceased, leaving Toetoe Whitinui m and Mereana Whitinui f), Ani Wiremu Tangata (f, d. 15 March 1927) and Erihapeti also known as Betty Arama or Adams or Peti Wiremu Tangata (f, d. 18 March 1960). Interests: Pokaka B2B (LINZ 504121, current owner 'Wiremu Tangiwhare', 1 share) and Te Pupuke Church Site & Tapu (LINZ 509887, 'Wiremu Tangata', 1 share). Orders: s 113 — persons entitled 1/3 Ani Wiremu Tangata, 1/3 Erihapeti aka Betty Arama aka Adams, 1/6 each Toetoe Whitinui and Mereana Whitinui; s 118 — interests vested accordingly; order to be completed without delay under r 7.5(2)(b) of the Māori Land Court Rules 2011; copy of the minute to all parties. The Court noted that Ani and Erihapeti died after Wiremu Tangata and that separate succession applications are required for their estates, fee waived if filed within 12 months. The division matches the Te Pupuke J succession of 20 July 1949 (N 27/397). Date-of-death note: the 1949 schedule recorded 31 Dec 1925; the death certificate filed in 2025 gives 13 Feb 1927.",
+  "names": [
+   {
+    "name": "Wiremu Tangata, also known as Wiremu Tangiwhare and Wiremu Tana",
+    "role": "Deceased",
+    "sex": "m.",
+    "age": "",
+    "shares": "1 share in each block",
+    "tupuna_id": "T006",
+    "confidence": "stated",
+    "note": "d. 13 Feb 1927 at Ōmaunu per death certificate; b. c. 1861; child of Ani Tangiwhare and Tangiwhare"
+   },
+   {
+    "name": "Ani Wiremu Tangata",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T085",
+    "confidence": "stated",
+    "note": "d. 15 March 1927; her estate requires a separate succession application"
+   },
+   {
+    "name": "Erihapeti also known as Betty Arama or Adams or Peti Wiremu Tangata",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "T004",
+    "confidence": "stated",
+    "note": "d. 18 March 1960; her estate requires a separate succession application (fee waived within 12 months)"
+   },
+   {
+    "name": "Mate Wiremu Tangata",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "predeceased her father; other parent Tura Wiremu Tangata; her share to her two children"
+   },
+   {
+    "name": "Toetoe Whitinui",
+    "role": "Successor",
+    "sex": "m.",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "T086",
+    "confidence": "stated",
+    "note": "child of Mate Wiremu Tangata"
+   },
+   {
+    "name": "Mereana Whitinui",
+    "role": "Successor",
+    "sex": "f.",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "T087",
+    "confidence": "stated",
+    "note": "child of Mate Wiremu Tangata"
+   }
+  ],
+  "notes": "Court pānui supplied by the whānau 10 Oct 2026 (not a Pātaka Whenua export; no document number). The applicant and the supporting certificates filed are living-person details and are deliberately not recorded here. The follow-on succession to Erihapeti (Peti) Arama is where the 1980–81 arrangement on Wiremu Arama's interests (docs 1688373, 1355755) will need to be put to the Court — see the post-hearing memorandum prepared 10 Oct 2026."
  },
  {
   "document_id": "PW-1475956",
