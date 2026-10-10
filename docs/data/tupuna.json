@@ -610,6 +610,38 @@
     "document_url": "",
     "document_id": "PW-1682179",
     "note": ""
+   },
+   {
+    "event_id": "E012",
+    "type": "Death",
+    "date": "1980-04-26",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died 26 April 1980 (place written as Pa[wa]renga in the minute; the whānau record says Whangārei Hospital) — sworn by her daughter Erihapeti (Betty) Arama, 17 Nov 1980 (11 AT 300)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "PW-1688319",
+    "note": ""
+   },
+   {
+    "event_id": "E013",
+    "type": "Other",
+    "date": "1980-11-17",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succession application (s 78A) heard at Auckland: nine children listed as present or absent (Lucy Nicholas, Betty/Erihapeti Hori, Michael, Makura, Graham, Andrew and Ken Arama, Hannah Wano, Charlie Arama); the will not produced, only an unsigned copy — Registrar to obtain it from the solicitor (11 AT 300)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "PW-1688319",
+    "note": ""
    }
   ]
  },
@@ -1812,6 +1844,18 @@
     "relationship": "Father",
     "notes": "False succession.",
     "source": ""
+   },
+   {
+    "link_id": "L574",
+    "tupuna_id": "T005",
+    "location_type": "Tupuna",
+    "location_ref": "T901",
+    "location_detail": "Rirena Theresa Arama",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "Erihapeti Arama 'also known as Betty', sworn 17 Nov 1980: 'My mother died on the 26th April 1980'; listed by the Court as one of Rirena's nine children",
+    "source": "Māori Land Court records (Pātaka Whenua) — 11 AT 300, 17 Nov 1980 (doc 1688319)"
    }
   ],
   "name": "Betty Hori",
@@ -1821,7 +1865,7 @@
   "birthplace": "",
   "mother": "Rirena Arama",
   "father": "Wiremu Arama",
-  "notes": "Potential false successor. On an intestacy (Wiremu Arama died without a will) every surviving child shares equally, so a sole vesting in one daughter means either she was the only survivor or the Court was not told about the others. The timing is suggestive too — fifteen years after the death, and within about a year of Rirena's death in 1980. A namesake 'Erihapeti Hori', f.a., 3.00839 shares in Tutukau East Z (Waiariki; docs 1164488 → 880411, 1972–1990), is one of six equal successors to HORI HORI (18.05035 on the 1957 title) and is NOT attributed to Betty Hori — see D016. On 1 Jul 1981 she was sworn as applicant and said 'The deceased was my father' (12 AT 232, doc 1682179); her full evidence is on folio 233.",
+  "notes": "Potential false successor. On an intestacy (Wiremu Arama died without a will) every surviving child shares equally, so a sole vesting in one daughter means either she was the only survivor or the Court was not told about the others. The timing is suggestive too — fifteen years after the death, and within about a year of Rirena's death in 1980. A namesake 'Erihapeti Hori', f.a., 3.00839 shares in Tutukau East Z (Waiariki; docs 1164488 → 880411, 1972–1990), is one of six equal successors to HORI HORI (18.05035 on the 1957 title) and is NOT attributed to Betty Hori — see D016. On 1 Jul 1981 she was sworn as applicant and said 'The deceased was my father' (12 AT 232, doc 1682179); her full evidence is on folio 233. Court minutes now show the parentage directly: on 17 Nov 1980 she swore Rirena was her mother and was listed as one of nine children (11 AT 300), and on 1 Jul 1981 she swore Wiremu Arama was her father (12 AT 232). The eight siblings were therefore known to the Court when Wiremu's interests were vested in her alone in July 1981 — how that came about (consent, family arrangement, or otherwise) is what folio 12 AT 233 should show; she was in turn left out of the October 1981 orders on Rirena's estate (AT 12/360).",
   "source": "12 AT 232-233",
   "identities": [
    {
@@ -1890,6 +1934,22 @@
     "confidence": "stated",
     "document_url": "",
     "document_id": "PW-1682179",
+    "note": ""
+   },
+   {
+    "event_id": "E003",
+    "type": "Other",
+    "date": "1980-11-17",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Sworn as applicant in her mother Rirena Arama's succession: 'Also known as Betty. My mother died on the 26th April 1980 … I was present at her tangi. She left a will.' Listed second of the nine children (11 AT 300)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "PW-1688319",
     "note": ""
    }
   ]

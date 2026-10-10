@@ -1394,6 +1394,139 @@
   "notes": "Companion to the handwritten schedule doc 1491567."
  },
  {
+  "document_id": "PW-1688319",
+  "doc_no": "1688319",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Rotokakahi",
+  "title": "Auckland minute book 11 AT 300 — sitting of 17 November 1980: Rirena Arama (s 78A) — Erihapeti Arama 'also known as Betty' sworn as applicant and daughter; nine children listed; will not produced (item 60, continues on 301)",
+  "blocks_recorded": [
+   "(minute book page — Rirena Arama's estate; her interests were in Rotokakahi A3B1B1B, Paihia 1D1E2, Owhata C and the Peri Paraihe blocks)"
+  ],
+  "block_ids": [
+   "30211",
+   "30723",
+   "30779"
+  ],
+  "record_date": "1980-11-17",
+  "effective_date": "",
+  "court": "Māori Land Court, Tai Tokerau (sitting at Auckland)",
+  "judge": "",
+  "minute_book": "11 AT 300",
+  "pages": 1,
+  "page_range": "300",
+  "file_name": "01076422_01688319_0300_0300_MIN_Document-1688319.pdf",
+  "drive_id": "",
+  "file_size": "87347",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "One handwritten page, folio 300 of Auckland minute book 11 (book scan 01076422), margin date 17.11.80. (a) Tail of an earlier, unrelated item: '… and transfer to person entitled. Please return probate to Mrs Thorne(?) with form. Fee on application is remitted and to be applied to Registrar's application for vesting.' (b) Item 60: 'RIRENA ARAMA (S. 78A). Erihapeti Arama: Applicant. Sworn: Also known as Betty. My mother died on the 26th April 1980 at Pa[wa]renga. I was present at her tangi. She left a will. Court: Who are present in Court. Present: 1. Lucy Nicholas f.a. [Māngere]; 2. Betty or Erihapeti Hori f.a. [c/- Mauku, R.D. 3 Pukekohe]; 3. [a first name struck through, \"Michael\" written above] Michael Arama m.a. c/- No 1 above; 4. Makura Arama m.a. [Manurewa]; 5. Graham Arama m.a. [Māngere]; 6. Andrew Arama m.a. c/- No 4; 7. Ken Arama m.a. [Papakura]; 8. Hannah Wano f.a. c/- P.O. Ōpononi [margin: Absent]; 9. Charlie Arama m.a. c/- No 1. Court: The will has not been produced, only an unsigned copy. The solicitor has will. Registrar to write and ask for its production. Family are to discuss with Mr Noa[—]' — the sentence runs on to folio 301. Street addresses are in the minute but are not reproduced here. Significance: Betty/Erihapeti Hori swears that Rirena was her mother, and the Court lists her as one of nine children present or accounted for — the same sibling set that took Rirena's Paihia, Rotokakahi and Owhata interests on 20 Oct 1981 (AT 12/360), minus Betty. The will was still outstanding on 1 Jul 1981 (12 AT 232, item 62: solicitor Malcolm Douglas, Manurewa).",
+  "names": [
+   {
+    "name": "Rirena Arama",
+    "role": "Deceased",
+    "sex": "f.",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "item 60 (s 78A application); died 26 April 1980 'at Pa[wa]renga' per her daughter's evidence (whānau record: Whangārei Hospital, 1980); left a will, held by her solicitor"
+   },
+   {
+    "name": "Erihapeti Arama, also known as Betty (Betty or Erihapeti Hori)",
+    "role": "Other",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T005",
+    "confidence": "stated",
+    "note": "applicant, sworn: 'My mother died on the 26th April 1980 … I was present at her tangi. She left a will.' Listed as no. 2 of the children present"
+   },
+   {
+    "name": "Lucy Nicholas",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T064",
+    "confidence": "stated",
+    "note": "no. 1 present; child of the deceased"
+   },
+   {
+    "name": "Michael Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T143",
+    "confidence": "stated",
+    "note": "no. 3 present (another first name struck, 'Michael' interlined); child of the deceased"
+   },
+   {
+    "name": "Makura Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T065",
+    "confidence": "stated",
+    "note": "no. 4 present; child of the deceased"
+   },
+   {
+    "name": "Graham Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T144",
+    "confidence": "stated",
+    "note": "no. 5 present; child of the deceased"
+   },
+   {
+    "name": "Andrew Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T145",
+    "confidence": "stated",
+    "note": "no. 6 present; child of the deceased"
+   },
+   {
+    "name": "Ken Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T146",
+    "confidence": "stated",
+    "note": "no. 7 present; child of the deceased"
+   },
+   {
+    "name": "Hannah Wano",
+    "role": "Mentioned",
+    "sex": "f.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T066",
+    "confidence": "stated",
+    "note": "no. 8, marked 'Absent'; child of the deceased"
+   },
+   {
+    "name": "Charlie Arama",
+    "role": "Mentioned",
+    "sex": "m.",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "T067",
+    "confidence": "stated",
+    "note": "no. 9 present; child of the deceased"
+   }
+  ],
+  "notes": "Attached to the chat 10 Oct 2026 (85 KB); not yet in Drive — filed with Rotokakahi (Rirena's principal whānau land) and linked to Paihia 1D1E2 and Owhata C. Folio 301 (the rest of the Court's direction) and the orders of 20 Oct 1981 (12 AT 360) are still to be pulled. The 1980 addresses of the family are deliberately left out of this public record."
+ },
+ {
   "document_id": "PW-1509327",
   "doc_no": "1509327",
   "type": "ORD",
@@ -7801,7 +7934,7 @@
   "judge": "",
   "minute_book": "12 AT 232",
   "pages": 1,
-  "page_range": "233",
+  "page_range": "233–233",
   "file_name": "01076095_01682179_0233_0233_MIN_Document-1682179.pdf",
   "drive_id": "",
   "file_size": "139261",
