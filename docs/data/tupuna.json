@@ -954,6 +954,22 @@
     "document_url": "",
     "document_id": "PW-1355385",
     "note": ""
+   },
+   {
+    "event_id": "E007",
+    "type": "Succession order",
+    "date": "1932-02-29",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succeeded (as 'Wiremu [Arama Taniora]') to 1/56 of his grandfather Taniora Rihari's Kaingapipiwai 2 North A interest — an interest NOT included in the 1981 order vesting his estate in Betty (D019)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1MS-FKlyYqK5D8NAtk26wuM3jMo6QwZig/view",
+    "document_id": "PW-1306329",
+    "note": ""
    }
   ],
   "identities": [
@@ -1543,6 +1559,22 @@
     "document_url": "https://drive.google.com/file/d/1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9/view",
     "document_id": "PW-1527268",
     "note": ""
+   },
+   {
+    "event_id": "E005",
+    "type": "Succession order",
+    "date": "1932-02-29",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "His Kaingapipiwai 2 North A interest (N66A/99) divided among the same 29 successors as Taupo 23C, the same day",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1MS-FKlyYqK5D8NAtk26wuM3jMo6QwZig/view",
+    "document_id": "PW-1306329",
+    "note": ""
    }
   ]
  },
@@ -1842,6 +1874,22 @@
     "confidence": "stated",
     "document_url": "",
     "document_id": "MLC-DS-29057",
+    "note": ""
+   },
+   {
+    "event_id": "E008",
+    "type": "Other",
+    "date": "1962-02-26",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Listed as 'Peti Wiremu', .142 of 35.000 shares, on the Kaingapipiwai 1H compiled list of 26 Feb 1962 (two years after her death); the block was later sold to the Crown — attribution inferred",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/18XQRW0wK2Kyzs0dC9LjtNF9JjZI4VWwU/view",
+    "document_id": "PW-1361175",
     "note": ""
    }
   ]
@@ -2518,6 +2566,22 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1o3sIr-ehXR_H9Yvu9Lb3y0OVoOIpmbmb/view",
     "document_id": "PW-1492723",
+    "note": ""
+   },
+   {
+    "event_id": "E005",
+    "type": "Succession order",
+    "date": "1890-02-28",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succeeded (as 'Tura Wiremu') with six others to her father Hare Hongi Hika's interest in Kaingapipiwai No 1",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
     "note": ""
    }
   ]
@@ -3819,6 +3883,22 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1o3sIr-ehXR_H9Yvu9Lb3y0OVoOIpmbmb/view",
     "document_id": "PW-1492723",
+    "note": ""
+   },
+   {
+    "event_id": "E006",
+    "type": "Succession order",
+    "date": "1890-02-28",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "His interest in Kaingapipiwai No 1 succeeded to by Rongo Kahira, Mereana Paora, Tura Wiremu, Rati Poni, Wini Tuta, Poni Rewharewha and Moki Henare — the same sitting as his Waihapa and Otangaroa No 1 successions",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
     "note": ""
    }
   ]
@@ -10680,7 +10760,40 @@
     "note": "Successor on List of owners doc 1492723 — Waihapa"
    }
   ],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1890-02-28",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succeeded (as 'Rongo Kahira') with six others to Hare Hongi Hika's interest in Kaingapipiwai No 1",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Land transfer",
+    "date": "1909-12-06",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Received Mereana Paora's Kaingapipiwai 1A interest by exchange order (as 'Rongokahira Hongi Hika')",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1xS67sj4BjXK9n-IO69zJWRQ0hIaMlf2e/view",
+    "document_id": "PW-1306303",
+    "note": ""
+   }
+  ],
   "links": []
  },
  {
@@ -10720,7 +10833,40 @@
     "note": "Successor on List of owners doc 1492723 — Waihapa"
    }
   ],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1890-02-28",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Succeeded (as 'Mereana Paora') with six others to Hare Hongi Hika's interest in Kaingapipiwai No 1",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Land transfer",
+    "date": "1909-12-06",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Her Kaingapipiwai 1A interest exchanged to Rongokahira Hongi Hika (exchange order 6 Dec 1909)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1xS67sj4BjXK9n-IO69zJWRQ0hIaMlf2e/view",
+    "document_id": "PW-1306303",
+    "note": ""
+   }
+  ],
   "links": []
  },
  {
@@ -13945,7 +14091,7 @@
   "birthplace": "",
   "mother": "Turikatuku",
   "father": "Hongi Hika",
-  "notes": "Daughter of Hongi Hika and Turikatuku; sister of Hāre Hongi Hika (T016) and so aunt of Tura Hāre Hongi (T007), who married Wiremu Tangata — placed in this whakapapa by the whānau (6 Oct 2026). Educated at the Kerikeri mission girls' school; married Hōne Heke at Kerikeri in March 1837 and, after his death (1850), Arama Karaka Pī of Waimā, Hokianga; died 1894 aged about 79 (Tohu Whenua; WikiTree gives 1812–1894). Because she died in 1894 she is NOT the \"Hariata Haimona\" who succeeded on Te Kohanga No. 1 in Sept 1896, nor the \"Hariata Hongi (Mrs Davis)\" declared an owner of Pokaka (group A, beside Tura) in July 1895 — those are namesakes, probably of the next generation (a daughter of Hāre Hongi Hika or of the Otangaroa \"Hare Hongi\" is the obvious candidate for Mrs Davis).",
+  "notes": "Daughter of Hongi Hika and Turikatuku; sister of Hāre Hongi Hika (T016) and so aunt of Tura Hāre Hongi (T007), who married Wiremu Tangata — placed in this whakapapa by the whānau (6 Oct 2026). Educated at the Kerikeri mission girls' school; married Hōne Heke at Kerikeri in March 1837 and, after his death (1850), Arama Karaka Pī of Waimā, Hokianga; died 1894 aged about 79 (Tohu Whenua; WikiTree gives 1812–1894). Because she died in 1894 she is NOT the \"Hariata Haimona\" who succeeded on Te Kohanga No. 1 in Sept 1896, nor the \"Hariata Hongi (Mrs Davis)\" declared an owner of Pokaka (group A, beside Tura) in July 1895 — those are namesakes, probably of the next generation (a daughter of Hāre Hongi Hika or of the Otangaroa \"Hare Hongi\" is the obvious candidate for Mrs Davis). Kaingapipiwai No 1 (doc 1306302): 'Hariata Ngahutaka or Hariata Hongi (7-1-94)' succeeded 25 Oct 1894 by Raiha Reweti and Tame Reweti — attributed to her as inferred; see D018.",
   "source": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
   "identities": [
    {
@@ -14040,6 +14186,38 @@
     "document_url": "https://tohuwhenua.nz/news-stories-travel-tips/our-stories/rongo-hongi-a-remarkable-wahine-toa-of-the-1800",
     "document_id": "",
     "note": "Rules her out as the 1895 Pokaka owner \"Hariata Hongi (Mrs Davis)\" and the 1896 Te Kohanga successor \"Hariata Haimona\""
+   },
+   {
+    "event_id": "E005",
+    "type": "Death",
+    "date": "1894-01-07",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "'(7-1-94)' written under 'Hariata Ngahutaka or Hariata Hongi' on the Kaingapipiwai No 1 succession schedule — read as a date of death; attribution to Hariata Rongo inferred (D018)",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
+    "note": ""
+   },
+   {
+    "event_id": "E006",
+    "type": "Succession order",
+    "date": "1894-10-25",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Her Kaingapipiwai No 1 interest (as 'Hariata Ngahutaka or Hariata Hongi') to Raiha Reweti f.a. and Tame Reweti m.a. equally — if this is Hariata Rongo, the Reweti are her heirs (D018)",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
+    "document_id": "PW-1306302",
+    "note": ""
    }
   ],
   "links": []
