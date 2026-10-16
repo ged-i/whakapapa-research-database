@@ -13983,9 +13983,9 @@
     "sex": "",
     "age": "",
     "shares": "",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "p.1: 2.11.09 → Peti Henare Kingi f; p.2: original owner no. 1 \"Arama Whakapeka (dead) — died 17/5/95\", 18 shares, successor suggested Peti Henare Kingi f"
+    "tupuna_id": "T148",
+    "confidence": "inferred",
+    "note": "p.1: 2.11.09 → Peti Henare Kingi f; p.2: original owner no. 1 'Arama Whakapeka (dead) — died 17/5/95', 18 shares. Identified with Arama Patara alias Arama te Puhi of Waikukupa (doc 1428316), whose estate Peti Henare Kingi also administered and took under his will"
    },
    {
     "name": "Peti Henare Kingi",
@@ -17211,9 +17211,9 @@
     "sex": "F",
     "age": "",
     "shares": ".334",
-    "tupuna_id": "T013",
-    "confidence": "inferred",
-    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015."
+    "tupuna_id": "",
+    "confidence": "contradicted",
+    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015. — identification with Raiha Taniora (T013) withdrawn 17 Oct 2026: Raiha died 24 Mar 1897 (doc 1428316); see D015"
    },
    {
     "name": "Hariata Haimona",
@@ -17241,9 +17241,9 @@
     "sex": "F",
     "age": "",
     "shares": ".334",
-    "tupuna_id": "T013",
-    "confidence": "inferred",
-    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015."
+    "tupuna_id": "",
+    "confidence": "contradicted",
+    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015. — identification with Raiha Taniora (T013) withdrawn 17 Oct 2026: Raiha died 24 Mar 1897 (doc 1428316); see D015"
    },
    {
     "name": "Eruera Paora",
@@ -18546,7 +18546,7 @@
     "note": "compiled list 1963, no. 171"
    }
   ],
-  "notes": "Attached to the chat 6 Oct 2026 (the Drive copy is 11 MB, over the connector limit). Answers D009: the Rihipeti Arama of Te Kohanga No. 1 succeeded in 1896 to HAMIORA (Rungaiterangi), not to a Himiona, and died 17 Dec 1922 — so she is not Erihapeti Arama née Wiremu Tangata (1880–1960). No Himiona, Tangata or Renata appears on Te Kohanga No. 1 at any date. The \"Rihipeti Arama 24.405\" on the 1965 Te Kohanga list is absent from the 1963 Te Kohanga 1 list, so it derives from another parent block of the 1965 title (Te Kohanga 2?), not from No. 1. Pages 1–41 read in full for the whānau questions; the 171-owner 1963 list is entered for nos 1–42 and selected others."
+  "notes": "Attached to the chat 6 Oct 2026 (the Drive copy is 11 MB, over the connector limit). Answers D009: the Rihipeti Arama of Te Kohanga No. 1 succeeded in 1896 to HAMIORA (Rungaiterangi), not to a Himiona, and died 17 Dec 1922 — so she is not Erihapeti Arama née Wiremu Tangata (1880–1960). No Himiona, Tangata or Renata appears on Te Kohanga No. 1 at any date. The \"Rihipeti Arama 24.405\" on the 1965 Te Kohanga list is absent from the 1963 Te Kohanga 1 list, so it derives from another parent block of the 1965 title (Te Kohanga 2?), not from No. 1. Pages 1–41 read in full for the whānau questions; the 171-owner 1963 list is entered for nos 1–42 and selected others. D015 contradicted 17 Oct 2026 — Rihipeti Arama (d. 1922) is not Raiha Taniora (d. 1897)."
  },
  {
   "document_id": "PW-1391494",
@@ -46943,5 +46943,1825 @@
    }
   ],
   "notes": "Fully transcribed. Doc 1314443 is a second scan of the same four pages."
+ },
+ {
+  "document_id": "PW-1428316",
+  "doc_no": "1428316",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa — succession order lists 1880–1916 (typed list and three handwritten versions): Patara te Whakarorowai (1880) to Arama te Puhi and Horiana Motio; Rihari te Kuri (1894) to Taniora Rihari, Hemi Rihari and Matire Putete; Raiha Taniora (d. 24 Mar 1897) to her seven children, Taniora Rihari trustee (16 Jul 1898); Arama Patara alias Arama te Puhi (letters of administration 1898); Horiana Motio (1916) — 9 pages",
+  "blocks_recorded": [
+   "Waikukupa",
+   "Waikukupa A"
+  ],
+  "block_ids": [
+   "29252",
+   "29254",
+   "29260",
+   "29668",
+   "29670",
+   "296923"
+  ],
+  "record_date": "1880-04-02",
+  "effective_date": "1916-03-16",
+  "court": "Native Land Court, Tokerau (Whangaroa sittings)",
+  "judge": "",
+  "minute_book": "N 56/311 (Horiana Motio, 1916)",
+  "pages": 9,
+  "page_range": "",
+  "file_name": "00928727_01428316_0001_0009_LHO_Document-1428316.pdf",
+  "drive_id": "1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX",
+  "file_size": "1951593",
+  "url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Nine pages of 'Waikukupa Block — Deceased / Date / Successors' lists: a typed fair copy (pp.1–3), a handwritten 'List of Succession Orders' with the deaths bracketed under the names (pp.4–6), an earlier struck-through handwritten list (pp.7–8) and a continuation sheet (p.9). ORDERS: Patara te Whakarorowai, 2.4.80 → Arama te Puhi m 1/2, Horiana Motio f 1/2 (p.7 dates it 9.10.96). Tana Toro, 5.5.82 → Panapa Kira. Hohepa te Taha, 25.6.91 → Makareta Turikataka f. Mohi te Pahii alias Mohi Nohinohi, 25.8.92 → Riwhi Moihi, Hapaira Kata, Mere Riwhi 1/3 each. RIHARI TE KURI (d. 15-10-85 or 86), 19.2.94 → Taniora Rihari m.a., Hemi Rihari m.a., Matire Putete f.a., 1/3 each. Mohi te Rahiri (d. 24-6-94), 24.10.94 → Tame, Piri and Hone Ruu (one share jointly), Horiona Motio one share. Riwhi te Pahi alias Riwhi Paru (d. 20-12-92), 24.10.94 → Hemi, Mere, Harata, Kuku and Wairama Riwhi equally. Hone Pihema alias Hone Pihama More, 24.10.94 → Maraea More, Hana Pei, Hariata Tauroa, Hera Waikere, Poni, Kaa, Meri and Marara Hone Pihema, 1/8 each. Pumipi alias Whaitua (d. 21-12-80), 25.5.97 → Kainamu, Te Rahui, Mere, Harata, 1/4 each. Hetaraka Arama (d. 20-9-80), 16.7.98 → Hone Tiaki. RAIHA TANIORA (d. 24-3-97), 16.7.98 → Hoana Pereme f.a., Himi Taniora m.a., Hetaraka Taniora m.a., Arama Taniora m.a., Rihari Taniora m.a., Manga Taniora m. 6 years, Matire Taniora f. 4, equally (1/7 each) — 'Taniora Rihari, Trustee for minors'; a marginal note 'sold 24-5-9?' stands against six of the seven. Panapa Kira (d. 20-12-89), 18.7.98 → Ngawati Panapa 1/3, Maraea Panapa alias Iwingaro 1/3, Mina Hami 1/6, Nehe Hami 1/6. Arthur Spickman, 10.11.98 → Peti Henare Kingi, Hemi Riiwhi, Poni Rewharewha, Tame Ru, Hone Arama, Maraea More (and Hone Ru on p.8), equally. Mere Hone Pihema, 14.11.98 → Maraea Mere, Hana Tei, Hariata Tauroa, Hera Waikere, Poni, Kaa and Marara Hone Pihema, equally. ARAMA PATARA ALIAS ARAMA TE PUHI (1 1/2 sh., No 1 and No 3A), 10.11.98 — Letters of Administration to Peti Henare Kingi and Poni Rewharewha; 'the devisees are (as to Waikukupa) Hone Arama [1 sh], Erana Arama [1/2], Matarai Arama [1/2], Peti Henare Kingi [1/2]' (three of the four marked sold). Hera Waikere (d. 19-9-00; share 30 3/4 acres), 26.11.01 → Repoama (12), Pati (10), Te Maunga (8) and Te Marepouri/Wharepouri Keri (6), 1 acre each, Pera Heta f 26 3/4 acres; Hana Tei trustee for the minors. WAIKUKUPA A (partition order 1901): Horiana Motio (N 56/311; d. 1915), 16.3.16 → Poni Rewharewha 1/7, Hira Hi Taniora 1/28, Hemo Hoera 1/28, Pinikera Hoera 1/28, Henare Tutere (9) 1/28, Wereta Hura 1/7, Kate Hemi 1/14, Puti Hemi 1/14, Pahi Puru 1/14, Ruakino Puru 1/14, Hau Toetoe 1/7, Rutete Toetoe 1/7.",
+  "names": [
+   {
+    "name": "Patara te Whakarorowai",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T150",
+    "confidence": "stated",
+    "note": "d. before Apr 1880; order 2.4.80; the struck-through list on p.7 dates this order 9.10.96; written 'Te Patara Te Whakararowai' by the whānau"
+   },
+   {
+    "name": "Arama te Puhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "T148",
+    "confidence": "stated",
+    "note": "from Patara te Whakarorowai, 2.4.80"
+   },
+   {
+    "name": "Horiana Motio",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "T151",
+    "confidence": "stated",
+    "note": "from Patara te Whakarorowai, 2.4.80"
+   },
+   {
+    "name": "Tana Toro",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 5.5.82"
+   },
+   {
+    "name": "Panapa Kira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tana Toro, 5.5.82"
+   },
+   {
+    "name": "Hohepa te Taha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 25.6.91"
+   },
+   {
+    "name": "Makareta Turikataka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa te Taha, 25.6.91"
+   },
+   {
+    "name": "Mohi te Pahii alias Mohi Nohinohi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1-12-9? (bracketed date, p.4); order 25.8.92"
+   },
+   {
+    "name": "Riwhi Moihi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Pahii alias Mohi Nohinohi, 25.8.92"
+   },
+   {
+    "name": "Hapaira Kata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Pahii alias Mohi Nohinohi, 25.8.92"
+   },
+   {
+    "name": "Mere Riwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Pahii alias Mohi Nohinohi, 25.8.92"
+   },
+   {
+    "name": "Rihari te Kuri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 15-10-85 or 86; order 19.2.94"
+   },
+   {
+    "name": "Taniora Rihari",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": "from Rihari te Kuri, 19.2.94"
+   },
+   {
+    "name": "Hemi Rihari",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T152",
+    "confidence": "stated",
+    "note": "from Rihari te Kuri, 19.2.94"
+   },
+   {
+    "name": "Matire Putete",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T153",
+    "confidence": "stated",
+    "note": "from Rihari te Kuri, 19.2.94"
+   },
+   {
+    "name": "Mohi te Rahiri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 24-6-94; order 24.10.94"
+   },
+   {
+    "name": "Tame Ruu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1 share jointly",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Rahiri, 24.10.94"
+   },
+   {
+    "name": "Piri Ruu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1 share jointly",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Rahiri, 24.10.94"
+   },
+   {
+    "name": "Hone Ruu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1 share jointly",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mohi te Rahiri, 24.10.94"
+   },
+   {
+    "name": "Horiona Motio",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1 share",
+    "tupuna_id": "T151",
+    "confidence": "inferred",
+    "note": "one share of Mohi te Rahiri, 24.10.94 — spelling variant of Horiana Motio"
+   },
+   {
+    "name": "Riwhi te Pahi alias Riwhi Paru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 20-12-92; order 24.10.94"
+   },
+   {
+    "name": "Hemi Riwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Riwhi te Pahi alias Riwhi Paru, 24.10.94"
+   },
+   {
+    "name": "Mere Riwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Riwhi te Pahi alias Riwhi Paru, 24.10.94"
+   },
+   {
+    "name": "Harata Riwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Riwhi te Pahi alias Riwhi Paru, 24.10.94"
+   },
+   {
+    "name": "Kuku Riwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Riwhi te Pahi alias Riwhi Paru, 24.10.94"
+   },
+   {
+    "name": "Wairama Riwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Riwhi te Pahi alias Riwhi Paru, 24.10.94"
+   },
+   {
+    "name": "Hone Pihema alias Hone Pihama More",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 24.10.94"
+   },
+   {
+    "name": "Maraea More",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Hana Pei",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Hariata Tauroa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Hera Waikere",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Poni Hone Pihema",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Kaa Hone Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Meri Hone Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Marara Hone Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Pihema alias Hone Pihama More, 24.10.94"
+   },
+   {
+    "name": "Pumipi alias Whaitua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 21-12-80; order 25.5.97"
+   },
+   {
+    "name": "Kainamu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pumipi alias Whaitua, 25.5.97"
+   },
+   {
+    "name": "Te Rahui",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pumipi alias Whaitua, 25.5.97"
+   },
+   {
+    "name": "Mere",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pumipi alias Whaitua, 25.5.97"
+   },
+   {
+    "name": "Harata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pumipi alias Whaitua, 25.5.97"
+   },
+   {
+    "name": "Hetaraka Arama",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 20-9-80; order 16.7.98"
+   },
+   {
+    "name": "Hone Tiaki",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hetaraka Arama, 16.7.98"
+   },
+   {
+    "name": "Raiha Taniora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T013",
+    "confidence": "stated",
+    "note": "d. 24-3-97; order 16.7.98"
+   },
+   {
+    "name": "Hoana Pereme",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/7",
+    "tupuna_id": "T154",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Himi Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/7",
+    "tupuna_id": "T155",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Hetaraka Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/7",
+    "tupuna_id": "T094",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Arama Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/7",
+    "tupuna_id": "T002",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Rihari Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/7",
+    "tupuna_id": "T092",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Manga Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "6",
+    "shares": "1/7",
+    "tupuna_id": "T091",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98"
+   },
+   {
+    "name": "Matire Taniora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "4",
+    "shares": "1/7",
+    "tupuna_id": "T117",
+    "confidence": "stated",
+    "note": "from Raiha Taniora, 16.7.98; margin 'sold 24-5-9?' (p.5)"
+   },
+   {
+    "name": "Taniora Rihari",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": "'Taniora Rihari, Trustee for minors' (p.8) — for Manga and Matire Taniora, 16.7.98"
+   },
+   {
+    "name": "Panapa Kira",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 20-12-89; order 18.7.98"
+   },
+   {
+    "name": "Ngawati Panapa",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Panapa Kira, 18.7.98"
+   },
+   {
+    "name": "Maraea Panapa alias Iwingaro",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Panapa Kira, 18.7.98"
+   },
+   {
+    "name": "Mina Hami",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Panapa Kira, 18.7.98"
+   },
+   {
+    "name": "Nehe Hami",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Panapa Kira, 18.7.98"
+   },
+   {
+    "name": "Arthur Spickman",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 10.11.98"
+   },
+   {
+    "name": "Peti Henare Kingi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Hemi Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Poni Rewharewha",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Tame Ru",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Hone Arama",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Maraea More",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98"
+   },
+   {
+    "name": "Hone Ru",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Arthur Spickman, 10.11.98 — only on the p.8 version (seven names); the typed list and p.6 have six"
+   },
+   {
+    "name": "Mere Hone Pihema",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 14.11.98"
+   },
+   {
+    "name": "Maraea Mere",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Hana Tei",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Hariata Tauroa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Hera Waikere",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Poni Hone Pihema",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Kaa Hone Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Marara Hone Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Hone Pihema, 14.11.98"
+   },
+   {
+    "name": "Arama Patara alias Arama te Puhi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T148",
+    "confidence": "stated",
+    "note": "1 1/2 sh. No 1, No 3A; 10.11.98 'Letters of Administration to Peti Henare Kingi, Poni Rewharewha. The devisees are (as to Waikukupa) Hone Arama, Erana Arama, Matarai Arama, Peti Henare Kingi' — p.6: Hone Arama 1 sh (sold), Erana Arama 1/2 (sold), Matarai Arama 1/2, Peti Henare Kingi 1/2 (sold). Same man as 'Arama Whakapeka alias Arama Patara (d. 17/5/95)' on Mangaiti No 1 (doc 1446852), whose interest also went to Peti Henare Kingi"
+   },
+   {
+    "name": "Peti Henare Kingi",
+    "role": "Administrator",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "letters of administration 10.11.98 and devisee of Arama Patara alias Arama te Puhi (sold)"
+   },
+   {
+    "name": "Poni Rewharewha",
+    "role": "Administrator",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "letters of administration 10.11.98, estate of Arama Patara alias Arama te Puhi"
+   },
+   {
+    "name": "Hone Arama",
+    "role": "Devisee",
+    "sex": "m",
+    "age": "",
+    "shares": "1 share",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "devisee of Arama Patara alias Arama te Puhi (as to Waikukupa), 10.11.98; sold"
+   },
+   {
+    "name": "Erana Arama",
+    "role": "Devisee",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "devisee of Arama Patara alias Arama te Puhi, 10.11.98; sold; d. 1912 — see Waikukupa F (doc 1428342)"
+   },
+   {
+    "name": "Matarai Arama",
+    "role": "Devisee",
+    "sex": "",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "devisee of Arama Patara alias Arama te Puhi, 10.11.98; 'Matarai Arana' on the typed page"
+   },
+   {
+    "name": "Hera Waikere",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 19-9-00; share 30 3/4 acres; order 26.11.01"
+   },
+   {
+    "name": "Repoama Keri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "12",
+    "shares": "1 acre",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Waikere, 26.11.01"
+   },
+   {
+    "name": "Pati Keri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "10",
+    "shares": "1 acre",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Waikere, 26.11.01"
+   },
+   {
+    "name": "Te Maunga Keri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "8",
+    "shares": "1 acre",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Waikere, 26.11.01"
+   },
+   {
+    "name": "Te Marepouri Keri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "6",
+    "shares": "1 acre",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Waikere, 26.11.01"
+   },
+   {
+    "name": "Pera Heta",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "26 3/4 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Waikere, 26.11.01"
+   },
+   {
+    "name": "Hana Tei",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the Keri minors, 26.11.01 (p.9); 'Te Wharepouri Keri' on p.9"
+   },
+   {
+    "name": "Horiana Motio",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T151",
+    "confidence": "stated",
+    "note": "d. 1915; N 56/311; Waikukupa A (partition order 1901); order 16.3.16"
+   },
+   {
+    "name": "Poni Rewharewha",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Hira Hi Taniora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16; reading of the name uncertain (also 'Hira Hi Tangora' on doc 1428389); d. before 29 Feb 1932 (N 66A/119)"
+   },
+   {
+    "name": "Hemo Hoera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Pinikera Hoera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/28",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Henare Tutere",
+    "role": "Successor",
+    "sex": "m",
+    "age": "9",
+    "shares": "1/28",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Wereta Hura",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Kate Hemi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Puti Hemi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Pahi Puru",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Ruakino Puru",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Hau Toetoe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   },
+   {
+    "name": "Rutete Toetoe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Motio, 16.3.16"
+   }
+  ],
+  "notes": "Whānau-relevant entries: (1) Rihari te Kuri → Taniora Rihari, Hemi Rihari, Matire Putete (the certificate is doc 1428614) — Taniora Rihari's father and siblings. (2) Raiha Taniora, wife of Taniora Rihari, died 24 March 1897; her seven children are named with the two youngest minors and their father as trustee — the earliest full list of that family, thirty-four years before the Taupo 23C succession of 1932 (doc 1527268). Her death in 1897 rules out the 'Rihipeti Arama' of Te Kohanga No. 1 who died in 1922 (D015). (3) Patara te Whakarorowai → Arama te Puhi and Horiana Motio: Arama te Puhi is Arama Te Patara (T148), Raiha's father, who also appears as 'Arama Whakapeka alias Arama Patara' (d. 17 May 1895) on Mangaiti No 1 — both estates passing to Peti Henare Kingi. (4) Poni Rewharewha, one of Hare Hongi Hika's seven successors of 1890 (Waihapa, Otangaroa, Kaingapipiwai), administered Arama Patara's estate and took 1/7 of Horiana Motio. The Waikukupa parent block is not in the 2017 block index; the record is pinned to its surviving subdivisions (C No 1, C No 2, G, D1, D2, H No 2)."
+ },
+ {
+  "document_id": "PW-1428324",
+  "doc_no": "1428324",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa C — succession list: George Rudolph (1912) to Hemo Karena, Taa Hori, Tahi Hori and Maki Hone Hemi; 'Hone Hemi Rihari or Hone Hemi Tau or Hone Hemi or Hone Tau or Hone Kae' (d. Dec 1942) to Maki Hone Hemi solely, 5 May 1943",
+  "blocks_recorded": [
+   "Waikukupa C"
+  ],
+  "block_ids": [
+   "29252",
+   "29254"
+  ],
+  "record_date": "1912-04-29",
+  "effective_date": "1943-05-05",
+  "court": "Native Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00928739_01428324_0001_0002_LHO_Document-1428324.pdf",
+  "drive_id": "1X7-KdniVOzzO0sg8Ix5_5FbkqwyYrxB4",
+  "file_size": "299308",
+  "url": "https://drive.google.com/file/d/1X7-KdniVOzzO0sg8Ix5_5FbkqwyYrxB4/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Typed (p.1) and handwritten (p.2) 'Waikukupa C Block' succession lists. George Rudolph (d. 12-5-09, pencilled), 29.4.12 → Hemo Karena f, Taa Hori m, Tahi Hori m, Maki Hone Hemi f 9 yrs, equally; Hone Hemi trustee for minor. P.2 adds: 'Hone Hemi Rihari or Hone Hemi Tau or Hone Hemi or Hone Tau or Hone Kae' (MB 18/65), died Dec. 1942, 5.5.43 → Maki Hone Hemi f, solely.",
+  "names": [
+   {
+    "name": "George Rudolph",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 12-5-09 (pencilled); order 29.4.12"
+   },
+   {
+    "name": "Hemo Karena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from George Rudolph, 29.4.12"
+   },
+   {
+    "name": "Taa Hori",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from George Rudolph, 29.4.12"
+   },
+   {
+    "name": "Tahi Hori",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from George Rudolph, 29.4.12"
+   },
+   {
+    "name": "Maki Hone Hemi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "9",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from George Rudolph, 29.4.12; sole successor to Hone Hemi Rihari, 5.5.43"
+   },
+   {
+    "name": "Hone Hemi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the minor Maki Hone Hemi, 1912"
+   },
+   {
+    "name": "Hone Hemi Rihari or Hone Hemi Tau or Hone Hemi or Hone Tau or Hone Kae",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "MB 18/65; died Dec. 1942; order 5.5.43 → Maki Hone Hemi solely; possibly a son of Hemi Rihari (brother of Taniora Rihari)"
+   }
+  ],
+  "notes": "Lead: a 'Hone Hemi Rihari' — Hone, son of Hemi — fits as a son of Hemi Rihari, Taniora Rihari's brother and co-successor to Rihari te Kuri in 1894 (doc 1428614); his daughter Maki Hone Hemi (b. c. 1903) took solely in 1943. Not yet confirmed by a minute."
+ },
+ {
+  "document_id": "PW-1428342",
+  "doc_no": "1428342",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa F — succession list: Erana Arama (d. 1912) to Mereana Kirihini, 4 Mar 1916",
+  "blocks_recorded": [
+   "Waikukupa F"
+  ],
+  "block_ids": [
+   "29252",
+   "29254",
+   "29260",
+   "29668",
+   "29670",
+   "296923"
+  ],
+  "record_date": "1916-03-04",
+  "effective_date": "1916-03-04",
+  "court": "Native Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00928756_01428342_0001_0002_LHO_Document-1428342.pdf",
+  "drive_id": "1EYQghG-ga380UZYKyi9A9DYzrYlN7px9",
+  "file_size": "325196",
+  "url": "https://drive.google.com/file/d/1EYQghG-ga380UZYKyi9A9DYzrYlN7px9/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Typed 'Waikukupa F Block' succession list with one entry: Erana Arama (—— 1912, pencilled), 4.3.16 → Mereana Kirihini f. A pencilled '19.11.17' below. Page 2 is the blank handwritten counterpart.",
+  "names": [
+   {
+    "name": "Erana Arama",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1912; devisee of Arama Patara alias Arama te Puhi, 1898"
+   },
+   {
+    "name": "Mereana Kirihini",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Erana Arama, 4.3.16"
+   }
+  ],
+  "notes": "Erana Arama was a devisee of Arama Patara alias Arama te Puhi (Arama Te Patara, T148) in 1898 (doc 1428316) — so a sister or close kin of Raiha Taniora. Her Waikukupa F interest passed to Mereana Kirihini in 1916. Waikukupa F is not in the 2017 block index; pinned to the parent block's subdivisions."
+ },
+ {
+  "document_id": "PW-1428378",
+  "doc_no": "1428378",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa G — schedule of ownership orders 1932–1961: the Hone Pihema lines (Marara Hone Pihema to the Peita children, Te Maunga Keri, Hariata Tauroa, Hana Tei, Maraea More, Poni Hone Pihema)",
+  "blocks_recorded": [
+   "Waikukupa G"
+  ],
+  "block_ids": [
+   "29260"
+  ],
+  "record_date": "1932-02-29",
+  "effective_date": "1961-11-06",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 56/276; N 66A/112, 126; N 24/129; N 76/143; BI 31/56; N 85/142; K 30/61; BI 33/169; N 89/47",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00928791_01428378_0001_0003_LHO_Document-1428378.pdf",
+  "drive_id": "1TZyPdK1KyKzCiuXXZiOTZUnD8PFqYyAn",
+  "file_size": "679731",
+  "url": "https://drive.google.com/file/d/1TZyPdK1KyKzCiuXXZiOTZUnD8PFqYyAn/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Three handwritten schedule pages for Waikukupa G, area 22:0:00, 34.500 shares. P.1: Marara Hone Pihema (no. 2, 7.000, N 56/276), SO 6-3-36 → 11 Meri Peita F, 12 Hami Peita M, 13 Tame Peita M, 14 Hemi Peita M, 15 Ngawini Peita F, 16 Hare Peita M, 1.167/1.166 each; Te Maunga Keri (no. 6, 1.000, N 66A/112), SO 29-2-32 → 17 Rehepoama Waikeri Keri .334, 18 Pati .333, 19 Te Wharepouri .333; Hare Peita (no. 16, 1.166, N 66A/126), SO 29-2-32 → 20–24 Hami, Ngawini, Hemi, Tame and Meri Peita .233 each; Hariata Tauroa (no. 8, 4.000, N 24/129), SO 7-6-44 → nos 25–42 in ninths, fifty-fourths and forty-fifths (Tauroa, Lucy Hoey, Hilda Reihana, the Radich children, Richard Hook, the Hepetema children, Hopaea Taime). P.2: Hana Tei or Hana Pei (no. 7, 7.000, N 76/143), SO 1947 → 43 Muka Ritete Peata or Meri Muka Tei F sole; Pati Waikeri Heke (no. 18, 1.333, BI 31/56), SO 11-1-57 → 44 Whitiana Heke M sole; Matenal(?) Tauroa (no. 27, .444, N 85/142), SO 1958 → 45 sole. P.3: Maraea More or Maraea Mere (no. 3, 4.500, K 30/61), SO 21-1-58 → 46 Ngawini Peita or Mrs T. Thomas F sole; Poni Hone Pihema (no. 10, 3.000, BI 33/169), SO 12-2-59 → 47 Russell Larkin M sole; Wairinga Tauroa (no. 28, .444, N 89/47), SO 6-11-61 → 48 Joe Wairinga Tauroa M sole.",
+  "names": [
+   {
+    "name": "Marara Hone Pihema",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "7.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; N 56/276; SO 6-3-36 → the six Peita children"
+   },
+   {
+    "name": "Hare Peita",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; N 66A/126; SO 29-2-32 → Hami, Ngawini, Hemi, Tame, Meri Peita"
+   },
+   {
+    "name": "Te Maunga Keri",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; N 66A/112; SO 29-2-32 → Rehepoama Waikeri Keri, Pati, Te Wharepouri"
+   },
+   {
+    "name": "Hariata Tauroa",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; N 24/129; SO 7-6-44 → eighteen successors"
+   },
+   {
+    "name": "Hana Tei or Hana Pei",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "7.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; N 76/143; SO 1947 → Muka Ritete Peata or Meri Muka Tei solely"
+   },
+   {
+    "name": "Maraea More or Maraea Mere",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "4.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; K 30/61; SO 21-1-58 → Ngawini Peita or Mrs T. Thomas solely"
+   },
+   {
+    "name": "Poni Hone Pihema",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "3.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; BI 33/169; SO 12-2-59 → Russell Larkin solely"
+   }
+  ],
+  "notes": "Descendants of Hone Pihema alias Hone Pihama More, whose 1894 and 1898 successions are on doc 1428316. No Taniora, Rihari or Arama name on this block; recorded for completeness of the Waikukupa folder."
+ },
+ {
+  "document_id": "PW-1428389",
+  "doc_no": "1428389",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa A — schedule of ownership orders 1916–1961: Horiana Motio's 50.000 shares to twelve successors (16 Mar 1916), then the Rewharewha, Hoera, Tutere, Toetoe and Motio Taniwha successions",
+  "blocks_recorded": [
+   "Waikukupa A"
+  ],
+  "block_ids": [
+   "29252",
+   "29254",
+   "29260",
+   "29668",
+   "29670",
+   "296923"
+  ],
+  "record_date": "1916-03-16",
+  "effective_date": "1961-11-01",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 56/311; N 58/279; N 66A/119, 120, 124; N 24/119; N 76/31, 37; N 81/245; N 86/325, 326, 388; N 90/15",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "00928804_01428389_0001_0004_LHO_Document-1428389.pdf",
+  "drive_id": "18lsjhSrelng4cSm2Q2qR4fo25CkJnbv6",
+  "file_size": "848939",
+  "url": "https://drive.google.com/file/d/18lsjhSrelng4cSm2Q2qR4fo25CkJnbv6/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Four handwritten schedule pages for Waikukupa A, area 78:3:00, 100.000 shares. P.1: Horiana Motio (no. 2, 50.000, N 56/311), SO 16-3-16 → 3 Poni Rewharewha M 1/7 7.143 (already owned 50.000, total 57.143); 4 Hira Hi Taniora M 1/28 1.786; 5 Hemo Hoera F 1/28; 6 Pinikera Hoera F 1/28; 7 Henare Tutere M 1/28; 8 Wereta Hura M 1/7 7.143; 9 Kate Hemi F 1/14 3.571; 10 Puti Hemi F 1/14; 11 Pahi Puru M 1/14; 12 Ruakino Puru F 1/14; 13 Hau Toetoe M 1/7; 14 Rutete Toetoe M 1/7. Poni Rewharewha (no. 3, 57.143, N 58/279), SO 9-3-23 → 15–17 three women, 19.048 each (names read as Pepi Poni, Ani Motio Taniwha, Waina Keiti Poni). Hira Hi Taniora / 'Hira Hi Tangora' (no. 4, 1.786, N 66A/119), SO 29-2-32 → 18–21, four successors in quarters (.447/.447/.446/.446). P.2: Pinikera Hoera (no. 6, N 66A/120), SO 29-2-32 → 22 Arihia Wirihana Toma, 23, 24 (thirds); Henare Tutere (no. 7, N 66A/124), SO 29-2-32 → 25 Hemo Hoera 1/3 and nos 26–32 (the Hii Taniora and Wirihana Toma successors) in twelfths and ninths; Rutete Toetoe (no. 14, 7.143, N 24/119), SO 6-6-44 → 33 Hera Rutete 3.572, 34 Keti 3.571; Hana Motio Taniwha (no. 16, 19.048, N 76/37), SO 26-2-47 → 35–40 (Motio Taniwha children, 3.175 each). P.3: Wereta Hura (no. 8, N 76/31), SO 26-2-47 → 41 sole; Pahi Puru (no. 11, N 81/245), SO 2-2-54 → 42 Camellia Klede or Mrs Ruatiki(?) sole; Pepi Poni (no. 15, N 86/325), SO 15-12-59 → 43 Himiona Rapi Tauroa sole; Waina Keiti Poni (no. 17, N 86/326), SO 15-12-59 → 44–49 (Himiona Rapi Tauroa 1/2 and the Motio Taniwha children). P.4: further Motio Taniwha and Rapi Tauroa exchanges (15-12-59, N 86/388) and Hau Toetoe (no. 13, 7.143, N 90/15), order 1-11-61 → 61 Maori Trustee sole.",
+  "names": [
+   {
+    "name": "Horiana Motio",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "50.000",
+    "tupuna_id": "T151",
+    "confidence": "stated",
+    "note": "no. 2; N 56/311; SO 16-3-16 → nos 3–14"
+   },
+   {
+    "name": "Poni Rewharewha",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "7.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/7 of Horiana Motio, SO 16-3-16; already owned 50.000 → total 57.143; d. before 9-3-23 (N 58/279) → Pepi Poni, Ani Motio Taniwha, Waina Keiti Poni (readings uncertain), 19.048/19.048/19.047"
+   },
+   {
+    "name": "Hira Hi Taniora",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.786",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/28 of Horiana Motio, SO 16-3-16; 'Hira Hi Tangora' in the later heading; d. before 29-2-32 (N 66A/119) → four successors (first read as 'Matoha Hii Taniora' f, then a male and two females, .447/.447/.446/.446 — names illegible)"
+   },
+   {
+    "name": "Hemo Hoera",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "1.786",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/28 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Pinikera Hoera",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "1.786",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/28 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Henare Tutere",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "1.786",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/28 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Wereta Hura",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "7.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/7 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Kate Hemi",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "3.571",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/14 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Puti Hemi",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "3.571",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/14 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Pahi Puru",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "3.571",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/14 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Ruakino Puru",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "3.571",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/14 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Hau Toetoe",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "7.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/7 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Rutete Toetoe",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "7.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/7 of Horiana Motio, SO 16-3-16"
+   },
+   {
+    "name": "Arihia Wirihana Toma",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".596",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; 1/3 of Pinikera Hoera (no. 6), N 66A/120, SO 29-2-32, with Mautini and Timikara (readings uncertain)"
+   },
+   {
+    "name": "Hera Rutete",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.572",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; 1/2 of Rutete Toetoe (no. 14), N 24/119, SO 6-6-44, with Keti (3.571)"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "7.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61; Hau Toetoe's share (no. 13), N 90/15, order 1-11-61"
+   }
+  ],
+  "notes": "Horiana Motio was the co-successor (with Arama te Puhi = Arama Te Patara, T148) to Patara te Whakarorowai in 1880 (doc 1428316) — so a sister or close kin of Raiha Taniora's father. Her 1916 heirs include Poni Rewharewha (also a successor to Hare Hongi Hika in 1890) and a 'Hira Hi Taniora' whose own succession was heard on 29 Feb 1932 (N 66A/119), the same sitting that dealt with Taniora Rihari (N 66A/99) and 'Himi Taniora' (N 66A/100). Later pages concern the Motio Taniwha, Rapi Tauroa and Toetoe lines and are summarised only. The Waikukupa parent block is not in the 2017 block index; the record is pinned to its surviving subdivisions (C No 1, C No 2, G, D1, D2, H No 2)."
+ },
+ {
+  "document_id": "PW-1428495",
+  "doc_no": "1428495",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Waikukupa",
+  "title": "Waikukupa D — schedule of ownership orders: list of owners as at 18 Jul 1961 (19 owners, 49.750 shares) and orders to 1974, incl. Toetoe Whitinui's and Ururoa Hare Kainamu's shares vested in Mereana Whitinui (11 Feb 1974)",
+  "blocks_recorded": [
+   "Waikukupa D"
+  ],
+  "block_ids": [
+   "296923",
+   "29668"
+  ],
+  "record_date": "1961-07-18",
+  "effective_date": "1974-02-11",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "KT 41/131; KT 54/112; AT 5/263",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00928908_01428495_0001_0002_LHO_Document-1428495.pdf",
+  "drive_id": "1gtoAnDirpqmK3AWC8gwfdQT6MacMlazo",
+  "file_size": "521747",
+  "url": "https://drive.google.com/file/d/1gtoAnDirpqmK3AWC8gwfdQT6MacMlazo/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 638 schedule for Waikukupa D, area 40:3:00 (16.4909 ha), 49.750 shares. List of owners as at 18/7/61 (prepared/checked 7.7.61): 1 Hapeta Hone Haimona M 1.584; 2 Ihapera Whetu Para F 2.937; 3 Keti Tane F 1.583; 4 Mange Moremu Ihaia F .950; 5 Maraea Panapa F 3.000; 6 Mina Hami F 3.000; 7 Miriama Moremu Ihaia F .950; 8 Moremu Moremu Ihaia M .950 (→21); 9 Mereana Whitinui F 5.875 (→22); 10 Motuiti Moremu Ihaia M .950; 11 Ngawati Panapa M 3.000; 12 Nehe Hami F 3.000; 13 Te Opetuatahi Moremu Ihaia M .950; 14 Te Owai Tane F 1.583; 15 Patungahere Hare Kainamu F 2.937; 16 Tangirere Eru Nehua M 4.750; 17 Toetoe Whitinui M 5.875 (→22); 18 Ururoa Hare Kainamu M 2.938 (→23); 19 Waihemonga Stirling F 2.938 (→20). Orders: Waihemonga Hare Kainamu or Stirling (19) → 20 Moroa Lewis f.a. sole 2.938 (c. 1966); Moremu Moremu Ihaia or Moremu (Moses) Ihaia Hikuwai or Moremu Hikuwai or Moremu Ihaia (8) → 21 Tutete Andrew Hikuwai m.a. solely .950, SVO 16.3.68; transferor Toetoe Whitinui (17), 5.875, AT 5/263, vesting order 11.2.74 → 22 Mereana Whitinui f.a. solely (11.750); transferor Ururoa Hare Kainamu (18), 2.938, AT 5/263, VO 11.2.1974 → 23 Mereana Whitinui (14.688).",
+  "names": [
+   {
+    "name": "Hapeta Hone Haimona",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": "1.584",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Ihapera Whetu Para",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "2.937",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Keti Tane",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "1.583",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Mange Moremu Ihaia",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Maraea Panapa",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "3.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Mina Hami",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "3.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Miriama Moremu Ihaia",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Moremu Moremu Ihaia",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Mereana Whitinui",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "5.875",
+    "tupuna_id": "T087",
+    "confidence": "stated",
+    "note": "no. 9; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Motuiti Moremu Ihaia",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Ngawati Panapa",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": "3.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Nehe Hami",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "3.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Te Opetuatahi Moremu Ihaia",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Te Owai Tane",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "1.583",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Patungahere Hare Kainamu",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "2.937",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Tangirere Eru Nehua",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": "4.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Toetoe Whitinui",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": "5.875",
+    "tupuna_id": "T086",
+    "confidence": "stated",
+    "note": "no. 17; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Ururoa Hare Kainamu",
+    "role": "Owner",
+    "sex": "M",
+    "age": "",
+    "shares": "2.938",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Waihemonga Stirling",
+    "role": "Owner",
+    "sex": "F",
+    "age": "",
+    "shares": "2.938",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; list of owners as at 18/7/61"
+   },
+   {
+    "name": "Moroa Lewis",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "2.938",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; sole successor to Waihemonga Hare Kainamu or Stirling (no. 19), order 24.5.66(?), KT 41/131 — readings uncertain"
+   },
+   {
+    "name": "Tutete Andrew Hikuwai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": ".950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; sole successor to Moremu Moremu Ihaia or Moremu (Moses) Ihaia Hikuwai or Moremu Hikuwai or Moremu Ihaia (no. 8), SVO 16.3.68, KT 54/112"
+   },
+   {
+    "name": "Mereana Whitinui",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "14.688",
+    "tupuna_id": "T087",
+    "confidence": "stated",
+    "note": "no. 22–23: took Toetoe Whitinui's 5.875 (no. 17) by vesting order 11.2.74 (AT 5/263) → 11.750, then Ururoa Hare Kainamu's 2.938 (no. 18) by VO 43/55(?), 11.2.74 → 14.688"
+   }
+  ],
+  "notes": "Toetoe Whitinui and Mereana Whitinui are the two 1/6 successors to Wiremu Tangata named on Pānui 28 (8 Oct 2026, MLC-DS-29057). Here they are owners of Waikukupa D in 1961, with Toetoe transferring his share to Mereana in 1974 — a Whitinui foothold at Waikukupa alongside the Panapa, Hami and Kainamu families of the 1898 lists. The Waikukupa D parent title is represented by D1 and D2 in the 2017 index."
+ },
+ {
+  "document_id": "PW-1428614",
+  "doc_no": "1428614",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Waikukupa",
+  "title": "Waikukupa — certificate of succession to Rihari te Kuri (d. 15 Oct 1885 or 1886): Taniora Rihari, Himi Rihari and Matire Ritete in equal shares, Whangaroa, 19 Feb 1894",
+  "blocks_recorded": [
+   "Waikukupa"
+  ],
+  "block_ids": [
+   "29252",
+   "29254",
+   "29260",
+   "29668",
+   "29670",
+   "296923"
+  ],
+  "record_date": "1894-02-19",
+  "effective_date": "1894-02-19",
+  "court": "Native Land Court, sitting at Whangaroa",
+  "judge": "James Stephenson Clendon, Esquire, Recorder; Rehe Aperahama, Assessor",
+  "minute_book": "stamped folio 324",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00929029_01428614_0001_0001_ORD_Document-1428614.pdf",
+  "drive_id": "1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF",
+  "file_size": "109598",
+  "url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Printed form N.L.C.-15 under the Native Land Court Act 1886 (Rule 28, Certificate of Succession to Realty). In the matter of the land known as Waikukupa, situate near Whangaroa, and of the estate, share or interest of Rihari te Kuri, deceased, therein. At a sitting of the Court held at Whangaroa before James Stephenson Clendon, Esquire, Recorder (\"Judge\" struck out), and Rehe Aperahama, Assessor: it is certified that Taniora Rihari m.a., Himi Rihari m.a. and Matire Ritete f.a., aboriginal natives, are the persons entitled to succeed \"in equal shares\" to the deceased's interest, and that the deceased died on the 15th day of October one thousand eight hundred and eighty-five \"or eighty-six\". Witness the hand of the Recorder and the seal of the Court this 19th day of February 1894. Margin: fees charged — witness 2/-, order 5/-.",
+  "names": [
+   {
+    "name": "Rihari te Kuri",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "died 15 Oct 1885 or 1886; interest in Waikukupa"
+   },
+   {
+    "name": "Taniora Rihari",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T003",
+    "confidence": "stated",
+    "note": ""
+   },
+   {
+    "name": "Himi Rihari",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T152",
+    "confidence": "stated",
+    "note": "'Hemi Rihari' on doc 1428316"
+   },
+   {
+    "name": "Matire Ritete",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "T153",
+    "confidence": "stated",
+    "note": "'Matire Putete' on doc 1428316"
+   },
+   {
+    "name": "James Stephenson Clendon",
+    "role": "Recorder",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "'Judge' struck out on the form"
+   },
+   {
+    "name": "Rehe Aperahama",
+    "role": "Assessor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "reading of the first name uncertain"
+   }
+  ],
+  "notes": "Confirms the whānau tradition that Rihari te Kuri was the father of Taniora Rihari: the three successors are his children in the Court's usual order (sons, then daughter). The Waikukupa succession list (doc 1428316) carries the same order as 'Rihari te Kuri (15-10-85 or 86), 19.2.94 → Taniora Rihari, Hemi Rihari, Matire Putete'. The Waikukupa parent block is not in the 2017 block index; the record is pinned to its surviving subdivisions (C No 1, C No 2, G, D1, D2, H No 2)."
  }
 ]

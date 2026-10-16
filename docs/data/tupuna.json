@@ -1188,6 +1188,23 @@
     "shares": "5.000",
     "source_id": "S07",
     "document_id": "PW-1527452"
+   },
+   {
+    "link_id": "L583",
+    "tupuna_id": "T002",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Arama Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ],
   "name": "Arama Taniora",
@@ -1245,6 +1262,22 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/126X08PWv9RAiD-imgSWmWegJgMMggu91/view",
     "document_id": "PW-1527452",
+    "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Arama Taniora (adult)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
     "note": ""
    }
   ]
@@ -1446,6 +1479,47 @@
     "shares": "4.000",
     "source_id": "S07",
     "document_id": "PW-1527452"
+   },
+   {
+    "link_id": "L575",
+    "tupuna_id": "T003",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428614",
+    "as_recorded": "Taniora Rihari",
+    "linz_title": "",
+    "shares": "1/3",
+    "source_id": "S07",
+    "document_id": "PW-1428614"
+   },
+   {
+    "link_id": "L601",
+    "tupuna_id": "T003",
+    "location_type": "Tupuna",
+    "location_ref": "T154",
+    "location_detail": "Hoana Pereme",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "named among Raiha Taniora's seven children, 1898; Taniora Rihari trustee for the minors",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L602",
+    "tupuna_id": "T003",
+    "location_type": "Tupuna",
+    "location_ref": "T155",
+    "location_detail": "Himi Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "named among Raiha Taniora's seven children, 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
    }
   ],
   "name": "Taniora Rihari",
@@ -1455,7 +1529,7 @@
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "As per Arama Taniora's death certificate Taupo 23C succession schedule (doc 1527268): \"Taniora Rihari or Rihari Taniora\", died 1922 (N66A/99); succession order 29 Feb 1932 divided his interest into sevenths among his children and their issue — Manga Taniora Rihari, Rihari Taniora Rihari, the seven Hetaraka Taniora children, the eight Arama Taniora children (trustee Peti Wiremu Tangata), the Kini/Tarapatiki/Ngarangi group, the two Heremaia Kingi children (trustee Peti Kingi) and the four Herewini children of Matire Taniora. Original owner of Mangaiti No 1 (1873 title) and Mangaiti 1A1 (sold 1912). The ownership schedule (doc 1527452) heads his entry \"Himi Taniora Rihari\" (list no. 2, 4.000 shares) — a further recorded name.",
+  "notes": "As per Arama Taniora's death certificate Taupo 23C succession schedule (doc 1527268): \"Taniora Rihari or Rihari Taniora\", died 1922 (N66A/99); succession order 29 Feb 1932 divided his interest into sevenths among his children and their issue — Manga Taniora Rihari, Rihari Taniora Rihari, the seven Hetaraka Taniora children, the eight Arama Taniora children (trustee Peti Wiremu Tangata), the Kini/Tarapatiki/Ngarangi group, the two Heremaia Kingi children (trustee Peti Kingi) and the four Herewini children of Matire Taniora. Original owner of Mangaiti No 1 (1873 title) and Mangaiti 1A1 (sold 1912). The ownership schedule (doc 1527452) heads his entry \"Himi Taniora Rihari\" (list no. 2, 4.000 shares) — a further recorded name.\n\nWAIKUKUPA (17 Oct 2026): certified on 19 Feb 1894 as one of the three successors in equal shares to his father Rihari te Kuri (d. 15 Oct 1885/86), with Himi (Hemi) Rihari and Matire Ritete (Putete) — docs 1428614, 1428316. On 16 Jul 1898 the Court divided his late wife Raiha Taniora's (d. 24 Mar 1897) Waikukupa interest among their seven children — Hoana Pereme, Himi, Hetaraka, Arama, Rihari, Manga (6) and Matire (4) — and appointed him trustee for the two minors. Note the adult son Himi Taniora in 1898: the 'Himi Taniora' names on Taupo 23C (1957 heading) and Tauaki (d. 1918, N66A/100) recorded here as further names of Taniora Rihari may belong to that son — D020.",
   "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
   "identities": [
    {
@@ -1574,6 +1648,38 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1MS-FKlyYqK5D8NAtk26wuM3jMo6QwZig/view",
     "document_id": "PW-1306329",
+    "note": ""
+   },
+   {
+    "event_id": "E006",
+    "type": "Succession order",
+    "date": "1894-02-19",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Succeeded, with his brother Himi (Hemi) Rihari and sister Matire Ritete (Putete), to one third each of his father Rihari te Kuri's interest in Waikukupa",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": ""
+   },
+   {
+    "event_id": "E007",
+    "type": "Other",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Appointed trustee for the minors Manga (6) and Matire (4) on the succession to his wife Raiha Taniora's Waikukupa interest",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
     "note": ""
    }
   ]
@@ -3351,21 +3457,78 @@
     "latitude": null,
     "longitude": null,
     "relationship": "Child",
-    "notes": "Erimana Taniora",
-    "source": ""
+    "notes": "Taniora Rihari m.a., first-named successor to Rihari te Kuri, 19 Feb 1894 (whānau note: 'Erimana Taniora')",
+    "source": "Māori Land Court records (Pātaka Whenua) — certificate of succession to Rihari te Kuri, 19 Feb 1894 (doc 1428614)"
+   },
+   {
+    "link_id": "L591",
+    "tupuna_id": "T012",
+    "location_type": "Tupuna",
+    "location_ref": "T152",
+    "location_detail": "Hemi Rihari",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "co-successor to Rihari te Kuri, 19 Feb 1894",
+    "source": "Māori Land Court records (Pātaka Whenua) — certificate of succession to Rihari te Kuri, 19 Feb 1894 (doc 1428614)"
+   },
+   {
+    "link_id": "L592",
+    "tupuna_id": "T012",
+    "location_type": "Tupuna",
+    "location_ref": "T153",
+    "location_detail": "Matire Putete",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "co-successor to Rihari te Kuri, 19 Feb 1894",
+    "source": "Māori Land Court records (Pātaka Whenua) — certificate of succession to Rihari te Kuri, 19 Feb 1894 (doc 1428614)"
    }
   ],
   "name": "Rihari Te Kuri",
   "other_names": "",
   "born": "",
-  "died": "",
+  "died": "1885-10-15 or 1886-10-15",
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Unconfirmed tupuna - father of Taniora Rihari. Pawarenga Te Uri o Tai (Official page).",
+  "notes": "CONFIRMED 17 Oct 2026 by the Court's certificate of succession (doc 1428614): Rihari te Kuri, owner in Waikukupa (near Whangaroa), died 15 October 1885 'or eighty-six'; at Whangaroa on 19 Feb 1894 the Native Land Court (J. S. Clendon, Recorder; Rehe Aperahama, Assessor) certified Taniora Rihari m.a., Himi Rihari m.a. and Matire Ritete f.a. as entitled to succeed in equal shares — his three children. The Waikukupa succession list (doc 1428316) carries the same order. Previously 'Unconfirmed tupuna — father of Taniora Rihari' from the Pawarenga Te Uri o Tai page.",
   "source": "",
   "identities": [],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "1885-10-15",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Died 15 October 1885 'or eighty-six' — as certified by the Native Land Court at Whangaroa on 19 Feb 1894",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": "year uncertain on the certificate: 1885 or 1886"
+   },
+   {
+    "event_id": "E002",
+    "type": "Succession order",
+    "date": "1894-02-19",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Certificate of succession (Recorder J. S. Clendon, Assessor Rehe Aperahama): his interest in Waikukupa to Taniora Rihari, Himi Rihari and Matire Ritete in equal shares",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": ""
+   }
+  ]
  },
  {
   "tupuna_id": "T013",
@@ -3407,31 +3570,86 @@
     "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing"
    },
    {
-    "link_id": "L571",
+    "link_id": "L595",
     "tupuna_id": "T013",
-    "location_type": "Block",
-    "location_ref": "32529",
-    "location_detail": "Te Kohanga Lots 1 & 3-27",
-    "latitude": -35.1804,
-    "longitude": 173.1176,
-    "relationship": "Owner",
-    "notes": "by succession from Hamiora Rungaiterangi alias Hamiora, 1/3 of 1.000, 5 Sep 1896 (N 17/47); passed solely to Eruera Paora 21 Feb 1925. Identity with Raiha Taniora inferred from the name (Rihipeti/Raiha = Elizabeth/Eliza; Arama = daughter of Arama Te Patara) — D015",
-    "source": "Māori Land Court records (Pātaka Whenua) — doc 1391476",
-    "as_recorded": "Rihipeti Arama",
-    "linz_title": "",
-    "shares": ".334",
-    "source_id": "S07",
-    "document_id": "PW-1391476"
+    "location_type": "Tupuna",
+    "location_ref": "T094",
+    "location_detail": "Hetaraka Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L596",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T092",
+    "location_detail": "Rihari Taniora Rihari",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L597",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T091",
+    "location_detail": "Manga Taniora Rihari",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L598",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T117",
+    "location_detail": "Matire Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L599",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T154",
+    "location_detail": "Hoana Pereme",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L600",
+    "tupuna_id": "T013",
+    "location_type": "Tupuna",
+    "location_ref": "T155",
+    "location_detail": "Himi Taniora",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/7 successor to Raiha Taniora, 16 Jul 1898",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
    }
   ],
   "name": "Raiha Taniora",
-  "other_names": "Raiha Arama; Rihipeti Arama (inferred)",
+  "other_names": "Raiha Arama",
   "born": "",
-  "died": "",
+  "died": "1897-03-24",
   "birthplace": "",
   "mother": "",
   "father": "Arama Te Patara",
-  "notes": "Transcription error \"Riha\" is resolved on Rihari Taniora's marriage certificate (Arama Taniora's brother) as mother, \"Raiha Taniora\". \n\nUnconfirmed, Raiha Rakena or Kaumatua. Facebook page Pawarenga, Te Uri o Tai (Official page).\n\nTE KOHANGA No. 1 (inferred, 6 Oct 2026): the \"Rihipeti Arama\" who succeeded to Hamiora Rungaiterangi at Ahipara in 1896 and died 17 Dec 1922 is proposed by the whānau to be this Raiha (Eliza/Elizabeth), daughter of Arama Te Patara. The dates fit (adult in 1896; Arama Taniora b. 1880; Taniora Rihari also d. 1922). If so, the 1925 order giving her share solely to \"Eruera Paora\" passed over her Taniora Rihari descendants — D015.",
+  "notes": "Wife of Taniora Rihari (T003) and mother of Arama Taniora (T002). Transcription error 'Riha' on Arama Taniora's death certificate is resolved on Rihari Taniora's marriage certificate as 'Raiha Taniora'. Whānau (6 Oct 2026): daughter of (Arama) Te Patara, known as Raiha Arama before her marriage.\n\nDEATH AND CHILDREN (17 Oct 2026, doc 1428316): the Waikukupa 'List of Succession Orders' records 'Raiha Taniora (24-3-97)' — died 24 March 1897 — and the order of 16 Jul 1898 dividing her Waikukupa interest equally among seven children: Hoana Pereme f.a., Himi Taniora m.a., Hetaraka Taniora m.a., Arama Taniora m.a., Rihari Taniora m.a., Manga Taniora m. 6, Matire Taniora f. 4, with 'Taniora Rihari, Trustee for minors'. This is the earliest complete list of the family and fixes the births of Manga (c. 1892) and Matire (c. 1894).\n\nTE KOHANGA No. 1 (D015, now contradicted): the 'Rihipeti Arama' who succeeded at Ahipara in 1896 and died 17 Dec 1922 cannot be Raiha, who had died in 1897. The 1896, 1922 and 1925 Te Kohanga events formerly shown here have been removed; the identity is kept on the record as contradicted.",
   "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
   "identities": [
    {
@@ -3441,8 +3659,8 @@
     "date": "1896-09-05",
     "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
     "document_id": "PW-1391476",
-    "note": "Successor (1/3) to Hamiora Rungaiterangi alias Hamiora on Te Kohanga No. 1, 5 Sep 1896 (N 17/47), with Hariata Haimona and Te Wikiriwhi Poutu; died 17 Dec 1922; her .334 → Eruera Paora (Wahapu) solely, 21 Feb 1925. Identification with Raiha Taniora is inferred (Rihipeti = Elizabeth, Raiha = Eliza; Arama = daughter of Arama Te Patara) — see D015. Whānau confirm she was known as Raiha Arama, daughter of Te Patara — which is the name the Te Kohanga clerk would have rendered \"Rihipeti Arama\".",
-    "confidence": "inferred"
+    "note": "CONTRADICTED 17 Oct 2026: Raiha Taniora died 24 Mar 1897 (Waikukupa succession list, doc 1428316), so she is not the Rihipeti Arama who died 17 Dec 1922. Formerly inferred (Rihipeti = Elizabeth, Raiha = Eliza; Arama = daughter of Arama Te Patara) — see D015/D009. The Te Kohanga woman may still be another Arama daughter.",
+    "confidence": "contradicted"
    },
    {
     "identity_id": "N002",
@@ -3457,52 +3675,36 @@
   ],
   "events": [
    {
-    "event_id": "E001",
-    "type": "Succession order",
-    "date": "1896-09-05",
-    "place_type": "Block",
-    "place_ref": "32529",
-    "place_detail": "Te Kohanga No. 1 (Ahipara)",
-    "latitude": -35.1804,
-    "longitude": 173.1176,
-    "description": "Succeeded (as \"Rihipeti Arama\") with Hariata Haimona and Te Wikiriwhi Poutu to one third each of Hamiora Rungaiterangi alias Hamiora's 1.000 share in Te Kohanga No. 1 (N 17/47)",
-    "source_id": "S07",
-    "confidence": "inferred",
-    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
-    "document_id": "PW-1391476",
-    "note": "Identity with Raiha Taniora inferred — D015"
-   },
-   {
-    "event_id": "E002",
+    "event_id": "E004",
     "type": "Death",
-    "date": "1922-12-17",
-    "place_type": "",
-    "place_ref": "",
-    "place_detail": "",
-    "latitude": null,
-    "longitude": null,
-    "description": "Date of death recorded against \"Rihipeti Arama\" on the Te Kohanga No. 1 succession schedule (order 21 Feb 1925)",
+    "date": "1897-03-24",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Died 24 March 1897 — the bracketed date under her name on the handwritten Waikukupa 'List of Succession Orders'",
     "source_id": "S07",
-    "confidence": "inferred",
-    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
-    "document_id": "PW-1391476",
-    "note": "Identity inferred — D015. Taniora Rihari's death is also recorded as 1922 (N66A/99)."
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
    },
    {
-    "event_id": "E003",
+    "event_id": "E005",
     "type": "Succession order",
-    "date": "1925-02-21",
+    "date": "1898-07-16",
     "place_type": "Block",
-    "place_ref": "32529",
-    "place_detail": "Te Kohanga No. 1 (Ahipara)",
-    "latitude": -35.1804,
-    "longitude": 173.1176,
-    "description": "Her .334 in Te Kohanga No. 1 vested solely in Eruera Paora (m) — later Eruera Paora Wahapu, d. April 1942",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Her Waikukupa interest to her seven children equally: Hoana Pereme, Himi, Hetaraka, Arama and Rihari Taniora (adults), Manga (6) and Matire (4); Taniora Rihari trustee for the minors",
     "source_id": "S07",
-    "confidence": "inferred",
-    "document_url": "https://drive.google.com/file/d/1ixM9g54VZxPirWcAJGASUEkFixsTWdgU/view",
-    "document_id": "PW-1391476",
-    "note": "If she is Raiha Taniora, her Taniora Rihari descendants were not named — D015"
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
    }
   ]
  },
@@ -10666,6 +10868,22 @@
     "document_url": "",
     "document_id": "MLC-DS-29057",
     "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Land transfer",
+    "date": "1974-02-11",
+    "place_type": "Block",
+    "place_ref": "296923",
+    "place_detail": "Waikukupa D",
+    "latitude": -35.0974,
+    "longitude": 173.7557,
+    "description": "His 5.875 shares in Waikukupa D vested in Mereana Whitinui (AT 5/263)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1gtoAnDirpqmK3AWC8gwfdQT6MacMlazo/view",
+    "document_id": "PW-1428495",
+    "note": ""
    }
   ],
   "links": [
@@ -10685,6 +10903,40 @@
     "shares": "1/6",
     "source_id": "S07",
     "document_id": "PW-1498426"
+   },
+   {
+    "link_id": "L587",
+    "tupuna_id": "T086",
+    "location_type": "Block",
+    "location_ref": "296923",
+    "location_detail": "Waikukupa D1",
+    "latitude": -35.0974,
+    "longitude": 173.7557,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428495",
+    "as_recorded": "Toetoe Whitinui",
+    "linz_title": "",
+    "shares": "5.875",
+    "source_id": "S07",
+    "document_id": "PW-1428495"
+   },
+   {
+    "link_id": "L588",
+    "tupuna_id": "T086",
+    "location_type": "Block",
+    "location_ref": "29668",
+    "location_detail": "Waikukupa D2",
+    "latitude": -35.0968,
+    "longitude": 173.7574,
+    "relationship": "Owner",
+    "notes": "",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428495",
+    "as_recorded": "Toetoe Whitinui",
+    "linz_title": "",
+    "shares": "5.875",
+    "source_id": "S07",
+    "document_id": "PW-1428495"
    }
   ]
  },
@@ -10716,6 +10968,22 @@
     "document_url": "",
     "document_id": "MLC-DS-29057",
     "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Land transfer",
+    "date": "1974-02-11",
+    "place_type": "Block",
+    "place_ref": "296923",
+    "place_detail": "Waikukupa D",
+    "latitude": -35.0974,
+    "longitude": 173.7557,
+    "description": "Took Toetoe Whitinui's 5.875 and Ururoa Hare Kainamu's 2.938 shares in Waikukupa D by vesting orders (AT 5/263), to hold 14.688",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1gtoAnDirpqmK3AWC8gwfdQT6MacMlazo/view",
+    "document_id": "PW-1428495",
+    "note": ""
    }
   ],
   "links": [
@@ -10735,6 +11003,40 @@
     "shares": "1/6",
     "source_id": "S07",
     "document_id": "PW-1498426"
+   },
+   {
+    "link_id": "L589",
+    "tupuna_id": "T087",
+    "location_type": "Block",
+    "location_ref": "296923",
+    "location_detail": "Waikukupa D1",
+    "latitude": -35.0974,
+    "longitude": 173.7557,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428495",
+    "as_recorded": "Mereana Whitinui",
+    "linz_title": "",
+    "shares": "14.688",
+    "source_id": "S07",
+    "document_id": "PW-1428495"
+   },
+   {
+    "link_id": "L590",
+    "tupuna_id": "T087",
+    "location_type": "Block",
+    "location_ref": "29668",
+    "location_detail": "Waikukupa D2",
+    "latitude": -35.0968,
+    "longitude": 173.7574,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428495",
+    "as_recorded": "Mereana Whitinui",
+    "linz_title": "",
+    "shares": "14.688",
+    "source_id": "S07",
+    "document_id": "PW-1428495"
    }
   ]
  },
@@ -10889,6 +11191,15 @@
     "document_url": "https://drive.google.com/file/d/1wozRCpWLRWh7uO4G6CqpjlGNeujWH38A/view",
     "document_id": "PW-1526207",
     "note": "Deceased on List of owners doc 1526207 — Tauaki"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Manga Taniora",
+    "source_id": "S07",
+    "date": "1880-04-02",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": "Successor on List of owners doc 1428316 — Waikukupa, Waikukupa A"
    }
   ],
   "events": [
@@ -10906,6 +11217,22 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9/view",
     "document_id": "PW-1527268",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Manga Taniora, aged 6 — Taniora Rihari trustee",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
     "note": ""
    }
   ],
@@ -10955,6 +11282,23 @@
     "shares": "1/7 of .143",
     "source_id": "S07",
     "document_id": "PW-1526207"
+   },
+   {
+    "link_id": "L585",
+    "tupuna_id": "T091",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Manga Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ]
  },
@@ -10969,8 +11313,35 @@
   "father": "",
   "notes": "Son of Taniora Rihari (1/7 successor, 1932, \"m.\"); still on the Taupo 23C title in 2009 with 4.5710 shares — the largest whānau holding. Possibly the same person as \"Rihari Te Kuri\" already on the tree as a child of Taniora Rihari — to be confirmed.",
   "source": "Māori Land Court records (Pātaka Whenua) — Taupo 23C succession order schedule, 29 Feb 1932 (doc 1527268)",
-  "identities": [],
-  "events": [],
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Rihari Taniora",
+    "source_id": "S07",
+    "date": "1880-04-02",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": "Successor on List of owners doc 1428316 — Waikukupa, Waikukupa A"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Rihari Taniora (adult)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ],
   "links": [
    {
     "link_id": "L383",
@@ -11005,6 +11376,23 @@
     "shares": ".071",
     "source_id": "S07",
     "document_id": "PW-1526219"
+   },
+   {
+    "link_id": "L584",
+    "tupuna_id": "T092",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Rihari Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ]
  },
@@ -11116,7 +11504,24 @@
   "notes": "Son of Taniora Rihari, deceased before 1932: his seventh passed to his seven children (1/49 each) with Rahera Hetaraka Taniora as trustee — presumably his widow. Inferred from the schedule structure.",
   "source": "Māori Land Court records (Pātaka Whenua) — Taupo 23C succession order schedule, 29 Feb 1932 (doc 1527268)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Hetaraka Taniora (adult)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ],
   "links": [
    {
     "link_id": "L342",
@@ -11213,6 +11618,23 @@
     "relationship": "Child",
     "notes": "",
     "source": "Māori Land Court records (Pātaka Whenua) — Taupo 23C succession order schedule, 29 Feb 1932 (doc 1527268)"
+   },
+   {
+    "link_id": "L582",
+    "tupuna_id": "T094",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Hetaraka Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ]
  },
@@ -12550,6 +12972,22 @@
     "document_url": "https://drive.google.com/file/d/1NsRtV2QrWI0KPcOWbx_I0uhsmSDDEIb9/view",
     "document_id": "PW-1527268",
     "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Matire Taniora, aged 4 — Taniora Rihari trustee",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
    }
   ],
   "links": [
@@ -12617,6 +13055,23 @@
     "shares": "4.000",
     "source_id": "S07",
     "document_id": "PW-1527452"
+   },
+   {
+    "link_id": "L586",
+    "tupuna_id": "T117",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Matire Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ]
  },
@@ -14067,20 +14522,117 @@
     "latitude": null,
     "longitude": null,
     "relationship": "Child",
-    "notes": "",
-    "source": "",
+    "notes": "Raiha Taniora, née Raiha Arama",
+    "source": "Whānau whakapapa (6 Oct 2026)",
     "document_id": ""
+   },
+   {
+    "link_id": "L578",
+    "tupuna_id": "T148",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Arama te Puhi",
+    "linz_title": "",
+    "shares": "1/2",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
    }
   ],
   "name": "Arama Te Patara",
-  "other_names": "",
+  "other_names": "Arama te Puhi; Arama Patara; Arama Whakapeka alias Arama Patara (Mangaiti No 1)",
   "born": "",
-  "died": "",
+  "died": "1895-05-17",
   "birthplace": "",
   "mother": "Tahāwai",
   "father": "Te Patara Te Whakararowai",
-  "notes": "Erimana Taniora",
-  "source": ""
+  "notes": "Father of Raiha Taniora (T013) — whānau whakapapa (note: 'Erimana Taniora'); son of Te Patara Te Whakararowai and Tahāwai.\n\nIN THE COURT RECORD (17 Oct 2026): 'Patara te Whakarorowai, 2.4.80 → Arama te Puhi m 1/2, Horiana Motio f 1/2' opens the Waikukupa succession list (doc 1428316), so Arama te Puhi is his Court name at Waikukupa. The same list enters 'Arama Patara alias Arama te Puhi — 1 1/2 sh. No 1, No 3A — 10.11.98: Letters of Administration to Peti Henare Kingi, Poni Rewharewha. The devisees are (as to Waikukupa) Hone Arama, Erana Arama, Matarai Arama, Peti Henare Kingi' — he died testate, before Nov 1898. Mangaiti No 1 (doc 1446852) has original owner no. 1 'Arama Whakapeka alias Arama Patara (dead) — died 17/5/95', 18 shares, succeeded 2 Nov 1909 by Peti Henare Kingi f — the same administratrix/devisee, so the same man, giving a death date of 17 May 1895. Taniora Rihari was a fellow original owner of Mangaiti No 1 (1873). Raiha, who died in March 1897, is not among the Waikukupa devisees; whether Hone, Erana and Matarai Arama are her siblings is not yet shown by a minute.",
+  "source": "",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Arama te Puhi",
+    "source_id": "S07",
+    "date": "1880-04-02",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": "Successor on List of owners doc 1428316 — Waikukupa, Waikukupa A"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Arama Patara alias Arama te Puhi",
+    "source_id": "S07",
+    "date": "1880-04-02",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": "Deceased on List of owners doc 1428316 — Waikukupa, Waikukupa A"
+   },
+   {
+    "identity_id": "N003",
+    "name": "Arama Whakapeka alias Arama Patara",
+    "source_id": "S07",
+    "date": "1891–1909",
+    "document_url": "https://drive.google.com/file/d/1gF0xufQ1_WXqghzm5jPKk3HwCBn3tDt2/view",
+    "document_id": "PW-1446852",
+    "note": "Deceased on List of owners doc 1446852 — Mangaiti No 1",
+    "confidence": "inferred"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1880-04-02",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "As 'Arama te Puhi' succeeded, with Horiana Motio, to half each of his father Patara te Whakarorowai's interest in Waikukupa",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1895-05-17",
+    "place_type": "Block",
+    "place_ref": "",
+    "place_detail": "Mangaiti No 1",
+    "latitude": null,
+    "longitude": null,
+    "description": "'Arama Whakapeka (dead) — died 17/5/95' on the Mangaiti No 1 succession schedule, where he was original owner no. 1 (18 shares) alongside Taniora Rihari",
+    "source_id": "S07",
+    "confidence": "inferred",
+    "document_url": "https://drive.google.com/file/d/1gF0xufQ1_WXqghzm5jPKk3HwCBn3tDt2/view",
+    "document_id": "PW-1446852",
+    "note": "identification of Arama Whakapeka alias Arama Patara with Arama te Puhi / Arama Te Patara rests on the common alias 'Arama Patara' and on Peti Henare Kingi taking both estates"
+   },
+   {
+    "event_id": "E003",
+    "type": "Other",
+    "date": "1898-11-10",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Letters of administration of his estate (1 1/2 shares, Waikukupa No 1 and No 3A) to Peti Henare Kingi and Poni Rewharewha; devisees as to Waikukupa: Hone Arama, Erana Arama, Matarai Arama and Peti Henare Kingi",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ]
  },
  {
   "tupuna_id": "T149",
@@ -14221,5 +14773,391 @@
    }
   ],
   "links": []
+ },
+ {
+  "tupuna_id": "T150",
+  "name": "Patara te Whakarorowai",
+  "other_names": "Te Patara Te Whakararowai; Patara te Whakarorowai",
+  "born": "",
+  "died": "before 1880-04-02",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Father of Arama Te Patara (T148) in the whānau whakapapa. The Waikukupa succession list (doc 1428316) opens with him: 'Patara te Whakarorowai, 2.4.80 → Arama te Puhi m 1/2, Horiana Motio f 1/2' (the earlier struck-through list dates the order 9.10.96). He is therefore an original owner of Waikukupa (Whangaroa) and great-grandfather of Arama Taniora (T002) through Raiha Taniora (T013).",
+  "source": "Whānau whakapapa; MLC records (doc 1428316)",
+  "identities": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Death",
+    "date": "before 1880-04-02",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Deceased by the sitting of 2 Apr 1880 at which his Waikukupa interest was succeeded to",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Succession order",
+    "date": "1880-04-02",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "His interest in Waikukupa to Arama te Puhi (m) and Horiana Motio (f), half each",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L593",
+    "tupuna_id": "T150",
+    "location_type": "Tupuna",
+    "location_ref": "T148",
+    "location_detail": "Arama Te Patara",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "as Arama te Puhi, 1/2 successor 2 Apr 1880",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   },
+   {
+    "link_id": "L594",
+    "tupuna_id": "T150",
+    "location_type": "Tupuna",
+    "location_ref": "T151",
+    "location_detail": "Horiana Motio",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Child",
+    "notes": "1/2 successor 2 Apr 1880 (relationship to Patara inferred from the joint succession)",
+    "source": "Māori Land Court records (Pātaka Whenua) — Waikukupa succession order list (doc 1428316)"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T151",
+  "name": "Horiana Motio",
+  "other_names": "Horiona Motio",
+  "born": "",
+  "died": "1915",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Co-successor with Arama te Puhi (Arama Te Patara, T148) to Patara te Whakarorowai's Waikukupa interest, 2 Apr 1880 (doc 1428316) — so a sister, or at least a close kinswoman, of Raiha Taniora's father; also took one share of Mohi te Rahiri (24 Oct 1894). Owner no. 2 of Waikukupa A (50.000 of 100.000 shares) after the 1901 partition. Died 1915; her succession of 16 Mar 1916 (N 56/311) went to twelve people in sevenths, fourteenths and twenty-eighths: Poni Rewharewha 1/7 (one of Hare Hongi Hika's successors of 1890), 'Hira Hi Taniora', Hemo Hoera, Pinikera Hoera and Henare Tutere 1/28 each, Wereta Hura 1/7, Kate and Puti Hemi 1/14 each, Pahi and Ruakino Puru 1/14 each, Hau and Rutete Toetoe 1/7 each (docs 1428316, 1428389). That pattern (one seventh split four ways) suggests a deceased sibling's line — the Taniora quarter-share is worth tracing.",
+  "source": "MLC records (docs 1428316, 1428389)",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Horiona Motio",
+    "source_id": "S07",
+    "date": "1880-04-02",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": "Successor on List of owners doc 1428316 — Waikukupa, Waikukupa A",
+    "confidence": "inferred"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1880-04-02",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Half of Patara te Whakarorowai's interest in Waikukupa, with Arama te Puhi",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   },
+   {
+    "event_id": "E002",
+    "type": "Death",
+    "date": "1915",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Bracketed date against her name on the Waikukupa A continuation sheet (N 56/311)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   },
+   {
+    "event_id": "E003",
+    "type": "Succession order",
+    "date": "1916-03-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "Her 50.000 shares in Waikukupa A to twelve successors: Poni Rewharewha, Wereta Hura, Hau and Rutete Toetoe 1/7 each; Kate and Puti Hemi, Pahi and Ruakino Puru 1/14 each; Hira Hi Taniora, Hemo and Pinikera Hoera, Henare Tutere 1/28 each (N 56/311)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/18lsjhSrelng4cSm2Q2qR4fo25CkJnbv6/view",
+    "document_id": "PW-1428389",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L579",
+    "tupuna_id": "T151",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Horiona Motio",
+    "linz_title": "",
+    "shares": "1 share",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T152",
+  "name": "Hemi Rihari",
+  "other_names": "Himi Rihari",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Son of Rihari te Kuri (T012) and brother of Taniora Rihari (T003): one of the three successors 'in equal shares' to Rihari te Kuri's Waikukupa interest, 19 Feb 1894 (certificate doc 1428614, 'Himi Rihari m.a.'; list doc 1428316, 'Hemi Rihari'). Lead: the 'Hone Hemi Rihari or Hone Hemi Tau or Hone Hemi or Hone Tau or Hone Kae' who died Dec 1942 (Waikukupa C, doc 1428324; succeeded solely by his daughter Maki Hone Hemi, b. c. 1903) is probably his son.",
+  "source": "MLC records (docs 1428614, 1428316)",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Himi Rihari",
+    "source_id": "S07",
+    "date": "1894-02-19",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": "Successor on Court order doc 1428614 — Waikukupa"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1894-02-19",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One third of his father Rihari te Kuri's interest in Waikukupa, with Taniora Rihari and Matire Ritete",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L576",
+    "tupuna_id": "T152",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428614",
+    "as_recorded": "Himi Rihari",
+    "linz_title": "",
+    "shares": "1/3",
+    "source_id": "S07",
+    "document_id": "PW-1428614"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T153",
+  "name": "Matire Putete",
+  "other_names": "Matire Ritete",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Daughter of Rihari te Kuri (T012) and sister of Taniora Rihari (T003): the third successor 'in equal shares' to Rihari te Kuri's Waikukupa interest, 19 Feb 1894 ('Matire Ritete f.a.' on the certificate doc 1428614; 'Matire Putete' on the list doc 1428316). Putete/Ritete is presumably her husband's name. Taniora Rihari's youngest daughter Matire Taniora (T117, b. c. 1894) carries her name.",
+  "source": "MLC records (docs 1428614, 1428316)",
+  "identities": [
+   {
+    "identity_id": "N001",
+    "name": "Matire Ritete",
+    "source_id": "S07",
+    "date": "1894-02-19",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": "Successor on Court order doc 1428614 — Waikukupa"
+   }
+  ],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1894-02-19",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One third of her father Rihari te Kuri's interest in Waikukupa, with Taniora Rihari and Himi Rihari",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1NC6fkyMfzgWLzcqBEm4zazbfn__s_tjF/view",
+    "document_id": "PW-1428614",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L577",
+    "tupuna_id": "T153",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428614",
+    "as_recorded": "Matire Ritete",
+    "linz_title": "",
+    "shares": "1/3",
+    "source_id": "S07",
+    "document_id": "PW-1428614"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T154",
+  "name": "Hoana Pereme",
+  "other_names": "",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Eldest-listed child of Taniora Rihari (T003) and Raiha Taniora (T013): 'Hoana Pereme F a' — an adult daughter under a married name — took 1/7 of her mother's Waikukupa interest on 16 Jul 1898 (doc 1428316), with Himi, Hetaraka, Arama and Rihari Taniora and the minors Manga and Matire. Not named in the 1932 succession to Taniora Rihari (doc 1527268), where seven lines are still counted — her line is probably one of the two not yet matched there (the Kini/Tarapatiki/Ngarangi group or the Heremaia Kingi children).",
+  "source": "MLC records (doc 1428316)",
+  "identities": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Hoana Pereme (adult)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L580",
+    "tupuna_id": "T154",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Hoana Pereme",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T155",
+  "name": "Himi Taniora",
+  "other_names": "",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Son of Taniora Rihari (T003) and Raiha Taniora (T013): 'Himi Taniora M a', an adult in 1898, took 1/7 of his mother's Waikukupa interest on 16 Jul 1898 (doc 1428316). The Tauaki schedule (doc 1526207) records a 'Himi Taniora' who died 1918 and whose interest was divided on 29 Feb 1932 (N66A/100) among the same 29 successors in sevenths as Taniora Rihari's (N66A/99) — currently read on the map as a further name of Taniora Rihari himself, but it may be this son (D020). The 'Hira Hi Taniora' who took 1/28 of Horiana Motio in 1916 and whose own succession was heard the same day (N 66A/119, Waikukupa A) is another candidate reading of the same name.",
+  "source": "MLC records (doc 1428316)",
+  "identities": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Succession order",
+    "date": "1898-07-16",
+    "place_type": "Block",
+    "place_ref": "29252",
+    "place_detail": "Waikukupa (Whangaroa) — parent block",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "description": "One seventh of mother Raiha Taniora's interest in Waikukupa, as Himi Taniora (adult)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1_r423RU8WEZpHZ1f9Fs8DmjxpJsgF4EX/view",
+    "document_id": "PW-1428316",
+    "note": ""
+   }
+  ],
+  "links": [
+   {
+    "link_id": "L581",
+    "tupuna_id": "T155",
+    "location_type": "Block",
+    "location_ref": "29252",
+    "location_detail": "Waikukupa C No1",
+    "latitude": -35.0999,
+    "longitude": 173.7528,
+    "relationship": "Owner",
+    "notes": "by succession; parent block Waikukupa, Waikukupa A — now 6 titles",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1428316",
+    "as_recorded": "Himi Taniora",
+    "linz_title": "",
+    "shares": "1/7",
+    "source_id": "S07",
+    "document_id": "PW-1428316"
+   }
+  ]
  }
 ]
