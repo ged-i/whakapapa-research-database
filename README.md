@@ -127,7 +127,7 @@ in `drive_manifest.json` are added. Files over about 6 MB cannot be fetched thro
 — attach them to the chat or split them. PDFs attached to the chat instead of Drive are listed under
 `attached` in the manifest and indexed without a link; drop the same file into Drive later and the next
 scan links it (the record is matched by its Pātaka Whenua document number). Records that name people with no link yet to a tupuna are
-kept unattributed and the possible links are logged in `discrepancies.json` (D007–D021). The 1980–81 minute pages and orders on the Arama successions (docs 1682179, 1688319, 1688320, 1688372, 1688373, 1355755, 1355385, 1355796) are attached-only — drop them into the Taupo and Rotokakahi sub-folders to link them. The Tutukau East Z, Kaingapipiwai, Waikukupa and Ngatikahu folders were linked from Drive in October 2026; the Waikukupa succession lists (docs 1428614, 1428316) confirm Rihari te Kuri as Taniora Rihari's father and record Raiha Taniora's death (24 Mar 1897) and seven children.
+kept unattributed and the possible links are logged in `discrepancies.json` (D007–D021). The 1980–81 minute pages and orders on the Arama successions (docs 1682179, 1688319, 1688320, 1688372, 1688373, 1355755, 1355385, 1355796) are attached-only — drop them into the Taupo and Rotokakahi sub-folders to link them. The Tutukau East Z, Kaingapipiwai, Waikukupa, Ngatikahu and Whatuwiwi folders were linked from Drive in October 2026; the Waikukupa succession lists (docs 1428614, 1428316) confirm Rihari te Kuri as Taniora Rihari's father and record Raiha Taniora's death (24 Mar 1897) and seven children.
 
 ## Saving to the repo from the map (person record)
 

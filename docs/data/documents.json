@@ -51554,5 +51554,6409 @@
    }
   ],
   "notes": "Checked for whānau connections 22 Oct 2026: no tupuna of the Arama, Taniora Rihari, Hongi, Wiremu Tangata, Matiu Wiripo, Paraihe or Te Patara lines appears on this block. The one exact name match — Wiremu Matiu (no. 299) — is the Karikari/Te Kohanga Wiremu Matiu, son of Matiu Paewoi (doc 1407032), not Matiu Wiripo's son (T141): he sits here with his siblings Raniera, Reihana, Miha and Tiini Matiu. Some forty of the 1998 owners (the Umuroa, Motu, Oti Rapihana, Iehu Timoti Puhipi, Haimona Riapo Puhipi, Rupapera, Raniera Matiu and Subritzky families) are also owners in Te Kohanga, Karikari 2 and Whakakoro F in the database — Ngatikahu belongs to the same Ngāti Kahu / Te Rarawa ownership community as those blocks. Lead: the rare name 'Pereene' (Pereene Eriha Kiwini or Greaves, list 19, d. before 1973) is the name carried by Werahiko and Te Uinga Pereene Kini, who took a quarter each of one seventh of Taniora Rihari's lands in 1932 — see D021 (Hoana Pereme, Raiha Taniora's eldest daughter in 1898, as the head of that line). Ngatikahu (block 30426, Taipa) is in the 2017 index."
+ },
+ {
+  "document_id": "PW-1273082",
+  "doc_no": "1273082",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 1B1A1 'Marae' — Māori Reservation schedule (1.000 share, 0.0953 ha): Wahinekino Matiu sole owner; trustees appointed 1963 and 1977",
+  "blocks_recorded": [
+   "Whatuwiwi 1B1A1"
+  ],
+  "block_ids": [
+   "28975"
+  ],
+  "record_date": "1963-01-08",
+  "effective_date": "1998-10-09",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "KT 10/283-284",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00783991_01273082_0001_0001_LHO_Document-1273082.pdf",
+  "drive_id": "1bAy_DV-eZiIoErK559HVI2hqvxHZj9kb",
+  "file_size": "254679",
+  "url": "https://drive.google.com/file/d/1bAy_DV-eZiIoErK559HVI2hqvxHZj9kb/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 (17207) headed 'Marae': Whatuwiwi 1B1A1, 1.000 share (0.0953 ha). 'Maori Reservation. Successors not recorded.' Pencilled: 'Wahinekino Matiu (f) as sole owner absolute'. Trustees appointed 8.1.1963: 1 Rore Matiu m.a., Tane Parihana (struck), Wiremu Matiu (struck), Hopa Ho Reihana (struck) — removed KT 10/283-284, 4.10.77 — 2 Puhipi Manuera m.a., 3 Rona or Rua Rupapera f.a., 4 Ngareta Paora f.a., Tame Poharama (struck). New trustees appointed KT 10/283-284: 5 Simon Mathew Urlich, 6 Waitohi Hetaraka, 7 Moananui-a-kiwa Lawrence, 8 Joseph Rupapera, 9 Atihana Johns, 10 Tuhoe Manuera, 11 Karena Marsh, 12 Rutherford McCully Matiu, 13 Tohu Poharama, 14 Reweti David Hepi, 15 Riro Whakarau Ho Reihana.",
+  "names": [
+   {
+    "name": "Wahinekino Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "pencilled: '(f) as sole owner absolute'; Māori Reservation (marae), 1.000 share"
+   },
+   {
+    "name": "Rore Matiu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed 8.1.1963"
+   },
+   {
+    "name": "Tane Parihana",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963, removed KT 10/283-284, 4.10.77 (reading uncertain)"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963, removed 4.10.77 — the Karikari Matiu whānau"
+   },
+   {
+    "name": "Hopa Ho Reihana",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963, removed 4.10.77"
+   },
+   {
+    "name": "Puhipi Manuera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963 (reading uncertain)"
+   },
+   {
+    "name": "Rona or Rua Rupapera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963"
+   },
+   {
+    "name": "Ngareta Paora",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963"
+   },
+   {
+    "name": "Tame Poharama",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1963, removed 4.10.77"
+   },
+   {
+    "name": "Simon Mathew Urlich",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee, KT 10/283-284 (1977)"
+   },
+   {
+    "name": "Waitohi Hetaraka",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Moananui-a-kiwa Lawrence",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Joseph Rupapera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Atihana Johns",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Tuhoe Manuera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Karena Marsh",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Rutherford McCully Matiu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Tohu Poharama",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Reweti David Hepi",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   },
+   {
+    "name": "Riro Whakarau Ho Reihana",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1977"
+   }
+  ],
+  "notes": "Whatuwhiwhi marae reservation."
+ },
+ {
+  "document_id": "PW-1273085",
+  "doc_no": "1273085",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 1B1C — schedule of ownership orders: list of owners as at 29 Jan 1948 (Hone Pereene Tukariri, Kahorau Riwhi, Paihana Pereene Takariri); European land by declaration 1970 (CT 43C/1216); Kahorau Riwhi's 100 shares to Eugene Pivac (1991) and Lorraine Albert (1997)",
+  "blocks_recorded": [
+   "Whatuwiwi 1B1C"
+  ],
+  "block_ids": [
+   "28977"
+  ],
+  "record_date": "1948-01-29",
+  "effective_date": "1997-03-26",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "20 KT 45-46",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00783993_01273085_0001_0001_LHO_Document-1273085.pdf",
+  "drive_id": "1tL3VFaeUSgI08yGeiyjvdmQdqSh1Kb8Q",
+  "file_size": "246647",
+  "url": "https://drive.google.com/file/d/1tL3VFaeUSgI08yGeiyjvdmQdqSh1Kb8Q/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 (17209): Whatuwiwi 1B1C, area 28:3:30, 200.000 shares. List of owners as at 29.1.48: 1 Hone Pereene Tukariri m 50.000; 2 Kahorau Riwhi f 100.000 (→4); 3 Paihana Pereene Takariri m 50.000. 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967 — CT 43C/1216, 9.11.1970.' Kahorau Riwhi (list 2) → 4 Eugene Pivac by transmission 944959.1, 25.7.91; Eugene Pivac (list 4, 100.000, 20 KT 45-46), s.164/93, 26.3.97 → 5 Lorraine Shirley Eva Albert 11.111, 6 Eugene Pivac 88.889; certified copy to DLR 27.5.97.",
+  "names": [
+   {
+    "name": "Hone Pereene Tukariri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1, list of owners as at 29.1.48"
+   },
+   {
+    "name": "Kahorau Riwhi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; transmission 944959.1, 25.7.91 → 4 Eugene Pivac"
+   },
+   {
+    "name": "Paihana Pereene Takariri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3 ('Takariri' sic)"
+   },
+   {
+    "name": "Eugene Pivac",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4, by transmission from Kahorau Riwhi, 25.7.91; then transferor (20 KT 45-46, s.164/93, 26.3.97) → 5 Lorraine Shirley Eva Albert 11.111, 6 Eugene Pivac 88.889"
+   },
+   {
+    "name": "Lorraine Shirley Eva Albert",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "11.111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 26.3.97"
+   }
+  ],
+  "notes": "The Pereene/Perene Tukariri family — see docs 1524028 and 1523736 for Puhi Pereene (d. 8 Nov 1929) and D021."
+ },
+ {
+  "document_id": "PW-1273087",
+  "doc_no": "1273087",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 2A 'Meeting House' — Māori Reservation schedule (1.000 share, 1:0:00 / 0.4046 ha): Makinihi Kere (f) absolute as sole owner; successions not recorded",
+  "blocks_recorded": [
+   "Whatuwiwi 2A"
+  ],
+  "block_ids": [
+   "28978"
+  ],
+  "record_date": "1963",
+  "effective_date": "1998-10-09",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00783996_01273087_0001_0001_LHO_Document-1273087.pdf",
+  "drive_id": "1Veubj3QavF49s19P1RyzF0107QFUZ2FG",
+  "file_size": "217115",
+  "url": "https://drive.google.com/file/d/1Veubj3QavF49s19P1RyzF0107QFUZ2FG/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 headed 'Meeting House' (17210): Whatuwiwi 2A, area 1:0:00 (0.4046 ha), 1.000 share — 'Maori Reservation. Successions not recorded.' (prepared/checked 1963); pencilled 'Makinihi Kere (F) absolute as sole owner'; checked 'Briar 8/10/98, Marama 9.10.98'.",
+  "names": [
+   {
+    "name": "Makinihi Kere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole owner, absolute; Māori Reservation (meeting house)"
+   }
+  ],
+  "notes": "Whatuwiwi marae block."
+ },
+ {
+  "document_id": "PW-1273091",
+  "doc_no": "1273091",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 2B1 — list of 91 owners (correct as at 1989; 36.6670 ha, 316.667 shares) and the orders of 1980–1998: the Taua, Berghan, Nepia Reeve, Witana/Flavell, Murray and Rupapera successions and whānau trusts (9 pages)",
+  "blocks_recorded": [
+   "Whatuwiwi 2B1"
+  ],
+  "block_ids": [
+   "28981"
+  ],
+  "record_date": "1989",
+  "effective_date": "1998-04-16",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "RW 3/120, 3/125; 14 KT 64; 6 RG 359, 377; 7 RG 11, 109-110; 20 AK(S) 362-363; 8 RG 94; 5 RG(S) 101; 1 KT(S) 260; 20 KT 75, 206-207; 19 KT 300-1",
+  "pages": 9,
+  "page_range": "",
+  "file_name": "00784000_01273091_0001_0009_LHO_Document-1273091.pdf",
+  "drive_id": "1eSUIF3PcqonwHFQzw_DztkGfAVPXqImU",
+  "file_size": "2966920",
+  "url": "https://drive.google.com/file/d/1eSUIF3PcqonwHFQzw_DztkGfAVPXqImU/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Pages 1–4 (file 041/1, 17213): typed list of 91 owners of Whatuwiwi 2B1, area 36.6670 ha (90:2:17), 316.667 shares, 'correct as at' 1989 — from Anaha Taipari or Anaha Tame Mapere (16.667) to Witana Witana (struck); the largest Timoti Hami Paihana Flavell 85.278, then Anaha Taipari, Annie Ransfield, Hilda Juanita Murray and Rangimarie Rere Witana at 16.667 each, Kahiti Kahiti Hapakuku 8.333, the Matiu brothers (Lawrence, Len, Manuera, Moheta, Taniwha, Tauhou, Whango) at 4.701/4.702; two entries carry life interests with named remaindermen (Raiha Mahirau Ihaka; Tame Muru Waata or Thomas Houston Walters). The 91 values sum to 316.668. Pages 5–9: Bella Henare or Bella Taua → executrices (1989) → six Taua successors (1990); Benjamin Eddie Berghan → Melita Edith Berghan (1990) → Graeme Benjamin Berghan (1992); Te Horiana Nepia Reewe @ George Nepia Reeve → Mary Nepia as administratrix (1980) → seven Nepia (1981); Rangimarie Rere Witana → Timoti Flavell (1985); Te Koiuru (Parani) Nepia Reewe → four (1991); Tau Henare Taua → administrators → Niurangi Lyle Taua (1992); Ngahikitanga Nepia Reeve → Mavis Manna Topia and Witana Robert Earl Nepia (1995); Timoti Hemi Paihana Flavell's 101.945 → the Timoti Hemi Paihana Whānau Trust (1997); Hilda Juanita Murray → Ellen Erana Murray-De Ridder (1998); Hohepa Rupapera II → whānau trust (1996).",
+  "names": [
+   {
+    "name": "Anaha Taipari or Anaha Tame Mapere",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Ani Ngakope Blagrove",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Annie Ransfield",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "16.666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Aubrey Michael Nepia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Awaroa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Bella Henare or Bella Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 92"
+   },
+   {
+    "name": "Benjamin Eddie Berghan",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 99"
+   },
+   {
+    "name": "Bibi Kanara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Charles Bernard Nepia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Charmaine Kate Pere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Donald Edward Woodcock",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Edward John Johns",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Frances Tame Mare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Frank Rennie Woodcock",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "George Nepia Reeve",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 101"
+   },
+   {
+    "name": "Glenis Elaine Edwards",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hami Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Harold Wiremu Herewini",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hauanui Burfton",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hemoata Marsh",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Henry Wayne Pere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hilda Juanita Murray",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 120"
+   },
+   {
+    "name": "Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hohepa Rupapera II",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.041",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 121"
+   },
+   {
+    "name": "Hohepa Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Horiana Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Te Horiana Nepia Reewe",
+    "role": "Owner",
+    "sex": "md",
+    "age": "",
+    "shares": "0.695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Hune Robson",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Jean Aroha Koha Woodcock",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Jeremy Phillip Nepia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.396",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Joseph George Nepia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Joseph Bryant Pere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Josephine May De Thier",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Joy Clarke",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Kahiti Kahiti Hapakuku or Kahiti Tamati Kerehoma or Kahiti Tamati Murray",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "8.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Karen Sands",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Keith Sidney Masters",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Te Koiuru (Parani) Nepia Reewe",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.694",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 110–113"
+   },
+   {
+    "name": "Lawrence Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Len Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Lilyann Webb",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Lloyd David Johns",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Manuera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Mary Jessie Ellen Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Maryanne Sirikit Pere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Matehereora Hira Witana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Matekino Heke Ua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.042",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Mere Mahue Murphy",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Mildred Kaye Riddell",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Millie Wiendelborne",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Miraka Herbert",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.041",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Miriraena Golf",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Moana Piere Pere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Moheta Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.702",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Maki Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Mori Takekore Nepia Rewe or Mrs Mita King",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Naera Clare Evans or Mrs N C Stensness",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Ngahikitanga Nepia Reewe",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 117"
+   },
+   {
+    "name": "Ngahikitanga Te Kanawa Nepia Rewe",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 118"
+   },
+   {
+    "name": "Paki Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.042",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Polly Lawrence",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.702",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 62; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Puotehuia (II) Graham",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Raiha Mahirau Ihaka (subject to a life interest, remainder to Maurice Edwin Ihaka, David Kini Ihaka, Joy Elizabeth Ihaka, Dawn Tangipo Hineauta Ihaka)",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 64; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Ramari Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 65; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Ralph David Berghan as executor of the estate of Ho Parikena",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 66; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Rangimarie Muru",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 67; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Rangimarie Rere Witana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 68; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck → 109"
+   },
+   {
+    "name": "Rawhiti Tame Manuera or Rawhitingawaka Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.694",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 69; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Raymond Martin Pere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 70; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Reweti Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 71; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Rhoda Hinetekai Smith",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 72; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Riki Reihana Eru Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 73; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Robina Joy Pere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 74; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Sarah Jacqueline Magee",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 75; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Take Hemi Manuera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.388",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 76; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Tame Muru Waata or Thomas Houston Walters (for life or until remarriage, remainder to Rihipeti Hinerangi Reid, Muru Hori Walters, Tangimoana Opai, Keere Makihi Rapihana, Marara Walters, Noel Thomas Walters, Anita June Whitehouse, Matiu Thomas Walters, Peggy Angland, Patana Thomas Walters)",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 77; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Taniwha Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.702",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 78; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Tauhou Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.701",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 79; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Teresa Maude Trask",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 80; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Thomson Lawrence",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 81; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Thyra May West",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Timoti Hami Paihana Flavell",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "85.278",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 83; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Vivienne Leigh Pere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.470",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 84; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Waata Te Ripi Taua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Waera Taua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Whango Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.702",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "William Mark Nepia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 88; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Wiremu Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.522",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Witaka Reweti",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 90; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares)"
+   },
+   {
+    "name": "Witana Witana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.388",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 91; list of 91 owners, correct as at 1989 (36.6670 ha, 316.667 shares); struck  (struck)"
+   },
+   {
+    "name": "Bella Henare or Bella Taua",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6, 1.852; 6 RG(?) 359; s.81/67, 25.3.89 → 92 Audrei Anne Massey and Niurangi Lyle Taua appointed executrices; their estate order (6 RG 377, s.81A/67, 25.7.90) → 93 Tau Henare Taua .308, 94 Paatu Bernard Taua .308, 95 Mairehau Tui Cole .309, 96 Tamihana Shirley Potaka .309, 97 Niurangi Lyle Taua .309, 98 Puna Carolyn McConnell .309"
+   },
+   {
+    "name": "Benjamin Eddie Berghan",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 7, 3.333; 7 RG 11; s.81/67, 11.9.90 → 99 Melita Edith Berghan as executrix → 100 Melita Edith Berghan, s.81A/67, 4.12.90 → 115 Graeme Benjamin Berghan, s.213/53, 13.8.1992 (7 RG 109-110)"
+   },
+   {
+    "name": "Melita Edith Berghan",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 99–100, 1990; transferor → 115 Graeme Benjamin Berghan, 13.8.92"
+   },
+   {
+    "name": "Graeme Benjamin Berghan",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 115, 13.8.92"
+   },
+   {
+    "name": "Te Horiana Nepia Reewe @ George Nepia Reeve",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 15, 2.778; RW 3/125; s.81/67, 3.12.80 → 101 Mary Nepia as administratrix; → 102 Aubrey Michael, 103 Lilyann Webb, 104 Teresa Maude Trask, 105 William Mark, 106 Joseph George, 107 Charles Bernard, 108 Jeremy Philip Nepia .397/.396 each, s.81A/67 & 34(10)/53, 4.9.81 (RW 3/120)"
+   },
+   {
+    "name": "Mary Nepia",
+    "role": "Administrator",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101; administratrix of Te Horiana Nepia Reewe @ George Nepia Reeve, 3.12.80"
+   },
+   {
+    "name": "Rangimarie Rere Witana",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 68, 16.667; 14 KT 64; s.213/53 & 30(10), 5.11.85 → 109 Timoti Flavell m.a. (→ 119)"
+   },
+   {
+    "name": "Timoti Flavell",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 109; 16.667 from Rangimarie Rere Witana, 5.11.85; with list 83 (85.278) → 119 Timoti Hemi Paihana Whānau Trust, 101.945, s.214 & 222/93, 26.5.97 (20 KT 75) — trustees Timoti Flavell (Snr), Paul Greaves, Denise Hi, Derek Flavell, Tamehaarangi Flavell"
+   },
+   {
+    "name": "Te Koiuru (Parani) Nepia Reewe",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".694",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 39, .694; 20 AK(S) 362-363; s.213/53, 11.7.91 → 110 Mildred Kaye Riddell .174, 111 Sarah Jacqueline Ingram (Magee) .174, 112 Thyra May West .173, 113 Lloyd David Johns .173"
+   },
+   {
+    "name": "Tau Henare Taua",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".308",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 93, .308; 8 RG 94; s.81/67, 31.8.92 → 114 Mairehau Tui Cole and Puna Carolyn McConnell as administrators → 116 Niurangi Lyle Taua .308 (→ .617), s.81A/67, 8.10.92 (5 RG(S) 101)"
+   },
+   {
+    "name": "Niurangi Lyle Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 97 and 116 — .617"
+   },
+   {
+    "name": "Ngahikitanga Nepia Reeve or Ngahikitanga Te Kanawa Nepia Reeve",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "4.166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "lists 59–60, 1.389 + 2.777 = 4.166; 1 KT(S) 260; s.113, 118/93, 8.8.95 → 117 Mavis Manna Topia f 2.083, 118 Witana Robert Earl Nepia m 2.083"
+   },
+   {
+    "name": "Timoti Hemi Paihana Flavell",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "101.945",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "lists 83 & 109, 101.945; 20 KT 75; s.214 & 222/93, 26.5.97 → 119 Timoti Hemi Paihana Whānau Trust"
+   },
+   {
+    "name": "Timoti Hemi Paihana Whānau Trust",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "101.945",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 119; trustees Timoti Flavell (Snr), Paul Greaves, Denise Hi, Derek Flavell, Tamehaarangi Flavell"
+   },
+   {
+    "name": "Hilda Juanita Murray",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 22, 16.667; 20 KT 206-207; s.164/93, 16.4.98 → 120 Ellen Erana Murray-De Ridder F"
+   },
+   {
+    "name": "Ellen Erana Murray-De Ridder",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 120, 16.4.98"
+   },
+   {
+    "name": "Hohepa Rupapera II",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.041",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 24, 1.041; 19 KT 300-1; s.214 & 219(1)/93, 9.11.96 → 121 Hohepa Rupapera II Whānau Trust — trustees Harold Rupapera, Joseph Rupapera (Snr), Kupa Rupapera, Heeni Pure, Millie Rupapera, Molly Rupapera, Makere Rupapera"
+   }
+  ],
+  "notes": "The 1962 compiled list for the same block is doc 1523786. No whānau tupuna on the title."
+ },
+ {
+  "document_id": "PW-1273095",
+  "doc_no": "1273095",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 4A 'Church Site and Cemetery Reserve' — Māori Reservation schedule (15.666 shares, 1.0117 ha): trustees appointed 1967 and replaced 1974",
+  "blocks_recorded": [
+   "Whatuwiwi 4A"
+  ],
+  "block_ids": [
+   "28984"
+  ],
+  "record_date": "1967-07-04",
+  "effective_date": "1998-10-09",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "KT 4/273; KT 8/215",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00784004_01273095_0001_0001_LHO.pdf",
+  "drive_id": "1EwLxRir1ZD4K93dKVILC7NvOAopPrZna",
+  "file_size": "257364",
+  "url": "https://drive.google.com/file/d/1EwLxRir1ZD4K93dKVILC7NvOAopPrZna/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 (17216) headed 'Church Site and Cemetery Reserve': Whatuwiwi 4A, 15.666 shares (1.0117 ha). 'Maori Reservation — Successions not recorded' (1963). Trustees (sec. 439/53, 4.7.1967, KT 4/273; several later struck as deceased): Kiri Mu Hapa f.a., Te Kawau Timoti Hetaraka m.a., Ngarete Mu Mare f.a., Simon Mathew Urlich m.a., Pula Papa Rameka m.a., Aroha Manuera f.a., Patana Matiu m.a. New trustees replacing those crossed out (sec. 439/53, KT 8/215, entered 1974): Tom Poharama, Faenza King, Peter Rupapera, Hopa Reihana, Robert Manuera, Taniwha Matiu, James Hoani Taua. Checked Briar 9/10/98, Marama 2.10.98.",
+  "names": [
+   {
+    "name": "Maori Owners",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "15.666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Māori Reservation — church site and cemetery; successions not recorded"
+   },
+   {
+    "name": "Kiri Mu Hapa",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, order s.439/53, 4.7.1967 (reading uncertain)"
+   },
+   {
+    "name": "Te Kawau Timoti Hetaraka",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967"
+   },
+   {
+    "name": "Ngarete Mu Mare",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967 (reading uncertain)"
+   },
+   {
+    "name": "Simon Mathew Urlich",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967"
+   },
+   {
+    "name": "Pula Papa Rameka",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967 (reading uncertain)"
+   },
+   {
+    "name": "Aroha Manuera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967"
+   },
+   {
+    "name": "Patana Matiu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee 1967"
+   },
+   {
+    "name": "Tom Poharama",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974 (s.439/53, KT 8/215)"
+   },
+   {
+    "name": "Faenza King",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   },
+   {
+    "name": "Peter Rupapera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   },
+   {
+    "name": "Hopa Reihana",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   },
+   {
+    "name": "Robert Manuera",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   },
+   {
+    "name": "Taniwha Matiu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   },
+   {
+    "name": "James Hoani Taua",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee 1974"
+   }
+  ],
+  "notes": "Pinned to 'Whatuwiwi 4 Part' (28984) in the 2017 index."
+ },
+ {
+  "document_id": "PW-1273099",
+  "doc_no": "1273099",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 5 — list of 61 owners under the partition order of 29 Nov 1989 (4.1150 ha, 10.000 shares) and the 1993 succession to Waitai Raharuhi",
+  "blocks_recorded": [
+   "Whatuwiwi 5"
+  ],
+  "block_ids": [
+   "28494"
+  ],
+  "record_date": "1989-11-29",
+  "effective_date": "1993-10-26",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "1 KT(S) 211; 2 WH(S) 339",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00784007_01273099_0001_0003_LHO_Document-1273099.pdf",
+  "drive_id": "13hvZl0Ames4UDn1SyIBdgYwruMyMhPma",
+  "file_size": "893177",
+  "url": "https://drive.google.com/file/d/13hvZl0Ames4UDn1SyIBdgYwruMyMhPma/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Three M.A. 835 pages (17219): 'Partition Order dated 29.11.89', Whatuwiwi 5, 4.1150 ha, 10.000 shares. Typed list of 61 owners from Ani Clark (0.255) to William Matthews (0.006) — the largest holdings Mirimiri Hoani Taua or Mrs Franks, Mutunga Raharuhi and Paea Matiu (1.143 each), Tamati Raharuhi (1.111), James (Hemi) Paul as administrator of Ngareta Reihana Poharama (0.635), Hetaraka Rivers (0.567), Patrick Rivers (0.566); the Poharama family at 0.053 each, the Ted Smith and Matiu children at 0.006, the Eriha Kiriwi family (Mary Greaves as administratrix of Pereene Eriha Kiriwi, Ngarama, Rita, Waitonga) at 0.022. On the typed pages the share is printed on the line above its owner; re-aligned, the 61 values sum exactly to 10.000. Waitai Raharuhi (list 58, .032) → 62 Himi Paora Kanihou Raharuhi .010, 63 Eric Zinsli Raharuhi .011, 64 Waitai Piripi Raharuhi .011 (1993).",
+  "names": [
+   {
+    "name": "Ani Clark",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.255",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; partition order 29.11.89"
+   },
+   {
+    "name": "Andrew Poharama",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; partition order 29.11.89"
+   },
+   {
+    "name": "Charlie Ted Smith",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; partition order 29.11.89"
+   },
+   {
+    "name": "Cora Bishop",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; partition order 29.11.89"
+   },
+   {
+    "name": "Christina Cross",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.318",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; partition order 29.11.89"
+   },
+   {
+    "name": "Ellen Ted Smith",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; partition order 29.11.89"
+   },
+   {
+    "name": "Erana Roseana Haretiku",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; partition order 29.11.89"
+   },
+   {
+    "name": "Esther Hartwell",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; partition order 29.11.89"
+   },
+   {
+    "name": "Fanny Ted Smith",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; partition order 29.11.89"
+   },
+   {
+    "name": "George Ted Smith",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; partition order 29.11.89"
+   },
+   {
+    "name": "Herangi Fletcher or Mrs R Matiu",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; partition order 29.11.89"
+   },
+   {
+    "name": "Hetaraka Rivers",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.567",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; partition order 29.11.89"
+   },
+   {
+    "name": "Hurae Wi Kaitaia",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; partition order 29.11.89"
+   },
+   {
+    "name": "James (Hemi) Paul as administrator in the estate of Ngareta Reihana Poharama",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.635",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; partition order 29.11.89"
+   },
+   {
+    "name": "Joseph Samuel Balle",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.022",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; partition order 29.11.89"
+   },
+   {
+    "name": "June Ted Smith",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; partition order 29.11.89"
+   },
+   {
+    "name": "Keeti Matiu",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; partition order 29.11.89"
+   },
+   {
+    "name": "Lorna Guthrie",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.254",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; partition order 29.11.89"
+   },
+   {
+    "name": "Make Wiremu Hoani Taua",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; partition order 29.11.89"
+   },
+   {
+    "name": "Maehe or Moehe Matiu",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; partition order 29.11.89"
+   },
+   {
+    "name": "Mary Greaves as administratrix in the estate of Pereene Eriha Kiriwi",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.022",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; partition order 29.11.89 — Pereene Eriha Kiriwi = the 'Pereene Eriha Kiwini or Greaves' of Ngatikahu (doc 1281544); D021"
+   },
+   {
+    "name": "Maude Poharama",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; partition order 29.11.89"
+   },
+   {
+    "name": "Matiu Poharama",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; partition order 29.11.89"
+   },
+   {
+    "name": "Mere Matiu",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; partition order 29.11.89"
+   },
+   {
+    "name": "Mere Kere Rameka",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; partition order 29.11.89"
+   },
+   {
+    "name": "Mereana Wi Kaitaia",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; partition order 29.11.89"
+   },
+   {
+    "name": "Mereana Hokai",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; partition order 29.11.89"
+   },
+   {
+    "name": "Meri Webb",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.254",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28; partition order 29.11.89"
+   },
+   {
+    "name": "Mirimiri Hoani Taua or Mrs Franks",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; partition order 29.11.89"
+   },
+   {
+    "name": "Mutunga Raharuhi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; partition order 29.11.89"
+   },
+   {
+    "name": "Ngahuka Hoani Taua or Mrs Te Hai Kingi",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; partition order 29.11.89"
+   },
+   {
+    "name": "Ngarama Eriha Kiriwi or Mrs T Finlay",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.022",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; partition order 29.11.89"
+   },
+   {
+    "name": "Paea Matiu",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "1.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; partition order 29.11.89"
+   },
+   {
+    "name": "Pahi Wi Kaitaia",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; partition order 29.11.89"
+   },
+   {
+    "name": "Paraone Wi Kaitaia",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; partition order 29.11.89"
+   },
+   {
+    "name": "Patrick Rivers",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.566",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; partition order 29.11.89"
+   },
+   {
+    "name": "Poiharuru Hong",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.254",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; partition order 29.11.89"
+   },
+   {
+    "name": "Pareiha Poharama",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; partition order 29.11.89"
+   },
+   {
+    "name": "Ranga Wi Kaitaia",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; partition order 29.11.89"
+   },
+   {
+    "name": "Ranga Poharama or Mrs Frasier",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; partition order 29.11.89"
+   },
+   {
+    "name": "Renata Hetaraka",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.318",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; partition order 29.11.89"
+   },
+   {
+    "name": "Riapo Raharuhi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; partition order 29.11.89"
+   },
+   {
+    "name": "Rina Umuroa Raharuhi",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.318",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; partition order 29.11.89"
+   },
+   {
+    "name": "Rita Kiriwi (Greaves)",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.022",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44; partition order 29.11.89"
+   },
+   {
+    "name": "Ruiha Wi Kaitaia",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; partition order 29.11.89"
+   },
+   {
+    "name": "Rutene Matiu",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; partition order 29.11.89"
+   },
+   {
+    "name": "Tamati Raharuhi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "1.111",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; partition order 29.11.89"
+   },
+   {
+    "name": "Tari Pou Heihei",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; partition order 29.11.89"
+   },
+   {
+    "name": "Tau or Tauhara Matiu",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; partition order 29.11.89"
+   },
+   {
+    "name": "Tau Shepherd II",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.254",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50; partition order 29.11.89"
+   },
+   {
+    "name": "Tiri Wi Kaitaia",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.005",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51; partition order 29.11.89"
+   },
+   {
+    "name": "Tohu Dick Poharama",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; partition order 29.11.89"
+   },
+   {
+    "name": "Talati Sarah Marsh",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; partition order 29.11.89"
+   },
+   {
+    "name": "Thomas Richard Poharama",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.052",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54; partition order 29.11.89"
+   },
+   {
+    "name": "Sandy Poharama",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.053",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55; partition order 29.11.89"
+   },
+   {
+    "name": "Timothy Arthur Drummond",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56; partition order 29.11.89"
+   },
+   {
+    "name": "Waera Hoani Taua",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57; partition order 29.11.89"
+   },
+   {
+    "name": "Waitai Raharuhi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; partition order 29.11.89; struck → 62–64"
+   },
+   {
+    "name": "Waitonga Eriha Kiriwi or Marsh",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "0.022",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; partition order 29.11.89"
+   },
+   {
+    "name": "Whati Jack Raharuhi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60; partition order 29.11.89"
+   },
+   {
+    "name": "William Matthews",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "0.006",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61; partition order 29.11.89 — not the Matiu Wiripo / Matthews whānau: the Karikari Matiu family (Keeti, Maehe, Mere, Paea, Rutene, Tau Matiu are on the same list)"
+   },
+   {
+    "name": "Waitai Raharuhi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "0.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 58, .032; 1 KT(S) 211 & 2 WH(S) 339; s.78A & 78A(7)/67, 14.6.93 & 26.10.93 → 62–64"
+   },
+   {
+    "name": "Himi Paora Kanihou Raharuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "0.010",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 62; from Waitai Raharuhi, 1993"
+   },
+   {
+    "name": "Eric Zinsli Raharuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "0.011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; from Waitai Raharuhi, 1993"
+   },
+   {
+    "name": "Waitai Piripi Raharuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "0.011",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 64; from Waitai Raharuhi, 1993"
+   }
+  ],
+  "notes": "Ngareta Paul of Ngatikahu (doc 1281544) is 'Ngareta Reihana Poharama' here. No whānau tupuna on the list."
+ },
+ {
+  "document_id": "PW-1523736",
+  "doc_no": "1523736",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 1B1C — succession order schedule: Puhi Pereene (d. 8 Nov 1929) to Tapuramuri, Hone and Paihana Pereene Tukariri, 29 Nov 1948, and the exchange order vesting Tapuramuri's interest in her brothers",
+  "blocks_recorded": [
+   "Whatuwiwi 1B1C"
+  ],
+  "block_ids": [
+   "28977"
+  ],
+  "record_date": "1948-11-29",
+  "effective_date": "1948-11-29",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 77/138",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01024163_01523736_0001_0001_LHO_Document-1523736.pdf",
+  "drive_id": "1Xc19XsW7LALbRx7tU7LxHo86W-4eF5na",
+  "file_size": "214094",
+  "url": "https://drive.google.com/file/d/1Xc19XsW7LALbRx7tU7LxHo86W-4eF5na/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16 / N.L.C. 16A succession order schedule for Whatuwiwi 1B1C. Puhi Pereene (N 77/138; 1/4 share; d. 8.11.29), 29.11.48 → Tapuramuri Pereene Tukariri f 1/12, Hone m 1/12, Paihana m 1/12, equally. Exchange order 29.11.48: 'whole of the interest of Tapuramuri Pereene Tukariri (1/12 + 1/4)' vested in Hone Pereene Tukariri m 1/2 and Paihana 1/2 equally (N 77/138).",
+  "names": [
+   {
+    "name": "Puhi Pereene",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 77/138; 1/4 interest; d. 8.11.29; order 29.11.48 → Tapuramuri, Hone and Paihana Pereene Tukariri 1/12 each"
+   },
+   {
+    "name": "Tapuramuri Pereene Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/12 of the block from Puhi Pereene, 29.11.48; her whole interest (1/12 + 1/4) vested the same day by exchange order in Hone and Paihana Pereene Tukariri equally"
+   },
+   {
+    "name": "Hone Pereene Tukariri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/12 from Puhi Pereene, 29.11.48; half of Tapuramuri's interest by exchange order"
+   },
+   {
+    "name": "Paihana Pereene Tukariri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/12 from Puhi Pereene, 29.11.48; half of Tapuramuri's interest by exchange order"
+   }
+  ],
+  "notes": "Puhi Pereene died 8 Nov 1929 — the earliest fixed date for the Pereene family of Whatuwiwi (D021)."
+ },
+ {
+  "document_id": "PW-1523747",
+  "doc_no": "1523747",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi No 2A — succession list: Makinihi Keru (d. Nov 1918) to eight successors, 7 Aug 1922; Ho Reihana Ngatote (d. 23 Dec 1923) to five, 10 Mar 1924",
+  "blocks_recorded": [
+   "Whatuwiwi No 2A"
+  ],
+  "block_ids": [
+   "28978"
+  ],
+  "record_date": "1922-08-07",
+  "effective_date": "1924-03-10",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01024174_01523747_0001_0001_LHO_Document-1523747.pdf",
+  "drive_id": "1xkIgLpRxP78qP0_dDmN-BrnRbdafTfAR",
+  "file_size": "157603",
+  "url": "https://drive.google.com/file/d/1xkIgLpRxP78qP0_dDmN-BrnRbdafTfAR/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Handwritten 'Whatuwiwi No 2A Block' succession list (the heading altered from 'and'). Makinihi Keru (Nov 1918), 7.8.22 → Ho Reihana Ngatote, Tari Raharuhi, Hamuera Rupapera, Reihana Matiu, Renata Timoti Hetaraka, Matiu Hetaraka, Hoani Wiremu Taua, Hemi Manuera, all m., equally. Ho Reihana Ngatote (23.12.23), 10.3.24 → Ere Ureti f, Miriama Natanahira f, Te Uriorangi, Hopa and Ratahi Ho Reihana Ngatote m, equally; trustees Pene Ngatote m and Mikiwira Ho Reihana Ngatote f.",
+  "names": [
+   {
+    "name": "Makinihi Keru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. Nov 1918; order 7.8.22"
+   },
+   {
+    "name": "Ho Reihana Ngatote",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Tari Raharuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Hamuera Rupapera",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Reihana Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Renata Timoti Hetaraka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Matiu Hetaraka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Hoani Wiremu Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Hemi Manuera",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Keru, 7.8.22"
+   },
+   {
+    "name": "Ho Reihana Ngatote",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 23.12.23; order 10.3.24"
+   },
+   {
+    "name": "Ere Ureti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ho Reihana Ngatote, 10.3.24"
+   },
+   {
+    "name": "Miriama Natanahira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ho Reihana Ngatote, 10.3.24"
+   },
+   {
+    "name": "Te Uriorangi Ho Reihana Ngatote",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ho Reihana Ngatote, 10.3.24"
+   },
+   {
+    "name": "Hopa Ho Reihana Ngatote",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ho Reihana Ngatote, 10.3.24"
+   },
+   {
+    "name": "Ratahi Ho Reihana Ngatote",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ho Reihana Ngatote, 10.3.24"
+   },
+   {
+    "name": "Pene Ngatote",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, 10.3.24"
+   },
+   {
+    "name": "Mikiwira Ho Reihana Ngatote",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, 10.3.24"
+   }
+  ],
+  "notes": "Whatuwiwi (Whatuwhiwhi), Karikari Peninsula — the Ngāti Kahu owner community of Ngatikahu (doc 1281544), Karikari 2 and Te Kohanga. Reihana Matiu here is Matiu Paewoi's son (doc 1523749), not of the Matiu Wiripo line."
+ },
+ {
+  "document_id": "PW-1523749",
+  "doc_no": "1523749",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 2B1 (Whatuwhiwhi 2B) — succession list 1921: Mrs Joseph Flavell to Hami Ho Paihana and Waata Matiu; Matiu Paewoi (d. 1911) to his six children; Makinihi Kere (d. Nov 1918) to twenty-one successors in sixths, twenty-fourths, thirtieths and fifty-fourths",
+  "blocks_recorded": [
+   "Whatuwiwi 2B1"
+  ],
+  "block_ids": [
+   "28981"
+  ],
+  "record_date": "1921-02-21",
+  "effective_date": "1921-03-09",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 56/52-53; N 56/89",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01024176_01523749_0001_0001_LHO_Document-1523749.pdf",
+  "drive_id": "1vFXdivaLyyGgxtHD1QK4P1vtEC_JvdAQ",
+  "file_size": "182716",
+  "url": "https://drive.google.com/file/d/1vFXdivaLyyGgxtHD1QK4P1vtEC_JvdAQ/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16 schedule headed 'Whatuwiwi 2B1 / Whatuwhiwhi 2B Block'. Mrs Joseph Flavell (N 56/52-53), 21.2.21 → Hami Ho Paihana m, Waata Matiu m. 'Under Sec. 15/09': Matiu Paewoi (1911; N 56/89), 9.3.21 → Waata Matiu m, Miriama Matiu f, Reihana Matiu m, Tiini Matiu m, Heni Matiu f, Wiremu Matiu m. 'Under Sec. 15/09': Makinihi Kere (Nov. 1918), 9.3.21 → 21 successors: Bibi Kanara f 1 (1/54), Eti Parikena m 11 (1/30), Hoani Wiremu Taua m (1/54), Ho Parikena m 9 (1/30), Heni Reweti f (1/24), Ihapera Reweti f 10 (1/24), Matini Wiremu Taua m (1/54), Meriana Wiremu Taua f (1/54), Mary Jessie Ellen Wiremu Taua f 8 (1/54), Maud Parikena f 17 (1/30), Mata Reweti f 14 (1/24), Nepia Rewe m (1/6), Paihana Wiremu Taua m (1/54), Parehuia Wiremu Taua f 18 (1/54), Pene Parikena m 19 (1/30), Te Paea Eru f (1/6), Ramari Wiremu Taua f 20 (1/54), Ripeka Tihirua Wiremu Taua f 11 (1/54), Reweti Parikena m 15 (1/30), Reremoana Wi Kaitaia f 10 (1/6), Witaka Reweti m 6 (1/24); trustees Hone Wi Kaitaia and Nepia Rewe for the minors.",
+  "names": [
+   {
+    "name": "Mrs Joseph Flavell",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 56/52-53; order 21.2.21 → Hami Ho Paihana m, Waata Matiu m"
+   },
+   {
+    "name": "Hami Ho Paihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mrs Joseph Flavell, 21.2.21"
+   },
+   {
+    "name": "Waata Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mrs Joseph Flavell, 21.2.21; and 1/6 of Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Matiu Paewoi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1911; N 56/89; 'under Sec. 15/09'; order 9.3.21 → six children"
+   },
+   {
+    "name": "Waata Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Miriama Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Reihana Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Tiini Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Heni Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Paewoi, 9.3.21"
+   },
+   {
+    "name": "Makinihi Kere",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. Nov 1918; under sec. 15/09; order 9.3.21"
+   },
+   {
+    "name": "Bibi Kanara",
+    "role": "Successor",
+    "sex": "f",
+    "age": "1",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Eti Parikena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "11",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Hoani Wiremu Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Ho Parikena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "9",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Heni Reweti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Ihapera Reweti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "10",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Matini Wiremu Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Meriana Wiremu Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Mary Jessie Ellen Wiremu Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "8",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Maud Parikena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "17",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Mata Reweti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "14",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Nepia Rewe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Paihana Wiremu Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Parehuia Wiremu Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Pene Parikena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "19",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Te Paea Eru",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Ramari Wiremu Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "20",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Ripeka Tihirua Wiremu Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "11",
+    "shares": "1/54",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Reweti Parikena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "15",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Reremoana Wi Kaitaia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "10",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Witaka Reweti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "6",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makinihi Kere, 9.3.21"
+   },
+   {
+    "name": "Hone Wi Kaitaia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee with Nepia Rewe for nos 1, 2, 4, 7, 10, 14, 15, 17, 18, 19"
+   },
+   {
+    "name": "Rihi Reweti",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (reading uncertain)"
+   }
+  ],
+  "notes": "Matiu Paewoi (d. 1911) is the father of the Karikari/Te Kohanga/Ngatikahu Matiu whānau (Waata = Raniera, Miriama, Reihana, Tiini = Riwhi, Heni, Wiremu) — distinct from Matiu Wiripo (1856–1931) of the Rotokakahi/Paihia line and his son Wiremu Matiu (T141)."
+ },
+ {
+  "document_id": "PW-1523751",
+  "doc_no": "1523751",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 2B1 — succession order schedule 1928–1960: Miriama Matiu, Hoani Taipari, Waata Matiu's gift, Kararaina and Ani Mapere Kingi, Te Paea Eru's gift to thirteen, the 1949 exchange orders to Wiremu Matiu and Mata Wiremu Hone, and the 1950s successions (5 pages)",
+  "blocks_recorded": [
+   "Whatuwiwi 2B1"
+  ],
+  "block_ids": [
+   "28981"
+  ],
+  "record_date": "1928-05-29",
+  "effective_date": "1960-11-04",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 61/262; N 68/275; N 68/322; N 72/701; N 73/51; N 73/368; N 76/165; N 77/357; N 78/22; N 81/139; N 81/162; N 83/47; N 84/202; N 84/290; N 86/262; N 87/30; N 87/206",
+  "pages": 5,
+  "page_range": "",
+  "file_name": "01024177_01523751_0001_0005_LHO_Document-1523751.pdf",
+  "drive_id": "15t8NGJZz56IC3qvKCgZEDpgbpZOIGpm_",
+  "file_size": "1080069",
+  "url": "https://drive.google.com/file/d/15t8NGJZz56IC3qvKCgZEDpgbpZOIGpm_/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16 'Succession Order Schedule' for Whatuwiwi 2B1 (5 pages, with a 1960 M.A. 28 sheet). Miriama Matiu (1922; N 61/262), 29.5.28 → Erana Umuroa, Kare Renata Hetaraka, Rina and Aue Umuroa equally. Hoani Taipari (1931; N 68/275), 20.11.31 → Kararaina Pete, Ani Taipari, Tame Taipari equally. Waata Matiu (N 68/322), gift 5.4.37 → Karaitiana, Patana and Mei Raniera Matiu 1/3 each. Kararaina Mapere Kingi alias Herepete Mare alias Mare alias Pete (13.12.38; N 72/701), 9.3.44 → Nahi Eri Ropi, Naika Poata, Ada or Hilda Wirihana, Taipari Mare, Hariata Berghan 1/5 each. Ani Mapere Kingi alias Ani Taipare (8.2.42; N 76/165), 25.11.47 → Maki (Mrs Woodcock), Katerina Tuia, Te Mihinga and Kahiti Kahiti Hapakuku equally, Maori Trustee trustee. Exchange order 15.6.49 (N 77/357): the Raniera Matiu, Umuroa, Tiini Matiu and Kare Renata Hetaraka interests vested in Wiremu Matiu solely. Te Paea Eru (N 73/51), gift 8.4.41 → thirteen (the Eru Ihaka family, Take Hemi Manuera, Rihipeti Tame Murray, Heni Witana Witana, Maki Tame Waata, Matehereora Hira Witana) 1/13 each; Ngawaka Eru Ihaka (N 73/368), 15.10.42 → the other twelve and later the four Tame Mare; exchange order 12.1.49 (N 78/22) → Mata Wiremu Hone 39/936. Mereana Wi Kaipo alias Mereana Wiremu Taua (d. 17.10.52), 24.11.53 → Rhoda Hinetekai Smith. Consolidated exchange order 22.8.53 (N 81/139) → Unaiki Herepete Mare and Napi Herepete Mare 1/10 each. Napi Ropi Natana (d. 25.12.54), 14.6.55 → Rangimarie Rose Natana (18). Mata Reweti (d. 1.6.42), 5.12.56 → John Reweti Walsh. Heni Matiu alias Heni Hamuera Rupapera (d. 3.12.54), 19.6.57 → Horiana Rupapera. Heni Tamati Rapihana alias Heni Reweti alias Jane Robson, SVO 5.3.59 → Maata Pukehuinga Rapihana. 1960 sheet: Hoani Wiremu Taua II (.018) → Waera Taua; Ripeka Tihirua Wiremu Taua → Naera Clare Evans; Nepia Rewe (.167) → six Nepia Rewe children. 'See consolidated list.'",
+  "names": [
+   {
+    "name": "Miriama Matiu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1922; N 61/262; order 29.5.28"
+   },
+   {
+    "name": "Erana Umuroa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Kare Renata Hetaraka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Rina Umuroa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Aue Umuroa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Hoani Taipari",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1931; N 68/275; order 20.11.31"
+   },
+   {
+    "name": "Kararaina Pete",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Ani Taipari",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Tame Taipari",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Waata Matiu",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 68/322; gift 5.4.37 → Karaitiana Raniera Matiu 1/3, Patana 1/3, Mei 1/3"
+   },
+   {
+    "name": "Karaitiana Raniera Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/3 of Waata Matiu by gift, 5.4.37; 1/108 exchanged to Wiremu Matiu 15.6.49"
+   },
+   {
+    "name": "Patana Raniera Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/3 by gift 5.4.37"
+   },
+   {
+    "name": "Mei Raniera Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/3 by gift 5.4.37"
+   },
+   {
+    "name": "Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 13.12.38; N 72/701; order 9.3.44"
+   },
+   {
+    "name": "Nahi Eri Ropi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete, 9.3.44"
+   },
+   {
+    "name": "Naika Poata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete, 9.3.44"
+   },
+   {
+    "name": "Ada or Hilda Wirihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete, 9.3.44"
+   },
+   {
+    "name": "Taipari Mare",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete, 9.3.44"
+   },
+   {
+    "name": "Hariata Berghan",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kararaina Mapere Kingi @ Kararaina Herepete Mare @ Kararaina Mare @ Kararaina Pete, 9.3.44"
+   },
+   {
+    "name": "Ani Mapere Kingi @ Ani Mapere @ Ani Taipare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 8.2.42; N 76/165; order 25.11.47"
+   },
+   {
+    "name": "Maki Kahiti Hapakuku (Mrs Woodcock)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ani Mapere Kingi @ Ani Mapere @ Ani Taipare, 25.11.47"
+   },
+   {
+    "name": "Katerina Tuia Kahiti Hapakuku",
+    "role": "Successor",
+    "sex": "f",
+    "age": "20",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ani Mapere Kingi @ Ani Mapere @ Ani Taipare, 25.11.47"
+   },
+   {
+    "name": "Te Mihinga Kahiti Hapakuku",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ani Mapere Kingi @ Ani Mapere @ Ani Taipare, 25.11.47"
+   },
+   {
+    "name": "Kahiti Kahiti Hapakuku",
+    "role": "Successor",
+    "sex": "m",
+    "age": "11",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ani Mapere Kingi @ Ani Mapere @ Ani Taipare, 25.11.47"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the minors, 1947"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 15.6.49 (N 77/357): the interests of Karaitiana, Patana and Mei Raniera Matiu (1/108 each), Erana, Rina and Aue Umuroa (1/144 each), Tiini Matiu (1/36) and Kare Renata Hetaraka (1/144) vested in him solely — the Karikari Wiremu Matiu, son of Matiu Paewoi"
+   },
+   {
+    "name": "Te Paea Eru",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 73/51; gift 8.4.41 of 1/6 → thirteen in 1/13 each"
+   },
+   {
+    "name": "Take Hemi Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "78",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Rihipeti Tame Murray",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Heni Witana Witana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Reeve Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Maki Tame Waata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Rawhiti Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Matehereora Hira Witana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Ngawaka Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Riki Reihana Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Reweti Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "1942",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Matutaera Eru Ihaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "1943",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Kura Eru Ihaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "1945",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/13 of Te Paea Eru's 1/6 by gift, 8.4.41"
+   },
+   {
+    "name": "Ngawaka Eru Ihaka",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1/78",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 73/368; 15.10.42 → the twelve other Te Paea Eru donees 1/936 each and Frances, Hohepa, Hami (Sam) and Rawhiti Ngawaka Tame Mare (1958–63 additions) 1/744 each"
+   },
+   {
+    "name": "Mata Wiremu Hone",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "39/936",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 12.1.49 (N 78/22): interests of Reeve, Matutaera and Kura Eru Ihaka (13/936 each, 39/936) vested in her"
+   },
+   {
+    "name": "Mereana Wi Kaipo alias Mereana Wiremu Taua",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 81/162; d. 17.10.52; 24.11.53 → Rhoda Hinetekai Smith f.a. solely"
+   },
+   {
+    "name": "Rhoda Hinetekai Smith",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole successor to Mereana Wi Kaipo alias Mereana Wiremu Taua, 24.11.53"
+   },
+   {
+    "name": "Unaiki Herepete Mare alias Unaiki Poata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "consolidated exchange order 22.8.53 (N 81/139): the interests of Taipari Herepete Mare alias Taipari Mare, Hariata Herepete Mare alias Hariata Berghan and Hira Herepete Mare alias Ada or Hilda Wirihana (1/15 each) → Unaiki 1/10 and Napi 1/10"
+   },
+   {
+    "name": "Napi Herepete Mare alias Napi Eri Ropi Natana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "as Unaiki, 1/10 (22.8.53); d. 25.12.54 → 14.6.55 (N 83/47) Rangimarie Rose Natana f 18 sole, trustee Eruiti Rose Natana"
+   },
+   {
+    "name": "Rangimarie Rose Natana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole successor to Napi Ropi Natana @ Napi Herepete Mare, 14.6.55, aged 18; trustee Eruiti Rose Natana"
+   },
+   {
+    "name": "Mata (Hereora) Reweti @ Mata Walsh @ Mata Reweti Reeve",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 84/202; d. 1.6.42; 5.12.56 → John Reweti Walsh m.a. solely"
+   },
+   {
+    "name": "John Reweti Walsh",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole, 5.12.56"
+   },
+   {
+    "name": "Heni Matiu alias Heni Hamuera Rupapera",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "N 84/290; d. 3.12.54; 19.6.57 → Horiana Rupapera m.a. solely — Matiu Paewoi's daughter"
+   },
+   {
+    "name": "Horiana Rupapera",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole successor to Heni Matiu alias Heni Hamuera Rupapera, 19.6.57"
+   },
+   {
+    "name": "Heni Tamati Rapihana @ Heni Reweti @ Jane Robson @ Heni Reweti te Hau",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "succession vesting order N 86/262, 5.3.59 → Maata Pukehuinga Rapihana solely; trustee Tamati Herepete Rapihana"
+   },
+   {
+    "name": "Maata Pukehuinga Rapihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "minor",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole, 5.3.59"
+   },
+   {
+    "name": "Hoani Wiremu Taua @ Hoani Wiremu Taua II",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 8, .018, N 87/30-1; SVO 11.3.60 → 45 Waera Taua m solely"
+   },
+   {
+    "name": "Waera Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; sole, 11.3.60"
+   },
+   {
+    "name": "Ripeka Wiremu Taua @ Ripeka Tihirua Wiremu Taua (Mrs W Evans)",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 36, .018, N 87/30; SVO 11.3.60 → 46 Naera Clare Evans (Mrs N C Stensness)"
+   },
+   {
+    "name": "Naera Clare Evans",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; sole, 11.3.60"
+   },
+   {
+    "name": "Nepia Rewe @ Nepia Reeve",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 26, .167, N 87/206; SVO 4.11.1960 → 47–52"
+   },
+   {
+    "name": "Te Koiunu Nepia Rewe",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".027",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; from Nepia Rewe, 4.11.60"
+   },
+   {
+    "name": "Peture Nepia Rewe @ Mrs Huaki Kire",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; from Nepia Rewe, 4.11.60"
+   },
+   {
+    "name": "Te Horiana Nepia Rewe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; from Nepia Rewe, 4.11.60"
+   },
+   {
+    "name": "Mange Annie Nepia Rewe",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50; from Nepia Rewe, 4.11.60"
+   },
+   {
+    "name": "Ngahikitanga Te Kanawa Nepia Rewe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51; from Nepia Rewe, 4.11.60"
+   },
+   {
+    "name": "Mori Takekore Nepia Rewe @ Mrs Mita King",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".028",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; from Nepia Rewe, 4.11.60"
+   }
+  ],
+  "notes": "The Matiu entries are the Karikari Matiu whānau (Matiu Paewoi's children and grandchildren)."
+ },
+ {
+  "document_id": "PW-1523761",
+  "doc_no": "1523761",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 1B1A2 — schedule of ownership orders 1960: Jane Pene to Turei, Matekino and Mauhaere Raharuhi; Rauparaha Pene to Te Aroha Pene",
+  "blocks_recorded": [
+   "Whatuwiwi 1B1A2"
+  ],
+  "block_ids": [
+   "28595"
+  ],
+  "record_date": "1960-07-12",
+  "effective_date": "1960-11-08",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 87/76; N 87/230",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01024188_01523761_0001_0001_LHO_Document-1523761.pdf",
+  "drive_id": "1YxNDtV91ke6eZY7UMA-aq4dBQ8B1ygyB",
+  "file_size": "199629",
+  "url": "https://drive.google.com/file/d/1YxNDtV91ke6eZY7UMA-aq4dBQ8B1ygyB/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule for Whatuwiwi 1B1A2, area 74:1:35, 258.822 shares (reading uncertain). Jane Pene (list 1, 13.194, N 87/76), SVO 12.7.60 → 12 Turei Raharuhi m 4.398, 13 Matekino Raharuhi or Mrs W Kena f 4.398, 14 Mauhaere Raharuhi or Mrs Tom Canon f 4.398. Rauparaha Pene (list 4, 13.194, N 87/230), SVO 8.11.60 → 15 Te Aroha Pene m sole, 13.194 (already 13.194 from list 2) = 26.388.",
+  "names": [
+   {
+    "name": "Jane Pene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "13.194",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 13.194; N 87/76; SVO 12.7.60 → nos 12–14"
+   },
+   {
+    "name": "Turei Raharuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4.398",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; 1/3 of Jane Pene, 12.7.60"
+   },
+   {
+    "name": "Matekino Raharuhi or Mrs W Kena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.398",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; 1/3"
+   },
+   {
+    "name": "Mauhaere Raharuhi or Mrs Tom Canon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.398",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; 1/3"
+   },
+   {
+    "name": "Rauparaha Pene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "13.194",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 4, 13.194; N 87/230; SVO 8.11.60 → no. 15"
+   },
+   {
+    "name": "Te Aroha Pene",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "26.388",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; sole successor to Rauparaha Pene, 8.11.60; 13.194 added to 13.194 already held (list 2) = 26.388"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1523786",
+  "doc_no": "1523786",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 2B1 — compiled list of owners as at 6 Nov 1962 (316.667 shares) and schedule of ownership orders 1928–1960 (7 pages)",
+  "blocks_recorded": [
+   "Whatuwiwi 2B1"
+  ],
+  "block_ids": [
+   "28981"
+  ],
+  "record_date": "1928-05-29",
+  "effective_date": "1962-11-06",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 61/262; N 63/278; N 68/322; N 72/701; N 73/51; N 73/368; N 73/383; N 74/125; N 76/165; N 77/357; N 78/22; N 81/139; N 81/162; N 83/47; N 84/202; N 84/290; N 86/242; N 87/30; N 87/206",
+  "pages": 7,
+  "page_range": "",
+  "file_name": "01024212_01523786_0001_0007_LHO_Document-1523786.pdf",
+  "drive_id": "1uY29N2QG2hSeKC0E5u6oM2yhfyh845z4",
+  "file_size": "1214622",
+  "url": "https://drive.google.com/file/d/1uY29N2QG2hSeKC0E5u6oM2yhfyh845z4/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Pages 1–2: typed 'Compiled List of Owners as at 6.11.62' for Whatuwiwi 2B1, 316.667 shares — a faint carbon copy on which the first eighteen names (Bibi Kanara to Maki Kahiti Hapakuku or Mrs Woodcock) can be read but the share column cannot be matched reliably; superseded by the 1989 list (doc 1273091). Pages 3–7: the ownership-order schedule, area 91:0:00 (sic), giving in share terms the orders on the succession order schedule (doc 1523751): Miriama Matiu 2.778 → four (.695/.694); Hoani Taipari 100.000 → three (33.334/33.333); Waata Matiu's gift 52.778 → Karaitiana, Patana, Mei Raniera Matiu (17.593); Te Paea Eru's gift 16.666 → thirteen (1.282); Ngawaka Eru Ihaka, Rihipeti Tame Murray and Reweti Eru Ihaka to the Eru Ihaka and Tame Mare families (1942–43); Kararaina Pete 33.334 → five (6.667); Ani Taipari 33.333 → the four Kahiti Hapakuku (8.333); exchange orders to Mata Wiremu Hone (4.166, 1949) and Wiremu Matiu (58.334 → 61.112, 1949); consolidated exchange to Unaiki and Napi Herepete Mare (16.667 each, 1953); Mereana Wiremu Taua → Rhoda Hinetekai Smith (1953); Napi → Rangimarie Rose Natana (1955); Mata Reweti → John Reweti Walsh (1956); Heni Matiu → Horiana Rupapera (1957); Heni Reweti → Maata Pukehuinga Rapihana (1959); Hoani Wiremu Taua → Waera Taua and Ripeka Tihirua Wiremu Taua → Naera Clare Evans (1960); Nepia Rewe 16.666 → six (1960).",
+  "names": [
+   {
+    "name": "Bibi Kanara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Eti Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Frances Tame Mare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Hami Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Hami Ho Paihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Heni Witana Witana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Ho Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Hohepa Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Te Horiana Nepia Rewe",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Horiana Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Ihapera Reweti",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "John Reweti Walsh",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Kahiti Kahiti Hapakuku",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Katerina Tuia Kahiti Hapakuku",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Te Kohuru Nepia Rewe",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Maata Pukehuinga Rapihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Maki Kahiti Hapakuku or Mrs Woodcock",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; compiled list of owners as at 6.11.62 (faint carbon copy — names read, shares not reliably legible)"
+   },
+   {
+    "name": "Miriama Matiu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. list 10, 2.778; N 61/262; SVO; order 29.5.28"
+   },
+   {
+    "name": "Erana Umuroa",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Kare Renata Hetaraka",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".695",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Rina Umuroa",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".694",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Aue Umuroa",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": ".694",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miriama Matiu, 29.5.28"
+   },
+   {
+    "name": "Hoani Taipari",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. list 3, 100.000; N 63/278; order 20.11.31"
+   },
+   {
+    "name": "Kararaina Pete",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "33.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Ani Taipari",
+    "role": "Successor",
+    "sex": "F",
+    "age": "",
+    "shares": "33.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Tame Taipari",
+    "role": "Successor",
+    "sex": "M",
+    "age": "",
+    "shares": "33.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoani Taipari, 20.11.31"
+   },
+   {
+    "name": "Waata Matiu",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "52.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 28, 52.778; N 68/322; gift 5.4.37 → 37 Karaitiana Raniera Matiu 17.593, 38 Patana 17.593, 39 Mei 17.592"
+   },
+   {
+    "name": "Te Paea Eru",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 20, 16.666; N 73/51; gift 8.4.41 → 40–52, 1.282 each (Take Hemi Manuera, Rihipeti Tame Murray, Heni Witana Witana, Reeve Eru Ihaka, Maki Tame Waata, Rawhiti Eru Ihaka, Matehereora Hira Witana, Ngawaka Eru Ihaka, Riki Reihana Eru Ihaka, Reweti Eru Ihaka, Ihaka Eru Ihaka, Matutaera Eru Ihaka, Kura Eru Ihaka)"
+   },
+   {
+    "name": "Ngawaka Eru Ihaka",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 47, 1.282; N 73/368; SVO 15.10.42 → 53–63 (.106/.107 each) and 64–67 Frances, Hohepa, Hami and Rawhitingawaka Tame Mare 1/48 (.027)"
+   },
+   {
+    "name": "Rihipeti Tame Murray (Mare)",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 41, 1.282; N 73/383; SVO 30.10.42 → 68 Frances, 69 Hohepa, 70 Hami, 71 Rawhitingawaka Tame Mare or Manuera .321/.320 each"
+   },
+   {
+    "name": "Reweti Eru Ihaka",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.389",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 60, 1.389; N 74/125; SVO 8.2.43 → 72–75 the four Tame Mare .347 each"
+   },
+   {
+    "name": "Kararaina Pete",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "33.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 34, 33.334; N 72/701; SVO 9.3.44 → 76 Napi Eri Ropi, 77 Naiki Poata, 78 Ada or Hilda Wirihana, 79 Taipari Mare, 80 Hariata Berghan 6.667 each"
+   },
+   {
+    "name": "Ani Taipari",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "33.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 35, 33.333; N 76/165; SVO 25.11.47 → 81 Maki Kahiti Hapakuku (Mrs Woodcock) 8.334, 82 Katerina Tuia, 83 Te Mihinga, 84 Kahiti Kahiti Hapakuku 8.333 each"
+   },
+   {
+    "name": "Mata Wiremu Hone",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.166",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; exchange order 12.1.49 (N 78/22) from lists 55, 62, 63 — 4.166"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "61.112",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86; exchange order 15.6.49 (N 77/357) from lists 27, 30–33, 37–39 — 58.334 added to 2.778 (list 29) = 61.112; the Karikari Wiremu Matiu"
+   },
+   {
+    "name": "Unaiki Herepete Mare @ Unaiki Poata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87; exchange order 22.8.53 (N 81/139) from lists 78–80 — 10.000 added to 6.667 = 16.667"
+   },
+   {
+    "name": "Napi Herepete Mare @ Napi Eri Ropi Natana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 88; as no. 87 — 16.667; d. → 90 Rangimarie Rose Natana sole, SVO 14.6.55 (N 83/47)"
+   },
+   {
+    "name": "Mereana Wiremu Taua",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 12, 1.852; N 81/162; SVO 24.11.53 → 89 Rhoda Hinetekai Smith sole"
+   },
+   {
+    "name": "Rhoda Hinetekai Smith",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89"
+   },
+   {
+    "name": "Rangimarie Rose Natana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "16.667",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 90; sole, 14.6.55"
+   },
+   {
+    "name": "Mata Reweti",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "4.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 15, 4.167; N 84/202; SVO 5.12.56 → 91 John Reweti Walsh sole"
+   },
+   {
+    "name": "John Reweti Walsh",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 91"
+   },
+   {
+    "name": "Heni Matiu",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 5, 2.778; N 84/290; SVO 19.6.57 → 92 Horiana Rupapera sole"
+   },
+   {
+    "name": "Horiana Rupapera",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "2.778",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 92"
+   },
+   {
+    "name": "Heni Reweti",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "4.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 9, 4.167; N 86/242; SVO 5.3.59 → 93 Maata Pukehuinga Rapihana sole"
+   },
+   {
+    "name": "Maata Pukehuinga Rapihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 93"
+   },
+   {
+    "name": "Hoani Wiremu Taua",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6, 1.852; N 87/30-1; SVO 11.3.60 → 94 Waera Taua sole"
+   },
+   {
+    "name": "Waera Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 94"
+   },
+   {
+    "name": "Ripeka Tihirua Wiremu Taua",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 23, 1.852; N 87/30; SVO 11.3.60 → 95 Naera Clare Evans @ Mrs N C Stensness sole"
+   },
+   {
+    "name": "Naera Clare Evans @ Mrs N C Stensness",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1.852",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 95"
+   },
+   {
+    "name": "Nepia Rewe",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "16.666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 16, 16.666; N 87/206; SVO 4.11.60 → 96 Te Koiunu Nepia Rewe, 97 Peture Nepia Rewe @ Mrs Huaki Kire, 98 Te Horiana Nepia Rewe, 99 Mange Annie Nepia Rewe 2.778 each, 100 Ngahikitanga Te Kanawa Nepia Rewe, 101 Mori Takekore Nepia Rewe (Mrs Mita King) 2.777 each"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1523800",
+  "doc_no": "1523800",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 6 — schedule of ownership orders: list of 170 owners c. 1989 (92.5465 ha, 248,200.000 shares, block unsurveyed) and the orders of 1988–1997 (Martini Larkins, Paihana Perene Tukariri, Eriha Robert Davis, Maori Trustee revestings, Thomas Shepherd, Taha Riwhi Hapa, Tamati Poharama's estate, Waitai Raharuhi, the Manuera/Manuel, Turei Raharuhi and Matehaere Hetaraka successions) — 14 pages",
+  "blocks_recorded": [
+   "Whatuwiwi 6"
+  ],
+  "block_ids": [
+   "28596"
+  ],
+  "record_date": "1989",
+  "effective_date": "1997-03",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "68 Waikato 134; 2 WH(S) 221-222; 1 KT(S) 178, 211; 2 WH(S) 339; 3 BI(S) 125; 3 AT(S) 232-234; 6 RO 113; 4 AT(S) 71; 2 KH(S) 215; 24 AT 140-3; 5 AT(S) 81-82; 110 WH(S) 252; 77 WH 97; 3 WH(S) 268-9",
+  "pages": 14,
+  "page_range": "",
+  "file_name": "01024224_01523800_0001_0014_LHO_Document-1523800.pdf",
+  "drive_id": "1S5AZQWUMkhv5eNizKGruYLdVGlYYa44G",
+  "file_size": "2857612",
+  "url": "https://drive.google.com/file/d/1S5AZQWUMkhv5eNizKGruYLdVGlYYa44G/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Pages 1–6: typed list of 170 owners of Whatuwiwi 6 (title noted 'Incorporated owners'), 92.5465 ha, 248,200.000 shares, 'block unsurveyed' — the largest holdings Rihi Wallace or Rihi Hamuera Rupapera 30370.621, Mere Tuscher 22004.400, Hemi Pere Hetaraka 19627.605, Peter Charles Rupapera 14395.669, Daniel William Rupapera 13831.252, Wiremu Kewha 13748.137, Matehaere Hetaraka 13000.000, Hohepa and Paki Hohepa Rupapera 7012 each, the five Hohepa Rupapera daughters 5632 each, Henare Poharama Wi Kaitaia or Larkins 4213.679, Matiu Hetaraka Heta 3870.930, Akutane Pene Tangihaere Shepherd 3086.330. The share is typed on the line above its owner; re-aligned the list sums to 248,361.873 against the stated 248,200.000 (one figure probably misread — the successions that follow reconcile exactly with the entries they replace). Pages 7–14, handwritten orders: Martini Wi Larkins (list 79) → Patricia Myfanwy Coffin, 15.12.89; Paihana Perene Tukariri (list 110, 854.565) → fifteen (nine Hone Tukariri, Taylor, Johnson, two Herare, Paki, Larkins), 4.10.89; Eriha Robert Davis → Kenneth John Subritzky, 11.7.90; Huihana Henare Poharama → Charles Tutaki Popata (life interest), 1990; the Maori Trustee's 22.500 revested in thirteen Poharama, 15.11.91; Thomas Shepherd (1377.201) → Rima Shepherd for life, remainder to seven, 6.1.92; Taha Riwhi Hapa or Mrs Talbot (1377.201) → twenty-six Talbot, Murray, Christiansen, Greenwood, Hira and Epiha successors, 15.12.92; Tamati Poharama's estate (206.502) → the twelve Poharama successors, 30.10.88; Waitai Raharuhi → three, 1993; Taniwha Pene/Jack Manuera (1984.016) → six Manuel, 6.1.94; Hare Manuera → five Manuel, 1.12.95; Turei Raharuhi → five, 30.9.96; Matehaere Hetaraka (13056.250) → the nineteen-way Hetaraka succession and three Tuscher/Desmond, 2.12.96.",
+  "names": [
+   {
+    "name": "Akutane Pene Tangihaere Shepherd or Tangihaere Hapa Pene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3086.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Andrew Morgan Bazil",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "91.662",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ani Henare Poharama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ani Taha",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ani Takiwairua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2220.950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Annie Clark",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "900.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Annie Franks",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "386.525",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "April Laing",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "386.524",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Aroha Hohaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "66.884",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Aue Edwards",
+    "role": "Owner",
+    "sex": "fd",
+    "age": "",
+    "shares": "389.302",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Barbara Tanner",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "738.751",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Benjamin Manuel",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "311.469",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ben Benjamin Shepherd",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "229.534",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Brodie Ryder",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "39.474",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Carol Taikato",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "738.751",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Christine Te Amo",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "386.524",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Christopher Joseph Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "80.631",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Clarence Umuroa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "107.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Conway Waata",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "David Henry Hepi",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "21.429",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; list of 170 owners (block unsurveyed), c. 1989 (the David Manuel Hepi Whānau Trust, 3 WH(S) 268-9, 10/9/96)"
+   },
+   {
+    "name": "Daniel William Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "13831.252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Desley Disiree Austen",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "244.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Desmond Benjamin Shepherd",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "229.534",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Emma Rihari",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "37.759",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; list of 170 owners (block unsurveyed), c. 1989 — a Rihari not placed in the Taniora Rihari whānau; same holding as Henry Ryder and Martha Campbell"
+   },
+   {
+    "name": "Ellen Dawn Shepherd",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "229.534",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Eriha Robert Davis",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "264.134",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; list of 170 owners (block unsurveyed), c. 1989; struck → 187"
+   },
+   {
+    "name": "Friday Reihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "699.034",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hamuera Matiu Reihana",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "187.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hare Paikaraihe Hohaia or Hare Raunatere Hohaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hare Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "21.429",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; list of 170 owners (block unsurveyed), c. 1989; struck → 256–260"
+   },
+   {
+    "name": "Hare Takiwairua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "244.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hariata Pene Ngatoto",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "187.488",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hawera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hemi Pere Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "19627.605",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Henare Poharama Wi Kaitaia or Henare Poharama Larkins",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4213.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Henare Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "66.884",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Henry Ryder",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "37.759",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hera Reihana",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "127.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Herangi Fletcher or Mrs R Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "107.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hoana Reihana Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1709.130",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hohepa Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7012.179",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hone Pene Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hone Rewharewha Parera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.195",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hone Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.355",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Hopa Ho Reihana Ngatote",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "893.317",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; list of 170 owners (block unsurveyed), c. 1989 (whānau trust, 77 WH 97)"
+   },
+   {
+    "name": "Horiana Hamuera Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "915.966",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Huihana Henare Poharama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; list of 170 owners (block unsurveyed), c. 1989; struck → 188"
+   },
+   {
+    "name": "Jack Manuel",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "386.524",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "James (Hemi) Paul as administrator in the estate of Ngareta Paul",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "206.502",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "James Manuel",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "738.742",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Jean Shepherd",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "229.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Jesse Ryder II",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "39.468",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Jim Reihana",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "127.616",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Jim Ryder",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "39.468",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Joe Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "John Lennard Bazil",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "91.662",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Johnny Johns",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kaikou Hawaikirangi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kie Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.195",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kingi Reihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "97.146",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kiri Brown",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "386.524",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kiri (Bingi) Tuakana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "38.468",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 62; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kiri Tukitahua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1898.843",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Kupa Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1380.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 64; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Te Kuta Taipari (Mrs Laffey)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "548.631",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 65; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Lawrence Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 66; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Leonard (or Renata) Taipari",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "548.631",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 67; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Maki Matiu (Mrs Marsh)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 68; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Maki Oneroa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.355",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 69; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Makinihi Pereiha Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1898.843",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 70; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Makinihi Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5631.179",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 71; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 72; list of 170 owners (block unsurveyed), c. 1989; struck → 189–201"
+   },
+   {
+    "name": "Manga Manuel",
+    "role": "Owner",
+    "sex": "md",
+    "age": "",
+    "shares": "389.303",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 73; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Manu Davis",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "244.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 74; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Manu Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "21.429",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 75; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Maro Brenda Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "80.631",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 76; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Martha Campbell",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "37.759",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 77; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Martha Walker",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "386.525",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 78; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Martini Wi Kaitaia or Martini Larkins",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2023.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 79; list of 170 owners (block unsurveyed), c. 1989; struck → 171"
+   },
+   {
+    "name": "Mary Hariata Shepherd",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "229.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 80; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mata Parker",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "127.616",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 81; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Matehaere Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "13000.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82; list of 170 owners (block unsurveyed), c. 1989; struck → 266–284"
+   },
+   {
+    "name": "Matehaere Paora Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "56.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 83; list of 170 owners (block unsurveyed), c. 1989; struck → 266–284"
+   },
+   {
+    "name": "Matekino Raharuhi or Mrs W Kena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "510.736",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 84; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Matekino Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5632.178",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Matekino Hohepa Rupapera or Mrs Dick Hack",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1380.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Matire Pereiha Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Matiu Hetaraka Heta",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3870.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 88; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mauhaere Raharuhi or Mrs Tom Canon",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "510.736",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mere Keene Rameka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "656.048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 90; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mere Tuscher",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22004.400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 91; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mereana Moa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "59.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 92; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Merehana Davis",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "244.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 93; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Meri Henare Poharama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 94; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Meri (or Mary) Taipari",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "550.340",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 95; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mihiora Raharaha",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "225.027",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 96; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Miraka Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5632.178",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 97; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Miraka Hohepa Rupapera or Mrs Harold Herbert",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1380.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 98; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Miriama Ho Reihana Ngatote",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "99.130",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 99; list of 170 owners (block unsurveyed), c. 1989; struck → 100"
+   },
+   {
+    "name": "Miriama Ho Reihana or Miriama Tuauru",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "145.719",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 100; list of 170 owners (block unsurveyed), c. 1989; shown on the sheet with 99.130 acquired from no. 99 = 244.849"
+   },
+   {
+    "name": "Miriam Waata (Walters)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "59.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mu Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "488.811",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Mutunga Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "654.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 103; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Newton Rangi Taipari",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "550.340",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 104; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ngahuka Tarawa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "56.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 105; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ngapeka Smith",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.747",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 106; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Noeleen Rosita Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "80.631",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 107; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Pai Johns",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 108; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Te Paea or Sophie Poharama as administrator in the estate of Tom Poharama or Tamati Poharama or Tame Poharama",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "206.502",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 109; list of 170 owners (block unsurveyed), c. 1989; struck → 235–246"
+   },
+   {
+    "name": "Paihana Perene Tukariri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "854.565",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 110; list of 170 owners (block unsurveyed), c. 1989; struck → 172–186 — of the Whatuwiwi 1B1C Perene family (docs 1524028, 1523736); d. → 172–186, 4.10.89"
+   },
+   {
+    "name": "Paki Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7012.177",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 111; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Te Pari Riwhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "18.747",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 112; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Patricia Anne Young",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 113; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Patrick Sharp",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "64.287",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 114; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Pauline Waata",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 115; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Peri Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "488.811",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 116; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Peter Lewis Bazil",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "91.662",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 117; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Peter Charles Rupapera",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "14395.669",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 118; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Phillip Mathews",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "244.406",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 119; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Piri Hohaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "66.884",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 120; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rangauna Taha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 121; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rapata Takimoana (Robert Marsden)",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "50.004",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 122; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rapata Takiwairua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2220.950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 123; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Reihana Poharama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1709.130",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 124; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Renata Raharuhi Ihaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "189.713",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 125; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Renata Timoti",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2794.427",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 126; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Reremoana Ngaire Rutene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "97.137",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 127; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rex Colin Reihana",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "127.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 128; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Reweti Henare Poharama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 129; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Riapo Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "654.339",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 130; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rihi Wallace or Rihi Hamuera Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "30370.621",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 131; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Robert Manuel",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "386.525",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 132; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Rina Umuroa Raharuhi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "107.675",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 133; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Robert Matthew Mason",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 134; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Robin Manuel",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "738.626",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 135; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Roharia Hepi",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "127.618",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 136; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ronald James Rupapera",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "322.515",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 137; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ruiha Allen",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 138; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Robina Roff",
+    "role": "Owner",
+    "sex": "fa",
+    "age": "",
+    "shares": "386.525",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 139; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Ruiha Paora",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "56.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 140; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Sandy Hohaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "66.884",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 141; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Taha Riwhi Hapa (Mrs Talbot)",
+    "role": "Owner",
+    "sex": "fd",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 142; list of 170 owners (block unsurveyed), c. 1989; struck → 209–234"
+   },
+   {
+    "name": "Tahi Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.355",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 143; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tahi Tukitahua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 144; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Taihoa Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "50.004",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 145; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Taniwha Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1532.208",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 146; list of 170 owners (block unsurveyed), c. 1989; struck → 250–255"
+   },
+   {
+    "name": "Taniwha Jack Manuera",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "389.303",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 147; list of 170 owners (block unsurveyed), c. 1989; struck → 250–255"
+   },
+   {
+    "name": "Taniwha Pene or Taniwha Pene Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "62.505",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 148; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tare Riwhi Hapa",
+    "role": "Owner",
+    "sex": "md",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 149; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tare Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5632.177",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 150; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tare Hohepa Rupapera or Mrs T Reihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1380.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 151; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tari Lou Bazil (Jnr)",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "183.324",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 152; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tari Tame Poharama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.747",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 153; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tauhou Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.421",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 154; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Teira Henare Poharama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 155; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Thelma Duncan",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "61.529",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 156; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Thomas Shepherd",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 157; list of 170 owners (block unsurveyed), c. 1989; struck → 202–208"
+   },
+   {
+    "name": "Trevor William Bazil",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "91.662",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 158; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Tuhoe Manuel",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "386.525",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 159; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Turei Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "700.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 160; list of 170 owners (block unsurveyed), c. 1989; struck → 261–265"
+   },
+   {
+    "name": "Uporo Hamuera Rupapera or Mrs Pat Matthews",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "322.524",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 161; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Violet Hohaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "66.884",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 162; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Warren Shepherd",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "229.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 163; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Waitai Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "657.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 164; list of 170 owners (block unsurveyed), c. 1989; struck → 247–249"
+   },
+   {
+    "name": "Whata Reihana",
+    "role": "Owner",
+    "sex": "ma",
+    "age": "",
+    "shares": "127.617",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 165; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Whati Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "654.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 166; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Whongo Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1313.305",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 167; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Wiremu Kewha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "13748.137",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 168; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Wiremu Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "187.497",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 169; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Wiremu Kupa Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5632.177",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 170; list of 170 owners (block unsurveyed), c. 1989"
+   },
+   {
+    "name": "Martini Wi Larkins or Martini Larkins",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "2023.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 79, 2023.032; 68 Waikato 134; s.78A/67, 15.12.89 → 171 Patricia Myfanwy Coffin f.a. solely (whānau trust 110 WH(S) 252)"
+   },
+   {
+    "name": "Patricia Myfanwy Coffin",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "2023.032",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 171; sole, 15.12.89"
+   },
+   {
+    "name": "Paihana Perene Tukariri",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "854.565",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 110, 854.565; 2 WH(S) 221-222; s.78A/67 & 34(10)/53, 4.10.89 → 172–186: nine Hone Tukariri children 47.476 each and six others 71.214/71.213 each"
+   },
+   {
+    "name": "Waimirirangi Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.475",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 172; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Ira Hone Tukariri Keepa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 173; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Porewaewa Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 174; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Raketi Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 175; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Huihana Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 176; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Paki Tipene Hone Tukariri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 177; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Kahorau Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 178; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Rima Hone Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 179; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Muriwai Hone Tukariri (Mrs Popata)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "47.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 180; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Maata Hinerangi Taylor",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "71.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 181; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Ripeti Tangiteau Johnson",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "71.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 182; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "John Walter Herare",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "71.214",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 183; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Freda Mercia Herare",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "71.213",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 184; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Raukura Anne Paki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "71.213",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 185; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "William Albert Larkins",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "71.213",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 186; from Paihana Perene Tukariri, 4.10.89"
+   },
+   {
+    "name": "Eriha Robert Davis",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "264.134",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 26, 264.134; 1 KT(S) 178; s.78A/67, 11.7.90 → 187 Kenneth John Subritzky m.a. (as on Ngatikahu, doc 1281544)"
+   },
+   {
+    "name": "Kenneth John Subritzky",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "264.134",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 187"
+   },
+   {
+    "name": "Huihana Henare Poharama",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "22.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 47, 22.533; 24 KT(S) 350?; s.78A/67, 1990 → 188 Charles Tutaki Popata for a life interest with remainder to Robert Wayne Popata"
+   },
+   {
+    "name": "Charles Tutaki Popata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "22.533",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 188; life interest, remainder to Robert Wayne Popata"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 72, 22.500; 'revestings by the Maori Trustee', order 151/53, 15.11.91 → 189–201 Annie Davis, Walter, Janie, Minnie Webere, Clara Jean Popata, Dolly Pethick, Kingi, Mary, Margaret, May, Maureen, Dan and Joe Poharama 1.731/1.730 each"
+   },
+   {
+    "name": "Thomas Shepherd",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 157, 1377.201; 3 BI(S) 125; s.78A/76, 6.1.92 → Rima Shepherd for a life interest or until remarriage, remainder equally to 202 Maria Murdoch, 203 Thomas Silia Shepherd (Jnr), 204 Terry, 205 Annie Shepherd, 206 Jean Warren, 207 Janie Beattie, 208 Alex Shepherd"
+   },
+   {
+    "name": "Rima Shepherd",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "life interest or until remarriage in Thomas Shepherd's 1377.201, 6.1.92"
+   },
+   {
+    "name": "Taha Riwhi Hapa or Mrs Talbot",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1377.201",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 142, 1377.201; 3 AT(S) 232-234; s.78A/67, 15.12.92 → 209 Ian Talbot 344.301, 210 Tangi Tamariki Murray 344.300, 211–228 eighteen Talbot grandchildren 19.128/19.127 each, 229 Aroha Christiansen, 230 Tautai Greenwood, 231 Arahi Hira, 232 Maata Hira, 233 Bonita Epiha, 234 Thomas Epiha 57.383/57.384 each"
+   },
+   {
+    "name": "Te Paea or Sophie Poharama as administratrix in the estate of Tamati or Tom Poharama or Tame Reihana Poharama",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "206.502",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 109, 206.502; 6 RO 113; s.81A/67, 30.10.88 → 235 Tohu Dick Poharama, 236 Ranga Poharama or Mrs Frasier, 237 Erana Roseana Haretiku, 238 Cora Bishop, 239 Talati Sarah Marsh, 240 Maude Poharama, 241 Tari Pou Heihei, 242 Andrew, 243 Matiu, 244 Pareiha, 245 Sandy, 246 Thomas Richard Poharama 17.209/17.208 each — the same twelve as on Ngatikahu"
+   },
+   {
+    "name": "Waitai Raharuhi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "657.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 164, 657.330; 1 KT(S) 211 & 2 WH(S) 339; s.78A & 78A(7)/67, 14.6.93 & 26.10.93 → 247 Himi Paora Kanihou Raharuhi, 248 Eric Zinsli Raharuhi, 249 Waitai Piripi Raharuhi 219.110 each"
+   },
+   {
+    "name": "Taniwha Jack Manuera / Taniwha Pene / Taniwha Pene Manuera",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1984.016",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "lists 146–148, 1984.016; 4 AT(S) 71; s.113 & 118/93, 6.1.94 → 250 Te Waru Manuel, 251 Isobel Manuel II Ciesler, 252 Margaret Kathleen Manuel, 253 Kairo Manuel, 254 Jacqueline Manuel, 255 Aroha (Roberta) Wilson 330.670/330.669 each"
+   },
+   {
+    "name": "Hare Manuera or Hare Hemi Manuera or Hare Himi Manuera",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "21.429",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 30, 21.429; 2 KH(S) 215; s.78A/67, 1.12.95 → 256 Charles Henry Wilson Manuel, 257 Phillip Jack Manuel, 258 Glen Jerry Manuel, 259 Wayne Melvin Manuel, 260 Mahu William Manuel 4.286/4.285 each"
+   },
+   {
+    "name": "Turei Raharuhi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "700.449",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 160, 700.449; 24 AT 140-3; s.113, 118/93, 30.9.96 → 261 Turei Christopher Louis Raharuhi, 262 Thomas Richard Edwards, 263 James Michael Edwards, 264 Grant Edwards, 265 Ivy Reihana 140.090/140.089 each"
+   },
+   {
+    "name": "Matehaere Hetaraka or Matehaere Paora Rupapera or Mate Haere Hetaraka",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "13056.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "lists 82 & 83, 13056.250; 5 AT(S) 81-82, est. 1983; s.113 & 118/93, 2.12.96 → 266–283 eighteen at 1/19 (687.171): Ruhaina, Waitohi, Hamuera, Hemi Peri Hetaraka, Rotorua Ashcroft, Patana Hetaraka, Hariata Burr, Allan Ripia Hetaraka, Moeke Hetaraka, Horepete Wi Moka Hetaraka, Moana Brooks, Hokimate McKay, Barron, Peri, Bruce Pati and Paul Hetaraka, Kataraina Matehaere Duffield, Sharleen Lynn Hetaraka; 284 Moana Marie Hetaraka 1/38 (343.586) with a further 1/38; 285 Angeline Diane Tuscher, 286 Meta Yvonne Desmond, 287 Erana Marita Melaere Tuscher 237.632/237.633"
+   }
+  ],
+  "notes": "No whānau tupuna on the title. 'Emma Rihari' (no. 24) is unplaced. The Perene family of Whatuwiwi 1B1C holds here through Paihana Perene Tukariri (D021)."
+ },
+ {
+  "document_id": "PW-1524028",
+  "doc_no": "1524028",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whatuwiwi",
+  "title": "Whatuwiwi 1B1C — schedule of ownership orders 1948: Puhipi Perene's 25.000 shares to Tapuramuri, Hone and Paihana Perene Tukariri; Tapuramuri's interest exchanged to her brothers (29 Nov 1948)",
+  "blocks_recorded": [
+   "Whatuwiwi 1B1C"
+  ],
+  "block_ids": [
+   "28977"
+  ],
+  "record_date": "1948-11-29",
+  "effective_date": "1948-11-29",
+  "court": "Native / Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 77/138",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01024455_01524028_0001_0001_LHO_Document-1524028.pdf",
+  "drive_id": "13dVpP0fVNyRbxGQCZWD14qgqUFNkQpkP",
+  "file_size": "183672",
+  "url": "https://drive.google.com/file/d/13dVpP0fVNyRbxGQCZWD14qgqUFNkQpkP/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule for Whatuwiwi 1B1C, area 28:3:30, 200.000 shares. Puhipi Perene (list 4, 25.000, N 77/138), SVO 29.11.48 → 6 Tapuramuri Perene Tukariri F 1/3 (25.000 + 8.334 = 33.334), 7 Hone Perene Tukariri M 1/3 (33.333), 8 Paihana Perene Tukariri M 1/3 (33.333). Tapuramuri Perene Tukariri (list 6, 33.334, N 77/138), exchange order 29.11.48 → 9 Hone Perene Tukariri 16.667 (→ 50.000), 10 Paihana 16.667 (→ 50.000).",
+  "names": [
+   {
+    "name": "Puhipi Perene",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "25.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 4, 25.000; N 77/138; SVO 29.11.48 → nos 6–8 in thirds (the 1/4 interest on the 1929 schedule, doc 1523736)"
+   },
+   {
+    "name": "Tapuramuri Perene Tukariri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "33.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 1/3 of Puhipi Perene (8.334) added to 25.000 already held (list 3) = 33.334; then transferor by exchange order 29.11.48 → 9 Hone and 10 Paihana Perene Tukariri 16.667 each"
+   },
+   {
+    "name": "Hone Perene Tukariri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 7 and 9; 1/3 of Puhipi Perene (8.333 → 33.333) plus half of Tapuramuri's interest (16.667) = 50.000"
+   },
+   {
+    "name": "Paihana Perene Tukariri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 8 and 10; as Hone — 50.000"
+   }
+  ],
+  "notes": "Perene = Pereene (doc 1523736 spells the father 'Puhi Pereene'). D021."
  }
 ]
