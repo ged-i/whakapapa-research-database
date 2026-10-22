@@ -48763,5 +48763,2796 @@
    }
   ],
   "notes": "Confirms the whānau tradition that Rihari te Kuri was the father of Taniora Rihari: the three successors are his children in the Court's usual order (sons, then daughter). The Waikukupa succession list (doc 1428316) carries the same order as 'Rihari te Kuri (15-10-85 or 86), 19.2.94 → Taniora Rihari, Hemi Rihari, Matire Putete'. The Waikukupa parent block is not in the 2017 block index; the record is pinned to its surviving subdivisions (C No 1, C No 2, G, D1, D2, H No 2)."
+ },
+ {
+  "document_id": "PW-1281544",
+  "doc_no": "1281544",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Ngatikahu",
+  "title": "Ngatikahu — memorial schedule of ownership orders, pages 3–14 (1973–1998): the Paul, Poharama, Kingi Waiaua, Reihana and Simeon successions; the Maori Trustee's 7194.292 shares to the Crown (1985) and their re-vesting in 201 owners (12 Mar 1998); Ngatikahu Trustees 21700.000 shares",
+  "blocks_recorded": [
+   "Ngatikahu"
+  ],
+  "block_ids": [
+   "30426"
+  ],
+  "record_date": "1973-03-17",
+  "effective_date": "1998-03-12",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "RW 1/307; KT 9/254; AT 8/383; KT 11/72, 11/89; NH 55/251; EW 3/165; RW 4/99-100, 4/164, 4/166; KT 13/273; RW 5/14, 5/19; 3 Aotea MB 186; 6 RO 113; 1 KT(S) 164-165, 178; 7 RG 62-63; 77 WH 92; 81 WH 107; 85 WH 291-301",
+  "pages": 12,
+  "page_range": "",
+  "file_name": "00789914_01281544_0001_0012_LHO_Document-1281544.pdf",
+  "drive_id": "1dZaXG9X9fUGP4_F49SBLB19RcyGvMUl6",
+  "file_size": "2529360",
+  "url": "https://drive.google.com/file/d/1dZaXG9X9fUGP4_F49SBLB19RcyGvMUl6/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Twelve pages of the Ngatikahu memorial schedule (form M.A. 835), schedule pages 3 to 14; block area 1078.6894 ha, 75536.000 shares. Pages 3–9 are handwritten orders from 1973 to 1996: Pereene Eriha Kiwini or Greaves (45.492) → Mary Greaves as administratrix, 17.3.73; Ngareta Paul (14245.492) → Hemi or James Paul 25.492 and herself 14220.000 (4.11.75), then → Pimpi Paul 50.000 (23.3.77), then her estate → James (Hemi) Paul as administrator (17.12.81); Tamati Poharama (10000.000) → Toru Poharama 50.000 and himself 9950.000 (23.3.77), his estate → Te Paea or Sophie Poharama as administratrix (21.5.84) → twelve Poharama, Frasier, Haretiku, Bishop, Marsh and Heihei successors at 829.167 (30.10.88); Wiremu Topine → William Toloa Jnr → Simon Mathew Urlich (1978); Huruo Larkins → Glennis Pomare (1979); the estate of Polly Kingi or Ngahuia Kingi Waiaua (3147.050, N.Z. Guardian Trust administrator, 22.12.83) → Tauru, Ngatikahu, Erana and Wanahua Kingi Waiaua 1/7 each, John Henry Kingi and Marcia M Poharama 1/14, six at 1/42, and Kingi Reihana, Ketemaura Rutene, Oina Urlich Reihana and Eric Reihana 1/28; the Maori Trustee's 7194.292 shares → the Crown (s.153/53, 25.2.85); the Erana Kingi Waiaua (1984), Peremoana Rutene (1984), John Henry King (1985), Wiremu Rupapera (1988), Wanahua Kingi Simeon (1990), Eric Reihana (1991) and Eric Subritzky (1990) successions; the Hopa Ho Reihana Whanau Trust (11300.000, 21.9.94) and the Tauru Tuauru Henare Kingi Waiaua Whanau Trust (449.578, 19.7.96). Pages 10–14 are the typed list of 201 owners (nos 101–301, 7194.292 shares — the Crown's holding re-vested by order of 12.3.98, 85 WH 291-301) from Agnes Cochrane to Wirihana Motu, followed by no. 302 Ngatikahu Trustees, 21700.000 shares. On the typed pages the sex and share column was typed one line below its name; the values here are re-aligned and sum exactly to 7194.292.",
+  "names": [
+   {
+    "name": "Pereene Eriha Kiwini or Greaves",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 19, 45.492; RW 1/307; VO s.81/1967, 17.3.73 → no. 29"
+   },
+   {
+    "name": "Mary Greaves",
+    "role": "Administrator",
+    "sex": "",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; administratrix of the estate of Pereene Eriha Kiwini or Greaves, solely, 17.3.73"
+   },
+   {
+    "name": "Ngareta Paul",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "14245.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 18, 14245.492; KT 9/254; VO s.213(1) or (5), 4.11.75 → 30 Hemi or James Paul 25.492 ('shares reinstated'), 31 Ngareta Paul 14220.000; VO 23.3.77 (AT 8/383) → 34 Pimpi Paul 50.000, 35 Ngareta Paul 14170.000; d. — list 35 → 39 James (Hemi) Paul as administrator, 17.12.81 (order 81/67)"
+   },
+   {
+    "name": "Hemi or James Paul",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "14195.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30 (25.492, 1975) and no. 39: 'James (Hemi) Paul as administrator of the estate of the said' Ngareta Paul, 14170.000 → 14195.492, 17.12.81"
+   },
+   {
+    "name": "Pimpi Paul",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; 50.000 from Ngareta Paul by vesting order 23.3.77 (AT 8/383)"
+   },
+   {
+    "name": "Tamati Poharama",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "10000.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 24, 10000.000; AT 8/383; VO 23.3.77 → 32 Toru Poharama 50.000, 33 Tamati Poharama 9950.000; as 'Tamati or Tom Poharama or Tame Reihana Poharama' (list 33) d. — s.81/67, 21.5.84 → 57 Te Paea or Sophie Poharama, administratrix; her estate → 75–86, 30.10.88"
+   },
+   {
+    "name": "Toru Poharama",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; 50.000 from Tamati Poharama, 23.3.77"
+   },
+   {
+    "name": "Te Paea or Sophie Poharama",
+    "role": "Administrator",
+    "sex": "",
+    "age": "",
+    "shares": "9950.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57; administratrix of the estate of Tamati or Tom Poharama or Tame Reihana Poharama, 9950.000, 21.5.84 (RW 4/164); as deceased, list 57 → 75–86, s.81A/67, 30.10.88 (6 RO 113)"
+   },
+   {
+    "name": "Tohu Dick Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Ranga Poharama or Mrs Frasier",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Erana Roseana Haretiku",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Cora Bishop",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Talati Sarah Marsh",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Maude Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Tari Pou Heihei",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Andrew Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Matiu Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Pareiha Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Sandy Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Thomas Richard Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "829.167",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 75–86; 1/12 each of Te Paea or Sophie Poharama's 9950.000, 30.10.88"
+   },
+   {
+    "name": "Wiremu Topine",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "91.349",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 27, 91.349; KT 11/72; VO s.213, 8.11.78 → 36 William Toloa Jnr"
+   },
+   {
+    "name": "William Toloa Jnr",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "182.698",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; 91.349 from Wiremu Topine (8.11.78) added to 91.349 already held (list 28) = 182.698; then transferor (KT 11/89, VO 10.11.78) → 38 Simon Mathew Urlich"
+   },
+   {
+    "name": "Huruo Larkins",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 11, 45.492; NH 55/251; s.213, 5.3.79 → 37 Glennis Pomare"
+   },
+   {
+    "name": "Glennis Pomare",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; sole successor to Huruo Larkins, 5.3.79"
+   },
+   {
+    "name": "Simon Mathew Urlich",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "182.698",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; 182.698 from William Toloa Jnr by vesting order 10.11.78"
+   },
+   {
+    "name": "Polly Kingi or Ngahuia Kingi or Ngahuia Kingi Waiaua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "3147.050",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 17, 3147.050; RW 4/99-100; s.81A/67, 22.12.83; N.Z. Guardian Trust Co Ltd administrator → nos 40–55 in sevenths, fourteenths, twenty-eighths and forty-seconds"
+   },
+   {
+    "name": "Tauru Kingi Waiaua",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "449.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; 1/7 of Ngahuia Kingi Waiaua, 449.578; later the Tauru Henare Kingi Waiaua Whanau Trust (no. 100, s.214/93, 19.7.96)"
+   },
+   {
+    "name": "Ngatikahu Kingi Waiaua",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "449.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; 1/7"
+   },
+   {
+    "name": "Erana Kingi Waiaua or Tawa",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "449.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; 1/7 held by the Maori Trustee as administrator; her estate (RW 4/166, s.81A/67, 3.5.84) → 60–69"
+   },
+   {
+    "name": "Wanahua Kingi Waiaua or Alice Simeon",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "449.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; 1/7 held by Hope Simeon and William Simeon as administrators; her estate (list 43, 1 KT(S) 164-165, s.78A/67, 13.3.90) → 87–95"
+   },
+   {
+    "name": "John Henry Kingi",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "224.789",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44; 1/14, 224.789; as 'John Henry King, Hone Kingi Waiaua' d. — list 44, RW 5/14, s.81/67, 8.10.85 → 72 N.Z. Guardian Trust (administrator) → 73 Joseph Kingi, Horaha Ikanui Kingi, 7.10.85"
+   },
+   {
+    "name": "Marcia M Poharama",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "224.789",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; 1/14"
+   },
+   {
+    "name": "M H Turei",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Ureta Koopu",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Ruaiti Kaua",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Ingrid (Goagie) Collins",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Jukie Tepora Hempel",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Peter Kingi Waiaua",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "74.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 46–51; 1/42 each of Ngahuia Kingi Waiaua"
+   },
+   {
+    "name": "Kingi Reihana",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "3055.312",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; 1/28, 112.395, added to 2942.917 already held (list 13) = 3055.312"
+   },
+   {
+    "name": "Ketemaura Rutene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "112.395",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; 1/28; as 'Peremoana Rutene' (list 53, KT 13/273, s.213, 22.11.84) → 58 Cedric Raniera Rutene 10.000, 59 Peremoana Rutene 102.395 → 70 Parehuia Jane Williams 10.000, 71 Peremoana Rutene 92.395 (reading of the first name uncertain)"
+   },
+   {
+    "name": "Oina Urlich Reihana",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "112.395",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54; 1/28"
+   },
+   {
+    "name": "Eric or Blackie Reihana or Eriha Ratahi Reihana",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1161.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55; 1/28, 112.395, added to 1049.017 already held (list 6) = 1161.412; d. — list 55, 7 RG(?) 62, s.81/67, 26.3.91 → 96 Ruby Reihana as executrix → 97 Ruby Reihana f.a. solely"
+   },
+   {
+    "name": "Ruby Reihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1161.412",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 96–97; executrix and then sole successor to Eric or Blackie Reihana or Eriha Ratahi Reihana, 26.3.91"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "7194.292",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 15, 7194.292 (R 11/84?); order s.153/53, 25.2.85 → 56 Crown; the Crown's 7194.292 re-vested 12.3.98 (85 WH 291-301) in nos 101–301"
+   },
+   {
+    "name": "Crown",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "7194.292",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56; 7194.292 from the Maori Trustee, 25.2.85; transferor 12.3.98 → the 201 owners nos 101–301"
+   },
+   {
+    "name": "Cedric Raniera Rutene",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; 10.000 from Peremoana Rutene, 22.11.84"
+   },
+   {
+    "name": "Parehuia Jane Williams",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 70; 10.000 from Peremoana Rutene, 22.11.84"
+   },
+   {
+    "name": "Ani Blagrove",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "89.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Waata Te Ripi Tawa",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "89.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Puotehira (Julia) Graham",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "89.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Bessie Kaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "89.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Henry William Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "89.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Himiona Edgar Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "14.986",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Eliza Rangi Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "14.986",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Walter Phillip Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "14.986",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Harry Matiu Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "14.986",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Carole Raewyn Hokimate Johnson",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "14.986",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–69; successors to Erana Kingi Waiaua or Tawa, 3.5.84 (five at 1/5 of 4/5 and five Johnson children sharing a fifth)"
+   },
+   {
+    "name": "Joseph Kingi, Horaha Ikanui Kingi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "224.789",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 73; 224.789 from the estate of John Henry King / Hone Kingi Waiaua, 7.10.85"
+   },
+   {
+    "name": "Wiremu Rupapera",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "132.107",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 26, 132.107; 3 Aotea MB 186; s.213/53, 2.2.88 → 74 Ronald James Rupapera"
+   },
+   {
+    "name": "Ronald James Rupapera",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "132.107",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 74; sole, 2.2.88"
+   },
+   {
+    "name": "Tom Simeon",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "89.916",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Rangi Talikimoana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "89.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Agnes Wiki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "89.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "William Simeon",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "89.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Alice Simeon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "22.479",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Leti Simeon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "22.479",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Ronald Simeon",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "22.479",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Trevor Simeon",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "22.479",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Christine Simeon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "44.958",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 87–95; successors to Wanahua Kingi Simeon or Alice Simeon (list 43), s.78A/67, 13.3.90"
+   },
+   {
+    "name": "Eric Subritzky or Eriha Davis or Eric Davis",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "281.687",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 7, 281.687; 1 KT(S) 178; s.78A/67, 1990 → 98 Kenneth John Subritzky"
+   },
+   {
+    "name": "Kenneth John Subritzky",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "281.687",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 98; sole, 1990"
+   },
+   {
+    "name": "Hopa Ho Reihana",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "11300.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 10, 11300.000; order s.214/93, 21.9.94 → 99 Hopa Ho Reihana Whanau Trust, appointing Maaki Reihana, Hokimate June Pereiha, Hohepa Reihana, Huria Marunga and Huhara Reihana as trustees"
+   },
+   {
+    "name": "Hopa Ho Reihana Whanau Trust",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "11300.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 99; whānau trust, 21.9.94; trustees Maaki Reihana, Hokimate June Pereiha, Hohepa Reihana, Huria Marunga, Huhara Reihana"
+   },
+   {
+    "name": "Tauru Tuauru Henare Kingi Waiaua Whanau Trust",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "449.578",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 100; 449.578 from Tauru Kingi Waiaua (list 40), s.214/93, 19.7.96; responsible trustees Huata Te Kingi Waiaua, Te Mamaeroa Cowie, Agnes Kingi, Corina Tania Amiria Hunziker, Candisse Kingi and Rahera June Cowie; advisory trustee Arahia Heather"
+   },
+   {
+    "name": "Agnes Cochrane",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.564",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Akinihi Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ani Takiwairua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "40.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 103; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Annie Manuera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "8.734",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 104; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Apikera Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 105; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Te Araroa Waitohi Te Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "14.557",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 106; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Aroha Hohaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 107; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Te Aroha Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 108; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Aue Pene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 109; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Aue Umuroa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 110; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Bibi Kanara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 111; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Dennis Cochrane",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "22.564",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 112; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Erana Takiwairua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 113; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Erana Umuroa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 114; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Erina Motu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "45.128",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 115; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Eru Aperahama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "38.941",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 116; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Frances Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.456",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 117; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Frederick Brown Cochrane",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "90.984",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 118; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "George Henare Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "90.984",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 119; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hami (Sam) Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.456",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 120; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hare Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "8.734",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 121; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hariata Matui Ihaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 122; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hariata Pene Ngatote",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 123; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hariata Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 124; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Henare Matui Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "63.689",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 125; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Henare Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 126; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Henare Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 127; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Henare Ruhia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 128; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heeni Motu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 129; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heirei Tairaki Rau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 130; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hemi Piripi Taka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 131; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heni Riapo Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "17.469",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 132; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heni Reweti",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 133; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heni Hamuera Rupapera or Heni Matui",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "61.505",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 134; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Heni Witana Witana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 135; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hera Waimaru (Berghan)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "29.115",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 136; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Herewini Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 137; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hetaraka Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 138; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Himi Kaipara Rutene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 139; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hoani Hoera Marupo",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 140; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hoani Taipari",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 141; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hoani Wiremu Taua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 142; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hohepa Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.456",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 143; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hohepa Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "12.374",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 144; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hohepa Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.364",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 145; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hone Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "14.921",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 146; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hone Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 147; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hone Heke Oti Rapihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 148; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hone Piripi Taha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 149; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Honetana Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 150; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hopaea Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 151; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Hori Oti Rapihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 152; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Huhana Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 153; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Huhana Hoera Marupo",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 154; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ihaia Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.548",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 155; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ihaka Eru Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 156; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ihapera Oti Rapihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 157; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ihapera Reweti",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 158; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ireti Riapo Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "17.469",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 159; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Jessie Cochrane",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "22.928",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 160; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kane Riwhi Hopa or Kane Piripi Raharuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "136.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 161; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kahorau Riwhi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 162; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Te Kahupo Tairaki Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 163; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Karaitiana Raniera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "121.191",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 164; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kare Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 165; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kare Ngatote",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "127.378",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 166; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kari Riwhi Hapi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 167; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Katene Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.639",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 168; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Katerina Te Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "72.787",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 169; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kie Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 170; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kerehi Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 171; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kohumoka Wi Rori",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 172; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Kooti Rurawhe",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 173; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Leslie Berghan",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "29.115",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 174; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Maki Tame Waata",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 175; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Makinihi Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.364",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 176; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Makinihi Waitai",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 177; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Manga Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 178; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Manu Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "8.734",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 179; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Manuera Matiu (Waiari)",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "9.098",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 180; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Maraea Rudolph",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 181; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mary Jessie Ellen Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 182; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mata Wiremu Hone",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "29.843",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 183; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mata Te Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "72.787",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 184; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mata Reweti",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 185; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matehaere Paora Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "72.787",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 186; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matehereora Hira Witana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 187; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matekino Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.364",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 188; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matini Wiremu Taua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 189; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matire Kingi Piripi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 190; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matiu Hetaraka Heta",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "80.794",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 191; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Matiu Miha Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "30.207",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 192; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Maud Parikena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "12.010",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 193; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mehana Otene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.607",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 194; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mei Raniera Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "121.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 195; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mere Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 196; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mere Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 197; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mere Poroa Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "13.830",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 198; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mere Ori Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "52.043",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 199; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Merehana Manuera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "8.734",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 200; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Merepaea Matiu Ihaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 201; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mete Hami",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 202; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mete Oti Rapihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 203; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Miha Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "30.935",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 204; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mini Reihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.561",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 205; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mira Waitai",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 206; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Miraka Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.364",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 207; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mita Mete or Mita Pero Mete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 208; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Moera Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 209; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mohi Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "118.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 210; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mori Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 211; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Mu Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 212; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Nepia Reewe",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 213; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Nere Subritzky",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "70.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 214; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ngahou Tairaki Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 215; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ngakina Waitai",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 216; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Nganeko Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 217; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ngarama Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 218; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ngauma Piripi Taha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 219; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pae Koraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 220; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paihana Wiremu Taua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 221; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paki Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.364",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 222; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pani Mete or Pani Pero Mete",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "112.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 223; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paora Tairaki Rau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 224; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paora Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6.915",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 225; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paraire Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 226; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paraire Ratahi Reihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 227; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Paratene Rutene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "52.043",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 228; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Parehuia Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 229; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Patana Raniera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "121.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 230; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pene Mete or Pene Pero Mete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 231; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pene Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "12.010",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 232; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Peri Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 233; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pero Mete or Pero Pero Mete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 234; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Peti Reihana Tamaho or Peti Tamaho",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "78.246",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 235; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1) — cf. Iri Tamaho Maika on Paihia 1D1C (T083)"
+   },
+   {
+    "name": "Pika Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 236; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Piri Hohaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 237; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pirimona Waitohi Te Rau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "14.557",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 238; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Piripi Piripi Taha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6.551",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 239; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Poroa Oti Rapihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 240; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Pouaute Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 241; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Puti Kaipara Rutene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "11.282",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 242; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rahera Hone Petera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 243; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rahera Tairaki Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 244; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rahera Waiari",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "9.098",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 245; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Raiha Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 246; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rakapa Tairaki Rau",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 247; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ramari Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 248; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rangihaukaha Oti Rapihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 249; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Raniera Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "30.935",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 250; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rapata Takiwairua",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "40.397",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 251; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rauparaha Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 252; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rawhiti Era Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 253; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rawhiti Ngawaka Tame Mare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.456",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 254; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Reddy George Clendon Cochrane",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "90.984",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 255; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Reihana Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.505",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 256; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Renata Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 257; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Reremoana Motu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "14.921",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 258; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Reweti Raukawa Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.639",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 259; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Reweti Parikena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "12.010",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 260; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rhoda Hinetekai Smith",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "52.043",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 261; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Riapo Haimona Riapo Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.912",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 262; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rina Umuroa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.285",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 263; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rihipeti Tame Murray",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.731",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 264; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Riki Reihana Eru Ihaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 265; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ripeka Tihirua Wiremu Taua",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "51.679",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 266; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Robin Cochrane",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "22.928",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 267; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Roiho Hetaraka Heta",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "80.794",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 268; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Roiho Wi Kaitaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "20.380",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 269; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Rotorua Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 270; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ruamanuka Mihipo",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 271; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Te Ruia Waitai",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "18.197",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 272; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ruiha Parera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "181.968",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 273; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ruihi Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 274; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ruihi Tairaki Rau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "10.190",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 275; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Sandy Hohaia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 276; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Taa Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 277; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Taha Riwhi Hopa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "136.476",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 278; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Tahi Kingi Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 279; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Take Hemi Manuera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.095",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 280; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Taka Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 281; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Tamihana Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "14.921",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 282; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Tane Hoera Marupo",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 283; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Taniwha Pene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "48.767",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 284; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Tare Hohepa Rupapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "0.365",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 285; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Tiini Matiu (Riwhi)",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.505",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 286; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Timoti Riwhi Hopa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "90.984",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 287; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Timoti Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.413",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 288; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Timoti Iehu Timoti Puhipi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.820",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 289; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Timoti Te Kawau or Timoti Hetaraka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "45.492",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 290; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Violet Hohaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.184",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 291; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Waata Mete or Waaka Wiremu Mete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 292; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Waihekura Oti Rapihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7.279",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 293; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Te Waru Rudolph",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "14.557",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 294; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Wi Moka Mete or Wiremu Pero Mete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "74.971",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 295; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "William Maki Cochrane",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "90.984",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 296; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Wiremu Hohani",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 297; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Wiremu Manuera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "60.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 298; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Wiremu Matiu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "61.505",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 299; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1) — NOT Wiremu Matiu son of Matiu Wiripo (T141): this is the Karikari/Te Kohanga Matiu whānau, children of Matiu Paewoi (doc 1407032), who appear together here (Raniera, Reihana, Miha, Tiini and Wiremu Matiu, and the Raniera Matiu children)"
+   },
+   {
+    "name": "Wiremu Kupa Rupapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "0.365",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 300; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Wirihana Motu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "14.921",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 301; Crown's shares re-vested 12.3.98 (85 WH 291-301), order s.64(1)"
+   },
+   {
+    "name": "Ngatikahu Trustees",
+    "role": "Owner",
+    "sex": "",
+    "age": "",
+    "shares": "21700.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 302; 21700.000 shares, entered 29.01.98"
+   }
+  ],
+  "notes": "Checked for whānau connections 22 Oct 2026: no tupuna of the Arama, Taniora Rihari, Hongi, Wiremu Tangata, Matiu Wiripo, Paraihe or Te Patara lines appears on this block. The one exact name match — Wiremu Matiu (no. 299) — is the Karikari/Te Kohanga Wiremu Matiu, son of Matiu Paewoi (doc 1407032), not Matiu Wiripo's son (T141): he sits here with his siblings Raniera, Reihana, Miha and Tiini Matiu. Some forty of the 1998 owners (the Umuroa, Motu, Oti Rapihana, Iehu Timoti Puhipi, Haimona Riapo Puhipi, Rupapera, Raniera Matiu and Subritzky families) are also owners in Te Kohanga, Karikari 2 and Whakakoro F in the database — Ngatikahu belongs to the same Ngāti Kahu / Te Rarawa ownership community as those blocks. Lead: the rare name 'Pereene' (Pereene Eriha Kiwini or Greaves, list 19, d. before 1973) is the name carried by Werahiko and Te Uinga Pereene Kini, who took a quarter each of one seventh of Taniora Rihari's lands in 1932 — see D021 (Hoana Pereme, Raiha Taniora's eldest daughter in 1898, as the head of that line). Ngatikahu (block 30426, Taipa) is in the 2017 index."
  }
 ]
