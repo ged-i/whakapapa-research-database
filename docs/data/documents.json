@@ -63655,5 +63655,1967 @@
    }
   ],
   "notes": "Perene = Pereene (doc 1523736 spells the father 'Puhi Pereene'). D021."
+ },
+ {
+  "document_id": "PW-1282507",
+  "doc_no": "1282507",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A1A (CT 67B/391, 3.3260 ha, 1.000 share) — James Taute Harrison as executor of the estate of Rehutai Maheno Manemane @ Rachel Harrison, entered 24 Jun 1997",
+  "blocks_recorded": [
+   "Parapara A1A"
+  ],
+  "block_ids": [
+   "30656"
+  ],
+  "record_date": "1997-06-24",
+  "effective_date": "1998-11-03",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00790877_01282507_0001_0001_LHO_Document-1282507.pdf",
+  "drive_id": "17jtba8xbDTAjazpqaY5WIx0xpo66yywf",
+  "file_size": "209646",
+  "url": "https://drive.google.com/file/d/17jtba8xbDTAjazpqaY5WIx0xpo66yywf/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 (11909), title CT 67B/391, Parapara A1A, 3.3260 ha, 1.000 share: 1 James Taute Harrison as executor to the estate of Rehutai Maheno Manemane @ Rachel Harrison (entered from CT 67B/391), 1.000; prepared/checked 24.6.97; Tash 15/8/98, Kare 3/11/98.",
+  "names": [
+   {
+    "name": "James Taute Harrison",
+    "role": "Administrator",
+    "sex": "m",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; executor of the estate of Rehutai Maheno Manemane @ Rachel Harrison, 1997"
+   },
+   {
+    "name": "Rehutai Maheno Manemane @ Rachel Harrison",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. before 24.6.97; sole owner of Parapara A1A since 1958"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1282536",
+  "doc_no": "1282536",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A8 — schedule of ownership orders 1954–1997 (50:0:04 / 20.2343 ha, 50.000 shares): Maheno Henare Piripi and Raiti Miti Otene; European land by declaration 1968 (CT 15D/614); the Piripi (Phillips) succession of 1973 and the Otene–Phillips transmissions and transfers to 1997",
+  "blocks_recorded": [
+   "Parapara A8"
+  ],
+  "block_ids": [
+   "28378"
+  ],
+  "record_date": "1954-06-01",
+  "effective_date": "1997-09-23",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "KT 8/81",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00790906_01282536_0001_0002_LHO_Document-1282536.pdf",
+  "drive_id": "1NPhtMfuh3StEpqRjnsdI46H1x1ijPX5b",
+  "file_size": "577366",
+  "url": "https://drive.google.com/file/d/1NPhtMfuh3StEpqRjnsdI46H1x1ijPX5b/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835 (18485), CT 15D/614: list of owners as at 1.6.54 — 1 Maheno Henare Piripi m 13.900, 2 Raiti Miti Otene @ Mohana Otene m 36.100; 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967, CT 15D/614, 15.11.68'. Maheno Piripi or Maheno Piripi (Phillips) or Maheno Henare Piripi (list 1; KT 8/81), SVO 11.7.73 → 3 Rangi Piripi (Phillips) m.a. 6.950, 4 Piripi Piripi m.a. 6.950 (certified copy to DLR 16.3.98). Raiti Miti Otene (list 2), transmission 609400.1, 9.4.76 → 5 Morehu Phillips as administrator; → 6 Haami Tokouru Otene by transmission B 152850.1, 8.3.83. Page 2 (memorial schedule): Hami Tokouru Otene (list 6), transfer 197396.1, 23.9.97 → 7 Gilbert John Phillips; Gilbert John Phillips (list 7), transfer 197396.2, 23.9.97 → 8 Kelvin Barry Phillips 36.100.",
+  "names": [
+   {
+    "name": "Maheno Henare Piripi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "13.900",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1, list of owners as at 1.6.54; as 'Maheno Piripi or Maheno Piripi (Phillips) or Maheno Henare Piripi' (KT 8/81), SVO 11.7.73 → 3 Rangi Piripi (Phillips) 1/2, 4 Piripi Piripi 1/2"
+   },
+   {
+    "name": "Raiti Miti Otene @ Mohana Otene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "36.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2, list as at 1.6.54; transmission 609400.1, 9.4.76 → 5 Morehu Phillips as administrator"
+   },
+   {
+    "name": "Rangi Piripi (Phillips)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "6.950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 1/2 of Maheno Henare Piripi, 11.7.73"
+   },
+   {
+    "name": "Piripi Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "6.950",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 1/2"
+   },
+   {
+    "name": "Morehu Phillips",
+    "role": "Administrator",
+    "sex": "",
+    "age": "",
+    "shares": "36.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; administrator of Raiti Miti Otene, 9.4.76; transmission B 152850.1, 8.3.83 → 6 Haami Tokouru Otene"
+   },
+   {
+    "name": "Haami Tokouru Otene",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "36.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; by transmission 8.3.83; transfer 197396.1, 23.9.97 → 7 Gilbert John Phillips"
+   },
+   {
+    "name": "Gilbert John Phillips",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "36.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; by transfer 23.9.97; transfer 197396.2 the same day → 8 Kelvin Barry Phillips"
+   },
+   {
+    "name": "Kelvin Barry Phillips",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "36.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; by transfer 23.9.97"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1404914",
+  "doc_no": "1404914",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A1A, A1B and A1C — succession order schedule and schedule of ownership orders 1956–1958: Rehutai Manemane Maheno's A1B and A1C vested in Himi Harrison (vesting orders N 84/202 and N 86/23); list of owners as at 25 Nov 1958",
+  "blocks_recorded": [
+   "Parapara A1A",
+   "Parapara A1B",
+   "Parapara A1C"
+  ],
+  "block_ids": [
+   "30656"
+  ],
+  "record_date": "1956-12-05",
+  "effective_date": "1958-11-25",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 84/202; N 86/23",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00905331_01404914_0001_0003_LHO_Document-1404914.pdf",
+  "drive_id": "1BVqZCLONcchZfGgOYK9O6WVOeKuZ0bYE",
+  "file_size": "484798",
+  "url": "https://drive.google.com/file/d/1BVqZCLONcchZfGgOYK9O6WVOeKuZ0bYE/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Three pages for Parapara A1A, A1B and A1C (one title; area 65:1:32, 117.800 shares). Vesting order sec. 213, 5.12.56 (N 84/202): the interest of Rehutai Manemane Maheno in A1B vested in Himi Harrison m solely. Vesting order N 86/23, 25.11.58 (A1C only): Rehutai Manemane Maheno → Himi Harrison m sole. Schedule: 1 Rehutai Manemane Maheno (sole) → 2 Himi Harrison (A1B), 3 Himi Harrison (A1C; A1B & A1C), 4 Rehutai Manemane Maheno (balance) f — A1A. List of owners as at 25.11.58: 1 Himi Harrison m, A1B & A1C; 2 Rehutai Manemane Maheno f, A1A.",
+  "names": [
+   {
+    "name": "Rehutai Manemane Maheno",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole owner of Parapara A1A, A1B and A1C (65:1:32, 117.800 shares); vesting order s.213, 5.12.56 (N 84/202) — A1B → Himi Harrison solely; vesting order N 86/23, 25.11.58 — A1C → Himi Harrison solely; she keeps A1A (the balance). List of owners as at 25.11.58: 1 Himi Harrison m (A1B & A1C), 2 Rehutai Manemane Maheno f (A1A)"
+   },
+   {
+    "name": "Himi Harrison",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 2–3; Parapara A1B (5.12.56) and A1C (25.11.58) vested in him solely by s.213 vesting orders from Rehutai Manemane Maheno"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1404921",
+  "doc_no": "1404921",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A1A — schedule of ownership orders under the partition order of 11 Jul 1963 (8:0:35): Rehutai Manemane Maheno or Rachel Harrison sole owner; European land by declaration 31 Mar 1971 (CT 20C/196)",
+  "blocks_recorded": [
+   "Parapara A1A"
+  ],
+  "block_ids": [
+   "30656"
+  ],
+  "record_date": "1963-07-11",
+  "effective_date": "1971-03-31",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00905338_01404921_0001_0001_LHO_Document-1404921.pdf",
+  "drive_id": "15IVCebxaE4ey1ZOk4uam1y6QiqDlaneP",
+  "file_size": "173436",
+  "url": "https://drive.google.com/file/d/15IVCebxaE4ey1ZOk4uam1y6QiqDlaneP/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835: 'P.O. dated 11/7/63', Parapara A1A, area 8:0:35, one original owner. List of owners as at 11/7/63: 1 Rehutai Manemane Maheno or Rachel Harrison f.a. solely. Stamped 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967 — CT 20C/196, 31.3.71'.",
+  "names": [
+   {
+    "name": "Rehutai Manemane Maheno or Rachel Harrison",
+    "role": "Owner",
+    "sex": "f",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner under the partition order of 11.7.63"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1404947",
+  "doc_no": "1404947",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A9 — schedule of ownership orders 1959–1972 (124:3:26, 94.750 shares): Kane Taua's 77.830 to her daughters Mary Jessie Ellen (Mrs Phare) and Ramari (Mrs Subritzky) Wiremu Taua; Mereaina Raharuhi Ihaia and Hoani Wiremu Taua to the Smith children; list of owners as at 11 Mar 1960; transfers to Kingi Neho and Pere Clark (1972)",
+  "blocks_recorded": [
+   "Parapara A9"
+  ],
+  "block_ids": [
+   "28378",
+   "30641"
+  ],
+  "record_date": "1959-03-18",
+  "effective_date": "1972-12-04",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "N 86/105; N 86/110; N 87/30-1; NH 48/148",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00905364_01404947_0001_0002_LHO_Document-1404947.pdf",
+  "drive_id": "1xrJuHLp6ppF-Qc9KRG-w5Txgkw7nb5rY",
+  "file_size": "525201",
+  "url": "https://drive.google.com/file/d/1xrJuHLp6ppF-Qc9KRG-w5Txgkw7nb5rY/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Page 1 (M.A. 28): Kane Taua (list 1, 77.830; N 86/105), SVO 18.3.59 → 3 Mary Jessie Ellen Wiremu Taua @ Mrs Phare f 9.730, 4 Ramari Wiremu Taua @ Mrs H Subritzky f 68.100. Mereaina Raharuhi Ihaia (list 3, 5.070; N 86/110), SVO 18.3.59 → 5 James Make Wiremu Taua m 1/3 1.690, 6 Ngahuka Kingi f 1/3 1.690, 7 June Smith f 1/6 .845, 8 Charlie Smith 1/6 .845 (trustee Mirimiri Franks). Hoani Wiremu Taua (list 2, 11.850; N 87/30-1), SVO 11.3.60 → 9 Ellen Smith, 10 June Smith (→ 3.215), 11 George Smith, 12 Fanny Smith (1963), 13 Charlie Smith (1965, → 3.215), 2.370 each. Page 2 (M.A. 835): list of owners as at 11.3.60 — 1 Charlie Smith 3.215, 2 Ellen Smith 2.370, 3 Fanny Smith 2.370, 4 George Smith 2.370, 5 James Make Wiremu Taua 1.690, 6 June Smith 3.215, 7 Mary Jessie Ellen Wiremu Taua @ Mrs Phare 9.730, 8 Ngahuka Kingi 1.690, 9 Ramari Wiremu Taua @ Mrs H. Subritzky 68.100; total 94.750. Mary Jessie Ellen Wiremu Taua or Mrs Phare (list 7; NH 48/148), s.213/53, 4.12.72 → 10 Kingi Neho solely; Ramari Wiremu Taua or Mrs Subritzky (list 9), s.213/53, 4.12.72 → 11 Pere Clark solely.",
+  "names": [
+   {
+    "name": "Kane Taua",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "77.830",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 77.830; N 86/105; SVO 18.3.59 → 3 Mary Jessie Ellen Wiremu Taua @ Mrs Phare 9.730, 4 Ramari Wiremu Taua @ Mrs H Subritzky 68.100 — her daughters"
+   },
+   {
+    "name": "Mary Jessie Ellen Wiremu Taua @ Mrs Phare",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9.730",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 3 and 7; 9.730 from Kane Taua, 18.3.59; transferor (NH 48/148, s.213/53, 4.12.72) → 10 Kingi Neho solely"
+   },
+   {
+    "name": "Ramari Wiremu Taua @ Mrs H. Subritzky",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "68.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 4 and 9; 68.100 from Kane Taua, 18.3.59; transferor (NH 48/148, s.213/53, 4.12.72) → 11 Pere Clark solely"
+   },
+   {
+    "name": "Mereaina Raharuhi Ihaia",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "5.070",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 3, 5.070; N 86/110; SVO 18.3.59 → 5 James Make Wiremu Taua 1/3, 6 Ngahuka Kingi 1/3, 7 June Smith 1/6, 8 Charlie Smith 1/6 (trustee Mirimiri Franks)"
+   },
+   {
+    "name": "James Make Wiremu Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.690",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 5; 1/3 of Mereaina Raharuhi Ihaia"
+   },
+   {
+    "name": "Ngahuka Kingi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1.690",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 6 and 8; 1/3 of Mereaina Raharuhi Ihaia — 'Ngahuka Hoani Taua or Mrs Te Hai Kingi' of Whatuwiwi 5"
+   },
+   {
+    "name": "Hoani Wiremu Taua",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "11.850",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 11.850; N 87/30-1; SVO 11.3.60 → 9 Ellen Smith, 10 June Smith, 11 George Smith, 12 Fanny Smith (1963), 13 Charlie Smith (1965) 2.370 each — 'Hoani Wiremu Taua II' on Whatuwiwi 2B1 the same day"
+   },
+   {
+    "name": "Ellen Smith",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "2.370",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9 / list 2"
+   },
+   {
+    "name": "June Smith",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.215",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 7 and 10 / list 6: .845 + 2.370 = 3.215"
+   },
+   {
+    "name": "George Smith",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "2.370",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11 / list 4"
+   },
+   {
+    "name": "Fanny Smith",
+    "role": "Successor",
+    "sex": "f",
+    "age": "minor",
+    "shares": "2.370",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12 / list 3; minor (b. 1963 reading — trustee Mirimiri Franks)"
+   },
+   {
+    "name": "Charlie Smith",
+    "role": "Successor",
+    "sex": "m",
+    "age": "minor",
+    "shares": "3.215",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 8 and 13 / list 1: .845 + 2.370 = 3.215; minor (1965), trustee Mirimiri Franks"
+   },
+   {
+    "name": "Mirimiri Franks",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the Smith minors — 'Mirimiri Hoani Taua or Mrs Franks' of Whatuwiwi 5"
+   },
+   {
+    "name": "Kingi Neho",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "9.730",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; 9.730 from Mary Jessie Ellen Wiremu Taua or Mrs Phare, 4.12.72"
+   },
+   {
+    "name": "Pere Clark",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "68.100",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; 68.100 from Ramari Wiremu Taua or Mrs Subritzky, 4.12.72"
+   }
+  ],
+  "notes": "Parapara A9 is not in the 2017 index; pinned to its neighbours Parapara A8 and A7B2. The Wiremu Taua family also holds Whatuwiwi 2B1 and Ngatikahu."
+ },
+ {
+  "document_id": "PW-1404948",
+  "doc_no": "1404948",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara A10 — schedule of ownership orders 1954–1970 (150:1:31, 232.000 shares): Raniera Karena Taha sole owner; to Angelina Olive Ritete (1964) and Ani Taha, Mrs Sampson (1966); European land by declaration 24 Nov 1970 (CT 19D/781)",
+  "blocks_recorded": [
+   "Parapara A10"
+  ],
+  "block_ids": [
+   "30641",
+   "28378"
+  ],
+  "record_date": "1954-06-01",
+  "effective_date": "1970-11-24",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "KT 1/370; KT 4/54",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00905365_01404948_0001_0001_LHO_Document-1404948.pdf",
+  "drive_id": "1xrV7UB2z6bZDXsgEEfFbdoAi8eY7pqYP",
+  "file_size": "247929",
+  "url": "https://drive.google.com/file/d/1xrV7UB2z6bZDXsgEEfFbdoAi8eY7pqYP/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form M.A. 835: Parapara A10, 150:1:31, 232.000 shares. List of owners as at 1.6.54: 1 Raniera Karena Taha m sole 232.000. Raniera Karena Taha (list 1; KT 1/370), SVO 3.3.1964 → 2 Angelina Olive Ritete f sole 232.000. Angelina Olive Ritete (list 2; KT 4/54), order 137/53, 1.7.66 → 3 Ani Taha (Mrs Sampson) f sole 232.000. 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967 — CT 19D/781, 24.11.1970.'",
+  "names": [
+   {
+    "name": "Raniera Karena Taha",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "232.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1, list of owners as at 1.6.54, sole; d. — KT 1/370, SVO 3.3.1964 → 2 Angelina Olive Ritete f sole. Sole successor to Karena Taha (d. 31.12.32) on Parapara East A in 1953 (doc 1554473)"
+   },
+   {
+    "name": "Angelina Olive Ritete",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "232.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; sole, 3.3.64; transferor (KT 4/54, order s.137/53, 1.7.66) → 3 Ani Taha (Mrs Sampson)"
+   },
+   {
+    "name": "Ani Taha (Mrs Sampson)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "232.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; sole, 1.7.66"
+   }
+  ],
+  "notes": "Parapara A10 is not in the 2017 index (declared European land in 1970); pinned to its neighbours A7B2 and A8."
+ },
+ {
+  "document_id": "PW-1554472",
+  "doc_no": "1554472",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara East — succession schedule 1884–1901: Mere Ngamako alias Mere Kepa to Hariata Kepa; Henare Kepa to four Piripi minors; Wiremu Pikaahu; Pirika Paia to Eriha Kiriwi and Te Waaka Reweti (superseded by consolidation order)",
+  "blocks_recorded": [
+   "Parapara East"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1884-12-10",
+  "effective_date": "1901-09-18",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01054900_01554472_0001_0001_LHO_Document-1554472.pdf",
+  "drive_id": "19QBVYJgyDgJ2zmuo8oz9fmKJAjjzwhAa",
+  "file_size": "228762",
+  "url": "https://drive.google.com/file/d/19QBVYJgyDgJ2zmuo8oz9fmKJAjjzwhAa/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Handwritten schedule for Parapara East. Mere Ngamako alias Mere Kepa, 10.12.84 → Hariata Kepa. Henare Kepa, 9.9.92 → Raiha Piripi f 7, Wiremu Piripi m 5, Renata Piripi m 3, Henare Piripi m 2; trustee Haruata Piripi. Wiremu Pikaahu, 15.2.98 → Henare Wiremu Pikaahu m.a., Te Wiki Pikaahu m.a., equally. Pirika Paia (reading uncertain), 18.9.01 → Eriha Kiriwi m, Te Waaka Reweti m, equally. Stamped 'Superseded by consolidation order'.",
+  "names": [
+   {
+    "name": "Mere Ngamako alias Mere Kepa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 10.12.84"
+   },
+   {
+    "name": "Hariata Kepa",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mere Ngamako alias Mere Kepa, 10.12.84"
+   },
+   {
+    "name": "Henare Kepa",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 9.9.92"
+   },
+   {
+    "name": "Raiha Piripi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "7",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Kepa, 9.9.92"
+   },
+   {
+    "name": "Wiremu Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "5",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Kepa, 9.9.92"
+   },
+   {
+    "name": "Renata Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "3",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Kepa, 9.9.92"
+   },
+   {
+    "name": "Henare Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "2",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Kepa, 9.9.92"
+   },
+   {
+    "name": "Haruata Piripi",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the Piripi minors, 1892 (reading uncertain)"
+   },
+   {
+    "name": "Wiremu Pikaahu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 15.2.98"
+   },
+   {
+    "name": "Henare Wiremu Pikaahu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Pikaahu, 15.2.98"
+   },
+   {
+    "name": "Te Wiki Pikaahu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Pikaahu, 15.2.98"
+   },
+   {
+    "name": "Pirika Paia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 18.9.01; reading of the surname uncertain"
+   },
+   {
+    "name": "Eriha Kiriwi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pirika Paia, 18.9.01 — the Eriha Kiriwi family (Pereene, Ngarama, Rita, Waitonga Eriha Kiriwi) hold on Ngatikahu and Whatuwiwi 5 (D021)"
+   },
+   {
+    "name": "Te Waaka Reweti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pirika Paia, 18.9.01"
+   }
+  ],
+  "notes": "The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554473",
+  "doc_no": "1554473",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara East A — succession schedule 1905–1953: Henare Taha alias Parata (d. 12 Nov 1903) to Hemi, Karena and Wairuku Taha; Wairuku and Hemi to Karena Taha of Pukepoto (1919); Karena Taha (d. 31 Dec 1932) to Raniera Karena Taha (1953)",
+  "blocks_recorded": [
+   "Parapara East A"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1905-04-03",
+  "effective_date": "1953-11-13",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "N 57/203; N 57/204; N 81/152",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01054901_01554473_0001_0001_LHO_Document-1554473.pdf",
+  "drive_id": "1olnMo5sRqDMIH9StYnr6nU614ojEqSvt",
+  "file_size": "208247",
+  "url": "https://drive.google.com/file/d/1olnMo5sRqDMIH9StYnr6nU614ojEqSvt/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Henare Taha alias Parata (12.11.03), 3.4.05 → Hemi Taha m.a., Karena Taha m.a., Wairuku Taha f 11, equally; trustee Hemi Taha. Wairuku Taha (10.6.15; N 57/204), 15.2.19 → Karena Taha of Pukepoto m. Hemi Taha (29.7.09; N 57/203), 15.2.19 → Karena Taha of Pukepoto m. Karena Taha (31.12.32; N 81/152), 13.11.53 → Raniera Karena Taha m solely — whose consolidated interest became Parapara A10 (doc 1404948).",
+  "names": [
+   {
+    "name": "Henare Taha alias Parata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 12.11.03; order 3.4.05"
+   },
+   {
+    "name": "Hemi Taha",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Taha alias Parata, 3.4.05"
+   },
+   {
+    "name": "Karena Taha",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Taha alias Parata, 3.4.05"
+   },
+   {
+    "name": "Wairuku Taha",
+    "role": "Successor",
+    "sex": "f",
+    "age": "11",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Henare Taha alias Parata, 3.4.05"
+   },
+   {
+    "name": "Hemi Taha",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Wairuku Taha, 1905"
+   },
+   {
+    "name": "Wairuku Taha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 10.6.15; N 57/204; order 15.2.19"
+   },
+   {
+    "name": "Karena Taha of Pukepoto",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wairuku Taha, 15.2.19"
+   },
+   {
+    "name": "Hemi Taha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 29.7.09; N 57/203; order 15.2.19"
+   },
+   {
+    "name": "Karena Taha of Pukepoto",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hemi Taha, 15.2.19"
+   },
+   {
+    "name": "Karena Taha",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 31.12.32; N 81/152; order 13.11.53"
+   },
+   {
+    "name": "Raniera Karena Taha",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Karena Taha, 13.11.53"
+   }
+  ],
+  "notes": "The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554488",
+  "doc_no": "1554488",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Section C Parapara East (Parapara East C) — succession schedules 1905–1950: Piri Raiti (306 acres) to Hori, Kiritapa and Keeti Raiti; Kiritapa Raiti's 100 acres to nine lines (1937); Hori Raiti's 206 acres to eleven (1946); Hamuera Kiritapa Raiti (1950)",
+  "blocks_recorded": [
+   "Parapara East C"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1905-03-30",
+  "effective_date": "1950-06-04",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "N 66A/200; N 75/49; N 79/128",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "01054916_01554488_0001_0002_LHO_Document-1554488.pdf",
+  "drive_id": "15WJt6Gf0q6gW_YWs8MOSodo0s0sh-y6b",
+  "file_size": "420014",
+  "url": "https://drive.google.com/file/d/15WJt6Gf0q6gW_YWs8MOSodo0s0sh-y6b/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Two schedule pages. Piri Raiti, 30.3.05 → Hori Raiti m.a. 206 acres, Kiritapa Raiti m.a. 50, Keeti Raiti f.a. 50. Keeti Raiti (50), 27.11.09 → Kiritapa Raiti solely. Kiritapa Raiti (100 acres; d. 20.8.35; N 66A/200), 17.2.37 → Hamuera, Hamuera (dead, single), Kiritapa, Hone, Maki (Mrs Sheeran), Manahi, Hira and Maata Kiritapa Raiti 1/9 each, and Rapata McKenzie, Hamuera Wiremu Rapata, Hikurangi Hapakuku, Huria and Kauri 1/45 each (a daughter's five children), with marginal notes on where each heir lived. Hori Raiti (206 acres; d. 3.10.44; N 75/49), 29.6.46 → Hori Hori Raiti II, Whena, Mihiraweti, Irimana, Kereiha, Kataraina, Iris, Gladys (adults), Edna 20, Jane 18, Henry 18, equally. Page 2 (NLC 16A): Hamuera Kiritapa Raiti (31.12.50; N 79/128), 4.6.50 → Hamuera, Kiritapa, Hone, Maki, Manahi, Hira, Maata 1/8 each; Rapata McKenzie, Hamuera Wiremu Rapata, Hikurangi Hapakuku, Huria, Kauri 1/40 each. 'Superseded by consolidation orders.'",
+  "names": [
+   {
+    "name": "Piri Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 30.3.05"
+   },
+   {
+    "name": "Hori Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "206 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   },
+   {
+    "name": "Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "50 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   },
+   {
+    "name": "Keeti Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "50 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   },
+   {
+    "name": "Keeti Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 50 acres; order 27.11.09"
+   },
+   {
+    "name": "Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Keeti Raiti, 27.11.09"
+   },
+   {
+    "name": "Kiritapa Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 20.8.35; N 66A/200; 100 acres; order 17.2.37; pencilled marginalia on the heirs — 'at Parapara', 'dead, single', 'working at Mangonui', 'away working', 'at Otamaru' — and a note that the deceased's daughter's five children take the ninth ninth"
+   },
+   {
+    "name": "Hamuera Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hamuera Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Kiritapa Raiti II",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hone Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Maki Kiritapa Raiti (Mrs Sheeran)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Manahi Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hira Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Maata Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Rapata McKenzie",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/45",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hamuera Wiremu Rapata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/45",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hikurangi Hapakuku",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/45",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Huria Rapata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/45",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Kauri Rapata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/45",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kiritapa Raiti, 17.2.37"
+   },
+   {
+    "name": "Hori Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 3.10.44; N 75/49; 206 acres; order 29.6.46; 'according to M.B. this order has been drawn but does not appear on the file — therefore entered herein from M.B.'"
+   },
+   {
+    "name": "Hori Hori Raiti II",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Whena Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Mihiraweti Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Irimana Hori Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Kereiha Hori Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Kataraina Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Iris Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Gladys Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Edna Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "20",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Jane Hori Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Henry Hori Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "18",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hori Raiti, 29.6.46"
+   },
+   {
+    "name": "Hamuera Kiritapa Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 31.12.50; N 79/128; order 4.6.50"
+   },
+   {
+    "name": "Hamuera Kiritapa Raiti II",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Hone Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Maki Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Manahi Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Hira Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Maata Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Rapata McKenzie",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Hamuera Wiremu Rapata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Hikurangi Hapakuku",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Huria Rapata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   },
+   {
+    "name": "Kauri Rapata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamuera Kiritapa Raiti, 4.6.50"
+   }
+  ],
+  "notes": "The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554489",
+  "doc_no": "1554489",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara West — succession schedule: Winiata Tomairangi Papahia to Mata, Hepeti and Hera Winiata (15 Nov 1878); Wiremu Kingi to ten successors (5 Jan 1889) — superseded by consolidation order",
+  "blocks_recorded": [
+   "Parapara West"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1878-11-15",
+  "effective_date": "1889-01-05",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01054917_01554489_0001_0001_LHO_Document-1554489.pdf",
+  "drive_id": "1N7BOe1vLdi7PdND_NUMG13rxtQFNB2Pl",
+  "file_size": "198696",
+  "url": "https://drive.google.com/file/d/1N7BOe1vLdi7PdND_NUMG13rxtQFNB2Pl/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Handwritten schedule for Parapara West. Winiata Tomairangi Papahia, 15.11.78 → Mata Winiata, Hepeti Winiata, Hera Winiata. Wiremu Kingi, 5.1.89 → Wata Neho, Wiremu Kingi Neho, Mereana Wiki, Riki Neho, Himi Retimana, Te Teira Ihaka, Matiu Ihaka, Peneamine Ihaka, Ani Wi Kaitaia, Mohi Ihaka. Stamped 'Superseded by consolidation orders'.",
+  "names": [
+   {
+    "name": "Winiata Tomairangi Papahia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 15.11.78"
+   },
+   {
+    "name": "Mata Winiata",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Winiata Tomairangi Papahia, 15.11.78"
+   },
+   {
+    "name": "Hepeti Winiata",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Winiata Tomairangi Papahia, 15.11.78"
+   },
+   {
+    "name": "Hera Winiata",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Winiata Tomairangi Papahia, 15.11.78"
+   },
+   {
+    "name": "Wiremu Kingi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 5.1.89"
+   },
+   {
+    "name": "Wata Neho",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Wiremu Kingi Neho",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Mereana Wiki",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Riki Neho",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Himi Retimana",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Te Teira Ihaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Matiu Ihaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Peneamine Ihaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Ani Wi Kaitaia",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   },
+   {
+    "name": "Mohi Ihaka",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Kingi, 5.1.89"
+   }
+  ],
+  "notes": "'Matiu Ihaka' — Matiu as a given name; not the Matiu Wiripo whānau. The Winiata heirs' own successions are on Parapara West No 3 (doc 1554493). The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554490",
+  "doc_no": "1554490",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara West No 1 — succession order schedule 1907–1954: Matiu Tauhara, the Wi Kaitaia family and the exchange orders consolidating the block in Kane Taua (superseded by the 1951 consolidation)",
+  "blocks_recorded": [
+   "Parapara West No 1"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1907-10-05",
+  "effective_date": "1954-04-26",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "N 72/612; N 79/235; N 81/152; N 81/314; N 81/315",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "01054918_01554490_0001_0002_LHO_Document-1554490.pdf",
+  "drive_id": "1DmUsQpHAh6FGvUotwZpLVwSDTteS8ye-",
+  "file_size": "381115",
+  "url": "https://drive.google.com/file/d/1DmUsQpHAh6FGvUotwZpLVwSDTteS8ye-/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Two handwritten schedule pages. Matiu Tauhara, 5.10.07 → Pereniki Tauhara m 9, Wharangi Ngarama m 14, Wiremu Wi Kaitaia m 12, Hoani Taua m 13, equally. Hoki Wi Kaitaia alias R. W. Kaitaia, 25.10.09 → Hone and Teira Wi Kaitaia equally. Teira Wi Kaitaia, 3.3.15 → Ikanui Wi Kaitaia m, Kane Taua f, Wiremu Wi Kaitaia m, Peri Wi Kaitaia m, equally. Horiana Wi Kaitaia alias Ikanui Wi Kaitaia (5.5.42; N 72/612), 11.2.43 → Matini m, Henare m 15, Ruiha f 18, 1/3 each; trustees Wiremu Wi Kaitaia and Roiho Hetaraka. Exchange orders N 79/235, 28.11.50: Wiremu Wi Kaitaia's interest → Kane Taua solely; Hone Wi Kaitaia 1/4 and Matini, Henare and Ruiha Ikanui Wi Kaitaia 1/48 each → Kane Taua solely. Peri Wi Kaitaia (31.12.50; N 81/152), 13.11.53 → Kane Taua f (d.) solely. Page 2: exchange N 81/314, 26.4.54, Wharangi Ngarama's whole interest → Kane Taua 1/8; exchange N 81/315, 26.4.54, Pereniki Tauhara's whole interest → Mereaina Raharuhi Ihaia 31/56, Kane Taua 4/56. Stamped 'Superseded by consolidation order'.",
+  "names": [
+   {
+    "name": "Matiu Tauhara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 5.10.07 — 'Matiu' is a given name here; not of the Matiu Wiripo whānau"
+   },
+   {
+    "name": "Pereniki Tauhara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "9",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Tauhara, 5.10.07"
+   },
+   {
+    "name": "Wharangi Ngarama",
+    "role": "Successor",
+    "sex": "m",
+    "age": "14",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Tauhara, 5.10.07"
+   },
+   {
+    "name": "Wiremu Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "12",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Tauhara, 5.10.07"
+   },
+   {
+    "name": "Hoani Taua",
+    "role": "Successor",
+    "sex": "m",
+    "age": "13",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu Tauhara, 5.10.07"
+   },
+   {
+    "name": "Hoki Wi Kaitaia alias R. W. Kaitaia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 25.10.09"
+   },
+   {
+    "name": "Hone Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoki Wi Kaitaia alias R. W. Kaitaia, 25.10.09"
+   },
+   {
+    "name": "Teira Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hoki Wi Kaitaia alias R. W. Kaitaia, 25.10.09"
+   },
+   {
+    "name": "Teira Wi Kaitaia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 3.3.15"
+   },
+   {
+    "name": "Ikanui Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Teira Wi Kaitaia, 3.3.15"
+   },
+   {
+    "name": "Kane Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Teira Wi Kaitaia, 3.3.15"
+   },
+   {
+    "name": "Wiremu Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Teira Wi Kaitaia, 3.3.15"
+   },
+   {
+    "name": "Peri Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Teira Wi Kaitaia, 3.3.15"
+   },
+   {
+    "name": "Horiana Wi Kaitaia alias Ikanui Wi Kaitaia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 5.5.42; N 72/612; order 11.2.43"
+   },
+   {
+    "name": "Matini Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Wi Kaitaia alias Ikanui Wi Kaitaia, 11.2.43"
+   },
+   {
+    "name": "Henare Wi Kaitaia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "15",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Wi Kaitaia alias Ikanui Wi Kaitaia, 11.2.43"
+   },
+   {
+    "name": "Ruiha Wi Kaitaia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Horiana Wi Kaitaia alias Ikanui Wi Kaitaia, 11.2.43"
+   },
+   {
+    "name": "Roiho Hetaraka",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee with Wiremu Wi Kaitaia for the minors, 1943"
+   },
+   {
+    "name": "Kane Taua",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange orders N 79/235, 28.11.50: the interests of Wiremu Wi Kaitaia (solely) and of Hone Wi Kaitaia 1/4, Matini, Henare and Ruiha Ikanui Wi Kaitaia 1/48 each vested in her; Peri Wi Kaitaia (31.12.50), N 81/152, 13.11.53 → Kane Taua f (d.) solely; exchange N 81/314, 26.4.54: Wharangi Ngarama's whole interest → Kane Taua 1/8; exchange N 81/315, 26.4.54: Pereniki Tauhara's whole interest → Mereaina Raharuhi Ihaia 31/56 and Kane Taua 4/56. 'Superseded by consolidation order.' Kane Taua's consolidated interest became Parapara A9 (doc 1404947)"
+   },
+   {
+    "name": "Peri Wi Kaitaia",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 31.12.50; N 81/152; 13.11.53 → Kane Taua solely"
+   },
+   {
+    "name": "Wharangi Ngarama",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange N 81/314, 26.4.54 → Kane Taua 1/8"
+   },
+   {
+    "name": "Pereniki Tauhara",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange N 81/315, 26.4.54 → Mereaina Raharuhi Ihaia 31/56, Kane Taua 4/56"
+   },
+   {
+    "name": "Mereaina Raharuhi Ihaia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "31/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "31/56 of Pereniki Tauhara's interest, 26.4.54; her Parapara A9 interest (5.070) passed in 1959 to James Make Wiremu Taua, Ngahuka Kingi, June and Charlie Smith (doc 1404947)"
+   }
+  ],
+  "notes": "Kane Taua (d. by 1959) was the mother of the Wiremu Taua family — Hoani, Mary Jessie Ellen (Mrs Phare), Ramari (Mrs Subritzky), Matini, Paihana, Parehuia, Ripeka Tihirua, Meriana — who hold on Whatuwiwi 2B1 and Ngatikahu; her consolidated interest is Parapara A9. The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554491",
+  "doc_no": "1554491",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Section No 2 Parapara West — succession schedule: Piri Raiti to Hori Raiti (102 acres), Kiritapa Raiti (50) and Keeti Raiti (50), 30 Mar 1905 (superseded by consolidation order)",
+  "blocks_recorded": [
+   "Parapara West No 2"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1905-03-30",
+  "effective_date": "1905-03-30",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01054919_01554491_0001_0001_LHO_Document-1554491.pdf",
+  "drive_id": "1cZwtWBUuUI8iYxp2TeK-G2DOj4bN0HeS",
+  "file_size": "163666",
+  "url": "https://drive.google.com/file/d/1cZwtWBUuUI8iYxp2TeK-G2DOj4bN0HeS/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Piri Raiti, 30.3.05 → Hori Raiti m.a. 102 acres, Kiritapa Raiti m.a. 50 acres, Keeti Raiti f.a. 50 acres. Stamped 'Superseded by consolidation order'. The same order on Section C Parapara East gave Hori 206 acres (doc 1554488).",
+  "names": [
+   {
+    "name": "Piri Raiti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 30.3.05"
+   },
+   {
+    "name": "Hori Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "102 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   },
+   {
+    "name": "Kiritapa Raiti",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "50 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   },
+   {
+    "name": "Keeti Raiti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "50 acres",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piri Raiti, 30.3.05"
+   }
+  ],
+  "notes": "The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
+ },
+ {
+  "document_id": "PW-1554493",
+  "doc_no": "1554493",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Parapara",
+  "title": "Parapara West No 3 — succession schedule, Feb–Mar 1914: Hepeti, Mata and Hera Winiata to Hemaima Matene and Te Arahi Hohepa; Teira Ihaka to Rihi Teira (superseded by consolidation order)",
+  "blocks_recorded": [
+   "Parapara West No 3"
+  ],
+  "block_ids": [
+   "30656",
+   "28378",
+   "30646",
+   "30675",
+   "30337",
+   "30628"
+  ],
+  "record_date": "1914-02-23",
+  "effective_date": "1914-03-02",
+  "court": "Native / Maori Land Court, Tokerau (Mangonui district)",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "01054921_01554493_0001_0001_LHO.pdf",
+  "drive_id": "1bxaaYtekYbzmDaNxsDL7Re0wilpuX4uP",
+  "file_size": "146840",
+  "url": "https://drive.google.com/file/d/1bxaaYtekYbzmDaNxsDL7Re0wilpuX4uP/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Hepeti Winiata (1893), 23.2.14 → Hemaima Matene f, Te Arahi Hohepa m. Teira Ihaka (1912), 25.2.14 → Rihi Teira f. Mata Winiata (1883), 2.3.14 → Hemaima Matene f. Hera Winiata (1890), 2.3.14 → Te Arahi Hohepa m. Stamped 'Superseded by consolidation order'.",
+  "names": [
+   {
+    "name": "Hepeti Winiata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1893; order 23.2.14"
+   },
+   {
+    "name": "Hemaima Matene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hepeti Winiata, 23.2.14"
+   },
+   {
+    "name": "Te Arahi Hohepa",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hepeti Winiata, 23.2.14"
+   },
+   {
+    "name": "Teira Ihaka",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 17.8.12 (reading uncertain); order 25.2.14"
+   },
+   {
+    "name": "Rihi Teira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Teira Ihaka, 25.2.14"
+   },
+   {
+    "name": "Mata Winiata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1883; order 2.3.14"
+   },
+   {
+    "name": "Hemaima Matene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mata Winiata, 2.3.14"
+   },
+   {
+    "name": "Hera Winiata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1890; order 2.3.14"
+   },
+   {
+    "name": "Te Arahi Hohepa",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hera Winiata, 2.3.14"
+   }
+  ],
+  "notes": "The three Winiata were the 1878 successors of Winiata Tomairangi Papahia on Parapara West (doc 1554489). The pre-consolidation Parapara East/West titles are not in the 2017 block index; the record is pinned to the surviving Parapara A subdivisions (Mangonui consolidation, 1951)."
  }
 ]
