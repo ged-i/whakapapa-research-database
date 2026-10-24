@@ -8,7 +8,7 @@
   "birthplace": "",
   "mother": "Maraea Piri Paraiho",
   "father": "Rihari Matiu",
-  "notes": "",
+  "notes": " Whirinaki 4A (1/15 from Peri Paraihe, 1936) was sold with the whole block to Poi Karora in 1947 (doc 1493066).",
   "source": "Death certificate, marriage certificate",
   "links": [
    {
@@ -174,7 +174,7 @@
     "latitude": -35.4663,
     "longitude": 173.4709,
     "relationship": "Owner",
-    "notes": "by succession to Peri Paraihe — Whirinaki 4A",
+    "notes": "by succession to Peri Paraihe — Whirinaki 4A; whole block sold to Poi Karora, confirmed 26 May 1947 (doc 1493066)",
     "source": "Māori Land Court records (Pātaka Whenua) — doc 1650181",
     "as_recorded": "Rirena Arama",
     "linz_title": "",
@@ -690,6 +690,22 @@
     "document_url": "",
     "document_id": "PW-1688373",
     "note": ""
+   },
+   {
+    "event_id": "E017",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ]
  },
@@ -2981,7 +2997,7 @@
   "birthplace": "",
   "mother": "Mini Matiu",
   "father": "Matiu Wiripo",
-  "notes": "Rihari remarried several times.",
+  "notes": "Rihari remarried several times. D025 (24 Oct 2026): a 'Peri R. Matia' (d. 1937), grandson of Paetau te Ihahuhu, on Whirinaki 4A — possibly a son by an earlier wife; untested.",
   "source": "",
   "identities": [
    {
@@ -4382,7 +4398,7 @@
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Recorded as \"Peri Paraihe alias Kaperiere Paraihe\" on his succession orders (25 Sep 1936). Two wives: Horomena Toriwhina (1st) and Ruhia Matiu Wiripo (2nd). Died 7 September 1929 (minute book). Held interests in fifteen blocks — Manukau A, Oturu A, Owhata B, Pakinga B2A/B2B/C1, Pakohu 1, Pakohu 2B2A, Rotokakahi A3B1B1B, Wairoa C1, Wairoa A, Whakakoro B2A, Whakakoro F4, Whirinaki 4A, Paihia 1M3A — succeeded to by nine descendants in 1936. Father of Maraea Piri Paraiho (wife of Rihari Matiu).",
+  "notes": "Recorded as \"Peri Paraihe alias Kaperiere Paraihe\" on his succession orders (25 Sep 1936). Two wives: Horomena Toriwhina (1st) and Ruhia Matiu Wiripo (2nd). Died 7 September 1929 (minute book). Held interests in fifteen blocks — Manukau A, Oturu A, Owhata B, Pakinga B2A/B2B/C1, Pakohu 1, Pakohu 2B2A, Rotokakahi A3B1B1B, Wairoa C1, Wairoa A, Whakakoro B2A, Whakakoro F4, Whirinaki 4A, Paihia 1M3A — succeeded to by nine descendants in 1936. Father of Maraea Piri Paraiho (wife of Rihari Matiu). Whirinaki 4A: the schedule copy of the 1936 order is doc 1493066; the whole block (99 owners) was sold to Poi Karora, confirmed 26 May 1947 (TK 58/74), so it is no longer whānau land.",
   "source": "Māori Land Court records (Pātaka Whenua) — minute book 15 HK 261, 25 Sep 1936 (doc 1650181)",
   "identities": [
    {
@@ -4492,6 +4508,22 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1_4KfDIMuQTdyUKBDEm8kf2n_OBQ1tptG/view",
     "document_id": "PW-1487280",
+    "note": ""
+   },
+   {
+    "event_id": "E006",
+    "type": "Succession order",
+    "date": "1936-09-25",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Schedule entry of the order succeeding to his Whirinaki 4A interest: nine successors, trustees Rirena Arama and Ria Hone Wharewaka (HK 15/261)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
     "note": ""
    }
   ],
@@ -4686,7 +4718,7 @@
     "latitude": -35.4663,
     "longitude": 173.4709,
     "relationship": "Owner",
-    "notes": "interest in Whirinaki 4A succeeded to 25 Sep 1936",
+    "notes": "interest in Whirinaki 4A succeeded to 25 Sep 1936; whole block sold to Poi Karora, confirmed 26 May 1947 (doc 1493066)",
     "source": "Māori Land Court records (Pātaka Whenua) — doc 1650181",
     "as_recorded": "Peri Paraihe alias Kaperiere Paraihe",
     "linz_title": "",
@@ -5048,11 +5080,11 @@
   "name": "Ria Hone Wharewaka",
   "other_names": "",
   "born": "",
-  "died": "",
+  "died": "1939-05-17",
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Daughter of Peri Paraihe by his first wife Horomena Toriwhina; adult in 1936; succeeded to 1/5 of his interests; appointed trustee for the children of Okena Peri Paraihe (minute book 15 HK 261).",
+  "notes": "Daughter of Peri Paraihe by his first wife Horomena Toriwhina; adult in 1936; succeeded to 1/5 of his interests; appointed trustee for the children of Okena Peri Paraihe (minute book 15 HK 261). Died 17 May 1939 (Whirinaki 4A succession schedule, HK 10A/181; doc 1493066), her Whirinaki 4A fifth passing on 13 Aug 1940 to Wati and Erina Ratahi Topia and Raureti (15), Ani (13) and Ihaka (9) Hone Wharewaka.",
   "source": "Māori Land Court records (Pātaka Whenua) — minute book 15 HK 261, 25 Sep 1936 (doc 1650181)",
   "identities": [],
   "events": [
@@ -5102,6 +5134,38 @@
     "confidence": "stated",
     "document_url": "https://drive.google.com/file/d/1WiTffW3ZV2fYzQ1XSbvJGj1S3j8KWgg5/view",
     "document_id": "PW-1517478",
+    "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Death",
+    "date": "1939-05-17",
+    "place_type": "",
+    "place_ref": "",
+    "place_detail": "",
+    "latitude": null,
+    "longitude": null,
+    "description": "Died 17 May 1939 (date on the Whirinaki 4A succession schedule, HK 10A/181)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": ""
+   },
+   {
+    "event_id": "E005",
+    "type": "Succession order",
+    "date": "1940-08-13",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Her 1/5 of Peri Paraihe's Whirinaki 4A interest succeeded to by Wati Ratahi Topia, Erina Ratahi Topia, Raureti (15), Ani (13) and Ihaka (9) Hone Wharewaka, 1/5 each (HK 10A/181)",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
     "note": ""
    }
   ],
@@ -5217,7 +5281,7 @@
     "latitude": -35.4663,
     "longitude": 173.4709,
     "relationship": "Owner",
-    "notes": "by succession to Peri Paraihe — Whirinaki 4A",
+    "notes": "by succession to Peri Paraihe — Whirinaki 4A; whole block sold to Poi Karora, confirmed 26 May 1947 (doc 1493066)",
     "source": "Māori Land Court records (Pātaka Whenua) — doc 1650181",
     "as_recorded": "Ria Hone Wharewaka",
     "linz_title": "",
@@ -5347,7 +5411,7 @@
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Son of Maraea (Piri Paraiho) and Rihari Matiu; adult in 1936; brother of Rirena Arama and Whina. Succeeded to 1/15 of Peri Paraihe's interests (his mother's share divided among her three children). Recorded as \"Tame Rihari Matiu @ Manuera Rihari Matiu\" (list no. 3, 9.091 shares) on the 1940 owner list of Rotokakahi A3B1B1B (doc 1279339).",
+  "notes": "Son of Maraea (Piri Paraiho) and Rihari Matiu; adult in 1936; brother of Rirena Arama and Whina. Succeeded to 1/15 of Peri Paraihe's interests (his mother's share divided among her three children). Recorded as \"Tame Rihari Matiu @ Manuera Rihari Matiu\" (list no. 3, 9.091 shares) on the 1940 owner list of Rotokakahi A3B1B1B (doc 1279339). Whirinaki 4A (1/15 from Peri Paraihe, 1936) was sold with the whole block to Poi Karora in 1947 (doc 1493066).",
   "source": "Māori Land Court records (Pātaka Whenua) — minute book 15 HK 261, 25 Sep 1936 (doc 1650181)",
   "identities": [
    {
@@ -5401,6 +5465,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E003",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -5515,7 +5595,7 @@
     "latitude": -35.4663,
     "longitude": 173.4709,
     "relationship": "Owner",
-    "notes": "by succession to Peri Paraihe — Whirinaki 4A",
+    "notes": "by succession to Peri Paraihe — Whirinaki 4A; whole block sold to Poi Karora, confirmed 26 May 1947 (doc 1493066)",
     "source": "Māori Land Court records (Pātaka Whenua) — doc 1650181",
     "as_recorded": "Tame Rihari Matiu",
     "linz_title": "",
@@ -5585,7 +5665,7 @@
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Daughter of Maraea (Piri Paraiho) and Rihari Matiu; aged 18 on 25 Sep 1936 (so born c. 1918); a trustee was appointed for her. Succeeded to 1/15 of Peri Paraihe's interests. Her 9.091 shares in Rotokakahi A3B1B1B passed by succession vesting order 9 Nov 1970 (KT 6/315) solely to her sister \"Rirena Rihari Matiu or Rirena Arama of Pawarenga\" — confirming the Whakakoro share-arithmetic hypothesis in part.",
+  "notes": "Daughter of Maraea (Piri Paraiho) and Rihari Matiu; aged 18 on 25 Sep 1936 (so born c. 1918); a trustee was appointed for her. Succeeded to 1/15 of Peri Paraihe's interests. Her 9.091 shares in Rotokakahi A3B1B1B passed by succession vesting order 9 Nov 1970 (KT 6/315) solely to her sister \"Rirena Rihari Matiu or Rirena Arama of Pawarenga\" — confirming the Whakakoro share-arithmetic hypothesis in part. Whirinaki 4A (1/15 from Peri Paraihe, 1936) was sold with the whole block to Poi Karora in 1947 (doc 1493066).",
   "source": "Māori Land Court records (Pātaka Whenua) — minute book 15 HK 261, 25 Sep 1936 (doc 1650181)",
   "identities": [
    {
@@ -5646,6 +5726,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -5760,7 +5856,7 @@
     "latitude": -35.4663,
     "longitude": 173.4709,
     "relationship": "Owner",
-    "notes": "by succession to Peri Paraihe — Whirinaki 4A",
+    "notes": "by succession to Peri Paraihe — Whirinaki 4A; whole block sold to Poi Karora, confirmed 26 May 1947 (doc 1493066)",
     "source": "Māori Land Court records (Pātaka Whenua) — doc 1650181",
     "as_recorded": "Whina Rihari Matiu",
     "linz_title": "",
@@ -5907,6 +6003,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E005",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -6376,6 +6488,22 @@
     "document_url": "https://drive.google.com/file/d/1rVjcYnLVhsCTVJ5-_6vINKAAamO9jZiv/view",
     "document_id": "PW-1280290",
     "note": ""
+   },
+   {
+    "event_id": "E007",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -6736,6 +6864,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -6971,6 +7115,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -7206,6 +7366,22 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": ""
+   },
+   {
+    "event_id": "E004",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
    }
   ],
   "links": [
@@ -7960,7 +8136,24 @@
   "notes": "Successor (m.) to Ria Hone Wharewaka in Whakakoro F4, 13 Aug 1940 (HK 20/181), 1.307 shares — one of five who took her 6.533 equally. Relationship not stated (presumably her child). On the c. 1988 list at no. 123.",
   "source": "Māori Land Court records (Pātaka Whenua) — Whakakoro F / F4 succession order schedule (doc 1517478)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
+   }
+  ],
   "links": [
    {
     "link_id": "L203",
@@ -7995,6 +8188,23 @@
     "shares": "",
     "source_id": "S07",
     "document_id": "PW-1491567"
+   },
+   {
+    "link_id": "L571",
+    "tupuna_id": "T041",
+    "location_type": "Block",
+    "location_ref": "28496",
+    "location_detail": "Whirinaki No 4 A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1493066",
+    "as_recorded": "Wati Ratahi Topia",
+    "linz_title": "",
+    "shares": "1/5",
+    "source_id": "S07",
+    "document_id": "PW-1493066"
    }
   ]
  },
@@ -8018,9 +8228,35 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": "Successor on List of owners doc 1491567 — Rotokakahi A3B1B1B"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Erina Ratahi Topia",
+    "source_id": "S07",
+    "date": "1896-05-16",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "Successor on List of owners doc 1493066 — Whirinaki No 4A"
    }
   ],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
+   }
+  ],
   "links": [
    {
     "link_id": "L204",
@@ -8055,6 +8291,23 @@
     "shares": "",
     "source_id": "S07",
     "document_id": "PW-1491567"
+   },
+   {
+    "link_id": "L603",
+    "tupuna_id": "T042",
+    "location_type": "Block",
+    "location_ref": "28496",
+    "location_detail": "Whirinaki No 4 A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1493066",
+    "as_recorded": "Erina Ratahi Topia",
+    "linz_title": "",
+    "shares": "1/5",
+    "source_id": "S07",
+    "document_id": "PW-1493066"
    }
   ]
  },
@@ -8078,9 +8331,35 @@
     "document_url": "https://drive.google.com/file/d/1qMSKR6AiNkgiyFIYmeVVC9zGImBJlHtU/view",
     "document_id": "PW-1491567",
     "note": "Successor on List of owners doc 1491567 — Rotokakahi A3B1B1B"
+   },
+   {
+    "identity_id": "N002",
+    "name": "Raureti Hone Wharewaka",
+    "source_id": "S07",
+    "date": "1896-05-16",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "Successor on List of owners doc 1493066 — Whirinaki No 4A"
    }
   ],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
+   }
+  ],
   "links": [
    {
     "link_id": "L205",
@@ -8115,6 +8394,23 @@
     "shares": "",
     "source_id": "S07",
     "document_id": "PW-1491567"
+   },
+   {
+    "link_id": "L604",
+    "tupuna_id": "T043",
+    "location_type": "Block",
+    "location_ref": "28496",
+    "location_detail": "Whirinaki No 4 A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1493066",
+    "as_recorded": "Raureti Hone Wharewaka",
+    "linz_title": "",
+    "shares": "1/5",
+    "source_id": "S07",
+    "document_id": "PW-1493066"
    }
   ]
  },
@@ -8130,7 +8426,24 @@
   "notes": "Successor (f.) to Ria Hone Wharewaka, 1940, 1.306 shares; on the 1960 and c. 1988 lists.",
   "source": "Māori Land Court records (Pātaka Whenua) — Whakakoro F / F4 succession order schedule (doc 1517478)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
+   }
+  ],
   "links": [
    {
     "link_id": "L206",
@@ -8165,6 +8478,23 @@
     "shares": "",
     "source_id": "S07",
     "document_id": "PW-1491567"
+   },
+   {
+    "link_id": "L605",
+    "tupuna_id": "T044",
+    "location_type": "Block",
+    "location_ref": "28496",
+    "location_detail": "Whirinaki No 4 A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1493066",
+    "as_recorded": "Ani Hone Wharewaka",
+    "linz_title": "",
+    "shares": "1/5",
+    "source_id": "S07",
+    "document_id": "PW-1493066"
    }
   ]
  },
@@ -8180,7 +8510,24 @@
   "notes": "Successor (m.) to Ria Hone Wharewaka, 1940, 1.306 shares. Succeeded 5 Dec 1989 by \"Martha Matthews or Topia\" for a life interest with remainder to Susan Elizabeth Watts, Anne Theresa Hansen, Rose Topia and Isaac Topia (jnr) (doc 1279748, memorial schedule).",
   "source": "Māori Land Court records (Pātaka Whenua) — Whakakoro F / F4 succession order schedule (doc 1517478)",
   "identities": [],
-  "events": [],
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Land transfer",
+    "date": "1947-05-26",
+    "place_type": "Block",
+    "place_ref": "28496",
+    "place_detail": "Whirinaki No 4A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "description": "Whirinaki 4A sold: the shares of all 99 owners (the Peri Paraihe whānau's 1936 interests among them) passed to Poi Karora on confirmation of sale, Tokerau MB 58/74",
+    "source_id": "S07",
+    "confidence": "stated",
+    "document_url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+    "document_id": "PW-1493066",
+    "note": "The schedule records 'all owners, list nos 1–99, 99.000 — Conf. Sale 26.5.47'; the individual owners are not named on the sale entry"
+   }
+  ],
   "links": [
    {
     "link_id": "L207",
@@ -8215,6 +8562,23 @@
     "shares": "",
     "source_id": "S07",
     "document_id": "PW-1491567"
+   },
+   {
+    "link_id": "L606",
+    "tupuna_id": "T045",
+    "location_type": "Block",
+    "location_ref": "28496",
+    "location_detail": "Whirinaki No 4 A",
+    "latitude": -35.4663,
+    "longitude": 173.4709,
+    "relationship": "Owner",
+    "notes": "by succession",
+    "source": "Māori Land Court records (Pātaka Whenua) — doc 1493066",
+    "as_recorded": "Ihaka Hone Wharewaka",
+    "linz_title": "",
+    "shares": "1/5",
+    "source_id": "S07",
+    "document_id": "PW-1493066"
    }
   ]
  },

@@ -95150,5 +95150,7362 @@
    }
   ],
   "notes": "D024. Tawaka Nehua was a Ngāti Hau woman of Whakapara (Hikurangi), her 1913 estate still unsucceeded in 1994. The 'Wiremu Arama (Adams)' line — four siblings alive or lately dead in 1994 plus one deceased sibling's children — descends from one of her three children. Whether this Wiremu Arama (Adams) is Wiremu Arama Taniora (T001, d. 1966), whose brothers wrote themselves Adams, or a Whangārei Adams unconnected to the whānau, is untested: the minute at 3 WH(S) 8-19 will give the whakapapa the applicant put to the Court. Papakauri A is pinned to Papakauri A No.1–3."
+ },
+ {
+  "document_id": "PW-1273511",
+  "doc_no": "1273511",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki 6I1 — list of 41 owners correct as at 6 Mar 1970 (22.1565 ha, 16.000 shares; partition order 13 Feb 1912) and the schedule of ownership orders 1974–1996 (list nos 42–85) — 7 pages",
+  "blocks_recorded": [
+   "Whirinaki 6I1"
+  ],
+  "block_ids": [
+   "29094"
+  ],
+  "record_date": "1970-03-06",
+  "effective_date": "1996-01-30",
+  "court": "Maori Land Court, Taitokerau (Rawene / Kaikohe / Whangārei sittings)",
+  "judge": "",
+  "minute_book": "R 9/235; RW 1/207, 1/363; KH 7/253; RW 2/32, 2/62, 2/74; RW 3/116; RW 4/163; NH 64/49; RW 5/7-8; 6 RGTO 169-170; 2 AT(S) 281-282; R 13/175; 36 AOTEA MB 214-215; 5 AT(S) 43",
+  "pages": 7,
+  "page_range": "",
+  "file_name": "00784419_01273511_0001_0007_LHO_Document-1273511.pdf",
+  "drive_id": "1AiFP9DCX9RTI7W4JyxXYJuJVGZ2X2pgi",
+  "file_size": "851685",
+  "url": "https://drive.google.com/file/d/1AiFP9DCX9RTI7W4JyxXYJuJVGZ2X2pgi/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Pages 1–2 (typed): Whirinaki 6I1 (22.1565 ha; 54:3:00; 16.000 shares), list of 41 owners 'correct as at 6.3.1970' from Ahimawhiti Harawira .018 to Wiremu Yakas .018 — the largest Tia or Korari Morunga 2.531, Eruera Te Wano Kohu 2.334, Eruera Morunga 1.563, Mack Morunga 1.250, Pororua Pororua Morunga 1.125, Emere Tingi Anania and Kitty Leaf 1.000; struck names carry their successors' numbers (44, 46, 83, 42, 43, 60, 51, 59). Sums to 16.000 (checked). Pages 3–7 (M.A. 835 schedule of ownership orders, title 'Partition Order dated 13/2/1912'): Ngahiraka Huru Anihana's .500 to the Maori Trustee (1974) and back (1990); Pororua Pere Harawira (1974–77) → Te Ruwhi Hamilton (Mrs Hohepa); Te Ahimawhiti Harawira (1976) → Martina Doherty; Eruera Te Tuhi (1976–77) → Horoe and Dennis Te Tuhi; Tamati Peeni Winiata or Thomas Benjamin Wynyard (1981–84) → Denis Wynyard; Terehia (Theresa) Davis (1985) → Felix Davis; Rameka or Miki Tamati Peita (1985–86) → Winnie Peita for life, then (1994, 36 Aotea MB 214-215) her seven children; Patrick Morunga (1989) → William Arthur Francis Morunga; Kararaina Peita (1990, 2 AT(S) 281-282) → eleven; Hoana Tatana Terei or Hoana Tamati Peita (1996, 5 AT(S) 43) → three Terei. Some entries on page 4 (list nos 50, 52–57) are too faint to read.",
+  "names": [
+   {
+    "name": "Ahimawhiti Harawira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list correct as at 6.3.1970; struck → 44"
+   },
+   {
+    "name": "Te Aranga Huru Anihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Arthur Wiki",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Atareta Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Charles Christopher Thomas",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; list correct as at 6.3.1970"
+   },
+   {
+    "name": "David Kaio",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".640",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Emere Tingi Anania",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Eruera Te Wano Kohu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.563",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Eruera Te Tuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; list correct as at 6.3.1970; struck → 46"
+   },
+   {
+    "name": "Hiri Waipouri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; list correct as at 6.3.1970; struck → 83"
+   },
+   {
+    "name": "Hone Heke Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Huihana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Irihapeti Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Joseph Verner Rewiri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; list correct as at 6.3.1970; struck"
+   },
+   {
+    "name": "Kaka Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Kareko Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Kingi Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Kitty Leaf",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Korari Hori Kaio",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".641",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Mack Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Matutina Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Mere Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Te Mihini Diamond",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Ngahiraka Huru Anihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; list correct as at 6.3.1970; struck → 42"
+   },
+   {
+    "name": "Pereri Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Piipi or Pipiana Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".031",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Pororua Harawira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; list correct as at 6.3.1970; struck → 43"
+   },
+   {
+    "name": "Pororua Pororua Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; list correct as at 6.3.1970; struck → 60"
+   },
+   {
+    "name": "Rapata Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Te Raukura Paniora or Te Raukura Tirere Pickering",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Te Reipa Ihaia Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Rihi Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Tamati Peeni Winiata",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; list correct as at 6.3.1970; struck → 51"
+   },
+   {
+    "name": "Terehia Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; list correct as at 6.3.1970; struck → 59"
+   },
+   {
+    "name": "Tia or Korari Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.531",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Wareriana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Wharo Mita Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Wiremu Yakas",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; list correct as at 6.3.1970"
+   },
+   {
+    "name": "Ngahiraka Huru Anihana",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 26, .500; R 9/235; order s.151(2)/55, 10.7.74 → 42 Maori Trustee solely .500; re-vested 18.4.90 (R 13/175, s.151/53) → 75 Ngahiraka Huru Anihana 0.500"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 42–43, 51: holding Ngahiraka Huru Anihana's .500 (1974–90), Pororua Pere Harawira's .018 (1974–77) and Tamati Peeni Winiata's .281 (1981–84) as trustee / administrator"
+   },
+   {
+    "name": "Pororua Pere Harawira or Pororua Harawira or Pororua Haddfield",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 29, .018; RW 1/207; s.81/67, 30.10.74 → 43 Maori Trustee as administrator; RW 2/74, s.81(A)/67, 4.7.77 → 47 Te Ruwhi Hamilton (Mrs Hohepa) f.a. 0.018"
+   },
+   {
+    "name": "Te Ruwhi Hamilton (Mrs Hohepa)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; 0.018, 4.7.77"
+   },
+   {
+    "name": "Te Ahimawhiti Harawira",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, .018; RW 1/363; S.V.O. s.81/1967, 23.4.76 → 44 Martina Doherty as executrix; KH 7/253, s.213(A)/53 & 34(ii), 15.7.76 → 45 Martina Doherty f.a. sole .018"
+   },
+   {
+    "name": "Martina Doherty",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; .018, 15.7.76"
+   },
+   {
+    "name": "Eruera Te Tuhi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 10, .281; RW 2/32; s.81/67, 13.10.76 → 46 Waimirirangi Mckusich as executrix; RW 2/62, s.81(A)/67, 20.7.77 → 48 Horoe Te Tuhi 2/3 .187, 49 Dennis Te Tuhi m 1/3 .094"
+   },
+   {
+    "name": "Horoe Te Tuhi",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": ".187",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; .187, 20.7.77"
+   },
+   {
+    "name": "Dennis Te Tuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".094",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; .094, 20.7.77"
+   },
+   {
+    "name": "Tamati Peeni Winiata or Thomas Benjamin Wynyard",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 36, .281; RW 3/116; s.81/67, 1.10.81 → 51 Maori Trustee, Whangarei, as administrator; RW 4/163, s.81A/67, 29.5.84 → 58 Denis Wynyard m.a. sole 0.281"
+   },
+   {
+    "name": "Denis Wynyard",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; 0.281, 29.5.84"
+   },
+   {
+    "name": "Terehia Davis or Theresa Davis",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 37, .048; NH 64/49; order s.78A, 22.7.85 → 59 Felix Davis m.a. sole .048 — the Terehia Tamati Peita of the 1970 list"
+   },
+   {
+    "name": "Felix Davis",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; .048, 22.7.85"
+   },
+   {
+    "name": "Rameka Tamati Peita or Miki Tamati Peita",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 31, .049; RW 5/7, s.81, 3.10.85 → 60 Winnie Peita as administratrix; RW 5/8, s.81A, 3.10.86 → 61 Winnie Peita for a life interest with remainder to Monica McCann, Gregory, Fred, Edith, David, Walter and Michael Peita (struck); 36 AOTEA MB 214-215, s.118/93, 20.1.94 → 76–82 Monica McCann, Gregory Thomas, Fred, Edith, David, Walter and Michael Peita 1/7 (0.007 each)"
+   },
+   {
+    "name": "Winnie Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 60–61; administratrix then life interest in .049 (1985–86); deceased by 20.1.94"
+   },
+   {
+    "name": "Patrick Morunga",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 53, .025; 6 RGTO 169, s.81/67, 2.2.89 → 62 William Arthur Francis Morunga as administrator; 6 RGTO 170, s.81A/67 → 63 William Arthur Francis Morunga .025"
+   },
+   {
+    "name": "William Arthur Francis Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; .025, 2.2.89"
+   },
+   {
+    "name": "Kararaina Peita",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".025",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 55, 0.025; 2 AT(S) 281-282; order s.78A/67 & 34(10)/53, 3.4.90 → 64 Joseph Tame Peita m.a., 65 Selina Cummings f.a., 66 David Rawiri Peita m.a., 67 Taria Hori Peita m.a., 68 Francis Paraone Peita m.a., 69 Hoana Carvin f.a., 70 Peter Perepeti Peita m.a., 71 Walter Waata Peita m.a. 0.002 each; 72 Wiremu Peita m.a., 73 Martha Palmer f.a., 74 Hariot Margaret Peita f.a. 0.003 each"
+   },
+   {
+    "name": "Hoana Tatana Terei or Hoana Tamati Peita",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 12, 0.048; 5 AT(S) 43; ss 113, 118/93, 30.1.96 → 83 Pio Keith Terei, 84 Tatana Roman Terei, 85 Craig Pio Terei m.a. 0.016 each"
+   }
+  ],
+  "notes": "No tupuna of the whānau."
+ },
+ {
+  "document_id": "PW-1491524",
+  "doc_no": "1491524",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki 6C4A — schedule of orders on succession: Mina te Tuhi (14 May 1959) to Isabel Helen Joan Ropiha and Herbert Cox; vesting orders of 14 Jun 1960 consolidating the block in Mack Wiremu Morunga as sole owner",
+  "blocks_recorded": [
+   "Whirinaki 6C4A"
+  ],
+  "block_ids": [
+   "28757"
+  ],
+  "record_date": "1959-05-14",
+  "effective_date": "1960-06-14",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga minute books",
+  "judge": "",
+  "minute_book": "K 31/120; HK 29/376",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00991953_01491524_0001_0001_LHO_Document-1491524.pdf",
+  "drive_id": "1Gc-HZKr0q1QcC5T2INNMLYbHF5exTwY6",
+  "file_size": "99995",
+  "url": "https://drive.google.com/file/d/1Gc-HZKr0q1QcC5T2INNMLYbHF5exTwY6/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of orders on succession, Whirinaki 6C4A. Succession vesting order K 31/120: Mina te Tuhi (est.), 14.5.59 → Isabel Helen Joan Ropiha .250 F 1/2, Herbert Cox .250 M 1/2. Vesting order (s.213/53) HK 29/376: Isabel Helen Joan Ropiha and Herbert Cox (.25 each), 14.6.60 → Mack Wiremu Morunga sole m .500. Vesting order s.213/53 HK 29/376: Tawakaite te Tuhi @ Tawakaita Broughton (.500), 14.6.60 → Mack Wiremu Morunga sole m .500 — 'now sole owner'. Entered and checked 19.9.60.",
+  "names": [
+   {
+    "name": "Mina te Tuhi",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 1.000; K 31/120; succession vesting order 14.5.59 → 3 Isabel Helen Joan Ropiha f .250 (1/2), 4 Herbert Cox m .250 (1/2) [sic — .500 each on the ownership sheet]"
+   },
+   {
+    "name": "Isabel Helen Joan Ropiha",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 1/2 of Mina te Tuhi, 14.5.59 (.500); her share → Mack Wiremu Morunga by vesting order s.213/53, 14.6.60 (HK 29/376)"
+   },
+   {
+    "name": "Herbert Cox",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 1/2 of Mina te Tuhi, 14.5.59 (.500); → Mack Wiremu Morunga 14.6.60"
+   },
+   {
+    "name": "Tawakeiti Rahiri @ Tawakeiti te Tuhi @ Tawakaita Broughton",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 1.000; HK 29/376; vesting order s.213/53, 14.6.60 → 6 Mack Wiremu Morunga m sole 1.000 — 'now sole owner' (reading of 'Rahiri' uncertain)"
+   },
+   {
+    "name": "Mack Wiremu Morunga",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 5–6; the whole block (2.000) by the two vesting orders of 14.6.60 (HK 29/376) — now sole owner; the Mack Morunga of Whirinaki 6I1"
+   }
+  ],
+  "notes": "A small Whirinaki partition (6:2:13) consolidated in one owner in 1960. No tupuna of the whānau."
+ },
+ {
+  "document_id": "PW-1491543",
+  "doc_no": "1491543",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki 6I1 — succession order schedules 1914–1960: Mita Morunga (d. 1906) to ten, Peti Morunga (d. 1925) to thirty-one, the te Wano, te Tuhi, Wharerau and Tamati Peita exchanges of 1944–54, and the Morunga and Harawira successions to 1960 — 5 pages",
+  "blocks_recorded": [
+   "Whirinaki 6I1"
+  ],
+  "block_ids": [
+   "29094"
+  ],
+  "record_date": "1914-11-20",
+  "effective_date": "1960-01-23",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga minute books",
+  "judge": "",
+  "minute_book": "HK 10/8, 166, 167, 197; CB 4/233, 235, 241; HK 18/61; HK 18A/276, 285, 303, 304, 320; HK 22/320; HK 23/9; HK 24/73; HK 25/302; HK 26/270, 328; HK 28/38; HK 29/316; HK 30/61",
+  "pages": 5,
+  "page_range": "",
+  "file_name": "00991971_01491543_0001_0005_LHO_Document-1491543.pdf",
+  "drive_id": "132ovuxCz8Z_pYq_tUUdx2qR3-OKX3aBA",
+  "file_size": "574759",
+  "url": "https://drive.google.com/file/d/132ovuxCz8Z_pYq_tUUdx2qR3-OKX3aBA/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16 / 16A succession order schedules for Whirinaki 6I1 (Hokianga): Pereni Tahu (Ngawaka), 1914, to Edward te Wano; Mita Morunga or Mita Kamariera (HK 10/8, d. 1906), 3.7.29, to his ten children (Te Ruwhi, Ihaia, Wharo, Pororua, Kahutaha, Te Hunga, Kingi, Kareko, Kaha, Hone Heke) 1/10; Te Hunga Mita Morunga (1930) to Te Atarangi Wiki and Te Raukura Paniora; Reunia Morunga (1932) to ten Wharerau; Te Ruwhi Mita Morunga (1936) to the Harawira and Yakas children; Peti Morunga (HK 10/166, d. 1925), 23.10.31, to thirty-one — her ten children 1/12, the ten Mita Morunga 1/120, the eleven Tamati Peita 1/132 — and Kamariera Morunga (d. 1895) and Rameka Morunga the same; Maraea Kamariera Morunga alias Maraea Tehu (1936) to Eruera, Whakarongotau and Pene te Wano; the exchange and vesting orders of October 1944 (Marieta Rehu, Eruera Morunga to Tia Morunga, Kiripeti te Tuhi to Eruera and Matiu te Tuhi, Moananui Kamariera Morunga, Ngaro Karione alias Kingi Karione to the two Huru Anihana); the Wharerau exchanges of 30.6.50 (eight shares to Eruera te Wano Kohu; Rawiri Wharerau's to eight Morunga); Te Atarangi Wiki to Te Raukura Pickering (1950); Ihaia Mita Morunga to Te Reipa (1948); Kirikimete Morunga to the eleven Tamati Peita (1954); Pororua Morunga (1955); Pakete or Rehu Morunga or Pakete Hori Kaio to Korari and Hirini Hori Kaio (1957); Matiu te Tuhi to Eruera te Tuhi (1959); Eme Pere Harawira to Arthur Wiki (1960).",
+  "names": [
+   {
+    "name": "Pereni Tahu (Ngawaka)",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 11.1.13 (entry squeezed into the heading); order 20.11.14"
+   },
+   {
+    "name": "Edward te Wano",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pereni Tahu (Ngawaka), 20.11.14"
+   },
+   {
+    "name": "Mita Morunga or Mita Kamariera",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/8; d. 1906; order 3.7.29"
+   },
+   {
+    "name": "Te Ruwhi Mita Morunga or Te Ruwhi Pani Kamariera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Ihaia Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Wharo Mita Morunga or Wharo Paora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Pororua Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Kahutaha Mita Morunga or Kahu Pani Karaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Te Hunga Mita Morunga or Te Hunga Pane or Hunga Reni Reupena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Kingi Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Kareko Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Kaha Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Hone Heke Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mita Morunga or Mita Kamariera, 3.7.29"
+   },
+   {
+    "name": "Te Hunga Mita Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 4/233; d. 1930; order 9.7.35"
+   },
+   {
+    "name": "Te Atarangi Wiki",
+    "role": "Successor",
+    "sex": "m",
+    "age": "19",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Hunga Mita Morunga, 9.7.35"
+   },
+   {
+    "name": "Te Raukura Paniora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "19",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Hunga Mita Morunga, 9.7.35"
+   },
+   {
+    "name": "Reunia Morunga alias Reunga Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 4/235; d. 1932; order 1935"
+   },
+   {
+    "name": "Penikera Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Amiria Wharerau alias Hiku",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Moananui alias Riwa Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Hemi Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Hariata Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Rawiri Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "16",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Moerewa Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "14",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Te Waihue Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Maki Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Kopa Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Reunia Morunga alias Reunga Morunga, 1935"
+   },
+   {
+    "name": "Te Ruwhi Mita Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 4/241; d. 1936; order 26.9.36"
+   },
+   {
+    "name": "Eme Harawira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Pororua Harawira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Ahimawhiti Harawira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Mere Yakas",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Wiremu Yakas",
+    "role": "Successor",
+    "sex": "m",
+    "age": "18",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Rihi Yakas",
+    "role": "Successor",
+    "sex": "f",
+    "age": "16",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Atareta Yakas",
+    "role": "Successor",
+    "sex": "f",
+    "age": "14",
+    "shares": "1/7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Ruwhi Mita Morunga, 26.9.36"
+   },
+   {
+    "name": "Pororua Harawira",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee with Mere Yakas for the Yakas minors, 1936"
+   },
+   {
+    "name": "Peti Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/166; d. 1925 — twelve lines: ten children, the ten children of Mita Morunga (1/120) and the eleven Tamati Peita (1/132); order 23.10.31"
+   },
+   {
+    "name": "Manaea Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kiripeti Morunga (= Tuki Keretini)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Mani Morunga (= Hanani Winiata)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Moananui Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Korari or Tia Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Pio or Karaka Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Pakete or Rehu Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kirikimete Morunga (= Rini Wi Kaira)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Ruima Morunga (= Pakanui Whinau)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Te Ruwhi Mita Morunga or Te Ruwhi Pani Kamariera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Ihaia Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Wharo Mita Morunga or Wharo Paora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Pororua Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kahutaha Mita Morunga or Kahu Pani Karaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Te Hunga Mita Morunga or Te Hunga Pane or Hunga Reni Reupena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kingi Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kareko Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kaha Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Hone Heke Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/120",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Pio Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Hariata Tamati Peita (= Teri Waipouri)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Terehia Tamati Peita (= Wini Hahu Reni)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Irihapeti Tamati Peita (= Peti Hone)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Rapata Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Huihana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Wareriana Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Matutina Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Pereri Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/132",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peti Morunga, 23.10.31"
+   },
+   {
+    "name": "Kamariera Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/167; d. 1895; order 23.10.31"
+   },
+   {
+    "name": "the successors of Peti Morunga ('same as for Peti Morunga')",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kamariera Morunga, 23.10.31"
+   },
+   {
+    "name": "Rameka Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/197; order 23.10.31"
+   },
+   {
+    "name": "the successors of Peti Morunga ('same as for Peti Morunga')",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Rameka Morunga, 23.10.31"
+   },
+   {
+    "name": "Maraea Kamariera Morunga alias Maraea Tehu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18/61; d. 1936; order 25.9.40"
+   },
+   {
+    "name": "Eruera te Wano",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maraea Kamariera Morunga alias Maraea Tehu, 25.9.40"
+   },
+   {
+    "name": "Whakarongotau te Wano",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maraea Kamariera Morunga alias Maraea Tehu, 25.9.40"
+   },
+   {
+    "name": "Pene te Wano (a mental patient)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maraea Kamariera Morunga alias Maraea Tehu, 25.9.40"
+   },
+   {
+    "name": "Marieta Rehu",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 7.10.44 (HK 18A/303): her 1 share, the whole of her interest, vested in Eruera, Whakarongotau and Pene te Wano (Wano), 1/3 each"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 13.10.44 (HK 18A/320): 1½ shares, part of his interest, vested in Tia Morunga m sole"
+   },
+   {
+    "name": "Tia Morunga",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "1.5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 13.10.44"
+   },
+   {
+    "name": "Maraea Tehu @ Maraea Kamariera Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "second entry; order 9.10.44"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maraea Tehu @ Maraea Kamariera Morunga, 9.10.44"
+   },
+   {
+    "name": "Kiripeti te Tuhi @ (Kamariera Morunga)",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order 2.10.44 (HK 18A/276): her interest vested in Eruera te Tuhi m.a. 1/2 and Matiu te Tuhi m.a. 1/2 equally"
+   },
+   {
+    "name": "Eruera te Tuhi",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order 2.10.44"
+   },
+   {
+    "name": "Matiu te Tuhi",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order 2.10.44; d. → S.V.O. 8.12.59 (HK 29/316) Eruera te Tuhi solely, 1/4 sh. — Matiu as a given name of the te Tuhi whānau"
+   },
+   {
+    "name": "Moananui Kamariera Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18A/304; order 10.10.44"
+   },
+   {
+    "name": "Maria Ka Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Moananui Kamariera Morunga, 10.10.44"
+   },
+   {
+    "name": "Ngaro Karione alias Kingi Karione",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18A/285; d. 1908; order 4.10.44"
+   },
+   {
+    "name": "Ngahiraka Huru Anihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaro Karione alias Kingi Karione, 4.10.44"
+   },
+   {
+    "name": "Te Aranga Huru Anihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaro Karione alias Kingi Karione, 4.10.44"
+   },
+   {
+    "name": "Penikera Wharerau",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange orders under ss 161–163/1931, 30.6.50 (HK 22/320): the eight Wharerau shares (1/8 each — Penikera, Amiria, Moananui, Hemi, Moerewa, Te Waihue, Maki, Kopa; 1 sh. whole) vested in Eruera te Wano Kohu m sole"
+   },
+   {
+    "name": "Eruera te Wano Kohu",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange 30.6.50: the Wharerau share"
+   },
+   {
+    "name": "Rawiri (Aperahama) Wharerau",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange 30.6.50: his 1/8, 1/8 and 1/4 shares vested in Eruera Morunga m, Kirikimete f, Korari (or Tia) m, Parani f, Pakete or Rehu f, Matiu te Tuhi m, Mari Winiata or Morunga f, Pipi or Pipiana Morunga f.d. — equally"
+   },
+   {
+    "name": "Te Atarangi Wiki",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order 13.9.50 (HK 23/9): the whole of his interest vested in Te Raukura Paniora @ Te Raukura Tirere Pickering f sole"
+   },
+   {
+    "name": "Te Raukura Paniora @ Te Raukura Tirere Pickering",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vesting order 13.9.50"
+   },
+   {
+    "name": "Ihaia Mita Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/302; d. 22.11.48; order 5.11.5?"
+   },
+   {
+    "name": "Te Reipa Ihaia Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ihaia Mita Morunga, 5.11.5?"
+   },
+   {
+    "name": "Maria Ka Morunga",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order (HK 24/73): the whole of her interest and Parani Moa Morunga's vested in Eruera Morunga"
+   },
+   {
+    "name": "Parani Moa Morunga",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order (HK 24/73) → Eruera Morunga"
+   },
+   {
+    "name": "Kirikimete Morunga",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 16.12.54 (HK 26/270): the whole of her interest vested in the eleven Tamati Peita (Pio, Hariata, Terehia, Irihapeti, Rapata, Huihana, Wareriana, Rameka, Matutina, Pereri, Hoana) equally"
+   },
+   {
+    "name": "Pororua Morunga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 26/328; d. 10.6.54; order 23.3.55"
+   },
+   {
+    "name": "Pororua Pororua Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pororua Morunga, 23.3.55"
+   },
+   {
+    "name": "Pakete or Rehu Morunga or Pakete Kamariera Morunga or Pakete Hori Kaio",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 28/38; d. 6.8.34; order 15.3.57"
+   },
+   {
+    "name": "Korari Hori Kaio",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakete or Rehu Morunga or Pakete Kamariera Morunga or Pakete Hori Kaio, 15.3.57"
+   },
+   {
+    "name": "Hirini Hori Kaio",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakete or Rehu Morunga or Pakete Kamariera Morunga or Pakete Hori Kaio, 15.3.57"
+   },
+   {
+    "name": "Matiu te Tuhi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 29/316; order 8.12.59"
+   },
+   {
+    "name": "Eruera te Tuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4 sh. (solely)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Matiu te Tuhi, 8.12.59"
+   },
+   {
+    "name": "Eme Harawira @ Eme Pere Harawira",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 30/61; order 23.1.1960"
+   },
+   {
+    "name": "Arthur Wiki",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/7 sh. (solely)",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Eme Harawira @ Eme Pere Harawira, 23.1.1960"
+   }
+  ],
+  "notes": "The Morunga / Kamariera whānau of Whirinaki. No tupuna of the whānau's lines. 'Matiu te Tuhi' — Matiu as a given name."
+ },
+ {
+  "document_id": "PW-1491562",
+  "doc_no": "1491562",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki 6C4A — schedule of ownership orders (6:2:13, 2.000 shares): Mina te Tuhi's share to Isabel Helen Joan Ropiha and Herbert Cox (1959) and the whole to Mack Wiremu Morunga (1960)",
+  "blocks_recorded": [
+   "Whirinaki 6C4A"
+  ],
+  "block_ids": [
+   "28757"
+  ],
+  "record_date": "1959-05-14",
+  "effective_date": "1960-06-14",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga minute books",
+  "judge": "",
+  "minute_book": "K 31/120; HK 29/376",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00991991_01491562_0001_0001_LHO_Document-1491562.pdf",
+  "drive_id": "1X2LqowhkXVN3U2r07g90VMnd-nKz3fqr",
+  "file_size": "140046",
+  "url": "https://drive.google.com/file/d/1X2LqowhkXVN3U2r07g90VMnd-nKz3fqr/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Block Whirinaki 6C4A, area 6:2:13, shares 2.000. Mina te Tuhi (list 2, 1.000; K 31/120), S.V.O. 14.5.59 → 3 Isabel Helen Joan Ropiha f .500, 4 Herbert Cox m .500. Isabel Helen Joan Ropiha and Herbert Cox (3 & 4, 1.000; HK 29/376), V. s.213, 14.6.60 → 5 Mack Wiremu Morunga m sole 1.000. Tawakeiti Rahiri @ Tawakeiti te Tuhi (list 1, 1.000; HK 29/376), V. s.213, 14.6.60 → 6 Mack Wiremu Morunga m sole 1.000 → total 2.000.",
+  "names": [
+   {
+    "name": "Mina te Tuhi",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 1.000; K 31/120; succession vesting order 14.5.59 → 3 Isabel Helen Joan Ropiha f .250 (1/2), 4 Herbert Cox m .250 (1/2) [sic — .500 each on the ownership sheet]"
+   },
+   {
+    "name": "Isabel Helen Joan Ropiha",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 1/2 of Mina te Tuhi, 14.5.59 (.500); her share → Mack Wiremu Morunga by vesting order s.213/53, 14.6.60 (HK 29/376)"
+   },
+   {
+    "name": "Herbert Cox",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 1/2 of Mina te Tuhi, 14.5.59 (.500); → Mack Wiremu Morunga 14.6.60"
+   },
+   {
+    "name": "Tawakeiti Rahiri @ Tawakeiti te Tuhi @ Tawakaita Broughton",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 1.000; HK 29/376; vesting order s.213/53, 14.6.60 → 6 Mack Wiremu Morunga m sole 1.000 — 'now sole owner' (reading of 'Rahiri' uncertain)"
+   },
+   {
+    "name": "Mack Wiremu Morunga",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 5–6; the whole block (2.000) by the two vesting orders of 14.6.60 (HK 29/376) — now sole owner; the Mack Morunga of Whirinaki 6I1"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1491598",
+  "doc_no": "1491598",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki 6I1 — compiled list of 42 owners as at 23 Nov 1960 (54:3:00, 16.000 shares) with the running schedule of ownership orders from the sixteen original owners of 1912 (list nos 17–116, 1914–1960) and the orders of 1964–68 — 12 pages",
+  "blocks_recorded": [
+   "Whirinaki 6I1"
+  ],
+  "block_ids": [
+   "29094"
+  ],
+  "record_date": "1960-11-23",
+  "effective_date": "1968",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga minute books",
+  "judge": "",
+  "minute_book": "HK 10/8; HK 10/166-7, 197; CB 4/233-241; HK 31/167; R 2/239-240; RS 1/28",
+  "pages": 12,
+  "page_range": "",
+  "file_name": "00992025_01491598_0001_0012_LHO_Document-1491598.pdf",
+  "drive_id": "1VgyopRZfoBsErliScaHCfdAXICMfhrcm",
+  "file_size": "1683539",
+  "url": "https://drive.google.com/file/d/1VgyopRZfoBsErliScaHCfdAXICMfhrcm/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Pages 1–2 (typed): 'Compiled list of owners as at 23.11.60', Whirinaki 6I1, 54:3:00, 16.000 shares, 42 owners — the Morunga (Eruera 1.563, Tia or Korari 2.531, Pio or Karaka Kamariera 1.250, Pororua Pororua 1.125, Akinihi Tia 1.000, the Mita Morunga .125 each), te Wano Kohu (Eruera 2.334, Pene and Whakarongohau .333), Kitty Leaf 1.000, the Hori Kaio (.640/.641), the Huru Anihana (.500 each), the Tamati Peita (.048/.049 each), the Yakas (.017/.018) and Harawira (.018) — summing to 16.000 (checked). Pages 3–9 (handwritten schedule of ownership orders, continuing the consolidation ledger's numbering): Pereni Tahu (Ngawaka) → 17 Edward te Wano (1914); Mita Morunga → 18–27 (1929); Kamariera, Peti and Rameka Morunga → 28–37 (1931) … through the Peita, Wharerau, Harawira, te Wano and Karora entries to no. 116 (1957). Pages 10–12 (M.A. 28 sheets): the same compiled list retyped, and the orders of 1964–68 — Hirini Hori Kaio → David Kaio; Pene te Wano Kohu → Whakarongohau te Wano Kohu → Joseph Verner Rewiri (20.6.66); Pio Karaka Morunga → Mack Morunga; Hoana Tamati Peita → Charles Christopher Thomas.",
+  "names": [
+   {
+    "name": "Ahimawhiti Harawira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Akinihi Tia Morunga @ Akinihi Hohepa Rawiri",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Te Aranga Huru Anihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Arthur Wiki",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Atareta Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".017",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Eruera te Wano Kohu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.563",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Eruera te Tuhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Hariata Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Hirini Hori Kaio",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".640",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Hone Heke Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Huihana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Irihapeti Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Kahutaha Mita Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Kaka Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Kareko Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Kingi Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Kitty Leaf",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Korari Hori Kaio",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".641",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Mari Winiata or Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".281",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Matutina Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Mere Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Ngahiraka Huru Anihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pene te Wano Kohu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pereri Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Piipi or Pipiana Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".031",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pio or Karaka Kamariera Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 28; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pio Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pororua Harawira",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Pororua Pororua Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Rapata Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Te Raukura Paniora @ Te Raukura Tirere Pickering",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Te Reipa Ihaia Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Rihi Yakas",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Terehia Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Tia or Korari Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.531",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Wareriana Tamati Peita",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".049",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Whakarongohau te Wano Kohu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Wharo Mita Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".125",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Wiremu Yakas",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".018",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; compiled list of owners as at 23.11.1960"
+   },
+   {
+    "name": "Hirini Hori Kaio",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".640",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 10, .640; HK 31/167(?); S.V.O. 10.3.(19)64 → 43 David Kaio m sole .640; trustee Lhiyo(?) Luke Kaio"
+   },
+   {
+    "name": "David Kaio",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": ".640",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; sole, 1964"
+   },
+   {
+    "name": "Pene te Wano Kohu",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 25, .333; R 2/239; 1964 → 44 Whakarongohau te Wano Kohu f solely (.333 + .333 = .666)"
+   },
+   {
+    "name": "Whakarongohau te Wano Kohu",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": ".666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 40 & 44, .666; R 2/239-240; S.V.O. 20.6.66 → 45 Joseph Verner Rewiri m.a. solely .666"
+   },
+   {
+    "name": "Joseph Verner Rewiri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": ".666",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; .666, 20.6.66"
+   },
+   {
+    "name": "Pio Karaka Morunga or Karaka Morunga or Pio or Karaka Kamariera Morunga",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 28, 1.250; S.V.O. 1966 → 46 Mack Morunga m solely 1.250"
+   },
+   {
+    "name": "Mack Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; 1.250 — the Mack Wiremu Morunga of Whirinaki 6C4A"
+   },
+   {
+    "name": "Mihini Tira Rewiri(?)",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "1.200",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 47(?), 1.200; order 1968 → Kitty Tiere Rewiri(?) f (reading uncertain)"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": ".048",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 11, .048; RS 1/28; 1968 → 48 Charles Christopher Thomas m (p.12; faint)"
+   }
+  ],
+  "notes": "The 1960 list is transcribed and sums to 16.000; the handwritten running schedule (pp.3–9) duplicates the consolidation ledger (doc 1536183) and the succession schedules (doc 1491543) and is summarised only. No tupuna of the whānau."
+ },
+ {
+  "document_id": "PW-1493066",
+  "doc_no": "1493066",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Whirinaki No 4A — succession order schedules 1896–1948 (typed and handwritten, incl. the succession to Peri Paraihe of 25 Sep 1936 and to Ria Hone Wharewaka of 13 Aug 1940) and the schedule of ownership orders: the whole block (99 owners, 99.000 shares) sold to Poi Karora, confirmed 26 May 1947 — 19 pages",
+  "blocks_recorded": [
+   "Whirinaki No 4A"
+  ],
+  "block_ids": [
+   "28496"
+  ],
+  "record_date": "1896-05-16",
+  "effective_date": "1958-06-26",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga minute books",
+  "judge": "",
+  "minute_book": "HK 10/1, 56, 57, 98, 145, 155, 161, 169, 170, 189, 190, 196, 228, 229, 230; CB 4/143, 4/262; HK 15/226, 15/261; HK 10A/50-77, 10A/181; HK 17A; HK 18A; HK 19/203; HK 20/16; HK 21/147, 193, 194; TK 58/74; HK 28/283; HK 29/9-10",
+  "pages": 19,
+  "page_range": "",
+  "file_name": "00993488_01493066_0001_0019_LHO_Document-1493066.pdf",
+  "drive_id": "1buvblrnlqjAZcmkqSEt0DdirWn9weQpX",
+  "file_size": "4427090",
+  "url": "https://drive.google.com/file/d/1buvblrnlqjAZcmkqSEt0DdirWn9weQpX/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Nineteen pages for Whirinaki No 4A (Hokianga; 23:2:05 after the 1947 survey, 99.000 shares). Pages 1–5: the early succession schedule, typed and in a handwritten copy — Hana Taui (1896) to six Riiwhi; Makarena Kahuitara (1902); Rihari Topia (1905) to Hamahona Topia; Ngaiwa and Hare Manuera (1906) to Ihapera Okena and three Manuera; Pita Whanga, Mihaere Pene, the three Mangina and Mihaera Urutahi (1910); Wiremu Puriri (1912); Werahiko te Arakohuru and Tukino Kahuitara (1914); Maati Karora (1920). Pages 6–15: Form 16 schedules 1929–48 — Hawio Pou, Harata Hawio, Hone Harimana (3.7.29); Raumati Kanara, Whakarongohau Penetana, Paetau te Ihahuhu (to Tuhe and Hereopa Paetau 1/3, Tatana Ko Hoani, 'Peri R. Matia' and Te Wano Ko Hoani 1/9), Te Whango Timo, Huhana Pereri, Kanepe Pakinga (to seventeen), Minahna te Whango, Rawinia Anania, Tatau Nuku (23.10.31); Ngapeka, Hawea, Te Atatu and Pakinga Nuku (11.4.30); Raiha Rikihana (1934); Te Rakena Pou (1934); Tukihuia Rikihana (1935); Pora Tukino alias Amiria Wharua (16.9.36, to eighteen); PERI PARAIHE alias Kaperiere Paraihe (HK 15/261, d. 1929), 25.9.36 → Rirena Arama, Tame Rihari Matiu and Whina Rihari Matiu (f18) 1/15, Ria Hone Wharewaka 1/5, Hone Peri Paraihe 1/5, Rawiri (m15), Ngarimu (f9) and Hone (m13) Okena Peri 1/15, Arapeta Peri Paraihe 1/5 — trustees Rirena Arama for Whina and Ria Hone Wharewaka for the Okena children; Hone Papahia (CB 4/262, to twenty-four); the orders of 6.12.39 — Namu Teaho alias Mariena Riiwhi to Matini te Whango te Aho, Puti Matiu, Miraka Matiu and Te Waharoa Riiwhi; Kinga Karora; Kereopa and Tuhe Paetau; Peri R. Matia (d. 1937) to Kawenata (m16) and Ripeka (f14) Peri Matia, trustee Paki Kereopa Paetau; Anania Wheti; Ngapine Wati and Wati Heretini to fourteen; Wanihi Pakinga; Pita Waata te Wera; RIA HONE WHAREWAKA (HK 10A/181, d. 17.5.1939), 13.8.40 → Wati Ratahi Topia, Erina Ratahi Topia, Raureti (m15), Ani (f13) and Ihaka (m9) Hone Wharewaka 1/5 each; Te Hira Tukino (1940); the three Karora (28.5.42); Tere te Hau, Wiremu Paiha, Hamahona Rihari Topia (1943); Te Tuhi Herehini, Titi Arapeta Wati, Hohepa and Marohaia Arapeta Wati, Harry Rakena (1944); Ringi Hone Otene to eight (1945); Maki Hamahona Topia (1945); Kataraina Dunn and Miraka Matiu @ Winika te Aho Matiu (1948). Pages 16–19 (schedule of ownership orders, 23:2:05, 99.000 shares): 'all owners, list nos 1–99, 99.000 — M.B. ref TK 58/74, order Conf. Sale, 26.5.47' → 100 Poi Karora sole; Poi Karora's vesting order s.163 of 21.4.48 (HK 21/147) → Hohepa Poi Karora, Kinga Poi Karora, Mere Hohepa and Hori Poi Winiata 24.750 each, subject to his life interest; Hohepa Poi Karora's 24.750 → Bella, Michael, Ellen and Tureaa Karora (25.6.58); the Kinga Poi Karora, Hori Poi Winiata and Mere Hohepa Karora shares → Atta Winiata @ Arthur Wynyard, 74.250 (26.6.58).",
+  "names": [
+   {
+    "name": "Hana Taui alias Haha Tauwai",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 22.8.1894 (handwritten copy); order 16.5.96"
+   },
+   {
+    "name": "Eruera Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Tai Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Hohepa Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Kereama Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Mereana Riiwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Akinihi Riiwhi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "13",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hana Taui alias Haha Tauwai, 16.5.96"
+   },
+   {
+    "name": "Makarena Kahuitara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 3.6.1899; order 25.1.02"
+   },
+   {
+    "name": "Karoa Kahuitara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Makarena Kahuitara, 25.1.02"
+   },
+   {
+    "name": "Rihari Topia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 19.1.1901 — 'Rihari' as a given name of the Topia whānau of Whirinaki; not Rihari te Kuri or Rihari Matiu; order 4.7.05"
+   },
+   {
+    "name": "Hamahona Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Rihari Topia, 4.7.05"
+   },
+   {
+    "name": "Ngaiwa Manuera",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "order 4.10.06"
+   },
+   {
+    "name": "Ihapera Okena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaiwa Manuera, 4.10.06"
+   },
+   {
+    "name": "Marohaia Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaiwa Manuera, 4.10.06"
+   },
+   {
+    "name": "Te Paea Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaiwa Manuera, 4.10.06"
+   },
+   {
+    "name": "Urumakawe Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngaiwa Manuera, 4.10.06"
+   },
+   {
+    "name": "Hare Manuera",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 26.11.1890(?); order 4.10.06"
+   },
+   {
+    "name": "Ihapera Okena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hare Manuera, 4.10.06"
+   },
+   {
+    "name": "Marohaia Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hare Manuera, 4.10.06"
+   },
+   {
+    "name": "Te Paea Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hare Manuera, 4.10.06"
+   },
+   {
+    "name": "Urumakawe Manuera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hare Manuera, 4.10.06"
+   },
+   {
+    "name": "Pita Whanga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1895; order 23.5.10"
+   },
+   {
+    "name": "Petera Ho Himi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "10",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Whanga, 23.5.10"
+   },
+   {
+    "name": "Harata Ho Himi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "9",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Whanga, 23.5.10"
+   },
+   {
+    "name": "Hone Ho Himi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "8",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Whanga, 23.5.10"
+   },
+   {
+    "name": "Panuki Ho Himi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "7",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Whanga, 23.5.10"
+   },
+   {
+    "name": "Mihaere Pene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1902; order 23.5.10"
+   },
+   {
+    "name": "Mererina Mihaere Pene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mihaere Pene, 23.5.10"
+   },
+   {
+    "name": "Turoro Mangina",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1900; order 23.5.10"
+   },
+   {
+    "name": "Wiri te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Turoro Mangina, 23.5.10"
+   },
+   {
+    "name": "Wiremu te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Turoro Mangina, 23.5.10"
+   },
+   {
+    "name": "Piikaka Mangina",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1900; order 23.5.10"
+   },
+   {
+    "name": "Wiri te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piikaka Mangina, 23.5.10"
+   },
+   {
+    "name": "Wiremu te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Piikaka Mangina, 23.5.10"
+   },
+   {
+    "name": "Unaiki Mangina",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1900; order 23.5.10"
+   },
+   {
+    "name": "Wiri te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Unaiki Mangina, 23.5.10"
+   },
+   {
+    "name": "Wiremu te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Unaiki Mangina, 23.5.10"
+   },
+   {
+    "name": "Mihaera Urutahi alias Mihaere Urututu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 26.8.1903; order 26.5.10"
+   },
+   {
+    "name": "Patana Waata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mihaera Urutahi alias Mihaere Urututu, 26.5.10"
+   },
+   {
+    "name": "Herepete Rapihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Mihaera Urutahi alias Mihaere Urututu, 26.5.10"
+   },
+   {
+    "name": "Wiremu Puriri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 12.5.1890; order 8.2.12"
+   },
+   {
+    "name": "Wati Heretini",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Puriri, 8.2.12"
+   },
+   {
+    "name": "Te Hira Tukino",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Puriri, 8.2.12"
+   },
+   {
+    "name": "Werahiko te Arakohuru",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 14.12.1904; order 2.9.14"
+   },
+   {
+    "name": "Kaio Werahiko",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Werahiko te Arakohuru, 2.9.14"
+   },
+   {
+    "name": "Karepe Werahiko",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Werahiko te Arakohuru, 2.9.14"
+   },
+   {
+    "name": "Te Puata te Hira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Werahiko te Arakohuru, 2.9.14"
+   },
+   {
+    "name": "Mihi Werahiko",
+    "role": "Successor",
+    "sex": "f",
+    "age": "11",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Werahiko te Arakohuru, 2.9.14"
+   },
+   {
+    "name": "Kaio Werahiko",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Mihi Werahiko, 1914"
+   },
+   {
+    "name": "Tukino Kahuitara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 14.1.1903; order 26.8.14"
+   },
+   {
+    "name": "Mange Tukino",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukino Kahuitara, 26.8.14"
+   },
+   {
+    "name": "Hira Wati Heretini",
+    "role": "Successor",
+    "sex": "m",
+    "age": "12",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukino Kahuitara, 26.8.14"
+   },
+   {
+    "name": "Hira Tukino",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukino Kahuitara, 26.8.14"
+   },
+   {
+    "name": "Hohi te Urunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "17",
+    "shares": "equally",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukino Kahuitara, 26.8.14"
+   },
+   {
+    "name": "Ngapine Wati Heretini",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Hira Wati Heretini, 1914"
+   },
+   {
+    "name": "Te Urunga Tukino",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Hohi te Urunga, 1914"
+   },
+   {
+    "name": "Maati Karora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1900; order 5.8.20"
+   },
+   {
+    "name": "Rapaera Aperahama",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maati Karora, 5.8.20"
+   },
+   {
+    "name": "Wiremu te Aratai",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/1; CB 3/89; d. 22.7.29(?); order 3.7.29"
+   },
+   {
+    "name": "Wiri Mavina te Aratai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu te Aratai, 3.7.29"
+   },
+   {
+    "name": "Hawio Pou",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/56; d. 7.5.1907; order 3.7.29"
+   },
+   {
+    "name": "Matehaere Hawio Pou (= H. Harihona Papa)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawio Pou, 3.7.29"
+   },
+   {
+    "name": "Ngaropo Hawio Pou",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawio Pou, 3.7.29"
+   },
+   {
+    "name": "Harata Hawio or Mei Hawio",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/57; d. 26.5.1920; order 3.7.29"
+   },
+   {
+    "name": "Matehaere Hawio Pou (= H. Harihona Papa)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Harata Hawio or Mei Hawio, 3.7.29"
+   },
+   {
+    "name": "Ngaropo Hawio Pou",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Harata Hawio or Mei Hawio, 3.7.29"
+   },
+   {
+    "name": "Hone Harimana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/98; d. 1899; order 3.7.29"
+   },
+   {
+    "name": "Ahenata Hone Harimana (= A. Kanara Topia)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Harimana, 3.7.29"
+   },
+   {
+    "name": "Raumati or Reti Kanara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/145; d. 1919; order 23.10.31"
+   },
+   {
+    "name": "Margaret G. Dillon (= P. S. Croft)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raumati or Reti Kanara, 23.10.31"
+   },
+   {
+    "name": "Nellie Dillon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raumati or Reti Kanara, 23.10.31"
+   },
+   {
+    "name": "Edith May Dillon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raumati or Reti Kanara, 23.10.31"
+   },
+   {
+    "name": "Elizabeth Dillon",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raumati or Reti Kanara, 23.10.31"
+   },
+   {
+    "name": "Whakarongo Hau or Whakarongohau Penetana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/155; d. 1914; order 23.10.31"
+   },
+   {
+    "name": "Huru Wiremu Titore",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Whakarongo Hau or Whakarongohau Penetana, 23.10.31"
+   },
+   {
+    "name": "Papa Wiremu Titore",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Whakarongo Hau or Whakarongohau Penetana, 23.10.31"
+   },
+   {
+    "name": "Mohi Waitai Reupena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Whakarongo Hau or Whakarongohau Penetana, 23.10.31"
+   },
+   {
+    "name": "Pera Campbell (= Kitohi Ngahuru)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Whakarongo Hau or Whakarongohau Penetana, 23.10.31"
+   },
+   {
+    "name": "Paetau te Ihahuhu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/161; d. 1910; order 23.10.31"
+   },
+   {
+    "name": "Tuhe Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Paetau te Ihahuhu, 23.10.31"
+   },
+   {
+    "name": "Hereopa Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Paetau te Ihahuhu, 23.10.31"
+   },
+   {
+    "name": "Tatana Ko Hoani",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Paetau te Ihahuhu, 23.10.31"
+   },
+   {
+    "name": "Peri R. Matia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Paetau te Ihahuhu, 23.10.31"
+   },
+   {
+    "name": "Te Wano Ko Hoani",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/9",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Paetau te Ihahuhu, 23.10.31"
+   },
+   {
+    "name": "Te Whango Timo",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/169; d. 1914; order 23.10.31"
+   },
+   {
+    "name": "Moetu Rameka Wi Kaira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Whango Timo, 23.10.31"
+   },
+   {
+    "name": "Huhana Pereri",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/189; d. 1900; order 23.10.31"
+   },
+   {
+    "name": "Hori Rata or Hori Russell",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Huhana Pereri, 23.10.31"
+   },
+   {
+    "name": "Pini Rata or Pini Russell",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Huhana Pereri, 23.10.31"
+   },
+   {
+    "name": "Hera Rata or Hera Russell (Mrs Wm. Pocklington)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Huhana Pereri, 23.10.31"
+   },
+   {
+    "name": "Kanepe Pakinga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/170; d. 1914 — 'Ngati te Whango' and 'Tuia Waipouri' noted against the minors; order 23.10.31"
+   },
+   {
+    "name": "Moetu Ngarori Pakinga (= Rameka Rini Wi Kaira)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Marata Ngarori Pakinga (= Mrs Tomd)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Hera Ngarori Pakinga (= Motu te Moananui)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Wanihi Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Mani Ngarori Pakinga (= Rapata Tehuenehe)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Tare Ngarori Pakinga (= Timi Toto)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Hemaima Ngarori Pakinga (= J. Willimson)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Tanekore Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Hori Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Erana Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Te Haurangi Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Mani Mihaka Pakinga (= Tamahi Paroi Ngawaka)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Akinihi Mihaka Pakinga (= Kipiona Mane Kotene)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Tiria Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Tame or Tamati Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Huia or Kanepe Mihaka Pakinga (= Temore Tua Mark)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Marata Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kanepe Pakinga, 23.10.31"
+   },
+   {
+    "name": "Minahna te Whango",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/140; order 23.10.31"
+   },
+   {
+    "name": "Ngati te Whango Timo",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Minahna te Whango, 23.10.31"
+   },
+   {
+    "name": "Rawinia Anania",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/190; d. 1910; order 23.10.31"
+   },
+   {
+    "name": "Wane Tahana Mihaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Rawinia Anania, 23.10.31"
+   },
+   {
+    "name": "Maraea Tahana Mihaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Rawinia Anania, 23.10.31"
+   },
+   {
+    "name": "Ani Tamana Holt",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Rawinia Anania, 23.10.31"
+   },
+   {
+    "name": "Tatau Nuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/196; d. 1928; order 23.10.31"
+   },
+   {
+    "name": "Ema Himi Haneta",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tatau Nuku, 23.10.31"
+   },
+   {
+    "name": "Mere Himi Bramley",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tatau Nuku, 23.10.31"
+   },
+   {
+    "name": "Pora Tukino alias Amiria Wharua",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 15/226; order 16.9.36"
+   },
+   {
+    "name": "Hira Tukino Kahuitara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Te Uranga Tukino Kahuitara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Maati Tukino Kahuitara",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Pere Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Tiiti Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Marohaia Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Pakete Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Rai Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Patara Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "13",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Hana Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "11",
+    "shares": "1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Keita Hira Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Te Himene Hira Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Heni Hira Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Katerina Mate Dunn",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Manuera Mate Dunn",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Waata Mate Dunn",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Te Winirangi Wati Herewini",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Hoana Wati Herewini",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pora Tukino alias Amiria Wharua, 16.9.36"
+   },
+   {
+    "name": "Hiki Motu",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for nos 9 and 10 (Patara and Hana Arapeta Wati), 1936"
+   },
+   {
+    "name": "Puata Werahiko",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for no. 13 (Heni Hira Wati), 1936"
+   },
+   {
+    "name": "Ngapeka Nuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/229; order 11.4.30"
+   },
+   {
+    "name": "Tarati Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Maata Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Mari Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Mihi Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Makere Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Kiri Ponga Pakihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapeka Nuku, 11.4.30"
+   },
+   {
+    "name": "Hawea Nuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/228; d. 1900; order 11.4.30"
+   },
+   {
+    "name": "Tiwhana Nuku",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Merengi Karora Kahuitara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Poe Karora Kahuitara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Hana Karora Kahuitara",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Manu Karora Kahuitara",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mari Karora Kahuitara",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Rapaere Aperahama Orikena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Keita Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Marata Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Makere Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Wanihi Titi te Whango",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Hori Titi te Whango",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Tare Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Hema Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Tanekare Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/80 + 1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mani Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Akinihi Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Celia or Hiria Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Tamati Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Kanepe Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Marata Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mere Tatau Nuku",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Ema Tatau Nuku",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Tarati Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Maata Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mari Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mihi Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Makere Hare Maki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Kiri Ponga Pakihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Mari Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Erana Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Te Haurangi Titi te Whango",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/110",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hawea Nuku, 11.4.30"
+   },
+   {
+    "name": "Te Atatu Nuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10/228; order 11.4.30"
+   },
+   {
+    "name": "the successors of Hawea Nuku ('same as above')",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Atatu Nuku, 11.4.30"
+   },
+   {
+    "name": "Pakinga Nuku",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 10/230; order 11.4.30"
+   },
+   {
+    "name": "Moetu Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Marata Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Hera Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Wanihi Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Mari Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Tare Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Hemaima Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Tanekore Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Hori Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Erana Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Te Haurangi Ngarori Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/22",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Mani Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Akinihi Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Hiria or Celia Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Tame or Tamati Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Kuia or Kanepe Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Marata Mihaka Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pakinga Nuku, 11.4.30"
+   },
+   {
+    "name": "Ria Hone Wharewaka",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T024",
+    "confidence": "stated",
+    "note": "HK 10A/181; died 17 May 1939; order 13.8.40 → Wati Ratahi Topia m 1/5, Erina Ratahi Topia f 1/5, Raureti Hone Wharewaka m15 1/5, Ani Hone Wharewaka f13 1/5, Ihaka Hone Wharewaka m9 1/5 — Peri Paraihe's daughter, who had taken 1/5 of his interest in 1936 and was trustee for the Okena Peri minors"
+   },
+   {
+    "name": "Wati Ratahi Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T041",
+    "confidence": "stated",
+    "note": "from Ria Hone Wharewaka, 13.8.40"
+   },
+   {
+    "name": "Erina Ratahi Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T042",
+    "confidence": "stated",
+    "note": "from Ria Hone Wharewaka, 13.8.40"
+   },
+   {
+    "name": "Raureti Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "15",
+    "shares": "1/5",
+    "tupuna_id": "T043",
+    "confidence": "stated",
+    "note": "from Ria Hone Wharewaka, 13.8.40"
+   },
+   {
+    "name": "Ani Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "13",
+    "shares": "1/5",
+    "tupuna_id": "T044",
+    "confidence": "stated",
+    "note": "from Ria Hone Wharewaka, 13.8.40"
+   },
+   {
+    "name": "Ihaka Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "9",
+    "shares": "1/5",
+    "tupuna_id": "T045",
+    "confidence": "stated",
+    "note": "from Ria Hone Wharewaka, 13.8.40"
+   },
+   {
+    "name": "Tamatea Karora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 19/203; d. 1905; order 28.5.42"
+   },
+   {
+    "name": "Pakinga Karora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "deceased",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tamatea Karora, 28.5.42"
+   },
+   {
+    "name": "Utukore Karora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 19/203; d. 1910; order 28.5.42"
+   },
+   {
+    "name": "Manuao Karora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Utukore Karora, 28.5.42"
+   },
+   {
+    "name": "Karora Kahuitara",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 19/203; d. 1920; order 28.5.42"
+   },
+   {
+    "name": "Poi Karora alias Te Hoe Karora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Karora Kahuitara, 28.5.42"
+   },
+   {
+    "name": "Wanihi Ngarori Pakinga",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/50; d. 1934; order 6.12.39"
+   },
+   {
+    "name": "Ihapera Wanihi Pakinga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "19",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wanihi Ngarori Pakinga, 6.12.39"
+   },
+   {
+    "name": "Pita Waata te Wera alias Mangakura Waata",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/51; d. 20.8.36; order 6.12.39"
+   },
+   {
+    "name": "Panaaki Waata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Waata te Wera alias Mangakura Waata, 6.12.39"
+   },
+   {
+    "name": "Te Waru Waata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Waata te Wera alias Mangakura Waata, 6.12.39"
+   },
+   {
+    "name": "Hohepa Rangi Hape",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Waata te Wera alias Mangakura Waata, 6.12.39"
+   },
+   {
+    "name": "Keita Rangi Hape",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Pita Waata te Wera alias Mangakura Waata, 6.12.39"
+   },
+   {
+    "name": "Te Rangi Hape",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Keita Rangi Hape, 1939"
+   },
+   {
+    "name": "Hone Papahia alias Hone Tana Papahia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 4/262; d. 1912; order 1939"
+   },
+   {
+    "name": "Mihi Kirkwood",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Ruki Tipene",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Wi Tipene",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Maraea Boyce",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Nganeko Bowden",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Tana Riwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Puhipi Riwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Hariata Kaio",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Pehi Broughton",
+    "role": "Successor",
+    "sex": "m",
+    "age": "18",
+    "shares": "1/42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Hare Hoka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Ani Paniora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Wiki Hoka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Hone Hoka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "16",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Ema Hoka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "14",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Ruiha Hoka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "8",
+    "shares": "1/252",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Anaia Kahi Tipene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "8",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Mata te Rore",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Karena Kahi Tipene",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/24",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Paki Kahi Tipene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Mini Ngawaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Taiari Dunn",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Neta Tahana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Hami Dunn",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Tame Dunn",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hone Papahia alias Hone Tana Papahia, 1939"
+   },
+   {
+    "name": "Ani Paniora",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the minors, 1939"
+   },
+   {
+    "name": "Raiha Rikihana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB 4/143; d. 1927; order 20.4.34"
+   },
+   {
+    "name": "Maraea Wiremu Rikihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Te Karehu Eruera Rikihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Hera Eruera Rikihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Tukihuia Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Tautahi Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "18",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Maihi Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "17",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Pirihira Timoti",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Tangaroa Tupu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Wiremu Tupu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Ripeka Tupu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Manu Tupu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "8",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Raiha Rikihana, 20.4.34"
+   },
+   {
+    "name": "Maraea Rikihana",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the minors, 1934"
+   },
+   {
+    "name": "Peri Paraihe alias Kaperiere Paraihe",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T021",
+    "confidence": "stated",
+    "note": "HK 15/261; died 1929; succession order 25.9.36 → 1 Rirena Arama f 1/15, 2 Tame Rihari Matiu m 1/15, 3 Whina Rihari Matiu f18 1/15, 4 Ria Hone Wharewaka f 1/5, 5 Hone Peri Paraihe m 1/5, 6 Rawiri Okena Peri m15 1/15, 7 Ngarimu Okena Peri f9 1/15, 8 Hone Okena Peri m13 1/15, 9 Arapeta Peri Paraihe m 1/5; trustee for no. 3 Rirena Arama, for nos 6, 7 and 8 Ria Hone Wharewaka — the schedule copy of the order made on the minute at 15 HK 261 (doc 1650181); entered twice (pp.3 and 12)"
+   },
+   {
+    "name": "Rirena Arama",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/15",
+    "tupuna_id": "T901",
+    "confidence": "stated",
+    "note": "no. 1; 1/15 of Peri Paraihe, 25.9.36; trustee for her sister Whina"
+   },
+   {
+    "name": "Tame Rihari Matiu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/15",
+    "tupuna_id": "T025",
+    "confidence": "stated",
+    "note": "no. 2; 1/15, 25.9.36"
+   },
+   {
+    "name": "Whina Rihari Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "18",
+    "shares": "1/15",
+    "tupuna_id": "T026",
+    "confidence": "stated",
+    "note": "no. 3; 1/15, 25.9.36; aged 18, trustee Rirena Arama"
+   },
+   {
+    "name": "Ria Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/5",
+    "tupuna_id": "T024",
+    "confidence": "stated",
+    "note": "no. 4; 1/5, 25.9.36; trustee for the Okena Peri children"
+   },
+   {
+    "name": "Hone Peri Paraihe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/5",
+    "tupuna_id": "T027",
+    "confidence": "stated",
+    "note": "no. 5; 1/5, 25.9.36"
+   },
+   {
+    "name": "Rawiri Okena Peri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "15",
+    "shares": "1/15",
+    "tupuna_id": "T031",
+    "confidence": "stated",
+    "note": "no. 6; 1/15, 25.9.36"
+   },
+   {
+    "name": "Ngarimu Okena Peri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "9",
+    "shares": "1/15",
+    "tupuna_id": "T032",
+    "confidence": "stated",
+    "note": "no. 7; 1/15, 25.9.36"
+   },
+   {
+    "name": "Hone Okena Peri",
+    "role": "Successor",
+    "sex": "m",
+    "age": "13",
+    "shares": "1/15",
+    "tupuna_id": "T033",
+    "confidence": "stated",
+    "note": "no. 8; 1/15, 25.9.36"
+   },
+   {
+    "name": "Arapeta Peri Paraihe",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/5",
+    "tupuna_id": "T030",
+    "confidence": "stated",
+    "note": "no. 9; 1/5, 25.9.36"
+   },
+   {
+    "name": "Tukihuia Eruera Rikihana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "CB/K 2/20; d. 17.7.34; order 1.6.35"
+   },
+   {
+    "name": "Rehu Eruera Rikihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukihuia Eruera Rikihana, 1.6.35"
+   },
+   {
+    "name": "Hera Eruera Rikihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukihuia Eruera Rikihana, 1.6.35"
+   },
+   {
+    "name": "Tautahi Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukihuia Eruera Rikihana, 1.6.35"
+   },
+   {
+    "name": "Maihi Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "20",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tukihuia Eruera Rikihana, 1.6.35"
+   },
+   {
+    "name": "Hemaima Hatene",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Maihi Eruera Rikihana, 1935"
+   },
+   {
+    "name": "Te Hira Tukino",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18/16; d. 1935; order 23.9.40"
+   },
+   {
+    "name": "Te Wiki te Hira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Hira Tukino, 23.9.40"
+   },
+   {
+    "name": "Namu Teaho alias Mariena Riiwhi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/52; d. prior 1913 — a Matiu family of Whirinaki (Miraka Matiu @ Winika te Aho Matiu @ Puti Paani d. 9.10.45 → Moe Rawiri, 14.9.48); no stated link to Matiu Wiripo; order 6.12.39"
+   },
+   {
+    "name": "Matini te Whango te Aho (first written Te Whango Matiu)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Namu Teaho alias Mariena Riiwhi, 6.12.39"
+   },
+   {
+    "name": "Puti Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Namu Teaho alias Mariena Riiwhi, 6.12.39"
+   },
+   {
+    "name": "Miraka Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Namu Teaho alias Mariena Riiwhi, 6.12.39"
+   },
+   {
+    "name": "Te Waharoa Riiwhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Namu Teaho alias Mariena Riiwhi, 6.12.39"
+   },
+   {
+    "name": "Kinga Karora alias Merangi Karora alias Pakinga Karora",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/59; d. 1936; order 6.12.39"
+   },
+   {
+    "name": "Ripeka Pakinga Karora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kinga Karora alias Merangi Karora alias Pakinga Karora, 6.12.39"
+   },
+   {
+    "name": "Mata Pakinga Karora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kinga Karora alias Merangi Karora alias Pakinga Karora, 6.12.39"
+   },
+   {
+    "name": "Kereopa Paetau",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/66; d. 1932; order 6.12.39"
+   },
+   {
+    "name": "Paki Kereopa Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kereopa Paetau, 6.12.39"
+   },
+   {
+    "name": "Rawiri Kereopa Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kereopa Paetau, 6.12.39"
+   },
+   {
+    "name": "Hamiora Kereopa Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kereopa Paetau, 6.12.39"
+   },
+   {
+    "name": "Tuhe Paetau",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/66; d. 1907; order 6.12.39"
+   },
+   {
+    "name": "Wetini Tuhe Paetau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tuhe Paetau, 6.12.39"
+   },
+   {
+    "name": "Peri R. Matia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/67; d. 1937 — a grandson of Paetau te Ihahuhu (1/9 with Tatana and Te Wano Ko Hoani, 1931); see D025; order 6.12.39"
+   },
+   {
+    "name": "Kawenata Peri Matia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "16",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peri R. Matia, 6.12.39"
+   },
+   {
+    "name": "Ripeka Peri Matia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "14",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Peri R. Matia, 6.12.39"
+   },
+   {
+    "name": "Paki Kereopa Paetau",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for the Peri Matia minors, 1939"
+   },
+   {
+    "name": "Anania Wheti",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/67; d. prior 1909; order 6.12.39"
+   },
+   {
+    "name": "Heterene Kemara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Teokengaroa Mihaka Wi Kaira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Keho Mihaka Wi Kaira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Ware Tahana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Maraea Tahana or Mrs Pene Harawira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Harata Holt",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Anania Wheti, 6.12.39"
+   },
+   {
+    "name": "Ngapine Wati ('not an owner')",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/73; order 6.12.39"
+   },
+   {
+    "name": "Winirangi Wati Heretini",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Hoana Wati Heretini",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Pere Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Pakete Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "deceased",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Patara Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Rai Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Hana Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Keita Te Hira Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Himene Te Hira Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Heni Te Hira Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Kateraina Mate Tana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Waata Mate Tana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Manuera Mate Tana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/15",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Hohepa Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "9",
+    "shares": "1/30",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ngapine Wati ('not an owner'), 6.12.39"
+   },
+   {
+    "name": "Wati Tahaetini alias Wati Heretini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/77; d. 1918; order 6.12.39"
+   },
+   {
+    "name": "the same fourteen as for Ngapine Wati",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wati Tahaetini alias Wati Heretini, 6.12.39"
+   },
+   {
+    "name": "Tere te Hau",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 17A/249; d. 1921; order 3.6.43"
+   },
+   {
+    "name": "Ngakuru Pene Hare",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Tere te Hau, 3.6.43"
+   },
+   {
+    "name": "Wiremu Paiha @ Wiremu Pahia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 17A/235-7; d. 5.8.1925; order 3.6.43"
+   },
+   {
+    "name": "Eme Weera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Wiremu Paiha @ Wiremu Pahia, 3.6.43"
+   },
+   {
+    "name": "Hamahona Rihari Topia @ Hamahona R. Topia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Wh 21/376; d. 4.3.43; order 1.12.43"
+   },
+   {
+    "name": "Maki Hamahona Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hamahona Rihari Topia @ Hamahona R. Topia, 1.12.43"
+   },
+   {
+    "name": "Te Tuhi Herehini @ Te Tuhi Tahaetini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 17A/364; d. 9.10.33; order 23.8.44"
+   },
+   {
+    "name": "Herbert Hirini Pekama",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Tuhi Herehini @ Te Tuhi Tahaetini, 23.8.44"
+   },
+   {
+    "name": "Titi Arapeta Wati @ Titi Arapeta Heretini",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18A/278; d. 1933; order 2.10.44"
+   },
+   {
+    "name": "Pere Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Titi Arapeta Wati @ Titi Arapeta Heretini, 2.10.44"
+   },
+   {
+    "name": "Herbert Hirini Pekama",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 2.10.44 (HK 18A/282): his 1 share vested in Whiu te Hira (te Wiki) m sole"
+   },
+   {
+    "name": "Whiu te Hira (te Wiki)",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order 2.10.44"
+   },
+   {
+    "name": "Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 20/16; d. 25.6.40 — 'Matiu Ware Pihema', Matiu as a given name; order 11.4.45"
+   },
+   {
+    "name": "Te Mihinga Pene Heke",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Te Nohoroa Ware Pihema",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Ani Hori Heke",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Huia Hone Hape",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Pai Pene Wiremu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Rameka Ware Pihema",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Matiu Ware Pihema",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Tapita Ware Pihema",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Ringi Hone Otene @ Ringi Ware Pihema @ Ringi Ware @ Ringi Hone Tepaahi, 11.4.45"
+   },
+   {
+    "name": "Margaret Marshall alias Makerita Topia alias Maki Hamahona alias Maki Hamahona Topia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "K 24/275; d. 29.10.44; order 31.10.45"
+   },
+   {
+    "name": "Hinemoa Ethel Campbell",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Margaret Marshall alias Makerita Topia alias Maki Hamahona alias Maki Hamahona Topia, 31.10.45"
+   },
+   {
+    "name": "Kataraina Dunn @ Katrina Walters @ Katerina Mate Dunn @ Kataraina Tana @ Reta Mate Haretana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 21/193; d. 24.12.47; order 14.9.48"
+   },
+   {
+    "name": "Michael Joseph Stephen Dunn",
+    "role": "Successor",
+    "sex": "m",
+    "age": "2",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Kataraina Dunn @ Katrina Walters @ Katerina Mate Dunn @ Kataraina Tana @ Reta Mate Haretana, 14.9.48"
+   },
+   {
+    "name": "Maggie Hancy",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for Michael Joseph Stephen Dunn, 1948"
+   },
+   {
+    "name": "Miraka Matiu @ Winika te Aho Matiu @ Puti Paani",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 21/194; d. 9.10.45; order 14.9.48"
+   },
+   {
+    "name": "Moe Rawiri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Miraka Matiu @ Winika te Aho Matiu @ Puti Paani, 14.9.48"
+   },
+   {
+    "name": "Te Rakena Pou",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK C10/253 — 'Himi, Rawiri and Whare Matiu Rakena': Matiu as a given name of the Rakena whānau; order 14.11.34"
+   },
+   {
+    "name": "Paora Piripi Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Rakena Piripi Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Erina Piripi Rakena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Mihiao Piripi Rakena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Arai te Uru Tawio Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/80",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Waimirirangi Tawio Piripi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/80",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Ruihi Tawio Piripi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/80",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Mane Tawio Piripi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/80",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Himi Matiu Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Rawiri Matiu Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Whare Matiu Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Te Aho Ngatai Tahere",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Petera Ngatai Tahere",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Hapeta Ngatai Tahere",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Anena Popi Tahere",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Pane Hone Otene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Ringi Hone Otene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Raiti Mitikakau Hone",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/12",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Te Rakena Pou, 14.11.34"
+   },
+   {
+    "name": "Harry Rakena @ Henry Rakena @ Harring Rakena @ Arai te Uru Tawio Piripi @ Arai te Uru Piripi Rakena",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "BI 20/293; d. 7.12.45(?); order 26.9.44"
+   },
+   {
+    "name": "Lucy Rakena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Harry Rakena @ Henry Rakena @ Harring Rakena @ Arai te Uru Tawio Piripi @ Arai te Uru Piripi Rakena, 26.9.44"
+   },
+   {
+    "name": "Waimirirangi Kingi Tanuwha @ Waimirirangi Rakena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Harry Rakena @ Henry Rakena @ Harring Rakena @ Arai te Uru Tawio Piripi @ Arai te Uru Piripi Rakena, 26.9.44"
+   },
+   {
+    "name": "Mane Rakena",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Harry Rakena @ Henry Rakena @ Harring Rakena @ Arai te Uru Tawio Piripi @ Arai te Uru Piripi Rakena, 26.9.44"
+   },
+   {
+    "name": "Hohepa Arapeta Wati",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18A/279; d. 1942; order 2.10.44"
+   },
+   {
+    "name": "Pere Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "Pakete Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "deceased",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "Rai Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "Patara Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "Hana Arapeta Wati",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Hohepa Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "Marohaia Arapeta Wati @ Marohaia Arapeta Heretini @ Turi Arapeta @ Turi Arapeta Wati",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 18A/279; d. 1930; order 2.10.44"
+   },
+   {
+    "name": "Rai Arapeta Wati",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "solely",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Marohaia Arapeta Wati @ Marohaia Arapeta Heretini @ Turi Arapeta @ Turi Arapeta Wati, 2.10.44"
+   },
+   {
+    "name": "All owners (list nos 1–99)",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "99.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Schedule of ownership orders, Whirinaki 4A, 23:2:05, 99.000 shares: 'Deceased or transferor — all owners, list nos 1–99, shares 99.000, M.B. ref TK 58/74, order Conf. Sale, date 26.5.47' → 100 Poi Karora sole 99.000 — the whole block, including the Peri Paraihe whānau's interests, passed to Poi Karora on confirmation of sale in May 1947"
+   },
+   {
+    "name": "Poi Karora",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "99.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 100; the whole of Whirinaki 4A (99.000) by confirmation of sale, 26.5.47 (TK 58/74); vesting order s.163, 21.4.48 (HK 21/147) → 101 Hohepa Poi Karora m 1/4 24.750, 102 Kinga Poi Karora m 24.750, 103 Mere Hohepa f 24.750, 104 Hori Poi Winiata m 24.750 — all subject to a life interest in favour of Poi Karora, and the dwelling the property of Hori Poi Winiata"
+   },
+   {
+    "name": "Hohepa Poi Karora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "24.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101; 24.750 by vesting order 21.4.48; S.V.O. 25.6.58 (HK 28/283) → 105 Bella Karora f 6.188 (1960), 106 Michael Karora m 6.188 (1963), 107 Ellen Karora f 6.187 (1968), 108 Tureaa Karora f 6.187"
+   },
+   {
+    "name": "Kinga Poi Karora",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "24.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; 24.750, 21.4.48; with Hori Poi Winiata, V. s.213, 26.6.58 (HK 29/9) → 109 Atta Winiata @ Arthur Wynyard m sole 49.500"
+   },
+   {
+    "name": "Mere Hohepa Karora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "24.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 103; 24.750, 21.4.48; V. s.213, 26.6.58 (HK 29/10) → 110 Atta Winiata @ Arthur Wynyard sole (→ 74.250)"
+   },
+   {
+    "name": "Hori Poi Winiata",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "24.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 104; 24.750, 21.4.48; the dwelling his property"
+   },
+   {
+    "name": "Atta Winiata @ Arthur Wynyard",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "74.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 109–110; 74.250 of 99.000 by the vesting orders of 26.6.58"
+   }
+  ],
+  "notes": "WHĀNAU DOCUMENT. Two matters for the succession work. (1) The schedule entry for Peri Paraihe's succession (25 Sep 1936) names the nine successors and the two trustees exactly as the minute at 15 HK 261 does, and records Ria Hone Wharewaka's death date (17 May 1939) and her five successors — Wati and Erina Ratahi Topia and Raureti, Ani and Ihaka Hone Wharewaka. (2) The whole of Whirinaki 4A — all 99 owners' shares, the Peri Paraihe whānau's 1936 interests among them — was SOLD to Poi Karora, the sale confirmed on 26 May 1947 (Tokerau MB 58/74). The block has not been whānau land since; it should not be expected in any later succession to Rirena Arama, Tame or Whina Rihari Matiu, or the Okena Peri children, and the 1947 minute (TK 58/74) would show who signed or how the meeting of owners resolved. Name-echoes: 'Peri R. Matia' (d. 1937), a grandson of Paetau te Ihahuhu — D025; 'Rihari Topia' and 'Hamahona Rihari Topia' (Rihari as a Topia given name); 'Puti Matiu', 'Miraka Matiu', 'Te Whango Matiu' (children of Namu Teaho alias Mariena Riiwhi — a Matiu family of Whirinaki, no stated link to Matiu Wiripo); 'Ihapera Okena' (1906); 'Matiu Ware Pihema' and 'Himi/Rawiri/Whare Matiu Rakena' (given names)."
+ },
+ {
+  "document_id": "PW-1536183",
+  "doc_no": "1536183",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Whirinaki",
+  "title": "Hokianga Consolidation Scheme — ledger sheets for Whirinaki No 6I1 (P/O 13 Feb 1912; 54:3:00; plan 10157; unimproved value £40, distribution value £147 10s): the sixteen original owners and the running record of successors nos 17–116, 1914–1957 — 6 pages",
+  "blocks_recorded": [
+   "Whirinaki 6I1"
+  ],
+  "block_ids": [
+   "29094"
+  ],
+  "record_date": "1912-02-13",
+  "effective_date": "1957",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga Consolidation Scheme",
+  "judge": "",
+  "minute_book": "HK 10/8; HK 10/166-7, 197; CB 4/218, 233-241; HK 10A/77; HK 18/61; HK 18A/276-320; HK 22/319-320; HK 23/9; HK 25/302; HK 26/73, 270, 328; HK 28/38",
+  "pages": 6,
+  "page_range": "",
+  "file_name": "01036607_01536183_0001_0006_LHO_Document-1536183.pdf",
+  "drive_id": "1dvTJgCd0-iLr-VNI1aXiCl_RSwxIS79E",
+  "file_size": "1337457",
+  "url": "https://drive.google.com/file/d/1dvTJgCd0-iLr-VNI1aXiCl_RSwxIS79E/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "M.A. 101A Hokianga Consolidation Scheme sheets, 'Not registered', for Whirinaki No 6I1: partition order 13.2.12, area 54:3:00, plan 10157; unimproved value £40, improvements £115, capital value £155, less rates £7 10s — distribution value £147 10s. Sheet 1: the sixteen original owners, 1 share each (16 shs): Eruera Morunga, Kamariera Ngaro (d), Kitty Leaf, Karaka Morunga, Mita Morunga (d), Mihiterina Waitai, Maraea Tehu, Mariata Tehu, Ngaro Karione (d), Peti Morunga (d), Pakete Morunga, Pororua Mita, Pereri Tehu, Rameka Morunga (d), Ruinga Morunga, Tia Morunga — each valued 9/13/9 — with group 14 and 'out / in meantime' remarks (E/16 to 5K1, 5K2, 5K3A; 'E/14 held in meantime, adjustments necessary'); and Edward te Wano 1 share. Sheets 2–6: the successors in running numbers — 18–27 the ten Mita Morunga (1/10); 28–37 the ten successors of Peti, Kamariera and Rameka Morunga (1/4 of 3); 38–47 the Mita Morunga again (1/40); 48–58 the eleven Tamati Peita (1/44); 59–60 Te Atarangi Wiki and Te Raukura Paniora (1/16); 61–70 the ten Wharerau (1/8); 71–77 the Harawira and Yakas (1/56); 78 Akinihi Tia Morunga; 79–84 the three te Wano (Kohu); 85–88 Eruera Morunga, Tia Morunga, Eruera and Matiu te Tuhi (1944); 89–90 the two Huru Anihana (1/2); 91–98 the eight Morunga / te Tuhi of the 1950 exchange (1/32); 99 Eruera te Wano Kohu (1); 100 Te Raukura Pickering; 101 Te Reipa Ihaia Morunga; 102 Eruera Morunga 9/32 (exchange, counter Whirinaki 6D); 103–113 the eleven Tamati Peita (9/352, 1954); 114 Pororua Pororua Morunga; 115–116 Korari and Hirini Hori Kaio (1957).",
+  "names": [
+   {
+    "name": "Eruera Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Kamariera Ngaro",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; original owner, partition order 13.2.1912, 1 share (deceased)"
+   },
+   {
+    "name": "Kitty Leaf",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Karaka Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Mita Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; original owner, partition order 13.2.1912, 1 share (deceased)"
+   },
+   {
+    "name": "Mihiterina Waitai",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Maraea Tehu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Mariata Tehu (Mrs Grange)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Ngaro Karione",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; original owner, partition order 13.2.1912, 1 share (deceased)"
+   },
+   {
+    "name": "Peti Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; original owner, partition order 13.2.1912, 1 share (deceased)"
+   },
+   {
+    "name": "Pakete Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Pororua Mita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Pereri Tehu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Rameka Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; original owner, partition order 13.2.1912, 1 share (deceased)"
+   },
+   {
+    "name": "Ruinga Morunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Tia Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; original owner, partition order 13.2.1912, 1 share"
+   },
+   {
+    "name": "Edward te Wano",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; 1 share (successor to Pereni Tahu, 1914)"
+   },
+   {
+    "name": "Te Ruwhi Mita Morunga or Te Ruwhi Pani Kamariera",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Ihaia Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Wharo Mita Morunga or Wharo Paora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Pororua Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Kahutaha Mita Morunga or Kahu Pani Karaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Te Hunga Mita Morunga or Te Hunga Pane or Hunga Reni Reupena",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Kingi Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Kareko Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Kaha Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Hone Heke Mita Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/10 + 1/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 18–27 (1/10 of Mita Morunga, 1929) and 38–47 (1/40, through Peti Morunga, 1931)"
+   },
+   {
+    "name": "Maraea Kamariera Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Kiripeti Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Mari Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Moananui Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Korari or Tia Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Pio or Karaka Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Pakete or Rehu Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Kirihimete Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Ruima Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/4 of 3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 28–37; 1/4 of the Kamariera / Peti / Rameka Morunga shares (3.000), 23.10.31"
+   },
+   {
+    "name": "Pio Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Hariata Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Terehia Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Irihapeti Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Rapata Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Huihana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Wareriana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Matutina Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931"
+   },
+   {
+    "name": "Pereri Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931; 1934"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 48–58; 1/44 each (the eleven Tamati Peita), 1931; 1936"
+   },
+   {
+    "name": "Te Atarangi Wiki",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; 1/16, 1937"
+   },
+   {
+    "name": "Te Raukura Paniora",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60; 1/16, 1943"
+   },
+   {
+    "name": "Penikera Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Amiria Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Moananui or Riwa Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Hemi Wharerau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Hariata Wharerau",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Rawiri Wharerau (1940)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Moerewa Wharerau (1942)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Te Waihue Wharerau (1945)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Maki Wharerau (1947)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Kopa Wharerau (1948)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 61–70; the ten Wharerau, 1/8 each (CB 4/218)"
+   },
+   {
+    "name": "Eme Harawira",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Pororua Harawira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Ahimawhiti Harawira",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Mere Yakas",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Wiremu Yakas (1939)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Rihi Yakas (1941)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Atareta Yakas (1943)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/56",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 71–77; 1/56 each (HK CB 4/-), 1938; trustees Pororua Harawira and Mere Yakas"
+   },
+   {
+    "name": "Akinihi Tia Morunga @ Akinihi Hohepa Rawiri",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 78; 1 share (HK 10A/77), and no. 82 'solely' (HK 10A/77)"
+   },
+   {
+    "name": "Eruera te Wano (Kohu)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 79 and 82; 5/18 and 1/3 (HK 18/61, 1941; HK 18A/303, 1944)"
+   },
+   {
+    "name": "Whakarongohau te Wano (Kohu)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 80 and 83; 1/3"
+   },
+   {
+    "name": "Pene te Wano (Kohu) (mental patient)",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 81 and 84; 1/3"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; 1¼ (HK 18A/299, 1944); no. 86 Tia Morunga ¼ by exchange (HK 18A/320)"
+   },
+   {
+    "name": "Eruera te Tuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87; ⅛ (HK 18A/276, s.163/31)"
+   },
+   {
+    "name": "Matiu te Tuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 88; ⅛ (HK 18A/276)"
+   },
+   {
+    "name": "Ngahiraka Huru Anihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89; 1/2 (S.O. HK 18A/285)"
+   },
+   {
+    "name": "Te Aranga Huru Anihana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 90; 1/2"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Kirihimete Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Korari or Tia Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Parani Moa Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Pakete or Rehu Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Matiu te Tuhi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Mari Winiata or Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Piipi or Pipiana Morunga",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 91–98; 1/32 each (C.Ex.O. HK 22/319, 1950)"
+   },
+   {
+    "name": "Eruera te Wano Kohu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 99; 1 share (C.Ex.O. no. 35, HK 22/320)"
+   },
+   {
+    "name": "Te Raukura Paniora @ Te Raukura Tirere Pickering",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/16",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 100; 1/16 (HK 23/9, s.163)"
+   },
+   {
+    "name": "Te Reipa Ihaia Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/8",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 101; 1/8 (HK 25/302, 1952)"
+   },
+   {
+    "name": "Eruera Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "9/32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; 9/32 (HK 26/73, Ex.O. counter Whirinaki 6D)"
+   },
+   {
+    "name": "Pio Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Hariata Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Terehia Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Irihapeti Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Rapata Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Huihana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Wareriana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Matutina Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Pereri Tamati Peita",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Hoana Tamati Peita",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "9/352",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 103–113; 9/352 each (HK 26/270 E.O., 1954)"
+   },
+   {
+    "name": "Pororua Pororua Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "5/40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 114; 5/40 (HK 26/328 S.O., 1955)"
+   },
+   {
+    "name": "Korari Hori Kaio",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 115; 4/44 (HK 28/38, 1957)"
+   },
+   {
+    "name": "Hirini Hori Kaio",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4/44",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 116; 4/44 (HK 28/38, 1957)"
+   }
+  ],
+  "notes": "The consolidation-scheme ledger of the block; its numbering is carried on by the schedule of ownership orders (doc 1491598). No tupuna of the whānau."
  }
 ]
