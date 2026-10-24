@@ -3272,6 +3272,387 @@
   "notes": "\"Matui\" is the typist's spelling of Matiu throughout the base list; \"Arana\" for Arama; \"Piriparaihe\" for Peri Paraihe. Inferred relationships flagged in each tupuna's notes. Sharon Amanda's surname and several minute-book references uncertain."
  },
  {
+  "document_id": "PW-1284763",
+  "doc_no": "1284763",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Paihia",
+  "title": "Paihia 1D12 — compiled list of 27 owners as at 28 Jan 1959 (42.6184 ha, 110.000 shares) and the schedule of ownership orders 1974–1997 (list nos 44–90) — 6 pages (page 2 not in the file)",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1959-01-28",
+  "effective_date": "1997-11-26",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "WH 56/36; WH 50/4; AT 3/62; AT 4/349; ATO 1/73; 1 WH(S) 141-142; 8 RGTO 41; 1 KT(S) 224; 5 AT(S) 385",
+  "pages": 6,
+  "page_range": "",
+  "file_name": "00793129_01284763_0001_0006_LHO_Document-1284763.pdf",
+  "drive_id": "1BJZ93ShsZkuZqPNQmWrw3-MtsIBRtmA0",
+  "file_size": "1545729",
+  "url": "https://drive.google.com/file/d/1BJZ93ShsZkuZqPNQmWrw3-MtsIBRtmA0/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Page 1 (M.A. 835): Paihia 1D12 (105:1:10; 42.6184 ha; 110.000), compiled list of owners as at 28.1.59 — 1 Elizabeth Wiremu Ratana @ Mrs Adams 3.500; 2 Hare Pure 2.000; 3 Te Hau te Wake 2.000; 4 Hone Heremia te Wake 2.000; 5 Hunia Hone Wharewaka 1.957; 6 Huria Hotene te Wake 45.750; 7 Kararaina Heta Rawiri @ Mrs Rapata Paiha 2.000; 8 Lottie or Harata Wiremu Ratana @ Mrs Martin Matiu 3.500; 9 Maata Wiremu Rurawhe 17.750; 10 Mange Tamahio 2.000; 11 Maria Hone te Ihi 5.000; 12 Mataki Hone Wharewaka 1.957; 13 Menehia Takinui Tahana .134; 14 Merita Hone Wharewaka 1.957; 15 Miraka or Ropaina Natana Wharerumu 1.000; 16 Ngawini Takinui Tahana @ Mrs Parkinson .266; 17 Paraihe Pirini Ritete .400; 18 Perepeti Hone Wharewaka 1.957; 19 Pio Pirini Ritete .400; 20 Puhirere Wharewaka 2.215; 21 Rapata Tamati 2.000; 22 Rena Hone Wharewaka 1.957; 23 Tamaho Wharemate Pirini .400; 24 Tatiana Toone Tipene 2.000; 25 Tukapongia Moihi 2.000; 26 Wharemate Tamaho 3.500; 27 Wiremu Pirini Ritete .400. Pages 3–7: Takapongia Moihi → 44 Hira Moihi (1974); Tamaho Wharemate Pirini → Dion and Joseph Pirini II, Celia Ogle (1977); Maata Wiremu Rurawhe → Sydney Rudolph (1978); Hone Heremia te Wake → Abe Wharerau (1979); Lottie or Harata Wiremu Ratana @ Mrs Martin Matiu → Cynthia Arline Harris (1982); William or Wiremu Rudolph → seven Rudolph / Ihaka / McKay (1983); Manuera Pio Pirini → Anne Carmena Pirini for life, remainder to six (1984); Paraihe Pirini Ritete → Wiremu Pirini, Lillian Robertson, James Pirini snr 1/4 and Francis Pirini, Ms Rose Adams, James Pirini jnr 1/12 (1986); Wiremu Pirini Ritete → seven Pirini (1987); Haimona Pirini → Francis Pirini, Rosie Adams, James Pirini jnr (1989); Tatiana Toone Tipene → Margaret Leslie (1988); Wiremu Hau te Wake → Benjamin Hau te Wake executor (1991); Anthony Rudolph → eleven Rudolph, Pickering, Pirini, Marsh, Edmonds (1993); Hira Mohi or Cyril Hira Moses → four (1997). Paihia 1D12 is not in the 2017 block index; pinned to Paihia 1D9A, the nearest parcel of the 1D series.",
+  "names": [
+   {
+    "name": "Elizabeth Wiremu Ratana @ Mrs Adams",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Hare Pure",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Te Hau te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Hone Heremia te Wake",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Hunia Hone Wharewaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.957",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Huria Hotene te Wake",
+    "role": "Owner",
+    "sex": "f",
+    "age": "deceased",
+    "shares": "45.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Kararaina Heta Rawiri @ Mrs Rapata Paiha",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Lottie or Harata Wiremu Ratana @ Mrs Martin Matiu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Maata Wiremu Rurawhe",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "17.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Mange Tamahio",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Maria Hone te Ihi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Mataki Hone Wharewaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.957",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Menehia Takinui Tahana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".134",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Merita Hone Wharewaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.957",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Miraka or Ropaina Natana Wharerumu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Ngawini Takinui Tahana @ Mrs Parkinson",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".266",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Paraihe Pirini Ritete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Perepeti Hone Wharewaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.957",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Pio Pirini Ritete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Puhirere Wharewaka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.215",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Rapata Tamati",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Rena Hone Wharewaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.957",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; compiled list of owners as at 28.1.59; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Tamaho Wharemate Pirini",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Tatiana Toone Tipene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Tukapongia Moihi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Wharemate Tamaho",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Wiremu Pirini Ritete",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; compiled list of owners as at 28.1.59"
+   },
+   {
+    "name": "Paraihe Pirini Ritete",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 17, .400; ATO 1/73; s.78A/67, 18.4.86 → 59 Wiremu Pirini, 60 Lillian Robertson, 61 James Pirini (snr) 1/4; 62 Francis Pirini, 63 Ms Rose Adams, 64 James Pirini (jnr) 1/12 — see D026"
+   },
+   {
+    "name": "Ms Rose Adams",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": ".033",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; 1/12 of Paraihe Pirini Ritete (1986), and no. 73 from Haimona Pirini (11.7.89) — a grandchild of Paraihe Pirini Ritete; possibly the Rosie Adams (T122), daughter of Tim Adams — D026"
+   },
+   {
+    "name": "Lottie or Harata Wiremu Ratana @ Mrs Martin Matiu",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 8, 3.500; WH 50/4; s.213/53, 8.2.82 → 50 Cynthia Arline Harris"
+   },
+   {
+    "name": "Hone Heremia te Wake",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 4, 2.000; WH 56/36; 26.4.79 → 49 Abe Wharerau"
+   },
+   {
+    "name": "Maata Wiremu Rurawhe",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "17.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 9; AT 3/62; 21.4.78 (s.213/53) → 48 Sydney Rudolph; later the Rudolph whānau (1983, 1993)"
+   },
+   {
+    "name": "Wiremu Pirini Ritete",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": ".400",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 27, .400; 1 WH(S) 141-142; 28.5.87 → Haimona, Kereopa, Himione, Hone, Pio and Wharemate Pirini (Ritete), Wiremu Pirini"
+   },
+   {
+    "name": "Wiremu Hau te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 75, 2.000; 8 RGTO 41; 25.11.91 → Benjamin Hau te Wake as executor"
+   },
+   {
+    "name": "Hira Mohi or Cyril Hira Moses",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 44, 2.000; 5 AT(S) 385; 26.11.97 → Kahu Talalema, Loraine Poe, Jane Moses, Stuart Leonard Moses"
+   }
+  ],
+  "notes": "WHĀNAU-LINKED (the five Hone Wharewaka children and Puhirere Wharewaka). Two Adams name-echoes for D026: 'Elizabeth Wiremu Ratana @ Mrs Adams' (list 1, 1959) and 'Ms Rose / Rosie Adams', a grandchild of Paraihe Pirini Ritete (1986, 1989)."
+ },
+ {
   "document_id": "PW-1479952",
   "doc_no": "1479952",
   "type": "LHO",
@@ -3572,6 +3953,77 @@
    }
   ],
   "notes": "Ratios and shares as written; Toma Atama's 3/17 versus 2/17 for the others is as recorded. All kin links from this page are inferred from the pattern of succession and flagged as such."
+ },
+ {
+  "document_id": "PW-1480208",
+  "doc_no": "1480208",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Paihia",
+  "title": "Paihia 1D12 — schedule of ownership orders, list nos 24–75 (70:0:00, 110.000 shares), 1917–1959 — 5 pages",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1917-04-30",
+  "effective_date": "1959-01-28",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga",
+  "judge": "",
+  "minute_book": "HK 2/210; HK 3/136, 3/239; HK 4/250; HK 5/75; HK 10/98, 10/186; N 66A/28; HK 12/246, 12/268; HK 10A/206, 228; HK 19/271; HK 21/93-94; HK 25/277, 363; K 29/57; HK 28/169, 172, 265; HK 29/90",
+  "pages": 5,
+  "page_range": "",
+  "file_name": "00980638_01480208_0001_0005_LHO_Document-1480208.pdf",
+  "drive_id": "19BfRoFXXWC-Rw5sEwXe7KCS_I0jFeZwz",
+  "file_size": "745258",
+  "url": "https://drive.google.com/file/d/19BfRoFXXWC-Rw5sEwXe7KCS_I0jFeZwz/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Handwritten M.A. schedule of ownership orders for Paihia 1D12 (70:0:00; 110.000), carrying the successions of doc 1488209 with list numbers and shares: Te Paea Haumate 5.000 → 24 Makarena Haimona, 25 Riki Hone Wharewaka 2.500 each (30.4.17); Wiremu Ratana jnr 6.000 → Makarena Haimona (8.500); Makarena Haimona → Huihana, Hare, Rewi Parekura Haimona 2.833; nos 2, 12, 14, 22 (57.500) → 30 Huria and 31 Kararaina Hotene 28.750 each (17.8.20); Hone Paparau → 32 Hotene te Wake 2.000; Henare Rewa → 33 Pirini Ritete 2.000; Pirini Ritete → 34–42 (Pirini Ritete .333/.334, Takinui Tahana .083/.084); Natana Wharerumu → 43 Miraka or Ropaina, 44 Rapi Natana Wharerumu 1.000 each (18.11.31); Riki Hone Wharewaka 2.500 → 45 Mataki, 46 Merita, 47 Rena, 48 Huria, 49 Perepeti Hone Wharewaka .500 each (23.10.31); Paketo Piri Mete (gift, 6.7.33) → 50 Hotene te Wake 4.000; Ira Heremaia (gift, 12.7.33) → 51 Huria Hotene te Wake 30.750; Mane Takinui Tahana (13.8.40) and Matire Pirini Ritete (13.8.40); Kararaina Hotene 28.750 (E.O. 7.9.42) → 62 Maata Wiremu Rurawhe 17.750, 63 Huria Hotene 41.750; the Haimona 8.500 (E.O.) → 64 Puhirere Wharewaka 1.215 and 65–69 the five Hone Wharewaka 1.457 each; Rapi Natana Wharerumu 1.000 (29.9.47) → 70 Puhirere Wharewaka 2.215; Raiha Kanara Topia @ Raiha Hone te Ihi → 71 Maria Hone te Ihi 5.000 (10.12.53); Heta Tipene → Tiana Toone Tipene 2.000 (22.3.54); Erina Heta → 73 Kararaina Heta Rawiri @ Mrs Rapata Paiha 2.000; Hotene te Wake 4.000 → Huria Hotene te Wake 45.750 (19.9.57); Wiremu Ratana snr 7.000 → Wiremu Ratana @ Mrs Adams and Harata Wiremu Ratana @ Mrs Martin Matiu 3.500 each (19.9.57); Wharemate Pirini Ritete .400 → Tamaho Wharemate Pirini (18.2.58); Totina Takinui Tahana → Ngawini Tahana @ Parkinson .266 (28.1.59). Paihia 1D12 is not in the 2017 block index; pinned to Paihia 1D9A, the nearest parcel of the 1D series.",
+  "names": [
+   {
+    "name": "Riki Hone Wharewaka",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 25, 2.500; HK 10/186; 23.10.31 → nos 45–49, the five Hone Wharewaka children"
+   },
+   {
+    "name": "Puhirere Wharewaka",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "2.215",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 64, 70; 2.215 (1947)"
+   },
+   {
+    "name": "Huria Hotene te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "45.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 30, 51, 63; 45.750 by 1957"
+   },
+   {
+    "name": "Elizabeth Wiremu Ratana @ Mrs Adams",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "3.500, 19.9.57 — D026"
+   }
+  ],
+  "notes": ""
  },
  {
   "document_id": "PW-1488162",
@@ -4229,6 +4681,728 @@
    }
   ],
   "notes": "Ages in 1940 give approximate birth years: Iwa c. 1927; Manihera children c. 1928–1933."
+ },
+ {
+  "document_id": "PW-1488209",
+  "doc_no": "1488209",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Paihia",
+  "title": "Paihia 1D12 — succession order schedules 1917–1959 (4 pages): the Haimona, Hotene te Wake (of Pawarenga), Pirini Ritete, Takinui Tahana and Hone Wharewaka successions; the Haimona and Wharerumu exchanges to the Wharewaka (1947); Wiremu Ratana senior to Mrs Adams and Mrs Martin Matiu (1957)",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1917-04-30",
+  "effective_date": "1959-01-28",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga",
+  "judge": "",
+  "minute_book": "HK 10/98, 10/186; N 66A/28; HK 10A/206, 228; HK 12/268, 346; HK 19/271; HK 21/93-94; HK 25/277, 363; K 29/57; HK 28/169, 172, 265; HK 29/90",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "00988638_01488209_0001_0004_LHO_Document-1488209.pdf",
+  "drive_id": "1CCnOiawkv-4GCPtwAYCKYvYC1i0D2igm",
+  "file_size": "983072",
+  "url": "https://drive.google.com/file/d/1CCnOiawkv-4GCPtwAYCKYvYC1i0D2igm/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16 succession schedules for Paihia 1D12 (Hokianga). Te Paea Haumate (1905) → Makarena Haimona and Riki Hone Wharewaka (1917); Wiremu Ratana jnr (1916) → Makarena Haimona; Makarena Haimona (1918) → Huihana, Hare and Rewi Parekura Haimona (1919); Ratana Tamaho, Hekiera Tamaho, Wharemate Hotene and Rirena Hotene (1911–18) → Huria (16) and Kararaina (12) Hotene, trustee Hotene te Wake of Pawarenga (1920); Hone Paparau → Hotene te Wake; Henare Rewa → Pirini Ritete (1924); Pirini Ritete (1925) → the five Pirini Ritete and four Takinui Tahana (1929); RIKI HONE WHAREWAKA alias Riki Ratana (d. 1923; HK 10/186) → Mataki, Merita, Rena, Huria and Perepeti Hone Wharewaka 1/5, trustee Hone Wharewaka (23.10.31); Natana Wharerumu → Miraka (Mrs Karaka Rutene) and Rapi Natana Wharerumu (1931); gifts of Ira Heremaia to Huria Hotene te Wake and of Paketo Piri Mete to Hotene te Wake; Mane Takinui Tahana and Matire Pirini Ritete (1940); exchange orders 29.9.47 (HK 21/93-94) — the Haimona 8½ shares and Rapi Wharerumu's share → Puhirere Wharewaka and the five Hone Wharewaka children; Raiha Hone te Ihi alias Raiha Kanara Topia → Maria Hone te Ihi (1953); Kararaina Hotene's 28¾ by consolidation exchange (1942) → Maata Wiremu Rurawhe 17¾ and Huria Hotene 11; Hata Toone Tipene → Tatiana Toone Tipene (1954); Erina Heta Rawiri → Kararaina Heta Rawiri (1955); Hotene te Wake (d. 1938) → Huria Hotene te Wake, and Wiremu Ratana senior (d. 1956) → Elizabeth Wiremu Ratana (Mrs Adams) and Lottie or Harata Wiremu Ratana (Mrs Martin Matiu) (19.9.57); Wharemate Pirini → Tamaho Wharemate Pirini (1958); Totina Takinui Tahana → Ngawini (Mrs Parkinson) (1959). Paihia 1D12 is not in the 2017 block index; pinned to Paihia 1D9A, the nearest parcel of the 1D series.",
+  "names": [
+   {
+    "name": "Te Paea Haumate",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1905; 30.4.17 → Makarena Haimona, Riki Hone Wharewaka 1/2 each"
+   },
+   {
+    "name": "Riki Hone Wharewaka alias Riki Ratana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "T162",
+    "confidence": "stated",
+    "note": "1/2 of Te Paea Haumate, 30.4.17; died 1923 (HK 10/186) → 23.10.31 Mataki, Merita, Rena, Huria and Perepeti Hone Wharewaka 1/5 each, trustee Hone Wharewaka — by inference an earlier wife of Hone Wharewaka (T156); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Wiremu Ratana junior",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 30.4.16; 30.4.17 → Makarena Haimona sole"
+   },
+   {
+    "name": "Makarena Haimona",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 10.12.18; 11.11.19 → Huihana f 5/6?, Hare m, Rewi Parekura Haimona m, 1/3 each; trustee Hira Eri Keropa"
+   },
+   {
+    "name": "Ratana Tamaho",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. Nov 1915; 7.5.20 → Huria and Kararaina Hotene 1/2 each, trustee Hotene te Wake of Pawarenga"
+   },
+   {
+    "name": "Hekiera Tamaho",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 3.11.11; 17.8.20 → Huria and Kararaina Hotene; trustee Hotene te Wake of Pawarenga"
+   },
+   {
+    "name": "Wharemate Hotene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 24.11.18; 17.8.20 → Huria and Kararaina Hotene; trustee Hotene te Wake of Pawarenga"
+   },
+   {
+    "name": "Rirena Hotene",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 29.11.18; 17.8.20 → Huria (16) and Kararaina (12) Hotene 1/2 each; trustee Hotene te Wake of Pawarenga — a Rirena of the Hotene te Wake whānau of Pawarenga; not Rirena Arama"
+   },
+   {
+    "name": "Hotene te Wake",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Pawarenga; trustee for his daughters Huria and Kararaina Hotene, 1920; successor to Hone Paparau (13.8.20) and by gift to Paketo Piri Mete (HK 12/268); d. 15.5.38 → Huria Hotene te Wake (19.9.57)"
+   },
+   {
+    "name": "Huria Hotene te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "16",
+    "shares": "45.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2 of Ratana Tamaho, Hekiera Tamaho, Wharemate and Rirena Hotene (1920), Ira Heremaia by gift, Hotene te Wake (1957) — 45.750 by 1959"
+   },
+   {
+    "name": "Kararaina Hotene",
+    "role": "Successor",
+    "sex": "f",
+    "age": "12",
+    "shares": "28.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2 of the same (1920); d. 1929(?); her 28.750 by consolidation exchange 7.9.42 (HK 19/271) to Maata Wiremu Rurawhe 17.750 and Huria Hotene 11.000"
+   },
+   {
+    "name": "Hone Paparau",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1916; 13.8.20 → Hotene te Wake sole"
+   },
+   {
+    "name": "Henare Rewa",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1918; 7.5.24 → Pirini Ritete sole"
+   },
+   {
+    "name": "Pirini Ritete",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1925; HK 10/98; 3.7.29 → Wharemate, Paraihe, Wiremu, Ripine or Matire and Pio Pirini Ritete 1/6 each; Ngawini (19), Mane (17), Totina (15), Menehia (13) Takinui Tahana 1/24 each — 'Paraihe' as a given name; not Peri Paraihe's line"
+   },
+   {
+    "name": "Mataki Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "1/5",
+    "tupuna_id": "T157",
+    "confidence": "stated",
+    "note": "1/5 of Riki Hone Wharewaka, 23.10.31; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Merita Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T158",
+    "confidence": "stated",
+    "note": "1/5, 23.10.31 (of age 1936); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Rena Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T159",
+    "confidence": "stated",
+    "note": "1/5 (1937); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Huria Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T160",
+    "confidence": "stated",
+    "note": "1/5 (1939); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Perepeti Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/5",
+    "tupuna_id": "T161",
+    "confidence": "stated",
+    "note": "1/5 (1941); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Hone Wharewaka",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T156",
+    "confidence": "stated",
+    "note": "trustee for his children by Riki Hone Wharewaka, 23.10.31 (HK 10/186) — T156"
+   },
+   {
+    "name": "Natana Wharerumu",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 1899; N 66A/28; 18.9.31 → Miraka or Ropaina Natana Wharerumu (Mrs Karaka Rutene) f 1/2, Rapi Natana Wharerumu m 1/2"
+   },
+   {
+    "name": "Ira Heremaia",
+    "role": "Other",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "gift to Huria Hotene te Wake (HK 12/346)"
+   },
+   {
+    "name": "Paketo Piri Mete",
+    "role": "Other",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "gift to Hotene te Wake (HK 12/268)"
+   },
+   {
+    "name": "Mane Takinui Tahana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1927; HK 10A/206; 13.8.40 → Ngawini, Totina, Menehia Takinui Tahana 1/3"
+   },
+   {
+    "name": "Matire Pirini Ritete or Ripine Pirini Ritete",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 10A/228; 13.8.40 → Wharemate, Paraihe, Wiremu, Pio Pirini 1/5; Ngawini, Totina, Menehia Takinui Tahana 1/15"
+   },
+   {
+    "name": "Huihana Haimona, Hare Haimona, Rewi Parekura Haimona",
+    "role": "Vendor / transferor",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange order HK 21/93, 29.9.47: their 8½ shares → Puhirere Wharewaka 3/14 and Mataki, Merita, Huria, Rena, Perepeti Hone Wharewaka 1 16/35 each"
+   },
+   {
+    "name": "Puhirere Wharewaka",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "2.215",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "exchange orders 29.9.47 (HK 21/93, 21/94: also Rapi Natana Wharerumu's 1 share) — 2.215 by 1959; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Raiha Hone te Ihi alias Raiha Kanara Topia",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/277; d. 3.11.45; 10.12.53 → Maria Hone te Ihi f.a. solely 5"
+   },
+   {
+    "name": "Hata Toone Tipene @ Toone Tipene",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/363; d. 3.7.35; 22.3.54 → Tatiana Toone Tipene f"
+   },
+   {
+    "name": "Erina Heta or Erina Heta Rawiri",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "K 29/57; d. 21.12.46; 1.6.55 → Kararaina Heta Rawiri (Mrs Rapata Paiha)"
+   },
+   {
+    "name": "Hotene te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 28/169; d. 15.5.38; 19.9.57 → Huria Hotene te Wake f.d.(?) solely 4"
+   },
+   {
+    "name": "Wiremu Ratana senior",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 28/172; d. 7.12.56; 19.9.57 → Elizabeth Wiremu Ratana (Mrs Adams) 1/2 and Lottie alias Harata Wiremu Ratana (Mrs Martin Matiu) 1/2 — see D026"
+   },
+   {
+    "name": "Elizabeth Wiremu Ratana @ Mrs Adams",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2 (3.500), 19.9.57 — a Ratana woman married to an Adams; see D026"
+   },
+   {
+    "name": "Lottie or Harata Wiremu Ratana @ Mrs Martin Matiu",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2 (3.500), 19.9.57; d. → Cynthia Arline Harris (1982)"
+   },
+   {
+    "name": "Wharemate Pirini",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 28/265; 18.2.58 → Tamaho Wharemate Pirini"
+   },
+   {
+    "name": "Totina Takinui Tahana",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 29/90; 28.1.59 → Ngawini Takinui Tahana (Mrs Parkinson) solely"
+   }
+  ],
+  "notes": "WHĀNAU-LINKED. Hone Wharewaka (T156) is trustee in 1931 for five children of 'Riki Hone Wharewaka alias Riki Ratana' (d. 1923) — Mataki, Merita, Rena, Huria, Perepeti — who came of age 1936–41, so born c. 1915–20. Ria Hone Wharewaka's (T024) children were born c. 1925–31. The two sets of 'Hone Wharewaka' children fit one father with two wives in succession: Riki (d. 1923), then Ria, Peri Paraihe's daughter. This strengthens the T156 inference. The 'Hotene te Wake of Pawarenga' trustee entries place this block in the Pawarenga world of the whānau. 'Elizabeth Wiremu Ratana @ Mrs Adams' added to D026."
+ },
+ {
+  "document_id": "PW-1537547",
+  "doc_no": "1537547",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Paihia",
+  "title": "Hokianga Consolidation Scheme — ledger sheets for Paihia No 1D12 (P/O 22 Jan 1912; 105a 1r 10p; plan 11419; 110 shares; distribution value £469): 23 original owners and successors nos 24–80 to 1958 — 4 pages",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1912-01-22",
+  "effective_date": "1958",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga Consolidation Scheme",
+  "judge": "",
+  "minute_book": "HK 10/186; HK 10A/206, 228; HK 19/271; HK 21/93-94; HK 25/277, 363; K 28/57; HK 28/169, 172, 265",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "01037973_01537547_0001_0004_LHO_Document-1537547.pdf",
+  "drive_id": "1mniZmjVWLYClCrrBzno4eby8TElsv4zE",
+  "file_size": "1003598",
+  "url": "https://drive.google.com/file/d/1mniZmjVWLYClCrrBzno4eby8TElsv4zE/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Hokianga Consolidation Scheme sheets, 'not registered': Paihia No 1D12, P/O 22.1.12, area 105a 1r 10p (plan 11419), U.V. £260, improvements £350 (dwelling £100), capital value £610, less rates and survey charges — distribution value £469; 110 shares. Sheet 1: 23 original owners (Erina Heta 2, Hekiera Tamaho 20, Heta Tipene, Hone Heremia te Wake, Henare Rewa, Hare Pura, Hone Paparau, Ira Heremaia, Mange Tamahio, Natana Wharerumu, Paketo Piri Mete 2 each, Ratana Tamaho 23½, Raiha Hone te Ihi 3, Rirena Hotene 7, Raiha Kanara Topia 2, Rapata Tamati, Tukapongia Moihi, Te Hau te Wake 2, Te Paea Haumate 5, Wharemate Tamaho 3½, Wiremu Ratana snr 7, Wharemate Hotene 7, Wiremu Ratana jnr 6). Sheets 2–4: successors 24–80 — Makarena Haimona and Riki Hone Wharewaka; the three Haimona (tr. Hira Eri Keropa); Huria and Kararaina Hotene (tr. Hotene te Wake); the five Pirini Ritete and Takinui Tahana; Mataki, Merita, Rena, Huria, Perepeti Hone Wharewaka (tr. Hone Wharewaka; HK 10/186); Miraka or Ropaina Natana Wharerumu (Mrs Karaka Rutene) and Rapi Natana Wharerumu; Hotene te Wake and Huria Hotene te Wake by gift; the 1947 exchanges to Puhirere Wharewaka and the Hone Wharewaka children; Maria Hone te Ihi 5 (counterpart Panguru A36); the consolidation exchange of 1942 (Maata Wiremu Rurawhe 17¾, Huria Hotene 11); Tatiana Toone Tipene; Kararaina Heta Rawiri; Huria Hotene te Wake 4; Elizabeth and Lottie (Harata) Wiremu Ratana 3½ each; Tamaho Wharemate Pirini. Paihia 1D12 is not in the 2017 block index; pinned to Paihia 1D9A, the nearest parcel of the 1D series.",
+  "names": [
+   {
+    "name": "Erina Heta",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Hekiera Tamaho",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "20",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Heta Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Hone Heremia te Wake",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Henare Rewa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Hare Pura",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Hone Paparau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Ira Heremaia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Mange Tamahio",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Natana Wharerumu",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Paketo Piri Mete",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Ratana Tamaho",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "23½",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Raiha Hone te Ihi",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Rirena Hotene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Raiha Kanara Topia",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Rapata Tamati",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Tukapongia Moihi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Te Hau te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Te Paea Haumate",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Wharemate Tamaho",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3½",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Wiremu Ratana (senior)",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Wharemate Hotene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "7",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Wiremu Ratana junior",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "6",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; original owner, P/O 22.1.12"
+   },
+   {
+    "name": "Mataki Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T157",
+    "confidence": "stated",
+    "note": "nos 43, 63: ½ then 1 16/35 (1947); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Merita Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T158",
+    "confidence": "stated",
+    "note": "nos 44, 64 (1936); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Rena Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T159",
+    "confidence": "stated",
+    "note": "nos 45, 66 (1937); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Huria Hone Wharewaka",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T160",
+    "confidence": "stated",
+    "note": "nos 46, 65 (1939); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Perepeti Hone Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T161",
+    "confidence": "stated",
+    "note": "nos 47, 67 (1941); trustee Hone Wharewaka; the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Puhirere Wharewaka",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 62, 68: 1¾ and 1 by the 1947 exchanges (HK 21/93-94); the Hone Wharewaka family — see T156"
+   },
+   {
+    "name": "Hone Wharewaka",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee for nos 43–47 (HK 10/186) — T156"
+   }
+  ],
+  "notes": "The ledger behind doc 1488209; Wharewaka entries attributed there."
  },
  {
   "document_id": "PW-1445102",
