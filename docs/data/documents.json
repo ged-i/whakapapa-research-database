@@ -5405,6 +5405,159 @@
   "notes": "The ledger behind doc 1488209; Wharewaka entries attributed there."
  },
  {
+  "document_id": "PW-1597954",
+  "doc_no": "1597954",
+  "type": "MIN",
+  "type_label": "Minute book",
+  "folder": "Paihia",
+  "title": "Minute-book page 172 (blank page with a marginal accounts note): 'B.C. 5379 Wiremu Ratana Snr' — rents from Mutukaroa(?) B2/2A, 1948 and 1956; 'Est. Wiremu Ratana'; 'succn to Kereihi(?) Ratana — not same — Pere Ratana'",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1956",
+  "effective_date": "",
+  "court": "Maori Land Court, Tokerau",
+  "judge": "",
+  "minute_book": "HK 28/172 (page)",
+  "pages": 1,
+  "page_range": "172–172",
+  "file_name": "01073368_01597954_0172_0172_MIN_Document-1597954.pdf",
+  "drive_id": "",
+  "file_size": "58757",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "The minute page supplied as HK 28/172 is blank except for a pencilled accounts note in the lower margin (the minute text itself is not on this image): 'B.C. 5379 Wiremu Ratana Snr — from Mutukaroa(?) B2/2A 6/11/56 £8; do 14/9/48 6.0.5 — 14.0.5; Est. Wiremu Ratana 1.7.11; X Succn to Kereihi(?) Ratana — not same — [?] 80/163 2.10.3; Pere Ratana 17.19.7'. Readings uncertain.",
+  "names": [
+   {
+    "name": "Wiremu Ratana Snr",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Maori Trustee account B.C. 5379"
+   },
+   {
+    "name": "Pere Ratana",
+    "role": "Mentioned",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "'not same'"
+   }
+  ],
+  "notes": "The clerk's 'not same' separates Wiremu Ratana Snr's estate from another Ratana (Pere Ratana). The minute of the 19 Sep 1957 hearing — the evidence of his children — is still to be found (probably the facing page or the next page of HK 28)."
+ },
+ {
+  "document_id": "PW-1301211",
+  "doc_no": "1301211",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Paihia",
+  "title": "Order vesting the interest of Wiremu Ratana of Mititai (d. 26 Dec 1954), intestate, in European land (Section 1, Block 1, Hokianga S.D., 3 acres, CT 833/62) in Ema Wiremu Ratana (Mrs Harrison) solely — Panguru, 19 Sep 1957; sent for registration 22 Feb 1978 — 2 pages",
+  "blocks_recorded": [
+   "Section 1 Block 1 Hokianga S.D. (European land)"
+  ],
+  "block_ids": [
+   "31071"
+  ],
+  "record_date": "1957-09-19",
+  "effective_date": "1954-12-26",
+  "court": "Maori Land Court, Tokerau (sitting at Panguru), Commissioner Maurice Vincent Bell",
+  "judge": "Maurice Vincent Bell (Commissioner)",
+  "minute_book": "HK 28/172",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00804313_01301211_0001_0002_ORD_Document-1301211.pdf",
+  "drive_id": "",
+  "file_size": "188313",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Order vesting the interest of a deceased intestate in European land when letters of administration not granted, s.145(4) Maori Affairs Act 1953: Tokerau district, in the matter of Wiremu Ratana deceased; at Panguru, 19 September 1957, Maurice Vincent Bell, Commissioner; on the application of Ema Wiremu Ratana f. (Mrs Harrison) of Mititai, it was shown that Wiremu Ratana of Mititai, deceased, a Maori, was sole owner in fee simple of 3 acres being Section 1, Block 1, Hokianga Survey District, CT 833/62, and died intestate on or about 26 December 1954; value under £200; vested in Ema Wiremu Ratana f., solely, Mrs Harrison, Mititai. Sent to D.L.R. for registration 22.2.78. Pinned to Pakinga B2C (the parcel is general land, not in the Māori block index).",
+  "names": [
+   {
+    "name": "Wiremu Ratana",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Mititai; d. intestate on or about 26 Dec 1954"
+   },
+   {
+    "name": "Ema Wiremu Ratana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "solely; applicant; Mrs Harrison, of Mititai"
+   }
+  ],
+  "notes": " Settles the question whether Wiremu Ratana = Wiremu Tangata (T006): he does not — Wiremu Ratana Tamaho I of Mititai died 26 Dec 1954 leaving daughters Elizabeth (Mrs Adams), Lottie/Harata (Mrs Martin Matiu) and Ema (Mrs Harrison); Wiremu Tangata died at Ōmaunu 13 Feb 1927 leaving Ani, Peti and Mate."
+ },
+ {
+  "document_id": "PW-1396552",
+  "doc_no": "1396552",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Paihia",
+  "title": "Order vesting the interest of Wiremu Ratana I alias Wiremu Ratana Tamaho I (d. 24 Dec 1954) in Pakinga B2C in Ema Wiremu Ratana (Mrs Harrison, of Mititai) solely — Panguru, 19 Sep 1957 (HK 28/172)",
+  "blocks_recorded": [
+   "Pakinga B2C"
+  ],
+  "block_ids": [
+   "31071"
+  ],
+  "record_date": "1957-09-19",
+  "effective_date": "1954-12-24",
+  "court": "Maori Land Court, Tokerau (sitting at Panguru), Commissioner Maurice Vincent Bell",
+  "judge": "Maurice Vincent Bell (Commissioner)",
+  "minute_book": "HK 28/172",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00896981_01396552_0001_0001_ORD_Document-1396552.pdf",
+  "drive_id": "",
+  "file_size": "261832",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Order vesting interest of deceased in successors upon intestacy, Part XII Maori Affairs Act 1953 (HK/265): Pakinga B2C block, interest of Wiremu Ratana I alias Wiremu Ratana Tamaho I deceased; at Panguru, 19 September 1957, Maurice Vincent Bell, Commissioner — vested in Ema Wiremu Ratana f, Mrs Harrison, of Mititai, as from 24 December 1954 (typed '24th'; the Paihia order and the European-land order give 26 Dec); value under £1000.",
+  "names": [
+   {
+    "name": "Wiremu Ratana I alias Wiremu Ratana Tamaho I",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 24/26 Dec 1954"
+   },
+   {
+    "name": "Ema Wiremu Ratana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole; 'Mrs Harrison', of Mititai"
+   }
+  ],
+  "notes": "Same man and same sitting as the Paihia 1D12 order (doc 1445525): the alias 'Wiremu Ratana Tamaho I' ties him to the Tamaho family of Paihia 1D12 (Ratana Tamaho, Hekiera Tamaho, Wharemate Tamaho). His lands were divided among three daughters block by block — Paihia 1D12 to Elizabeth and Lottie, Pakinga B2C and the Hokianga European land to Ema — a whānau arrangement like the 1980–81 Arama one. Settles the question whether Wiremu Ratana = Wiremu Tangata (T006): he does not — Wiremu Ratana Tamaho I of Mititai died 26 Dec 1954 leaving daughters Elizabeth (Mrs Adams), Lottie/Harata (Mrs Martin Matiu) and Ema (Mrs Harrison); Wiremu Tangata died at Ōmaunu 13 Feb 1927 leaving Ani, Peti and Mate."
+ },
+ {
   "document_id": "PW-1445102",
   "doc_no": "1445102",
   "type": "ORD",
@@ -5484,6 +5637,67 @@
    }
   ],
   "notes": "Same sitting (Opononi, 3–4 May 1910, Judge Gilfedder) as the Whakakoro F order for Piri Korotu (doc 1517226)."
+ },
+ {
+  "document_id": "PW-1445525",
+  "doc_no": "1445525",
+  "type": "ORD",
+  "type_label": "Court order",
+  "folder": "Paihia",
+  "title": "Order vesting the interest of Wiremu Ratana Snr (d. 26 Dec 1954) in Paihia 1D12 in Elizabeth Wiremu Ratana (Mrs Adams, of Ōtāhuhu) and Lottie alias Harata Wiremu Ratana (Mrs Martin Matiu, of Mititai), 1/2 each — Panguru, 19 Sep 1957 (HK 28/172)",
+  "blocks_recorded": [
+   "Paihia 1D12"
+  ],
+  "block_ids": [
+   "31080"
+  ],
+  "record_date": "1957-09-19",
+  "effective_date": "1954-12-26",
+  "court": "Maori Land Court, Tokerau (sitting at Panguru), Commissioner Maurice Vincent Bell",
+  "judge": "Maurice Vincent Bell (Commissioner)",
+  "minute_book": "HK 28/172",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00945952_01445525_0001_0001_ORD_Document-1445525.pdf",
+  "drive_id": "",
+  "file_size": "231716",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Order vesting interest of deceased in successors upon intestacy, Part XII Maori Affairs Act 1953 (HK 420): Paihia 1D12 block, interest of Wiremu Ratana Snr deceased; at Panguru, 19 September 1957, before Maurice Vincent Bell, Commissioner — vested in Elizabeth Wiremu Ratana f 1/2, Mrs Adams, of Ōtāhuhu, and Lottie alias Harata Wiremu Ratana f 1/2, Mrs Martin Matiu, Mititai, as from 26 December 1954; value under £1000; fee 10/-. Paihia 1D12 pinned to Paihia 1D9A.",
+  "names": [
+   {
+    "name": "Wiremu Ratana Snr",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 26 Dec 1954 (date of vesting)"
+   },
+   {
+    "name": "Elizabeth Wiremu Ratana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2; 'Mrs Adams', of Ōtāhuhu — married to an Adams; D026"
+   },
+   {
+    "name": "Lottie alias Harata Wiremu Ratana",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2; 'Mrs Martin Matiu', of Mititai"
+   }
+  ],
+  "notes": "D026. Settles the question whether Wiremu Ratana = Wiremu Tangata (T006): he does not — Wiremu Ratana Tamaho I of Mititai died 26 Dec 1954 leaving daughters Elizabeth (Mrs Adams), Lottie/Harata (Mrs Martin Matiu) and Ema (Mrs Harrison); Wiremu Tangata died at Ōmaunu 13 Feb 1927 leaving Ani, Peti and Mate."
  },
  {
   "document_id": "PW-1492723",
