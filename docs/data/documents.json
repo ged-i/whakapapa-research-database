@@ -102507,5 +102507,5001 @@
    }
   ],
   "notes": "The consolidation-scheme ledger of the block; its numbering is carried on by the schedule of ownership orders (doc 1491598). No tupuna of the whānau."
+ },
+ {
+  "document_id": "PW-1282169",
+  "doc_no": "1282169",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A5 — 8.4098 ha, 120.000 shares: Wiremu Kanara Topia sole owner (1941); to twelve children, 10.000 each, 4 May 1970 (KH 6/84-5)",
+  "blocks_recorded": [
+   "Panguru A5"
+  ],
+  "block_ids": [
+   "30846"
+  ],
+  "record_date": "1941-09-19",
+  "effective_date": "1970-05-04",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "KH 6/84-85",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00790539_01282169_0001_0001_LHO_Document-1282169.pdf",
+  "drive_id": "1HwDtOCZAR95qXAi8IljPT-i1y_vnb_F-",
+  "file_size": "255488",
+  "url": "https://drive.google.com/file/d/1HwDtOCZAR95qXAi8IljPT-i1y_vnb_F-/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A5 (8.4098 ha; 120.000): list of owners as at 19.9.41 — 1 Wiremu Kanara Topia M sole. Wiremu Kanara Topia (list 1, 120.000; KH 6/84-5), S.V.O. 4.5.70 → 2 Thomas Ambrose Topia m.a., 3 Margret Jackson f.a., 4 Christopher Joseph Topia m.a., 5 Wiremu Kanara m.a., 6 Clement Joseph Topia m.a., 7 Ada Murray f.a., 8 George Kanara Topia m.a., 9 Frances Patricia White f.a., 10 Moira Kanara Topia f.a., 11 Theresa Adams f.a., 12 Frank Kanara Topia m.a., 13 Margret Dorothy Clarke f.a. — 10.000 each.",
+  "names": [
+   {
+    "name": "Wiremu Kanara Topia",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "120.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 120.000; sole owner 1941; KH 6/84-5; S.V.O. 4.5.70 → twelve children"
+   },
+   {
+    "name": "Thomas Ambrose Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; 10.000, 4.5.70"
+   },
+   {
+    "name": "Margret Jackson",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 10.000, 4.5.70"
+   },
+   {
+    "name": "Christopher Joseph Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 10.000, 4.5.70"
+   },
+   {
+    "name": "Wiremu Kanara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 10.000, 4.5.70"
+   },
+   {
+    "name": "Clement Joseph Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 10.000, 4.5.70"
+   },
+   {
+    "name": "Ada Murray",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; 10.000, 4.5.70"
+   },
+   {
+    "name": "George Kanara Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; 10.000, 4.5.70"
+   },
+   {
+    "name": "Frances Patricia White",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; 10.000, 4.5.70"
+   },
+   {
+    "name": "Moira Kanara Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; 10.000, 4.5.70"
+   },
+   {
+    "name": "Theresa Adams",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; 10.000, 4.5.70; see D026"
+   },
+   {
+    "name": "Frank Kanara Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; 10.000, 4.5.70"
+   },
+   {
+    "name": "Margret Dorothy Clarke",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; 10.000, 4.5.70"
+   }
+  ],
+  "notes": "'Theresa Adams' (no. 11), a daughter of Wiremu Kanara Topia, alive 1970 — D026: possibly the wife of Taitimu (Tim) Adams (T107), whose daughter was Annie Theresa Waipouri."
+ },
+ {
+  "document_id": "PW-1282171",
+  "doc_no": "1282171",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A6 — 24:1:00 (9.8136 ha), 145.000 shares: Hohepa Kanara Topia 59.630 and Tamati Kanara Topia 85.370 (1952); Tamati Kanara Topia's 85.370 to twelve children, 30 Jan 1996 (5 AT(S) 34) — 2 pages",
+  "blocks_recorded": [
+   "Panguru A6"
+  ],
+  "block_ids": [
+   "30825"
+  ],
+  "record_date": "1952-05-16",
+  "effective_date": "1996-01-30",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "5 AT(S) 34",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00790541_01282171_0001_0002_LHO_Document-1282171.pdf",
+  "drive_id": "11Oag7q-yBwG9w1jYsB7ZJVz9fpKMJUEm",
+  "file_size": "468055",
+  "url": "https://drive.google.com/file/d/11Oag7q-yBwG9w1jYsB7ZJVz9fpKMJUEm/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A6 (24:1:00; 9.8136 ha; 145.000): list of owners as at 16.5.52 — 1 Hohepa Kanara Topia M 59.630, 2 Tamati Kanara Topia M 85.370. Memorial schedule: Tamati Kanara Topia (list 2, 85.370; 5 AT(S) 34; ss 113 & 118/93, 30.1.1996) → 3 Sophie Tamati Paul f.a., 4 Walter Tamati Topia m.a., 5 Monica Tamati Paparoa f.a., 6 Mary Tamati Ford f.a., 7 Victoria Tamati Topia f.a., 8 Margaret Tamati Martin f.a., 9 David Tamati Topia m.a., 10 Topia Tamati Topia m.a., 11 Neta Tamati Topia f.a., 12 Manuel Tamati Topia m.a., 13 Minnie Tamati Tainui f.a., 14 Manuka Tamati Topia m.a. — 1/12, 7.114/7.115 each.",
+  "names": [
+   {
+    "name": "Hohepa Kanara Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "59.630",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; 1952"
+   },
+   {
+    "name": "Tamati Kanara Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "85.370",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; 1952; deceased → 30.1.96 twelve children"
+   },
+   {
+    "name": "Sophie Tamati Paul",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Walter Tamati Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Monica Tamati Paparoa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Mary Tamati Ford",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Victoria Tamati Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Margaret Tamati Martin",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "David Tamati Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Topia Tamati Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Neta Tamati Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Manuel Tamati Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Minnie Tamati Tainui",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; 1/12 of Tamati Kanara Topia, 30.1.96"
+   },
+   {
+    "name": "Manuka Tamati Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "7.114",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; 1/12 of Tamati Kanara Topia, 30.1.96"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1282358",
+  "doc_no": "1282358",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B2 — schedule of ownership orders: list of 4 owners as at 14 Oct 1960 (15.1757 ha, 105.000 shares) and the orders of 1973–1998 (Maata Eru Paparoa or Maata Wiremu Hoani to seven, the Hoani and Moka successions, the Maxwell and Moka whānau trusts) — 4 pages",
+  "blocks_recorded": [
+   "Panguru B2"
+  ],
+  "block_ids": [
+   "31340"
+  ],
+  "record_date": "1960-10-14",
+  "effective_date": "1998-05-27",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "ATS 1/96; AT 16/119, 16/137, 16/216-7; 6 RGTO 241-242; 1 KH(S) 271; 23 KH 289-290; 25 AT 165-167",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "00790728_01282358_0001_0004_LHO_Document-1282358.pdf",
+  "drive_id": "125DaIL7HEpwI2eVYzBjhfLt6iQaRS9Ot",
+  "file_size": "921701",
+  "url": "https://drive.google.com/file/d/125DaIL7HEpwI2eVYzBjhfLt6iQaRS9Ot/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru B2 (37:2:00; 15.1757 ha; 105.000). List as at 14.10.60: 1 Hariata Wiremu Hoani f 23.650; 2 Maata Eru Paparoa f 60.200; 3 Margaret Moka f 14.932; 4 Sarah Hoani f 6.218. Maata Eru Paparoa @ Maata Wiremu Hoani (list 2, 60.200; ATS 1/96), S.V.O. 7.8.73 → 5 Kahiti Hoani m, 6 Witaka Hoani m, 7 Rirena Maxwell f, 8 Maria Haere f, 9 Ripeka Moka f, 10 Makarita Moka f, 11 Helen Hoani f — 1/7, 8.600 each. Wiremu Witaka Hoani or Wiremu Hoani or Witaka Hoani (list 6; AT 16/119, s.78A, 17.9.84) → thirteen Moka, Maxwell, Kohunui, Hoani, Clark and Heeke; Sarah Hoani (list 4; AT 16/137, 17.9.84) → the same thirteen; Harriet Panihau or Harriet Hoani or Hariata Wiremu Hoani (list 1, 23.650; AT 16/216-7, s.136, 5.12.84) → twelve; Ripeka or Rebecca Moka (6 RGTO 241-242, 26.6.89) → Alfred Moka and Georgina Charles; Rirena or Te Pene Maxwell (list 7, 8.600; 1 KH(S) 271, 6.9.85) → Pauline Cooper, James, William, Reuben, David Maxwell, Jane Kohunui 1.433/1.434; the Reuben and Sarah Maxwell Whānau Trust (1995) and the Makarita Hoani Moka Whānau Trust (1998, 29.945).",
+  "names": [
+   {
+    "name": "Hariata Wiremu Hoani",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "23.650",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list as at 14.10.60"
+   },
+   {
+    "name": "Maata Eru Paparoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "60.200",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list as at 14.10.60"
+   },
+   {
+    "name": "Margaret Moka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "14.932",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list as at 14.10.60"
+   },
+   {
+    "name": "Sarah Hoani",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "6.218",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list as at 14.10.60"
+   },
+   {
+    "name": "Maata Eru Paparoa @ Maata Wiremu Hoani",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "60.200",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 60.200; ATS 1/96; S.V.O. 7.8.73 → Kahiti Hoani, Witaka Hoani, Rirena Maxwell, Maria Haere, Ripeka Moka, Makarita Moka, Helen Hoani, 8.600 each"
+   },
+   {
+    "name": "Rirena Maxwell",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "8.600",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; 8.600 from her mother Maata Eru Paparoa, 7.8.73; d. → 1 KH(S) 271, 6.9.85, six successors"
+   }
+  ],
+  "notes": "Shows 'Rirena Maxwell' as a daughter of Maata Eru Paparoa / Maata Wiremu Hoani — not Rirena Arama."
+ },
+ {
+  "document_id": "PW-1282360",
+  "doc_no": "1282360",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B3 — schedule of ownership orders: list of 3 owners as at 21 May 1952 (15.3780 ha, 110.000 shares) and the orders of 1973–1995 (Te Kopa Eru Paparoa to eighteen; Tuwhawhakia Hohepa Paparoa, Joseph Paparoa, Rirena Maxwell, Maisie Clark Pancho, Ritihia Hohepa Paparoa or Lydia Cecil; the Maxwell whānau trust) — 4 pages",
+  "blocks_recorded": [
+   "Panguru B3"
+  ],
+  "block_ids": [
+   "30910"
+  ],
+  "record_date": "1952-05-21",
+  "effective_date": "1995-11-06",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "ATS 1/180; AT 6/100; TS 1/510(?); 1 KH(S) 271, 373; 3 AT(S) 79-80; 23 KH 289-290",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "00790730_01282360_0001_0004_LHO_Document-1282360.pdf",
+  "drive_id": "1c2kBV8Xm48mu74M6mu6x9AJ-iQYu3wfs",
+  "file_size": "915479",
+  "url": "https://drive.google.com/file/d/1c2kBV8Xm48mu74M6mu6x9AJ-iQYu3wfs/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru B3 (38:0:00; 15.3780 ha; 110.000). List as at 21.5.52: 1 Te Kopa Eru Paparoa m 35.250; 2 Maisie Clarke f 28.920; 3 Ngawaiata Eru Paparoa f 45.830. Te Kopa Eru Paparoa (list 1, 35.250; ATS 1/180), S.V.O. 20.11.73 → 4–21: Tuwhawhakia Hohepa Paparoa, Tipene, Poutama, Kereta, Ritihia and Edith Hohepa Paparoa .839 each; Paikea, Wiremu and Taitimu Nikora Paparoa 1.678; Matire Paparoa Young 5.035; Harriet Pene, Ngawaiata Raniki Paparoa, Hokimate Pukeroa or Raniki, Hohepa Raniki 1.259; Maisie Richards 5.035; Maria Hoani, Te Pene Maxwell 2.519; Ngawaiata Eru Paparoa 5.035. Tuwhawhakia Hohepa Paparoa (list 4; AT 6/100), 1974 → six Paparoa 0.140; Joseph Paparoa (1987) → four; Rirena or Te Pene Maxwell (list 20, 2.519; 1 KH(S) 271, 6.9.85) → Pauline Cooper, James, William, Reuben, David Maxwell, Janie Kohunui 0.419/0.420; May Caroline Clark Pancho or Maisie Clark (list 18, 33.955; 1 KH(S) 373, 12.12.89) → nine Pancho/Newton 3.395/3.396 and three Lewis 1.132; Ritihia Hohepa Paparoa or Lydia Cecil (3 AT(S) 79-80, 10.7.91) → Doreen Gay Pickering, Rosemary Audrey Walker; Reuben Maxwell → the Reuben and Sarah Maxwell Whānau Trust (1995).",
+  "names": [
+   {
+    "name": "Te Kopa Eru Paparoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "35.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list as at 21.5.52"
+   },
+   {
+    "name": "Maisie Clarke",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "28.920",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list as at 21.5.52"
+   },
+   {
+    "name": "Ngawaiata Eru Paparoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "45.830",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list as at 21.5.52"
+   },
+   {
+    "name": "Te Kopa Eru Paparoa",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "35.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 35.250; ATS 1/180; S.V.O. 20.11.73 → eighteen (nos 4–21)"
+   },
+   {
+    "name": "Rirena Maxwell or Te Pene Maxwell",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.519",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 20, 2.519; 1 KH(S) 271; 6.9.85 → the six Maxwell / Cooper / Kohunui — a Paparoa; name-echo only of Rirena Arama"
+   },
+   {
+    "name": "May Caroline Clark Pancho or Maisie Clark",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "33.955",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 18, 33.955; 1 KH(S) 373; 12.12.89 → twelve"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1282366",
+  "doc_no": "1282366",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B5 — schedule of ownership orders: list of 9 owners as at 14 Oct 1960 (2.8327 ha, 40.000 shares) and the orders of 1962–1998 (the Eru Paparoa successions, Rirena Maxwell, Sarah Hoani, Maisie Clark Pancho, the Maxwell and Moka whānau trusts) — 5 pages",
+  "blocks_recorded": [
+   "Panguru B5"
+  ],
+  "block_ids": [
+   "31342"
+  ],
+  "record_date": "1960-10-14",
+  "effective_date": "1998-05-27",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "HK 30/315; ATS 1/2, 1/50, 1/96; AT 16/137; 1 KH(S) 271, 373; 6 RGTO 241-242; 23 KH 289-290; 25 AT 165-167",
+  "pages": 5,
+  "page_range": "",
+  "file_name": "00790736_01282366_0001_0005_LHO_Document-1282366.pdf",
+  "drive_id": "1jhF89eG_pcIOfMlE72o0hwvRBNzdyOZD",
+  "file_size": "1130031",
+  "url": "https://drive.google.com/file/d/1jhF89eG_pcIOfMlE72o0hwvRBNzdyOZD/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru B5 (7:0:00; 2.8327 ha; 40.000). List of owners as at 14.10.60: 1 Ani Eru Paparoa f 5.250; 2 Te Ropa Eru Paparoa m 5.250; 3 Maata Eru Paparoa f 4.000; 4 Maisie Clarke f 4.000; 5 Ngawaiata Eru Paparoa f 6.500; 6 Sarah Hoani f 2.500; 7 Ratana Eru Paparoa m 3.250; 8 Tipene Hohepa Paparoa m 3.500; 9 Wiremu Nikora Paparoa m 5.250. Orders: Ratana Eru Paparoa → Matire Paparoa Young (1962); Ani Eru Paparoa → the Henry, Rikirangi, Pene, Harris and Russell children (1973); Te Ropa Eru Paparoa → Matire Paparoa Young (1973); Maata Eru Paparoa → Rirena Maxwell (1973); Sarah Hoani → thirteen Moka, Maxwell, Kohunui, Hoani, Clark and Heeke (1984); Rirena or Te Pene Maxwell → six (1985); Rebecca Moka → Alfred Moka and Georgina Charles (1989); May Caroline Clark Pancho or Maisie Clark → nine Pancho and Newton and three Lewis (1989); the Reuben and Sarah Maxwell Whānau Trust (1995) and the Makarita Hoani Moka Whānau Trust (1998).",
+  "names": [
+   {
+    "name": "Ani Eru Paparoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "5.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; list of owners as at 14.10.60; struck → 11–16 (1973)"
+   },
+   {
+    "name": "Te Ropa Eru Paparoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; list of owners as at 14.10.60; struck → 18 (1973)"
+   },
+   {
+    "name": "Maata Eru Paparoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; list of owners as at 14.10.60; struck → 17 (1973)"
+   },
+   {
+    "name": "Maisie Clarke",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; list of owners as at 14.10.60; struck → 41–52 (1989)"
+   },
+   {
+    "name": "Ngawaiata Eru Paparoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "6.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; list of owners as at 14.10.60"
+   },
+   {
+    "name": "Sarah Hoani",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; list of owners as at 14.10.60; struck → 19–31 (1984)"
+   },
+   {
+    "name": "Ratana Eru Paparoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; list of owners as at 14.10.60; struck → 10 (1962)"
+   },
+   {
+    "name": "Tipene Hohepa Paparoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; list of owners as at 14.10.60"
+   },
+   {
+    "name": "Wiremu Nikora Paparoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "5.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; list of owners as at 14.10.60"
+   },
+   {
+    "name": "Ratana Eru Paparoa",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "3.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 7, 3.250; HK 30/315; S.V.O. 9.7.62 → 10 Matire Paparoa Young f.a. sole; + Te Ropa Eru Paparoa's 5.250 (ATS 1/50, S.V.O. 30.11.73) = 18 (8.500)"
+   },
+   {
+    "name": "Matire Paparoa Young",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "8.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 10 and 18; 8.500"
+   },
+   {
+    "name": "Ani Eru Paparoa",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "5.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 5.250; ATS 1/2; S.V.O. 21.5.73 → 11 Joe Henry (Hohepa Henare), 12 Dave Henry (Dave Rawiri), 13 Ramana Rikirangi (Mrs Pirata), 14 Hariata Pene 1/5 (1.050 each); 15 Dave Harris, 16 Maraea Russell 1/10 (.525)"
+   },
+   {
+    "name": "Maata Eru Paparoa or Maata Wiremu Hoani",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 3, 4.000; ATS 1/96; s.213/53, 2.8.73 → 17 Rirena Maxwell f sole 4.000"
+   },
+   {
+    "name": "Rirena Maxwell or Te Pene Maxwell",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; 4.000 from Maata Eru Paparoa (her mother — see Panguru B2), 2.8.73; deceased → 1 KH(S) 271, s.78A/67, 6.9.85 → 35 Pauline Cooper, 36 James, 37 William, 38 Reuben, 39 David Maxwell, 40 Janie Kohunui, 0.666/0.667 each — a Paparoa by birth, no connection to Rirena Arama (T901)"
+   },
+   {
+    "name": "Sarah Hoani",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6, 2.500; AT 16/137; s.78A, 17.9.84 → 19 Makarita Moka, 20 Rebecca (Ripeka) Moka 1/6 (0.417); 21–26 Pauline Maxwell, Janie Kohunui, James, William, Reuben, David Maxwell 1/36 (0.062/0.063); 27 Helen Hoani, 28 Ruby Clark, 29 Richard Hoani, 30 Roma Hoani 1/12 (0.219); 31 Marama Heeke (Mrs Samson) 1/6 (0.417)"
+   },
+   {
+    "name": "Rebecca or Ripeka Moka",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "0.417",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 20, 0.417; 6 RGTO 241-242; s.81/67 & 81A/67, 26.6.89 → Robert Bass and Hatter Bernard Mahon as executors → 33 Alfred Moka 0.208, 34 Georgina Charles 0.209"
+   },
+   {
+    "name": "May Caroline Clark Pancho or Maisie Clark",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 4, 4.000; 1 KH(S) 373; s.78A/67 & 34(10)/53, 12.12.89 → 41 Gail Newton, 42 Reuben Wayne Pancho, 43 Graham Edward Pancho, 44 William Walton Pancho, 45 Carolyn May Pancho, 46 Sharon Pancho, 47 Stephen Arthur Edward Clark Pancho, 48 Jack Maihi Pancho, 49 Nigel Pancho 0.45 each; 50 Gail Tania Lewis, 51 Cherie Janine Lewis, 52 Lee Anne Alicia Lewis 0.15 each"
+   },
+   {
+    "name": "Reuben Maxwell",
+    "role": "Vendor / transferor",
+    "sex": "m",
+    "age": "",
+    "shares": "0.729",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 38, 0.729; 23 KH 289-290; s.214/93, 6.11.95 → 53 Reuben and Sarah Maxwell Whānau Trust (trustees John, Rebecca, Agnes and Reuben Maxwell)"
+   },
+   {
+    "name": "Makarita Moka",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "0.417",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 19, 0.417; 25 AT 165-167; s.214/93, 27.5.98 → 54 Makarita Hoani Moka Whānau Trust (trustees William Moka, George Moka, John Tait, Nita Tait, Martha McCormack, Makarita Moka, Edward Moka)"
+   }
+  ],
+  "notes": "'Rirena Maxwell or Te Pene Maxwell' is a daughter of Maata Eru Paparoa (Panguru B2, doc 1282358) — a name-echo only of Rirena Arama (T901)."
+ },
+ {
+  "document_id": "PW-1282369",
+  "doc_no": "1282369",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B6 — 9:3:14 (3.9810 ha), 15.000 shares: Erana Heremia Perekara sole owner (list as at 14 Dec 1953)",
+  "blocks_recorded": [
+   "Panguru B6"
+  ],
+  "block_ids": [
+   "31343"
+  ],
+  "record_date": "1953-12-14",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00790739_01282369_0001_0001_LHO_Document-1282369.pdf",
+  "drive_id": "1IdMufASbo8cmLv1x-202fv4M7AnLWX8e",
+  "file_size": "173435",
+  "url": "https://drive.google.com/file/d/1IdMufASbo8cmLv1x-202fv4M7AnLWX8e/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru B6 (9:3:14; 3.9810 ha; 15.000): list of owners as at 14.12.53 — 1 Erana Heremia Perekara F 15.000.",
+  "names": [
+   {
+    "name": "Erana Heremia Perekara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 1953"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1282371",
+  "doc_no": "1282371",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B7 — 45:3:10 (18.5396 ha), 155.000 shares: Niko Kanara Koroweo sole owner (20.4.56); to Niko Kanara (1981), to Niko Kanara as administrator of Niko Kanara junior's estate (2 Nov 1985), and to Walter Dennis Kanara (14 Mar 1986)",
+  "blocks_recorded": [
+   "Panguru B7"
+  ],
+  "block_ids": [
+   "31344"
+  ],
+  "record_date": "1956-04-20",
+  "effective_date": "1986-03-14",
+  "court": "Maori Land Court, Taitokerau (Rawene)",
+  "judge": "",
+  "minute_book": "R 11/171; RW 5/33; RW 5/98",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00790741_01282371_0001_0001_LHO_Document-1282371.pdf",
+  "drive_id": "1zN4nFzVInlC97aH40OnU37IQfPpk-Yru",
+  "file_size": "235517",
+  "url": "https://drive.google.com/file/d/1zN4nFzVInlC97aH40OnU37IQfPpk-Yru/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru B7 (45:3:10; 18.5396 ha; 155.000): list of owners as at 20.4.56 — 1 Niko Kanara Koroweo M 155.000. Niko Kanara Koroweo (list 1; R 11/171; Part XIX/53, 18.5.81) → 2 Niko Kanara m sole (struck). Niko Kanara (junior) (list 2; RW 5/33; s.81/67, 2.11.85) → 3 Niko Kanara m sole, appointed administrator of the above estate. Niko Kanara as administrator of the estate of Niko Kanara (junior) (list 3; RW 5/98; s.81A/67, 14.3.86) → 4 Walter Dennis Kanara sole 155.000.",
+  "names": [
+   {
+    "name": "Niko Kanara Koroweo",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "155.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 20.4.56"
+   },
+   {
+    "name": "Niko Kanara (junior)",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "155.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; the whole, 1981; deceased by 1985 (RW 5/33)"
+   },
+   {
+    "name": "Niko Kanara",
+    "role": "Administrator",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; administrator of the estate of Niko Kanara (junior), 2.11.85"
+   },
+   {
+    "name": "Walter Dennis Kanara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "155.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; sole, 14.3.86 (RW 5/98)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1282373",
+  "doc_no": "1282373",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B8 — 17.1359 ha, 110.000 shares: Ihapera Kanara Topia sole owner (1952); to eight McLean / Yakas children, 29 Jan 1971 (KH 6/228); Elizabeth Yakas to nine (1987); Dave, William and Ben McLean (1991) — 3 pages",
+  "blocks_recorded": [
+   "Panguru B8"
+  ],
+  "block_ids": [
+   "31345"
+  ],
+  "record_date": "1952-05-21",
+  "effective_date": "1991-12-11",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "KH 6/228; 1 WH(S) 128; 7 KT 106-108; 71 WH 293; 17 KT 189",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00790743_01282373_0001_0003_LHO_Document-1282373.pdf",
+  "drive_id": "1JW_j2yPwVaTCsslPuDyidnTSn4wRQ_9o",
+  "file_size": "631298",
+  "url": "https://drive.google.com/file/d/1JW_j2yPwVaTCsslPuDyidnTSn4wRQ_9o/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru B8 (17.1359 ha; 110.000). List as at 21.5.52: 1 Ihapera Kanara Topia (struck). Ihapera Kanara Topia (list 1, 110.000; KH 6/228), S.V.O. 29.1.1971 → 2 William McLean m.a., 3 Ben McLean m.a., 4 Peter McLean m.a., 5 Elizabeth Yakas f.a., 6 Dave McLean m.a., 7 Charlotte McLean f.a., 8 Peter (Binnie) McLean m.a., 9 Robert McLean m.a. — 13.750 each. Elizabeth Yakas (list 5; 1 WH(S) 128, s.78A/67, 25.5.87) → 10 Benjamin Joseph, 11 Marco Antonio, 12 John Baptist, 13 Phoebe Gloria, 14 Rose Isobel, 15 Martin Victor, 16 Anneta, 17 Charlotte, 18 Jimi Marae Junior Yakas, 1.528/1.527 each. Dave McLean (list 6; 7 KT 106-108, 13.6.91) → 19 Margaret McLean for life, remainder to Anni Te Aroha Burkhardt, George Michael, Isabel Johanna, Caroline Regina and Helena Maureen McLean. William McLean (list 2; 71 WH 293, s.213/53, 3.9.91) → 20 Isabella Johanna McLean 13.750; Ben McLean (list 3; 17 KT 189, 213/53, 11.12.91) → 21 Isabella Johanna McLean (27.500).",
+  "names": [
+   {
+    "name": "Ihapera Kanara Topia",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "110.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 110.000; sole owner 1952; KH 6/228; S.V.O. 29.1.71 → eight McLean / Yakas children 13.750 each"
+   },
+   {
+    "name": "Elizabeth Yakas",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "13.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 5, 13.750; 1 WH(S) 128; 25.5.87 → nine Yakas"
+   },
+   {
+    "name": "Dave McLean",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "13.750",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6, 13.750; 7 KT 106-108; 13.6.91 → Margaret McLean for life, remainder to five"
+   },
+   {
+    "name": "Isabella Johanna McLean",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "27.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 20–21; 27.500 from William and Ben McLean, 1991"
+   }
+  ],
+  "notes": "Ihapera Kanara Topia — a daughter of Kanara Topia (Panguru D7)."
+ },
+ {
+  "document_id": "PW-1282375",
+  "doc_no": "1282375",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru B9 — 33:1:15 (13.4937 ha), 165.000 shares: Niko Kanara Koroweo sole owner (21.5.52); to Niko Kanara (1981), to Niko Kanara as administrator of Niko Kanara junior's estate (2 Nov 1985), and to Walter Dennis Kanara (14 Mar 1986)",
+  "blocks_recorded": [
+   "Panguru B9"
+  ],
+  "block_ids": [
+   "30912"
+  ],
+  "record_date": "1952-05-21",
+  "effective_date": "1986-03-14",
+  "court": "Maori Land Court, Taitokerau (Rawene)",
+  "judge": "",
+  "minute_book": "R 11/171; RW 5/33; RW 5/98",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00790745_01282375_0001_0001_LHO_Document-1282375.pdf",
+  "drive_id": "1jL2RR2Rx4feXJwEecGZqgy_EfQREKsPx",
+  "file_size": "253567",
+  "url": "https://drive.google.com/file/d/1jL2RR2Rx4feXJwEecGZqgy_EfQREKsPx/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru B9 (33:1:15; 13.4937 ha; 165.000): list of owners as at 21.5.52 — 1 Niko Kanara Koroweo M 165.000. Niko Kanara Koroweo (list 1; R 11/171; Part XIX/53, 18.5.81) → 2 Niko Kanara m sole (struck). Niko Kanara (junior) (list 2; RW 5/33; s.81/67, 2.11.85) → 3 Niko Kanara m sole, appointed administrator of the above estate. Niko Kanara as administrator of the estate of Niko Kanara (junior) (list 3; RW 5/98; s.81A/67, 14.3.86) → 4 Walter Dennis Kanara sole 165.000.",
+  "names": [
+   {
+    "name": "Niko Kanara Koroweo",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "165.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 21.5.52"
+   },
+   {
+    "name": "Niko Kanara (junior)",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "165.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; the whole, 1981; deceased by 1985 (RW 5/33)"
+   },
+   {
+    "name": "Niko Kanara",
+    "role": "Administrator",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; administrator of the estate of Niko Kanara (junior), 2.11.85"
+   },
+   {
+    "name": "Walter Dennis Kanara",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "165.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; sole, 14.3.86 (RW 5/98)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1285805",
+  "doc_no": "1285805",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D7 — 0.7587 ha, 4.250 shares: Kanara Topia sole owner (1952); succeeded 1 Feb 1972 by Manuka Kanara Topia (KH 7/232)",
+  "blocks_recorded": [
+   "Panguru D7"
+  ],
+  "block_ids": [
+   "30453"
+  ],
+  "record_date": "1952-05-26",
+  "effective_date": "1972-02-01",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "KH 7/232",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00794173_01285805_0001_0001_LHO_Document-1285805.pdf",
+  "drive_id": "1ulAoLMz6saYzMHiBmRfwakDoFJwUuuR2",
+  "file_size": "153307",
+  "url": "https://drive.google.com/file/d/1ulAoLMz6saYzMHiBmRfwakDoFJwUuuR2/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru D7 (0.7587 ha; 4.250): list of owners as at 26.5.52 — 1 Kanara Topia m 4.250. Kanara Topia (KH 7/232), S.V.O. 1.2.72 → 2 Manuka Kanara Topia f.a. solely 4.250.",
+  "names": [
+   {
+    "name": "Kanara Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 1952; deceased by 1972"
+   },
+   {
+    "name": "Manuka Kanara Topia",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "4.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; sole, 1.2.72"
+   }
+  ],
+  "notes": "Kanara Topia — the father of the Kanara Topia whānau of Panguru (Hohepa, Tamati, Wiremu, Himi, Rewi, Petera, Manuka Kanara Topia on these sheets)."
+ },
+ {
+  "document_id": "PW-1285812",
+  "doc_no": "1285812",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E3 (Ngatimanawa Marae) — Māori Reservation, 0.7385 ha (1:3:12): trustees of 1962, the additional trustees of 10 Mar 1975 (11 KH 41-42), the substitutions of 12 Mar 1990 (17 KH 324-325) and the replacements of 3 Dec 1997 and 1998 — 3 pages",
+  "blocks_recorded": [
+   "Panguru E3"
+  ],
+  "block_ids": [
+   "30102"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "1998",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "11 KH 41-42; 17 KH 324-325",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00794180_01285812_0001_0003_LHO_Document-1285812.pdf",
+  "drive_id": "1XZ7tkUINWAy-RN5HX7_OspnyglE8W_5A",
+  "file_size": "503093",
+  "url": "https://drive.google.com/file/d/1XZ7tkUINWAy-RN5HX7_OspnyglE8W_5A/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru E3, Ngatimanawa Marae reservation (0.7385 ha). Original trustees (all later 'replaced', 11 KH 41-42 / 17 KH 324-325): Aterea Hone te Ihi, Rima Wi Hone, Toma Pio Morunga, Hone Neho, Mata Ngarangi, Wharetohunga Matini, Hare Pomare, Kararaina Wiremu Here, Riwa Takui, Wi Pomare te Tana Riwhi. Additional trustees 10.3.75: Samuel Morunga, Rosie Leef, Peter William Pomare (vice-chairman), Joseph Dargaville, Harry Cassidy, Harry Anthony Ngaropo, Patariki Leef, Haratiere Peneamine Morunga, Tamihana Thompson (secretary), Albert Neho, Tiatoroa Morunga, John Anderson Morunga, Vince Peter Morunga, Dave Topia, Tom Blair. Trustees in substitution 12.3.90: Hekiana James Blair, Joseph Michael Dargaville, Harry Cassidy, Harding Howard Morunga, Joseph Thomas Topia, Edward William Leef, John Christopher Morunga; additional Charlie Michael Dargaville, Leon Wilson, Rebecca Teresa Tobin. Replacement of trustees 3.12.97: Tatiana Matenga Thompson, Monica Tate, John Blair, Celia Wharerau, Ben Pomare, Willie Blair, Jerry Pomare, Gail Tate, Hone Pomare, Theresa Morris, Henry Morunga, Harry Anthony Ngaropo, Nick Martin; and (page 3, 1998) Joseph Michael Dargaville, Harding Howard Morunga, Joseph Thomas Topia, Edward William Leef, Leon Wilson, Rebecca Tobin, George Leon Clarke, Noel Woods, Eunice Pomare.",
+  "names": [
+   {
+    "name": "Aterea Hone te Ihi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Rima Wi Hone",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Toma Pio Morunga",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Hone Neho",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Mata Ngarangi",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Wharetohunga Matini",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Hare Pomare",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Kararaina Wiremu Here",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Riwa Takui",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Wi Pomare te Tana Riwhi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee (replaced 1975/1990)"
+   },
+   {
+    "name": "Samuel Morunga",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Rosie Leef",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Peter William Pomare",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Joseph Dargaville",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Harry Cassidy",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Harry Anthony Ngaropo",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Patariki Leef",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Haratiere Peneamine Morunga",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Tamihana Thompson",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Albert Neho",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Tiatoroa Morunga",
+    "role": "Trustee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "John Anderson Morunga",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Vince Peter Morunga",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Dave Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   },
+   {
+    "name": "Tom Blair",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "additional trustee 10.3.75 (11 KH 41-42)"
+   }
+  ],
+  "notes": "'Harry Cassidy' (trustee 1975 and 1990; sole owner of Panguru A3 from 1961, doc 1444710) — the Cassidy family of Panguru; cf. Makura Albert Cassidy Arama (D023)."
+ },
+ {
+  "document_id": "PW-1285814",
+  "doc_no": "1285814",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E4 — Māori Reservation (the Panguru marae land): schedule of ownership orders with the trustees of 1962, 1975 and 1980, and the schedule of 109 beneficial owners (131.20 relative interests) in two typed copies — 9 pages",
+  "blocks_recorded": [
+   "Panguru E4"
+  ],
+  "block_ids": [
+   "29921"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "1980-06-05",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "KH 12/285; KH 8/278-280; KH 12/207",
+  "pages": 9,
+  "page_range": "",
+  "file_name": "00794182_01285814_0001_0009_LHO_Document-1285814.pdf",
+  "drive_id": "1ilaNEL5TgDJmhHXhPE7d4iWEZGfAXgus",
+  "file_size": "1039948",
+  "url": "https://drive.google.com/file/d/1ilaNEL5TgDJmhHXhPE7d4iWEZGfAXgus/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Page 1 (M.A. 28): Panguru E4, Māori Reservation, 'no succession to owners appearing on title'; trustees appointed (KH 12/285) — Heremia te Wake, Matangi te Wake, Hone te Ihi, Tamati Peita, Kanara Topia, Hori te Tai, Riki Hauata, Hare Pomare, Kanara Koroweo, Tama Ngarangi, Toki Pangari, Wi Hone Hoa; 'new trustees appointed in place of all existing trustees' KH 8/278-280 (1975) — Aterea Hone te Ihi, Arapeta Hare Neho, Arthur Toki Pangari, Hakopa Te Tai, Henare Tate, Hohepa Cooper, Hohepa Matangi Te Wake, Petera Hare Pomare, Kani Hanata, Petera Burkhardt, Panguru Waata Witana, Rameka Tamati Peita, Rewi Kanara Topia, Wiremu Wi Hone; KH 12/207 (5.6.80) Michael Peita, Niheta Wi Hone. Pages 2–5 and 6–9 (N.L.C. 93 'Schedule hereinbefore referred to', two copies): the 109 beneficial owners with relative interests, Amiria Ngapera .25 to Wiripo Ngapera .25, 'total shares 131.20' (the figures as typed sum to 131.37) — the te Wake (Hau, Heni, Heretute, Hotene, Matangi, Pita, Whina te Wake 2.00 each), Hare, Ngapera, Peita, Matini Karena, Manihera, Atama, Hare Maika, te Waru, Tarapatiki, Pauro Kawatihi and Topia whānau of Panguru; Himi Hare 3.65, Meri Waata 2.96, Hami Wharewaka Topia 2.88, Hone Puhirere 2.63 the largest. Among them Puti Wharewaka f 2.00 (no. 76), Hone Wharewaka Topia m .92 (no. 28), Iwa, Mane, Manuera, Pateriki, Takuira and Topia Atama .41 each (nos 34, 40, 41, 67, 88, 98) and Katarina, Nikora, Pita, Rihipeti, Takuira and Wati Manihera .06–.07 (nos 36, 62, 72, 83, 90, 101).",
+  "names": [
+   {
+    "name": "Amiria Ngapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ani Matini Karena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); the Matini Karena whānau (nos 25, 29, 35, 50, 84, 103, 107)"
+   },
+   {
+    "name": "Te Aroha Heremia Pere alias Te Aroha Kawerio",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".31",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ata Kaneri",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Erana Heremia Pere alias Erana Kawerio",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".31",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hami Wharewaka Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); the Wharewaka Topia whānau — see Hone Wharewaka Topia (no. 28)"
+   },
+   {
+    "name": "Harata Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Harata Heremia Pere alias Harata Kawerio",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".31",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hariata Rameka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hau te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Heni Ngapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Heni te Wake",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hera te Karu",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".98",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hera Makamira (Tane)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".43",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hera te Waru",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.84",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Heretute te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Heta Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Himi Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.65",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Himiona Mataika",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hohaia Hare Maika",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hohepa Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hona Kapa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 22; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 23; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Himi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Perea Matini Karena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 25; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 26; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Puhirere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.63",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 27; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hone Wharewaka Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".92",
+    "tupuna_id": "T156",
+    "confidence": "stated",
+    "note": "no. 28; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); husband (inferred) of Ria Hone Wharewaka, Peri Paraihe's daughter: her children are 'Hone Wharewaka' and 'Ratahi Topia', and Ihaka Hone Wharewaka's 1989 successors are Topia"
+   },
+   {
+    "name": "Hori Matini Karena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 29; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hori Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Hotene te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ira Anihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ira Pomare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Iwa Atama",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T055",
+    "confidence": "stated",
+    "note": "no. 34; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); daughter of Atama (Okena) Matiu and Pati Wharewaka — T055"
+   },
+   {
+    "name": "Karena Matini Karena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Katarina Manihera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".07",
+    "tupuna_id": "T061",
+    "confidence": "stated",
+    "note": "no. 36; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); one of the six Manihera grandchildren of Atama Matiu and Pati Wharewaka — T061"
+   },
+   {
+    "name": "Kiingi Hori te Wau",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Maika Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Maiki Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mane Atama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T050",
+    "confidence": "stated",
+    "note": "no. 40; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); son of Atama Matiu and Pati Wharewaka — T050"
+   },
+   {
+    "name": "Manuera Atama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T054",
+    "confidence": "stated",
+    "note": "no. 41; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); son of Atama Matiu — T054"
+   },
+   {
+    "name": "Maraea Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Maraea Patara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 43; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Maria te Waru",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.84",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 44; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Maata te Waru",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.84",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 45; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mata te Tane",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".33",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 46; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Matangi te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 47; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Matehuirua Tarapatiki",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.97",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 48; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mere Haratiere",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 49; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mere Matini Karena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 50; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mere Ngapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 51; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mereana Ngapera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 52; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mere Taniere Rangipaoa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 53; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Meri Waata",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.96",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 54; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Mihi Kanara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 55; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Nganiho Makara",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 56; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ngarangi Pire",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 57; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ngati Hoko",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".65",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 58; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Ngatote Rii Noe alias Ngatote Noe Tauehe",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 59; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Niheta Ngateka",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 60; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Nika Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 61; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Nikora Manihera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".07",
+    "tupuna_id": "T059",
+    "confidence": "stated",
+    "note": "no. 62; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); Manihera grandchild — T059"
+   },
+   {
+    "name": "Nui Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 63; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Te Paea Ianga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 64; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pakihi Kingi Hori",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.32",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 65; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pakihi Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 66; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pateriki Atama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T053",
+    "confidence": "stated",
+    "note": "no. 67; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); son of Atama Matiu — T053 ('Paterihi' on the Paihia schedule)"
+   },
+   {
+    "name": "Pateriki Pauro Kawatihi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 68; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Peka Tarapatiki",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.97",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 69; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pene Hauata alias Pene Hoa",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".98",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 70; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Perenara Pauro Kawatihi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 71; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pita Manihera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".06",
+    "tupuna_id": "T056",
+    "confidence": "stated",
+    "note": "no. 72; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); Manihera grandchild — T056"
+   },
+   {
+    "name": "Pita Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 73; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Pita te Wake",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 74; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Puhi Paki Peata",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".43",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 75; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Puti Wharewaka",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "T048",
+    "confidence": "probable",
+    "note": "no. 76; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); = Pati Wharewaka (T048), wife of Atama Matiu alias Okena Matiu, d. 26 Apr 1940 — 'Puti' here, 'Pati' on the Paihia 1D1E schedule (probable)"
+   },
+   {
+    "name": "Rangatira te Waru",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.83",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 77; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rawi Peita (or Hopi)",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 78; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rena Wharekawa",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 79; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rewe Tereti Puhi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 80; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rii Peita Wharetohunga",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 81; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rihi Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 82; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rihipeti Manihera",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".07",
+    "tupuna_id": "T058",
+    "confidence": "probable",
+    "note": "no. 83; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); Manihera grandchild — T058 ('Ihipeti')"
+   },
+   {
+    "name": "Te Rima Matini Karena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 84; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Rio Angel",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".46",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 85; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Riria Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 86; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Raupounamu Taniere alias Raiha Mohi Peri",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.09",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 87; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Takuira Atama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T051",
+    "confidence": "stated",
+    "note": "no. 88; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); son of Atama Matiu — T051"
+   },
+   {
+    "name": "Takuira te Ihi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.97",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 89; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Takuira Manihera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".06",
+    "tupuna_id": "T057",
+    "confidence": "stated",
+    "note": "no. 90; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); Manihera grandchild — T057"
+   },
+   {
+    "name": "Tamati Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 91; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Tamati Hare Maika",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 92; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Tamati Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 93; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Tawio te Aratai",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 94; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Timoti Puhipi Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 95; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Tipene Hare Maika",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".50",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 96; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Toma Angel",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".46",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 97; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Topia Atama",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".41",
+    "tupuna_id": "T052",
+    "confidence": "stated",
+    "note": "no. 98; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); son of Atama Matiu — T052"
+   },
+   {
+    "name": "Waata Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 99; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Waata Topia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 100; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wati Manihera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".06",
+    "tupuna_id": "T060",
+    "confidence": "stated",
+    "note": "no. 101; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); Manihera grandchild — T060"
+   },
+   {
+    "name": "Te Wau Peita",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 102; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wharetihunga Matini Karena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 103; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Whina te Wake",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 104; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wi Rori Wi",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "2.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 105; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wiremu te Aratai I",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 106; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wiremu Matini Karena",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".88",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 107; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wiri te Aratai II",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 108; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20)"
+   },
+   {
+    "name": "Wiripo Ngapera",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".25",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 109; schedule of beneficial owners of the Panguru E4 Māori Reservation (109 owners, 131.20); 'Wiripo' as a given name of the Ngapera whānau"
+   },
+   {
+    "name": "Heremia te Wake",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Matangi te Wake",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Hone te Ihi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Tamati Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Hori te Tai",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Riki Hauata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Hare Pomare",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Kanara Koroweo",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Tama Ngarangi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Toki Pangari",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Wi Hone Hoa",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original trustee of the reservation (KH 12/285; 'Maori Reservation — no succession to owners appearing on title')"
+   },
+   {
+    "name": "Aterea Hone te Ihi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Arapeta Hare Neho",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Arthur Toki Pangari",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Hakopa Te Tai",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Henare Tate",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Hohepa Cooper",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Hohepa Matangi Te Wake",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Petera Hare Pomare",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Kani Hanata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Petera Burkhardt",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Panguru Waata Witana",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Rameka Tamati Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Rewi Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Wiremu Wi Hone",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "new trustee appointed in place of all existing trustees, KH 8/278-280, 1975 (Rameka Tamati Peita and Wiremu Wi Hone deceased → KH 12/207)"
+   },
+   {
+    "name": "Michael Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed 5.6.80, KH 12/207"
+   },
+   {
+    "name": "Niheta Wi Hone",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed 5.6.80, KH 12/207"
+   }
+  ],
+  "notes": "WHĀNAU-LINKED DOCUMENT. The Panguru marae reservation's owner list carries the Wharewaka Topia whānau into which two of the whānau's tupuna married: Pati Wharewaka (T048; 'Puti Wharewaka' here, 2.00), wife of Atama Matiu alias Okena Matiu (T047, son of Matiu Wiripo), with their six children Iwa, Mane, Manuera, Pateriki, Takuira and Topia Atama (.41 each) and the six Manihera grandchildren (.06/.07 each); and 'Hone Wharewaka Topia' (.92), by inference the Hone Wharewaka who was husband of Ria Hone Wharewaka (T024, Peri Paraihe's daughter) — her children are 'Raureti, Ani and Ihaka Hone Wharewaka' and 'Wati and Erina Ratahi Topia', and Ihaka's 1989 successors are Topia. Hami Wharewaka Topia (2.88) is of the same family. Both lines therefore descend into the Panguru reservation; the Rihari Matiu / Arama line does not. The two copies of the list are identical; the shares were read from the better-aligned second copy and sum to 131.37 against the typed total of 131.20 (one figure mistyped, probably)."
+ },
+ {
+  "document_id": "PW-1285816",
+  "doc_no": "1285816",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E5 (wāhi tapu) — Māori Reservation, 0.1644 ha: nine trustees jointly (1962 schedule)",
+  "blocks_recorded": [
+   "Panguru E5"
+  ],
+  "block_ids": [
+   "30373"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00794184_01285816_0001_0001_LHO_Document-1285816.pdf",
+  "drive_id": "1ncUqokWa5zLAOkDLO6pwqrC3tlhrgTIR",
+  "file_size": "148342",
+  "url": "https://drive.google.com/file/d/1ncUqokWa5zLAOkDLO6pwqrC3tlhrgTIR/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru E5 (0.1644 ha), heading '… Wahi Tapu': jointly as trustees — Ira Anihana f, Aterea Hone te Ihi m, Tamati Kanara Topia m, Tamati Peita m, Riki Hauata m, Wiremu Wi Hone Hoa m, Wi Pomare te Tana Riwhi m, Toki Pangari m, Himiona Manuera Ihaka m. Prepared/checked 19.1.62.",
+  "names": [
+   {
+    "name": "Ira Anihana",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Aterea Hone te Ihi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Tamati Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Tamati Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Riki Hauata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Wiremu Wi Hone Hoa",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Wi Pomare te Tana Riwhi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Toki Pangari",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   },
+   {
+    "name": "Himiona Manuera Ihaka",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the wāhi tapu reservation"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1285823",
+  "doc_no": "1285823",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E7 (Mataiara Landing Reserve) — Māori Reservation, 2.6409 ha: ten trustees holding as joint tenants, with the 1980 replacements (KH 12/207) — 2 pages",
+  "blocks_recorded": [
+   "Panguru E7"
+  ],
+  "block_ids": [
+   "30245"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "1980-06-05",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "KH 12/207",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00794191_01285823_0001_0002_LHO_Document-1285823.pdf",
+  "drive_id": "1rjM-XshF9GgXPVUr_PG7clYyW5yIVY-P",
+  "file_size": "217841",
+  "url": "https://drive.google.com/file/d/1rjM-XshF9GgXPVUr_PG7clYyW5yIVY-P/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders and schedule: Panguru E7, Mataiara Landing Reserve (6:2:0?; 2.6409 ha), Māori Reservation, jointly as trustees — 1 Ira Anihana f, 2 Aterea Hone te Ihi m, 3 Pakihi Peita m, 4 Tamati Kanara Topia m, 5 Herewini te Tana Riwhi m (struck, KH 12/207), 6 Riki Hauata m, 7 Wiremu Wi Hone Hoa m, 8 Himiona Manuera Ihaka m, 9 Toki Pangari m, 10 Meri Haratiere f — 'holding as joint tenants'; KH 12/207 (1980): Joseph Topia, Niheta Wi Hone, Wiremu Riwhi.",
+  "names": [
+   {
+    "name": "Ira Anihana",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Aterea Hone te Ihi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Pakihi Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Tamati Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Herewini te Tana Riwhi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Riki Hauata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Wiremu Wi Hone Hoa",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Himiona Manuera Ihaka",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Toki Pangari",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Meri Haratiere",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee, joint tenant (1962 schedule)"
+   },
+   {
+    "name": "Joseph Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed KH 12/207 (1980)"
+   },
+   {
+    "name": "Niheta Wi Hone",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed KH 12/207 (1980)"
+   },
+   {
+    "name": "Wiremu Riwhi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee appointed KH 12/207 (1980)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1285825",
+  "doc_no": "1285825",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E8 (Kaitawa Cemetery Reserve) — 0.2023 ha, 5.000 shares: trustees Tame Anaru and Niko Kanara Koroweo (HK 23/340); owner Hone Puhirere",
+  "blocks_recorded": [
+   "Panguru E8"
+  ],
+  "block_ids": [
+   "30038"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "HK 23/340",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00794193_01285825_0001_0001_LHO_Document-1285825.pdf",
+  "drive_id": "1egUljZtwinjGjV5fEntYhyXTGnNIEK-Y",
+  "file_size": "136250",
+  "url": "https://drive.google.com/file/d/1egUljZtwinjGjV5fEntYhyXTGnNIEK-Y/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru E8, Kaitawa Cemetery Reserve (0.2023 ha; 5.000 shares): jointly as trustees (HK 23/340) Tame Anaru m, Niko Kanara Koroweo m; owner 1 Hone Puhirere m.d. 5.000.",
+  "names": [
+   {
+    "name": "Tame Anaru",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the cemetery reserve, HK 23/340"
+   },
+   {
+    "name": "Niko Kanara Koroweo",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee of the cemetery reserve, HK 23/340"
+   },
+   {
+    "name": "Hone Puhirere",
+    "role": "Owner",
+    "sex": "m",
+    "age": "deceased",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner, deceased"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1444692",
+  "doc_no": "1444692",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A1 — 9:1:36, 25.000 shares: Pirihira, Katarina and Irihapeti Himi Pire (1952); 'European land by declaration' (1967 Act); Irihapeti Hemi Pine Wirori's 8.330 to Maru and Raiha Wirori and Teremia Desai, 1 Feb 1973 (KH 7/232)",
+  "blocks_recorded": [
+   "Panguru A1"
+  ],
+  "block_ids": [
+   "252553"
+  ],
+  "record_date": "1952-05-22",
+  "effective_date": "1973-02-01",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "KH 7/232",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00945119_01444692_0001_0001_LHO_Document-1444692.pdf",
+  "drive_id": "1cmyCWFsLjdK7xYaH4QBuLk0d_0CvBfOI",
+  "file_size": "208073",
+  "url": "https://drive.google.com/file/d/1cmyCWFsLjdK7xYaH4QBuLk0d_0CvBfOI/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A1 (9:1:36; 25.000): list of owners as at 22.5.52 — 1 Pirihira Himi Pire F 8.340, 2 Katarina Himi Pire F 8.330, 3 Irihapeti Himi Pire F 8.330; 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967'. Irihapeti Hemi Pine Wirori or Irihapeti Hemi te Kawau or Irihapeti Himi Pire (list 3, 8.330; KH 7/232), S.V.O. 1.2.73 → 4 Maru Wirori m.a. 2.777, 5 Raiha Wirori f.a. 2.777, 6 Teremia Desai f.a. 2.776. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Pirihira Himi Pire",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "8.340",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; 1952"
+   },
+   {
+    "name": "Katarina Himi Pire",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "8.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; 1952"
+   },
+   {
+    "name": "Irihapeti Hemi Pine Wirori or Irihapeti Hemi te Kawau or Irihapeti Himi Pire",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "8.330",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3, 8.330; KH 7/232; 1.2.73 → Maru Wirori, Raiha Wirori, Teremia Desai"
+   },
+   {
+    "name": "Maru Wirori",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "2.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 1.2.73"
+   },
+   {
+    "name": "Raiha Wirori",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "2.777",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 1.2.73"
+   },
+   {
+    "name": "Teremia Desai",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "2.776",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 1.2.73"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1444710",
+  "doc_no": "1444710",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A3 — 2:0:00: Whina te Wake @ Josephine Gilbert sole owner (1952); to Harry Cassidy as sole owner by vesting order s.213/53, 16 Aug 1961 (K 31/279); CT 178/85 (1989)",
+  "blocks_recorded": [
+   "Panguru A3"
+  ],
+  "block_ids": [
+   "252553"
+  ],
+  "record_date": "1952-02-22",
+  "effective_date": "1961-08-16",
+  "court": "Maori Land Court, Taitokerau (Kaikohe)",
+  "judge": "",
+  "minute_book": "K 31/279",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00945137_01444710_0001_0001_LHO_Document-1444710.pdf",
+  "drive_id": "1cG8S7uV1Pr4gTM-Cpwg7xgjkc72vplOB",
+  "file_size": "208281",
+  "url": "https://drive.google.com/file/d/1cG8S7uV1Pr4gTM-Cpwg7xgjkc72vplOB/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A3 (2:0:00): list of owners as at 22.2.52 — 1 Whina te Wake @ Josephine Gilbert F sole. Whina te Wake @ Josephine Gilbert (list 1; K 31/279), vesting order s.213/53, 16.8.1961 → 2 Harry Cassidy m sole owner. Entered under … 31.10.1989; CT 178/85.",
+  "names": [
+   {
+    "name": "Whina te Wake @ Josephine Gilbert",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 1952; → Harry Cassidy 16.8.61 (K 31/279)"
+   },
+   {
+    "name": "Harry Cassidy",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; sole owner from 16.8.61"
+   }
+  ],
+  "notes": "Harry Cassidy — the Cassidy family of Panguru (also a trustee of the Ngatimanawa marae, 1975 and 1990). Makura Albert Cassidy Arama (son of Wiremu Arama and Rirena) carries the name; whether through this family is untested (D023 note)."
+ },
+ {
+  "document_id": "PW-1444721",
+  "doc_no": "1444721",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A8 — 3:0:00: Tame Pio Morunga sole owner (list as at 16 May 1952)",
+  "blocks_recorded": [
+   "Panguru A8"
+  ],
+  "block_ids": [
+   "30835"
+  ],
+  "record_date": "1952-05-16",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00945148_01444721_0001_0001_LHO_Document-1444721.pdf",
+  "drive_id": "1W9geIU_nKh17GO5b_nKcUkQv385F9Nfx",
+  "file_size": "210724",
+  "url": "https://drive.google.com/file/d/1W9geIU_nKh17GO5b_nKcUkQv385F9Nfx/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A8 (3:0:00): list of owners as at 16.5.52 — 1 Tame Pio Morunga M sole. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Tame Pio Morunga",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 1952"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1444727",
+  "doc_no": "1444727",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A9 — 1:1:00: Tatiana Hone Neho sole owner (list as at 16 May 1952)",
+  "blocks_recorded": [
+   "Panguru A9"
+  ],
+  "block_ids": [
+   "30835"
+  ],
+  "record_date": "1952-05-16",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00945155_01444727_0001_0001_LHO_Document-1444727.pdf",
+  "drive_id": "1GUq_yqvBMG5Iyo_qE_7M60Lv6wUOXrI0",
+  "file_size": "189658",
+  "url": "https://drive.google.com/file/d/1GUq_yqvBMG5Iyo_qE_7M60Lv6wUOXrI0/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A9 (1:1:00): list of owners as at 16.5.52 — 1 Tatiana Hone Neho F sole. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Tatiana Hone Neho",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "sole",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; sole owner 1952"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1444765",
+  "doc_no": "1444765",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A20 — 0:3:00, 15.000 shares: schedule of ownership orders (two sheets): Taki Pio Morunga, sole owner, to Sam Morunga by succession 26 Apr 1960; list of owners as at 26 Apr 1960 (15.000); 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967', CT 18D/746",
+  "blocks_recorded": [
+   "Panguru A20"
+  ],
+  "block_ids": [
+   "283974"
+  ],
+  "record_date": "1960-04-26",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "HK 29/345",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00945192_01444765_0001_0002_LHO_Document-1444765.pdf",
+  "drive_id": "126CxLO9WDM5xwpLuCV4ZN5xBRwUOMQ10",
+  "file_size": "282246",
+  "url": "https://drive.google.com/file/d/126CxLO9WDM5xwpLuCV4ZN5xBRwUOMQ10/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru A20 (0:3:00; 15.000). Sheet 1: Taki Pio Morunga sole owner (HK 29/345), S.V.O. 26.4.60 → 2 Sam Morunga m sole owner. Sheet 2: list of owners as at 26.4.60 — 1 Sam Morunga M 15.000; 'European land by declaration under Part I of the Maori Affairs Amendment Act 1967', CT 18D/746 (1980).",
+  "names": [
+   {
+    "name": "Taki Pio Morunga",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 15.000; HK 29/345; 26.4.60 → Sam Morunga"
+   },
+   {
+    "name": "Sam Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; sole owner, 26.4.60"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1457878",
+  "doc_no": "1457878",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D1 — second page of the schedule of owners (nos 30–42 of 42; total 110.00 shares; 'not surveyed'), with the succession vesting order to Hone Tana Papahia's 22.00 shares, 29 Apr 1960 (HK 29/333-356)",
+  "blocks_recorded": [
+   "Panguru D1"
+  ],
+  "block_ids": [
+   "30064"
+  ],
+  "record_date": "1960-04-29",
+  "effective_date": "",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 29/333-356",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00958306_01457878_0001_0001_LHO_Document-1457878.pdf",
+  "drive_id": "10D77969cN2G-iPKZfM2AbF4jx42e3LYg",
+  "file_size": "191926",
+  "url": "https://drive.google.com/file/d/10D77969cN2G-iPKZfM2AbF4jx42e3LYg/view",
+  "source_id": "S07",
+  "status": "partly transcribed",
+  "summary": "Page 2 only of the N.L.C. 93 schedule for Panguru D1 (not surveyed), owners 30–42: 30 Ngahu Wiremu Tana f .35; 31 Tame Wiremu Tana m .35; 32 Amiria Wiremu Tana f .34; 33 Mata Kahi Tipene f .61; 34 Anania Kahi Tipene m .61; 35 Karena Kahi Tipene m .61; 36 Pakihau Kahi Tipene m .61; 37 Ruiha Pereri Hare f .14; 38 Kiritopa Pereri Hare m .14; 39 Arapeta Pereri Hare m .14; 40 Hihiria Pereri Hare f .14; 41 Werahiko Pereri Hare m .13; 42 Mereana Pereri Hare f .13 — 'Total: 110.00 shares'. Below: succession vesting order — Hone Tana Papahia, list 9, 22.00 shares, HK 29/333-356, S.V.O. 29.4.1960 (successors not entered on this page). The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Ngahu Wiremu Tana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".35",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 30"
+   },
+   {
+    "name": "Tame Wiremu Tana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".35",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 31"
+   },
+   {
+    "name": "Amiria Wiremu Tana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".34",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 32"
+   },
+   {
+    "name": "Mata Kahi Tipene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".61",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 33"
+   },
+   {
+    "name": "Anania Kahi Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".61",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 34"
+   },
+   {
+    "name": "Karena Kahi Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".61",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 35"
+   },
+   {
+    "name": "Pakihau Kahi Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".61",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 36"
+   },
+   {
+    "name": "Ruiha Pereri Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 37"
+   },
+   {
+    "name": "Kiritopa Pereri Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 38"
+   },
+   {
+    "name": "Arapeta Pereri Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 39"
+   },
+   {
+    "name": "Hihiria Pereri Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 40"
+   },
+   {
+    "name": "Werahiko Pereri Hare",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": ".13",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 41"
+   },
+   {
+    "name": "Mereana Pereri Hare",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": ".13",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 42"
+   },
+   {
+    "name": "Hone Tana Papahia",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "22.00",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 9, 22.00; HK 29/333-356; S.V.O. 29.4.1960"
+   }
+  ],
+  "notes": "Owners 1–29 are on a page not in the folder."
+ },
+ {
+  "document_id": "PW-1464645",
+  "doc_no": "1464645",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D2 — succession order schedule and schedule of ownership orders, 11 Dec 1953 (115.000 shares): Hone te Hoa to Hau te Wake; Hau te Wake (d. 31 Dec 1932) to Wiremu Hau te Wake 2/3 and Rehina Hau te Wake 1/3; Rehina's third exchanged to Wiremu — sole owner — 3 pages",
+  "blocks_recorded": [
+   "Panguru D2"
+  ],
+  "block_ids": [
+   "30064"
+  ],
+  "record_date": "1953-12-11",
+  "effective_date": "",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 25/284, 285, 286",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00965072_01464645_0001_0003_LHO_Document-1464645.pdf",
+  "drive_id": "1UuZ_pW6oEGJRNqko48ZV8Aw4KNBXVh_M",
+  "file_size": "589289",
+  "url": "https://drive.google.com/file/d/1UuZ_pW6oEGJRNqko48ZV8Aw4KNBXVh_M/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru D2, 115.000 shares. Hone te Hoa (list 2, 2.000; HK 25/284; d. 31.12.39), 11.12.53 → 3 Hau te Wake m sole (113.000 + 2.000 = 115.000; marginal note that this order should not have been entered as Hau te Wake was himself deceased). Hau te Wake (list 3, 115.000; HK 25/285; d. 31.12.32), 11.12.53 → 4 Wiremu Hau te Wake m 2/3 76.667, 5 Rehina Hau te Wake f 1/3 38.333. Exchange order HK 25/286, 11.12.53: 38.333 (Rehina's whole interest) → 6 Wiremu Hau te Wake m solely — 115.000. Page 3: list of owners as at 11.12.53 — 1 Wiremu Hau te Wake 115.000. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Hone te Hoa",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "2.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 2.000; HK 25/284; d. 31.12.39; 11.12.53 → Hau te Wake"
+   },
+   {
+    "name": "Hau te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "115.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 3, 115.000; HK 25/285; d. 31.12.32; 11.12.53 → Wiremu Hau te Wake 2/3, Rehina Hau te Wake 1/3"
+   },
+   {
+    "name": "Wiremu Hau te Wake",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "115.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 4 and 6; 2/3 (76.667) then the whole by exchange — sole owner 1953"
+   },
+   {
+    "name": "Rehina Hau te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "38.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 1/3 (38.333), exchanged to Wiremu Hau te Wake 11.12.53 (HK 25/286)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464651",
+  "doc_no": "1464651",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D3 — schedule of orders on succession and schedule of ownership orders 1956–59 (250.000 shares): Ira Anihana alias Edith Anderson (d. 11 Aug 1955) to seven te Wake / Anderson / Cooper successors, and the exchanges and vesting orders consolidating 232.143 in Rehina Hau te Wake @ Maria Boyce — 3 pages",
+  "blocks_recorded": [
+   "Panguru D3"
+  ],
+  "block_ids": [
+   "30064"
+  ],
+  "record_date": "1956-05-25",
+  "effective_date": "1959-05-04",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "K 29/284, 285; HK 29/178, 187, 307; HK 28/263",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00965078_01464651_0001_0003_LHO_Document-1464651.pdf",
+  "drive_id": "1K8dzWhPM4Ue0iAye7MKB7o3FJd27Lj2M",
+  "file_size": "685127",
+  "url": "https://drive.google.com/file/d/1K8dzWhPM4Ue0iAye7MKB7o3FJd27Lj2M/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru D3, 250.000 shares, Ira Anihana alias Edith Anderson sole owner (d. 11.8.55; K 29/284): succession vesting order 25.5.56 → Maria Boyce alias Rehina Hau te Wake 35.714, Ben Pita te Wake 35.714, Martin te Wake alias Matangi te Wake 35.714, Gertie te Wake alias Heretute te Wake 35.714, John Michael Anderson 80.357, Whina Cooper 17.857, Lulu Anihana alias Lulu Pita te Wake 8.930. Exchange vesting order K 29/285 (25.5.56): Martin te Wake → Ben Pita te Wake. Exchange HK 29/178 (8.8.57): Gertie te Wake → Rehina Hau te Wake. Vesting order HK 29/187 (20.9.57): Whina Cooper → Alice Matangi te Wake @ Mrs Pateriki Paaka. Vesting order HK 28/263 (18.2.58): Ben Pita te Wake (71.428) → Rehina Hau te Wake. Vesting order s.213/53 HK 29/307 (4.5.59): John Michael Anderson 80.357 and Lulu Anihana 8.930 → Rehina Hau te Wake — total 232.143. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Ira Anihana alias Edith Anderson (Tashana)",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "250.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 250.000; K 29/284; d. 11.8.55; S.V.O. 25.5.56 → 2 Maria Boyce alias Rehina Hau te Wake f.a. 35.714, 3 Ben Pita te Wake m.a. 35.714, 4 Martin te Wake alias Matangi te Wake m.a. 35.714, 5 Gertie te Wake alias Heretute te Wake f.a. 35.714, 6 John Michael Anderson m.a. 80.357, 7 Whina Cooper f.a. 17.857, 8 Lulu Anihana alias Lulu Pita te Wake f.a. 8.930"
+   },
+   {
+    "name": "Maria Boyce alias Rehina Hau te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "232.143",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2 (35.714); + Gertie te Wake's 35.714 by exchange 8.8.57 (HK 29/178) = 11 (71.428); + Ben Pita te Wake's 71.428, 18.2.58 (HK 28/263) = 12 (142.856); + John Michael Anderson's 80.357 and Lulu Anihana's 8.930 by vesting order s.213/53, 4.5.59 (HK 29/307) = 13 (232.143 of 250.000)"
+   },
+   {
+    "name": "Ben Pita te Wake",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "71.428",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3 (35.714); + Martin te Wake's 35.714 by exchange 25.5.56 (K 29/285) = 9 (71.428); the whole → Rehina Hau te Wake 18.2.58"
+   },
+   {
+    "name": "Martin te Wake alias Matangi te Wake",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "35.714",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 35.714 → Ben Pita te Wake by exchange 25.5.56"
+   },
+   {
+    "name": "Gertie te Wake alias Heretute te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "35.714",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 35.714 → Rehina Hau te Wake by exchange 8.8.57"
+   },
+   {
+    "name": "John Michael Anderson",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "80.357",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 80.357 → Rehina Hau te Wake 4.5.59"
+   },
+   {
+    "name": "Whina Cooper",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "17.857",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; 17.857 → 10 Alice Matangi te Wake @ Mrs Pateriki Paaka by vesting order s.213/53, 20.9.57 (HK 29/187)"
+   },
+   {
+    "name": "Alice Matangi te Wake @ Mrs Pateriki Paaka",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "17.857",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; 17.857 from Whina Cooper, 20.9.57"
+   },
+   {
+    "name": "Lulu Anihana alias Lulu Pita te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "8.930",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; 8.930 → Rehina Hau te Wake 4.5.59"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464656",
+  "doc_no": "1464656",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D4 — succession order schedule and schedule of ownership orders 1947–56 (120.000 shares): the te Wake whānau — Pakete Waitai to Whina te Wake (1947), Pita and Hau te Wake (1953), Whina te Wake's vesting orders to Rehina Boyce and Mary Leef, Ira Anihana's will, Heretute te Wake — 3 pages",
+  "blocks_recorded": [
+   "Panguru D4"
+  ],
+  "block_ids": [
+   "30064"
+  ],
+  "record_date": "1947-04-16",
+  "effective_date": "1956-05-25",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 20/355; HK 23/360; HK 25/272, 285; HK 27/299; HK 29/248, 284",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "00965083_01464656_0001_0003_LHO_Document-1464656.pdf",
+  "drive_id": "12G8J1nz0CbI9gVe0yU8qlrhTurNU3jyb",
+  "file_size": "664377",
+  "url": "https://drive.google.com/file/d/12G8J1nz0CbI9gVe0yU8qlrhTurNU3jyb/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru D4, 120.000 shares, eight original owners of 15.000. Pakete Waitai (list 2; HK 20/355; d. 31.12.45), S.V.O. 16.4.47 → 9 Whina te Wake f.a. solely (30.000). Vesting order s.163/1931 (HK 23/360), 26.5.52: 7.500 of Whina te Wake's interest → 10 Rehina Mana Boyce @ Rehina Hau te Wake; 11 Whina te Wake 22.500. Pita te Wake (list 3; HK 25/272; d. 10.7.44), 9.12.53 → 12 Wiremu Pita te Wake m solely. Hau te Wake (list 1; HK 25/285; d. 31.12.32), 11.12.53 → 13 Rehina Hau te Wake f solely (22.500). Vesting order s.213/53 (sale), 1956 (HK 27/299): 12.000 of Whina te Wake's 22.500 → 14 Mary Leef @ Mary Hoki Boyce; 15 Whina te Wake 10.500. Ira Anihana alias Edith Anderson (list 8; HK 29/284), vesting order s.136/53, 25.5.56 → 16–17 Henry Albert Vollaemaere and Arthur Earle Lawlor Dodd as trustees of her will, 15.000 jointly. Heretute te Wake (list 6; HK 29/248), s.213(53), 18.4.56 → 18 Ema Aperahama Witana (Mrs Mano Maaka) f.a. 15.000.",
+  "names": [
+   {
+    "name": "Pakete Waitai",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 15.000; HK 20/355; d. 31.12.45; S.V.O. 16.4.47 → 9 Whina te Wake f.a. solely"
+   },
+   {
+    "name": "Whina te Wake",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "30.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9 (30.000 after 1947), 11 (22.500) and 15 (10.500); Dame Whina Cooper (née Te Wake, 1895–1994) of Panguru: her 30.000 partly vested in Rehina Hau te Wake 1952 (7.500) and Mary Leef @ Mary Hoki Boyce 1956 (12.000)"
+   },
+   {
+    "name": "Rehina Mana Boyce @ Rehina Hau te Wake",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "22.500",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 10 and 13: 7.500 by vesting order s.163/31 from Whina te Wake, 26.5.52 (HK 23/360); 15.000 as sole successor to Hau te Wake, 11.12.53 (HK 25/285) — 22.500"
+   },
+   {
+    "name": "Pita te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 3, 15.000; HK 25/272; d. 10.7.44; S.V.O. 9.12.53 → 12 Wiremu Pita te Wake m solely"
+   },
+   {
+    "name": "Wiremu Pita te Wake",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; sole, 9.12.53"
+   },
+   {
+    "name": "Hau te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 15.000; HK 25/285; d. 31.12.32; S.V.O. 11.12.53 → Rehina Hau te Wake solely"
+   },
+   {
+    "name": "Mary Leef @ Mary Hoki Boyce",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "12.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; 12.000 of Whina te Wake's interest by vesting order s.213/53 (sale), 1956 (HK 27/299)"
+   },
+   {
+    "name": "Ira Anihana alias Edith Anderson",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 8, 15.000; HK 29/284; vesting order s.136/53, 25.5.56 → 16 Henry Albert Vollaemaere and 17 Arthur Earle Lawlor Dodd m.a. jointly, 15.000 as trustees of her will"
+   },
+   {
+    "name": "Henry Albert Vollaemaere",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; trustee of the will of Ira Anihana, 25.5.56 (reading of surname uncertain)"
+   },
+   {
+    "name": "Arthur Earle Lawlor Dodd",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "adult",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; trustee of the will of Ira Anihana (reading uncertain)"
+   },
+   {
+    "name": "Heretute te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 6, 15.000; HK 29/248; s.213(53), 18.4.56 → 18 Ema Aperahama Witana (Mrs Mano Maaka) f.a. 15.000"
+   },
+   {
+    "name": "Ema Aperahama Witana (Mrs Mano Maaka)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; 15.000, 1956"
+   }
+  ],
+  "notes": "Whina te Wake is Dame Whina Cooper of Panguru. No whānau tupuna on the title."
+ },
+ {
+  "document_id": "PW-1464662",
+  "doc_no": "1464662",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D6 — succession to Penetana te Tai (d. 22 Jul 1951): Kereti Penetana te Tai, 10 Aug 1954 (18.000 shares)",
+  "blocks_recorded": [
+   "Panguru D6"
+  ],
+  "block_ids": [
+   "30452"
+  ],
+  "record_date": "1954-08-10",
+  "effective_date": "",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 26/67",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00965090_01464662_0001_0002_LHO_Document-1464662.pdf",
+  "drive_id": "1u0Cw2eny8EoCCQPzFlqHCIf9o_05Tm_f",
+  "file_size": "588625",
+  "url": "https://drive.google.com/file/d/1u0Cw2eny8EoCCQPzFlqHCIf9o_05Tm_f/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Succession order schedule and schedule of ownership orders, Panguru D6 (18.000 shares): Penetana te Tai (HK 26/67; d. 22.7.51), list 2, 4.000, S.V.O. 10.8.54 → 5 Kereti Penetana te Tai m sole 4.000.",
+  "names": [
+   {
+    "name": "Penetana te Tai",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 22.7.51; HK 26/67; list 2"
+   },
+   {
+    "name": "Kereti Penetana te Tai",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; sole, 10.8.54"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464665",
+  "doc_no": "1464665",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D8 — succession to Ehetere Nui Hare: Arapeta Nui Hare, 26 May 1952 (4.310 of 5.750 shares)",
+  "blocks_recorded": [
+   "Panguru D8"
+  ],
+  "block_ids": [
+   "30475"
+  ],
+  "record_date": "1952-05-26",
+  "effective_date": "",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 23/361",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00965092_01464665_0001_0002_LHO_Document-1464665.pdf",
+  "drive_id": "1a0GY3V2w1MRcZ09E5QJkrI9bGI-OEU0Y",
+  "file_size": "349991",
+  "url": "https://drive.google.com/file/d/1a0GY3V2w1MRcZ09E5QJkrI9bGI-OEU0Y/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Succession order schedule and schedule of ownership orders, Panguru D8 (5.750 shares): Ehetere Nui Hare (HK 23/361), list 1, 4.310, S.V.O. 26.5.52 → 3 Arapeta Nui Hare m sole 4.310.",
+  "names": [
+   {
+    "name": "Ehetere Nui Hare",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "4.310",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 23/361; list 1"
+   },
+   {
+    "name": "Arapeta Nui Hare",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4.310",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; sole, 26.5.52"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464666",
+  "doc_no": "1464666",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru D9 — succession order schedule and schedule of ownership orders 1953–54 (23.050 shares): Meri Haratiera Noa, Te Hau te Wake, Rawiri and Ngawona te Wau Kingi, Hami Wi Motu — 2 pages",
+  "blocks_recorded": [
+   "Panguru D9"
+  ],
+  "block_ids": [
+   "30476"
+  ],
+  "record_date": "1953-12-08",
+  "effective_date": "1954-03-03",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 25/264, 285, 291, 338",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00965094_01464666_0001_0002_LHO_Document-1464666.pdf",
+  "drive_id": "1MA5NaefX2glW2Iw9Lh6CDTMUFgBPm-EV",
+  "file_size": "1056971",
+  "url": "https://drive.google.com/file/d/1MA5NaefX2glW2Iw9Lh6CDTMUFgBPm-EV/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Meri Haratiera Noa @ Meri Peita Wharetohunga (HK 25/264; d. 2.9.52), S.V.O. 8.12.53 → 11 Aterea Haratiera Noa m sole 2.080; Te Hau te Wake (HK 25/285), 11.12.53 → 12 Wiremu Hau te Wake m 1.040; Rawiri te Wau Kingi (HK 25/291), 14.12.53 → 13 Kingi Hori te Wau m 2.630; Ngawona te Wau Kingi (HK 25/291), 14.12.53 → 14 Huihana te Wau Kingi f sole 2.080; Hami Wi Motu (HK 25/338), 3.3.54 → 15 Wiremu Hami Wi Motu m 2.080.",
+  "names": [
+   {
+    "name": "Meri Haratiera Noa @ Meri Peita Wharetohunga",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 2.9.52; HK 25/264; 8.12.53 → Aterea Haratiera Noa"
+   },
+   {
+    "name": "Aterea Haratiera Noa",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; sole, 8.12.53"
+   },
+   {
+    "name": "Te Hau te Wake",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "1.040",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/285; 11.12.53 → Wiremu Hau te Wake"
+   },
+   {
+    "name": "Wiremu Hau te Wake",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.040",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; 11.12.53"
+   },
+   {
+    "name": "Rawiri te Wau Kingi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "2.630",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/291; 14.12.53 → Kingi Hori te Wau"
+   },
+   {
+    "name": "Kingi Hori te Wau",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "2.630",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; 14.12.53"
+   },
+   {
+    "name": "Ngawona te Wau Kingi",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/291; 14.12.53 → Huihana te Wau Kingi"
+   },
+   {
+    "name": "Huihana te Wau Kingi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; sole, 14.12.53"
+   },
+   {
+    "name": "Hami Wi Motu",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "HK 25/338; 3.3.54 → Wiremu Hami Wi Motu"
+   },
+   {
+    "name": "Wiremu Hami Wi Motu",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "2.080",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; 3.3.54"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464839",
+  "doc_no": "1464839",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E2 (church site; heading degraded) — 30.000 shares: nine trustees jointly, 3.333/3.334 each (1962 schedule)",
+  "blocks_recorded": [
+   "Panguru E2"
+  ],
+  "block_ids": [
+   "30102"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00965267_01464839_0001_0001_LHO_Document-1464839.pdf",
+  "drive_id": "1XFktTfwS7LUYAz9-U0zQ3ISRt8-hB09z",
+  "file_size": "210941",
+  "url": "https://drive.google.com/file/d/1XFktTfwS7LUYAz9-U0zQ3ISRt8-hB09z/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru E2 (heading read as '… Church Site'; 30.000 shares): jointly as trustees — 1 Niheta Pita te Wake (Pita te Wake) m 3.333, 2 Aterea Hone te Ihi (Hone te Ihi) m 3.333, 3 Wiremu Kanara Topia m 3.333, 4 Tamati Peita m 3.333, 5 Riki Hauata m 3.333, 6 Wiremu Wi Hone (Wi Hone Hoa) m 3.333, 7 Hare Pomare m 3.334, 8 Pirihira Himi Pere (Mata te Tane) f 3.334, 9 Aperahama Witana m 3.334 — 30.000. The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Niheta Pita te Wake (Pita te Wake)",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; 3.333"
+   },
+   {
+    "name": "Aterea Hone te Ihi (Hone te Ihi)",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; 3.333"
+   },
+   {
+    "name": "Wiremu Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 3.333"
+   },
+   {
+    "name": "Tamati Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 3.333"
+   },
+   {
+    "name": "Riki Hauata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 3.333"
+   },
+   {
+    "name": "Wiremu Wi Hone (Wi Hone Hoa)",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.333",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; 3.333"
+   },
+   {
+    "name": "Hare Pomare",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; 3.334"
+   },
+   {
+    "name": "Pirihira Himi Pere (Mata te Tane)",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "3.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; 3.334"
+   },
+   {
+    "name": "Aperahama Witana",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "3.334",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; 3.334"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1464847",
+  "doc_no": "1464847",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru E6 (marae reservation; heading degraded) — eleven trustees jointly (1962 schedule)",
+  "blocks_recorded": [
+   "Panguru E6"
+  ],
+  "block_ids": [
+   "30507"
+  ],
+  "record_date": "1962-01-19",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00965275_01464847_0001_0001_LHO_Document-1464847.pdf",
+  "drive_id": "1tDvcwsZuCGza3aEQQYC6bXMk5GcLAKnI",
+  "file_size": "192556",
+  "url": "https://drive.google.com/file/d/1tDvcwsZuCGza3aEQQYC6bXMk5GcLAKnI/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru E6 (the block letter read as '6'; heading '… Marae', faint): jointly as trustees — 1 Haperiere Matangi te Wake m, 2 Riki Hauata m, 3 Toma Pio Morunga m, 4 Petera Kanara Topia m, 5 Wiremu Wi Hone Hoa m, 6 Pakihi Peita m, 7 Herewini Riwhi m, 8 Himiona Manuera Ihaka m, 9 Tere Hoa m, 10 Ira Anihana f, 11 Heni te Wau Peita m. Prepared/checked 1962. Pinned to Panguru E6A2, the only E6 parcel in the 2017 index.",
+  "names": [
+   {
+    "name": "Haperiere Matangi te Wake",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Riki Hauata",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Toma Pio Morunga",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Petera Kanara Topia",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Wiremu Wi Hone Hoa",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Pakihi Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Herewini Riwhi",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Himiona Manuera Ihaka",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Tere Hoa",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Ira Anihana",
+    "role": "Trustee",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   },
+   {
+    "name": "Heni te Wau Peita",
+    "role": "Trustee",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "trustee (1962 schedule; several readings uncertain)"
+   }
+  ],
+  "notes": "Scan badly degraded; names read with the aid of the other reservation sheets."
+ },
+ {
+  "document_id": "PW-1493379",
+  "doc_no": "1493379",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A2 (formerly Whakarapa 34) — succession order schedule: Pene Hauata alias Pene Hoa (d. 15 Aug 1935) to Heremia Pene Hoa and Matiu Heta, 1943; Matiu Heta (d. 31 Dec 1927) to Taupo Matiu Heta, 1946 — 'absorbed in consolidation orders'",
+  "blocks_recorded": [
+   "Panguru A2"
+  ],
+  "block_ids": [
+   "252553"
+  ],
+  "record_date": "1943-07-16",
+  "effective_date": "1946-09-18",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 18A/135; HK 20/290",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00993808_01493379_0001_0001_LHO_Document-1493379.pdf",
+  "drive_id": "1T9uvkMfWkLDIpNbbyAcUO9xaAOcEUOX8",
+  "file_size": "343136",
+  "url": "https://drive.google.com/file/d/1T9uvkMfWkLDIpNbbyAcUO9xaAOcEUOX8/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Succession order schedule, Panguru A2 (formerly Whakarapa 34): Pene Hauata alias Pene Hoa (HK 18A/135; d. 15.8.35), 16.7.43 → Heremia Pene Hoa m 1/2, Matiu Heta m.d. 1/2. Matiu Heta (HK 20/290; d. 31.12.27), 18.9.46 → Taupo Matiu Heta f sole. Note: 'above successions absorbed in consolidation orders — S/O treated as prior to cons. order.' The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Pene Hauata alias Pene Hoa",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "d. 15.8.35; HK 18A/135; 16.7.43 → Heremia Pene Hoa 1/2, Matiu Heta 1/2"
+   },
+   {
+    "name": "Heremia Pene Hoa",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2, 16.7.43"
+   },
+   {
+    "name": "Matiu Heta",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "deceased",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "successor (1/2) to Pene Hoa though himself deceased 31.12.27 (HK 20/290); 18.9.46 → Taupo Matiu Heta"
+   },
+   {
+    "name": "Taupo Matiu Heta",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "1/2",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "sole, 18.9.46"
+   }
+  ],
+  "notes": "'Matiu Heta' — Matiu as a given name; Taupo Matiu Heta is the Taupo Katiu Heta @ Taupo Delich of Panguru C11."
+ },
+ {
+  "document_id": "PW-1493389",
+  "doc_no": "1493389",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A5 (earlier sheet) — 21:1:05, 145.000 shares: Himi Kanara Topia (d.) to Wiremu Kanara Topia, 19 Sep 1941 (HK 18/329) — sole owner",
+  "blocks_recorded": [
+   "Panguru A5"
+  ],
+  "block_ids": [
+   "30846"
+  ],
+  "record_date": "1941-09-19",
+  "effective_date": "",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 18/329",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00993818_01493389_0001_0001_LHO_Document-1493389.pdf",
+  "drive_id": "124SfDnJm5F6FxTqqvRLi2pGxzHllra6I",
+  "file_size": "324007",
+  "url": "https://drive.google.com/file/d/124SfDnJm5F6FxTqqvRLi2pGxzHllra6I/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A5 (21:1:05; 145.000): Himi Kanara Topia (list 2, 60.000; HK 18/329), S.V.O. 19.9.41 → 3 Wiremu Kanara Topia M sole (85.000 + 60.000 = 145.000). The later M.A. 28 sheet (doc 1282169) carries the block at 8.4098 ha and 120.000 shares.",
+  "names": [
+   {
+    "name": "Himi Kanara Topia",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "60.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 60.000; HK 18/329; 19.9.41 → Wiremu Kanara Topia"
+   },
+   {
+    "name": "Wiremu Kanara Topia",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "145.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; sole owner, 145.000, 19.9.41"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1493471",
+  "doc_no": "1493471",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A20 — 0:3:00, 15.000 shares: schedule of ownership orders: Taki Pio Morunga (list 1, 15.000; HK 29/345) to Sam Morunga, 26 Apr 1960",
+  "blocks_recorded": [
+   "Panguru A20"
+  ],
+  "block_ids": [
+   "283974"
+  ],
+  "record_date": "1960-04-26",
+  "effective_date": "",
+  "court": "Maori Land Court, Taitokerau",
+  "judge": "",
+  "minute_book": "HK 29/345",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00993900_01493471_0001_0001_LHO_Document-1493471.pdf",
+  "drive_id": "14Lr26la2Ld2OLKPnmxm_qQhYQgMa20QF",
+  "file_size": "256441",
+  "url": "https://drive.google.com/file/d/14Lr26la2Ld2OLKPnmxm_qQhYQgMa20QF/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru A20 (0:3:00; 15.000): Taki Pio Morunga (list 1, 15.000; HK 29/345), S.V.O. 26.4.60 → 2 Sam Morunga M 15.000.",
+  "names": [
+   {
+    "name": "Taki Pio Morunga",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 15.000; HK 29/345; 26.4.60 → Sam Morunga"
+   },
+   {
+    "name": "Sam Morunga",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "15.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; sole owner, 26.4.60"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1493648",
+  "doc_no": "1493648",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A40 — 160.000 shares: Peata Hone Hoa (d. 27 Jun 1950) to Frances Dargaville (née Paul), 1952; Amiria Wi Hone's 24.000 to her, 1954; the whole to Pene Tame Morunga by vesting order, 4 Oct 1956 — 2 pages",
+  "blocks_recorded": [
+   "Panguru A40"
+  ],
+  "block_ids": [
+   "30896"
+  ],
+  "record_date": "1952-07-21",
+  "effective_date": "1956-10-04",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 25/122; HK 26/79; HK 27/347",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00994077_01493648_0001_0002_LHO_Document-1493648.pdf",
+  "drive_id": "1Ik4cr0G27BNLDaHPp4bpoh5p0dyQK7NK",
+  "file_size": "507968",
+  "url": "https://drive.google.com/file/d/1Ik4cr0G27BNLDaHPp4bpoh5p0dyQK7NK/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru A40 (53:0:0?; 160.000). Peata Hone Hoa (list 1, 136.000; HK 25/122; d. 27.6.50), S.V.O. 21.7.52 → 3 Frances Dargaville (née Paul) f.a. solely 136.000. Vesting order s.213/53, 23.8.54 (HK 26/79): 24.000, the whole of the interest of Amiria Wi Hone, → 4 Frances Dargaville (160.000). Vesting order 213/53, 4.10.56 (HK 27/347): the whole of the interest of Frances Dargaville → 5 Pene Tame Morunga m.a. solely 160.000 ('whole block').",
+  "names": [
+   {
+    "name": "Peata Hone Hoa",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "136.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 136.000; HK 25/122; d. 27.6.50; 21.7.52 → Frances Dargaville"
+   },
+   {
+    "name": "Frances Dargaville (née Paul)",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "160.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 3–4; 160.000 (1952–54); → Pene Tame Morunga 4.10.56"
+   },
+   {
+    "name": "Amiria Wi Hone",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "24.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 24.000; HK 26/79; vesting order 23.8.54 → Frances Dargaville"
+   },
+   {
+    "name": "Pene Tame Morunga",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "adult",
+    "shares": "160.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; the whole block, 4.10.56"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1493656",
+  "doc_no": "1493656",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru A41 — 540.000 shares: Hone te Ihi (d. 12 Jan 1952) to Toma, Huihana, Maria and Hiki Hone te Ihi, 10 Dec 1953; Hiki's twelfth exchanged; Huihana's and Maria's 360.000 to Toma Hone te Ihi, sole owner, 20 Apr 1955 — 2 pages",
+  "blocks_recorded": [
+   "Panguru A41"
+  ],
+  "block_ids": [
+   "30897"
+  ],
+  "record_date": "1953-12-10",
+  "effective_date": "1955-04-20",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 25/277, 278; HK 26/396",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00994084_01493656_0001_0002_LHO_Document-1493656.pdf",
+  "drive_id": "1eg4BNjvJ1dg06ZHZ1oLn1-YEWEJrUzAj",
+  "file_size": "532541",
+  "url": "https://drive.google.com/file/d/1eg4BNjvJ1dg06ZHZ1oLn1-YEWEJrUzAj/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Panguru A41 (?:2:00; 540.000). Hone te Ihi (list 1, 540.000; HK 25/277; d. 12.1.52; 'subject to a charge, see order'), S.V.O. 10.12.53 → 2 Toma Hone te Ihi m.a. 1/3 180.000, 3 Huihana Hone te Ihi f.a. 1/3 180.000, 4 Maria Hone te Ihi f.a. 3/12 135.000, 5 Hiki Hone te Ihi f 1/12 45.000. Exchange order HK 25/278, 10.12.53: Hiki's 45.000 → Huihana 2/3 (30.000) and Maria 1/3 (15.000). Vesting order s.213/53, 20.4.55 (HK 26/396): Huihana's 210.000 and Maria's 150.000 → 8 Toma Hone te Ihi m solely — 540.000.",
+  "names": [
+   {
+    "name": "Hone te Ihi",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "540.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 1, 540.000; HK 25/277; d. 12.1.52; 10.12.53 → four children"
+   },
+   {
+    "name": "Toma Hone te Ihi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "540.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 2 and 8; 1/3 then the whole (540.000) by vesting order 20.4.55"
+   },
+   {
+    "name": "Huihana Hone te Ihi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "210.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 3 and 6; 1/3 + 2/3 of Hiki's (210.000) → Toma 20.4.55"
+   },
+   {
+    "name": "Maria Hone te Ihi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "150.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 4 and 7; 3/12 + 1/3 of Hiki's (150.000) → Toma 20.4.55"
+   },
+   {
+    "name": "Hiki Hone te Ihi",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "45.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; 1/12 (45.000), exchanged to Huihana and Maria 10.12.53"
+   }
+  ],
+  "notes": "Hone te Ihi — one of the original Panguru E4 trustees; Aterea Hone te Ihi his son."
+ },
+ {
+  "document_id": "PW-1495691",
+  "doc_no": "1495691",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Panguru C11 — 107:0:00, 200.000 shares: Hepara Mangakahia (d.) to Tangiora Whangapoa Mangakahia, 13 Sep 1941; the whole to Taupo Katiu Heta @ Taupo Delich by vesting order, 1 Jun 1955",
+  "blocks_recorded": [
+   "Panguru C11"
+  ],
+  "block_ids": [
+   "30127"
+  ],
+  "record_date": "1941-09-13",
+  "effective_date": "1955-06-01",
+  "court": "Native / Maori Land Court, Tokerau — Hokianga (Kohukohu / Rawene) sittings",
+  "judge": "",
+  "minute_book": "HK 18/302; HK 29/59",
+  "pages": 1,
+  "page_range": "",
+  "file_name": "00996120_01495691_0001_0001_LHO_Document-1495691.pdf",
+  "drive_id": "1bZqdQtb3sqhc34TE2p6zP9XwvMOcm8iP",
+  "file_size": "201605",
+  "url": "https://drive.google.com/file/d/1bZqdQtb3sqhc34TE2p6zP9XwvMOcm8iP/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Schedule of ownership orders, Panguru C11 (107:0:00; 200.000): Hepara Mangakahia (list 2, 63.300; HK 18/302), S.V.O. 13.9.41 → 3 Tangiora Whangapoa Mangakahia F sole (136.700 + 63.300 = 200.000). Tangiora Whangapoa Mangakahia (list 3, 200.000; HK 29/59), V.O. s.213/53, 1.6.55 → 4 Taupo Katiu Heta @ Taupo Delich F 200.000.",
+  "names": [
+   {
+    "name": "Hepara Mangakahia",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "63.300",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 63.300; HK 18/302; 13.9.41 → Tangiora Whangapoa Mangakahia"
+   },
+   {
+    "name": "Tangiora Whangapoa Mangakahia",
+    "role": "Vendor / transferor",
+    "sex": "f",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; 200.000; → Taupo Katiu Heta @ Taupo Delich by vesting order s.213/53, 1.6.55"
+   },
+   {
+    "name": "Taupo Katiu Heta @ Taupo Delich",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; 200.000, 1.6.55 — the Taupo Matiu Heta of Panguru A2 (doc 1493379)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "document_id": "PW-1577959",
+  "doc_no": "1577959",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Panguru",
+  "title": "Mangonui Consolidation Scheme — Panguru D5 (consolidation order 26 May 1952, HK 23/361; 27a 3r 03p): 20 owners of 50 shares; the block sold to Rehina Hau te Wake @ Rehina Boyce for £70, 18 Apr 1958 — 2 pages",
+  "blocks_recorded": [
+   "Panguru D5"
+  ],
+  "block_ids": [
+   "30064"
+  ],
+  "record_date": "1952-05-26",
+  "effective_date": "1958-04-18",
+  "court": "Maori Land Court, Tokerau — Mangonui Consolidation Scheme",
+  "judge": "",
+  "minute_book": "HK 23/361; 3 HK 26/299; HK 28/197; K 30/47-48; TK 6/888",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "01070201_01577959_0001_0002_LHO_Document-1577959.pdf",
+  "drive_id": "1R1pTzUEozZzsFhi2-AG8Lp8w3IA0gSsY",
+  "file_size": "294225",
+  "url": "https://drive.google.com/file/d/1R1pTzUEozZzsFhi2-AG8Lp8w3IA0gSsY/view",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "M.A. 101 consolidation sheet: Panguru D5, cons. order 26.5.52, HK 23/361, area 27a 3r 03p — '20 owners of 50 shares as detailed in list attached'; 'Sold to Rehina Hau te Wake @ Rehina Boyce for £70, TK 6/888, 18.4.58'. Schedule: 1 Ani Watikena f 3.40; 2 Hone Papahia m 13.60; 3 Hori Harimana m 4.55; 4 Wiremu Rikihana m 3.41; 5 Mata Hupe te Rore f 1.99; 6 Karena Kahi Tipene m 1.99; 7 Paki Kahi Tipene f 1.99; 8 Anania Kahi Tipene m 1.99; 9 Hakuene Anania m 1.90; 10 Paiwiko Anania m 1.90; 11 Tareo Anania m 1.90; 12 Karehu Eruera Rikihana f 1.42; 13 Hera Eruera Rikihana f 1.42; 14 Tautahi Eruera Rikihana m 1.42; 15 Maihi Eruera Rikihana m 1.42; 16 Pirihira Timoti Rikihana f 1.14; 17 Tangaroa Timoti Rikihana m 1.14; 18 Wiremu Timoti Rikihana m 1.14; 19 Ripeka Timoti Rikihana f 1.14; 20 Manu Timoti Rikihana f 1.14 — total 50.00; later 21 George Watkins m 4.55 (3 HK 26/299), 22 and 23 Rehina Hau te Wake @ Rehina Boyce f 1.90 each (HK 28/197), 24 Wharehara Paiwiko Anania m 1.90 (K 30/47-48). The parcel is not in the 2017 block index under this name; the record is pinned to the nearest Panguru parcel of the same series.",
+  "names": [
+   {
+    "name": "Ani Watikena",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "3.40",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 1; consolidation schedule 1952"
+   },
+   {
+    "name": "Hone Papahia",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "13.60",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 2; consolidation schedule 1952"
+   },
+   {
+    "name": "Hori Harimana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "4.55",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 3; consolidation schedule 1952; struck → 21 George Watkins (3 HK 26/299)"
+   },
+   {
+    "name": "Wiremu Rikihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "3.41",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 4; consolidation schedule 1952"
+   },
+   {
+    "name": "Mata Hupe te Rore",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.99",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 5; consolidation schedule 1952"
+   },
+   {
+    "name": "Karena Kahi Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.99",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 6; consolidation schedule 1952"
+   },
+   {
+    "name": "Paki Kahi Tipene",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.99",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 7; consolidation schedule 1952"
+   },
+   {
+    "name": "Anania Kahi Tipene",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.99",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 8; consolidation schedule 1952"
+   },
+   {
+    "name": "Hakuene Anania",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.90",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 9; consolidation schedule 1952; struck → 23 Rehina Hau te Wake @ Rehina Boyce (9 HK 28/197)"
+   },
+   {
+    "name": "Paiwiko Anania",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.90",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 10; consolidation schedule 1952; struck → 24 Wharehara Paiwiko Anania (10 K 30/47-48)"
+   },
+   {
+    "name": "Tareo Anania",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.90",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 11; consolidation schedule 1952; struck → 22 Rehina Hau te Wake @ Rehina Boyce (11 HK 28/197)"
+   },
+   {
+    "name": "Karehu Eruera Rikihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 12; consolidation schedule 1952"
+   },
+   {
+    "name": "Hera Eruera Rikihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 13; consolidation schedule 1952"
+   },
+   {
+    "name": "Tautahi Eruera Rikihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 14; consolidation schedule 1952"
+   },
+   {
+    "name": "Maihi Eruera Rikihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.42",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 15; consolidation schedule 1952"
+   },
+   {
+    "name": "Pirihira Timoti Rikihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16; consolidation schedule 1952"
+   },
+   {
+    "name": "Tangaroa Timoti Rikihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 17; consolidation schedule 1952"
+   },
+   {
+    "name": "Wiremu Timoti Rikihana",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "1.14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 18; consolidation schedule 1952"
+   },
+   {
+    "name": "Ripeka Timoti Rikihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 19; consolidation schedule 1952"
+   },
+   {
+    "name": "Manu Timoti Rikihana",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "1.14",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 20; consolidation schedule 1952"
+   },
+   {
+    "name": "George Watkins",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "4.55",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 21; 4.55 from Hori Harimana (3 HK 26/299)"
+   },
+   {
+    "name": "Rehina Hau te Wake @ Rehina Boyce",
+    "role": "Purchaser / transferee",
+    "sex": "f",
+    "age": "",
+    "shares": "3.80",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "nos 22–23 (1.90 each, HK 28/197); bought the whole block for £70, 18.4.58 (TK 6/888)"
+   },
+   {
+    "name": "Wharehara Paiwiko Anania",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "1.90",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 24; 1.90 (10 K 30/47-48)"
+   }
+  ],
+  "notes": ""
  }
 ]
