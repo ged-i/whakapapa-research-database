@@ -4118,6 +4118,22 @@
     "document_url": "https://drive.google.com/file/d/1mx-U0c95auuH15CYoRGdhxJFQW_Vu1UU/view",
     "document_id": "PW-1306302",
     "note": ""
+   },
+   {
+    "event_id": "E007",
+    "type": "Other",
+    "date": "1828",
+    "place_type": "Place",
+    "place_ref": "Whangaroa",
+    "place_detail": "",
+    "latitude": -35.04,
+    "longitude": 173.74,
+    "description": "On the death of his father Hongi Hika at Whangaroa, Hongi's mana passed to Hāre Hongi Hika (his second son) and to Ururoa, Hongi's brother-in-law.",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "",
+    "note": "Published histories date the Whangaroa campaign and the wounding to January 1827 and Hongi's death to 6 March 1828; the whānau account gives 1826 for the take."
    }
   ]
  },
@@ -4252,10 +4268,59 @@
   "birthplace": "",
   "mother": "Tuhikura",
   "father": "Te Hōtete",
-  "notes": "",
+  "notes": "Whangaroa take raupatu (1826, whānau account): taua assembled at Tauranga Bay; Ōpōrae, Ohauroro and Taratara pā taken from Ngāti Pou; Te Puhi of Ngāti Uru fled Pōhue Pā for Hokianga; Hongi shot through the chest pursuing Ngāti Pou, lived another year at Whangaroa; mana to Hāre Hongi Hika and Ururoa.",
   "source": "https://teara.govt.nz/en/biographies/1h32/hongi-hika",
   "identities": [],
-  "events": []
+  "events": [
+   {
+    "event_id": "E001",
+    "type": "Other",
+    "date": "1826",
+    "place_type": "Place",
+    "place_ref": "Tauranga Bay, Whangaroa",
+    "place_detail": "",
+    "latitude": -34.997,
+    "longitude": 173.77,
+    "description": "Take raupatu of Hongi Hika in Whangaroa: the allied hapū assembled at Tauranga Bay; the taua took Ōpōrae Pā, then Ohauroro Pā, then Taratara Pā from Ngāti Pou. Te Puhi of Ngāti Uru, whom Hongi expected as an ally, abandoned Pōhue Pā and fled to Hokianga.",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "",
+    "note": "Published histories date the Whangaroa campaign and the wounding to January 1827 and Hongi's death to 6 March 1828; the whānau account gives 1826 for the take."
+   },
+   {
+    "event_id": "E002",
+    "type": "Other",
+    "date": "1826–27",
+    "place_type": "Place",
+    "place_ref": "Whangaroa",
+    "place_detail": "",
+    "latitude": -35.04,
+    "longitude": 173.74,
+    "description": "Shot through the chest while pursuing Ngāti Pou after the fall of Taratara; lived about another year at Whangaroa.",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "",
+    "note": "Published histories date the Whangaroa campaign and the wounding to January 1827 and Hongi's death to 6 March 1828; the whānau account gives 1826 for the take."
+   },
+   {
+    "event_id": "E003",
+    "type": "Death",
+    "date": "1828",
+    "place_type": "Place",
+    "place_ref": "Whangaroa",
+    "place_detail": "",
+    "latitude": -35.04,
+    "longitude": 173.74,
+    "description": "Died at Whangaroa of the chest wound received in the Whangaroa campaign, about a year after; his mana passed to his second son Hāre Hongi Hika and his brother-in-law Ururoa.",
+    "source_id": "S05",
+    "confidence": "stated",
+    "document_url": "",
+    "document_id": "",
+    "note": "Published histories date the Whangaroa campaign and the wounding to January 1827 and Hongi's death to 6 March 1828; the whānau account gives 1826 for the take."
+   }
+  ]
  },
  {
   "tupuna_id": "T018",
