@@ -78,5 +78,35 @@
   "colour": "#4b8a6e",
   "retrieved": "2026-10-06",
   "weight_note": "Tohu Whenua, NZHistory, DNZB/Te Ara biographies, WikiTree/Geni compilations — good for public figures and dates; cite the page."
+ },
+ {
+  "source_id": "S09",
+  "name": "NZHistory (Manatū Taonga — Ministry for Culture and Heritage)",
+  "type": "Government (Crown)",
+  "url": "https://nzhistory.govt.nz/",
+  "licence": "CC BY-NC 3.0 NZ",
+  "colour": "#1f5f8b",
+  "retrieved": "2026-11-02",
+  "weight_note": "Ministry for Culture and Heritage; includes the He Whakaputanga and Te Tiriti signatory database. High credibility for dated national events and signatories."
+ },
+ {
+  "source_id": "S10",
+  "name": "Heritage New Zealand Pouhere Taonga — the List",
+  "type": "Government (Crown entity)",
+  "url": "https://www.heritage.org.nz/the-list/",
+  "licence": "Crown copyright; cite",
+  "colour": "#7a4b1f",
+  "retrieved": "2026-11-02",
+  "weight_note": "Statutory register of historic places and wāhi tūpuna, researched with mana whenua; gives locations (NZTM) and summary histories."
+ },
+ {
+  "source_id": "S11",
+  "name": "Department of Conservation — historic heritage assessments",
+  "type": "Government (Crown)",
+  "url": "https://www.doc.govt.nz/",
+  "licence": "Crown copyright; cite",
+  "colour": "#2e6b4e",
+  "retrieved": "2026-11-02",
+  "weight_note": "DOC site assessments for reserves; local histories compiled from published and oral sources."
  }
 ]
