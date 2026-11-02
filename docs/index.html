@@ -1280,11 +1280,11 @@ function drawTupuna(){
     else if(l.location_type==='Block'){ if(l.latitude!=null&&l.longitude!=null) pts.push([+l.latitude,+l.longitude]); blockLinks.push([t,l]); }
     else if(l.location_type==='Place' && l.latitude!=null && l.longitude!=null){
       const ll=[+l.latitude,+l.longitude]; pts.push(ll);
-      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`<b>${esc(l.location_ref)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,className:'tlabel',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
+      L.marker(ll,{icon:L.divIcon({className:'place-pin',iconSize:[14,14]})}).bindTooltip(`<b>${esc(l.location_ref)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(l.relationship||'')}`,{permanent:true,className:'tlabel twrap',direction:'top',offset:[0,-8]}).addTo(tupunaLayer);
     }
   }));
   act.forEach(t=>{ [...(t.events||[])].sort(evSort).forEach((e,i)=>{ if(e.latitude==null||e.longitude==null) return; const ll=[+e.latitude,+e.longitude]; pts.push(ll);
-    L.marker(ll,{icon:L.divIcon({className:'ev-pin',iconSize:[20,20],html:String(i+1)}),zIndexOffset:500}).bindTooltip(`<b>${esc(e.date||'undated')} — ${esc(e.type)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(e.place_detail||e.place_ref||'')}${e.description?'<br>'+esc(e.description):''}`,{direction:'top',offset:[0,-10],className:'tlabel'}).addTo(tupunaLayer); }); });
+    L.marker(ll,{icon:L.divIcon({className:'ev-pin',iconSize:[20,20],html:String(i+1)}),zIndexOffset:500}).bindTooltip(`<b>${esc(e.date||'undated')} — ${esc(e.type)}</b><br>${act.length>1?esc(shortName(t))+': ':''}${esc(e.place_detail||e.place_ref||'')}${e.description?'<br>'+esc(e.description):''}`,{direction:'auto',offset:[10,0],className:'tlabel twrap'}).addTo(tupunaLayer); }); });
   if(iwiNames.size) drawRoheByNames([...iwiNames], false);
   if(blockLinks.length) tupunaBlockLayerDraw(blockLinks, act.length>1);
   if(pts.length) map.fitBounds(L.latLngBounds(pts).pad(.35),{animate:!reduced,maxZoom:12});
