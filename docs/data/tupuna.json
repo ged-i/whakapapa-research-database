@@ -8,7 +8,7 @@
   "birthplace": "",
   "mother": "Maraea Piri Paraiho",
   "father": "Rihari Matiu",
-  "notes": " Whirinaki 4A (1/15 from Peri Paraihe, 1936) was sold with the whole block to Poi Karora in 1947 (doc 1493066).",
+  "notes": " Whirinaki 4A (1/15 from Peri Paraihe, 1936) was sold with the whole block to Poi Karora in 1947 (doc 1493066). BDM: 1928 marriage (reg. 1928009192) — 'Riena Rihari', 18, born Whangape; parents Rihari Matiu and Maraea Piri Paraiho. Her 1980 death names her father Rihari Matthews.",
   "source": "Death certificate, marriage certificate",
   "links": [
    {
@@ -872,9 +872,9 @@
   "born": "1907",
   "died": "1966",
   "birthplace": "",
-  "mother": "Erihapeti Wiremu Tangata",
+  "mother": "Peti (Erihapeti) Wiremu Tangata",
   "father": "Arama Taniora",
-  "notes": " D024 (23 Oct 2026): a deceased 'Wiremu Arama (Adams)' took 1/15 of Tawaka Nehua's Te Tii (Waitangi) B3, Papakauri A and Rawhiti 2C interests on 3 Jun 1994 (doc 1320890) in a sibling group (Houston, Jones, Crawford, Ogle, Hodgson) that matches none of his recorded children — probably a Whangārei namesake; untested.",
+  "notes": " D024 (23 Oct 2026): a deceased 'Wiremu Arama (Adams)' took 1/15 of Tawaka Nehua's Te Tii (Waitangi) B3, Papakauri A and Rawhiti 2C interests on 3 Jun 1994 (doc 1320890) in a sibling group (Houston, Jones, Crawford, Ogle, Hodgson) that matches none of his recorded children — probably a Whangārei namesake; untested. BDM: 1928 marriage (reg. 1928009192, R.C. Church Waitaruke, 13 Aug 1928) names his parents Arama Taniora and Peti Wiremu; his 1966 death names them Arama and Peti.",
   "source": "Death certificate, marriage certificate",
   "events": [
    {
@@ -1228,9 +1228,9 @@
   "born": "1880",
   "died": "1915",
   "birthplace": "",
-  "mother": "Riha Taniora",
+  "mother": "Raiha Taniora",
   "father": "Taniora Rihari",
-  "notes": "Died early from Typhoid. \nLikely transcription errors on death certificate. Corrections for mother, \"Raiha\" (claim supported by Rihari Taniora marriage certificate); wife, \"Tangata\"; and hapū, \"Ngāti Tara.\"",
+  "notes": "Died early from Typhoid. \nLikely transcription errors on death certificate. Corrections for mother, \"Raiha\" (claim supported by Rihari Taniora marriage certificate); wife, \"Tangata\"; and hapū, \"Ngāti Tara.\" BDM death reg. 1915010233: Arama Taniora, Ngātitatara(?), d. 27 Jul 1915 Pupuke aged 35; father Taniora Rihari (Pupuke, Ngāti Tira?), mother 'Riha' Taniora (Pupuke, Ngāti Pakahi); wife Peti Tangatu; 4 sons, 3 daughters.",
   "source": "https://drive.google.com/file/d/1tEgE5_i1G0oXsyJfLE4qRopmufUHCzsw/view?usp=sharing",
   "identities": [],
   "events": [
@@ -1874,9 +1874,9 @@
   "born": "1880",
   "died": "1960",
   "birthplace": "",
-  "mother": "Tura Hāre Hongi",
+  "mother": "Tura Tangata",
   "father": "Wiremu Tangata",
-  "notes": "Not the \"Rihipeti Arama\" of Te Kohanga No. 1 (Ahipara): that woman succeeded to Hamiora Rungaiterangi in 1896 and died 17 Dec 1922 (doc 1391476) — see D009.",
+  "notes": "Not the \"Rihipeti Arama\" of Te Kohanga No. 1 (Ahipara): that woman succeeded to Hamiora Rungaiterangi in 1896 and died 17 Dec 1922 (doc 1391476) — see D009. BDM death reg. 1960040268 names her parents as Wiremu Tangata and Tura Tangata (Ngāpuhi).",
   "source": "https://drive.google.com/file/d/1fJ7MXVUxDjsxi-9aScU5EM18ThB3P1p3/view?usp=sharing",
   "identities": [
    {
@@ -2386,16 +2386,40 @@
     "relationship": "Grandchild",
     "notes": "inferred — 1/6 share, through a deceased child",
     "source": "Māori Land Court records (Pātaka Whenua) — Te Pupuke J succession order schedule (doc 1498426)"
+   },
+   {
+    "link_id": "L643",
+    "tupuna_id": "T006",
+    "location_type": "Tupuna",
+    "location_ref": "T163",
+    "location_detail": "Tangiwhare",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
+   },
+   {
+    "link_id": "L644",
+    "tupuna_id": "T006",
+    "location_type": "Tupuna",
+    "location_ref": "T164",
+    "location_detail": "Ani Tangiwhare",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
    }
   ],
   "name": "Wiremu Tangata",
   "other_names": "",
   "born": "1861",
-  "died": "1926",
+  "died": "1927-02-13",
   "birthplace": "",
   "mother": "Ani Tangiwhare",
   "father": "Tangiwhare",
-  "notes": "Died in Omaunu. Two death records with slightly different information. NOT the same man as Wiremu Ratana Snr / Wiremu Ratana Tamaho I of Mititai (d. 26 Dec 1954; daughters Elizabeth Mrs Adams, Lottie/Harata Mrs Martin Matiu, Ema Mrs Harrison) — the three succession orders of 19 Sep 1957, HK 28/172 (docs 1445525, 1396552, 1301211). 'Wiremu Tana' remains one of his names (Court, 8 Oct 2026).",
+  "notes": "Died in Omaunu. Two death records with slightly different information. NOT the same man as Wiremu Ratana Snr / Wiremu Ratana Tamaho I of Mititai (d. 26 Dec 1954; daughters Elizabeth Mrs Adams, Lottie/Harata Mrs Martin Matiu, Ema Mrs Harrison) — the three succession orders of 19 Sep 1957, HK 28/172 (docs 1445525, 1396552, 1301211). 'Wiremu Tana' remains one of his names (Court, 8 Oct 2026). BDM: death registered twice in 1927 — reg. 1927012178 (Kaeo): d. 13 Feb 1927 at Omaunu, Pupuke, Tahaawai, aged 66, father Tangiwhare and mother Ani Tangiwhare, both of Pupuke, Tahaawai; reg. 1927012511 (Pupuke): Ngāpuhi, aged 70, father 'Tangawhare' (Pupuke, Ngāpuhi), mother Ani (Pupuke, Ngāti Pakihi). Wife Tura on both.",
   "source": "https://drive.google.com/file/d/1PUQgjUGvdDGytfeg68-0NLKUY0kLCS3Y/view?usp=sharing",
   "identities": [
    {
@@ -2995,9 +3019,9 @@
   "born": "1880",
   "died": "1949",
   "birthplace": "",
-  "mother": "Mini Matiu",
+  "mother": "Mini Matiu Wiripo",
   "father": "Matiu Wiripo",
-  "notes": "Rihari remarried several times. D025 (24 Oct 2026): a 'Peri R. Matia' (d. 1937), grandson of Paetau te Ihahuhu, on Whirinaki 4A — possibly a son by an earlier wife; untested.",
+  "notes": "Rihari remarried several times. D025 (24 Oct 2026): a 'Peri R. Matia' (d. 1937), grandson of Paetau te Ihahuhu, on Whirinaki 4A — possibly a son by an earlier wife; untested. BDM death reg. 1949033427: Charlie Rihari Matthews Matiu, d. 7 Aug 1949 Pawarenga aged 69, buried Rotokakahi; father Matiu Wiripo (Pawarenga, Aupōuri), mother Mini Matiu Wiripo (Pawarenga, Ngāti Kahu); wife 'Martha Mata Matthews Matiu'.",
   "source": "",
   "identities": [
    {
@@ -3213,7 +3237,7 @@
   "birthplace": "",
   "mother": "Iriaka Te Moki",
   "father": "Wiripo Te Moki",
-  "notes": "",
+  "notes": "BDM death (Pawarenga 1931): d. 17 Jul 1931 Rotokakahi, Pawarenga, aged 75, Te Uriotai; father Wiripo Te Moki, mother Iriaka Te Moki, both of Rotokakahi, Pawarenga, Te Uriotai; wife 'Mino' Wiripo.",
   "source": "https://drive.google.com/file/d/1mke0SYEFY25MibINSho5DCBqSvuf4OxU/view?usp=sharing",
   "identities": [
    {
@@ -3392,7 +3416,7 @@
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Death certificate does not hold a mother and father, but holds their hapū and iwi information.",
+  "notes": "Death certificate does not hold a mother and father, but holds their hapū and iwi information. BDM death (Pawarenga, Q4 1927): d. 4 Nov 1927 Rotokakahi, nearly 80, Ngāti Pakahi; wife of Matiu Wiripo; parents' names 'not known' — father of Pukepoto, Ngāti Pakahi; mother of Te Rarawa. Informant Hannah Matiu, daughter-in-law.",
   "source": "https://drive.google.com/file/d/1oxLtMUqjlgTr08OOu2k67U44eJ-T6Ejk/view?usp=sharing",
   "identities": [
    {
@@ -4924,11 +4948,11 @@
   "name": "Peri Paraihe",
   "other_names": "Kaperiere Paraihe",
   "born": "",
-  "died": "1929-09-07",
+  "died": "1929-09-17",
   "birthplace": "",
-  "mother": "",
-  "father": "",
-  "notes": "Recorded as \"Peri Paraihe alias Kaperiere Paraihe\" on his succession orders (25 Sep 1936). Two wives: Horomena Toriwhina (1st) and Ruhia Matiu Wiripo (2nd). Died 7 September 1929 (minute book). Held interests in fifteen blocks — Manukau A, Oturu A, Owhata B, Pakinga B2A/B2B/C1, Pakohu 1, Pakohu 2B2A, Rotokakahi A3B1B1B, Wairoa C1, Wairoa A, Whakakoro B2A, Whakakoro F4, Whirinaki 4A, Paihia 1M3A — succeeded to by nine descendants in 1936. Father of Maraea Piri Paraiho (wife of Rihari Matiu). Whirinaki 4A: the schedule copy of the 1936 order is doc 1493066; the whole block (99 owners) was sold to Poi Karora, confirmed 26 May 1947 (TK 58/74), so it is no longer whānau land.",
+  "mother": "Moengaroa Tatoru",
+  "father": "Paraihe Tatoru",
+  "notes": "Recorded as \"Peri Paraihe alias Kaperiere Paraihe\" on his succession orders (25 Sep 1936). Two wives: Horomena Toriwhina (1st) and Ruhia Matiu Wiripo (2nd). Died 7 September 1929 (minute book). Held interests in fifteen blocks — Manukau A, Oturu A, Owhata B, Pakinga B2A/B2B/C1, Pakohu 1, Pakohu 2B2A, Rotokakahi A3B1B1B, Wairoa C1, Wairoa A, Whakakoro B2A, Whakakoro F4, Whirinaki 4A, Paihia 1M3A — succeeded to by nine descendants in 1936. Father of Maraea Piri Paraiho (wife of Rihari Matiu). Whirinaki 4A: the schedule copy of the 1936 order is doc 1493066; the whole block (99 owners) was sold to Poi Karora, confirmed 26 May 1947 (TK 58/74), so it is no longer whānau land. BDM death reg. 1929012251: Peri Paraihe of Pakinga, Pawarenga, Te Uriotai, aged 75, d. 17 Sep 1929 at Ngatunae, Pawarenga (influenza); father Paraihe Tatoru, mother Moengaroa Tatoru, both of Pakinga, Pawarenga, Te Uriotai; wife Ruhia Paraihe; 3 sons, 2 daughters living.",
   "source": "Māori Land Court records (Pātaka Whenua) — minute book 15 HK 261, 25 Sep 1936 (doc 1650181)",
   "identities": [
    {
@@ -5359,6 +5383,30 @@
     "shares": "1/4 = 2.273",
     "source_id": "S07",
     "document_id": "PW-1487280"
+   },
+   {
+    "link_id": "L646",
+    "tupuna_id": "T021",
+    "location_type": "Tupuna",
+    "location_ref": "T165",
+    "location_detail": "Paraihe Tatoru",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Father",
+    "notes": "",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
+   },
+   {
+    "link_id": "L647",
+    "tupuna_id": "T021",
+    "location_type": "Tupuna",
+    "location_ref": "T147",
+    "location_detail": "Moengaroa Paraihe",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Mother",
+    "notes": "Moengaroa Tatoru on Peri's 1929 death certificate",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
    }
   ]
  },
@@ -10893,7 +10941,7 @@
   "name": "Makura Albert Cassidy Arama",
   "other_names": "Makura Arama",
   "born": "",
-  "died": "before 1993",
+  "died": "1989",
   "birthplace": "",
   "mother": "",
   "father": "",
@@ -11905,8 +11953,8 @@
   "born": "",
   "died": "",
   "birthplace": "",
-  "mother": "",
-  "father": "",
+  "mother": "Tura Hāre Hongi",
+  "father": "Wiremu Tangata",
   "notes": "Daughter of Wiremu Tangata (inferred: 1/3 successor alongside Peti Wiremu Tangata, 20 July 1949, Te Pupuke J). Sister of Erihapeti (Peti) Arama. Cf. \"Ani\" appearing with \"Wiremu Tana\" and \"Paora\" names in the Pokaka records (whānau note on Wiremu Tangata).",
   "source": "Māori Land Court records (Pātaka Whenua) — Te Pupuke J succession order schedule (doc 1498426)",
   "identities": [],
@@ -15605,13 +15653,13 @@
  {
   "tupuna_id": "T147",
   "name": "Moengaroa Paraihe",
-  "other_names": "",
+  "other_names": "Moengaroa Tatoru",
   "born": "",
   "died": "before 1889",
   "birthplace": "",
   "mother": "",
   "father": "",
-  "notes": "Owner (list no. 11, 9.090 shares) in Owhata; succession vesting order 13 Nov 1889 (N 10/4?) to Peri Paraihe, Wi Paraihe, Hira Amuketi and Te Hemowai Pirini, 2.273/2.272 each — the four Paraihe siblings. Written \"Moengaroa (Paraihe)\": either the mother of Hone Paraihe's children or a sibling who died young; relationship not stated. The earliest Paraihe succession in the collection (1889).",
+  "notes": "Owner (list no. 11, 9.090 shares) in Owhata; succession vesting order 13 Nov 1889 (N 10/4?) to Peri Paraihe, Wi Paraihe, Hira Amuketi and Te Hemowai Pirini, 2.273/2.272 each — the four Paraihe siblings. Written \"Moengaroa (Paraihe)\": either the mother of Hone Paraihe's children or a sibling who died young; relationship not stated. The earliest Paraihe succession in the collection (1889). Mother of Peri Paraihe (named 'Moengaroa Tatoru' on his 1929 death certificate, of Pakinga, Pawarenga, Te Uriotai).",
   "source": "Māori Land Court records (Pātaka Whenua) — Owhata A schedule of ownership orders 1889–1962 (doc 1487280)",
   "identities": [],
   "events": [
@@ -16719,6 +16767,77 @@
     "relationship": "Child",
     "notes": "stated as successors; parentage inferred",
     "source": "Paihia 1D12, HK 10/186"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T163",
+  "name": "Tangiwhare",
+  "other_names": "Tangawhare",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Father of Wiremu Tangata, named on both 1927 registrations of his son's death (reg. 1927012178: of Pupuke, Tahaawai; reg. 1927012511: 'Tangawhare', of Pupuke, Ngāpuhi).",
+  "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)",
+  "identities": [],
+  "events": [],
+  "links": [
+   {
+    "link_id": "L645",
+    "tupuna_id": "T163",
+    "location_type": "Tupuna",
+    "location_ref": "T164",
+    "location_detail": "Ani Tangiwhare",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
+   }
+  ]
+ },
+ {
+  "tupuna_id": "T164",
+  "name": "Ani Tangiwhare",
+  "other_names": "Ani",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Mother of Wiremu Tangata, named on both 1927 registrations of his death (of Pupuke; hapū given as Tahaawai on one and Ngāti Pakihi on the other).",
+  "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)",
+  "identities": [],
+  "events": [],
+  "links": []
+ },
+ {
+  "tupuna_id": "T165",
+  "name": "Paraihe Tatoru",
+  "other_names": "",
+  "born": "",
+  "died": "",
+  "birthplace": "",
+  "mother": "",
+  "father": "",
+  "notes": "Father of Peri Paraihe, named on Peri's 1929 death certificate (reg. 1929012251): of Pakinga, Pawarenga, Te Uriotai. See D027 — the map had given Peri's father as Hone Paraihe (T034).",
+  "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)",
+  "identities": [],
+  "events": [],
+  "links": [
+   {
+    "link_id": "L648",
+    "tupuna_id": "T165",
+    "location_type": "Tupuna",
+    "location_ref": "T147",
+    "location_detail": "Moengaroa Paraihe",
+    "latitude": null,
+    "longitude": null,
+    "relationship": "Spouse / partner",
+    "notes": "",
+    "source": "NZ Births, Deaths and Marriages — certificate held by the whānau (copy not published)"
    }
   ]
  }
