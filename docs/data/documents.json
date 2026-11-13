@@ -108891,5 +108891,599 @@
    }
   ],
   "notes": ""
+ },
+ {
+  "document_id": "PW-1280531",
+  "doc_no": "1280531",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Taikarawa",
+  "title": "Taikarawa B — schedule of ownership orders 1971–1995 (2 pages): Re te Tai's 100 shares to Penetana Matiu Heta or Ben Matthews and Helena Teita Kovacevich (1972); Ben Matthews' 50 shares to 21 successors including the Matthews whānau (1995)",
+  "blocks_recorded": [
+   "Taikarawa B"
+  ],
+  "block_ids": [
+   "29837"
+  ],
+  "record_date": "1971-04-06",
+  "effective_date": "1995-04-03",
+  "court": "Maori Land Court, Tokerau — Hokianga (Taikarawa B, 102a 3r 37p, 300 shares)",
+  "judge": "",
+  "minute_book": "8 RO 21(?); KT 7/314; 3 RCTO 154; 78A/61; 18 KT 354-6",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "00788901_01280531_0001_0002_LHO_Document-1280531.pdf",
+  "drive_id": "",
+  "file_size": "477585",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Area 102a 3r 37p (41.6750 ha), 300.000 shares. Owners 1 Maori Trustee (200.000), 2 Re te Tai (100.000). 6.4.71: Maori Trustee 200.000 → Harold George Leef 147.500 and Maori Trustee 52.500; 23.3.72 Maori Trustee 52.500 → Harold George Leef (200.000). REA TE MAUNGA TE TAI (list 2, 100.000, KT 7/314) → 6.10.72 (succession) 6 Penetana Matiu Heta m.a. 1/2 50.000 and 7 Helena Teita Kovacevich f.a. 1/2 50.000. Harold George Leef → 10 Gemma Mary Leef as administratrix (5.4.94). Helena Teita Kovacevich (list 7) → 20.10.92 order 78A/61: 8 Michael Steve Kovacevich 25.000, 9 Hana Teresa Renata 25.000. PENETANA MATIU HETA OR BEN MATTHEWS (list 6, 50.000; 18 KT 354-6) → 3.4.95: 11 Barbara Hoera, 12 Margaret Anne Rupapera, 13 Tatarina (Angie) Poutu, 14 Eunice Pomare, 15 Pauline Matthews, 16 Sarah (Nanima) Maxwell, 17 Meremere Matthews, 18 Hinemoa Matthews — 5.000 each; 19 Manawanui, 20 Hoihea, 21 Anaru, 22 Amakura Matthews — 1.250 each; 23–31 Kim, Josephine, Dean, Massey, Boboy(?), Lucy, Alpha(?), Giovanni(?), Omega Wade — 0.555/0.556 each.",
+  "names": [
+   {
+    "name": "Rea Te Maunga Te Tai or Re te Tai",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "100.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "list 2, 100.000; succession 6.10.72 (KT 7/314) → Penetana Matiu Heta 1/2, Helena Teita Kovacevich 1/2"
+   },
+   {
+    "name": "Penetana Matiu Heta or Ben Matthews",
+    "role": "Successor",
+    "sex": "m",
+    "age": "adult",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "Penetana Matiu Heta or Ben Matthews — successor (m.a., 1/2) to Rea Te Maunga Te Tai, 6.10.72 (KT 7/314); d. by 1995 → 21 successors, order 78A/67(?), 3.4.95 (18 KT 354-6). 'Matiu' in his name and the Matthews surname of his successors point to the Matiu / Matthews whānau of Pawarenga (Rihari Matiu, T009, was 'Charlie Matthews'); relationship not yet established — see D029"
+   },
+   {
+    "name": "Helena Teita Kovacevich",
+    "role": "Successor",
+    "sex": "f",
+    "age": "adult",
+    "shares": "50.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1/2 of Rea Te Maunga Te Tai, 6.10.72; d. → Michael Steve Kovacevich and Hana Teresa Renata, 20.10.92"
+   },
+   {
+    "name": "Michael Steve Kovacevich",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "25.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "25.000, 20.10.92"
+   },
+   {
+    "name": "Hana Teresa Renata",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "25.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "25.000, 20.10.92"
+   },
+   {
+    "name": "Harold George Leef",
+    "role": "Purchaser / transferee",
+    "sex": "m",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "from Maori Trustee 147.500 (6.4.71) and 52.500 (23.3.72); d. → Gemma Mary Leef as administratrix, 5.4.94"
+   },
+   {
+    "name": "Gemma Mary Leef",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "200.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "as administratrix of Harold George Leef, 5.4.94"
+   },
+   {
+    "name": "Barbara Hoera",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Margaret Anne Rupapera",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Tatarina (Angie) Poutu",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Eunice Pomare",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Pauline Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Sarah (Nanima) Maxwell",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Meremere Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Hinemoa Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "5.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Manawanui Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Hoihea Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Anaru Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Amakura Matthews",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "1.250",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95 — name close to Makura Arama (T065), whose mother was a Matiu; a different person (Makura d. 1989); see D029"
+   },
+   {
+    "name": "Kim Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Josephine Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Dean Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Massey Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Boboy Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Lucy Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Alpha Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Giovanni Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   },
+   {
+    "name": "Omega Wade",
+    "role": "Successor",
+    "sex": "",
+    "age": "",
+    "shares": "0.555",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "of Ben Matthews, 3.4.95"
+   }
+  ],
+  "notes": "WHĀNAU-LINKED? Penetana Matiu Heta or Ben Matthews carries 'Matiu' and the Matthews surname — the Pawarenga Matiu / Matthews line of Rihari Matiu (T009, 'Charlie Matthews', who had one son living in 1949). Among his 1995 successors is AMAKURA MATTHEWS, a name almost identical to Makura Arama's (T065; his mother Rirena was a Matiu). Makura died in 1989, so Amakura is a different person — possibly named for him, which would suggest close kinship between Ben Matthews' family and the Arama-Matiu whānau. See D029. 'Ratio/From' entries beside Penetana and Helena (1972) are struck and partly illegible."
+ },
+ {
+  "document_id": "PW-1509897",
+  "doc_no": "1509897",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Taikarawa",
+  "title": "Taikarawa B — succession order schedules 1910–1966 (2 pages): Hohepa, te Pana, Taurere, Rikihana and Waiari successions",
+  "blocks_recorded": [
+   "Taikarawa B"
+  ],
+  "block_ids": [
+   "29837"
+  ],
+  "record_date": "1910-05-15",
+  "effective_date": "1966-11-30",
+  "court": "Maori Land Court, Tokerau — Hokianga (Taikarawa B, 102a 3r 37p, 300 shares)",
+  "judge": "",
+  "minute_book": "HKC 4/266-267; HK 18/11, 18/19; WH 32/360",
+  "pages": 2,
+  "page_range": "",
+  "file_name": "01010321_01509897_0001_0002_LHO_Document-1509897.pdf",
+  "drive_id": "",
+  "file_size": "306688",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Form 16: Hera Hohepa alias Raiha Hohepa (Hone Paikea) → Eruera and Timoti Rikihana equally (15.5.10); Nutana te Pana (1926), Kihi Pato te Pana (1908), Repeka te Pana (1920) and Makoare te Pana Taurere (1920) → the te Pana Taurere, Henare Popata and Rapine Taurere families and Hanuera Waiari (8.10.36); Timoti W. Rikihana (1918) → Pirihira, Tangaroa, Wiremu, Ripeka, Manu, Awihi (19.9.40); Eruera W. Rikihana (1927) → Te Karehu, Tautahi, Maihi, Hera Eruera Rikihana @ Ipukura (18.9.40); Hanuera Waiari → Louie Mary Manuel (Mrs L.M. Hamm) solely (30.11.66).",
+  "names": [
+   {
+    "name": "Hera Hohepa alias Raiha Hohepa",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "15.5.10 → Eruera and Timoti Rikihana equally"
+   },
+   {
+    "name": "Hanuera Waiari",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "30.11.66 → Louie Mary Manuel"
+   }
+  ],
+  "notes": "No whānau tupuna named."
+ },
+ {
+  "document_id": "PW-1509909",
+  "doc_no": "1509909",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Taikarawa",
+  "title": "Taikarawa B — schedule of ownership orders 1910–1966 and compiled list of 21 owners at 30 Nov 1960 (4 pages): Rikihana, Popata, Taurere, Te Pana and Re te Tai interests",
+  "blocks_recorded": [
+   "Taikarawa B"
+  ],
+  "block_ids": [
+   "29837"
+  ],
+  "record_date": "1910-05-18",
+  "effective_date": "1966-11-30",
+  "court": "Maori Land Court, Tokerau — Hokianga (Taikarawa B, 102a 3r 37p, 300 shares)",
+  "judge": "",
+  "minute_book": "Ohonui(?) 1910; HKC 4/226, 4/264 (8.10.36); HK 18/19, 18/11 (19.9.40); WH 32/360 (30.11.66); R2/167; R2/168",
+  "pages": 4,
+  "page_range": "",
+  "file_name": "01010333_01509909_0001_0004_LHO_Document-1509909.pdf",
+  "drive_id": "",
+  "file_size": "956723",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "Original owners Raiha Hohepa (Hera Hohepa alias Raiha Hohepa) and Hone Paikea, 33.333 each; Raiha Hohepa → Timoti and Eruera Rikihana (18.5.10). 8.10.36: Nutana te Pana → Matire te Pana Taurere, Hanuera Waiari, the Henare Popata children (Harama, Haare, Matiu, Mere, Rapa), Manahi, Te Ingoingo, Tame Rapine, Hohepa and Matire te Pana Taurere; Kihi Pato te Pana → Hanuera Waiari; Repeka te Pana → the five Henare Popata; Makoare te Pana Taurere → Manahi, Te Ingoingo, Tame Rapine, Hohepa, Matire. 19.9.40: Timoti W. Rikihana → Pirihira, Tangaroa, Wiremu, Ripeka, Manu, Awihi Timoti Rikihana; Eruera W. Rikihana → Te Karehu, Hera (Ipukura), Tautahi, Maihi Eruera Rikihana. 30.11.66: Hanuera Waiari → Louie Mary Manuel @ Mrs L.M. Hamm. Compiled list 30.11.60 of 21 owners (300.000 shares) including Re te Tai (16, 10.000; list 2 at 100.000 on the 1972 schedule). Later: Hohepa Rapine Taurere → Kataraina Taupaki (1964) → Tame Rapine Taurere (1965).",
+  "names": [
+   {
+    "name": "Raiha Hohepa alias Hera Hohepa",
+    "role": "Deceased",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "original owner 33.333; 18.5.10 → Timoti and Eruera Rikihana"
+   },
+   {
+    "name": "Hone Paikea",
+    "role": "Original owner",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "33.333"
+   },
+   {
+    "name": "Timoti Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "16.666 (1910); d. 1918 → his six children 19.9.40"
+   },
+   {
+    "name": "Eruera Rikihana",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "1910; d. 1927 → his four children 19.9.40"
+   },
+   {
+    "name": "Nutana te Pana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "8.10.36 (HKC 4/226)"
+   },
+   {
+    "name": "Kihi Pato te Pana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "8.10.36 → Hanuera Waiari solely"
+   },
+   {
+    "name": "Repeka te Pana",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "8.10.36 → Harama, Haare, Matiu, Mere, Rapa Henare Popata"
+   },
+   {
+    "name": "Makoare te Pana Taurere",
+    "role": "Deceased",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "8.10.36 → Manahi, Te Ingoingo, Tame Rapine, Hohepa, Matire"
+   },
+   {
+    "name": "Hanuera Waiari",
+    "role": "Deceased",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "successor 1936; d. → Louie Mary Manuel @ Mrs L.M. Hamm 30.11.66 (WH 32/360)"
+   },
+   {
+    "name": "Louie Mary Manuel @ Mrs L.M. Hamm",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "25.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "25.000"
+   },
+   {
+    "name": "Re te Tai",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "compiled list 30.11.60, no. 16 — see Rea Te Maunga Te Tai, 1280531"
+   },
+   {
+    "name": "Matiu Henare Popata",
+    "role": "Owner",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "5.000 (1960)"
+   },
+   {
+    "name": "Kataraina Taupaki",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "to Hohepa Rapine Taurere 1964; d. → Tame Rapine Taurere 1965"
+   }
+  ],
+  "notes": "No whānau tupuna named. Kept for the Re te Tai interest, which passed in 1972 to Penetana Matiu Heta or Ben Matthews (see 1280531)."
+ },
+ {
+  "document_id": "PW-1509985",
+  "doc_no": "1509985",
+  "type": "LHO",
+  "type_label": "List of owners",
+  "folder": "Taikarawa",
+  "title": "Taikarawa B — schedule of 21 owners and ownership orders 1964–1970 (3 pages): interests vested in the Maori Trustee",
+  "blocks_recorded": [
+   "Taikarawa B"
+  ],
+  "block_ids": [
+   "29837"
+  ],
+  "record_date": "1964-02-13",
+  "effective_date": "1970-05-11",
+  "court": "Maori Land Court, Tokerau — Hokianga (Taikarawa B, 102a 3r 37p, 300 shares)",
+  "judge": "",
+  "minute_book": "AK 27/183; AK 28/58; R7/137; R7/183; 2/536",
+  "pages": 3,
+  "page_range": "",
+  "file_name": "01010409_01509985_0001_0003_LHO_Document-1509985.pdf",
+  "drive_id": "",
+  "file_size": "529715",
+  "url": "",
+  "source_id": "S07",
+  "status": "transcribed",
+  "summary": "M.L.C. 118A schedule of 21 owners (most struck through as vested in the Maori Trustee); Re te Tai (no. 16, f, 10.000) is one of the few left standing. Orders: Pirihira Timoti Rikihana → Ina Natere (13.2.64); Matiu Henare Popata → Mata Matiu Kapa (1969); Te Karehu Eruera Rikihana, Louie Mary Manuel (Mrs Hamm) and Ripeka Timoti Rikihana interests → Maori Trustee (1969); 11.5.70 owners 1–3, 6–9, 11, 15, 18–21 → Maori Trustee (order 445/53, 147.500).",
+  "names": [
+   {
+    "name": "Re te Tai",
+    "role": "Owner",
+    "sex": "f",
+    "age": "",
+    "shares": "10.000",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "no. 16, 10.000"
+   },
+   {
+    "name": "Ina Natere",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "to Pirihira Timoti Rikihana, 13.2.64"
+   },
+   {
+    "name": "Mata Matiu Kapa",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "to Matiu Henare Popata, 1969"
+   },
+   {
+    "name": "Maori Trustee",
+    "role": "Purchaser / transferee",
+    "sex": "",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "",
+    "confidence": "stated",
+    "note": "vested 1969–70 (orders 151/53, 445/53)"
+   }
+  ],
+  "notes": "No whānau tupuna named. Shows Re te Tai's interest surviving the 1960s vestings in the Maori Trustee."
  }
 ]
