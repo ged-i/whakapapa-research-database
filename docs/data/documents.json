@@ -15837,9 +15837,9 @@
     "sex": "",
     "age": "",
     "shares": "",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "no. 11 of 34 owners under the certificate of title of 26 Aug 1875"
+    "tupuna_id": "T150",
+    "confidence": "inferred",
+    "note": "no. 11 of 34 owners under the certificate of title of 26 Aug 1875. Identified with Patara te Whakarorowai (T150): the deceased Patara Roro is succeeded 1.4.80 by 'Arama Te Pehi' and Horiana Motio — the same two successors as Patara te Whakarorowai on Waikukupa, 2.4.80 (doc 1428316). Confirmed by Ged, 26 Nov 2026."
    },
    {
     "name": "Hema Ururoa",
@@ -16240,9 +16240,9 @@
     "sex": "",
     "age": "",
     "shares": "",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "no. 6; deceased 1.4.80 → Arama Te Pehi m, Horiana Motio f"
+    "tupuna_id": "T150",
+    "confidence": "inferred",
+    "note": "no. 6; deceased 1.4.80 → Arama Te Pehi m, Horiana Motio f. Identified with Patara te Whakarorowai (T150): the deceased Patara Roro is succeeded 1.4.80 by 'Arama Te Pehi' and Horiana Motio — the same two successors as Patara te Whakarorowai on Waikukupa, 2.4.80 (doc 1428316). Confirmed by Ged, 26 Nov 2026."
    },
    {
     "name": "Hone Kingi Tapu alias Te Arama",
@@ -16353,6 +16353,26 @@
     "tupuna_id": "",
     "confidence": "stated",
     "note": "no. 17"
+   },
+   {
+    "name": "Arama Te Pehi",
+    "role": "Successor",
+    "sex": "m",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T148",
+    "confidence": "inferred",
+    "note": "from Patara Roro alias Kaierau(?), deceased, order 1.4.80, with Horiana Motio — 'Pehi' read as a transcription error for 'Puhi' (Arama te Puhi on the Waikukupa list, doc 1428316)"
+   },
+   {
+    "name": "Horiana Motio",
+    "role": "Successor",
+    "sex": "f",
+    "age": "",
+    "shares": "",
+    "tupuna_id": "T151",
+    "confidence": "inferred",
+    "note": "from Patara Roro alias Kaierau(?), order 1.4.80, with Arama Te Pehi"
    }
   ],
   "notes": "\"Tura Wiremu\" first read here as \"Piera Wiremu\" and corrected against the Waihapa register. Several other readings uncertain (faint copperplate). The 1890 order date suggests Hāre Hongi Hika died before 1890 (whānau record: 1885)."
@@ -16454,9 +16474,9 @@
     "sex": "",
     "age": "",
     "shares": "",
-    "tupuna_id": "",
-    "confidence": "stated",
-    "note": "no. 6 of 17 in the memorial of ownership"
+    "tupuna_id": "T150",
+    "confidence": "inferred",
+    "note": "no. 6 of 17 in the memorial of ownership. Identified with Patara te Whakarorowai (T150): the deceased Patara Roro is succeeded 1.4.80 by 'Arama Te Pehi' and Horiana Motio — the same two successors as Patara te Whakarorowai on Waikukupa, 2.4.80 (doc 1428316). Confirmed by Ged, 26 Nov 2026."
    },
    {
     "name": "Hema Ururoa",
