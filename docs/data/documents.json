@@ -18611,7 +18611,7 @@
     "shares": "1.000",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "list 18; s.o. 5.9.1896 (N 17/47) → 37 Rihipeti Arama F 1/3 .334, 38 Hariata Haimona F 1/3 .333, 39 Te Wikiriwhi Poutu M 1/3 .333"
+    "note": "list 18; s.o. 5.9.1896 (N 17/47) → 37 Rihipeti Arama F 1/3 .334, 38 Hariata Haimona F 1/3 .333, 39 Te Wikiriwhi Poutu M 1/3 .333 — d. at Ahipara 7 Jan 1882, no will (Minute N 17/54 (Ahipara, 1896; supplied by Ged 26 Nov 2026))."
    },
    {
     "name": "Rihipeti Arama",
@@ -18620,8 +18620,8 @@
     "age": "",
     "shares": ".334",
     "tupuna_id": "",
-    "confidence": "contradicted",
-    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015. — identification with Raiha Taniora (T013) withdrawn 17 Oct 2026: Raiha died 24 Mar 1897 (doc 1428316); see D015"
+    "confidence": "stated",
+    "note": "Wife of ARAMA HOHEPA. Minute N 17/54 (Ahipara, 1896; supplied by Ged 26 Nov 2026): succession no. 107, Te Kohanga No 1 — 'Rihipeti Arama claims to succeed Hamiora Rungaiterangi. Arama Hohepa sworn states: I am Rihipeti's husband. I produce her authority to act. I knew deceased. He died at Ahipara 7 Jany 1882. He left no will.' Order to Rihipeti Arama f.a., Hariata Haimona f.a. and Te Wikiriwhi Poutu m.a. in equal shares (order prepared 19.10.96). Minute N 59/4 (1925; supplied by Ged 26 Nov 2026): 'No 44 Rihipeti Arama decd — Appln for probate of Eruera Paora. Date of death sworn as 17 Dec 22. Objections challenged — none. Decd left no children. Probate granted.' Orders in terms of the will to Eruera Paora m in Ahipara 0G(?), Kohanga No 1, Parengarenga 5B2 and Turiapua C (pencil: 'R. Hamiora'); also Ohuri(?) A. So her 'Arama' is her husband's name, she died testate and childless in 1922, and she is NOT Raiha Taniora (T013), who was Taniora Rihari's wife, died 1897 and left seven children. D015 resolved."
    },
    {
     "name": "Hariata Haimona",
@@ -18631,7 +18631,7 @@
     "shares": ".333",
     "tupuna_id": "",
     "confidence": "stated",
-    "note": "no. 38; succeeded 5.9.1896 (N 17/47) to Hamiora Rungaiterangi alias Hamiora, 1/3 each with Rihipeti Arama and Te Wikiriwhi Poutu. Equal thirds suggest the three stood in the same degree to Hamiora; the record does not say how. Earlier note placing her 'on the Te Patara side' depended on reading Rihipeti Arama as Raiha Taniora (D015) and is withdrawn as unproven, 26 Nov 2026. Not Hariata Rongo (d. 1894)."
+    "note": "no. 38; succeeded 1896 to Hamiora Rungaiterangi (d. Ahipara 7 Jan 1882), 1/3 each with Rihipeti Arama (wife of Arama Hohepa) and Te Wikiriwhi Poutu. Minute N 17/54 (Ahipara, 1896; supplied by Ged 26 Nov 2026): margin note beside her name reads 'brother['s] daughter' — apparently a niece of Hamiora, i.e. daughter of his brother (Haimona?). No Te Patara connection shown. Not Hariata Rongo (d. 1894)."
    },
    {
     "name": "Te Wikiriwhi Poutu",
@@ -18650,8 +18650,8 @@
     "age": "",
     "shares": ".334",
     "tupuna_id": "",
-    "confidence": "contradicted",
-    "note": "Attributed (inferred) to Raiha Taniora (T013), mother of Arama Taniora: Rihipeti/Raiha are Elizabeth/Eliza, \"Arama\" = daughter of Arama Te Patara; adult in 1896, d. 17.12.1922 (Taniora Rihari also d. 1922). See D015. — identification with Raiha Taniora (T013) withdrawn 17 Oct 2026: Raiha died 24 Mar 1897 (doc 1428316); see D015"
+    "confidence": "stated",
+    "note": "Wife of ARAMA HOHEPA. Minute N 17/54 (Ahipara, 1896; supplied by Ged 26 Nov 2026): succession no. 107, Te Kohanga No 1 — 'Rihipeti Arama claims to succeed Hamiora Rungaiterangi. Arama Hohepa sworn states: I am Rihipeti's husband. I produce her authority to act. I knew deceased. He died at Ahipara 7 Jany 1882. He left no will.' Order to Rihipeti Arama f.a., Hariata Haimona f.a. and Te Wikiriwhi Poutu m.a. in equal shares (order prepared 19.10.96). Minute N 59/4 (1925; supplied by Ged 26 Nov 2026): 'No 44 Rihipeti Arama decd — Appln for probate of Eruera Paora. Date of death sworn as 17 Dec 22. Objections challenged — none. Decd left no children. Probate granted.' Orders in terms of the will to Eruera Paora m in Ahipara 0G(?), Kohanga No 1, Parengarenga 5B2 and Turiapua C (pencil: 'R. Hamiora'); also Ohuri(?) A. So her 'Arama' is her husband's name, she died testate and childless in 1922, and she is NOT Raiha Taniora (T013), who was Taniora Rihari's wife, died 1897 and left seven children. D015 resolved."
    },
    {
     "name": "Eruera Paora",
@@ -19954,7 +19954,7 @@
     "note": "compiled list 1963, no. 171"
    }
   ],
-  "notes": "Attached to the chat 6 Oct 2026 (the Drive copy is 11 MB, over the connector limit). Answers D009: the Rihipeti Arama of Te Kohanga No. 1 succeeded in 1896 to HAMIORA (Rungaiterangi), not to a Himiona, and died 17 Dec 1922 — so she is not Erihapeti Arama née Wiremu Tangata (1880–1960). No Himiona, Tangata or Renata appears on Te Kohanga No. 1 at any date. The \"Rihipeti Arama 24.405\" on the 1965 Te Kohanga list is absent from the 1963 Te Kohanga 1 list, so it derives from another parent block of the 1965 title (Te Kohanga 2?), not from No. 1. Pages 1–41 read in full for the whānau questions; the 171-owner 1963 list is entered for nos 1–42 and selected others. D015 contradicted 17 Oct 2026 — Rihipeti Arama (d. 1922) is not Raiha Taniora (d. 1897)."
+  "notes": "Attached to the chat 6 Oct 2026 (the Drive copy is 11 MB, over the connector limit). Answers D009: the Rihipeti Arama of Te Kohanga No. 1 succeeded in 1896 to HAMIORA (Rungaiterangi), not to a Himiona, and died 17 Dec 1922 — so she is not Erihapeti Arama née Wiremu Tangata (1880–1960). No Himiona, Tangata or Renata appears on Te Kohanga No. 1 at any date. The \"Rihipeti Arama 24.405\" on the 1965 Te Kohanga list is absent from the 1963 Te Kohanga 1 list, so it derives from another parent block of the 1965 title (Te Kohanga 2?), not from No. 1. Pages 1–41 read in full for the whānau questions; the 171-owner 1963 list is entered for nos 1–42 and selected others. D015 contradicted 17 Oct 2026 — Rihipeti Arama (d. 1922) is not Raiha Taniora (d. 1897). 26 Nov 2026: Ged supplied the minutes N 17/54 (1896 succession to Hamiora) and N 59/4 (1925 probate of Rihipeti Arama's will) — Rihipeti Arama was the wife of Arama Hohepa, died childless 17 Dec 1922 and left her interests by will to Eruera Paora. D009 and D015 resolved: she is neither Peti (T004) nor Raiha Taniora (T013)."
  },
  {
   "document_id": "PW-1391494",
